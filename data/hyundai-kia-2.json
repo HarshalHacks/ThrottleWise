@@ -1,0 +1,1173 @@
+{
+  "cars": [
+    {
+      "id": "hyundai-alcazar",
+      "brand": "Hyundai",
+      "model": "Alcazar",
+      "bodyType": "SUV",
+      "seats": 7,
+      "fuelTankL": 50,
+      "priceNote": "CarWale New Delhi, Oct 2026 (rounded to Rs 1,000 except Executive petrol)",
+      "engines": {
+        "p15t": {
+          "type": "1.5 Turbo GDi petrol",
+          "cylinders": 4,
+          "displacementCc": 1482,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 158,
+          "maxPowerRpm": 5500,
+          "maxTorqueNm": 253,
+          "maxTorqueRpm": "1500-3500"
+        },
+        "d15": {
+          "type": "1.5 U2 CRDi diesel",
+          "cylinders": 4,
+          "displacementCc": 1493,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 114,
+          "maxPowerRpm": 4000,
+          "maxTorqueNm": 250,
+          "maxTorqueRpm": "1500-2750"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Executive",
+          "wheels": "17-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESC and hill-start assist",
+            "Quad-beam LED headlamps",
+            "Dual-zone automatic climate control",
+            "Rear camera and rear parking sensors",
+            "Cruise control",
+            "Smart key with remote engine start",
+            "2nd and 3rd row AC vents"
+          ]
+        },
+        {
+          "trim": "Prestige",
+          "wheels": "17-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "10.25-inch touchscreen with navigation",
+            "Wireless Android Auto and Apple CarPlay (via adapter)",
+            "Bluelink connected car tech",
+            "Front wireless charger",
+            "Panoramic sunroof",
+            "Auto-dimming IRVM",
+            "Shark fin antenna"
+          ]
+        },
+        {
+          "trim": "Corporate",
+          "wheels": "17-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "Diesel-only trim with Prestige-level equipment",
+            "Panoramic sunroof"
+          ]
+        },
+        {
+          "trim": "Platinum",
+          "wheels": "18-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "Level 2 ADAS",
+            "360-degree camera and blind-spot view monitor",
+            "Bose 8-speaker sound system",
+            "10.25-inch digital driver display",
+            "Leatherette seats",
+            "8-way power driver seat",
+            "Front parking sensors",
+            "2nd row wireless charger"
+          ]
+        },
+        {
+          "trim": "Signature",
+          "wheels": "18-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "Ventilated front seats",
+            "Power front passenger seat and driver memory",
+            "Digital key",
+            "Built-in dashcam",
+            "Smart cruise control with stop-and-go",
+            "Puddle lamps"
+          ]
+        },
+        {
+          "trim": "Signature Knight",
+          "wheels": "18-inch black alloy",
+          "airbags": 6,
+          "features": [
+            "Blacked-out exterior with Knight badging",
+            "Red brake calipers",
+            "All-black interior with brass inserts",
+            "Metal pedals"
+          ]
+        },
+        {
+          "trim": "Lounge Edition",
+          "wheels": "18-inch black alloy",
+          "airbags": 6,
+          "features": [
+            "5-seat lounge layout (no third row)",
+            "11.6-inch rear-seat entertainment screen",
+            "Grey and black leatherette upholstery",
+            "Panoramic sunroof"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Executive",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1450700,
+          "mileage": "17.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Executive",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1550000,
+          "mileage": "20.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Prestige",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1676000,
+          "mileage": "17.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Prestige",
+          "power": "1.5 Turbo DCT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Automatic (DCT), 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1803000,
+          "mileage": "18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7-speed dual-clutch automatic",
+            "Paddle shifters",
+            "Drive and traction modes",
+            "Electric parking brake with auto hold"
+          ]
+        },
+        {
+          "trim": "Corporate",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1739000,
+          "mileage": "20.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Corporate",
+          "power": "1.5 Diesel AT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1876000,
+          "mileage": "18.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters",
+            "Drive and traction modes",
+            "Electric parking brake with auto hold"
+          ]
+        },
+        {
+          "trim": "Platinum",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1896000,
+          "mileage": "17.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Platinum",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1896000,
+          "mileage": "20.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Signature",
+          "power": "1.5 Turbo DCT 7S",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Automatic (DCT), 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2091000,
+          "mileage": "18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Signature",
+          "power": "1.5 Turbo DCT 7S DT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Automatic (DCT), 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2106000,
+          "mileage": "18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Dual-tone paint"
+          ]
+        },
+        {
+          "trim": "Signature",
+          "power": "1.5 Turbo DCT 6S",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Automatic (DCT), 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2110000,
+          "mileage": "18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-seat layout with ventilated 2nd-row captain seats"
+          ]
+        },
+        {
+          "trim": "Signature",
+          "power": "1.5 Turbo DCT 6S DT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Automatic (DCT), 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2125000,
+          "mileage": "18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-seat layout with ventilated 2nd-row captain seats",
+            "Dual-tone paint"
+          ]
+        },
+        {
+          "trim": "Signature",
+          "power": "1.5 Diesel AT 7S",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2091000,
+          "mileage": "18.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel with 6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Signature",
+          "power": "1.5 Diesel AT 7S DT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2106000,
+          "mileage": "18.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel with 6-speed torque-converter automatic",
+            "Dual-tone paint"
+          ]
+        },
+        {
+          "trim": "Signature",
+          "power": "1.5 Diesel AT 6S",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2110000,
+          "mileage": "18.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel with 6-speed torque-converter automatic",
+            "6-seat layout with ventilated 2nd-row captain seats"
+          ]
+        },
+        {
+          "trim": "Signature",
+          "power": "1.5 Diesel AT 6S DT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2125000,
+          "mileage": "18.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel with 6-speed torque-converter automatic",
+            "6-seat layout with ventilated 2nd-row captain seats",
+            "Dual-tone paint"
+          ]
+        },
+        {
+          "trim": "Signature Knight",
+          "power": "1.5 Turbo DCT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Automatic (DCT), 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2105000,
+          "mileage": "18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Signature Knight",
+          "power": "1.5 Diesel AT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2105000,
+          "mileage": "18.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel with 6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Lounge Edition",
+          "power": "1.5 Diesel AT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2181000,
+          "mileage": "18.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Lounge Edition",
+          "power": "1.5 Diesel AT DT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2196000,
+          "mileage": "18.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Dual-tone paint"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2021 Hyundai Alcazar 1.5 Prestige (India) front view.png",
+          "license": "CC BY 3.0",
+          "artist": "AMAN AUTOMOBILES",
+          "note": "Earlier look of the current generation",
+          "local": "photos/hyundai-alcazar-front.jpg"
+        },
+        "rear": {
+          "file": "File:2021 Hyundai Alcazar 2.0 Signature (India) rear view.png",
+          "license": "CC BY 3.0",
+          "artist": "Hindi DriveSpark",
+          "note": "Earlier look of the current generation",
+          "local": "photos/hyundai-alcazar-rear.jpg"
+        }
+      },
+      "photoNotes": "No photo of the current (2024 facelift) Alcazar on Commons. Closest candidates 'File:2021 Hyundai Alcazar 2.0 Signature (India) front view.png' and its rear view rejected: pre-facelift design. The facelift is India-only, so there is no other-market substitute.",
+      "sources": [
+        "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/alcazar.pdf",
+        "https://www.carwale.com/hyundai-cars/alcazar/price-in-delhi/",
+        "https://www.cardekho.com/hyundai/alcazar/price-in-new-delhi",
+        "https://www.rushlane.com/hyundai-alcazar-facelift-variant-wise-prices-mileage-figures-revealed-12505901.html"
+      ],
+      "notes": "Current version is the 2024 facelift; trim/powertrain plan from Hyundai's Sep-Oct 2026 brochure (Lounge Edition 5-seat diesel AT added Sep 2026). Seats: 7 standard, 6 on Signature 6S, 5 on Lounge. Prices from CarWale; CarDekho lists most trims about Rs 5,000 higher (e.g. Prestige MT Rs 16,81,300) and also lists stale combos (Prestige diesel, Platinum DCT/AT) not in the brochure, which were ignored. Mileage is ARAI from launch coverage (Rushlane, CarToQ); Hyundai's brochure does not print it. Corporate and Lounge feature lists are short summaries of the brochure table."
+    },
+    {
+      "id": "hyundai-aura",
+      "brand": "Hyundai",
+      "model": "Aura",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": 37,
+      "priceNote": "CarWale New Delhi, Oct 2026 (rounded to Rs 1,000 except E)",
+      "engines": {
+        "p12": {
+          "type": "1.2 Kappa petrol",
+          "cylinders": 4,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 82,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 113.8,
+          "maxTorqueRpm": 4000
+        },
+        "c12": {
+          "type": "1.2 Kappa bi-fuel CNG",
+          "cylinders": 4,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 68,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 95.2,
+          "maxTorqueRpm": 4000
+        }
+      },
+      "trims": [
+        {
+          "trim": "E",
+          "wheels": "14-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ABS with EBD",
+            "Rear parking sensors",
+            "LED tail lamps",
+            "Front power windows",
+            "Manual AC",
+            "Driver seat height adjust"
+          ]
+        },
+        {
+          "trim": "Corporate",
+          "wheels": "15-inch dual-tone styled steel",
+          "airbags": 6,
+          "features": [
+            "Rear AC vent",
+            "Rear power windows",
+            "Electric mirrors",
+            "Central locking and keyless entry",
+            "Fast USB-C charger"
+          ]
+        },
+        {
+          "trim": "S",
+          "wheels": "15-inch dual-tone styled steel",
+          "airbags": 6,
+          "features": [
+            "LED DRLs",
+            "Rear centre armrest",
+            "Tyre pressure monitor",
+            "Bluetooth audio with steering controls",
+            "Rear defogger"
+          ]
+        },
+        {
+          "trim": "SX",
+          "wheels": "15-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "8-inch touchscreen with Android Auto and Apple CarPlay",
+            "Automatic climate control",
+            "Rear camera",
+            "Projector headlamps",
+            "ESC and hill-start assist",
+            "Push-button start",
+            "Cruise control (petrol)",
+            "Electric folding mirrors"
+          ]
+        },
+        {
+          "trim": "SX (O)",
+          "wheels": "15-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "Wireless Android Auto and Apple CarPlay (via adapter)",
+            "Wireless phone charger",
+            "Leather-wrapped steering and gear knob",
+            "ISOFIX",
+            "Automatic headlamps"
+          ]
+        },
+        {
+          "trim": "SX Plus",
+          "wheels": "15-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "AMT gearbox",
+            "Wireless phone charger"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "E",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 599990,
+          "mileage": "17 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Corporate",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 684000,
+          "mileage": "17 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Corporate",
+          "power": "CNG MT",
+          "engine": "c12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 791000,
+          "mileage": "22 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "S",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 691000,
+          "mileage": "17 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "S",
+          "power": "CNG MT",
+          "engine": "c12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 782000,
+          "mileage": "22 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "SX",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 770000,
+          "mileage": "17 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "SX",
+          "power": "CNG MT",
+          "engine": "c12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 860000,
+          "mileage": "22 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "SX (O)",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 816000,
+          "mileage": "17 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "SX Plus",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 835000,
+          "mileage": "17 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2020 Hyundai Aura Front.png",
+          "license": "CC BY-SA 4.0",
+          "artist": "Auto Zuto",
+          "note": "Earlier look of the current generation",
+          "local": "photos/hyundai-aura-front.jpg"
+        },
+        "rear": {
+          "file": "File:2020 Hyundai Aura Rear.png",
+          "license": "CC BY-SA 4.0",
+          "artist": "Auto Zuto",
+          "note": "Earlier look of the current generation",
+          "local": "photos/hyundai-aura-rear.jpg"
+        }
+      },
+      "photoNotes": "Only 'File:2020 Hyundai Aura Front.png' and 'File:2020 Hyundai Aura Rear.png' are on Commons; rejected as pre-facelift (the 2023 facelift has a new grille and DRLs). No current-model photo found.",
+      "sources": [
+        "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/aura.pdf",
+        "https://www.carwale.com/hyundai-cars/aura/price-in-delhi/",
+        "https://www.cardekho.com/hyundai/aura/price-in-new-delhi",
+        "https://www.team-bhp.com/new-cars/hyundai/aura/",
+        "https://www.autocarindia.com/cars/hyundai/aura/mileage"
+      ],
+      "notes": "Current version is the 2023 facelift. Line-up and prices from CarWale (matches Team-BHP's Rs 6.00-8.60 lakh range); CarDekho shows prices about Rs 7,000 higher plus E CNG and S AMT variants not on CarWale, treated as stale. Brochure (June 2025) lists trims E/S/SX/SX(O) with SX+ AMT; Corporate trim content is approximate (brochure gives only its wheels). CNG mileage conflict: 22 km/kg (CarDekho, Team-BHP) vs 28.4 km/kg (Autocar India); 22 used. Petrol 17 kmpl per Autocar India for MT and AMT."
+    },
+    {
+      "id": "kia-syros",
+      "brand": "Kia",
+      "model": "Syros",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 45,
+      "priceNote": "CarDekho New Delhi, Oct 2026 (matches CarWale)",
+      "engines": {
+        "p10t": {
+          "type": "1.0 Turbo GDi petrol",
+          "cylinders": 3,
+          "displacementCc": 998,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 118,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 172,
+          "maxTorqueRpm": "1500-4000"
+        },
+        "d15": {
+          "type": "1.5 CRDi VGT diesel",
+          "cylinders": 4,
+          "displacementCc": 1493,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 114,
+          "maxPowerRpm": 4000,
+          "maxTorqueNm": 250,
+          "maxTorqueRpm": "1500-2750"
+        }
+      },
+      "trims": [
+        {
+          "trim": "HTE",
+          "wheels": "15-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESC, hill-start assist and ISOFIX",
+            "12-inch LCD cluster",
+            "10.25-inch touchscreen with wireless Android Auto and Apple CarPlay",
+            "LED fog lamps",
+            "Rear AC vents",
+            "Rear parking sensors",
+            "Electric mirrors"
+          ]
+        },
+        {
+          "trim": "HTE (O)",
+          "wheels": null,
+          "airbags": 6,
+          "features": []
+        },
+        {
+          "trim": "HTK EX",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "LED headlamps",
+            "Starmap LED DRLs and tail lamps",
+            "Roof rails"
+          ]
+        },
+        {
+          "trim": "HTK Plus",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Dual-pane panoramic sunroof",
+            "Cloud Blue and grey interior",
+            "60:40 split rear seats with slide and recline",
+            "Cruise control",
+            "Rear defogger",
+            "LED reading lamps"
+          ]
+        },
+        {
+          "trim": "HTK Plus (O)",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Leatherette seats",
+            "Leatherette-wrapped steering and gear knob",
+            "Auto headlamps",
+            "Passenger vanity mirror"
+          ]
+        },
+        {
+          "trim": "HTX",
+          "wheels": "17-inch crystal-cut alloy",
+          "airbags": 6,
+          "features": [
+            "Neon brake calipers",
+            "Ventilated front seats",
+            "Rear ventilated seats",
+            "Wireless charger",
+            "4-way power driver seat",
+            "Auto-dimming IRVM",
+            "Rear disc brakes",
+            "Smart dashcam"
+          ]
+        },
+        {
+          "trim": "HTX (O)",
+          "wheels": "17-inch crystal-cut alloy",
+          "airbags": 6,
+          "features": []
+        }
+      ],
+      "variants": [
+        {
+          "trim": "HTE",
+          "power": "1.0 Turbo MT",
+          "engine": "p10t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 841900,
+          "mileage": "18.2 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HTE (O)",
+          "power": "1.0 Turbo MT",
+          "engine": "p10t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 921900,
+          "mileage": "18.2 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HTE (O)",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 999900,
+          "mileage": "20.75 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "HTK EX",
+          "power": "1.0 Turbo MT",
+          "engine": "p10t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 981900,
+          "mileage": "18.2 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HTK EX",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1061900,
+          "mileage": "20.75 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "HTK Plus",
+          "power": "1.0 Turbo MT",
+          "engine": "p10t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1075900,
+          "mileage": "18.2 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HTK Plus",
+          "power": "1.0 Turbo DCT",
+          "engine": "p10t",
+          "fuel": "Petrol",
+          "transmission": "Automatic (DCT), 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1195900,
+          "mileage": "17.68 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7-speed dual-clutch automatic",
+            "Paddle shifters",
+            "Drive and traction modes",
+            "Electric parking brake with auto hold",
+            "Rear disc brakes"
+          ]
+        },
+        {
+          "trim": "HTK Plus",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1155900,
+          "mileage": "20.75 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "HTK Plus",
+          "power": "1.5 Diesel AT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1275900,
+          "mileage": "17.65 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters",
+            "Drive and traction modes",
+            "Electric parking brake with auto hold",
+            "Rear disc brakes"
+          ]
+        },
+        {
+          "trim": "HTK Plus (O)",
+          "power": "1.0 Turbo MT",
+          "engine": "p10t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1201900,
+          "mileage": "18.2 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HTK Plus (O)",
+          "power": "1.0 Turbo DCT",
+          "engine": "p10t",
+          "fuel": "Petrol",
+          "transmission": "Automatic (DCT), 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1321900,
+          "mileage": "17.68 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7-speed dual-clutch automatic",
+            "Paddle shifters",
+            "Drive and traction modes",
+            "Electric parking brake with auto hold",
+            "Rear disc brakes"
+          ]
+        },
+        {
+          "trim": "HTK Plus (O)",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1281900,
+          "mileage": "20.75 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "HTK Plus (O)",
+          "power": "1.5 Diesel AT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1401900,
+          "mileage": "17.65 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters",
+            "Drive and traction modes",
+            "Electric parking brake with auto hold",
+            "Rear disc brakes"
+          ]
+        },
+        {
+          "trim": "HTX",
+          "power": "1.0 Turbo DCT",
+          "engine": "p10t",
+          "fuel": "Petrol",
+          "transmission": "Automatic (DCT), 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1401900,
+          "mileage": "17.68 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HTX",
+          "power": "1.5 Diesel AT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1481900,
+          "mileage": "17.65 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel with 6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "HTX (O)",
+          "power": "1.0 Turbo DCT",
+          "engine": "p10t",
+          "fuel": "Petrol",
+          "transmission": "Automatic (DCT), 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1499899,
+          "mileage": "17.68 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HTX (O)",
+          "power": "1.5 Diesel AT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1581900,
+          "mileage": "17.65 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel with 6-speed torque-converter automatic"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2025 Kia Syros 1.5 HTX+ (O) (India) front view 01.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "LuvsMG481",
+          "local": "photos/kia-syros-front.jpg"
+        },
+        "rear": {
+          "file": "File:2025 Kia Syros 1.5 HTX+ (O) (India) rear view.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "LuvsMG481",
+          "local": "photos/kia-syros-rear.jpg"
+        }
+      },
+      "photoNotes": "Indian-market photos, checked by eye: clean car, three-quarter (not straight-on) views. They show the 2025 car before the April 2026 update (new trims and wheels); body design looks the same, but the 2026 car itself is not pictured.",
+      "sources": [
+        "https://www.kia.com/content/dam/kia2/in/en/our-vehicles/syros/Syros_2026_Brochure_Mobile.pdf",
+        "https://www.cardekho.com/kia/syros/price-in-new-delhi",
+        "https://www.carwale.com/kia-cars/syros/price-in-delhi/",
+        "https://www.carwale.com/kia-cars/syros/mileage/",
+        "https://www.rushlane.com/kia-syros-mileage-revealed-compared-with-rival-sub-4m-suvs-12516897.html"
+      ],
+      "notes": "Current version is the 2026 update (April 2026) with trims HTE/HTE(O)/HTK EX/HTK+/HTK+(O)/HTX/HTX(O); per Autocar India it dropped ADAS and the 360 camera from the top trim. Trim plan, engines (88.3 kW, 85 kW) and fuel tank from Kia's 2026 brochure. Petrol cylinder count (3) is not printed in the brochure. Mileage figures are the Jan 2025 ARAI figures (engines carried over); no 2026 figure found. The brochure's trim-feature layout is jumbled in text form, so the HTE(O) and HTX(O) feature lists and mid-trim wheel sizes (15/16/17-inch) are left blank."
+    },
+    {
+      "id": "kia-carnival",
+      "brand": "Kia",
+      "model": "Carnival",
+      "bodyType": "MPV",
+      "seats": 7,
+      "fuelTankL": 72,
+      "priceNote": "CarDekho and CarWale New Delhi, Oct 2026",
+      "engines": {
+        "d22": {
+          "type": "2.2 Smartstream CRDi diesel",
+          "cylinders": 4,
+          "displacementCc": 2151,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 190,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 441,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Limousine Plus",
+          "wheels": "18-inch diamond-cut alloy",
+          "airbags": 8,
+          "features": [
+            "8 airbags and Level 2 ADAS",
+            "360-degree camera",
+            "Powered 2nd-row VIP seats with leg support, ventilation and heating",
+            "Dual sunroof",
+            "Power sliding doors and power tailgate",
+            "Twin 12.3-inch screens",
+            "12-speaker Bose sound system",
+            "Head-up display"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Limousine Plus",
+          "power": "2.2 Diesel AT",
+          "engine": "d22",
+          "fuel": "Diesel",
+          "transmission": "Automatic (torque converter), 8-speed",
+          "drivetrain": "FWD",
+          "priceInr": 5964900,
+          "mileage": "14.85 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2025 Kia Carnival GT-Line 2.2 front.jpg",
+          "license": "CC BY 3.0",
+          "artist": "The Drivers Hub",
+          "note": "Australia model, same design",
+          "local": "photos/kia-carnival-front.jpg"
+        },
+        "rear": {
+          "file": "File:2025 Kia Carnival GT-Line 2.2 rear.jpg",
+          "license": "CC BY 3.0",
+          "artist": "The Drivers Hub",
+          "note": "Australia model, same design",
+          "local": "photos/kia-carnival-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market photo of the current facelifted fourth-gen Carnival on Commons. Used an Australian-registered GT-Line with the same facelift design. Checked by eye: clean white car, three-quarter views, some street background.",
+      "sources": [
+        "https://www.kia.com/in/our-vehicles/carnival/specs.html",
+        "https://www.cardekho.com/kia/carnival/price-in-new-delhi",
+        "https://www.carwale.com/kia-cars/carnival/",
+        "https://www.cardekho.com/kia/carnival/specs"
+      ],
+      "notes": "Only one variant (Limousine Plus) is on sale. Kia India quotes 193 PS (190 bhp) and 45 kgf.m (about 441 Nm) without rpm. 14.85 kmpl ARAI per CarDekho and CarWale. CarWale lists a Carnival Hybrid as upcoming, not yet on sale. Hyundai Tucson was skipped: discontinued in India (delisted Nov 2025 per CarWale)."
+    }
+  ]
+}

@@ -1,0 +1,924 @@
+{
+  "cars": [
+    {
+      "id": "volvo-xc60",
+      "brand": "Volvo",
+      "model": "XC60",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 71,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "b5": {
+          "type": "2.0 B5 mild-hybrid petrol",
+          "cylinders": 4,
+          "displacementCc": 1969,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 247,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 360,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "B5 AWD",
+          "wheels": "19-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Air suspension",
+            "Panoramic sunroof",
+            "360-degree camera",
+            "Ventilated front seats",
+            "Pilot Assist adaptive cruise",
+            "Head-up display",
+            "Bowers & Wilkins 15-speaker audio",
+            "Hands-free tailgate"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "B5 AWD",
+          "power": "2.0 Petrol AT AWD",
+          "engine": "b5",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 6890000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Volvo XC60 II 2025 facelift 001.jpg",
+          "license": "CC0",
+          "artist": "JustAnotherCarDesigner",
+          "note": "China model, same design",
+          "local": "photos/volvo-xc60-front.jpg"
+        },
+        "rear": {
+          "file": "File:2026 Volvo XC60 (SPA) DSC 2676.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Alexander Migl",
+          "note": "Germany model, same design",
+          "local": "photos/volvo-xc60-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market photo on Commons. Both show the 2025 facelift: front is China-market (local plate), rear is a German-market B5 at a dealer lot with a paper sheet visible inside the rear window.",
+      "sources": [
+        "https://www.cardekho.com/volvo/xc60/variants.htm",
+        "https://www.cardekho.com/volvo/xc60/specs"
+      ],
+      "notes": "Sold in one variant, B5 AWD. CarDekho gives no rpm figures and no ARAI mileage, so those are null. Volvo India's site was not checked."
+    },
+    {
+      "id": "volvo-xc90",
+      "brand": "Volvo",
+      "model": "XC90",
+      "bodyType": "SUV",
+      "seats": 7,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "b5": {
+          "type": "2.0 B5 mild-hybrid petrol",
+          "cylinders": 4,
+          "displacementCc": 1969,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 247,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 360,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "B5 AWD",
+          "wheels": null,
+          "airbags": 7,
+          "features": [
+            "Air suspension",
+            "Panoramic sunroof",
+            "11.2-inch touchscreen",
+            "Apple CarPlay and Android Auto",
+            "Ventilated Nappa leather seats",
+            "4-zone climate control",
+            "Head-up display",
+            "360-degree camera"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "B5 AWD",
+          "power": "2.0 Petrol AT AWD",
+          "engine": "b5",
+          "fuel": "Petrol",
+          "transmission": "Automatic",
+          "drivetrain": "AWD",
+          "priceInr": 9780000,
+          "mileage": "12.35 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Volvo XC90 II FL2 T8 AWD Recharge PHEV Crystal White Pearl 01.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Ethan Llamas",
+          "note": "Asian-market (non-Indian) T8 model, same design",
+          "local": "photos/volvo-xc90-front.jpg"
+        },
+        "rear": {
+          "file": "File:Volvo XC90 II FL2 T8 AWD Recharge PHEV Crystal White Pearl 02.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Ethan Llamas",
+          "note": "Asian-market (non-Indian) T8 model, same design",
+          "local": "photos/volvo-xc90-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market photo on Commons. These show the current (second-facelift) XC90 in a mall display. The car is a T8 plug-in hybrid but looks the same as the Indian B5.",
+      "sources": [
+        "https://www.cardekho.com/volvo/xc90/variants.htm",
+        "https://www.cardekho.com/volvo/xc90/specs"
+      ],
+      "notes": "Sold in one variant, B5 AWD (mild-hybrid petrol). CarDekho does not state the number of gears, the rpm figures, the fuel tank size or the wheel size."
+    },
+    {
+      "id": "landrover-defender",
+      "brand": "Land Rover",
+      "model": "Defender",
+      "bodyType": "SUV",
+      "seats": null,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026 (cross-checked with CarWale)",
+      "engines": {
+        "p300": {
+          "type": "2.0 P300 petrol",
+          "cylinders": 4,
+          "displacementCc": 1997,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 296,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 400,
+          "maxTorqueRpm": null
+        },
+        "d350": {
+          "type": "3.0 D350 mild-hybrid diesel",
+          "cylinders": 6,
+          "displacementCc": 2997,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 345,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 700,
+          "maxTorqueRpm": null
+        },
+        "v8": {
+          "type": "5.0 supercharged V8 petrol",
+          "cylinders": 8,
+          "displacementCc": 5000,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 420,
+          "maxPowerRpm": "5500-6600",
+          "maxTorqueNm": 550,
+          "maxTorqueRpm": "1800-5000"
+        },
+        "v8b": {
+          "type": "5.0 V8 petrol (output unconfirmed)",
+          "cylinders": 8,
+          "displacementCc": 5000,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": null,
+          "maxPowerRpm": null,
+          "maxTorqueNm": null,
+          "maxTorqueRpm": null
+        },
+        "octa": {
+          "type": "4.4 twin-turbo V8 mild-hybrid petrol",
+          "cylinders": 8,
+          "displacementCc": 4395,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 626,
+          "maxPowerRpm": "5855-7000",
+          "maxTorqueNm": 750,
+          "maxTorqueRpm": "1800-5855"
+        }
+      },
+      "trims": [
+        {
+          "trim": "X-Dynamic HSE",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Air suspension",
+            "Panoramic sunroof",
+            "13.1-inch touchscreen",
+            "Meridian sound system",
+            "Ventilated and heated front seats",
+            "360-degree camera",
+            "Adaptive cruise control",
+            "Blind spot monitoring"
+          ]
+        },
+        {
+          "trim": "X",
+          "wheels": null,
+          "airbags": 6,
+          "features": []
+        },
+        {
+          "trim": "V8",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "5.0 V8 petrol as standard"
+          ]
+        },
+        {
+          "trim": "Octa",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "4.4 twin-turbo V8 mild-hybrid (626 bhp)"
+          ]
+        },
+        {
+          "trim": "Octa Edition One",
+          "wheels": null,
+          "airbags": 6,
+          "features": []
+        }
+      ],
+      "variants": [
+        {
+          "trim": "X-Dynamic HSE",
+          "power": "110 2.0 Petrol AT",
+          "engine": "p300",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 10700000,
+          "mileage": "11.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "X-Dynamic HSE",
+          "power": "110 3.0 Diesel AT",
+          "engine": "d350",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 13600000,
+          "mileage": "11.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "3.0 six-cylinder mild-hybrid diesel"
+          ]
+        },
+        {
+          "trim": "X-Dynamic HSE",
+          "power": "130 3.0 Diesel AT",
+          "engine": "d350",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 14600000,
+          "mileage": "11.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "3.0 six-cylinder mild-hybrid diesel",
+            "Long 130 body with 8 seats"
+          ]
+        },
+        {
+          "trim": "X-Dynamic HSE",
+          "power": "110 V8 Petrol AT",
+          "engine": "v8",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 14700000,
+          "mileage": "6.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5.0 V8 petrol"
+          ]
+        },
+        {
+          "trim": "X-Dynamic HSE",
+          "power": "130 V8 Petrol AT",
+          "engine": "v8b",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 16000000,
+          "mileage": "6.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5.0 V8 petrol",
+            "Long 130 body with 8 seats"
+          ]
+        },
+        {
+          "trim": "X",
+          "power": "110 3.0 Diesel AT",
+          "engine": "d350",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 14400000,
+          "mileage": "11.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "X",
+          "power": "90 V8 Petrol AT",
+          "engine": "v8b",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 14300000,
+          "mileage": "6.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5.0 V8 petrol",
+            "Short 90 three-door body"
+          ]
+        },
+        {
+          "trim": "X",
+          "power": "130 3.0 Diesel AT",
+          "engine": "d350",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 15600000,
+          "mileage": "11.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Long 130 body with 8 seats"
+          ]
+        },
+        {
+          "trim": "X",
+          "power": "110 V8 Petrol AT",
+          "engine": "v8b",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 15700000,
+          "mileage": "6.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5.0 V8 petrol"
+          ]
+        },
+        {
+          "trim": "X",
+          "power": "130 V8 Petrol AT",
+          "engine": "v8b",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 17000000,
+          "mileage": "6.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5.0 V8 petrol",
+            "Long 130 body with 8 seats"
+          ]
+        },
+        {
+          "trim": "V8",
+          "power": "90 V8 Petrol AT",
+          "engine": "v8",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 16300000,
+          "mileage": "6.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "V8",
+          "power": "130 V8 Petrol AT",
+          "engine": "v8b",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 18600000,
+          "mileage": "6.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Long 130 body with 8 seats"
+          ]
+        },
+        {
+          "trim": "Octa",
+          "power": "110 Octa 4.4 AT",
+          "engine": "octa",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 24200000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Octa Edition One",
+          "power": "110 Octa 4.4 AT",
+          "engine": "octa",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 26200000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2024 Land Rover Defender 110 XS Edition D250 - 2996cc 3.0 (250PS) Diesel - Silicon Silver - 03-2024, Front.jpg",
+          "license": "CC BY 4.0",
+          "artist": "Harvey Bold",
+          "note": "UK model, same design",
+          "local": "photos/landrover-defender-front.jpg"
+        },
+        "rear": {
+          "file": "File:2024 Land Rover Defender 110 XS Edition D250 - 2996cc 3.0 (250PS) Diesel - Silicon Silver - 03-2024, Rear.jpg",
+          "license": "CC BY 4.0",
+          "artist": "Harvey Bold",
+          "note": "UK model, same design",
+          "local": "photos/landrover-defender-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market photo on Commons. These show a UK 2024 Defender 110 (L663), the current design, in a car park.",
+      "sources": [
+        "https://www.cardekho.com/land-rover/defender/variants.htm",
+        "https://www.carwale.com/land-rover-cars/defender/",
+        "https://www.cardekho.com/land-rover/defender/specs",
+        "https://www.cardekho.com/overview/Land_Rover_Defender/Land_Rover_Defender_5.0_L_V8_Petrol_90.htm"
+      ],
+      "notes": "The variant price list matches on CarDekho and CarWale. CarWale also lists 110 Trophy Edition diesel variants at Rs 1.36 Cr, which are left out here as special editions. Diesel output conflicts: CarWale gives D350 at 345 bhp / 700 Nm, CarDekho gives 296 bhp / 650 Nm; CarWale's figures are used. V8 output: 420 bhp / 550 Nm is confirmed by CarDekho for the 90 V8 and 110 X-Dynamic HSE only. CarWale says V8 output varies by variant from 418 to 518 bhp, so the other V8 variants use engine 'v8b' with nulls. The Octa top variant is called 'Edition One' on CarDekho and 'Octa Black' on CarWale (both Rs 2.62 Cr). Seats: 5 for 90/110, 8 for 130 (CarWale). There is no published mileage for the Octa. Trim feature splits were not confirmed."
+    },
+    {
+      "id": "landrover-evoque",
+      "brand": "Land Rover",
+      "model": "Range Rover Evoque",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026 (CarWale matches)",
+      "engines": {
+        "p250": {
+          "type": "2.0 P250 mild-hybrid petrol",
+          "cylinders": 4,
+          "displacementCc": 1997,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 247,
+          "maxPowerRpm": 5500,
+          "maxTorqueNm": 365,
+          "maxTorqueRpm": 1300
+        },
+        "d200": {
+          "type": "2.0 D200 mild-hybrid diesel",
+          "cylinders": 4,
+          "displacementCc": 1997,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 201,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 430,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Autobiography",
+          "wheels": null,
+          "airbags": null,
+          "features": [
+            "11.4-inch touchscreen",
+            "Apple CarPlay and Android Auto",
+            "Panoramic sunroof",
+            "360-degree camera",
+            "Ventilated front seats",
+            "Wireless phone charging",
+            "ADAS with adaptive cruise control",
+            "14-speaker audio"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Autobiography",
+          "power": "2.0 Petrol AT AWD",
+          "engine": "p250",
+          "fuel": "Petrol",
+          "transmission": "Automatic",
+          "drivetrain": "AWD",
+          "priceInr": 6486000,
+          "mileage": "12.82 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Autobiography",
+          "power": "2.0 Diesel AT AWD",
+          "engine": "d200",
+          "fuel": "Diesel",
+          "transmission": "Automatic",
+          "drivetrain": "AWD",
+          "priceInr": 6486000,
+          "mileage": "10.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 mild-hybrid diesel"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2023 Range Rover Evoque (L551) Auto Zuerich 2023 1X7A1479.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Alexander-93",
+          "note": "Swiss model, same design",
+          "local": "photos/landrover-evoque-front.jpg"
+        },
+        "rear": {
+          "file": "File:2023 Range Rover Evoque (L551) Auto Zuerich 2023 1X7A1476.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Alexander-93",
+          "note": "Swiss model, same design",
+          "local": "photos/landrover-evoque-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market photo on Commons. These show the 2023 facelifted Evoque at Auto Zuerich, with a show placard on the number plate area and other cars in the hall.",
+      "sources": [
+        "https://www.cardekho.com/land-rover/range-rover-evoque/variants.htm",
+        "https://www.cardekho.com/land-rover/range-rover-evoque/specs",
+        "https://www.carwale.com/land-rover-cars/range-rover-evoque/"
+      ],
+      "notes": "Sold in one trim, Autobiography, with petrol or diesel at the same price. Diesel output is from CarWale and has no rpm figures. Airbags conflict: CarDekho says 7, CarWale says 6 (FAQ says 7), so null. The CarDekho mileage figures (petrol 12.82, diesel 10.6) look odd but are as listed. The drivetrain is AWD per CarDekho. The number of gears was not confirmed."
+    },
+    {
+      "id": "landrover-velar",
+      "brand": "Land Rover",
+      "model": "Range Rover Velar",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 82,
+      "priceNote": "CarDekho New Delhi, Oct 2026 (CarWale matches)",
+      "engines": {
+        "p250": {
+          "type": "2.0 P250 petrol",
+          "cylinders": 4,
+          "displacementCc": 1997,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 247,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 365,
+          "maxTorqueRpm": null
+        },
+        "d200": {
+          "type": "2.0 D200 mild-hybrid diesel",
+          "cylinders": 4,
+          "displacementCc": 1997,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 201,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 430,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Autobiography",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "11.4-inch touchscreen",
+            "360-degree camera",
+            "Head-up display",
+            "14-way memory front seats",
+            "Ventilated front seats",
+            "40:20:40 split rear seat",
+            "LED headlights",
+            "Drive modes"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Autobiography",
+          "power": "2.0 Petrol AT AWD",
+          "engine": "p250",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 8750000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Autobiography",
+          "power": "2.0 Diesel AT AWD",
+          "engine": "d200",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 8750000,
+          "mileage": "15.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 mild-hybrid diesel"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Land Rover Range Rover Velar (Facelift) 1X7A5817.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Alexander Migl",
+          "note": "European model, same design",
+          "local": "photos/landrover-velar-front.jpg"
+        },
+        "rear": {
+          "file": "File:Land Rover Range Rover Velar (Facelift) 1X7A5814.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Alexander Migl",
+          "note": "European model, same design",
+          "local": "photos/landrover-velar-rear.jpg"
+        }
+      },
+      "photoNotes": "No current-facelift (2023 onwards) Velar with a clear front or rear view on Commons. Rejected: 'Land Rover Range Rover Velar (Facelift) 1X7A5814/5817' and 'Range Rover Velar P250 SE IMG 8831/8835' (pre-facelift headlights and grille), 'Velar D300 HSE L560 Santorini Black' (pre-facelift, dirty car), and 'Range Rover Velar D300 (2024)' (shot from above at an odd angle).",
+      "sources": [
+        "https://www.cardekho.com/land-rover/range-rover-velar/variants.htm",
+        "https://www.cardekho.com/land-rover/range-rover-velar/specs",
+        "https://www.carwale.com/land-rover-cars/range-rover-velar/"
+      ],
+      "notes": "Sold in one trim, Autobiography (CarWale also calls it HSE in places), petrol or diesel at the same price. Diesel output conflicts: CarDekho specs give 150 bhp / 430 Nm (an older figure), CarWale gives 201 bhp / 430 Nm; CarWale's is used. CarWale news gives a launch price of Rs 89.90 lakh against the listed Rs 87.50 lakh. CarDekho lists 15.8 kmpl for both fuels; it is kept for the diesel only, and the petrol figure is null as unconfirmed. Fuel tank (82 L) and airbags (6) are from CarDekho and CarWale."
+    },
+    {
+      "id": "lexus-es",
+      "brand": "Lexus",
+      "model": "ES",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "Autocar India / CarWale, Oct 2026 (launch prices, Jul 2026)",
+      "engines": {
+        "h25": {
+          "type": "2.5 strong hybrid petrol",
+          "cylinders": 4,
+          "displacementCc": 2487,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": null,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 235,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Exquisite",
+          "wheels": null,
+          "airbags": null,
+          "features": [
+            "14-inch touchscreen",
+            "12.3-inch digital instruments",
+            "Mark Levinson audio",
+            "Wireless Apple CarPlay and Android Auto",
+            "Heated and ventilated front seats",
+            "Head-up display",
+            "Adaptive cruise control",
+            "Surround-view cameras"
+          ]
+        },
+        {
+          "trim": "Luxury",
+          "wheels": null,
+          "airbags": null,
+          "features": []
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Exquisite",
+          "power": "350h Hybrid e-CVT",
+          "engine": "h25",
+          "fuel": "Hybrid",
+          "transmission": "Automatic, e-CVT",
+          "drivetrain": "FWD",
+          "priceInr": 6610000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Luxury",
+          "power": "350h Hybrid e-CVT",
+          "engine": "h25",
+          "fuel": "Hybrid",
+          "transmission": "Automatic, e-CVT",
+          "drivetrain": "FWD",
+          "priceInr": 7180000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2026 Lexus ES350h Grand Luxury (2).jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Chanokchon",
+          "note": "Thai model, same design",
+          "local": "photos/lexus-es-front.jpg"
+        },
+        "rear": {
+          "file": "File:Lexus ES 350h AXZH21 Executive Sonic Titanium 02.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Ethan Llamas",
+          "note": "Asian-market (non-Indian) model, same design",
+          "local": "photos/lexus-es-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market photo on Commons. Both show the new-generation ES 350h (XZ20) in showroom displays. The rear photo is a three-quarter view with people in the background.",
+      "sources": [
+        "https://www.autocarindia.com/car-news-amp/new-lexus-es-350h-launched-at-rs-6610-lakh-440224",
+        "https://www.carwale.com/lexus-cars/es-350h/",
+        "https://www.cardekho.com/lexus/es/variants.htm"
+      ],
+      "notes": "This is the new generation launched in India in July 2026 as the ES 350h. The previous ES 300h (discontinued in March 2026) and the ES 500e EV are excluded. The engine alone makes 186 hp / 235 Nm, with 244 hp combined (Autocar India); 186 hp is likely PS, so bhp is left null. Displacement: Autocar gives 2487 cc, CarWale 2494 cc. Airbags conflict: Autocar says 10, CarWale says 8, so null. Mileage is not yet published. The feature split between Exquisite and Luxury was not found."
+    },
+    {
+      "id": "lexus-nx",
+      "brand": "Lexus",
+      "model": "NX",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 55,
+      "priceNote": "CarDekho New Delhi, Oct 2026 (CarWale matches)",
+      "engines": {
+        "h25": {
+          "type": "2.5 strong hybrid petrol",
+          "cylinders": 4,
+          "displacementCc": 2487,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 187.74,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 239,
+          "maxTorqueRpm": "4300-4500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Exquisite",
+          "wheels": null,
+          "airbags": 8,
+          "features": [
+            "14-inch touchscreen with navigation",
+            "Panoramic sunroof",
+            "Head-up display",
+            "Ventilated front seats",
+            "Wireless phone charging",
+            "Blind spot monitor",
+            "Front and rear parking sensors",
+            "8 airbags"
+          ]
+        },
+        {
+          "trim": "Overtrail",
+          "wheels": null,
+          "airbags": 8,
+          "features": []
+        },
+        {
+          "trim": "Luxury",
+          "wheels": null,
+          "airbags": 8,
+          "features": [
+            "Mark Levinson 17-speaker audio"
+          ]
+        },
+        {
+          "trim": "F Sport",
+          "wheels": "20-inch alloy",
+          "airbags": 8,
+          "features": [
+            "Adaptive variable suspension"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Exquisite",
+          "power": "350h Hybrid e-CVT AWD",
+          "engine": "h25",
+          "fuel": "Hybrid",
+          "transmission": "Automatic, e-CVT",
+          "drivetrain": "AWD",
+          "priceInr": 6759000,
+          "mileage": "17.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Overtrail",
+          "power": "350h Hybrid e-CVT AWD",
+          "engine": "h25",
+          "fuel": "Hybrid",
+          "transmission": "Automatic, e-CVT",
+          "drivetrain": "AWD",
+          "priceInr": 7143000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Luxury",
+          "power": "350h Hybrid e-CVT AWD",
+          "engine": "h25",
+          "fuel": "Hybrid",
+          "transmission": "Automatic, e-CVT",
+          "drivetrain": "AWD",
+          "priceInr": 7233000,
+          "mileage": "17.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "F Sport",
+          "power": "350h Hybrid e-CVT AWD",
+          "engine": "h25",
+          "fuel": "Hybrid",
+          "transmission": "Automatic, e-CVT",
+          "drivetrain": "AWD",
+          "priceInr": 7450000,
+          "mileage": "17.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Lexus NX 350h AWD AAZH20 Sonic Chrome (1).jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Damian B Oh",
+          "note": "South Korean model, same design",
+          "local": "photos/lexus-nx-front.jpg"
+        },
+        "rear": {
+          "file": "File:Lexus NX 350h AWD AAZH20 Sonic Chrome (4).jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Damian B Oh",
+          "note": "South Korean model, same design",
+          "local": "photos/lexus-nx-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market photo on Commons. These show a current-generation NX 350h (AAZH20) parked on a street. Rejected the F Sport front/rear set from Japan because of a dealer sticker and banners.",
+      "sources": [
+        "https://www.cardekho.com/lexus/nx/variants.htm",
+        "https://www.cardekho.com/lexus/nx/specs",
+        "https://www.carwale.com/lexus-cars/nx/"
+      ],
+      "notes": "Engine figures are for the petrol engine only; the combined system output was not found. Mileage: CarWale gives 17.8 kmpl (ARAI) for Exquisite, Luxury and F Sport but none for Overtrail. CarDekho's summary shows 9.5 to 15 kmpl, which conflicts. Trim feature splits and wheel sizes are only partly confirmed (the 20-inch tyre size is from the CarDekho specs). The Luxury and F Sport feature lists are tentative."
+    }
+  ]
+}

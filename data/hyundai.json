@@ -1,0 +1,2737 @@
+{
+  "cars": [
+    {
+      "id": "hyundai-creta",
+      "brand": "Hyundai",
+      "model": "Creta",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 50,
+      "priceNote": "hyundai.com/in Creta price page (official ex-showroom), Oct 2026",
+      "engines": {
+        "p15": {
+          "type": "1.5 MPi petrol",
+          "cylinders": 4,
+          "displacementCc": 1497,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 113.4,
+          "maxPowerRpm": 6300,
+          "maxTorqueNm": 143.8,
+          "maxTorqueRpm": 4500
+        },
+        "d15": {
+          "type": "1.5 U2 CRDi diesel",
+          "cylinders": 4,
+          "displacementCc": 1493,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 114.4,
+          "maxPowerRpm": 4000,
+          "maxTorqueNm": 250,
+          "maxTorqueRpm": "1500-2750"
+        },
+        "t15": {
+          "type": "1.5 Turbo GDi petrol",
+          "cylinders": 4,
+          "displacementCc": 1482,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 157.8,
+          "maxPowerRpm": 5500,
+          "maxTorqueNm": 253,
+          "maxTorqueRpm": "1500-3500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "E",
+          "wheels": "16-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESC with hill-start assist",
+            "TPMS",
+            "Rear disc brakes",
+            "Rear parking sensors",
+            "Digital cluster with colour TFT",
+            "Manual AC with rear AC vents",
+            "60:40 split rear seat"
+          ]
+        },
+        {
+          "trim": "EX",
+          "wheels": "16-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "8-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Smart key with push-button start",
+            "Electrically adjustable mirrors",
+            "Steering-mounted audio controls",
+            "Front and rear speakers with tweeters",
+            "Shark fin antenna"
+          ]
+        },
+        {
+          "trim": "EX(O)",
+          "wheels": "16-inch dual-tone styled steel",
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "Quad-beam LED headlamps",
+            "Horizon LED DRLs and LED tail lamps",
+            "Rear camera",
+            "Rear window sunshade",
+            "Rear LED reading lamps",
+            "16-inch dual-tone styled steel wheels"
+          ]
+        },
+        {
+          "trim": "S(O)",
+          "wheels": "17-inch black alloys",
+          "airbags": 6,
+          "features": [
+            "Dual-zone automatic climate control",
+            "17-inch alloy wheels",
+            "Automatic headlamps",
+            "Cruise control",
+            "Dashcam",
+            "Rear wiper, washer and defogger",
+            "Auto-folding mirrors",
+            "Paddle shifters, drive modes and EPB (automatic)"
+          ]
+        },
+        {
+          "trim": "S(O) Knight",
+          "wheels": "18-inch matte black alloys",
+          "airbags": 6,
+          "features": [
+            "18-inch matte black alloys",
+            "Red front brake calipers",
+            "Black roof rails, mirrors and spoiler",
+            "All-black interior with brass inserts",
+            "Black fabric upholstery",
+            "Metal pedals"
+          ]
+        },
+        {
+          "trim": "SX",
+          "wheels": "17-inch diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "Voice-enabled panoramic sunroof",
+            "10.25-inch touchscreen navigation",
+            "10.25-inch digital cluster",
+            "Bluelink connected car tech",
+            "Wireless phone charger",
+            "LED sequential turn indicators",
+            "Leatherette seats, steering and gear knob",
+            "17-inch diamond-cut alloys"
+          ]
+        },
+        {
+          "trim": "SX Premium",
+          "wheels": "17-inch diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "Bose 8-speaker sound system",
+            "Ventilated front seats",
+            "8-way power driver seat",
+            "360-degree camera",
+            "Blind spot view monitor",
+            "Front parking sensors",
+            "Electric parking brake with auto hold"
+          ]
+        },
+        {
+          "trim": "King",
+          "wheels": "18-inch diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "Level 2 ADAS",
+            "18-inch diamond-cut alloys",
+            "Power passenger seat",
+            "Driver seat memory",
+            "Auto-dimming IRVM",
+            "Rear wireless charger",
+            "Rain-sensing wipers",
+            "Front seatback tables"
+          ]
+        },
+        {
+          "trim": "King Knight",
+          "wheels": "18-inch matte black alloys",
+          "airbags": 6,
+          "features": [
+            "18-inch matte black alloys",
+            "Red front and rear brake calipers",
+            "Knight emblem with black exterior accents",
+            "Black leatherette with brass highlights",
+            "Metal pedals"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "E",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1090700,
+          "mileage": "17.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "E",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1252800,
+          "mileage": "21.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "EX",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1206700,
+          "mileage": "17.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "EX",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1365700,
+          "mileage": "21.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "EX(O)",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1314200,
+          "mileage": "17.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "EX(O)",
+          "power": "1.5 Petrol IVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, IVT (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 1449700,
+          "mileage": "17.7 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "IVT automatic"
+          ]
+        },
+        {
+          "trim": "EX(O)",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1473200,
+          "mileage": "21.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "EX(O)",
+          "power": "1.5 Diesel AT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1608200,
+          "mileage": "19.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine",
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "S(O)",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1420700,
+          "mileage": "17.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "S(O)",
+          "power": "1.5 Petrol IVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, IVT (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 1565700,
+          "mileage": "17.7 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "IVT automatic",
+            "Paddle shifters",
+            "Drive and traction modes",
+            "Electric parking brake with auto hold"
+          ]
+        },
+        {
+          "trim": "S(O)",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1584700,
+          "mileage": "21.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "S(O)",
+          "power": "1.5 Diesel AT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1729700,
+          "mileage": "19.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine",
+            "6-speed torque-converter automatic",
+            "Paddle shifters",
+            "Drive and traction modes",
+            "Electric parking brake with auto hold"
+          ]
+        },
+        {
+          "trim": "S(O) Knight",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1439200,
+          "mileage": "17.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "S(O) Knight",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1603200,
+          "mileage": "21.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "SX",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1504400,
+          "mileage": "17.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "SX Premium",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1634200,
+          "mileage": "17.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "SX Premium",
+          "power": "1.5 Petrol IVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, IVT (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 1778700,
+          "mileage": "17.7 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "IVT automatic",
+            "Paddle shifters",
+            "Drive and traction modes"
+          ]
+        },
+        {
+          "trim": "SX Premium",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1792700,
+          "mileage": "21.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "King",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1727800,
+          "mileage": "17.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "King",
+          "power": "1.5 Petrol IVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, IVT (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 1868800,
+          "mileage": "17.7 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "IVT automatic",
+            "Paddle shifters",
+            "Smart cruise control with stop & go"
+          ]
+        },
+        {
+          "trim": "King",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1885800,
+          "mileage": "21.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "King",
+          "power": "1.5 Diesel AT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1977800,
+          "mileage": "19.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine",
+            "6-speed torque-converter automatic",
+            "Paddle shifters",
+            "Smart cruise control with stop & go"
+          ]
+        },
+        {
+          "trim": "King",
+          "power": "1.5 Turbo DCT",
+          "engine": "t15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DCT",
+          "drivetrain": "FWD",
+          "priceInr": 1991300,
+          "mileage": "18.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "160 PS 1.5 turbo-petrol engine",
+            "7-speed dual-clutch automatic",
+            "Paddle shifters",
+            "Smart cruise control with stop & go"
+          ]
+        },
+        {
+          "trim": "King Knight",
+          "power": "1.5 Petrol IVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, IVT (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 1883300,
+          "mileage": "17.7 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "King Knight",
+          "power": "1.5 Diesel AT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 2011300,
+          "mileage": "19.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine",
+            "6-speed torque-converter automatic"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2024 Hyundai Creta 1.5 MPi SX(O) (India) front view.png",
+          "license": "CC BY 3.0",
+          "artist": "CARS WORLD Kannada",
+          "local": "photos/hyundai-creta-front.jpg"
+        },
+        "rear": {
+          "file": "File:2021 Hyundai Creta SX(O) CRDi (India) rear view.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Dairokkan9",
+          "note": "three-quarter view",
+          "local": "photos/hyundai-creta-rear.jpg"
+        }
+      },
+      "photoNotes": "Front is a 2024 Indian-market facelift (video still, front three-quarter). No rear photo of the current facelifted Indian Creta on Commons; the only Indian rear view is the pre-facelift 2021 SX(O) (File:2021 Hyundai Creta SX(O) CRDi (India) rear view.jpg), so rear left null. Re-checked Commons 21 Oct 2026: still no Indian-market rear of the 2024 facelift. Closest rejected: File:Hyundai Creta SU2 PE 1.5 Premium Slate Blue Pearl 04.jpg (same facelift design, rear three-quarter, but Philippines-market car in a showroom; its sister file 02 has a price sticker on the glass).",
+      "sources": [
+        "https://www.hyundai.com/in/en/find-a-car/creta/price",
+        "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/creta.pdf",
+        "https://www.cardekho.com/hyundai/creta/variants.htm",
+        "https://www.autocarindia.com/cars/hyundai/creta/mileage",
+        "https://www.cardekho.com/hyundai/creta/mileage"
+      ],
+      "notes": "Current 2024 facelift; trims and features from Hyundai brochure dated Aug 2026. Prices are the official ex-showroom list (no city stated). CarDekho New Delhi prices differ slightly for some diesels (e.g. E Diesel Rs 12.61 lakh vs official Rs 12,52,800); official used. Dual-tone (DT) paint versions (+Rs 15,000) omitted. CarDekho also lists Summer Edition and King Lounge Edition versions not on the official price page; omitted. Creta N Line has its own price page and is excluded; Creta Electric excluded. Mileage is ARAI as quoted by Autocar India and CarDekho (agree); not found on hyundai.com. All trims have 6 airbags. Update 21 Oct 2026: Photos re-checked, no suitable rear found (unchanged). All 25 prices re-checked against the official hyundai.com price table and match; no price changes. Mileage unchanged.\nSpec audit 21 Oct 2026: all engine figures confirmed (CarDekho, Autocar India)."
+    },
+    {
+      "id": "hyundai-venue",
+      "brand": "Hyundai",
+      "model": "Venue",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 45,
+      "priceNote": "CarDekho New Delhi (cross-checked with CarWale Delhi), Oct 2026",
+      "engines": {
+        "p12": {
+          "type": "1.2 Kappa MPi petrol",
+          "cylinders": 4,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 81.9,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 114.7,
+          "maxTorqueRpm": 4200
+        },
+        "t10": {
+          "type": "1.0 Kappa Turbo GDi petrol",
+          "cylinders": 3,
+          "displacementCc": 998,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 118.4,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 172,
+          "maxTorqueRpm": "1500-4000"
+        },
+        "d15": {
+          "type": "1.5 U2 CRDi diesel",
+          "cylinders": 4,
+          "displacementCc": 1493,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 114.4,
+          "maxPowerRpm": 4000,
+          "maxTorqueNm": 250,
+          "maxTorqueRpm": "1500-2750"
+        }
+      },
+      "trims": [
+        {
+          "trim": "HX 2",
+          "wheels": "15-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESC with hill-start assist",
+            "Rear parking sensors",
+            "10.25-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Digital cluster with colour TFT",
+            "Manual AC with rear AC vents",
+            "LED DRLs and LED tail lamps"
+          ]
+        },
+        {
+          "trim": "HX 4",
+          "wheels": "15-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "Rear camera",
+            "Rear defogger",
+            "TPMS",
+            "Driver seat height adjust",
+            "Electrically folding mirrors",
+            "Turn indicators on mirrors",
+            "Dual-tone grey interior"
+          ]
+        },
+        {
+          "trim": "HX 5",
+          "wheels": "15-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "Electric sunroof",
+            "Dark chrome grille",
+            "Smart key with push-button start (petrol)",
+            "Cruise control (turbo and diesel)",
+            "Paddle shifters (automatic)",
+            "Driver armrest with storage (automatic)"
+          ]
+        },
+        {
+          "trim": "HX 5 Knight",
+          "wheels": "15-inch steel with black covers",
+          "airbags": 6,
+          "features": [
+            "Knight emblem with black exterior accents",
+            "Red brake calipers",
+            "Black grille, mirrors and skid plates",
+            "All-black interior with brass inserts",
+            "Black fabric upholstery"
+          ]
+        },
+        {
+          "trim": "HX 5+",
+          "wheels": "15-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "Quad-beam LED headlamps",
+            "Wireless phone charger",
+            "Roof rails",
+            "Rear wiper and washer",
+            "Rear window sunshade",
+            "Driver auto up/down window",
+            "Driver armrest with storage"
+          ]
+        },
+        {
+          "trim": "HX 6",
+          "wheels": "15-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "Fully automatic climate control",
+            "Front tweeters",
+            "Leatherette gear knob",
+            "Dark chrome door handles",
+            "Passenger vanity mirror",
+            "Rear parcel tray"
+          ]
+        },
+        {
+          "trim": "HX 6T",
+          "wheels": "15-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "Automatic headlamps",
+            "Dashcam",
+            "Bluelink connected car tech",
+            "Over-the-air updates"
+          ]
+        },
+        {
+          "trim": "HX 6T Knight",
+          "wheels": "15-inch steel with black covers",
+          "airbags": 6,
+          "features": [
+            "Knight emblem with black exterior accents",
+            "Red brake calipers",
+            "Black roof rails, grille and mirrors",
+            "All-black interior with brass inserts",
+            "Black fabric upholstery"
+          ]
+        },
+        {
+          "trim": "HX 7",
+          "wheels": "16-inch diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "16-inch diamond-cut alloys",
+            "LED turn indicators",
+            "Horizon LED positioning lamps",
+            "Ambient lighting",
+            "60:40 split rear seat with 2-step recline",
+            "Rear centre armrest",
+            "Puddle lamps",
+            "Leatherette steering wheel"
+          ]
+        },
+        {
+          "trim": "HX 8",
+          "wheels": "16-inch diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "Ventilated front seats",
+            "4-way power driver seat",
+            "Leatherette upholstery",
+            "Navy and dove grey interior",
+            "Electric parking brake with auto hold (automatic)",
+            "Drive and traction modes (automatic)",
+            "All four disc brakes (automatic)"
+          ]
+        },
+        {
+          "trim": "HX 8 Knight",
+          "wheels": "16-inch black alloys",
+          "airbags": 6,
+          "features": [
+            "16-inch black alloys",
+            "Red brake calipers",
+            "Knight emblem with black exterior accents",
+            "Black leatherette with brass highlights"
+          ]
+        },
+        {
+          "trim": "HX 10",
+          "wheels": "16-inch diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "Dual 12.3-inch curved displays",
+            "Bose 8-speaker sound system",
+            "Level 2 ADAS",
+            "360-degree camera",
+            "Blind spot view monitor",
+            "Front and side parking sensors",
+            "Voice-enabled sunroof",
+            "Auto-dimming IRVM"
+          ]
+        },
+        {
+          "trim": "HX 10 Knight",
+          "wheels": "16-inch black alloys",
+          "airbags": 6,
+          "features": [
+            "16-inch black alloys",
+            "Red brake calipers",
+            "Knight emblem with black exterior accents",
+            "Black leatherette with brass highlights"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "HX 2",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 799900,
+          "mileage": "18.05 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 2",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 893600,
+          "mileage": "18.74 kmpl",
+          "wheels": "16-inch dual-tone styled steel",
+          "airbags": null,
+          "extras": [
+            "1.0 turbo-petrol engine",
+            "6-speed manual"
+          ]
+        },
+        {
+          "trim": "HX 2",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 994600,
+          "mileage": "20.99 kmpl",
+          "wheels": "16-inch dual-tone styled steel",
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine",
+            "6-speed manual"
+          ]
+        },
+        {
+          "trim": "HX 4",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 899900,
+          "mileage": "18.05 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 5",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 955600,
+          "mileage": "18.05 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 5",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 993100,
+          "mileage": "18.74 kmpl",
+          "wheels": "16-inch dual-tone styled steel",
+          "airbags": null,
+          "extras": [
+            "1.0 turbo-petrol engine",
+            "6-speed manual",
+            "Cruise control",
+            "Remote engine start"
+          ]
+        },
+        {
+          "trim": "HX 5",
+          "power": "1.0 Turbo DCT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DCT",
+          "drivetrain": "FWD",
+          "priceInr": 1094600,
+          "mileage": "20 kmpl",
+          "wheels": "16-inch dual-tone styled steel",
+          "airbags": null,
+          "extras": [
+            "1.0 turbo-petrol engine",
+            "7-speed dual-clutch automatic",
+            "Paddle shifters",
+            "Cruise control",
+            "Remote engine start"
+          ]
+        },
+        {
+          "trim": "HX 5",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1099600,
+          "mileage": "20.99 kmpl",
+          "wheels": "16-inch dual-tone styled steel",
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine",
+            "6-speed manual",
+            "Cruise control"
+          ]
+        },
+        {
+          "trim": "HX 5",
+          "power": "1.5 Diesel AT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1194100,
+          "mileage": "17.9 kmpl",
+          "wheels": "16-inch dual-tone styled steel",
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine",
+            "6-speed torque-converter automatic",
+            "Paddle shifters",
+            "Cruise control"
+          ]
+        },
+        {
+          "trim": "HX 5 Knight",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 970500,
+          "mileage": "18.05 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 5 Knight",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1118500,
+          "mileage": "20.99 kmpl",
+          "wheels": "16-inch black alloys",
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine",
+            "6-speed manual",
+            "Cruise control",
+            "16-inch black alloys"
+          ]
+        },
+        {
+          "trim": "HX 5+",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 999900,
+          "mileage": "18.05 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 6",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1042900,
+          "mileage": "18.05 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 6",
+          "power": "1.0 Turbo DCT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DCT",
+          "drivetrain": "FWD",
+          "priceInr": 1220500,
+          "mileage": "20 kmpl",
+          "wheels": "16-inch dual-tone styled steel",
+          "airbags": null,
+          "extras": [
+            "1.0 turbo-petrol engine",
+            "7-speed dual-clutch automatic",
+            "Paddle shifters",
+            "Cruise control",
+            "60:40 split reclining rear seat",
+            "Rear centre armrest",
+            "Glovebox cooling",
+            "Remote engine start"
+          ]
+        },
+        {
+          "trim": "HX 6T",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1089000,
+          "mileage": "18.05 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 6T Knight",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1103900,
+          "mileage": "18.05 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 7",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1281800,
+          "mileage": "20.99 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 8",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1194400,
+          "mileage": "18.74 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 8",
+          "power": "1.0 Turbo DCT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DCT",
+          "drivetrain": "FWD",
+          "priceInr": 1302900,
+          "mileage": "20 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7-speed dual-clutch automatic",
+            "Paddle shifters",
+            "Electric parking brake with auto hold",
+            "Drive and traction modes",
+            "Rear disc brakes"
+          ]
+        },
+        {
+          "trim": "HX 8",
+          "power": "1.5 Diesel AT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1376600,
+          "mileage": "17.9 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine",
+            "6-speed torque-converter automatic",
+            "Paddle shifters",
+            "Electric parking brake with auto hold",
+            "Drive and traction modes"
+          ]
+        },
+        {
+          "trim": "HX 8 Knight",
+          "power": "1.5 Diesel AT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1391500,
+          "mileage": "17.9 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 10",
+          "power": "1.0 Turbo DCT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DCT",
+          "drivetrain": "FWD",
+          "priceInr": 1467800,
+          "mileage": "20 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 10",
+          "power": "1.5 Diesel AT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1564700,
+          "mileage": "17.9 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine",
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "HX 10 Knight",
+          "power": "1.0 Turbo DCT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DCT",
+          "drivetrain": "FWD",
+          "priceInr": 1481900,
+          "mileage": "20 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:4th International Auto Show, Bangalore (2025) 07.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Gpkp",
+          "local": "photos/hyundai-venue-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Only 4 Commons files of the 2025 second-generation Venue (Category:Hyundai Venue II), all from a Bangalore 2025 auto show. Front is a front three-quarter view on a show stand (busy background, not ideal). No rear view exists; others are an N Line, a stand overview and an interior. Re-checked Commons 21 Oct 2026 (Category:Hyundai Venue II and searches): still only the 4 Bangalore show files; 09 is the Venue N Line (doors open, show clutter), 251 a stand overview, 258 the interior. No rear view of the second-generation Venue; other 2025 Venue files are first-generation cars from the Philippines, Indonesia and the USA.",
+      "sources": [
+        "https://www.cardekho.com/hyundai/venue/price-in-new-delhi",
+        "https://www.cardekho.com/hyundai/venue/variants.htm",
+        "https://www.carwale.com/hyundai-cars/venue/",
+        "https://www.hyundai.com/in/en/find-a-car/venue/price-in-delhi",
+        "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/venue.pdf",
+        "https://www.autocarindia.com/cars/hyundai/venue/mileage",
+        "https://www.cardekho.com/india-car-news/new-2025-hyundai-venue-heres-what-each-variant-offers-in-terms-of-features-35264.htm"
+      ],
+      "notes": "Second-generation Venue (launched Nov 2025, HX trims). hyundai.com price table did not load (only 'from Rs 7,99,900', which matches CarDekho), so prices are CarDekho New Delhi; CarWale Mumbai ranges agree. Dual-tone (DT) paint versions omitted. Specs and trim features from Hyundai brochure dated Apr 2026. The brochure lists HX 6 only as Turbo DCT, but Hyundai's Delhi page and CarDekho also list an HX 6 1.2 MT; HX 6 features are taken from the brochure and its 15-inch steel wheels from Autocar India. 1.0 turbo cylinder count not stated by the sources checked, so null. Mileage conflict for 1.2 MT: Autocar India 18.05 kmpl vs CarDekho 18.5 kmpl; Autocar figure used. Venue N Line has its own price page and is excluded. All trims have 6 airbags. Update 21 Oct 2026: Photos re-checked, no rear found (unchanged). Prices re-checked against CarDekho New Delhi (all match) and CarWale Delhi; no changes. CarWale Delhi lists most non-base variants about Rs 3,000-5,000 lower (lakh-rounded), apparently not yet reflecting Hyundai's 1 Sep 2026 price hike; CarDekho exact figures kept. Mileage unchanged.\nSpec audit 21 Oct 2026: t10 cylinders null -> 3 (Zigwheels, Wikipedia). Other figures confirmed; turbo 6MT/7DCT confirmed."
+    },
+    {
+      "id": "hyundai-i20",
+      "brand": "Hyundai",
+      "model": "i20",
+      "bodyType": "Hatchback",
+      "seats": 5,
+      "fuelTankL": 37,
+      "priceNote": "CarDekho New Delhi (cross-checked with CarWale Delhi), Oct 2026",
+      "engines": {
+        "p12": {
+          "type": "1.2 Kappa petrol (MT tune)",
+          "cylinders": 4,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 81.9,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 114.7,
+          "maxTorqueRpm": 4200
+        },
+        "p12ivt": {
+          "type": "1.2 Kappa petrol (IVT tune)",
+          "cylinders": 4,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 86.8,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 114.7,
+          "maxTorqueRpm": 4200
+        }
+      },
+      "trims": [
+        {
+          "trim": "Era",
+          "wheels": "14-inch steel with hub covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESC with hill-start assist",
+            "Rear parking sensors",
+            "ISOFIX child-seat mounts",
+            "Digital cluster with TFT display",
+            "Manual AC",
+            "Tilt and telescopic steering",
+            "Front power windows"
+          ]
+        },
+        {
+          "trim": "Magna Executive",
+          "wheels": "15-inch steel with full covers",
+          "airbags": 6,
+          "features": [
+            "TPMS",
+            "Automatic headlamps",
+            "Front and rear speakers",
+            "Steering-mounted audio controls",
+            "Rear power windows",
+            "Electrically adjustable mirrors",
+            "Shark fin antenna"
+          ]
+        },
+        {
+          "trim": "Magna",
+          "wheels": "15-inch steel with full covers",
+          "airbags": 6,
+          "features": [
+            "Electric sunroof",
+            "LED DRLs",
+            "Rear AC vents",
+            "Front armrest with storage",
+            "Rear USB charger"
+          ]
+        },
+        {
+          "trim": "Sportz",
+          "wheels": "16-inch dual-tone styled steel",
+          "airbags": 6,
+          "features": [
+            "8-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Rear camera",
+            "Smart key with push-button start",
+            "Automatic climate control",
+            "Cruise control",
+            "Z-shaped LED tail lamps",
+            "Auto-folding mirrors"
+          ]
+        },
+        {
+          "trim": "Sportz (O)",
+          "wheels": "16-inch dual-tone styled steel",
+          "airbags": 6,
+          "features": [
+            "Electric sunroof",
+            "Bose 7-speaker sound system with subwoofer",
+            "Leatherette door armrests"
+          ]
+        },
+        {
+          "trim": "Sportz (O) Knight",
+          "wheels": "16-inch black styled steel",
+          "airbags": 6,
+          "features": [
+            "Knight emblem with black exterior accents",
+            "Red brake calipers",
+            "Black mirrors and skid plate",
+            "Tailgate spoiler with side wings",
+            "All-black interior with brass inserts",
+            "Metal pedals"
+          ]
+        },
+        {
+          "trim": "Asta",
+          "wheels": "16-inch diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "LED headlamps",
+            "16-inch diamond-cut alloys",
+            "Wireless phone charger",
+            "Leatherette steering wheel and gear knob",
+            "Blue ambient lighting",
+            "Rear wiper and washer",
+            "Sliding front armrest",
+            "Chrome door handles"
+          ]
+        },
+        {
+          "trim": "Asta (O)",
+          "wheels": "16-inch diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "10.25-inch touchscreen navigation",
+            "Bluelink connected car tech",
+            "Voice-enabled sunroof",
+            "Fabric and leatherette seats",
+            "Puddle lamps",
+            "Adjustable rear headrests",
+            "Home-to-car with Alexa"
+          ]
+        },
+        {
+          "trim": "Asta (O) Knight",
+          "wheels": "16-inch black alloys",
+          "airbags": 6,
+          "features": [
+            "16-inch black alloys",
+            "Red brake calipers",
+            "Knight emblem with black exterior accents",
+            "All-black interior with brass inserts",
+            "Amber ambient lighting",
+            "Metal pedals",
+            "Dashcam"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Era",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 599700,
+          "mileage": "16 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Magna Executive",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 674600,
+          "mileage": "16 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Magna",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 704900,
+          "mileage": "16 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Sportz",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 785200,
+          "mileage": "16 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Sportz",
+          "power": "1.2 Petrol IVT",
+          "engine": "p12ivt",
+          "fuel": "Petrol",
+          "transmission": "Automatic, IVT (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 886200,
+          "mileage": "20 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "IVT automatic (88 PS tune)",
+            "Drive modes"
+          ]
+        },
+        {
+          "trim": "Sportz (O)",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 838700,
+          "mileage": "16 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Sportz (O)",
+          "power": "1.2 Petrol IVT",
+          "engine": "p12ivt",
+          "fuel": "Petrol",
+          "transmission": "Automatic, IVT (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 930700,
+          "mileage": "20 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "IVT automatic (88 PS tune)",
+            "Drive modes"
+          ]
+        },
+        {
+          "trim": "Sportz (O) Knight",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 847700,
+          "mileage": "16 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Asta",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 871200,
+          "mileage": "16 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Asta (O)",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 924700,
+          "mileage": "16 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Asta (O)",
+          "power": "1.2 Petrol IVT",
+          "engine": "p12ivt",
+          "fuel": "Petrol",
+          "transmission": "Automatic, IVT (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 1043700,
+          "mileage": "20 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "IVT automatic (88 PS tune)",
+            "Drive modes",
+            "Dashcam"
+          ]
+        },
+        {
+          "trim": "Asta (O) Knight",
+          "power": "1.2 Petrol IVT",
+          "engine": "p12ivt",
+          "fuel": "Petrol",
+          "transmission": "Automatic, IVT (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 1053200,
+          "mileage": "20 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2020 Hyundai i20 1.5 Asta (O) Diesel (India) front view.png",
+          "license": "CC BY 3.0",
+          "artist": "The Drivers Hub",
+          "local": "photos/hyundai-i20-front.jpg"
+        },
+        "rear": {
+          "file": "File:2020 Hyundai i20 1.5 Asta (O) Diesel (India) rear view.png",
+          "license": "CC BY 3.0",
+          "artist": "The Drivers Hub",
+          "local": "photos/hyundai-i20-rear.jpg"
+        }
+      },
+      "photoNotes": "Both are Indian-market third-generation (BI3) i20, but the pre-facelift 2020 car (video stills, three-quarter views); no photos of the 2023 facelift on Commons. Rear image is low resolution (1452x872). Re-checked Commons 21 Oct 2026 (Category:Hyundai i20 (BI3) and searches): still no photo of the 2023 Indian facelift; BI3 category holds only these 2020 stills plus N Line. Facelift photos on Commons are the European BC3 i20, a different car. Pre-facelift photos kept as the best available.",
+      "sources": [
+        "https://www.cardekho.com/hyundai/i20/price-in-new-delhi",
+        "https://www.cardekho.com/hyundai/i20/variants.htm",
+        "https://www.carwale.com/hyundai-cars/i20/mileage/",
+        "https://www.hyundai.com/in/en/find-a-car/i20/price",
+        "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/i20.pdf",
+        "https://www.autocarindia.com/cars/hyundai/i20/mileage",
+        "https://www.team-bhp.com/new-cars/hyundai/i20/"
+      ],
+      "notes": "Third-generation i20 (2023 facelift). hyundai.com price table did not load; it gives only a base price of Rs 5,99,000 for Era, against CarDekho's Rs 5,99,700 (small conflict; CarDekho per-variant prices used, and CarWale Mumbai prices are close). Dual-tone versions omitted. Specs and features from Hyundai brochure dated Sep 2026: 83 PS with MT, 88 PS with IVT. Mileage: manual figures conflict (Autocar India and CarDekho say 16 kmpl, Team-BHP 20.13 kmpl), so null. IVT is about 20 kmpl on Autocar, CarDekho and 91wheels, so labelled as an unofficial estimate. i20 N Line is a separate model and excluded. All trims have 6 airbags. Update 21 Oct 2026: Manual mileage filled as '16 kmpl (unofficial estimate)': CarDekho and Autocar India both list 16 kmpl (labelled ARAI) but hyundai.com publishes none, and Team-BHP (up to 20.35 kmpl), Spinny (21 km/l) and 91wheels (20 kmpl) disagree. Prices re-checked against CarDekho New Delhi (all match) and CarWale Delhi; no changes. CarWale Delhi lists most non-base variants about Rs 3,000-5,000 lower (lakh-rounded), apparently not yet reflecting Hyundai's 1 Sep 2026 price hike; CarDekho exact figures kept. Photos re-checked; still pre-facelift (no facelift photo on Commons).\nSpec audit 21 Oct 2026: all engine figures confirmed (CarDekho, Autocar India)."
+    },
+    {
+      "id": "hyundai-verna",
+      "brand": "Hyundai",
+      "model": "Verna",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": 45,
+      "priceNote": "CarDekho New Delhi (cross-checked with CarWale Delhi), Oct 2026",
+      "engines": {
+        "p15": {
+          "type": "1.5 MPi petrol",
+          "cylinders": 4,
+          "displacementCc": 1497,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 113.4,
+          "maxPowerRpm": 6300,
+          "maxTorqueNm": 143.8,
+          "maxTorqueRpm": 4500
+        },
+        "t15": {
+          "type": "1.5 Turbo GDi petrol",
+          "cylinders": 4,
+          "displacementCc": 1482,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 157.8,
+          "maxPowerRpm": 5500,
+          "maxTorqueNm": 253,
+          "maxTorqueRpm": "1500-3500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "HX 2",
+          "wheels": "15-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESC with hill-start assist",
+            "Rear parking sensors",
+            "Automatic headlamps",
+            "Rear defogger",
+            "ISOFIX child-seat mounts",
+            "Manual AC",
+            "Front and rear power windows"
+          ]
+        },
+        {
+          "trim": "HX 4",
+          "wheels": "15-inch silver alloys",
+          "airbags": 6,
+          "features": [
+            "8-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Digital cluster with colour TFT",
+            "Automatic climate control with rear AC vents",
+            "Electric sunroof",
+            "Cruise control",
+            "LED DRLs and LED tail lamps",
+            "15-inch alloy wheels"
+          ]
+        },
+        {
+          "trim": "HX 6",
+          "wheels": "16-inch diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "Dual LED projector headlamps",
+            "Smart key with push-button start",
+            "Rear camera and front parking sensors",
+            "Wireless phone charger",
+            "Ambient lighting",
+            "Leatherette steering wheel and gear knob",
+            "Smart trunk",
+            "16-inch diamond-cut alloys"
+          ]
+        },
+        {
+          "trim": "HX 6+",
+          "wheels": "16-inch diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "Leatherette seats",
+            "Ventilated front seats",
+            "Bose 8-speaker sound system"
+          ]
+        },
+        {
+          "trim": "HX 8",
+          "wheels": "16-inch diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "10.25-inch touchscreen navigation",
+            "Bluelink connected car tech",
+            "8-way power driver seat with memory",
+            "Rain-sensing wipers",
+            "Auto-dimming IRVM with telematics switches"
+          ]
+        },
+        {
+          "trim": "HX 10",
+          "wheels": "16-inch diamond-cut alloys",
+          "airbags": 7,
+          "features": [
+            "Front centre side airbag (7 total)",
+            "10.25-inch digital cluster",
+            "Level 2 ADAS",
+            "360-degree camera",
+            "Blind spot view monitor",
+            "4-way power passenger seat",
+            "Electric parking brake",
+            "Rear disc brakes"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "HX 2",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1099200,
+          "mileage": "18.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 4",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1231200,
+          "mileage": "18.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 6",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1325200,
+          "mileage": "18.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 6",
+          "power": "1.5 Petrol IVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, IVT (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 1446200,
+          "mileage": "19.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "IVT automatic",
+            "Paddle shifters",
+            "Drive modes"
+          ]
+        },
+        {
+          "trim": "HX 6+",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1387200,
+          "mileage": "18.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 6+",
+          "power": "1.5 Petrol IVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, IVT (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 1503200,
+          "mileage": "19.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "IVT automatic",
+            "Paddle shifters",
+            "Drive modes"
+          ]
+        },
+        {
+          "trim": "HX 8",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1494200,
+          "mileage": "18.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 8",
+          "power": "1.5 Petrol IVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, IVT (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 1615200,
+          "mileage": "19.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "IVT automatic",
+            "Paddle shifters",
+            "Drive modes"
+          ]
+        },
+        {
+          "trim": "HX 8",
+          "power": "1.5 Turbo MT",
+          "engine": "t15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1634200,
+          "mileage": "20 kmpl",
+          "wheels": "16-inch dark grey alloys",
+          "airbags": null,
+          "extras": [
+            "160 PS 1.5 turbo-petrol engine",
+            "Level 2 ADAS",
+            "Dashcam",
+            "Red front brake calipers",
+            "Black interior with red accents",
+            "Metal pedals",
+            "Drive modes"
+          ]
+        },
+        {
+          "trim": "HX 8",
+          "power": "1.5 Turbo DCT",
+          "engine": "t15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DCT",
+          "drivetrain": "FWD",
+          "priceInr": 1763200,
+          "mileage": "20.6 kmpl",
+          "wheels": "16-inch dark grey alloys",
+          "airbags": null,
+          "extras": [
+            "160 PS 1.5 turbo-petrol engine",
+            "7-speed dual-clutch automatic",
+            "Level 2 ADAS with smart cruise control",
+            "Electric parking brake",
+            "Rear disc brakes",
+            "Paddle shifters",
+            "Red front brake calipers",
+            "Black interior with red accents"
+          ]
+        },
+        {
+          "trim": "HX 10",
+          "power": "1.5 Petrol IVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, IVT (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 1721200,
+          "mileage": "19.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 10",
+          "power": "1.5 Turbo DCT",
+          "engine": "t15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DCT",
+          "drivetrain": "FWD",
+          "priceInr": 1831200,
+          "mileage": "20.6 kmpl",
+          "wheels": "16-inch dark grey alloys",
+          "airbags": null,
+          "extras": [
+            "160 PS 1.5 turbo-petrol engine",
+            "7-speed dual-clutch automatic",
+            "Red front brake calipers",
+            "Black interior with red accents",
+            "Metal pedals"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Hyundai Verna SX Turbo 03.jpg",
+          "license": "CC BY-SA 3.0",
+          "artist": "Siddharth Antre",
+          "local": "photos/hyundai-verna-front.jpg"
+        },
+        "rear": {
+          "file": "File:Hyundai Verna SX Turbo 01.jpg",
+          "license": "CC BY-SA 3.0",
+          "artist": "Siddharth Antre",
+          "local": "photos/hyundai-verna-rear.jpg"
+        }
+      },
+      "photoNotes": "Current-generation (BN7) Indian Verna Turbo, 2023, photographed in a dealer showroom (front three-quarter and rear three-quarter; background has other cars and decorations). Only three BN7 files on Commons.",
+      "sources": [
+        "https://www.cardekho.com/hyundai/verna/price-in-new-delhi",
+        "https://www.cardekho.com/hyundai/verna/variants.htm",
+        "https://www.hyundai.com/in/en/find-a-car/verna/price",
+        "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/verna.pdf",
+        "https://www.autocarindia.com/cars/hyundai/verna/mileage"
+      ],
+      "notes": "Current Verna with renamed HX trims (Hyundai brochure dated Mar 2026). hyundai.com price table did not load; its starting price (Rs 10,99,200) matches CarDekho HX 2, so CarDekho New Delhi per-variant prices used. Dual-tone versions omitted. Mileage is ARAI as listed by Autocar India; CarDekho and CarWale list none. The brochure shows a centre side airbag (7 total) only on HX 10; other trims have 6. Turbo variants get dark grey alloys, red calipers and black-red interior; ADAS on HX 8 is turbo-only. Update 21 Oct 2026: Prices re-checked against CarDekho New Delhi (all match) and CarWale Delhi; no changes. CarWale Delhi lists most non-base variants about Rs 3,000-5,000 lower (lakh-rounded), apparently not yet reflecting Hyundai's 1 Sep 2026 price hike; CarDekho exact figures kept. Photos and mileage unchanged.\nSpec audit 21 Oct 2026: all engine figures confirmed (CarDekho, Autocar India)."
+    },
+    {
+      "id": "hyundai-exter",
+      "brand": "Hyundai",
+      "model": "Exter",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 37,
+      "priceNote": "CarDekho New Delhi (cross-checked with CarWale Delhi), Oct 2026",
+      "engines": {
+        "p12": {
+          "type": "1.2 Kappa petrol",
+          "cylinders": 4,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 81.9,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 113.8,
+          "maxTorqueRpm": 4000
+        },
+        "cng12": {
+          "type": "1.2 Kappa bi-fuel petrol + CNG (CNG mode)",
+          "cylinders": 4,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 68.1,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 95.2,
+          "maxTorqueRpm": 4000
+        }
+      },
+      "trims": [
+        {
+          "trim": "HX 2",
+          "wheels": "14-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESC with hill-start assist",
+            "Rear parking sensors",
+            "ISOFIX child-seat mounts",
+            "LED tail lamps",
+            "Digital cluster with colour TFT",
+            "Manual AC",
+            "Driver seat height adjust"
+          ]
+        },
+        {
+          "trim": "HX 3",
+          "wheels": "14-inch steel",
+          "airbags": 6,
+          "features": [
+            "8-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Rear parking camera",
+            "Front and rear speakers",
+            "Steering-mounted audio controls",
+            "Front USB-C port"
+          ]
+        },
+        {
+          "trim": "HX 4",
+          "wheels": "15-inch dual-tone styled steel",
+          "airbags": 6,
+          "features": [
+            "LED DRLs",
+            "TPMS",
+            "Rear AC vents",
+            "Rear power windows",
+            "Electrically adjustable mirrors",
+            "15-inch dual-tone styled steel wheels"
+          ]
+        },
+        {
+          "trim": "HX 4+",
+          "wheels": "15-inch dual-tone styled steel",
+          "airbags": 6,
+          "features": [
+            "Electric sunroof",
+            "Electrically folding mirrors",
+            "LED turn indicators on mirrors",
+            "Wheel arch cladding"
+          ]
+        },
+        {
+          "trim": "HX 6",
+          "wheels": "15-inch dual-tone styled steel",
+          "airbags": 6,
+          "features": [
+            "Projector headlamps",
+            "Automatic climate control",
+            "Smart key with push-button start",
+            "Dashcam",
+            "Rear defogger",
+            "Roof rails",
+            "Cruise control (petrol)",
+            "Driver armrest"
+          ]
+        },
+        {
+          "trim": "HX 6 Knight",
+          "wheels": "15-inch dark grey styled steel",
+          "airbags": 6,
+          "features": [
+            "Knight emblem",
+            "Dark grey bumper and side sill garnish",
+            "Red front brake calipers",
+            "Dark grey styled steel wheels",
+            "Black interior with brass accents"
+          ]
+        },
+        {
+          "trim": "HX 8",
+          "wheels": "15-inch diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "15-inch diamond-cut alloys",
+            "Automatic headlamps",
+            "Wireless phone charger",
+            "Leatherette steering wheel and gear knob",
+            "Glovebox cooling",
+            "Rear wiper and washer",
+            "Footwell lighting"
+          ]
+        },
+        {
+          "trim": "HX 10",
+          "wheels": "15-inch diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "8-inch touchscreen navigation",
+            "Bluelink connected car tech",
+            "Over-the-air map and infotainment updates",
+            "Home-to-car with Alexa",
+            "Paddle shifters",
+            "Metal pedals",
+            "Wing-type rear spoiler"
+          ]
+        },
+        {
+          "trim": "HX 10 Knight",
+          "wheels": "15-inch black alloys",
+          "airbags": 6,
+          "features": [
+            "15-inch black alloys",
+            "Red front brake calipers",
+            "Knight emblem",
+            "Dark grey garnishes",
+            "Black interior with brass accents",
+            "Amber footwell lighting"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "HX 2",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 580600,
+          "mileage": "19.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 2",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 699900,
+          "mileage": "27.1 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted twin-cylinder CNG kit (Hy-CNG Duo)"
+          ]
+        },
+        {
+          "trim": "HX 3",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 633600,
+          "mileage": "19.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 3",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 5-speed AMT",
+          "drivetrain": "FWD",
+          "priceInr": 698600,
+          "mileage": "19.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Smart Auto AMT"
+          ]
+        },
+        {
+          "trim": "HX 3",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 749600,
+          "mileage": "27.1 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted twin-cylinder CNG kit (Hy-CNG Duo)"
+          ]
+        },
+        {
+          "trim": "HX 4",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 731600,
+          "mileage": "19.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 4",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 832600,
+          "mileage": "27.1 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted twin-cylinder CNG kit (Hy-CNG Duo)"
+          ]
+        },
+        {
+          "trim": "HX 4+",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 5-speed AMT",
+          "drivetrain": "FWD",
+          "priceInr": 813600,
+          "mileage": "19.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 6",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 802600,
+          "mileage": "19.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 6",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 5-speed AMT",
+          "drivetrain": "FWD",
+          "priceInr": 862600,
+          "mileage": "19.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Smart Auto AMT",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "HX 6",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 899600,
+          "mileage": "27.1 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted twin-cylinder CNG kit (Hy-CNG Duo)"
+          ]
+        },
+        {
+          "trim": "HX 6 Knight",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 817500,
+          "mileage": "19.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 6 Knight",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 5-speed AMT",
+          "drivetrain": "FWD",
+          "priceInr": 877500,
+          "mileage": "19.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Smart Auto AMT",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "HX 6 Knight",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 914500,
+          "mileage": "27.1 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted twin-cylinder CNG kit (Hy-CNG Duo)"
+          ]
+        },
+        {
+          "trim": "HX 8",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 843600,
+          "mileage": "19.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 8",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 5-speed AMT",
+          "drivetrain": "FWD",
+          "priceInr": 915600,
+          "mileage": "19.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Smart Auto AMT",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "HX 8",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 946600,
+          "mileage": "27.1 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted twin-cylinder CNG kit (Hy-CNG Duo)"
+          ]
+        },
+        {
+          "trim": "HX 10",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 5-speed AMT",
+          "drivetrain": "FWD",
+          "priceInr": 949600,
+          "mileage": "19.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "HX 10 Knight",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 5-speed AMT",
+          "drivetrain": "FWD",
+          "priceInr": 964500,
+          "mileage": "19.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2023 Hyundai Exter SX (O).png",
+          "license": "CC BY 3.0",
+          "artist": "Connect2Sam",
+          "note": "Pre-facelift look (2023)",
+          "local": "photos/hyundai-exter-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Only two Exter files on Commons, both the pre-facelift (2023-24) Indian car. Front is a straight-on view in a dim garage with the number plate visible; the alternative File:2023 Hyundai Exter SX (O).png (CC BY 3.0, Connect2Sam) is a low-res front three-quarter video still. No rear photo. Front photo removed: too dark to show the car. Re-checked Commons 21 Oct 2026: Category:Hyundai Exter still holds only the two pre-facelift files (File:2023 Hyundai Exter.jpg, rejected as too dark; File:2023 Hyundai Exter SX (O).png, rejected as a 681x468 three-quarter video still of the pre-facelift car). No 2026 facelift photo and no rear, so both left null.",
+      "sources": [
+        "https://www.cardekho.com/hyundai/exter/price-in-new-delhi",
+        "https://www.cardekho.com/hyundai/exter/variants.htm",
+        "https://www.hyundai.com/in/en/find-a-car/exter/price-in-delhi",
+        "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/exter.pdf",
+        "https://www.autocarindia.com/cars/hyundai/exter/mileage",
+        "https://www.team-bhp.com/new-cars/hyundai/exter/"
+      ],
+      "notes": "2026 facelift with trims renamed to HX 2 through HX 10 (formerly EX/S/SX); Hyundai brochure dated Aug 2026. Some hyundai.com text (FAQ) still uses the old EX/S/SX names. hyundai.com price table did not load; its starting price (Rs 5,80,600) matches CarDekho HX 2, so CarDekho New Delhi prices used. Dual-tone versions omitted. CNG is the bi-fuel 1.2 (Hy-CNG Duo per hyundai.com) with 60 L water-equivalent CNG capacity plus the 37 L petrol tank. Claimed mileage is from Autocar India and Team-BHP (they agree); not found on hyundai.com. All trims have 6 airbags. Update 21 Oct 2026: Photos re-checked, none suitable (still null). Prices re-checked against CarDekho New Delhi (all match) and CarWale Delhi; no changes. CarWale Delhi lists most non-base variants about Rs 3,000-5,000 lower (lakh-rounded), apparently not yet reflecting Hyundai's 1 Sep 2026 price hike; CarDekho exact figures kept. Mileage unchanged. Update 21 Oct 2026: photos added from Wikimedia Commons (found via Openverse); labelled where they show an older look or another market.\nSpec audit 21 Oct 2026: all engine figures confirmed (CarDekho, Autocar India)."
+    },
+    {
+      "id": "hyundai-grand-i10-nios",
+      "brand": "Hyundai",
+      "model": "Grand i10 Nios",
+      "bodyType": "Hatchback",
+      "seats": 5,
+      "fuelTankL": 37,
+      "priceNote": "CarDekho New Delhi (cross-checked with CarWale Delhi), Oct 2026",
+      "engines": {
+        "p12": {
+          "type": "1.2 Kappa petrol",
+          "cylinders": 4,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 81.9,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 113.8,
+          "maxTorqueRpm": 4000
+        },
+        "cng12": {
+          "type": "1.2 Kappa bi-fuel petrol + CNG (CNG mode)",
+          "cylinders": 4,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 68.1,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 95.2,
+          "maxTorqueRpm": 4000
+        }
+      },
+      "trims": [
+        {
+          "trim": "Era",
+          "wheels": "14-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ABS with EBD",
+            "Rear parking sensors",
+            "LED tail lamps",
+            "Manual AC",
+            "Front power windows",
+            "Keyless entry",
+            "Driver seat height adjust"
+          ]
+        },
+        {
+          "trim": "Magna",
+          "wheels": "14-inch steel with full covers",
+          "airbags": 6,
+          "features": [
+            "2-DIN audio with Bluetooth",
+            "Steering-mounted audio controls",
+            "LED DRLs",
+            "TPMS",
+            "Rear power windows",
+            "Rear AC vents",
+            "Electrically adjustable mirrors",
+            "Tilt steering"
+          ]
+        },
+        {
+          "trim": "Corporate",
+          "wheels": "15-inch dual-tone styled steel",
+          "airbags": 6,
+          "features": [
+            "6.75-inch touchscreen",
+            "Projector headlamps",
+            "15-inch dual-tone styled steel wheels",
+            "ESC with hill-start assist (AMT)",
+            "Electrically folding mirrors (AMT)"
+          ]
+        },
+        {
+          "trim": "Sportz",
+          "wheels": "15-inch dual-tone styled steel",
+          "airbags": 6,
+          "features": [
+            "8-inch touchscreen",
+            "Android Auto and Apple CarPlay",
+            "Rear camera",
+            "ESC with hill-start assist",
+            "Automatic climate control (petrol)",
+            "Cruise control (petrol)",
+            "Automatic headlamps",
+            "Roof rails and shark fin antenna"
+          ]
+        },
+        {
+          "trim": "Sportz VIBE",
+          "wheels": "15-inch black alloys",
+          "airbags": 6,
+          "features": [
+            "15-inch black alloys",
+            "Black interior with red inserts",
+            "Leather-wrapped steering wheel",
+            "Dashcam"
+          ]
+        },
+        {
+          "trim": "Sportz (O)",
+          "wheels": "15-inch diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "15-inch diamond-cut alloys",
+            "Smart key with push-button start",
+            "Chrome door handles",
+            "Automatic climate control"
+          ]
+        },
+        {
+          "trim": "Sportz (O) VIBE",
+          "wheels": "15-inch black alloys",
+          "airbags": 6,
+          "features": [
+            "15-inch black alloys",
+            "Black interior with red inserts",
+            "Leather-wrapped steering wheel",
+            "Dashcam"
+          ]
+        },
+        {
+          "trim": "Asta VIBE",
+          "wheels": null,
+          "airbags": null,
+          "features": []
+        },
+        {
+          "trim": "Asta",
+          "wheels": "15-inch diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "Wireless Android Auto and Apple CarPlay",
+            "Wireless phone charger",
+            "ISOFIX child-seat mounts",
+            "Rear wiper and washer",
+            "Leather-wrapped steering wheel",
+            "Dashcam",
+            "Chrome parking-brake lever tip"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Era",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 559700,
+          "mileage": "18 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Magna",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 637400,
+          "mileage": "18 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Magna",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 5-speed AMT",
+          "drivetrain": "FWD",
+          "priceInr": 685035,
+          "mileage": "16 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Smart Auto AMT"
+          ]
+        },
+        {
+          "trim": "Magna",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 732700,
+          "mileage": "27 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Corporate",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 660400,
+          "mileage": "18 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Corporate",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 5-speed AMT",
+          "drivetrain": "FWD",
+          "priceInr": 721400,
+          "mileage": "16 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Smart Auto AMT",
+            "ESC with hill-start assist",
+            "Electrically folding mirrors",
+            "Turn indicators on mirrors"
+          ]
+        },
+        {
+          "trim": "Sportz",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 692900,
+          "mileage": "18 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Sportz",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 5-speed AMT",
+          "drivetrain": "FWD",
+          "priceInr": 744900,
+          "mileage": "16 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Smart Auto AMT"
+          ]
+        },
+        {
+          "trim": "Sportz",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 758945,
+          "mileage": "27 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Sportz",
+          "power": "CNG Duo MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 782700,
+          "mileage": "27 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted twin-cylinder CNG kit (Hy-CNG Duo)",
+            "Tyre mobility kit instead of spare wheel"
+          ]
+        },
+        {
+          "trim": "Sportz VIBE",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 715800,
+          "mileage": "18 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Sportz VIBE",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 5-speed AMT",
+          "drivetrain": "FWD",
+          "priceInr": 767800,
+          "mileage": "16 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Smart Auto AMT"
+          ]
+        },
+        {
+          "trim": "Sportz (O)",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 717900,
+          "mileage": "18 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Sportz (O)",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 5-speed AMT",
+          "drivetrain": "FWD",
+          "priceInr": 771900,
+          "mileage": "16 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Smart Auto AMT"
+          ]
+        },
+        {
+          "trim": "Sportz (O) VIBE",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 5-speed AMT",
+          "drivetrain": "FWD",
+          "priceInr": 779800,
+          "mileage": "16 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Asta VIBE",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 750700,
+          "mileage": "18 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Asta VIBE",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 5-speed AMT",
+          "drivetrain": "FWD",
+          "priceInr": 802600,
+          "mileage": "16 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Smart Auto AMT"
+          ]
+        },
+        {
+          "trim": "Asta",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 757100,
+          "mileage": "18 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Asta",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 5-speed AMT",
+          "drivetrain": "FWD",
+          "priceInr": 809000,
+          "mileage": "16 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Smart Auto AMT"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Car hyundai i10 nios sports fiery red model 2022.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Vijayanrajapuram",
+          "local": "photos/hyundai-grand-i10-nios-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Front is an Indian (Karnataka) 2022 Grand i10 Nios Sportz, front three-quarter, outdoors. It is the current AI3 generation but pre-facelift (facelift came in 2023). No Indian-market rear photo on Commons; the other AI3 files are from Brunei and Mexico, or are the sedan. Re-checked Commons 21 Oct 2026 (Category:Hyundai i10 (AI3) and searches): no Indian photo of the 2023 facelift and no Indian rear. Closest rejected: File:Hyundai Grand i10 1.2 Design 2026 (cropped).jpg (facelift design but Chile-market, front three-quarter) and File:2021 Hyundai Grand i10 Nios 1.0AT Standard red rear view in Brunei.jpg (pre-facelift, Brunei).",
+      "sources": [
+        "https://www.cardekho.com/hyundai/grand-i10-nios/price-in-new-delhi",
+        "https://www.cardekho.com/hyundai/grand-i10-nios/variants.htm",
+        "https://www.hyundai.com/in/en/find-a-car/grand-i10-nios/price",
+        "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/grand-i10-nios.pdf",
+        "https://www.autocarindia.com/cars/hyundai/grand-i10-nios/mileage",
+        "https://www.cardekho.com/hyundai/grand-i10-nios/mileage"
+      ],
+      "notes": "2023 facelift; Hyundai brochure dated Sep 2026. hyundai.com price table did not load; its starting price (Rs 5,59,700) matches CarDekho Era, so CarDekho New Delhi prices used (some, e.g. Magna AMT Rs 6,85,035 and Sportz CNG Rs 7,58,945, are oddly specific, as listed). Dual-tone versions omitted. CarDekho lists Asta VIBE (MT/AMT) and Sportz/Sportz (O) VIBE AMTs, which are not in the brochure or on hyundai.com's variant list; Asta VIBE wheels and features unconfirmed, so left empty or null. hyundai.com names the twin-cylinder CNG 'Dual CNG'; CarDekho calls it 'Sportz Duo CNG'. Mileage is shown as whole numbers by both Autocar India and CarDekho (petrol MT 18, AMT 16); the CNG 27 km/kg figure is CarDekho only. No official figures were found, so all are labelled unofficial estimates. CNG versions of Sportz get manual AC (petrol gets auto AC) and no cruise control. All confirmed trims have 6 airbags. Update 21 Oct 2026: Photos re-checked, no facelift or rear photo found (unchanged). Prices re-checked against CarDekho New Delhi (all match); CarWale Delhi gives an exact price only for Era (Rs 5,59,700, matches) and a range up to Rs 8.04 lakh vs CarDekho's Rs 8,09,000 top price. No changes. Mileage unchanged (no official figures found).\nSpec audit 21 Oct 2026: all engine figures confirmed (CarDekho, Autocar India)."
+    }
+  ]
+}

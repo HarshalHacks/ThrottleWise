@@ -1,0 +1,1553 @@
+{
+  "cars": [
+    {
+      "id": "citroen-c3",
+      "brand": "Citroën",
+      "model": "C3",
+      "bodyType": "Hatchback",
+      "seats": 5,
+      "fuelTankL": 45,
+      "priceNote": "CarDekho New Delhi ex-showroom, Oct 2026 (citroen.in shows no rupee prices)",
+      "engines": {
+        "p12": {
+          "type": "1.2 PureTech 82 petrol",
+          "cylinders": 3,
+          "displacementCc": 1199,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 81,
+          "maxPowerRpm": 5750,
+          "maxTorqueNm": 115,
+          "maxTorqueRpm": 3750
+        },
+        "t12": {
+          "type": "1.2 PureTech 110 turbo petrol",
+          "cylinders": 3,
+          "displacementCc": 1199,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 108,
+          "maxPowerRpm": 5500,
+          "maxTorqueNm": 190,
+          "maxTorqueRpm": 1750
+        },
+        "t12at": {
+          "type": "1.2 PureTech 110 turbo petrol (AT tune)",
+          "cylinders": 3,
+          "displacementCc": 1199,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 108,
+          "maxPowerRpm": 5500,
+          "maxTorqueNm": 205,
+          "maxTorqueRpm": 1750
+        },
+        "cng": {
+          "type": "1.2 petrol + CNG kit",
+          "cylinders": 3,
+          "displacementCc": 1199,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": null,
+          "maxPowerRpm": null,
+          "maxTorqueNm": null,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Live",
+          "wheels": "15-inch steel",
+          "airbags": 2,
+          "features": [
+            "Dual front airbags",
+            "ABS with EBD",
+            "Rear parking sensors",
+            "Manual AC",
+            "Front power windows",
+            "4-speaker audio with Bluetooth and USB",
+            "Halogen headlamps",
+            "Fabric upholstery"
+          ]
+        },
+        {
+          "trim": "Live (O)",
+          "wheels": "15-inch steel with full wheel covers",
+          "airbags": 2,
+          "features": [
+            "Full wheel covers"
+          ]
+        },
+        {
+          "trim": "Feel",
+          "wheels": "15-inch steel with full wheel covers",
+          "airbags": 2,
+          "features": [
+            "10.25-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "LED DRLs",
+            "Electrically adjustable mirrors",
+            "Rear power windows",
+            "One-touch driver window"
+          ]
+        },
+        {
+          "trim": "Feel (O)",
+          "wheels": "15-inch steel with full wheel covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "LED projector headlamps",
+            "Fog lamps",
+            "Rear defogger and wiper",
+            "Auto-dimming IRVM",
+            "Remote keyless entry",
+            "ISOFIX mounts"
+          ]
+        },
+        {
+          "trim": "Shine",
+          "wheels": "15-inch diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "15-inch diamond-cut alloys",
+            "Automatic climate control",
+            "Digital driver's display",
+            "Wireless charger",
+            "Leather-wrapped steering wheel",
+            "ESP, hill hold and TPMS (turbo only)",
+            "Cruise control (AT only)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Live",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 499000,
+          "mileage": "19.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Live (O)",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 569000,
+          "mileage": "19.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Live (O)",
+          "power": "CNG MT",
+          "engine": "cng",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 573000,
+          "mileage": "28.1 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Feel",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 600000,
+          "mileage": "19.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Feel",
+          "power": "1.2 Turbo MT",
+          "engine": "t12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 758000,
+          "mileage": "19.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "110 PS turbo petrol",
+            "6-speed manual"
+          ]
+        },
+        {
+          "trim": "Feel",
+          "power": "CNG MT",
+          "engine": "cng",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 845000,
+          "mileage": "28.1 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Feel (O)",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 703000,
+          "mileage": "19.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Feel (O)",
+          "power": "CNG MT",
+          "engine": "cng",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 758000,
+          "mileage": "28.1 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Shine",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 786000,
+          "mileage": "19.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Shine",
+          "power": "1.2 Petrol MT DT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 793000,
+          "mileage": "19.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Dual-tone roof"
+          ]
+        },
+        {
+          "trim": "Shine",
+          "power": "CNG MT",
+          "engine": "cng",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 816000,
+          "mileage": "28.1 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Shine",
+          "power": "CNG MT DT",
+          "engine": "cng",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 831000,
+          "mileage": "28.1 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit",
+            "Dual-tone roof"
+          ]
+        },
+        {
+          "trim": "Shine",
+          "power": "1.2 Turbo MT",
+          "engine": "t12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 897000,
+          "mileage": "19.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "110 PS turbo petrol",
+            "6-speed manual",
+            "ESP, hill hold and TPMS"
+          ]
+        },
+        {
+          "trim": "Shine",
+          "power": "1.2 Turbo AT",
+          "engine": "t12at",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 968000,
+          "mileage": "18.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Push-button start",
+            "Cruise control"
+          ]
+        },
+        {
+          "trim": "Shine",
+          "power": "1.2 Turbo AT DT",
+          "engine": "t12at",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1015000,
+          "mileage": "18.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Dual-tone roof"
+          ]
+        },
+        {
+          "trim": "Shine",
+          "power": "Turbo AT Sport Ed.",
+          "engine": "t12at",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1021000,
+          "mileage": "18.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Sport Edition styling"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Citroen C3 CC21 front 20230524 (cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Dairokkan9",
+          "local": "photos/citroen-c3-front.jpg"
+        },
+        "rear": {
+          "file": "File:2022 Citroën C3 Feel Puretech 110 (India) rear view.png",
+          "license": "CC BY 3.0",
+          "artist": "DriveSpark",
+          "local": "photos/citroen-c3-rear.jpg"
+        }
+      },
+      "photoNotes": "Both Indian-market current-generation (CC21) cars, checked by eye; front is a near-front three-quarter street shot, rear a rear three-quarter. The 2025 'C3 X' update kept the exterior design.",
+      "sources": [
+        "https://www.cardekho.com/citroen/c3/variants.htm",
+        "https://www.citroen.in/models/c3.html",
+        "https://www.carwale.com/news/citroen-c3x-variants-explained-which-variant-gets-what/"
+      ],
+      "notes": "Sold as the C3 X since the 2025 update. Prices are CarDekho lakh figures (rounded to Rs 1,000). Trims, wheels, airbags and engine figures from citroen.in; CarWale's feature split used where citroen.in is silent. Mileage from citroen.in (turbo AT 18.3 kmpl; CarDekho shows 19.3 for AT). CNG mileage 28.1 km/kg from CarDekho; CNG power/torque not published. CarDekho lists Feel CNG (Rs 8.45 lakh) above Feel (O) CNG (Rs 7.58 lakh); reproduced as listed. CarDekho variant names map Live Optional/Feel Optional to Live (O)/Feel (O)."
+    },
+    {
+      "id": "citroen-basalt",
+      "brand": "Citroën",
+      "model": "Basalt",
+      "bodyType": "Coupe SUV",
+      "seats": 5,
+      "fuelTankL": 45,
+      "priceNote": "CarDekho New Delhi ex-showroom, Oct 2026 (citroen.in shows no rupee prices)",
+      "engines": {
+        "p12": {
+          "type": "1.2 PureTech 82 petrol",
+          "cylinders": 3,
+          "displacementCc": 1199,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 81,
+          "maxPowerRpm": 5750,
+          "maxTorqueNm": 115,
+          "maxTorqueRpm": 3750
+        },
+        "t12": {
+          "type": "1.2 PureTech 110 turbo petrol",
+          "cylinders": 3,
+          "displacementCc": 1199,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 108,
+          "maxPowerRpm": 5500,
+          "maxTorqueNm": 190,
+          "maxTorqueRpm": 1750
+        },
+        "t12at": {
+          "type": "1.2 PureTech 110 turbo petrol (AT tune)",
+          "cylinders": 3,
+          "displacementCc": 1199,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 108,
+          "maxPowerRpm": 5500,
+          "maxTorqueNm": 205,
+          "maxTorqueRpm": "1750-2500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "You",
+          "wheels": "16-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP and hill hold",
+            "Rear parking sensors",
+            "Digital instrument cluster",
+            "All four one-touch power windows",
+            "Electrically adjustable mirrors",
+            "ISOFIX"
+          ]
+        },
+        {
+          "trim": "Plus",
+          "wheels": "16-inch steel with full wheel covers",
+          "airbags": 6,
+          "features": [
+            "LED projector headlamps",
+            "LED DRLs",
+            "10.25-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "7-inch TFT cluster",
+            "Automatic climate control",
+            "Keyless entry with push-button start",
+            "TPMS"
+          ]
+        },
+        {
+          "trim": "Max",
+          "wheels": "16-inch diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "16-inch diamond-cut alloys",
+            "Leatherette seats",
+            "Ventilated front seats",
+            "Wireless charger",
+            "360-degree camera",
+            "Ambient lighting",
+            "Auto-dimming IRVM",
+            "Connected car tech (AT only)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "You",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 855000,
+          "mileage": "18.0 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "You",
+          "power": "1.2 Petrol MT CE",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 875000,
+          "mileage": "18.0 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Comfort Edition pack"
+          ]
+        },
+        {
+          "trim": "You",
+          "power": "1.2 Turbo MT",
+          "engine": "t12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 999000,
+          "mileage": "19.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "110 PS turbo petrol",
+            "6-speed manual"
+          ]
+        },
+        {
+          "trim": "Plus",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 999000,
+          "mileage": "18.0 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Plus",
+          "power": "1.2 Petrol MT CE",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 999000,
+          "mileage": "18.0 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Comfort Edition pack"
+          ]
+        },
+        {
+          "trim": "Plus",
+          "power": "1.2 Turbo MT",
+          "engine": "t12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1157000,
+          "mileage": "19.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "110 PS turbo petrol",
+            "6-speed manual",
+            "Front fog lamps"
+          ]
+        },
+        {
+          "trim": "Plus",
+          "power": "1.2 Turbo MT CE",
+          "engine": "t12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1157000,
+          "mileage": "19.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "110 PS turbo petrol",
+            "Comfort Edition pack"
+          ]
+        },
+        {
+          "trim": "Plus",
+          "power": "1.2 Turbo AT",
+          "engine": "t12at",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1282000,
+          "mileage": "18.7 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Cruise control"
+          ]
+        },
+        {
+          "trim": "Plus",
+          "power": "1.2 Turbo AT CE",
+          "engine": "t12at",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1282000,
+          "mileage": "18.7 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Comfort Edition pack"
+          ]
+        },
+        {
+          "trim": "Max",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1134000,
+          "mileage": "18.0 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Max",
+          "power": "1.2 Turbo MT",
+          "engine": "t12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1262000,
+          "mileage": "19.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "110 PS turbo petrol",
+            "6-speed manual"
+          ]
+        },
+        {
+          "trim": "Max",
+          "power": "1.2 Turbo MT DT",
+          "engine": "t12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1284000,
+          "mileage": "19.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "110 PS turbo petrol",
+            "Dual-tone roof"
+          ]
+        },
+        {
+          "trim": "Max",
+          "power": "1.2 Turbo AT",
+          "engine": "t12at",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1389000,
+          "mileage": "18.7 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Connected car tech and CARA assistant",
+            "Cruise control"
+          ]
+        },
+        {
+          "trim": "Max",
+          "power": "1.2 Turbo AT DT",
+          "engine": "t12at",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1411000,
+          "mileage": "18.7 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Dual-tone roof"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:4th International Auto Show, Bangalore (2025) 153.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Gpkp",
+          "local": "photos/citroen-basalt-front.jpg"
+        },
+        "rear": {
+          "file": "File:CitroenBasaltCC26PuretechGIIAS25RR.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Celica21gtfour",
+          "note": "Indonesia model, same design",
+          "local": "photos/citroen-basalt-rear.jpg"
+        }
+      },
+      "photoNotes": "Front: Indian-market 'Basalt X' at a Bangalore show (near-front, checked by eye; show-floor background). Rear: no Indian rear shot on Commons, so an Indonesian-market Basalt (GIIAS 2025, rear three-quarter) of the same design is used.",
+      "sources": [
+        "https://www.cardekho.com/citroen/basalt/variants.htm",
+        "https://www.citroen.in/models/basalt.html"
+      ],
+      "notes": "Sold as Basalt X. Prices are CarDekho lakh figures (rounded to Rs 1,000). Comfort Edition variants are listed by CarDekho; their extra kit is not detailed, and several are priced the same as the standard variant. CarDekho lists 'Max' with the 1.2 NA engine at Rs 11.34 lakh but quotes 19.5 kmpl for it; the citroen.in NA figure of 18.0 kmpl is used. Mileage per citroen.in: NA MT 18.0, turbo MT 19.5, turbo AT 18.7 kmpl."
+    },
+    {
+      "id": "citroen-aircross",
+      "brand": "Citroën",
+      "model": "Aircross",
+      "bodyType": "SUV",
+      "seats": null,
+      "fuelTankL": 45,
+      "priceNote": "CarDekho New Delhi ex-showroom, Oct 2026 (citroen.in shows no rupee prices)",
+      "engines": {
+        "p12": {
+          "type": "1.2 PureTech 82 petrol",
+          "cylinders": 3,
+          "displacementCc": 1199,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 81,
+          "maxPowerRpm": 5750,
+          "maxTorqueNm": 115,
+          "maxTorqueRpm": 3750
+        },
+        "t12": {
+          "type": "1.2 PureTech 110 turbo petrol",
+          "cylinders": 3,
+          "displacementCc": 1199,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 108,
+          "maxPowerRpm": 5500,
+          "maxTorqueNm": 190,
+          "maxTorqueRpm": 1750
+        },
+        "t12at": {
+          "type": "1.2 PureTech 110 turbo petrol (AT tune)",
+          "cylinders": 3,
+          "displacementCc": 1199,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 108,
+          "maxPowerRpm": 5500,
+          "maxTorqueNm": 205,
+          "maxTorqueRpm": "1750-2500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "You",
+          "wheels": "16-inch steel with full wheel covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP and hill hold",
+            "Digital instrument cluster",
+            "All four one-touch power windows",
+            "Electrically adjustable mirrors",
+            "ISOFIX"
+          ]
+        },
+        {
+          "trim": "Plus",
+          "wheels": "16-inch steel with full wheel covers",
+          "airbags": 6,
+          "features": [
+            "10.25-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "7-inch TFT cluster",
+            "Automatic climate control",
+            "Keyless entry with push-button start",
+            "Roof rails and LED DRLs",
+            "Rear parking sensors and TPMS",
+            "Projector headlamps (turbo only)"
+          ]
+        },
+        {
+          "trim": "Max",
+          "wheels": "17-inch diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "17-inch diamond-cut alloys",
+            "LED projector headlamps and fog lamps",
+            "Leatherette seats",
+            "Ventilated front seats",
+            "Wireless charger",
+            "360-degree camera",
+            "Auto-dimming IRVM",
+            "Connected car tech (AT only)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "You",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 889000,
+          "mileage": "17.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5 seats"
+          ]
+        },
+        {
+          "trim": "You",
+          "power": "1.2 Petrol MT CE",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 909000,
+          "mileage": "17.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5 seats",
+            "Comfort Edition pack"
+          ]
+        },
+        {
+          "trim": "You",
+          "power": "1.2 Turbo MT CE",
+          "engine": "t12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1049000,
+          "mileage": "18.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "110 PS turbo petrol",
+            "6-speed manual",
+            "Comfort Edition pack"
+          ]
+        },
+        {
+          "trim": "Plus",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 999000,
+          "mileage": "17.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5 seats"
+          ]
+        },
+        {
+          "trim": "Plus",
+          "power": "1.2 Petrol MT CE",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 999000,
+          "mileage": "17.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Comfort Edition pack"
+          ]
+        },
+        {
+          "trim": "Plus",
+          "power": "1.2 Turbo MT 7S",
+          "engine": "t12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1199000,
+          "mileage": "18.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "110 PS turbo petrol",
+            "7 seats",
+            "Projector headlamps"
+          ]
+        },
+        {
+          "trim": "Plus",
+          "power": "Turbo MT 7S CE",
+          "engine": "t12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1199000,
+          "mileage": "18.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "110 PS turbo petrol",
+            "7 seats",
+            "Comfort Edition pack"
+          ]
+        },
+        {
+          "trim": "Max",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1162000,
+          "mileage": "17.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5 seats"
+          ]
+        },
+        {
+          "trim": "Max",
+          "power": "1.2 Turbo MT",
+          "engine": "t12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1297000,
+          "mileage": "18.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "110 PS turbo petrol",
+            "5 seats"
+          ]
+        },
+        {
+          "trim": "Max",
+          "power": "1.2 Turbo MT 7S",
+          "engine": "t12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1335000,
+          "mileage": "18.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "110 PS turbo petrol",
+            "7 seats"
+          ]
+        },
+        {
+          "trim": "Max",
+          "power": "Turbo MT 7S DT",
+          "engine": "t12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1355000,
+          "mileage": "18.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "110 PS turbo petrol",
+            "7 seats",
+            "Dual-tone roof"
+          ]
+        },
+        {
+          "trim": "Max",
+          "power": "1.2 Turbo AT",
+          "engine": "t12at",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1414000,
+          "mileage": "17.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "5 seats",
+            "Cruise control"
+          ]
+        },
+        {
+          "trim": "Max",
+          "power": "1.2 Turbo AT 7S",
+          "engine": "t12at",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1452000,
+          "mileage": "17.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "7 seats"
+          ]
+        },
+        {
+          "trim": "Max",
+          "power": "Turbo AT 7S DT",
+          "engine": "t12at",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1472000,
+          "mileage": "17.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "7 seats",
+            "Dual-tone roof"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2023 Citroën C3 Aircross 1.2 CC24 (Indonesia) front view.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Andra Febrian",
+          "note": "Indonesia model, same design",
+          "local": "photos/citroen-aircross-front.jpg"
+        },
+        "rear": {
+          "file": "File:Citroën C3 Aircross 2024 Shine 1.0 Turbo 200 in Montevideo (rear).jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "NaBUru38",
+          "note": "Uruguay model, same design",
+          "local": "photos/citroen-aircross-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market Aircross photo on Commons. Front: Indonesian-market C3 Aircross (CC24, same body as India's), near-front three-quarter at a show. Rear: Uruguayan-market CC24, rear three-quarter on a street (mural behind). Both checked by eye.",
+      "sources": [
+        "https://www.cardekho.com/citroen/aircross-x/variants.htm",
+        "https://www.citroen.in/models/aircross.html"
+      ],
+      "notes": "Formerly C3 Aircross; now sold as Aircross X. Seats are 5 or 7 by variant (from CarDekho variant names; Flexi-Pro seating per citroen.in), so car-level seats is null and seat count is in extras where known. Prices are CarDekho lakh figures (rounded to Rs 1,000). Mileage per citroen.in: NA MT 17.5, turbo MT 18.5, turbo AT 17.6 kmpl. Comfort Edition extra kit not detailed."
+    },
+    {
+      "id": "renault-kwid",
+      "brand": "Renault",
+      "model": "Kwid",
+      "bodyType": "Hatchback",
+      "seats": 5,
+      "fuelTankL": 28,
+      "priceNote": "Autocar India launch table (ex-showroom Delhi), matching renault.co.in and CarDekho New Delhi, Oct 2026; CNG = petrol + Rs 70,450 dealer kit",
+      "engines": {
+        "p10": {
+          "type": "1.0 SCe petrol",
+          "cylinders": 3,
+          "displacementCc": 999,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 69,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 92.5,
+          "maxTorqueRpm": null
+        },
+        "cng": {
+          "type": "1.0 petrol + dealer-fitted CNG kit",
+          "cylinders": 3,
+          "displacementCc": 999,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": null,
+          "maxPowerRpm": null,
+          "maxTorqueNm": null,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Evolution",
+          "wheels": "14-inch steel with dual-tone covers",
+          "airbags": 2,
+          "features": [
+            "Dual front airbags",
+            "8-inch touchscreen",
+            "Wired Android Auto and Apple CarPlay",
+            "Rear parking camera and sensors",
+            "TPMS",
+            "Manual AC",
+            "Four power windows",
+            "LED DRLs"
+          ]
+        },
+        {
+          "trim": "Climber",
+          "wheels": "14-inch steel with dual-tone covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "Electric ORVMs with turn indicators",
+            "Steering-mounted audio controls",
+            "Climber styling"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Evolution",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 453000,
+          "mileage": "21.46 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Evolution",
+          "power": "1.0 Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 5-speed AMT",
+          "drivetrain": "FWD",
+          "priceInr": 490000,
+          "mileage": "22.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT",
+            "Hill-start assist"
+          ]
+        },
+        {
+          "trim": "Evolution",
+          "power": "CNG MT",
+          "engine": "cng",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 523000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Dealer-fitted CNG kit (Rs 70,450)"
+          ]
+        },
+        {
+          "trim": "Climber",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 515000,
+          "mileage": "21.46 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Climber",
+          "power": "1.0 Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 5-speed AMT",
+          "drivetrain": "FWD",
+          "priceInr": 561000,
+          "mileage": "22.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT",
+            "Hill-start assist"
+          ]
+        },
+        {
+          "trim": "Climber",
+          "power": "CNG MT",
+          "engine": "cng",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 585000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Dealer-fitted CNG kit (Rs 70,450)"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Renault Kwid - Facelift (2026).png",
+          "license": "CC0",
+          "artist": "(G)jabz",
+          "local": "photos/renault-kwid-front.jpg"
+        },
+        "rear": {
+          "file": "File:Renault Kwid Outsider (Brazil, rear).png",
+          "license": "CC BY 3.0",
+          "artist": "Autosdeprimera",
+          "note": "three-quarter view",
+          "local": "photos/renault-kwid-rear.jpg"
+        }
+      },
+      "photoNotes": "Front: Indian-plated 2026 facelift, near-front three-quarter, checked by eye. Rear: no rear photo of the 2026 facelift on Commons; older Kwid rears (e.g. 'Renault Kwid (rear).jpg', Colombian 2023 rear) rejected as the previous look.",
+      "sources": [
+        "https://www.autocarindia.com/car-news/2026-renault-kwid-launched-in-india-at-rs-453-lakh-440116",
+        "https://www.renault.co.in/cars/renault-kwid.html",
+        "https://www.cardekho.com/renault/kwid/variants.htm"
+      ],
+      "notes": "2026 facelift launched July 2026 with two trims, Evolution and Climber; renault.co.in lists Evolution from Rs 4,52,900 and Climber from Rs 5,14,900. Engine 69 hp / 92.5 Nm per launch coverage (older listings: 68 hp @ 5500 / 91 Nm @ 4250); rpm not confirmed for the 2026 car. Mileage is CarDekho's claimed figure (21.46 MT, 22.3 AMT; CarDekho shows no figure for Climber MT, same powertrain as Evolution MT); Autocar lists 21.7-22.5 kmpl for the earlier car. CNG is a dealer-fitted retrofit (manual only), not factory; CNG mileage not published. Fuel tank 28 L per Autocar spec listing (carried over)."
+    },
+    {
+      "id": "mg-astor",
+      "brand": "MG",
+      "model": "Astor",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 48,
+      "priceNote": "mgmotor.co.in, Oct 2026 (matches CarDekho New Delhi)",
+      "engines": {
+        "p15": {
+          "type": "1.5 VTi-TECH petrol",
+          "cylinders": 4,
+          "displacementCc": 1498,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 108,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 144,
+          "maxTorqueRpm": 4400
+        }
+      },
+      "trims": [
+        {
+          "trim": "Sprint",
+          "wheels": "16-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "10.1-inch touchscreen",
+            "3 steering modes",
+            "ABS with EBD and brake assist",
+            "Hill hold and descent control",
+            "ISOFIX"
+          ]
+        },
+        {
+          "trim": "Shine",
+          "wheels": "17-inch alloys",
+          "airbags": 6,
+          "features": [
+            "17-inch alloys",
+            "Push-button start",
+            "Silver roof rails"
+          ]
+        },
+        {
+          "trim": "Select",
+          "wheels": "17-inch alloys",
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "Wireless charger",
+            "Wireless Android Auto and Apple CarPlay",
+            "Heated ORVMs",
+            "Connected car tech",
+            "Digital Bluetooth key"
+          ]
+        },
+        {
+          "trim": "Sharp Pro",
+          "wheels": "17-inch alloys",
+          "airbags": 6,
+          "features": [
+            "Ventilated front seats",
+            "6-way power driver seat",
+            "Auto-dimming IRVM",
+            "Dual-tone Sangria Red interior"
+          ]
+        },
+        {
+          "trim": "Savvy Pro",
+          "wheels": "17-inch alloys",
+          "airbags": 6,
+          "features": [
+            "Level 2 ADAS (14 features)",
+            "Ivory or Sangria Red interior"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Sprint",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 979100,
+          "mileage": "15.43 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Shine",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1134100,
+          "mileage": "15.43 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Select",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1240100,
+          "mileage": "15.43 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Select",
+          "power": "1.5 Petrol CVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, CVT (8-step)",
+          "drivetrain": "FWD",
+          "priceInr": 1356100,
+          "mileage": "14.82 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "CVT automatic"
+          ]
+        },
+        {
+          "trim": "Sharp Pro",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1337100,
+          "mileage": "15.43 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Sharp Pro",
+          "power": "1.5 Petrol CVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, CVT (8-step)",
+          "drivetrain": "FWD",
+          "priceInr": 1452100,
+          "mileage": "14.82 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "CVT automatic"
+          ]
+        },
+        {
+          "trim": "Savvy Pro",
+          "power": "1.5 Petrol CVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, CVT (8-step)",
+          "drivetrain": "FWD",
+          "priceInr": 1530100,
+          "mileage": "14.82 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "CVT automatic"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2021 MG Astor Sharp 220 Turbo (India) front view.png",
+          "license": "CC BY 3.0",
+          "artist": "DriveSpark",
+          "local": "photos/mg-astor-front.jpg"
+        },
+        "rear": {
+          "file": "File:2021 MG Astor Sharp 220 Turbo (India) rear view.png",
+          "license": "CC BY 3.0",
+          "artist": "DriveSpark",
+          "local": "photos/mg-astor-rear.jpg"
+        }
+      },
+      "photoNotes": "Indian-market Astor (current design, no facelift since launch), near-front and rear three-quarter views, checked by eye. Rear car carries an 'AI Inside' plate.",
+      "sources": [
+        "https://www.mgmotor.co.in/vehicles/mgastor",
+        "https://www.cardekho.com/mg/astor/variants.htm",
+        "https://www.carwale.com/mg-cars/astor/"
+      ],
+      "notes": "1.3 turbo petrol no longer on MG's variant list. CarDekho also lists a Savvy Pro Sangria CVT at the same price (interior colour only). Airbags: MG FAQ and CarWale say 6 airbags; MG's variant cards state 6 explicitly only for Sharp Pro. Mileage is CarDekho's claimed figure (MG site does not list it). Power 110 PS = 108 bhp."
+    },
+    {
+      "id": "mg-hector-plus",
+      "brand": "MG",
+      "model": "Hector Plus",
+      "bodyType": "SUV",
+      "seats": 7,
+      "fuelTankL": 60,
+      "priceNote": "CarDekho New Delhi ex-showroom, Oct 2026 (petrol); diesel from MG launch price via Gaadify, Jul 2026",
+      "engines": {
+        "t15": {
+          "type": "1.5 turbo petrol",
+          "cylinders": 4,
+          "displacementCc": 1451,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 141,
+          "maxPowerRpm": 5000,
+          "maxTorqueNm": 250,
+          "maxTorqueRpm": "1600-3600"
+        },
+        "d20": {
+          "type": "2.0 turbo diesel",
+          "cylinders": 4,
+          "displacementCc": null,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 168,
+          "maxPowerRpm": 3750,
+          "maxTorqueNm": 350,
+          "maxTorqueRpm": "1750-2500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Sharp Pro",
+          "wheels": "18-inch alloys",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "14-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Panoramic sunroof",
+            "LED headlamps and fog lamps",
+            "Ventilated and powered front seats",
+            "Infinity 8-speaker audio",
+            "ESC and TPMS"
+          ]
+        },
+        {
+          "trim": "Sharp Pro (O)",
+          "wheels": "18-inch alloys",
+          "airbags": 6,
+          "features": [
+            "Diesel engine option",
+            "Tan-and-black interior"
+          ]
+        },
+        {
+          "trim": "Savvy Pro",
+          "wheels": "18-inch alloys",
+          "airbags": 6,
+          "features": [
+            "Level 2 ADAS",
+            "360-degree camera",
+            "Powered tailgate",
+            "PM2.5 air purifier"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Sharp Pro",
+          "power": "1.5 Turbo MT",
+          "engine": "t15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1749000,
+          "mileage": "13.79 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Sharp Pro",
+          "power": "1.5 Turbo CVT",
+          "engine": "t15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, CVT",
+          "drivetrain": "FWD",
+          "priceInr": 1879000,
+          "mileage": "12.34 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "CVT automatic"
+          ]
+        },
+        {
+          "trim": "Sharp Pro (O)",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2000000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Savvy Pro",
+          "power": "1.5 Turbo CVT",
+          "engine": "t15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, CVT",
+          "drivetrain": "FWD",
+          "priceInr": 1969000,
+          "mileage": "12.34 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "local": "photos/mg-hector-front.jpg",
+          "artist": "DriveSpark",
+          "license": "CC BY 3.0",
+          "note": "Shown as the MG Hector, which looks near-identical from the front"
+        }
+      },
+      "photoNotes": "Only Commons photos are the pre-facelift Indian Hector Plus ('MG Hector Plus (India) front view (1).png', 'rear view (1).png'); rejected because the Dec 2025 facelift changed the front and rear styling. No facelift photo found. Front photo reused from mg-hector: Shown as the MG Hector, which looks near-identical from the front",
+      "sources": [
+        "https://www.cardekho.com/mg/hector-plus/variants.htm",
+        "https://gaadify.com/mg-hector-plus-diesel-gets-back-on-sale-at-rs-20-lakh/",
+        "https://www.rushlane.com/2026-mg-hector-facelift-launch-price-rs-11-99-lakh-12536226.html",
+        "https://www.mgmotor.co.in/vehicles/mghector-plus-7-seater.html"
+      ],
+      "notes": "Facelift launched Dec 2025 (petrol); diesel returned Jul 2026 as a single Sharp Pro (O) 7-seat 6MT at about Rs 20 lakh (exact figure not published). mgmotor.co.in Hector Plus pages still show the old line-up (Select Pro, Smart Pro, Blackstorm etc.), so CarDekho prices are used; CarWale also mentions 6-seat versions and a Rs 17.29 lakh start (pre-April 2026 hike). Engine figures from MG site (143 PS @ 5000, 250 Nm; 170 PS @ 3750, 350 Nm); diesel displacement not confirmed. Diesel mileage not published. Sharp Pro features per Gaadify's Sharp Pro (O) description; Savvy Pro extras per Gaadify comparison."
+    }
+  ]
+}

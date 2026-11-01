@@ -1,0 +1,4703 @@
+{
+  "asOf": "Oct 2026",
+  "states": [
+    {
+      "state": "Tripura",
+      "city": "Agartala",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 300000,
+          "percent": null
+        },
+        {
+          "fuel": "any",
+          "minPrice": 300000,
+          "maxPrice": 500000,
+          "percent": null
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": null
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 1500000,
+          "percent": null
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1500000,
+          "maxPrice": null,
+          "percent": null
+        }
+      ],
+      "roadTaxNotes": "Fixed one-time (15-year) amounts, not percentages: up to 3L Rs 4,100; 3-5L Rs 4,800; 5-10L Rs 6,900; 10-15L Rs 7,550; above 15L Rs 8,250 (GoDigit, Bajaj Finserv, Spinny agree). EVs exempt. CNG price not found. Registration fee 600 assumed (no state figure found).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 104.96,
+        "Diesel": 93.85,
+        "CNG": null
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://www.godigit.com/road-tax/tripura-road-tax",
+        "https://www.bajajfinservmarkets.in/resources/rto/road-tax-tripura",
+        "https://www.spinny.com/blog/road-tax-in-tripura-applicability-calculation-payment/",
+        "https://www.goodreturns.in/petrol-price-in-agartala.html",
+        "https://www.goodreturns.in/diesel-price-in-agartala.html",
+        "https://www.goodreturns.in/cng-price-in-agartala.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Uttar Pradesh",
+      "city": "Agra",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 9
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 11
+        }
+      ],
+      "roadTaxNotes": "UNCERTAIN: another source gives 8% / 10%. EV waiver only for UP-made EVs until Oct 2027. CNG is UP state figure. GoDigit gives 3/6/8/9% (annual, generic); not verified. Kanpur fuel prices from BankBazaar (21 Oct 2026); CNG price not found. Fuel prices are city-level figures for Kanpur (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 101.66,
+        "Diesel": 95.14,
+        "CNG": 107
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://english.newstrack.com/india-news/petrol-diesel-rate-today-check-fuel-prices-in-delhi-mumbai-lucknow-and-more-cities-642027",
+        "https://www.bankbazaar.com/fuel/petrol-price-kanpur.html",
+        "https://www.bankbazaar.com/fuel/diesel-price-kanpur.html",
+        "https://www.goodreturns.in/petrol-price-in-agra.html",
+        "https://www.goodreturns.in/diesel-price-in-agra.html",
+        "https://www.goodreturns.in/cng-price-in-agra.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": null,
+          "percent": 6
+        }
+      ],
+      "roadTaxNotes": "Flat 6% computed on pre-GST invoice price (not GST-inclusive ex-showroom). Some sources quote 12% above Rs 10L (unverified). EV 1%. Flat 6% for new cars confirmed by GoDigit (Sep 2026). Fuel prices are Gujarat state figures.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 102.04,
+        "Diesel": 98.15,
+        "CNG": 88.76
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.goodreturns.in/petrol-price.html",
+        "https://www.goodreturns.in/diesel-price.html",
+        "https://www.goodreturns.in/cng-price.html",
+        "https://www.godigit.com/road-tax/gujarat-road-tax"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Mizoram",
+      "city": "Aizawl",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": null,
+          "percent": 6
+        }
+      ],
+      "roadTaxNotes": "Mizoram MV Taxation (Amendment) Act 2019: 6% of cost excl. GST lump sum for 15 years (or 4.2% + 2.2% instalments) per Bajaj Finserv and LegitQuest act text. GoDigit instead lists cc/age-based fixed amounts. CNG price not found. Registration fee 600 assumed (no state figure found).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 106.54,
+        "Diesel": 95.16,
+        "CNG": null
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://www.bajajfinserv.in/insurance/mizoram-road-tax",
+        "https://www.legitquest.com/act/mizoram-motor-vehicles-taxation-amendment-act-2019/5FEE",
+        "https://www.godigit.com/road-tax/mizoram-road-tax",
+        "https://www.goodreturns.in/petrol-price-in-aizawl.html",
+        "https://www.goodreturns.in/diesel-price-in-aizawl.html",
+        "https://www.goodreturns.in/cng-price-in-aizawl.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Rajasthan",
+      "city": "Ajmer",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 9
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 10
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 11
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 12
+        }
+      ],
+      "roadTaxNotes": "Below Rs 10L rate also varies by engine cc (petrol 6% <800cc, 9% 800-1200cc, up to 10% for Rs 5-10L; diesel 8/11/12%); simplified here. +12.5% surcharge on tax; green tax Rs 2,500-5,000. EV waiver until Aug 2027. Not verified: GoDigit gives 4/6/8% (3L/6L breaks). CNG is Rajasthan state figure.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 112.31,
+        "Diesel": 97.46,
+        "CNG": 96.33
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.goodreturns.in/petrol-price-in-ajmer.html",
+        "https://www.goodreturns.in/diesel-price-in-ajmer.html",
+        "https://www.goodreturns.in/cng-price-in-ajmer.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Haryana",
+      "city": "Ambala",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 5
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 2000000,
+          "percent": 8
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 10
+        }
+      ],
+      "roadTaxNotes": "On ex-showroom, no diesel surcharge listed. Least documented; verify. CNG is Haryana state figure. GoDigit gives 3/6/8/10%; not verified. Fuel prices are city-level figures for Faridabad (21 Oct 2026). CNG price last updated 21 Jul 2026 on GoodReturns.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 103.32,
+        "Diesel": 95.96,
+        "CNG": 94.95
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://english.newstrack.com/india-news/petrol-diesel-rate-today-check-fuel-prices-in-delhi-mumbai-lucknow-and-more-cities-642027",
+        "https://www.goodreturns.in/petrol-price-in-ambala.html",
+        "https://www.goodreturns.in/diesel-price-in-ambala.html",
+        "https://www.goodreturns.in/cng-price-in-ambala.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Punjab",
+      "city": "Amritsar",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 10
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 13
+        }
+      ],
+      "roadTaxNotes": "Motomotar: 10% up to 10L, 12% 10-20L, 13% above; +Rs 1,000 cow cess; EV waiver. Conflict: BankBazaar/Bajaj cite older flat 2%, SBI General 9.5% up to 15L. Not verified. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed. Fuel prices are city-level figures for Amritsar (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 105.56,
+        "Diesel": 95.47,
+        "CNG": 91.33
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.bankbazaar.com/tax/punjab-road-tax.html",
+        "https://www.goodreturns.in/petrol-price-in-amritsar.html",
+        "https://www.goodreturns.in/diesel-price-in-amritsar.html",
+        "https://www.goodreturns.in/cng-price-in-amritsar.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "West Bengal",
+      "city": "Asansol",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 5.5
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 10
+        }
+      ],
+      "roadTaxNotes": "UNCERTAIN: sources conflict; another gives 10% (<10L) / 13% (>10L) with 2.5% diesel surcharge. GoDigit gives 5/10/12/14% (6/10/20L breaks), a third variant. Not verified. Fuel prices are Paschim Bardhaman district figures (GoodReturns has no Asansol city page). CNG price not found.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 113.9,
+        "Diesel": 100.22,
+        "CNG": null
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://newsable.asianetnews.com/india/petrol-diesel-prices-today-october-21-check-city-wise-rates-in-delhi-mumbai-bengaluru-and-more-articleshow-h6fwuwa",
+        "https://www.v3cars.com/fuel-price-in-india",
+        "https://www.goodreturns.in/petrol-price-in-paschim-bardhaman.html",
+        "https://www.goodreturns.in/diesel-price-in-paschim-bardhaman.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Maharashtra",
+      "city": "Aurangabad (Chhatrapati Sambhajinagar)",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 11
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 12
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 13
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 14
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 15
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 12
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 13
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        }
+      ],
+      "roadTaxNotes": "Individual owner; on ex-showroom. +2% road safety cess on tax amount. Company-registered flat 20%. Hybrid: no separate rule found, assume petrol. EV 100% waiver until Mar 2030. Petrol/diesel slabs confirmed by GoDigit and ICICI Lombard (Oct 2026). CNG raised by 1 point from 1 July 2025 (PTI via The Week): 12/13/14%.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 112.08,
+        "Diesel": 98.72,
+        "CNG": 105.36
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.godigit.com/road-tax/maharashtra-road-tax",
+        "https://www.theweek.in/wire-updates/business/2025/07/01/bom2-mh-vehicles-revised-tax.html",
+        "https://www.goodreturns.in/petrol-price-in-aurangabad.html",
+        "https://www.goodreturns.in/diesel-price-in-aurangabad.html",
+        "https://www.goodreturns.in/cng-price-in-aurangabad.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Uttar Pradesh",
+      "city": "Bareilly",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 9
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 11
+        }
+      ],
+      "roadTaxNotes": "UNCERTAIN: another source gives 8% / 10%. EV waiver only for UP-made EVs until Oct 2027. CNG is UP state figure. GoDigit gives 3/6/8/9% (annual, generic); not verified. Kanpur fuel prices from BankBazaar (21 Oct 2026); CNG price not found. Fuel prices are city-level figures for Kanpur (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 101.78,
+        "Diesel": 95.27,
+        "CNG": 100.9
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://english.newstrack.com/india-news/petrol-diesel-rate-today-check-fuel-prices-in-delhi-mumbai-lucknow-and-more-cities-642027",
+        "https://www.bankbazaar.com/fuel/petrol-price-kanpur.html",
+        "https://www.bankbazaar.com/fuel/diesel-price-kanpur.html",
+        "https://www.goodreturns.in/petrol-price-in-bareilly.html",
+        "https://www.goodreturns.in/diesel-price-in-bareilly.html",
+        "https://www.goodreturns.in/cng-price-in-bareilly.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Karnataka",
+      "city": "Belagavi",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 14
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 17
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 18
+        }
+      ],
+      "roadTaxNotes": "Lifetime tax on ex-showroom. +11% cess on the tax amount plus Rs 1,000 welfare cess (in otherRtoCharges). EVs taxed 5/8/10% from Apr 2026 amendment. Slabs 13/14/17/18% confirmed by Spinny (effective 1 Apr 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": 1000,
+      "fuelPrice": {
+        "Petrol": 110.71,
+        "Diesel": 98.67,
+        "CNG": 103
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.spinny.com/blog/road-tax-in-karnataka-applicability-calculation-payment-more/",
+        "https://www.goodreturns.in/petrol-price-in-belgaum.html",
+        "https://www.goodreturns.in/diesel-price-in-belgaum.html",
+        "https://www.goodreturns.in/cng-price-in-belgaum.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Karnataka",
+      "city": "Bengaluru",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 14
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 17
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 18
+        }
+      ],
+      "roadTaxNotes": "Lifetime tax on ex-showroom. +11% cess on the tax amount plus Rs 1,000 welfare cess (in otherRtoCharges). EVs taxed 5/8/10% from Apr 2026 amendment. Slabs 13/14/17/18% confirmed by Spinny (effective 1 Apr 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": 1000,
+      "fuelPrice": {
+        "Petrol": 111.68,
+        "Diesel": 99.56,
+        "CNG": 98
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.goodreturns.in/cng-price.html",
+        "https://www.spinny.com/blog/road-tax-in-karnataka-applicability-calculation-payment-more/"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Gujarat",
+      "city": "Bhavnagar",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": null,
+          "percent": 6
+        }
+      ],
+      "roadTaxNotes": "Flat 6% computed on pre-GST invoice price (not GST-inclusive ex-showroom). Some sources quote 12% above Rs 10L (unverified). EV 1%. Flat 6% for new cars confirmed by GoDigit (Sep 2026). Fuel prices are Gujarat state figures.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 103.05,
+        "Diesel": 99.17,
+        "CNG": 88.76
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/gujarat-road-tax",
+        "https://www.goodreturns.in/petrol-price-in-bhavnagar.html",
+        "https://www.goodreturns.in/diesel-price-in-bhavnagar.html",
+        "https://www.goodreturns.in/cng-price-in-bhavnagar.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Madhya Pradesh",
+      "city": "Bhopal",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 8
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 10
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 8
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 10
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 10
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 12
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 16
+        }
+      ],
+      "roadTaxNotes": "Motomotar and Shriram GI (2026) agree. Hybrid not stated, assume petrol. EV exemption expired Mar 2026 (Shriram lists EV 4%). Bajaj Finserv shows older/different figures. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed. Fuel prices are city-level figures for Bhopal (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 114.54,
+        "Diesel": 99.64,
+        "CNG": 97.5
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.shriramgi.com/article/highest-road-tax-in-india-2026-which-state-tops-the-list",
+        "https://www.goodreturns.in/petrol-price-in-bhopal.html",
+        "https://www.goodreturns.in/diesel-price-in-bhopal.html",
+        "https://www.goodreturns.in/cng-price-in-bhopal.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Odisha",
+      "city": "Bhubaneswar",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 6
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 8
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 10
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": 4000000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 4000000,
+          "maxPrice": null,
+          "percent": 20
+        }
+      ],
+      "roadTaxNotes": "Motomotar and GoDigit agree. No fuel-specific rates stated. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 108.97,
+        "Diesel": 100.68,
+        "CNG": 93.5
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/odisha-road-tax",
+        "https://www.goodreturns.in/petrol-price.html",
+        "https://www.goodreturns.in/diesel-price.html",
+        "https://www.goodreturns.in/cng-price.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Rajasthan",
+      "city": "Bikaner",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 9
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 10
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 11
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 12
+        }
+      ],
+      "roadTaxNotes": "Below Rs 10L rate also varies by engine cc (petrol 6% <800cc, 9% 800-1200cc, up to 10% for Rs 5-10L; diesel 8/11/12%); simplified here. +12.5% surcharge on tax; green tax Rs 2,500-5,000. EV waiver until Aug 2027. Not verified: GoDigit gives 4/6/8% (3L/6L breaks). CNG is Rajasthan state figure.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 114.15,
+        "Diesel": 99.29,
+        "CNG": 114
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.goodreturns.in/petrol-price-in-bikaner.html",
+        "https://www.goodreturns.in/diesel-price-in-bikaner.html",
+        "https://www.goodreturns.in/cng-price-in-bikaner.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Chhattisgarh",
+      "city": "Bilaspur",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 5
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": null,
+          "percent": 6
+        }
+      ],
+      "roadTaxNotes": "New private four-wheelers: 5% of cost up to Rs 5L, 6% above (GoDigit, Spinny/BankBazaar). No fuel-specific rates published. Raipur CNG price not found. Registration fee 600 assumed (no state figure found). Fuel prices from GoodReturns Chhattisgarh district table (Bilaspur row). CNG price not found.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 108.97,
+        "Diesel": 102.22,
+        "CNG": null
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://www.godigit.com/road-tax/chhattisgarh-road-tax",
+        "https://www.spinny.com/blog/road-tax-in-chhattisgarh-applicability-calculation-payment/",
+        "https://www.bankbazaar.com/tax/chhattisgarh-road-tax.html",
+        "https://www.goodreturns.in/petrol-price-in-chhatisgarh-s7.html",
+        "https://www.goodreturns.in/diesel-price-in-chhatisgarh-s7.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Chandigarh",
+      "city": "Chandigarh",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 10
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 12
+        }
+      ],
+      "roadTaxNotes": "Motomotar: 10% up to 10L (bands 0-6L and 6-10L both 10%), 12% above; +Rs 1,000 cow cess; EV waiver to Mar 2028. GoDigit table says 6% but its own FAQ says 12%. Not verified.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 101.54,
+        "Diesel": 89.47,
+        "CNG": 93.8
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/chandigarh-road-tax",
+        "https://www.goodreturns.in/petrol-price.html",
+        "https://www.goodreturns.in/diesel-price.html",
+        "https://www.goodreturns.in/cng-price.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Tamil Nadu",
+      "city": "Chennai",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 18
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 20
+        }
+      ],
+      "roadTaxNotes": "On ex-showroom. Plus fixed Rs 2,250 road safety tax. EV 100% waiver until Dec 2027. GoDigit gives 9/12/18/20% (6L break); motomotar calculator example (Rs 10L->13%, Rs 20L->18%) consistent with existing. Not verified.",
+      "registrationFee": 600,
+      "otherRtoCharges": 2250,
+      "fuelPrice": {
+        "Petrol": 107.77,
+        "Diesel": 99.55,
+        "CNG": 99.5
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.v3cars.com/fuel-price-in-india"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Tamil Nadu",
+      "city": "Coimbatore",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 18
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 20
+        }
+      ],
+      "roadTaxNotes": "On ex-showroom. Plus fixed Rs 2,250 road safety tax. EV 100% waiver until Dec 2027. GoDigit gives 9/12/18/20% (6L break); motomotar calculator example (Rs 10L->13%, Rs 20L->18%) consistent with existing. Not verified. Fuel prices are city-level figures for Coimbatore (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": 2250,
+      "fuelPrice": {
+        "Petrol": 108.63,
+        "Diesel": 100.45,
+        "CNG": 96.9
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.v3cars.com/fuel-price-in-india",
+        "https://www.goodreturns.in/petrol-price-in-coimbatore.html",
+        "https://www.goodreturns.in/diesel-price-in-coimbatore.html",
+        "https://www.goodreturns.in/cng-price-in-coimbatore.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Odisha",
+      "city": "Cuttack",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 6
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 8
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 10
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": 4000000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 4000000,
+          "maxPrice": null,
+          "percent": 20
+        }
+      ],
+      "roadTaxNotes": "Motomotar and GoDigit agree. No fuel-specific rates stated. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed. CNG price last updated 27 Sep 2026 on GoodReturns.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 109.2,
+        "Diesel": 100.9,
+        "CNG": 93.5
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/odisha-road-tax",
+        "https://www.goodreturns.in/petrol-price-in-cuttack.html",
+        "https://www.goodreturns.in/diesel-price-in-cuttack.html",
+        "https://www.goodreturns.in/cng-price-in-cuttack.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Uttarakhand",
+      "city": "Dehradun",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 6
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 8
+        }
+      ],
+      "roadTaxNotes": "Motomotar and GoDigit agree (6% <10L, 8% above). +Rs 1,500-3,000 green tax. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 99.54,
+        "Diesel": 95.05,
+        "CNG": 99.5
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/uttarakhand-road-tax",
+        "https://www.goodreturns.in/petrol-price.html",
+        "https://www.goodreturns.in/diesel-price.html",
+        "https://www.goodreturns.in/cng-price.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Jharkhand",
+      "city": "Dhanbad",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1500000,
+          "percent": 6
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1500000,
+          "maxPrice": null,
+          "percent": 15
+        }
+      ],
+      "roadTaxNotes": "Private cars 6% of ex-showroom (excl. GST); 15% above Rs 15L per GoDigit and SBI General (GoDigit unclear whether replacing or additional). BankBazaar mentions +1% for diesel (unconfirmed, not applied). CNG price dated September 2026. Registration fee 600 assumed (no state figure found).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 105.66,
+        "Diesel": 100.86,
+        "CNG": 95
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://www.godigit.com/road-tax/jharkhand-road-tax",
+        "https://www.sbigeneral.in/blog/motor-insurance/motor-articles/jharkhand-road-tax",
+        "https://www.bankbazaar.com/tax/jharkhand-road-tax.html",
+        "https://www.goodreturns.in/petrol-price-in-dhanbad.html",
+        "https://www.goodreturns.in/diesel-price-in-dhanbad.html",
+        "https://www.goodreturns.in/cng-price-in-dhanbad.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Assam",
+      "city": "Dibrugarh",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": null
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 2000000,
+          "percent": 10
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        }
+      ],
+      "roadTaxNotes": "Motomotar: 4-6% up to 5L (range, left null), 10% 5-20L, 14% above; +1% road safety cess. Conflict: GoDigit 3/4/5/7% (3/15/20L breaks). Not verified. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed. CNG from V3Cars. CNG price last updated 26 Sep 2026 on GoodReturns.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 107.77,
+        "Diesel": 99.16,
+        "CNG": 77.08
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/assam-road-tax",
+        "https://www.v3cars.com/fuel-price-in-india",
+        "https://www.goodreturns.in/petrol-price-in-dibrugarh.html",
+        "https://www.goodreturns.in/diesel-price-in-dibrugarh.html",
+        "https://www.goodreturns.in/cng-price-in-dibrugarh.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "West Bengal",
+      "city": "Durgapur",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 5.5
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 10
+        }
+      ],
+      "roadTaxNotes": "UNCERTAIN: sources conflict; another gives 10% (<10L) / 13% (>10L) with 2.5% diesel surcharge. GoDigit gives 5/10/12/14% (6/10/20L breaks), a third variant. Not verified. Fuel prices are Paschim Bardhaman district figures (GoodReturns has no Durgapur city page). CNG price not found.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 113.9,
+        "Diesel": 100.22,
+        "CNG": null
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://newsable.asianetnews.com/india/petrol-diesel-prices-today-october-21-check-city-wise-rates-in-delhi-mumbai-bengaluru-and-more-articleshow-h6fwuwa",
+        "https://www.v3cars.com/fuel-price-in-india",
+        "https://www.goodreturns.in/petrol-price-in-paschim-bardhaman.html",
+        "https://www.goodreturns.in/diesel-price-in-paschim-bardhaman.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Haryana",
+      "city": "Faridabad",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 5
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 2000000,
+          "percent": 8
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 10
+        }
+      ],
+      "roadTaxNotes": "On ex-showroom, no diesel surcharge listed. Least documented; verify. CNG is Haryana state figure. GoDigit gives 3/6/8/10%; not verified. Fuel prices are city-level figures for Faridabad (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 103.35,
+        "Diesel": 96.01,
+        "CNG": 99.7
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://english.newstrack.com/india-news/petrol-diesel-rate-today-check-fuel-prices-in-delhi-mumbai-lucknow-and-more-cities-642027",
+        "https://www.goodreturns.in/petrol-price-in-faridabad.html",
+        "https://www.goodreturns.in/diesel-price-in-faridabad.html",
+        "https://www.goodreturns.in/cng-price-in-faridabad.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Gujarat",
+      "city": "Gandhinagar",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": null,
+          "percent": 6
+        }
+      ],
+      "roadTaxNotes": "Flat 6% computed on pre-GST invoice price (not GST-inclusive ex-showroom). Some sources quote 12% above Rs 10L (unverified). EV 1%. Flat 6% for new cars confirmed by GoDigit (Sep 2026). Fuel prices are Gujarat state figures.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 102.04,
+        "Diesel": 98.15,
+        "CNG": 88.76
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/gujarat-road-tax",
+        "https://www.goodreturns.in/petrol-price-in-gandhinagar.html",
+        "https://www.goodreturns.in/diesel-price-in-gandhinagar.html",
+        "https://www.goodreturns.in/cng-price-in-gandhinagar.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Sikkim",
+      "city": "Gangtok",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": null,
+          "percent": null
+        }
+      ],
+      "roadTaxNotes": "Annual tax by engine capacity, not price: under 900cc Rs 1,000; 900-1490cc Rs 1,200; 1490-2000cc Rs 2,500; over 2000cc Rs 3,000 (GoDigit, Bajaj Finserv). Percent null. CNG price not found. Registration fee 600 assumed (no state figure found).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 110.8,
+        "Diesel": 97.7,
+        "CNG": null
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://www.godigit.com/road-tax/sikkim-road-tax",
+        "https://www.bajajfinserv.in/insurance/sikkim-road-tax",
+        "https://www.goodreturns.in/petrol-price-in-gangtok.html",
+        "https://www.goodreturns.in/diesel-price-in-gangtok.html",
+        "https://www.goodreturns.in/cng-price-in-gangtok.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Bihar",
+      "city": "Gaya",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": null
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 2000000,
+          "percent": 10
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 12
+        }
+      ],
+      "roadTaxNotes": "Motomotar: 8-9% up to 5L (range, left null), 10% 5-20L, 12% above 20L. GoDigit: 8% to 1L, 9% 1-8L, 10% 8-15L, 12% above 15L. Not verified. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 114.31,
+        "Diesel": 100.26,
+        "CNG": 103.5
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/bihar-road-tax",
+        "https://www.goodreturns.in/petrol-price-in-gaya.html",
+        "https://www.goodreturns.in/diesel-price-in-gaya.html",
+        "https://www.goodreturns.in/cng-price-in-gaya.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Uttar Pradesh",
+      "city": "Ghaziabad",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 9
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 11
+        }
+      ],
+      "roadTaxNotes": "UNCERTAIN: another source gives 8% / 10%. EV waiver only for UP-made EVs until Oct 2027. CNG is UP state figure. GoDigit gives 3/6/8/9% (annual, generic); not verified. Kanpur fuel prices from BankBazaar (21 Oct 2026); CNG price not found. Fuel prices are city-level figures for Kanpur (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 101.88,
+        "Diesel": 95.36,
+        "CNG": 95.59
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://english.newstrack.com/india-news/petrol-diesel-rate-today-check-fuel-prices-in-delhi-mumbai-lucknow-and-more-cities-642027",
+        "https://www.bankbazaar.com/fuel/petrol-price-kanpur.html",
+        "https://www.bankbazaar.com/fuel/diesel-price-kanpur.html",
+        "https://www.goodreturns.in/petrol-price-in-ghaziabad.html",
+        "https://www.goodreturns.in/diesel-price-in-ghaziabad.html",
+        "https://www.goodreturns.in/cng-price-in-ghaziabad.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Andhra Pradesh",
+      "city": "Guntur",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 14
+        }
+      ],
+      "roadTaxNotes": "Lifetime tax for new car: 12% below 10L, 14% above (Motomotar and GoDigit agree). +10% road safety cess on tax; +2% for second vehicle in same name; EV waiver to Dec 2029. Petrol/diesel from V3Cars AP state figure; CNG GoodReturns AP state figure. Fuel prices are city-level figures for Vijayawada (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 117.68,
+        "Diesel": 105.36,
+        "CNG": 99.8
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/andhra-pradesh-road-tax",
+        "https://www.v3cars.com/fuel-price-in-india",
+        "https://www.goodreturns.in/petrol-price-in-guntur.html",
+        "https://www.goodreturns.in/diesel-price-in-guntur.html",
+        "https://www.goodreturns.in/cng-price-in-guntur.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Haryana",
+      "city": "Gurugram",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 5
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 2000000,
+          "percent": 8
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 10
+        }
+      ],
+      "roadTaxNotes": "On ex-showroom, no diesel surcharge listed. Least documented; verify. CNG is Haryana state figure. GoDigit gives 3/6/8/10%; not verified.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 102.77,
+        "Diesel": 95.44,
+        "CNG": 99.7
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://english.newstrack.com/india-news/petrol-diesel-rate-today-check-fuel-prices-in-delhi-mumbai-lucknow-and-more-cities-642027",
+        "https://www.goodreturns.in/cng-price.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Assam",
+      "city": "Guwahati",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": null
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 2000000,
+          "percent": 10
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        }
+      ],
+      "roadTaxNotes": "Motomotar: 4-6% up to 5L (range, left null), 10% 5-20L, 14% above; +1% road safety cess. Conflict: GoDigit 3/4/5/7% (3/15/20L breaks). Not verified. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed. CNG from V3Cars.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 105.73,
+        "Diesel": 97.23,
+        "CNG": 87.94
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/assam-road-tax",
+        "https://www.goodreturns.in/petrol-price.html",
+        "https://www.goodreturns.in/diesel-price.html",
+        "https://www.goodreturns.in/cng-price.html",
+        "https://www.v3cars.com/fuel-price-in-india"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Madhya Pradesh",
+      "city": "Gwalior",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 8
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 10
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 8
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 10
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 10
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 12
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 16
+        }
+      ],
+      "roadTaxNotes": "Motomotar and Shriram GI (2026) agree. Hybrid not stated, assume petrol. EV exemption expired Mar 2026 (Shriram lists EV 4%). Bajaj Finserv shows older/different figures. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed. Fuel prices are city-level figures for Bhopal (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 114.48,
+        "Diesel": 99.59,
+        "CNG": 97.76
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.shriramgi.com/article/highest-road-tax-in-india-2026-which-state-tops-the-list",
+        "https://www.goodreturns.in/petrol-price-in-gwalior.html",
+        "https://www.goodreturns.in/diesel-price-in-gwalior.html",
+        "https://www.goodreturns.in/cng-price-in-gwalior.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Uttarakhand",
+      "city": "Haldwani",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 6
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 8
+        }
+      ],
+      "roadTaxNotes": "Motomotar and GoDigit agree (6% <10L, 8% above). +Rs 1,500-3,000 green tax. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed. Fuel prices are Nainital district figures (GoodReturns has no Haldwani city page).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 100.05,
+        "Diesel": 95.58,
+        "CNG": 104
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/uttarakhand-road-tax",
+        "https://www.goodreturns.in/petrol-price-in-nainital.html",
+        "https://www.goodreturns.in/diesel-price-in-nainital.html",
+        "https://www.goodreturns.in/cng-price-in-nainital.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Haryana",
+      "city": "Hisar",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 5
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 2000000,
+          "percent": 8
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 10
+        }
+      ],
+      "roadTaxNotes": "On ex-showroom, no diesel surcharge listed. Least documented; verify. CNG is Haryana state figure. GoDigit gives 3/6/8/10%; not verified. Fuel prices are city-level figures for Faridabad (21 Oct 2026). CNG price last updated 21 Jul 2026 on GoodReturns.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 103.2,
+        "Diesel": 95.84,
+        "CNG": 89
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://english.newstrack.com/india-news/petrol-diesel-rate-today-check-fuel-prices-in-delhi-mumbai-lucknow-and-more-cities-642027",
+        "https://www.goodreturns.in/petrol-price-in-hisar.html",
+        "https://www.goodreturns.in/diesel-price-in-hisar.html",
+        "https://www.goodreturns.in/cng-price-in-hisar.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Karnataka",
+      "city": "Hubballi",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 14
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 17
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 18
+        }
+      ],
+      "roadTaxNotes": "Lifetime tax on ex-showroom. +11% cess on the tax amount plus Rs 1,000 welfare cess (in otherRtoCharges). EVs taxed 5/8/10% from Apr 2026 amendment. Slabs 13/14/17/18% confirmed by Spinny (effective 1 Apr 2026). Fuel prices are Dharwad district figures (Hubballi-Dharwad twin city; GoodReturns has no Hubballi page).",
+      "registrationFee": 600,
+      "otherRtoCharges": 1000,
+      "fuelPrice": {
+        "Petrol": 110.65,
+        "Diesel": 98.6,
+        "CNG": 103.5
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.spinny.com/blog/road-tax-in-karnataka-applicability-calculation-payment-more/",
+        "https://www.goodreturns.in/petrol-price-in-dharwad.html",
+        "https://www.goodreturns.in/diesel-price-in-dharwad.html",
+        "https://www.goodreturns.in/cng-price-in-dharwad.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Telangana",
+      "city": "Hyderabad",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 14
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 18
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 20
+        }
+      ],
+      "roadTaxNotes": "On ex-showroom. Top band reported as 20-21% (some sources: 21% only above Rs 50L). Plus fixed Rs 5,000 road safety cess from Mar 2026. EV waiver until Dec 2026. GoDigit gives 3/6/8/9% (generic); not verified.",
+      "registrationFee": 600,
+      "otherRtoCharges": 5000,
+      "fuelPrice": {
+        "Petrol": 115.69,
+        "Diesel": 103.82,
+        "CNG": 112
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://english.newstrack.com/india-news/petrol-diesel-rate-today-check-fuel-prices-in-delhi-mumbai-lucknow-and-more-cities-642027",
+        "https://www.goodreturns.in/cng-price.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Manipur",
+      "city": "Imphal",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 300000,
+          "percent": 3
+        },
+        {
+          "fuel": "any",
+          "minPrice": 300000,
+          "maxPrice": 600000,
+          "percent": 4
+        },
+        {
+          "fuel": "any",
+          "minPrice": 600000,
+          "maxPrice": 1000000,
+          "percent": 5
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 1500000,
+          "percent": 6
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1500000,
+          "maxPrice": 2000000,
+          "percent": 7
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 8
+        }
+      ],
+      "roadTaxNotes": "Percent of original cost (GoDigit, BankBazaar); sources differ on 10 vs 15-year validity, and older India Code text shows rates 1 point higher. CNG price not found. Registration fee 600 assumed (no state figure found).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 106.9,
+        "Diesel": 92.59,
+        "CNG": null
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://www.godigit.com/road-tax/manipur-road-tax",
+        "https://www.bankbazaar.com/tax/manipur-road-tax.html",
+        "https://www.goodreturns.in/petrol-price-in-imphal.html",
+        "https://www.goodreturns.in/diesel-price-in-imphal.html",
+        "https://www.goodreturns.in/cng-price-in-imphal.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Madhya Pradesh",
+      "city": "Indore",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 8
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 10
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 8
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 10
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 10
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 12
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 16
+        }
+      ],
+      "roadTaxNotes": "Motomotar and Shriram GI (2026) agree. Hybrid not stated, assume petrol. EV exemption expired Mar 2026 (Shriram lists EV 4%). Bajaj Finserv shows older/different figures. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 114.54,
+        "Diesel": 99.64,
+        "CNG": 97.5
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.shriramgi.com/article/highest-road-tax-in-india-2026-which-state-tops-the-list",
+        "https://www.goodreturns.in/petrol-price.html",
+        "https://www.goodreturns.in/diesel-price.html",
+        "https://www.goodreturns.in/cng-price.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "city": "Itanagar",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 300000,
+          "percent": 2.5
+        },
+        {
+          "fuel": "any",
+          "minPrice": 300000,
+          "maxPrice": 500000,
+          "percent": 2.7
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 3
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 1500000,
+          "percent": 3.5
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1500000,
+          "maxPrice": 1800000,
+          "percent": 4
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1800000,
+          "maxPrice": 2000000,
+          "percent": 4.5
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 6.5
+        }
+      ],
+      "roadTaxNotes": "One-time 15-year tax as percent of original cost (GoDigit, ICICI Lombard). CNG price not found. Registration fee 600 assumed (no state figure found).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 97.96,
+        "Diesel": 87.32,
+        "CNG": null
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://www.godigit.com/road-tax/arunachal-pradesh-road-tax",
+        "https://www.icicilombard.com/motor-insurance/car-insurance/rto/blogs/road-tax-arunachal-pradesh-four-wheeler",
+        "https://www.goodreturns.in/petrol-price-in-itanagar.html",
+        "https://www.goodreturns.in/diesel-price-in-itanagar.html",
+        "https://www.goodreturns.in/cng-price-in-itanagar.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Madhya Pradesh",
+      "city": "Jabalpur",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 8
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 10
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 8
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 10
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 10
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 12
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 16
+        }
+      ],
+      "roadTaxNotes": "Motomotar and Shriram GI (2026) agree. Hybrid not stated, assume petrol. EV exemption expired Mar 2026 (Shriram lists EV 4%). Bajaj Finserv shows older/different figures. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed. Fuel prices are city-level figures for Bhopal (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 116.17,
+        "Diesel": 101.16,
+        "CNG": 107.5
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.shriramgi.com/article/highest-road-tax-in-india-2026-which-state-tops-the-list",
+        "https://www.goodreturns.in/petrol-price-in-jabalpur.html",
+        "https://www.goodreturns.in/diesel-price-in-jabalpur.html",
+        "https://www.goodreturns.in/cng-price-in-jabalpur.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Rajasthan",
+      "city": "Jaipur",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 9
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 10
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 11
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 12
+        }
+      ],
+      "roadTaxNotes": "Below Rs 10L rate also varies by engine cc (petrol 6% <800cc, 9% 800-1200cc, up to 10% for Rs 5-10L; diesel 8/11/12%); simplified here. +12.5% surcharge on tax; green tax Rs 2,500-5,000. EV waiver until Aug 2027. Not verified: GoDigit gives 4/6/8% (3L/6L breaks). CNG is Rajasthan state figure.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 113.19,
+        "Diesel": 98.25,
+        "CNG": 99.5
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.goodreturns.in/petrol-price.html",
+        "https://www.goodreturns.in/diesel-price.html",
+        "https://www.goodreturns.in/cng-price.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Punjab",
+      "city": "Jalandhar",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 10
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 13
+        }
+      ],
+      "roadTaxNotes": "Motomotar: 10% up to 10L, 12% 10-20L, 13% above; +Rs 1,000 cow cess; EV waiver. Conflict: BankBazaar/Bajaj cite older flat 2%, SBI General 9.5% up to 15L. Not verified. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed. Fuel prices are city-level figures for Amritsar (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 104.82,
+        "Diesel": 94.76,
+        "CNG": 100
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.bankbazaar.com/tax/punjab-road-tax.html",
+        "https://www.goodreturns.in/petrol-price-in-jalandhar.html",
+        "https://www.goodreturns.in/diesel-price-in-jalandhar.html",
+        "https://www.goodreturns.in/cng-price-in-jalandhar.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "city": "Jammu",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": null,
+          "percent": 9
+        }
+      ],
+      "roadTaxNotes": "Commonly reported flat 9% of ex-showroom (Spinny); GoDigit says 9% or 10% depending on vehicle type and also lists older HP-based fixed amounts. Not verified. Registration fee 600 assumed (no state figure found).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 104.13,
+        "Diesel": 92.81,
+        "CNG": 105.8
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://godigit.com/road-tax/jammu-kashmir-road-tax",
+        "https://www.spinny.com/blog/states-with-the-cheapest-road-tax-in-india/",
+        "https://www.goodreturns.in/petrol-price-in-jammu.html",
+        "https://www.goodreturns.in/diesel-price-in-jammu.html",
+        "https://www.goodreturns.in/cng-price-in-jammu.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Gujarat",
+      "city": "Jamnagar",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": null,
+          "percent": 6
+        }
+      ],
+      "roadTaxNotes": "Flat 6% computed on pre-GST invoice price (not GST-inclusive ex-showroom). Some sources quote 12% above Rs 10L (unverified). EV 1%. Flat 6% for new cars confirmed by GoDigit (Sep 2026). Fuel prices are Gujarat state figures.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 102.31,
+        "Diesel": 98.43,
+        "CNG": 88.76
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/gujarat-road-tax",
+        "https://www.goodreturns.in/petrol-price-in-jamnagar.html",
+        "https://www.goodreturns.in/diesel-price-in-jamnagar.html",
+        "https://www.goodreturns.in/cng-price-in-jamnagar.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Jharkhand",
+      "city": "Jamshedpur",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1500000,
+          "percent": 6
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1500000,
+          "maxPrice": null,
+          "percent": 15
+        }
+      ],
+      "roadTaxNotes": "Private cars 6% of ex-showroom (excl. GST); 15% above Rs 15L per GoDigit and SBI General (GoDigit unclear whether replacing or additional). BankBazaar mentions +1% for diesel (unconfirmed, not applied). CNG price dated September 2026. Registration fee 600 assumed (no state figure found). Fuel prices are East Singhbhum district figures (GoodReturns has no Jamshedpur city page). CNG price last updated 26 Sep 2026 on GoodReturns.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 105.28,
+        "Diesel": 100.48,
+        "CNG": 93
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://www.godigit.com/road-tax/jharkhand-road-tax",
+        "https://www.sbigeneral.in/blog/motor-insurance/motor-articles/jharkhand-road-tax",
+        "https://www.bankbazaar.com/tax/jharkhand-road-tax.html",
+        "https://www.goodreturns.in/petrol-price-in-east-singhbhum.html",
+        "https://www.goodreturns.in/diesel-price-in-east-singhbhum.html",
+        "https://www.goodreturns.in/cng-price-in-east-singhbhum.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Rajasthan",
+      "city": "Jodhpur",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 9
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 10
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 11
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 12
+        }
+      ],
+      "roadTaxNotes": "Below Rs 10L rate also varies by engine cc (petrol 6% <800cc, 9% 800-1200cc, up to 10% for Rs 5-10L; diesel 8/11/12%); simplified here. +12.5% surcharge on tax; green tax Rs 2,500-5,000. EV waiver until Aug 2027. Not verified: GoDigit gives 4/6/8% (3L/6L breaks). CNG is Rajasthan state figure. Fuel prices are city-level figures for Jodhpur (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 112.49,
+        "Diesel": 97.63,
+        "CNG": 97
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.goodreturns.in/petrol-price-in-jodhpur.html",
+        "https://www.goodreturns.in/diesel-price-in-jodhpur.html",
+        "https://www.goodreturns.in/cng-price-in-jodhpur.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Uttar Pradesh",
+      "city": "Kanpur",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 9
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 11
+        }
+      ],
+      "roadTaxNotes": "UNCERTAIN: another source gives 8% / 10%. EV waiver only for UP-made EVs until Oct 2027. CNG is UP state figure. GoDigit gives 3/6/8/9% (annual, generic); not verified. Kanpur fuel prices from BankBazaar (21 Oct 2026); CNG price not found. Fuel prices are city-level figures for Kanpur (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 101.59,
+        "Diesel": 95.06,
+        "CNG": null
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://english.newstrack.com/india-news/petrol-diesel-rate-today-check-fuel-prices-in-delhi-mumbai-lucknow-and-more-cities-642027",
+        "https://www.bankbazaar.com/fuel/petrol-price-kanpur.html",
+        "https://www.bankbazaar.com/fuel/diesel-price-kanpur.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Telangana",
+      "city": "Karimnagar",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 14
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 18
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 20
+        }
+      ],
+      "roadTaxNotes": "On ex-showroom. Top band reported as 20-21% (some sources: 21% only above Rs 50L). Plus fixed Rs 5,000 road safety cess from Mar 2026. EV waiver until Dec 2026. GoDigit gives 3/6/8/9% (generic); not verified.",
+      "registrationFee": 600,
+      "otherRtoCharges": 5000,
+      "fuelPrice": {
+        "Petrol": 116.4,
+        "Diesel": 104.46,
+        "CNG": 99.8
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://english.newstrack.com/india-news/petrol-diesel-rate-today-check-fuel-prices-in-delhi-mumbai-lucknow-and-more-cities-642027",
+        "https://www.goodreturns.in/petrol-price-in-karim-nagar.html",
+        "https://www.goodreturns.in/diesel-price-in-karim-nagar.html",
+        "https://www.goodreturns.in/cng-price-in-karim-nagar.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Kerala",
+      "city": "Kochi",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 10
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": null
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 22
+        }
+      ],
+      "roadTaxNotes": "Motomotar (Mar 2026): 10/13/15-17/22% (10-20L band given as a range, left null); +Rs 200 road safety cess; EVs 5/8/10% tiered. Conflict: GoDigit gives 9/11/13/16/21% on purchase value (5/10/15/20L breaks). Not verified. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 115.49,
+        "Diesel": 104.4,
+        "CNG": 99
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/kerala-road-tax",
+        "https://www.goodreturns.in/petrol-price.html",
+        "https://www.goodreturns.in/diesel-price.html",
+        "https://www.goodreturns.in/cng-price.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Nagaland",
+      "city": "Kohima",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": null,
+          "percent": 5
+        }
+      ],
+      "roadTaxNotes": "5% of cost one-time for 15 years (GoDigit, Bajaj, BankBazaar, state document); Spinny reports 6% under 2023 amendment. Not verified. CNG price not found. Registration fee 600 assumed (no state figure found).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 104.9,
+        "Diesel": 96.18,
+        "CNG": null
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://www.godigit.com/road-tax/nagaland-road-tax",
+        "https://www.bankbazaar.com/tax/nagaland-road-tax.html",
+        "https://www.spinny.com/blog/road-tax-in-nagaland-applicability-calculation-payment/",
+        "https://www.goodreturns.in/petrol-price-in-kohima.html",
+        "https://www.goodreturns.in/diesel-price-in-kohima.html",
+        "https://www.goodreturns.in/cng-price-in-kohima.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Maharashtra",
+      "city": "Kolhapur",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 11
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 12
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 13
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 14
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 15
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 12
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 13
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        }
+      ],
+      "roadTaxNotes": "Individual owner; on ex-showroom. +2% road safety cess on tax amount. Company-registered flat 20%. Hybrid: no separate rule found, assume petrol. EV 100% waiver until Mar 2030. Petrol/diesel slabs confirmed by GoDigit and ICICI Lombard (Oct 2026). CNG raised by 1 point from 1 July 2025 (PTI via The Week): 12/13/14%. CNG price last updated 24 Sep 2026 on GoodReturns.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 112.6,
+        "Diesel": 99.25,
+        "CNG": 96.95
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.godigit.com/road-tax/maharashtra-road-tax",
+        "https://www.theweek.in/wire-updates/business/2025/07/01/bom2-mh-vehicles-revised-tax.html",
+        "https://www.goodreturns.in/petrol-price-in-kolhapur.html",
+        "https://www.goodreturns.in/diesel-price-in-kolhapur.html",
+        "https://www.goodreturns.in/cng-price-in-kolhapur.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "West Bengal",
+      "city": "Kolkata",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 5.5
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 10
+        }
+      ],
+      "roadTaxNotes": "UNCERTAIN: sources conflict; another gives 10% (<10L) / 13% (>10L) with 2.5% diesel surcharge. GoDigit gives 5/10/12/14% (6/10/20L breaks), a third variant. Not verified.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 113.51,
+        "Diesel": 99.82,
+        "CNG": 103
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://newsable.asianetnews.com/india/petrol-diesel-prices-today-october-21-check-city-wise-rates-in-delhi-mumbai-bengaluru-and-more-articleshow-h6fwuwa",
+        "https://www.v3cars.com/fuel-price-in-india"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Kerala",
+      "city": "Kollam",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 10
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": null
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 22
+        }
+      ],
+      "roadTaxNotes": "Motomotar (Mar 2026): 10/13/15-17/22% (10-20L band given as a range, left null); +Rs 200 road safety cess; EVs 5/8/10% tiered. Conflict: GoDigit gives 9/11/13/16/21% on purchase value (5/10/15/20L breaks). Not verified. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 114.8,
+        "Diesel": 103.64,
+        "CNG": 99
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/kerala-road-tax",
+        "https://www.goodreturns.in/petrol-price-in-kollam.html",
+        "https://www.goodreturns.in/diesel-price-in-kollam.html",
+        "https://www.goodreturns.in/cng-price-in-kollam.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Rajasthan",
+      "city": "Kota",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 9
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 10
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 11
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 12
+        }
+      ],
+      "roadTaxNotes": "Below Rs 10L rate also varies by engine cc (petrol 6% <800cc, 9% 800-1200cc, up to 10% for Rs 5-10L; diesel 8/11/12%); simplified here. +12.5% surcharge on tax; green tax Rs 2,500-5,000. EV waiver until Aug 2027. Not verified: GoDigit gives 4/6/8% (3L/6L breaks). CNG is Rajasthan state figure.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 112.21,
+        "Diesel": 97.36,
+        "CNG": 102
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.goodreturns.in/petrol-price-in-kota.html",
+        "https://www.goodreturns.in/diesel-price-in-kota.html",
+        "https://www.goodreturns.in/cng-price-in-kota.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Kerala",
+      "city": "Kozhikode",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 10
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": null
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 22
+        }
+      ],
+      "roadTaxNotes": "Motomotar (Mar 2026): 10/13/15-17/22% (10-20L band given as a range, left null); +Rs 200 road safety cess; EVs 5/8/10% tiered. Conflict: GoDigit gives 9/11/13/16/21% on purchase value (5/10/15/20L breaks). Not verified. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 113.79,
+        "Diesel": 102.71,
+        "CNG": 102.5
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/kerala-road-tax",
+        "https://www.goodreturns.in/petrol-price-in-kozhikode.html",
+        "https://www.goodreturns.in/diesel-price-in-kozhikode.html",
+        "https://www.goodreturns.in/cng-price-in-kozhikode.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Uttar Pradesh",
+      "city": "Lucknow",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 9
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 11
+        }
+      ],
+      "roadTaxNotes": "UNCERTAIN: another source gives 8% / 10%. EV waiver only for UP-made EVs until Oct 2027. CNG is UP state figure. GoDigit gives 3/6/8/9% (annual, generic); not verified.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 102.05,
+        "Diesel": 95.55,
+        "CNG": 107
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://english.newstrack.com/india-news/petrol-diesel-rate-today-check-fuel-prices-in-delhi-mumbai-lucknow-and-more-cities-642027",
+        "https://www.goodreturns.in/cng-price.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Punjab",
+      "city": "Ludhiana",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 10
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 13
+        }
+      ],
+      "roadTaxNotes": "Motomotar: 10% up to 10L, 12% 10-20L, 13% above; +Rs 1,000 cow cess; EV waiver. Conflict: BankBazaar/Bajaj cite older flat 2%, SBI General 9.5% up to 15L. Not verified. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 105.56,
+        "Diesel": 95.47,
+        "CNG": 91.33
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.bankbazaar.com/tax/punjab-road-tax.html",
+        "https://www.goodreturns.in/petrol-price.html",
+        "https://www.goodreturns.in/diesel-price.html",
+        "https://www.goodreturns.in/cng-price.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Tamil Nadu",
+      "city": "Madurai",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 18
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 20
+        }
+      ],
+      "roadTaxNotes": "On ex-showroom. Plus fixed Rs 2,250 road safety tax. EV 100% waiver until Dec 2027. GoDigit gives 9/12/18/20% (6L break); motomotar calculator example (Rs 10L->13%, Rs 20L->18%) consistent with existing. Not verified. Fuel prices are city-level figures for Madurai (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": 2250,
+      "fuelPrice": {
+        "Petrol": 108.5,
+        "Diesel": 100.34,
+        "CNG": 98.4
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.v3cars.com/fuel-price-in-india",
+        "https://www.goodreturns.in/petrol-price-in-madurai.html",
+        "https://www.goodreturns.in/diesel-price-in-madurai.html",
+        "https://www.goodreturns.in/cng-price-in-madurai.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Karnataka",
+      "city": "Mangaluru",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 14
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 17
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 18
+        }
+      ],
+      "roadTaxNotes": "Lifetime tax on ex-showroom. +11% cess on the tax amount plus Rs 1,000 welfare cess (in otherRtoCharges). EVs taxed 5/8/10% from Apr 2026 amendment. Slabs 13/14/17/18% confirmed by Spinny (effective 1 Apr 2026). Fuel prices are Dakshina Kannada district figures (GoodReturns has no Mangaluru city page).",
+      "registrationFee": 600,
+      "otherRtoCharges": 1000,
+      "fuelPrice": {
+        "Petrol": 110.06,
+        "Diesel": 98,
+        "CNG": 97.5
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.spinny.com/blog/road-tax-in-karnataka-applicability-calculation-payment-more/",
+        "https://www.goodreturns.in/petrol-price-in-dakshina-kannada.html",
+        "https://www.goodreturns.in/diesel-price-in-dakshina-kannada.html",
+        "https://www.goodreturns.in/cng-price-in-dakshina-kannada.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Uttar Pradesh",
+      "city": "Meerut",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 9
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 11
+        }
+      ],
+      "roadTaxNotes": "UNCERTAIN: another source gives 8% / 10%. EV waiver only for UP-made EVs until Oct 2027. CNG is UP state figure. GoDigit gives 3/6/8/9% (annual, generic); not verified. Kanpur fuel prices from BankBazaar (21 Oct 2026); CNG price not found. Fuel prices are city-level figures for Kanpur (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 101.99,
+        "Diesel": 95.46,
+        "CNG": 95.5
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://english.newstrack.com/india-news/petrol-diesel-rate-today-check-fuel-prices-in-delhi-mumbai-lucknow-and-more-cities-642027",
+        "https://www.bankbazaar.com/fuel/petrol-price-kanpur.html",
+        "https://www.bankbazaar.com/fuel/diesel-price-kanpur.html",
+        "https://www.goodreturns.in/petrol-price-in-meerut.html",
+        "https://www.goodreturns.in/diesel-price-in-meerut.html",
+        "https://www.goodreturns.in/cng-price-in-meerut.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Maharashtra",
+      "city": "Mumbai",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 11
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 12
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 13
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 14
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 15
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 12
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 13
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        }
+      ],
+      "roadTaxNotes": "Individual owner; on ex-showroom. +2% road safety cess on tax amount. Company-registered flat 20%. Hybrid: no separate rule found, assume petrol. EV 100% waiver until Mar 2030. Petrol/diesel slabs confirmed by GoDigit and ICICI Lombard (Oct 2026). CNG raised by 1 point from 1 July 2025 (PTI via The Week): 12/13/14%.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 111.21,
+        "Diesel": 97.83,
+        "CNG": 89
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.goodreturns.in/cng-price.html",
+        "https://www.godigit.com/road-tax/maharashtra-road-tax",
+        "https://www.theweek.in/wire-updates/business/2025/07/01/bom2-mh-vehicles-revised-tax.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Bihar",
+      "city": "Muzaffarpur",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": null
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 2000000,
+          "percent": 10
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 12
+        }
+      ],
+      "roadTaxNotes": "Motomotar: 8-9% up to 5L (range, left null), 10% 5-20L, 12% above 20L. GoDigit: 8% to 1L, 9% 1-8L, 10% 8-15L, 12% above 15L. Not verified. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 114.1,
+        "Diesel": 100.05,
+        "CNG": 98.9
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/bihar-road-tax",
+        "https://www.goodreturns.in/petrol-price-in-muzaffarpur.html",
+        "https://www.goodreturns.in/diesel-price-in-muzaffarpur.html",
+        "https://www.goodreturns.in/cng-price-in-muzaffarpur.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Karnataka",
+      "city": "Mysuru",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 14
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 17
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 18
+        }
+      ],
+      "roadTaxNotes": "Lifetime tax on ex-showroom. +11% cess on the tax amount plus Rs 1,000 welfare cess (in otherRtoCharges). EVs taxed 5/8/10% from Apr 2026 amendment. Slabs 13/14/17/18% confirmed by Spinny (effective 1 Apr 2026). Fuel prices are city-level figures for Mysuru (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": 1000,
+      "fuelPrice": {
+        "Petrol": 110.44,
+        "Diesel": 98.39,
+        "CNG": 97
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.spinny.com/blog/road-tax-in-karnataka-applicability-calculation-payment-more/",
+        "https://www.goodreturns.in/petrol-price-in-mysore.html",
+        "https://www.goodreturns.in/diesel-price-in-mysore.html",
+        "https://www.goodreturns.in/cng-price-in-mysore.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Maharashtra",
+      "city": "Nagpur",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 11
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 12
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 13
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 14
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 15
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 12
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 13
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        }
+      ],
+      "roadTaxNotes": "Individual owner; on ex-showroom. +2% road safety cess on tax amount. Company-registered flat 20%. Hybrid: no separate rule found, assume petrol. EV 100% waiver until Mar 2030. Petrol/diesel slabs confirmed by GoDigit and ICICI Lombard (Oct 2026). CNG raised by 1 point from 1 July 2025 (PTI via The Week): 12/13/14%. Nagpur CNG figure is dated September 2026 (latest available). Fuel prices are city-level figures for Nagpur (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 111.72,
+        "Diesel": 98.38,
+        "CNG": 88.9
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.godigit.com/road-tax/maharashtra-road-tax",
+        "https://www.theweek.in/wire-updates/business/2025/07/01/bom2-mh-vehicles-revised-tax.html",
+        "https://www.goodreturns.in/petrol-price-in-nagpur.html",
+        "https://www.goodreturns.in/diesel-price-in-nagpur.html",
+        "https://www.goodreturns.in/cng-price-in-nagpur.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Maharashtra",
+      "city": "Nashik",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 11
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 12
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 13
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 14
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 15
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 12
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 13
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        }
+      ],
+      "roadTaxNotes": "Individual owner; on ex-showroom. +2% road safety cess on tax amount. Company-registered flat 20%. Hybrid: no separate rule found, assume petrol. EV 100% waiver until Mar 2030. Petrol/diesel slabs confirmed by GoDigit and ICICI Lombard (Oct 2026). CNG raised by 1 point from 1 July 2025 (PTI via The Week): 12/13/14%.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 112.24,
+        "Diesel": 98.89,
+        "CNG": 98.5
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.godigit.com/road-tax/maharashtra-road-tax",
+        "https://www.theweek.in/wire-updates/business/2025/07/01/bom2-mh-vehicles-revised-tax.html",
+        "https://www.goodreturns.in/petrol-price-in-nashik.html",
+        "https://www.goodreturns.in/diesel-price-in-nashik.html",
+        "https://www.goodreturns.in/cng-price-in-nashik.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Andhra Pradesh",
+      "city": "Nellore",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 14
+        }
+      ],
+      "roadTaxNotes": "Lifetime tax for new car: 12% below 10L, 14% above (Motomotar and GoDigit agree). +10% road safety cess on tax; +2% for second vehicle in same name; EV waiver to Dec 2029. Petrol/diesel from V3Cars AP state figure; CNG GoodReturns AP state figure. Fuel prices are city-level figures for Vijayawada (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 118.14,
+        "Diesel": 105.73,
+        "CNG": 98
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/andhra-pradesh-road-tax",
+        "https://www.v3cars.com/fuel-price-in-india",
+        "https://www.goodreturns.in/petrol-price-in-nellore.html",
+        "https://www.goodreturns.in/diesel-price-in-nellore.html",
+        "https://www.goodreturns.in/cng-price-in-nellore.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Delhi",
+      "city": "New Delhi",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 600000,
+          "percent": 4
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 600000,
+          "maxPrice": 1000000,
+          "percent": 7
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 10
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 600000,
+          "percent": 5
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 600000,
+          "maxPrice": 1000000,
+          "percent": 8.75
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 12.5
+        }
+      ],
+      "roadTaxNotes": "On ex-showroom price. CNG/hybrid assumed to follow petrol slabs (not separately stated). +1% Environment Compensation charge on diesel cars >=2000cc. MCD parking charge Rs 2,000 (<Rs 4L) / Rs 4,000 (>Rs 4L) included in otherRtoCharges. EV waiver up to Rs 30L; draft EV Policy 2026-30 proposes 50% off for strong hybrids (unconfirmed). Women-owner discount not verified. Conflict: GoDigit (2026) lists petrol 7% for Rs 6-20 lakh and 12.5% above Rs 20 lakh; aggregator lists 7%/10%. Unresolved. Petrol 4/7/10% and diesel 5/8.75/12.5% match ICICI Lombard (Mar 2025); no newer revision found. Marked unverified: second source dates from Mar 2025 and a 2026 source (GoDigit) conflicts on the top petrol slab.",
+      "registrationFee": 600,
+      "otherRtoCharges": 4000,
+      "fuelPrice": {
+        "Petrol": 102.12,
+        "Diesel": 95.2,
+        "CNG": 86.98
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.goodreturns.in/cng-price.html",
+        "https://www.icicilombard.com/motor-insurance/car-insurance/rto/blogs/road-tax-in-delhi-for-new-cars"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Telangana",
+      "city": "Nizamabad",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 14
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 18
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 20
+        }
+      ],
+      "roadTaxNotes": "On ex-showroom. Top band reported as 20-21% (some sources: 21% only above Rs 50L). Plus fixed Rs 5,000 road safety cess from Mar 2026. EV waiver until Dec 2026. GoDigit gives 3/6/8/9% (generic); not verified.",
+      "registrationFee": 600,
+      "otherRtoCharges": 5000,
+      "fuelPrice": {
+        "Petrol": 117.07,
+        "Diesel": 105.22,
+        "CNG": 99.5
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://english.newstrack.com/india-news/petrol-diesel-rate-today-check-fuel-prices-in-delhi-mumbai-lucknow-and-more-cities-642027",
+        "https://www.goodreturns.in/petrol-price-in-nizamabad.html",
+        "https://www.goodreturns.in/diesel-price-in-nizamabad.html",
+        "https://www.goodreturns.in/cng-price-in-nizamabad.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Uttar Pradesh",
+      "city": "Noida",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 9
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 11
+        }
+      ],
+      "roadTaxNotes": "UNCERTAIN: another source gives 8% / 10%. EV waiver only for UP-made EVs until Oct 2027. CNG is UP state figure. GoDigit gives 3/6/8/9% (annual, generic); not verified. Fuel prices are city-level figures for Noida (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 101.96,
+        "Diesel": 95.44,
+        "CNG": 95.59
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://english.newstrack.com/india-news/petrol-diesel-rate-today-check-fuel-prices-in-delhi-mumbai-lucknow-and-more-cities-642027",
+        "https://www.goodreturns.in/petrol-price-in-noida.html",
+        "https://www.goodreturns.in/diesel-price-in-noida.html",
+        "https://www.goodreturns.in/cng-price-in-noida.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Goa",
+      "city": "Panaji",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 9
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 15
+        }
+      ],
+      "roadTaxNotes": "Motomotar: 9/12/15%; +Rs 15,000-50,000 fixed add-on above 10L. Conflict: GoDigit 9% <6L, 11% 6-15L, 13% 15-35L, 14% above. Only the <6L 9% agrees. Not verified. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed. CNG from V3Cars.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 104,
+        "Diesel": 95.88,
+        "CNG": 99.67
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/goa-road-tax",
+        "https://www.goodreturns.in/petrol-price.html",
+        "https://www.goodreturns.in/diesel-price.html",
+        "https://www.goodreturns.in/cng-price.html",
+        "https://www.v3cars.com/fuel-price-in-india"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Haryana",
+      "city": "Panipat",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 5
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 2000000,
+          "percent": 8
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 10
+        }
+      ],
+      "roadTaxNotes": "On ex-showroom, no diesel surcharge listed. Least documented; verify. CNG is Haryana state figure. GoDigit gives 3/6/8/10%; not verified. Fuel prices are city-level figures for Faridabad (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 102.52,
+        "Diesel": 95.18,
+        "CNG": 98.5
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://english.newstrack.com/india-news/petrol-diesel-rate-today-check-fuel-prices-in-delhi-mumbai-lucknow-and-more-cities-642027",
+        "https://www.goodreturns.in/petrol-price-in-panipat.html",
+        "https://www.goodreturns.in/diesel-price-in-panipat.html",
+        "https://www.goodreturns.in/cng-price-in-panipat.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Punjab",
+      "city": "Patiala",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 10
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 13
+        }
+      ],
+      "roadTaxNotes": "Motomotar: 10% up to 10L, 12% 10-20L, 13% above; +Rs 1,000 cow cess; EV waiver. Conflict: BankBazaar/Bajaj cite older flat 2%, SBI General 9.5% up to 15L. Not verified. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed. Fuel prices are city-level figures for Amritsar (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 105.69,
+        "Diesel": 95.59,
+        "CNG": 100
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.bankbazaar.com/tax/punjab-road-tax.html",
+        "https://www.goodreturns.in/petrol-price-in-patiala.html",
+        "https://www.goodreturns.in/diesel-price-in-patiala.html",
+        "https://www.goodreturns.in/cng-price-in-patiala.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Bihar",
+      "city": "Patna",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": null
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 2000000,
+          "percent": 10
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 12
+        }
+      ],
+      "roadTaxNotes": "Motomotar: 8-9% up to 5L (range, left null), 10% 5-20L, 12% above 20L. GoDigit: 8% to 1L, 9% 1-8L, 10% 8-15L, 12% above 15L. Not verified. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 113.37,
+        "Diesel": 99.36,
+        "CNG": 93
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/bihar-road-tax",
+        "https://www.goodreturns.in/petrol-price.html",
+        "https://www.goodreturns.in/diesel-price.html",
+        "https://www.goodreturns.in/cng-price.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Uttar Pradesh",
+      "city": "Prayagraj",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 9
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 11
+        }
+      ],
+      "roadTaxNotes": "UNCERTAIN: another source gives 8% / 10%. EV waiver only for UP-made EVs until Oct 2027. CNG is UP state figure. GoDigit gives 3/6/8/9% (annual, generic); not verified. Kanpur fuel prices from BankBazaar (21 Oct 2026); CNG price not found. Fuel prices are city-level figures for Kanpur (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 101.96,
+        "Diesel": 95.46,
+        "CNG": 103
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://english.newstrack.com/india-news/petrol-diesel-rate-today-check-fuel-prices-in-delhi-mumbai-lucknow-and-more-cities-642027",
+        "https://www.bankbazaar.com/fuel/petrol-price-kanpur.html",
+        "https://www.bankbazaar.com/fuel/diesel-price-kanpur.html",
+        "https://www.goodreturns.in/petrol-price-in-allahabad.html",
+        "https://www.goodreturns.in/diesel-price-in-allahabad.html",
+        "https://www.goodreturns.in/cng-price-in-allahabad.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Puducherry",
+      "city": "Puducherry",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": null,
+          "percent": null
+        }
+      ],
+      "roadTaxNotes": "Sources conflict: Spinny cites ~6-9% of ex-showroom; Bajaj Finserv lists fixed lifetime amounts (Rs 50,000 for Rs 15-20L, Rs 1,00,000 above Rs 20L); taxed on weight or cost, whichever higher. Percent left null. CNG price dated July 2026. Registration fee 600 assumed (no state figure found).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 103.58,
+        "Diesel": 93.79,
+        "CNG": 79.5
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://www.bankbazaar.com/tax/road-tax-in-puducherry.html",
+        "https://www.bajajfinserv.in/insurance/puducherry-road-tax",
+        "https://www.spinny.com/blog/states-with-the-cheapest-road-tax-in-india/",
+        "https://www.goodreturns.in/petrol-price-in-pondicherry.html",
+        "https://www.goodreturns.in/diesel-price-in-pondicherry.html",
+        "https://www.goodreturns.in/cng-price-in-pondicherry.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Maharashtra",
+      "city": "Pune",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 11
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 12
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 13
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 14
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 15
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 12
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 13
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        }
+      ],
+      "roadTaxNotes": "Individual owner; on ex-showroom. +2% road safety cess on tax amount. Company-registered flat 20%. Hybrid: no separate rule found, assume petrol. EV 100% waiver until Mar 2030. Petrol/diesel slabs confirmed by GoDigit and ICICI Lombard (Oct 2026). CNG raised by 1 point from 1 July 2025 (PTI via The Week): 12/13/14%. Fuel prices are city-level figures for Pune (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 111.9,
+        "Diesel": 98.55,
+        "CNG": 100.5
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.godigit.com/road-tax/maharashtra-road-tax",
+        "https://www.theweek.in/wire-updates/business/2025/07/01/bom2-mh-vehicles-revised-tax.html",
+        "https://www.goodreturns.in/petrol-price-in-pune.html",
+        "https://www.goodreturns.in/diesel-price-in-pune.html",
+        "https://www.goodreturns.in/cng-price-in-pune.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Chhattisgarh",
+      "city": "Raipur",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 5
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": null,
+          "percent": 6
+        }
+      ],
+      "roadTaxNotes": "New private four-wheelers: 5% of cost up to Rs 5L, 6% above (GoDigit, Spinny/BankBazaar). No fuel-specific rates published. Raipur CNG price not found. Registration fee 600 assumed (no state figure found).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 108.3,
+        "Diesel": 101.55,
+        "CNG": null
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://www.godigit.com/road-tax/chhattisgarh-road-tax",
+        "https://www.spinny.com/blog/road-tax-in-chhattisgarh-applicability-calculation-payment/",
+        "https://www.bankbazaar.com/tax/chhattisgarh-road-tax.html",
+        "https://www.goodreturns.in/petrol-price-in-raipur.html",
+        "https://www.goodreturns.in/diesel-price-in-raipur.html",
+        "https://www.goodreturns.in/cng-price-in-raipur.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Gujarat",
+      "city": "Rajkot",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": null,
+          "percent": 6
+        }
+      ],
+      "roadTaxNotes": "Flat 6% computed on pre-GST invoice price (not GST-inclusive ex-showroom). Some sources quote 12% above Rs 10L (unverified). EV 1%. Flat 6% for new cars confirmed by GoDigit (Sep 2026). Fuel prices are Gujarat state figures.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 101.59,
+        "Diesel": 97.72,
+        "CNG": 88.76
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/gujarat-road-tax",
+        "https://www.goodreturns.in/petrol-price-in-rajkot.html",
+        "https://www.goodreturns.in/diesel-price-in-rajkot.html",
+        "https://www.goodreturns.in/cng-price-in-rajkot.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Jharkhand",
+      "city": "Ranchi",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1500000,
+          "percent": 6
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1500000,
+          "maxPrice": null,
+          "percent": 15
+        }
+      ],
+      "roadTaxNotes": "Private cars 6% of ex-showroom (excl. GST); 15% above Rs 15L per GoDigit and SBI General (GoDigit unclear whether replacing or additional). BankBazaar mentions +1% for diesel (unconfirmed, not applied). CNG price dated September 2026. Registration fee 600 assumed (no state figure found).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 106.19,
+        "Diesel": 101.31,
+        "CNG": 94.5
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://www.godigit.com/road-tax/jharkhand-road-tax",
+        "https://www.sbigeneral.in/blog/motor-insurance/motor-articles/jharkhand-road-tax",
+        "https://www.bankbazaar.com/tax/jharkhand-road-tax.html",
+        "https://www.goodreturns.in/petrol-price-in-ranchi.html",
+        "https://www.goodreturns.in/diesel-price-in-ranchi.html",
+        "https://www.goodreturns.in/cng-price-in-ranchi.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Odisha",
+      "city": "Rourkela",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 6
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 8
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 10
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": 4000000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 4000000,
+          "maxPrice": null,
+          "percent": 20
+        }
+      ],
+      "roadTaxNotes": "Motomotar and GoDigit agree. No fuel-specific rates stated. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed. Fuel prices are Sundargarh district figures (GoodReturns has no Rourkela city page).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 110.19,
+        "Diesel": 101.88,
+        "CNG": 94
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/odisha-road-tax",
+        "https://www.goodreturns.in/petrol-price-in-sundargarh.html",
+        "https://www.goodreturns.in/diesel-price-in-sundargarh.html",
+        "https://www.goodreturns.in/cng-price-in-sundargarh.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Tamil Nadu",
+      "city": "Salem",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 18
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 20
+        }
+      ],
+      "roadTaxNotes": "On ex-showroom. Plus fixed Rs 2,250 road safety tax. EV 100% waiver until Dec 2027. GoDigit gives 9/12/18/20% (6L break); motomotar calculator example (Rs 10L->13%, Rs 20L->18%) consistent with existing. Not verified.",
+      "registrationFee": 600,
+      "otherRtoCharges": 2250,
+      "fuelPrice": {
+        "Petrol": 108.6,
+        "Diesel": 100.43,
+        "CNG": 97.9
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.v3cars.com/fuel-price-in-india",
+        "https://www.goodreturns.in/petrol-price-in-salem.html",
+        "https://www.goodreturns.in/diesel-price-in-salem.html",
+        "https://www.goodreturns.in/cng-price-in-salem.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Meghalaya",
+      "city": "Shillong",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 300000,
+          "percent": 4
+        },
+        {
+          "fuel": "any",
+          "minPrice": 300000,
+          "maxPrice": 1500000,
+          "percent": 6
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1500000,
+          "maxPrice": 2000000,
+          "percent": 8
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 10
+        }
+      ],
+      "roadTaxNotes": "Percent of original cost: 4% up to 3L, 6% above 3L, 8% above 15L, 10% above 20L (GoDigit, Bajaj Finserv). CNG price not found. Registration fee 600 assumed (no state figure found).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 102.64,
+        "Diesel": 94.13,
+        "CNG": null
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://www.godigit.com/road-tax/meghalaya-road-tax",
+        "https://www.bajajfinserv.in/road-tax-in-meghalaya",
+        "https://www.goodreturns.in/petrol-price-in-shillong.html",
+        "https://www.goodreturns.in/diesel-price-in-shillong.html",
+        "https://www.goodreturns.in/cng-price-in-shillong.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Himachal Pradesh",
+      "city": "Shimla",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1500000,
+          "percent": 6
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1500000,
+          "maxPrice": null,
+          "percent": 7
+        }
+      ],
+      "roadTaxNotes": "Cars bought in HP: 6% up to Rs 15L, 7% above (GoDigit, Motomotar). Bajaj lists 8%/9% for other-state vehicles. EVs reportedly exempt. Registration fee 600 assumed (no state figure found).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 103.15,
+        "Diesel": 95.28,
+        "CNG": 100.5
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://www.godigit.com/road-tax/himachal-pradesh-road-tax",
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.bajajgeneralinsurance.com/blog/motor-insurance-articles/road-tax-in-himachal-pradesh.html",
+        "https://www.goodreturns.in/petrol-price-in-shimla.html",
+        "https://www.goodreturns.in/diesel-price-in-shimla.html",
+        "https://www.goodreturns.in/cng-price-in-shimla.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "West Bengal",
+      "city": "Siliguri",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 5.5
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 10
+        }
+      ],
+      "roadTaxNotes": "UNCERTAIN: sources conflict; another gives 10% (<10L) / 13% (>10L) with 2.5% diesel surcharge. GoDigit gives 5/10/12/14% (6/10/20L breaks), a third variant. Not verified. Fuel prices are Darjeeling district figures (GoodReturns has no Siliguri city page).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 113.18,
+        "Diesel": 99.54,
+        "CNG": 95
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://newsable.asianetnews.com/india/petrol-diesel-prices-today-october-21-check-city-wise-rates-in-delhi-mumbai-bengaluru-and-more-articleshow-h6fwuwa",
+        "https://www.v3cars.com/fuel-price-in-india",
+        "https://www.goodreturns.in/petrol-price-in-darjeeling.html",
+        "https://www.goodreturns.in/diesel-price-in-darjeeling.html",
+        "https://www.goodreturns.in/cng-price-in-darjeeling.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Maharashtra",
+      "city": "Solapur",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 11
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 12
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 13
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 14
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 15
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 12
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 13
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        }
+      ],
+      "roadTaxNotes": "Individual owner; on ex-showroom. +2% road safety cess on tax amount. Company-registered flat 20%. Hybrid: no separate rule found, assume petrol. EV 100% waiver until Mar 2030. Petrol/diesel slabs confirmed by GoDigit and ICICI Lombard (Oct 2026). CNG raised by 1 point from 1 July 2025 (PTI via The Week): 12/13/14%.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 111.85,
+        "Diesel": 98.52,
+        "CNG": 105
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.godigit.com/road-tax/maharashtra-road-tax",
+        "https://www.theweek.in/wire-updates/business/2025/07/01/bom2-mh-vehicles-revised-tax.html",
+        "https://www.goodreturns.in/petrol-price-in-solapur.html",
+        "https://www.goodreturns.in/diesel-price-in-solapur.html",
+        "https://www.goodreturns.in/cng-price-in-solapur.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Gujarat",
+      "city": "Surat",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": null,
+          "percent": 6
+        }
+      ],
+      "roadTaxNotes": "Flat 6% computed on pre-GST invoice price (not GST-inclusive ex-showroom). Some sources quote 12% above Rs 10L (unverified). EV 1%. Flat 6% for new cars confirmed by GoDigit (Sep 2026). Fuel prices are Gujarat state figures. Fuel prices are city-level figures for Surat (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 101.82,
+        "Diesel": 97.95,
+        "CNG": 88.76
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/gujarat-road-tax",
+        "https://www.goodreturns.in/petrol-price-in-surat.html",
+        "https://www.goodreturns.in/diesel-price-in-surat.html",
+        "https://www.goodreturns.in/cng-price-in-surat.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Maharashtra",
+      "city": "Thane",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 11
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 12
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 13
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 14
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 15
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 12
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 13
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        }
+      ],
+      "roadTaxNotes": "Individual owner; on ex-showroom. +2% road safety cess on tax amount. Company-registered flat 20%. Hybrid: no separate rule found, assume petrol. EV 100% waiver until Mar 2030. Petrol/diesel slabs confirmed by GoDigit and ICICI Lombard (Oct 2026). CNG raised by 1 point from 1 July 2025 (PTI via The Week): 12/13/14%. Fuel prices are city-level figures for Thane (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 111.38,
+        "Diesel": 98.02,
+        "CNG": 85.75
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.godigit.com/road-tax/maharashtra-road-tax",
+        "https://www.theweek.in/wire-updates/business/2025/07/01/bom2-mh-vehicles-revised-tax.html",
+        "https://www.goodreturns.in/petrol-price-in-thane.html",
+        "https://www.goodreturns.in/diesel-price-in-thane.html",
+        "https://www.goodreturns.in/cng-price-in-thane.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Kerala",
+      "city": "Thiruvananthapuram",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 10
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": null
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 22
+        }
+      ],
+      "roadTaxNotes": "Motomotar (Mar 2026): 10/13/15-17/22% (10-20L band given as a range, left null); +Rs 200 road safety cess; EVs 5/8/10% tiered. Conflict: GoDigit gives 9/11/13/16/21% on purchase value (5/10/15/20L breaks). Not verified. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed. Fuel prices are city-level figures for Thiruvananthapuram (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 115.49,
+        "Diesel": 104.4,
+        "CNG": 99
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/kerala-road-tax",
+        "https://www.goodreturns.in/petrol-price-in-trivandrum.html",
+        "https://www.goodreturns.in/diesel-price-in-trivandrum.html",
+        "https://www.goodreturns.in/cng-price-in-trivandrum.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Kerala",
+      "city": "Thrissur",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 10
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": null
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 22
+        }
+      ],
+      "roadTaxNotes": "Motomotar (Mar 2026): 10/13/15-17/22% (10-20L band given as a range, left null); +Rs 200 road safety cess; EVs 5/8/10% tiered. Conflict: GoDigit gives 9/11/13/16/21% on purchase value (5/10/15/20L breaks). Not verified. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 114.62,
+        "Diesel": 103.48,
+        "CNG": 102.5
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/kerala-road-tax",
+        "https://www.goodreturns.in/petrol-price-in-thrissur.html",
+        "https://www.goodreturns.in/diesel-price-in-thrissur.html",
+        "https://www.goodreturns.in/cng-price-in-thrissur.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Tamil Nadu",
+      "city": "Tiruchirappalli",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 18
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 20
+        }
+      ],
+      "roadTaxNotes": "On ex-showroom. Plus fixed Rs 2,250 road safety tax. EV 100% waiver until Dec 2027. GoDigit gives 9/12/18/20% (6L break); motomotar calculator example (Rs 10L->13%, Rs 20L->18%) consistent with existing. Not verified.",
+      "registrationFee": 600,
+      "otherRtoCharges": 2250,
+      "fuelPrice": {
+        "Petrol": 108.21,
+        "Diesel": 100.06,
+        "CNG": 102.47
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.v3cars.com/fuel-price-in-india",
+        "https://www.goodreturns.in/petrol-price-in-tiruchchirappalli.html",
+        "https://www.goodreturns.in/diesel-price-in-tiruchchirappalli.html",
+        "https://www.goodreturns.in/cng-price-in-tiruchchirappalli.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Tamil Nadu",
+      "city": "Tirunelveli",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 18
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 20
+        }
+      ],
+      "roadTaxNotes": "On ex-showroom. Plus fixed Rs 2,250 road safety tax. EV 100% waiver until Dec 2027. GoDigit gives 9/12/18/20% (6L break); motomotar calculator example (Rs 10L->13%, Rs 20L->18%) consistent with existing. Not verified.",
+      "registrationFee": 600,
+      "otherRtoCharges": 2250,
+      "fuelPrice": {
+        "Petrol": 108.67,
+        "Diesel": 100.52,
+        "CNG": 98.4
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.v3cars.com/fuel-price-in-india",
+        "https://www.goodreturns.in/petrol-price-in-tirunelveli.html",
+        "https://www.goodreturns.in/diesel-price-in-tirunelveli.html",
+        "https://www.goodreturns.in/cng-price-in-tirunelveli.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Andhra Pradesh",
+      "city": "Tirupati",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 14
+        }
+      ],
+      "roadTaxNotes": "Lifetime tax for new car: 12% below 10L, 14% above (Motomotar and GoDigit agree). +10% road safety cess on tax; +2% for second vehicle in same name; EV waiver to Dec 2029. Petrol/diesel from V3Cars AP state figure; CNG GoodReturns AP state figure. Fuel prices are city-level figures for Vijayawada (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 117.88,
+        "Diesel": 105.49,
+        "CNG": 98
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/andhra-pradesh-road-tax",
+        "https://www.v3cars.com/fuel-price-in-india",
+        "https://www.goodreturns.in/petrol-price-in-tirupati.html",
+        "https://www.goodreturns.in/diesel-price-in-tirupati.html",
+        "https://www.goodreturns.in/cng-price-in-tirupati.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Rajasthan",
+      "city": "Udaipur",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 9
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 10
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 11
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 12
+        }
+      ],
+      "roadTaxNotes": "Below Rs 10L rate also varies by engine cc (petrol 6% <800cc, 9% 800-1200cc, up to 10% for Rs 5-10L; diesel 8/11/12%); simplified here. +12.5% surcharge on tax; green tax Rs 2,500-5,000. EV waiver until Aug 2027. Not verified: GoDigit gives 4/6/8% (3L/6L breaks). CNG is Rajasthan state figure.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 113.37,
+        "Diesel": 98.41,
+        "CNG": 106.4
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.goodreturns.in/petrol-price-in-udaipur.html",
+        "https://www.goodreturns.in/diesel-price-in-udaipur.html",
+        "https://www.goodreturns.in/cng-price-in-udaipur.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Madhya Pradesh",
+      "city": "Ujjain",
+      "roadTax": [
+        {
+          "fuel": "Petrol",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 8
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 10
+        },
+        {
+          "fuel": "Petrol",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 8
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 10
+        },
+        {
+          "fuel": "CNG",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 14
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 10
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 12
+        },
+        {
+          "fuel": "Diesel",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 16
+        }
+      ],
+      "roadTaxNotes": "Motomotar and Shriram GI (2026) agree. Hybrid not stated, assume petrol. EV exemption expired Mar 2026 (Shriram lists EV 4%). Bajaj Finserv shows older/different figures. Fuel prices: GoodReturns/V3Cars state-level figures used where no city figure was listed. Fuel prices are city-level figures for Bhopal (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 114.99,
+        "Diesel": 100.06,
+        "CNG": 97.76
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.shriramgi.com/article/highest-road-tax-in-india-2026-which-state-tops-the-list",
+        "https://www.goodreturns.in/petrol-price-in-ujjain.html",
+        "https://www.goodreturns.in/diesel-price-in-ujjain.html",
+        "https://www.goodreturns.in/cng-price-in-ujjain.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Gujarat",
+      "city": "Vadodara",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": null,
+          "percent": 6
+        }
+      ],
+      "roadTaxNotes": "Flat 6% computed on pre-GST invoice price (not GST-inclusive ex-showroom). Some sources quote 12% above Rs 10L (unverified). EV 1%. Flat 6% for new cars confirmed by GoDigit (Sep 2026). Fuel prices are Gujarat state figures. Fuel prices are city-level figures for Vadodara (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 101.46,
+        "Diesel": 97.57,
+        "CNG": 92.1
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/gujarat-road-tax",
+        "https://www.goodreturns.in/petrol-price-in-vadodara.html",
+        "https://www.goodreturns.in/diesel-price-in-vadodara.html",
+        "https://www.goodreturns.in/cng-price-in-vadodara.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Uttar Pradesh",
+      "city": "Varanasi",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 9
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 11
+        }
+      ],
+      "roadTaxNotes": "UNCERTAIN: another source gives 8% / 10%. EV waiver only for UP-made EVs until Oct 2027. CNG is UP state figure. GoDigit gives 3/6/8/9% (annual, generic); not verified. Varanasi CNG figure is dated September 2026 (latest available). Fuel prices are city-level figures for Varanasi (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 102.23,
+        "Diesel": 95.72,
+        "CNG": 93
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://english.newstrack.com/india-news/petrol-diesel-rate-today-check-fuel-prices-in-delhi-mumbai-lucknow-and-more-cities-642027",
+        "https://www.goodreturns.in/petrol-price-in-varanasi.html",
+        "https://www.goodreturns.in/diesel-price-in-varanasi.html",
+        "https://www.goodreturns.in/cng-price-in-varanasi.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Tamil Nadu",
+      "city": "Vellore",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 18
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 20
+        }
+      ],
+      "roadTaxNotes": "On ex-showroom. Plus fixed Rs 2,250 road safety tax. EV 100% waiver until Dec 2027. GoDigit gives 9/12/18/20% (6L break); motomotar calculator example (Rs 10L->13%, Rs 20L->18%) consistent with existing. Not verified.",
+      "registrationFee": 600,
+      "otherRtoCharges": 2250,
+      "fuelPrice": {
+        "Petrol": 108.45,
+        "Diesel": 100.24,
+        "CNG": 97.5
+      },
+      "fuelPriceDate": "2026-10-31",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-21-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-562659-2026-10-21",
+        "https://www.v3cars.com/fuel-price-in-india",
+        "https://www.goodreturns.in/petrol-price-in-vellore.html",
+        "https://www.goodreturns.in/diesel-price-in-vellore.html",
+        "https://www.goodreturns.in/cng-price-in-vellore.html"
+      ],
+      "verified": false
+    },
+    {
+      "state": "Andhra Pradesh",
+      "city": "Vijayawada",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 14
+        }
+      ],
+      "roadTaxNotes": "Lifetime tax for new car: 12% below 10L, 14% above (Motomotar and GoDigit agree). +10% road safety cess on tax; +2% for second vehicle in same name; EV waiver to Dec 2029. Petrol/diesel from V3Cars AP state figure; CNG GoodReturns AP state figure. Fuel prices are city-level figures for Vijayawada (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 117.25,
+        "Diesel": 104.96,
+        "CNG": 103
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/andhra-pradesh-road-tax",
+        "https://www.v3cars.com/fuel-price-in-india",
+        "https://www.goodreturns.in/petrol-price-in-vijayawada.html",
+        "https://www.goodreturns.in/diesel-price-in-vijayawada.html",
+        "https://www.goodreturns.in/cng-price-in-vijayawada.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Andhra Pradesh",
+      "city": "Visakhapatnam",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 1000000,
+          "percent": 12
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": null,
+          "percent": 14
+        }
+      ],
+      "roadTaxNotes": "Lifetime tax for new car: 12% below 10L, 14% above (Motomotar and GoDigit agree). +10% road safety cess on tax; +2% for second vehicle in same name; EV waiver to Dec 2029. Petrol/diesel from V3Cars AP state figure; CNG GoodReturns AP state figure.",
+      "registrationFee": 600,
+      "otherRtoCharges": null,
+      "fuelPrice": {
+        "Petrol": 117.33,
+        "Diesel": 105.01,
+        "CNG": 99.8
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://www.godigit.com/road-tax/andhra-pradesh-road-tax",
+        "https://www.v3cars.com/fuel-price-in-india",
+        "https://www.goodreturns.in/cng-price.html"
+      ],
+      "verified": true
+    },
+    {
+      "state": "Telangana",
+      "city": "Warangal",
+      "roadTax": [
+        {
+          "fuel": "any",
+          "minPrice": 0,
+          "maxPrice": 500000,
+          "percent": 13
+        },
+        {
+          "fuel": "any",
+          "minPrice": 500000,
+          "maxPrice": 1000000,
+          "percent": 14
+        },
+        {
+          "fuel": "any",
+          "minPrice": 1000000,
+          "maxPrice": 2000000,
+          "percent": 18
+        },
+        {
+          "fuel": "any",
+          "minPrice": 2000000,
+          "maxPrice": null,
+          "percent": 20
+        }
+      ],
+      "roadTaxNotes": "On ex-showroom. Top band reported as 20-21% (some sources: 21% only above Rs 50L). Plus fixed Rs 5,000 road safety cess from Mar 2026. EV waiver until Dec 2026. GoDigit gives 3/6/8/9% (generic); not verified. Fuel prices are city-level figures for Warangal (21 Oct 2026).",
+      "registrationFee": 600,
+      "otherRtoCharges": 5000,
+      "fuelPrice": {
+        "Petrol": 115.62,
+        "Diesel": 103.74,
+        "CNG": 114
+      },
+      "fuelPriceDate": "2026-10-21",
+      "sources": [
+        "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/",
+        "https://english.newstrack.com/india-news/petrol-diesel-rate-today-check-fuel-prices-in-delhi-mumbai-lucknow-and-more-cities-642027",
+        "https://www.goodreturns.in/petrol-price-in-warangal.html",
+        "https://www.goodreturns.in/diesel-price-in-warangal.html",
+        "https://www.goodreturns.in/cng-price-in-warangal.html"
+      ],
+      "verified": false
+    }
+  ],
+  "insurance": {
+    "thirdPartyThreeYear": [
+      {
+        "maxCc": 1000,
+        "premium": 6521
+      },
+      {
+        "maxCc": 1500,
+        "premium": 10640
+      },
+      {
+        "maxCc": null,
+        "premium": 24596
+      }
+    ],
+    "ownDamageRatePercentOfExShowroom": {
+      "typicalLow": null,
+      "typicalHigh": null,
+      "note": "Not found; insurer-specific."
+    },
+    "notes": "Annual TP base: Rs 2,094 / 3,416 / 7,897 (+18% GST). 3-year figures from insurer listings, not verified against an IRDAI notification. A 10-25% TP hike was under discussion in 2026, not confirmed. EVs get 15% TP discount.",
+    "sources": [
+      "https://www.insure24.com/blog/third-party-car-insurance-premium-rates-irdai/",
+      "https://vahanbazaar.in/news/third-party-motor-insurance-hike-2026-irdai-morth-impact-explained"
+    ]
+  },
+  "otherCharges": {
+    "fastag": null,
+    "tcsPercentAboveTenLakh": 1,
+    "notes": "1% TCS still applies on cars above Rs 10L under Income-tax Act 2025 (Sec 394, formerly 206C(1F)) from 1 Apr 2026, on full price; claimable as credit/refund. HSRP Rs 230-400; hypothecation endorsement ~Rs 1,500 if financed; FASTag cited only as a Rs 500-600 range.",
+    "sources": [
+      "https://www.businesstoday.in/amp/personal-finance/tax/story/itr-filing-2026-bought-a-car-above-rs10-lakh-you-may-be-able-to-claim-back-the-1-tcs-while-filing-your-tax-return-542388-2026-07-11",
+      "https://blog.tdsman.com/2026/02/section-206c1f-tcs-on-sale-of-motor-vehicles-and-luxury-goods/",
+      "https://motomotar.com/car-buying-guide/rto-road-tax-by-state/"
+    ]
+  },
+  "carLoan": {
+    "typicalInterestPercent": 8.7,
+    "range": [
+      7.6,
+      9.85
+    ],
+    "note": "Starting rates per BankBazaar (updated 12 Sep 2026): BoB 7.60% floating/8.50% fixed, HDFC 8.15%, ICICI 8.40%, SBI 8.70-9.85%, Axis 8.95%. Tenure up to 7 years.",
+    "sources": [
+      "https://bankbazaar.com/car-loan-interest-rate.html"
+    ]
+  }
+}

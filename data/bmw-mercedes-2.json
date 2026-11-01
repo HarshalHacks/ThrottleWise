@@ -1,0 +1,1008 @@
+{
+  "cars": [
+    {
+      "id": "bmw-5-series-lwb",
+      "brand": "BMW",
+      "model": "5 Series LWB",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p20": {
+          "type": "2.0 turbo petrol",
+          "cylinders": 4,
+          "displacementCc": 1998,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 255,
+          "maxPowerRpm": 4500,
+          "maxTorqueNm": 400,
+          "maxTorqueRpm": 1600
+        }
+      },
+      "trims": [
+        {
+          "trim": "530Li M Sport",
+          "wheels": null,
+          "airbags": 8,
+          "features": [
+            "8 airbags",
+            "LED headlamps and taillights",
+            "Digital instrument cluster",
+            "Touchscreen with Apple CarPlay and Android Auto",
+            "Keyless entry",
+            "Rear camera",
+            "Front and rear USB charging",
+            "Tilt and telescopic steering"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "530Li M Sport",
+          "power": "2.0 Petrol AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "RWD",
+          "priceInr": 7700000,
+          "mileage": "15.7 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:BMW 5-Series (5 Xi) G68 Li 01 China 2024-04-08.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Navigator84",
+          "note": "China model, same design",
+          "local": "photos/bmw-5-series-lwb-front.jpg"
+        },
+        "rear": {
+          "file": "File:BMW 5-Series (5 Xi) G68 Li 03 China 2024-04-08.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Navigator84",
+          "note": "China model, same design",
+          "local": "photos/bmw-5-series-lwb-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market G68 photos on Commons; used Chinese-market G68 LWB (same body). Front is a three-quarter view at a dealer; rear is a three-quarter rear view.",
+      "sources": [
+        "https://www.cardekho.com/bmw/5-series/price-in-new-delhi",
+        "https://www.cardekho.com/bmw/5-series/specs",
+        "https://www.autocarindia.com/cars/bmw/5-series-lwb/faqs"
+      ],
+      "notes": "Single variant (530Li M Sport). Price: CarDekho Rs 77.00 lakh vs Autocar India Rs 75.80 lakh (mid-2026); CarDekho used. Power: CarDekho 255 bhp vs Autocar 258 hp. Mileage 15.7 kmpl is CarDekho's ARAI figure. Fuel tank and wheel size not found. Torque rpm given by CarDekho as 1600 only."
+    },
+    {
+      "id": "bmw-x3",
+      "brand": "BMW",
+      "model": "X3",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 60,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p20": {
+          "type": "2.0 turbo petrol",
+          "cylinders": 4,
+          "displacementCc": 1998,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 190,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 310,
+          "maxTorqueRpm": null
+        },
+        "p30": {
+          "type": "2.0 turbo petrol mild hybrid",
+          "cylinders": 4,
+          "displacementCc": 1998,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 258,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 400,
+          "maxTorqueRpm": null
+        },
+        "d20": {
+          "type": "2.0 turbo diesel",
+          "cylinders": 4,
+          "displacementCc": 1995,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 194,
+          "maxPowerRpm": 4000,
+          "maxTorqueNm": 400,
+          "maxTorqueRpm": "1500-2750"
+        }
+      },
+      "trims": [
+        {
+          "trim": "M Sport",
+          "wheels": "19-inch alloy",
+          "airbags": null,
+          "features": [
+            "Panoramic sunroof",
+            "14.9-inch touchscreen with Apple CarPlay and Android Auto",
+            "12.3-inch digital instrument cluster",
+            "Ventilated power front seats",
+            "360-degree camera",
+            "Head-up display",
+            "Wireless charging",
+            "15-speaker audio"
+          ]
+        },
+        {
+          "trim": "M Sport Pro",
+          "wheels": null,
+          "airbags": null,
+          "features": [
+            "More powerful 30 xDrive mild-hybrid petrol engine"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "M Sport",
+          "power": "20 Petrol AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 6990000,
+          "mileage": "13.38 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "M Sport",
+          "power": "20d Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 7820000,
+          "mileage": "17.86 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "M Sport Pro",
+          "power": "30 Petrol AT",
+          "engine": "p30",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 7690000,
+          "mileage": "14.61 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:BMW G45 20 DSC 7119.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Alexander Migl",
+          "note": "Europe model, same design",
+          "local": "photos/bmw-x3-front.jpg"
+        },
+        "rear": {
+          "file": "File:BMW G45 20 DSC 7122.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Alexander Migl",
+          "note": "Europe model, same design",
+          "local": "photos/bmw-x3-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market G45 X3 photos on Commons; used European X3 20 xDrive (current generation). Car shown has the non-M Sport bumper, while India sells M Sport trims. Three-quarter views.",
+      "sources": [
+        "https://www.cardekho.com/bmw/x3/price-in-new-delhi",
+        "https://www.cardekho.com/bmw/x3/specs",
+        "https://www.autocarindia.com/cars/bmw/x3/specifications"
+      ],
+      "notes": "Current G45 generation. Petrol 20 xDrive power 190 hp/310 Nm per Autocar India overview (its spec table says 184 hp/300 Nm). 30 xDrive figures (258 hp/400 Nm, 14.61 kmpl claimed) from Autocar India; Team-BHP gives 255 hp. Diesel 194 bhp per CarDekho, 197 hp per Autocar. Airbags conflict: CarDekho 6, Autocar 8. Fuel tank 60 L from Autocar (diesel)."
+    },
+    {
+      "id": "bmw-x5",
+      "brand": "BMW",
+      "model": "X5",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 80,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p30": {
+          "type": "3.0 turbo petrol mild hybrid",
+          "cylinders": 6,
+          "displacementCc": 2998,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 381,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 520,
+          "maxTorqueRpm": null
+        },
+        "d30": {
+          "type": "3.0 turbo diesel mild hybrid",
+          "cylinders": 6,
+          "displacementCc": 2993,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 282,
+          "maxPowerRpm": 4000,
+          "maxTorqueNm": 650,
+          "maxTorqueRpm": "1500-2500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "xLine",
+          "wheels": null,
+          "airbags": null,
+          "features": [
+            "Air suspension",
+            "12.3-inch digital cluster and curved display",
+            "Panoramic sunroof",
+            "Adaptive LED headlights",
+            "360-degree camera",
+            "Head-up display",
+            "Harman Kardon audio",
+            "Wireless charging"
+          ]
+        },
+        {
+          "trim": "M Sport",
+          "wheels": null,
+          "airbags": null,
+          "features": [
+            "M Sport styling package"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "xLine",
+          "power": "40i Petrol AT",
+          "engine": "p30",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 9690000,
+          "mileage": "12 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "xLine",
+          "power": "30d Diesel AT",
+          "engine": "d30",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 9890000,
+          "mileage": "12 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "3.0 six-cylinder diesel engine"
+          ]
+        },
+        {
+          "trim": "M Sport",
+          "power": "40i Petrol AT",
+          "engine": "p30",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 11140000,
+          "mileage": "12 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "M Sport",
+          "power": "30d Diesel AT",
+          "engine": "d30",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 11340000,
+          "mileage": "12 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "3.0 six-cylinder diesel engine"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:BMW G05 LCI X5 xDrive40i M Sport Carbon Black Metallic (1).jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Damian B Oh",
+          "note": "South Korea model, same design",
+          "local": "photos/bmw-x5-front.jpg"
+        },
+        "rear": {
+          "file": "File:BMW G05 LCI X5 xDrive40i M Sport Carbon Black Metallic (2).jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Damian B Oh",
+          "note": "South Korea model, same design",
+          "local": "photos/bmw-x5-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market X5 LCI photos on Commons; used South Korean X5 xDrive40i M Sport (G05 LCI, current facelift). Front is near straight-on; rear is three-quarter.",
+      "sources": [
+        "https://www.cardekho.com/bmw/x5/price-in-new-delhi",
+        "https://www.cardekho.com/bmw/x5/specs",
+        "https://www.autocarindia.com/cars/bmw/x5/specifications"
+      ],
+      "notes": "Current G05 LCI (locally assembled). Petrol 381 hp/520 Nm from Autocar India (hp as quoted; no rpm). Diesel 281.68 bhp/650 Nm from CarDekho (Autocar 286 hp). Mileage 12 kmpl is a model-level claimed figure (CarDekho FAQ ARAI, Autocar); not given separately per fuel. Autocar calls the top trim 'M Sport Pro'. Airbags conflict: CarDekho 6, Autocar 8. Wheel size conflict (20 vs 21 inch)."
+    },
+    {
+      "id": "bmw-2-series-gc",
+      "brand": "BMW",
+      "model": "2 Series Gran Coupe",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": 49,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p15": {
+          "type": "1.5 turbo petrol",
+          "cylinders": 3,
+          "displacementCc": 1499,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 154,
+          "maxPowerRpm": "4900-6000",
+          "maxTorqueNm": 230,
+          "maxTorqueRpm": "1500-4600"
+        }
+      },
+      "trims": [
+        {
+          "trim": "218 M Sport",
+          "wheels": "18-inch alloy",
+          "airbags": null,
+          "features": [
+            "Panoramic sunroof",
+            "10.7-inch touchscreen with Apple CarPlay and Android Auto",
+            "10.25-inch digital cluster",
+            "Adaptive cruise control",
+            "Harman Kardon audio",
+            "Driver seat memory",
+            "LED headlamps",
+            "Wireless charging"
+          ]
+        },
+        {
+          "trim": "218 M Sport Pro",
+          "wheels": "18-inch alloy",
+          "airbags": null,
+          "features": [
+            "Blind spot monitor",
+            "Lane departure warning and lane keep assist",
+            "Rear cross-traffic alert"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "218 M Sport",
+          "power": "1.5 Petrol DCT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DCT",
+          "drivetrain": "FWD",
+          "priceInr": 4580000,
+          "mileage": "16.35 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "218 M Sport Pro",
+          "power": "1.5 Petrol DCT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DCT",
+          "drivetrain": "FWD",
+          "priceInr": 4890000,
+          "mileage": "16.35 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:BMW 220i Gran Coupé (F74) – f 04072025.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "artist": "M 93",
+          "note": "Germany model, same design",
+          "local": "photos/bmw-2-series-gc-front.jpg"
+        },
+        "rear": {
+          "file": "File:BMW 220i Gran Coupé (F74) – h 04072025.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "artist": "M 93",
+          "note": "Germany model, same design",
+          "local": "photos/bmw-2-series-gc-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market F74 photos on Commons; used German 220i Gran Coupe (same generation, non-M Sport bumper). Showroom photos with a placeholder number-plate sign.",
+      "sources": [
+        "https://www.cardekho.com/bmw/2-series/price-in-new-delhi",
+        "https://www.cardekho.com/bmw/2-series/specs",
+        "https://www.autocarindia.com/cars/bmw/2-series-gran-coupe/specifications"
+      ],
+      "notes": "Current F74 generation (218). Power: CarDekho 154 bhp, Autocar 156 hp. Airbags conflict: CarDekho 6, Autocar 7. Fuel tank 49 L from Autocar only. Trim feature split from Autocar India."
+    },
+    {
+      "id": "mercedes-e-class",
+      "brand": "Mercedes-Benz",
+      "model": "E-Class LWB",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": 66,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p20": {
+          "type": "2.0 turbo petrol mild hybrid",
+          "cylinders": 4,
+          "displacementCc": 1999,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 201,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 320,
+          "maxTorqueRpm": null
+        },
+        "d20": {
+          "type": "2.0 turbo diesel mild hybrid",
+          "cylinders": 4,
+          "displacementCc": 1993,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 194,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 440,
+          "maxTorqueRpm": null
+        },
+        "p30": {
+          "type": "3.0 turbo petrol mild hybrid",
+          "cylinders": 6,
+          "displacementCc": 2999,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 375,
+          "maxPowerRpm": "5800-6100",
+          "maxTorqueNm": 500,
+          "maxTorqueRpm": "1800-5000"
+        }
+      },
+      "trims": [
+        {
+          "trim": "E 200 / E 220d",
+          "wheels": null,
+          "airbags": null,
+          "features": [
+            "Panoramic sunroof",
+            "Digital cluster and touchscreen",
+            "Apple CarPlay and Android Auto",
+            "360-degree camera",
+            "Front and rear parking sensors",
+            "Wireless charging",
+            "Blind spot and lane keep assist",
+            "Adaptive cruise control"
+          ]
+        },
+        {
+          "trim": "E 200 Celebration Edition",
+          "wheels": null,
+          "airbags": null,
+          "features": [
+            "Celebration Edition package"
+          ]
+        },
+        {
+          "trim": "E 450 4MATIC AMG Line",
+          "wheels": null,
+          "airbags": 8,
+          "features": [
+            "3.0 six-cylinder petrol engine",
+            "4MATIC all-wheel drive",
+            "AMG Line styling"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "E 200 / E 220d",
+          "power": "E 200 Petrol AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 9-speed",
+          "drivetrain": "RWD",
+          "priceInr": 8000000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "E 200 / E 220d",
+          "power": "E 220d Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 9-speed",
+          "drivetrain": "RWD",
+          "priceInr": 8200000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "E 200 Celebration Edition",
+          "power": "E 200 Petrol AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 9-speed",
+          "drivetrain": "RWD",
+          "priceInr": 8270000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "E 450 4MATIC AMG Line",
+          "power": "E 450 4MATIC AT",
+          "engine": "p30",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 9-speed",
+          "drivetrain": "AWD",
+          "priceInr": 9350000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:MERCEDES-BENZ E CLASS LWB (W214) China.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Dinkun Chen",
+          "note": "China model, same design",
+          "local": "photos/mercedes-e-class-front.jpg"
+        },
+        "rear": {
+          "file": "File:Mercedes-Benz E 200 Edition Exclusive (W214) rear.jpg",
+          "license": "CC0",
+          "artist": "Tokumeigakarinoaoshima",
+          "note": "Japan model, same design",
+          "local": "photos/mercedes-e-class-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market V214 photos on Commons. Front: Chinese-market E-Class LWB (V214), near straight-on. Rear: Japanese standard-wheelbase W214 E 200 (same rear design) in a showroom with an 'E-Class' plate card; no clean LWB rear found.",
+      "sources": [
+        "https://www.cardekho.com/mercedes-benz/e-class/price-in-new-delhi",
+        "https://www.cardekho.com/mercedes-benz/e-class/specs",
+        "https://www.carwale.com/mercedes-benz-cars/e-class/",
+        "https://www.autocarindia.com/cars/mercedes-benz/e-class/specifications"
+      ],
+      "notes": "Current V214 LWB. CarWale (Mumbai) prices differ: E200 Rs 81.50 lakh, E220d Rs 83.50 lakh, E450 Rs 95.00 lakh; CarDekho Delhi used. E200 power 201 bhp per CarWale (Autocar FAQ 204 hp); E220d 194 bhp (197 hp in text). Gearbox speed (9) from CarDekho for E 450, assumed same family for others not confirmed per variant. No official ARAI mileage found (sites quote 12-15 kmpl without source). Fuel tank 66 L (CarDekho, CarTrade). Wheel sizes not found. E 53 AMG skipped."
+    },
+    {
+      "id": "mercedes-glc",
+      "brand": "Mercedes-Benz",
+      "model": "GLC",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p20": {
+          "type": "2.0 turbo petrol mild hybrid",
+          "cylinders": 4,
+          "displacementCc": 1999,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 255,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 400,
+          "maxTorqueRpm": null
+        },
+        "d20": {
+          "type": "2.0 turbo diesel mild hybrid",
+          "cylinders": 4,
+          "displacementCc": 1993,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 194,
+          "maxPowerRpm": 3600,
+          "maxTorqueNm": 440,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "4MATIC",
+          "wheels": "19-inch alloy",
+          "airbags": 7,
+          "features": [
+            "Panoramic sunroof",
+            "11.9-inch touchscreen and 12.3-inch digital cluster",
+            "Apple CarPlay and Android Auto",
+            "Ventilated power front seats",
+            "360-degree camera",
+            "15-speaker audio",
+            "Ambient lighting",
+            "ADAS with lane keep and blind spot assist"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "4MATIC",
+          "power": "300 Petrol AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 9-speed",
+          "drivetrain": "AWD",
+          "priceInr": 7700000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "4MATIC",
+          "power": "220d Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 9-speed",
+          "drivetrain": "AWD",
+          "priceInr": 7700000,
+          "mileage": "19.47 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Mercedes-Benz GLC 220 d 4MATIC (X254) front.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Tokumeigakarinoaoshima",
+          "note": "Japan model, same design",
+          "local": "photos/mercedes-glc-front.jpg"
+        },
+        "rear": {
+          "file": "File:Mercedes-Benz GLC 220 d 4MATIC (X254) rear.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Tokumeigakarinoaoshima",
+          "note": "Japan model, same design",
+          "local": "photos/mercedes-glc-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market X254 photos on Commons; used Japanese GLC 220 d 4MATIC (same generation) in a showroom with a 'GLC' plate card. Three-quarter views.",
+      "sources": [
+        "https://www.cardekho.com/mercedes-benz/glc/price-in-new-delhi",
+        "https://www.cardekho.com/mercedes-benz/glc/specs",
+        "https://www.carwale.com/mercedes-benz-cars/glc/",
+        "https://www.autocarindia.com/cars/mercedes-benz/glc/specifications"
+      ],
+      "notes": "Second-gen X254. Both variants Rs 77.00 lakh ex-showroom; CarWale notes a June 2026 hike of up to Rs 1.5 lakh may not be reflected. Diesel mileage 19.47 kmpl is Autocar's 'official' figure (CarDekho lists 19.4 kmpl as WLTP). Petrol mileage not found. Diesel torque rpm conflict (CarDekho 2000-3200, Autocar 1800-2200). Fuel tank conflict (CarDekho 66 L, Autocar 62 L). GLC EV expected Nov 2026, not included."
+    },
+    {
+      "id": "mercedes-gle",
+      "brand": "Mercedes-Benz",
+      "model": "GLE",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 85,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "d20": {
+          "type": "2.0 turbo diesel mild hybrid",
+          "cylinders": 4,
+          "displacementCc": 1993,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 265,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 550,
+          "maxTorqueRpm": null
+        },
+        "p30": {
+          "type": "3.0 turbo petrol mild hybrid",
+          "cylinders": 6,
+          "displacementCc": 2999,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 375,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 500,
+          "maxTorqueRpm": null
+        },
+        "d30": {
+          "type": "3.0 turbo diesel mild hybrid",
+          "cylinders": 6,
+          "displacementCc": 2989,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 362,
+          "maxPowerRpm": 4000,
+          "maxTorqueNm": null,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "AMG Line",
+          "wheels": null,
+          "airbags": null,
+          "features": [
+            "Panoramic sunroof",
+            "12.3-inch touchscreen and digital cluster",
+            "Head-up display",
+            "360-degree camera",
+            "Ventilated front seats",
+            "Wireless charging",
+            "Apple CarPlay and Android Auto",
+            "ADAS with blind spot monitor"
+          ]
+        },
+        {
+          "trim": "Night Edition",
+          "wheels": null,
+          "airbags": null,
+          "features": [
+            "Night Edition black styling package",
+            "Night interior design"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "AMG Line",
+          "power": "300d Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 9-speed",
+          "drivetrain": "AWD",
+          "priceInr": 10000000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "AMG Line",
+          "power": "450 Petrol AT",
+          "engine": "p30",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 9-speed",
+          "drivetrain": "AWD",
+          "priceInr": 11150000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "3.0 six-cylinder petrol engine"
+          ]
+        },
+        {
+          "trim": "AMG Line",
+          "power": "450d Diesel AT",
+          "engine": "d30",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 9-speed",
+          "drivetrain": "AWD",
+          "priceInr": 11650000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "3.0 six-cylinder diesel engine"
+          ]
+        },
+        {
+          "trim": "Night Edition",
+          "power": "300d Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 9-speed",
+          "drivetrain": "AWD",
+          "priceInr": 10500000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Night Edition",
+          "power": "450 Petrol AT",
+          "engine": "p30",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 9-speed",
+          "drivetrain": "AWD",
+          "priceInr": 11400000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "3.0 six-cylinder petrol engine"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Mercedes-Benz GLE AMG Line (V 167, Facelift) – f 14042024.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "artist": "M 93",
+          "note": "Germany model, same design",
+          "local": "photos/mercedes-gle-front.jpg"
+        },
+        "rear": {
+          "file": "File:Mercedes-Benz GLE AMG Line (V 167, Facelift) – h 14042024.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "artist": "M 93",
+          "note": "Germany model, same design",
+          "local": "photos/mercedes-gle-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market GLE facelift photos on Commons; used German GLE AMG Line (V167 2023 facelift). Three-quarter views. Commons also has a newer 2026 facelift category, which India has not got.",
+      "sources": [
+        "https://www.cardekho.com/mercedes-benz/gle/price-in-new-delhi",
+        "https://www.cardekho.com/mercedes-benz/gle/specs",
+        "https://www.carwale.com/mercedes-benz-cars/gle/",
+        "https://www.autocarindia.com/cars/mercedes-benz/gle/specifications"
+      ],
+      "notes": "Current V167 facelift. 300d: 265 bhp (CarWale), 550 Nm (Autocar 269 hp/550 Nm). 450d: CarDekho 362 bhp/750 Nm@1350-2800 vs Autocar 367 hp/700 Nm; torque left null. No per-variant ARAI mileage (CarDekho FAQ gives 8.6 kmpl for the range). Airbags conflict: CarWale 9, Autocar 7. Fuel tank 85 L from Autocar only."
+    },
+    {
+      "id": "mercedes-gls",
+      "brand": "Mercedes-Benz",
+      "model": "GLS",
+      "bodyType": "SUV",
+      "seats": 7,
+      "fuelTankL": 90,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p30": {
+          "type": "3.0 turbo petrol mild hybrid",
+          "cylinders": 6,
+          "displacementCc": 2999,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 375,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 500,
+          "maxTorqueRpm": null
+        },
+        "d30": {
+          "type": "3.0 turbo diesel mild hybrid",
+          "cylinders": 6,
+          "displacementCc": 2989,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 362,
+          "maxPowerRpm": 4000,
+          "maxTorqueNm": 750,
+          "maxTorqueRpm": "1350-2800"
+        }
+      },
+      "trims": [
+        {
+          "trim": "AMG Line",
+          "wheels": null,
+          "airbags": 9,
+          "features": [
+            "Air suspension (AIRMATIC)",
+            "Burmester 3D surround sound with Dolby Atmos",
+            "MBUX rear tablet",
+            "Multibeam LED headlights",
+            "Panoramic sunroof",
+            "Ventilated memory front seats",
+            "360-degree camera and head-up display",
+            "Front and rear wireless charging"
+          ]
+        },
+        {
+          "trim": "Night Edition",
+          "wheels": null,
+          "airbags": 9,
+          "features": [
+            "Night Edition black styling package"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "AMG Line",
+          "power": "450 Petrol AT",
+          "engine": "p30",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 9-speed",
+          "drivetrain": "AWD",
+          "priceInr": 13750000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "AMG Line",
+          "power": "450d Diesel AT",
+          "engine": "d30",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 9-speed",
+          "drivetrain": "AWD",
+          "priceInr": 13970000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "3.0 six-cylinder diesel engine"
+          ]
+        },
+        {
+          "trim": "Night Edition",
+          "power": "450 Petrol AT",
+          "engine": "p30",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 9-speed",
+          "drivetrain": "AWD",
+          "priceInr": 14100000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Night Edition",
+          "power": "450d Diesel AT",
+          "engine": "d30",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 9-speed",
+          "drivetrain": "AWD",
+          "priceInr": 14300000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "3.0 six-cylinder diesel engine"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Mercedes-Benz GLS 450d 4MATIC (X167) front.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Tokumeigakarinoaoshima",
+          "note": "Japan model, same design",
+          "local": "photos/mercedes-gls-front.jpg"
+        },
+        "rear": {
+          "file": "File:Mercedes-Benz GLS 450d 4MATIC (X167) rear.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Tokumeigakarinoaoshima",
+          "note": "Japan model, same design",
+          "local": "photos/mercedes-gls-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market GLS facelift photos on Commons; used Japanese GLS 450d 4MATIC (X167 2023 facelift, same design). Three-quarter views, wet day, blank plates.",
+      "sources": [
+        "https://www.cardekho.com/mercedes-benz/gls/price-in-new-delhi",
+        "https://www.cardekho.com/mercedes-benz/gls/specs",
+        "https://www.carwale.com/mercedes-benz-cars/gls/",
+        "https://www.autocarindia.com/cars/mercedes-benz/gls/specifications"
+      ],
+      "notes": "Current X167 facelift. Petrol 375 bhp/500 Nm (CarWale; Autocar 381 hp). Diesel 362 bhp@4000/750 Nm@1350-2800 (CarDekho; Autocar 367 hp). No official ARAI mileage found (CarDekho says no official figure; Autocar model-level 8.5 kmpl). Airbags 9 (CarWale, Autocar; CarDekho 10). Wheel size: Autocar 22-inch, not confirmed elsewhere. Maybach GLS skipped."
+    }
+  ]
+}

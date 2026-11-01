@@ -1,0 +1,1916 @@
+{
+  "cars": [
+    {
+      "id": "vw-virtus",
+      "brand": "Volkswagen",
+      "model": "Virtus",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": 45,
+      "priceNote": "volkswagen.co.in price list (Virtus Chrome layer), Oct 2026; GT Line, GT Plus Sport and Anniversary Edition from CarDekho/CarWale New Delhi, Oct 2026",
+      "engines": {
+        "t10": {
+          "type": "1.0 TSI turbo-petrol",
+          "cylinders": 3,
+          "displacementCc": 999,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 114,
+          "maxPowerRpm": "5000-5500",
+          "maxTorqueNm": 178,
+          "maxTorqueRpm": "1750-4500"
+        },
+        "t15": {
+          "type": "1.5 TSI EVO turbo-petrol (Active Cylinder Technology)",
+          "cylinders": 4,
+          "displacementCc": 1498,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 147.51,
+          "maxPowerRpm": "5000-6000",
+          "maxTorqueNm": 250,
+          "maxTorqueRpm": "1600-3500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Comfortline",
+          "wheels": "16-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESC",
+            "LED headlamps",
+            "Touchscreen with wired Android Auto and Apple CarPlay",
+            "Steering-mounted audio controls",
+            "Manual AC"
+          ]
+        },
+        {
+          "trim": "Highline",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "16-inch alloy wheels",
+            "10.1-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Wireless phone charger",
+            "Front fog lamps",
+            "Single-zone climate control",
+            "Hill start assist",
+            "60:40 split rear seat"
+          ]
+        },
+        {
+          "trim": "Highline Plus",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Electric sunroof",
+            "8-inch digital instrument cluster",
+            "Push-button start",
+            "Auto-dimming IRVM",
+            "Auto headlamps",
+            "Rain-sensing wipers",
+            "Auto coming/leaving-home lights"
+          ]
+        },
+        {
+          "trim": "GT Line",
+          "wheels": "16-inch black alloy",
+          "airbags": 6,
+          "features": [
+            "16-inch black alloy wheels",
+            "Blacked-out exterior with GT Line badging",
+            "Glossy black boot spoiler",
+            "Red ambient lighting",
+            "Alloy pedals",
+            "Black interior with leatherette-fabric seats",
+            "Front and rear fog lamps"
+          ]
+        },
+        {
+          "trim": "Topline ES",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Leatherette upholstery",
+            "Ventilated front seats",
+            "Electrically adjustable front seats",
+            "Sound system with amplifier and subwoofer",
+            "Chrome exterior detailing"
+          ]
+        },
+        {
+          "trim": "GT Plus ES",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "1.5 TSI EVO engine",
+            "7-speed DSG automatic",
+            "Active Cylinder Technology",
+            "GT badging"
+          ]
+        },
+        {
+          "trim": "GT Plus Sport",
+          "wheels": "16-inch black alloy",
+          "airbags": 6,
+          "features": [
+            "Aero kit (bumpers, side skirts, rear diffuser)",
+            "Red GT badges",
+            "Red front brake calipers",
+            "Dual-tone roof",
+            "All-black interior with red stitching",
+            "Red ambient lighting"
+          ]
+        },
+        {
+          "trim": "Anniversary Edition",
+          "wheels": "Black alloy",
+          "airbags": 6,
+          "features": [
+            "Limited to 150 units",
+            "Avocado Pearl paint with black roof",
+            "Black alloy wheels",
+            "Based on GT Plus Sport"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Comfortline",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1070900,
+          "mileage": "20.08 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Highline",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1350900,
+          "mileage": "20.08 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Highline",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1470900,
+          "mileage": "18.45 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Cruise control"
+          ]
+        },
+        {
+          "trim": "Highline Plus",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1390900,
+          "mileage": "20.08 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Highline Plus",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1499900,
+          "mileage": "18.45 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "GT Line",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1435000,
+          "mileage": "20.08 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "GT Line",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1525000,
+          "mileage": "18.45 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Topline ES",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1515900,
+          "mileage": "20.08 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Topline ES",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1634900,
+          "mileage": "18.45 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "GT Plus ES",
+          "power": "1.5 TSI DSG",
+          "engine": "t15",
+          "fuel": "Petrol",
+          "transmission": "Automatic (DSG dual-clutch), 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1884900,
+          "mileage": "19.62 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "GT Plus Sport",
+          "power": "1.5 TSI DSG",
+          "engine": "t15",
+          "fuel": "Petrol",
+          "transmission": "Automatic (DSG dual-clutch), 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1920000,
+          "mileage": "19.62 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Anniversary Edition",
+          "power": "1.5 TSI DSG",
+          "engine": "t15",
+          "fuel": "Petrol",
+          "transmission": "Automatic (DSG dual-clutch), 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1920000,
+          "mileage": "19.62 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2023 Volkswagen Virtus Topline front 20230520 (cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Dairokkan9",
+          "local": "photos/vw-virtus-front.jpg"
+        },
+        "rear": {
+          "file": "File:2023 Volkswagen Virtus Topline rear 20230520.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Dairokkan9",
+          "local": "photos/vw-virtus-rear.jpg"
+        }
+      },
+      "photoNotes": "Indian-market 2023 Virtus Topline (current generation; no facelift launched in India yet). Alternative: DriveSpark 2022 Virtus GT (India) front/rear views, CC BY 3.0.",
+      "sources": [
+        "https://www.volkswagen.co.in/en/models/virtus.html",
+        "https://www.volkswagen.co.in/en/discover-volkswagen/news/news-and-updates/volkswagen-india-introduces-the-virtus-gt-plus-sport-and-gt-line-along-with-a-refreshed-line-structure-offering-more-for-less.html",
+        "https://www.cardekho.com/volkswagen/virtus/variants.htm",
+        "https://www.cardekho.com/volkswagen/virtus/specs",
+        "https://www.carwale.com/volkswagen-cars/virtus/",
+        "https://www.carwale.com/volkswagen-cars/virtus/highline-10-tsi-at/",
+        "https://www.autocarindia.com/cars/volkswagen/virtus"
+      ],
+      "notes": "Mileage conflict: VW India site (as indexed) gives 20.08 kmpl (1.0 MT) and 18.45 kmpl (1.0 AT), used here; CarWale gives 20.8/18.45, Autocar India 20.19/18.70, and CarDekho shows per-variant 20.8/19.4/20.08 (MT) and 18.12/18.45 (AT). 1.5 DSG 19.62 kmpl agreed by all. 1.0 TSI torque band 1750-4500 rpm per VW site/CarWale (VW brochure says 1750-4000). 1.5 TSI MT variants were discontinued in Jan 2026. Autocar lists 11 variants (no Anniversary Edition); CarDekho/CarWale list the 150-unit Anniversary Edition at Rs 19.20 lakh. Comfortline 16-inch steel wheels per Gaadify only; Highline Plus/Topline/GT Plus ES wheels: 205/55 R16 alloys per CarWale/CarDekho, design not confirmed per trim. 'ES' = electric seats. Prices other than Comfortline are rounded lakh figures. Update 21 Oct 2026: prices for Comfortline, Highline, Highline Plus, Topline ES and GT Plus ES set to exact volkswagen.co.in figures (Rs 100 below the rounded CarDekho figures); GT Line MT/AT (Rs 14.35/15.25 lakh), GT Plus Sport and Anniversary Edition (Rs 19.20 lakh) are still rounded CarDekho/CarWale figures because VW's Sport price list did not load. Photos unchanged. Mileage unchanged: VW site gives no kmpl, and sources still disagree for the 1.0 TSI (Autocar India Jun 2026 20.19/18.7, Team-BHP 19.40/18.12, Spinny 20.08/18.45-18.70); 20.08/18.45 kept.\nSpec audit 21 Oct 2026: all engine figures confirmed (CarDekho, VW India sheet, Autocar India)."
+    },
+    {
+      "id": "vw-taigun",
+      "brand": "Volkswagen",
+      "model": "Taigun",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 50,
+      "priceNote": "volkswagen.co.in price list (The New Taigun), Oct 2026",
+      "engines": {
+        "t10": {
+          "type": "1.0 TSI turbo-petrol",
+          "cylinders": 3,
+          "displacementCc": 999,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 114,
+          "maxPowerRpm": "5000-5500",
+          "maxTorqueNm": 178,
+          "maxTorqueRpm": "1750-4500"
+        },
+        "t15": {
+          "type": "1.5 TSI EVO turbo-petrol (Active Cylinder Technology)",
+          "cylinders": 4,
+          "displacementCc": 1498,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 148,
+          "maxPowerRpm": "5000-6000",
+          "maxTorqueNm": 250,
+          "maxTorqueRpm": "1600-3500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Comfortline",
+          "wheels": "16-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESC",
+            "Full LED headlamps with auto-levelling",
+            "7-inch touchscreen with wired Android Auto and Apple CarPlay",
+            "Automatic climate control with rear vents",
+            "Rear parking sensors",
+            "Steering-mounted controls",
+            "Rear fog lamps"
+          ]
+        },
+        {
+          "trim": "Highline",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "16-inch alloy wheels",
+            "10.1-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Wireless phone charger",
+            "Front and rear parking sensors",
+            "Rear camera",
+            "Ambient lighting",
+            "60:40 split rear seat"
+          ]
+        },
+        {
+          "trim": "Highline Plus",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Electric sunroof",
+            "Push-button start",
+            "8-inch digital instrument cluster",
+            "Rain-sensing wipers",
+            "Auto headlamps",
+            "Auto-dimming IRVM",
+            "Electrically folding mirrors"
+          ]
+        },
+        {
+          "trim": "GT Line",
+          "wheels": "17-inch black alloy",
+          "airbags": 6,
+          "features": [
+            "17-inch black alloy wheels",
+            "GT badging",
+            "Red ambient lighting",
+            "Aluminium pedals",
+            "Dark-themed exterior and interior"
+          ]
+        },
+        {
+          "trim": "Topline",
+          "wheels": "17-inch dual-tone diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "17-inch diamond-cut alloy wheels",
+            "Panoramic sunroof",
+            "10.25-inch digital instrument cluster",
+            "Ventilated front seats",
+            "Electrically adjustable front seats",
+            "Premium sound system with subwoofer",
+            "Illuminated VW logos front and rear"
+          ]
+        },
+        {
+          "trim": "GT Plus Chrome",
+          "wheels": "17-inch dual-tone diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "1.5 TSI EVO engine",
+            "7-speed DSG automatic",
+            "Active Cylinder Technology",
+            "Rear disc brakes",
+            "Red GT branding and brake calipers"
+          ]
+        },
+        {
+          "trim": "GT Plus Sport",
+          "wheels": "17-inch black alloy",
+          "airbags": 6,
+          "features": [
+            "17-inch black alloy wheels",
+            "Blacked-out exterior elements",
+            "GT steering-wheel clasp"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Comfortline",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1099900,
+          "mileage": "19.98 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Highline",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1299900,
+          "mileage": "19.98 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Highline",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1409900,
+          "mileage": "19.54 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "8-speed torque-converter automatic",
+            "Paddle shifters",
+            "Hill start assist"
+          ]
+        },
+        {
+          "trim": "Highline Plus",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1441900,
+          "mileage": "19.98 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Highline Plus",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1556900,
+          "mileage": "19.54 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "8-speed torque-converter automatic",
+            "Paddle shifters",
+            "Hill start assist"
+          ]
+        },
+        {
+          "trim": "GT Line",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1471900,
+          "mileage": "19.98 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "GT Line",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1586900,
+          "mileage": "19.54 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "8-speed torque-converter automatic",
+            "Paddle shifters",
+            "Hill start assist"
+          ]
+        },
+        {
+          "trim": "Topline",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1621900,
+          "mileage": "19.98 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Topline",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1737900,
+          "mileage": "19.54 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "8-speed torque-converter automatic",
+            "Paddle shifters",
+            "Hill start assist"
+          ]
+        },
+        {
+          "trim": "GT Plus Chrome",
+          "power": "1.5 TSI DSG",
+          "engine": "t15",
+          "fuel": "Petrol",
+          "transmission": "Automatic (DSG dual-clutch), 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1916900,
+          "mileage": "18.85 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "GT Plus Sport",
+          "power": "1.5 TSI DSG",
+          "engine": "t15",
+          "fuel": "Petrol",
+          "transmission": "Automatic (DSG dual-clutch), 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1946900,
+          "mileage": "18.85 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Volkswagen Taigun front 20230528.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Dairokkan9",
+          "local": "photos/vw-taigun-front.jpg"
+        },
+        "rear": {
+          "file": "File:Volkswagen Taigun rear 20230528.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Dairokkan9",
+          "local": "photos/vw-taigun-rear.jpg"
+        }
+      },
+      "photoNotes": "Indian-market 2022 Taigun GT Plus DSG (Coimbatore). Same generation but PRE-FACELIFT: rechecked 21 Oct 2026, Commons Category:Volkswagen Taigun still has no photos of the April 2026 facelift (newest are 'Volkswagen Taigun 02.jpg' and 'Volkswagen T-Cross and Volkswagen Taigun (2024-07-19).jpg', both pre-facelift), so the existing clean straight-on pair is kept.",
+      "sources": [
+        "https://www.cardekho.com/volkswagen/taigun/variants.htm",
+        "https://www.cardekho.com/volkswagen/taigun/specs",
+        "https://www.cardekho.com/india-car-news/2026-volkswagen-taigun-facelift-launched-in-india-at-rs-11-lakh-full-price-list-variants-information-design-features-and-more-35888.htm",
+        "https://www.cardekho.com/india-car-news/volkswagen-taigun-facelift-comfortline-vs-highline-variants-compared-35910.htm",
+        "https://www.carwale.com/volkswagen-cars/taigun/",
+        "https://www.autocarindia.com/cars/volkswagen/taigun",
+        "https://www.rushlane.com/amp/vw-taigun-facelift-launch-price-rs-11-lakh-40-new-updates-8-speed-auto-12544134.html"
+      ],
+      "notes": "Facelift launched 14 April 2026 (new styling, panoramic sunroof, 10.25-inch cluster, 8-speed torque-converter auto replacing the 6-speed). VW India website was not checked successfully for Taigun prices. Autocar India quotes a top price of Rs 19.47 lakh in one place vs Rs 19.30 lakh elsewhere and on CarDekho/CarWale. 1.0 TSI rpm figures taken from VW India/CarWale data for the same engine in the Virtus (Taigun pages give no rpm). Highline Plus wheel size not confirmed (16- and 17-inch designs exist). Comfortline and Highline features from CarDekho variant comparison and Rushlane; cruise control trim placement conflicts between sources, so omitted. Update 21 Oct 2026: all 11 prices replaced with exact volkswagen.co.in figures, which are higher than the CarDekho/CarWale figures used before (e.g. Highline MT Rs 12,99,900 vs Rs 12.70 lakh; GT Plus Sport Rs 19,46,900 vs Rs 19.30 lakh, matching Autocar's Rs 19.47 lakh); CarDekho/CarWale appear not to reflect VW's current list. No facelift photos on Commons, photos unchanged. Mileage unchanged (VW price page gives no kmpl).\nSpec audit 21 Oct 2026: 1.0 TSI automatic transmission 8-speed -> 6-speed torque converter (Autocar India, VW India sheet); engine figures confirmed."
+    },
+    {
+      "id": "mg-hector",
+      "brand": "MG",
+      "model": "Hector",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 60,
+      "priceNote": "mgmotor.co.in, Oct 2026 (Blackstorm/Snowstorm from MG launch price via Autocar Professional, Oct 2026)",
+      "engines": {
+        "p15t": {
+          "type": "1.5 turbo-petrol",
+          "cylinders": 4,
+          "displacementCc": 1451,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 141,
+          "maxPowerRpm": "5200",
+          "maxTorqueNm": 250,
+          "maxTorqueRpm": "3000"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Style",
+          "wheels": "17-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP",
+            "Hill hold",
+            "Rear parking sensors",
+            "LED DRLs",
+            "Cruise control",
+            "Tilt-adjustable steering",
+            "60:40 split reclining rear seat"
+          ]
+        },
+        {
+          "trim": "Select Pro",
+          "wheels": "17-inch alloy",
+          "airbags": 6,
+          "features": [
+            "17-inch alloy wheels",
+            "14-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Panoramic sunroof",
+            "Rear camera",
+            "Wireless phone charger",
+            "Full LED tail lamps",
+            "7-inch digital MID"
+          ]
+        },
+        {
+          "trim": "Smart Pro",
+          "wheels": "18-inch alloy",
+          "airbags": 6,
+          "features": [
+            "18-inch alloy wheels",
+            "Keyless entry with push-button start",
+            "Leatherette upholstery",
+            "Power-folding mirrors",
+            "Front parking sensors"
+          ]
+        },
+        {
+          "trim": "Sharp Pro",
+          "wheels": "18-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Ventilated front seats",
+            "Powered front seats",
+            "Infinity sound system",
+            "Ambient lighting",
+            "Auto headlamps",
+            "Rain-sensing wipers"
+          ]
+        },
+        {
+          "trim": "Savvy Pro",
+          "wheels": "18-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Level-2 ADAS",
+            "360-degree camera",
+            "Powered tailgate",
+            "PM2.5 air purifier"
+          ]
+        },
+        {
+          "trim": "Blackstorm",
+          "wheels": "Black alloy",
+          "airbags": 6,
+          "features": [
+            "All-black exterior",
+            "Black Storm Hex grille",
+            "Red brake calipers",
+            "Dark chrome logos",
+            "All-black leatherette interior",
+            "Gunmetal interior accents"
+          ]
+        },
+        {
+          "trim": "Snowstorm",
+          "wheels": "Black alloy",
+          "airbags": 6,
+          "features": [
+            "Pearl White paint with Starry Black roof",
+            "Black Storm Hex grille",
+            "Red brake calipers",
+            "Dark chrome logos",
+            "All-black leatherette interior",
+            "Gunmetal interior accents"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Style",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1214000,
+          "mileage": "13.79 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Select Pro",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1494800,
+          "mileage": "13.79 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Smart Pro",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1594800,
+          "mileage": "13.79 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Smart Pro",
+          "power": "1.5 Turbo CVT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Automatic (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 1714800,
+          "mileage": "12.34 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "CVT automatic"
+          ]
+        },
+        {
+          "trim": "Sharp Pro",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1764800,
+          "mileage": "13.79 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Sharp Pro",
+          "power": "1.5 Turbo CVT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Automatic (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 1874800,
+          "mileage": "12.34 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "CVT automatic"
+          ]
+        },
+        {
+          "trim": "Savvy Pro",
+          "power": "1.5 Turbo CVT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Automatic (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 1964800,
+          "mileage": "12.34 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Blackstorm",
+          "power": "1.5 Turbo CVT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Automatic (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 1999800,
+          "mileage": "12.34 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Snowstorm",
+          "power": "1.5 Turbo CVT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Automatic (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 1999800,
+          "mileage": "12.34 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:MG Hector Diesel (India) front view.png",
+          "license": "CC BY 3.0",
+          "artist": "DriveSpark",
+          "local": "photos/mg-hector-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Front photo is the Indian-market first-generation Hector (2020, PRE-FACELIFT; the 2023 and Dec 2025 facelifts have a different front end). Rechecked 21 Oct 2026: no photos of the Dec 2025 facelift on Commons ('Category:MG Hector (second generation)' is an empty redirect). Rejected rear candidates: 'MG Hector Plus (India) rear view (1).png'/'(2).png' (The Drivers Hub, 2020) are the longer 6/7-seat Hector Plus and pre-facelift; 'MG(Morris Garages) Hector SUV in Jamshedpur...01/02.jpg' are pre-2023 front views with windscreen stickers. Rear left null.",
+      "sources": [
+        "https://www.mgmotor.co.in/vehicles/mghector",
+        "https://www.cardekho.com/mg/hector/variants.htm",
+        "https://www.cardekho.com/mg/hector/specs",
+        "https://www.carwale.com/mg-cars/hector/",
+        "https://www.autocarindia.com/cars/mg/hector",
+        "https://www.autocarpro.in/news/jsw-mg-launches-limited-edition-hector-storm-series-at-rs-1999-lakh-135106",
+        "https://www.rushlane.com/amp/2026-mg-hector-facelift-launch-price-rs-11-99-lakh-12536226.html"
+      ],
+      "notes": "Current Hector is the facelift launched 15 Dec 2025 (introductory Rs 11.99 lakh); prices rose from April 2026. 5-seat Hector is petrol-only (diesel listed as 'upcoming' on CarDekho; diesel is sold only in Hector Plus). Engine: MG states 143 PS @ 5200 +/-200 rpm and 250 Nm @ 3000 +/-200 rpm (Spinny lists 1600-3600 rpm torque band). Mileage: MG site gives a 12.40-13.94 kmpl range without mapping to gearbox; CarDekho and Autocar India both give 13.79 kmpl (MT) and 12.34 kmpl (CVT), used here. Blackstorm/Snowstorm limited editions launched 7 Oct 2026 at Rs 19,99,800 (CVT, 5-seat only); not yet on MG's Hector page. Style wheel type inferred as steel because CarDekho lists alloys from Select Pro; MG gives 215/60 R17 for Style. Storm editions' wheel size not stated. Update 21 Oct 2026: prices rechecked on mgmotor.co.in, all unchanged. Mileage unchanged: MG still gives only an ARAI range of 12.40-13.94 kmpl without mapping it to gearbox, while Autocar India and CarDekho give 13.79 (MT)/12.34 (CVT); kept. No usable new photos on Commons.\nSpec audit 21 Oct 2026: all engine figures confirmed (MG India 143 PS @5200, 250 Nm @3000; CarDekho). Conflict: Hector Plus page/91wheels give other rpm."
+    },
+    {
+      "id": "renault-kiger",
+      "brand": "Renault",
+      "model": "Kiger",
+      "bodyType": "Compact SUV",
+      "seats": 5,
+      "fuelTankL": 40,
+      "priceNote": "CarDekho New Delhi ex-showroom, Oct 2026 (trim starting prices match renault.co.in; Renault prices are whole thousands so lakh figures are exact)",
+      "engines": {
+        "p10": {
+          "type": "1.0 petrol",
+          "cylinders": 3,
+          "displacementCc": 999,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 71,
+          "maxPowerRpm": 6250,
+          "maxTorqueNm": 96,
+          "maxTorqueRpm": "3500"
+        },
+        "t10": {
+          "type": "1.0 turbo-petrol (manual)",
+          "cylinders": 3,
+          "displacementCc": 999,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 98.63,
+          "maxPowerRpm": 5000,
+          "maxTorqueNm": 160,
+          "maxTorqueRpm": "2800-3600"
+        },
+        "t10cvt": {
+          "type": "1.0 turbo-petrol (CVT)",
+          "cylinders": 3,
+          "displacementCc": 999,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 98.63,
+          "maxPowerRpm": 5000,
+          "maxTorqueNm": 152,
+          "maxTorqueRpm": "2200-4400"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Authentic",
+          "wheels": "16-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESC and traction control",
+            "Manual AC",
+            "Remote keyless entry",
+            "Power windows (all four)"
+          ]
+        },
+        {
+          "trim": "Evolution",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "8-inch touchscreen",
+            "Wired Android Auto and Apple CarPlay",
+            "Rear camera and parking sensors",
+            "Steering-mounted audio controls",
+            "Rear AC vents"
+          ]
+        },
+        {
+          "trim": "Evolution+",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Wireless Android Auto and Apple CarPlay",
+            "Automatic climate control",
+            "Keycard with push-button start",
+            "Driver seat height adjustment",
+            "Embossed fabric upholstery"
+          ]
+        },
+        {
+          "trim": "Techno",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Tri-Octa LED headlamps",
+            "Flex wheel caps"
+          ]
+        },
+        {
+          "trim": "Emotion",
+          "wheels": "16-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "16-inch diamond-cut alloy wheels",
+            "Ventilated front seats",
+            "360-degree camera",
+            "7-inch digital driver's display",
+            "Cruise control",
+            "Drive modes"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Authentic",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 581000,
+          "mileage": "19.83 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Evolution",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 659000,
+          "mileage": "19.83 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Evolution",
+          "power": "1.0 Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (AMT)",
+          "drivetrain": "FWD",
+          "priceInr": 703000,
+          "mileage": "19.83 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "AMT automatic"
+          ]
+        },
+        {
+          "trim": "Evolution+",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 703000,
+          "mileage": "19.83 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Evolution+",
+          "power": "1.0 Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (AMT)",
+          "drivetrain": "FWD",
+          "priceInr": 749000,
+          "mileage": "19.83 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "AMT automatic"
+          ]
+        },
+        {
+          "trim": "Evolution+",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 793000,
+          "mileage": "20.38 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.0 turbo-petrol (100 PS, 160 Nm)"
+          ]
+        },
+        {
+          "trim": "Techno",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 760000,
+          "mileage": "19.83 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Techno",
+          "power": "1.0 Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (AMT)",
+          "drivetrain": "FWD",
+          "priceInr": 810000,
+          "mileage": "19.83 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "AMT automatic"
+          ]
+        },
+        {
+          "trim": "Techno",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 850000,
+          "mileage": "20.38 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.0 turbo-petrol (100 PS, 160 Nm)"
+          ]
+        },
+        {
+          "trim": "Techno",
+          "power": "1.0 Turbo CVT",
+          "engine": "t10cvt",
+          "fuel": "Petrol",
+          "transmission": "Automatic (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 940000,
+          "mileage": "17.63 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.0 turbo-petrol (100 PS, 152 Nm)",
+            "X-Tronic CVT automatic"
+          ]
+        },
+        {
+          "trim": "Emotion",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 850000,
+          "mileage": "19.83 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Emotion",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 940000,
+          "mileage": "20.38 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.0 turbo-petrol (100 PS, 160 Nm)"
+          ]
+        },
+        {
+          "trim": "Emotion",
+          "power": "1.0 Turbo CVT",
+          "engine": "t10cvt",
+          "fuel": "Petrol",
+          "transmission": "Automatic (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 1040000,
+          "mileage": "17.63 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.0 turbo-petrol (100 PS, 152 Nm)",
+            "X-Tronic CVT automatic"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:4th International Auto Show, Bangalore (2025) 28.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Gpkp",
+          "local": "photos/renault-kiger-front.jpg"
+        },
+        "rear": {
+          "file": "File:Renault Kiger rear 20230602.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Dairokkan9",
+          "local": "photos/renault-kiger-rear.jpg"
+        }
+      },
+      "photoNotes": "Front: Indian-market Kiger FACELIFT (yellow, Bangalore auto show Nov 2025), front three-quarter view close to straight-on; show-stand background and a 'KIGER' plate placard, but nothing stuck on the car. Rear: kept the clean straight-on 2022 Kiger RxZ rear (Coimbatore), which is PRE-FACELIFT (rear changes in the Aug 2025 facelift are minor); the only facelift rear on Commons, 'File:4th International Auto Show, Bangalore (2025) 33.jpg' (Gpkp), was rejected as a steep rear three-quarter showing mostly the side.",
+      "sources": [
+        "https://www.renault.co.in/cars/renault-kiger.html",
+        "https://www.cardekho.com/renault/kiger/variants.htm",
+        "https://www.cardekho.com/renault/kiger/specs",
+        "https://www.cardekho.com/overview/Renault_Kiger/Renault_Kiger_Authentic.htm",
+        "https://www.carwale.com/renault-cars/kiger/",
+        "https://www.autocarindia.com/cars/renault/kiger",
+        "https://www.rushlane.com/amp/renault-kiger-new-variants-launched-evolution-priced-from-rs-6-99-l-12549718.html",
+        "https://www.etvbharat.com/en/!technology/2025-renault-kiger-launched-in-india-price-features-specifications-enn25082501445"
+      ],
+      "notes": "Facelift launched Aug 2025 with new trim names (Authentic/Evolution/Evolution+/Techno/Emotion); Evolution+ Turbo and Techno Turbo MT added 24 June 2026 (launch prices since raised). Dual-tone (DT) paint versions listed separately on CarDekho at the same price are not counted as variants. CNG is a dealer-fitted retrofit kit (Rs 79,500, NA manual only), not factory-fitted, so CNG variants listed on CarWale are excluded. Mileage: 19.83 kmpl (NA MT) and 20.38 kmpl (turbo MT) are Renault/ARAI claims per Autocar India and 91wheels (CarDekho shows 19.71 for NA MT); Autocar says automatic figures are not officially confirmed, so AMT 19.83 and CVT 17.63 are car-site figures. NA torque rpm: 3500 (CarDekho) vs 3400-3600 (ETV Bharat). Wheels for Evolution/Evolution+/Techno not confirmed (Techno uses Flex wheel caps). Update 21 Oct 2026: front photo replaced with a facelift photo (rear kept, pre-facelift). Prices rechecked against renault.co.in and CarDekho, unchanged. Mileage: Autocar India's mileage page (updated 14 Oct 2026) now lists AMT 19.83 and CVT 17.63 kmpl as ARAI and CarDekho agrees, but Renault still publishes no automatic figure (MY26 brochure has no fuel-efficiency table), so the 'unofficial estimate' labels are kept.\nSpec audit 21 Oct 2026: all engine figures confirmed; NA 1.0 torque rpm 3500 not independently confirmed."
+    },
+    {
+      "id": "renault-triber",
+      "brand": "Renault",
+      "model": "Triber",
+      "bodyType": "MPV",
+      "seats": 7,
+      "fuelTankL": 40,
+      "priceNote": "renault.co.in (trim starting prices) and CarDekho New Delhi ex-showroom, Oct 2026",
+      "engines": {
+        "p10": {
+          "type": "1.0 petrol",
+          "cylinders": 3,
+          "displacementCc": 999,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 71.01,
+          "maxPowerRpm": 6250,
+          "maxTorqueNm": 96,
+          "maxTorqueRpm": "3500"
+        },
+        "t10": {
+          "type": "1.0 TCe turbo-petrol",
+          "cylinders": 3,
+          "displacementCc": 999,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 98.63,
+          "maxPowerRpm": 5000,
+          "maxTorqueNm": 180,
+          "maxTorqueRpm": "2000-3750"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Authentic",
+          "wheels": "14-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "Power windows front and rear",
+            "2nd-row slide, recline and fold-tumble",
+            "Removable 3rd-row seats"
+          ]
+        },
+        {
+          "trim": "Evolution",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "8-inch touchscreen",
+            "Rear camera",
+            "Steering-mounted audio and phone controls",
+            "Independent rear AC with 2nd- and 3rd-row vents",
+            "4-speaker sound system"
+          ]
+        },
+        {
+          "trim": "Techno",
+          "wheels": "15-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "15-inch wheels",
+            "LED tail lamps",
+            "Electrically adjustable and folding mirrors",
+            "Wireless phone charger",
+            "Roof rails (50 kg)",
+            "Driver armrest and seat height adjustment",
+            "Cooled centre storage"
+          ]
+        },
+        {
+          "trim": "Emotion",
+          "wheels": "15-inch dual-tone Flex wheels",
+          "airbags": 6,
+          "features": [
+            "LED headlamps and fog lamps",
+            "Automatic AC",
+            "Cruise control",
+            "Auto headlamps",
+            "Rain-sensing wipers",
+            "Front parking sensors",
+            "7-inch TFT instrument cluster",
+            "6-way adjustable driver seat"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Authentic",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 580875,
+          "mileage": "19.76 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Evolution",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 673605,
+          "mileage": "19.76 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Evolution",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 785000,
+          "mileage": "21 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.0 turbo-petrol (100 PS, 180 Nm)"
+          ]
+        },
+        {
+          "trim": "Techno",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 744120,
+          "mileage": "19.76 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Techno",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 854000,
+          "mileage": "21 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.0 turbo-petrol (100 PS, 180 Nm)"
+          ]
+        },
+        {
+          "trim": "Emotion",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 805350,
+          "mileage": "19.76 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Emotion",
+          "power": "1.0 Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (AMT)",
+          "drivetrain": "FWD",
+          "priceInr": 853000,
+          "mileage": "19.59 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "AMT automatic"
+          ]
+        },
+        {
+          "trim": "Emotion",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 900000,
+          "mileage": "21 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.0 turbo-petrol (100 PS, 180 Nm)"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:4th International Auto Show, Bangalore (2025) 26.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Gpkp",
+          "local": "photos/renault-triber-front.jpg"
+        },
+        "rear": {
+          "file": "File:4th International Auto Show, Bangalore (2025) 32.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Gpkp",
+          "local": "photos/renault-triber-rear.jpg"
+        }
+      },
+      "photoNotes": "Indian-market Triber FACELIFT (orange, Bangalore auto show Nov 2025), same car front and rear. Both are three-quarter views rather than straight-on (the front shows a fair amount of the side) with a show-hall background and plate placards; chosen because they are the only facelift photos on Commons and the July 2025 facelift restyled both ends. Previous front, 'File:Renault Triber (front view).png' (DriveSpark, 2019), is a clean straight-on but pre-facelift fallback.",
+      "sources": [
+        "https://www.renault.co.in/cars/renault-triber.html",
+        "https://www.cardekho.com/renault/triber/variants.htm",
+        "https://www.cardekho.com/renault/triber/specs",
+        "https://www.cardekho.com/overview/Renault_Triber/Renault_Triber_Authentic.htm",
+        "https://www.autocarindia.com/cars/renault/triber",
+        "https://www.autocarindia.com/car-news-amp/renault-triber-turbo-mileage-revealed-440859",
+        "https://www.rushlane.com/amp/renault-triber-old-vs-new-exterior-interior-features-variants-12526724.html"
+      ],
+      "notes": "Facelift launched July 2025; 1.0 turbo-petrol (100 PS, 180 Nm, 5-speed MT only, CVT due later) added 28 Sep 2026 on the RGEP platform; turbo prices here are CarDekho's (launch prices were Rs 7.84/8.53/8.99 lakh). Emotion dual-tone versions (+Rs 21,000) not counted separately. NA engine mileage: see 21 Oct 2026 update. Turbo 21 kmpl is Renault's certified figure. Turbo torque rpm 2000-3750 from CarDekho only. Fuel tank 40 L from CarDekho only. CNG is dealer-fitted only (factory CNG announced but not confirmed on sale), so excluded. Evolution wheel size not confirmed. Update 21 Oct 2026: front photo replaced and rear photo added (both facelift, three-quarter angles). NA petrol mileage changed from 19/18.29 kmpl (old 2020 BS6 figures, also quoted by Rushlane) to ARAI 19.76 kmpl (MT) and 19.59 kmpl (AMT) per Autocar India's mileage page (updated 15 Oct 2026) and its Sep 2026 turbo article; CarDekho still shows 20/17 kmpl. Prices rechecked against renault.co.in and CarDekho, unchanged (turbo and AMT prices are CarDekho lakh figures; exact rupee figures not found).\nSpec audit 21 Oct 2026: all engine figures confirmed (CarDekho; Triber Turbo launch reports 100 PS/180 Nm)."
+    },
+    {
+      "id": "nissan-magnite",
+      "brand": "Nissan",
+      "model": "Magnite",
+      "bodyType": "Compact SUV",
+      "seats": 5,
+      "fuelTankL": 40,
+      "priceNote": "nissan.in price list, Oct 2026",
+      "engines": {
+        "p10": {
+          "type": "1.0 B4D petrol",
+          "cylinders": 3,
+          "displacementCc": 999,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 71,
+          "maxPowerRpm": 6250,
+          "maxTorqueNm": 96,
+          "maxTorqueRpm": "3400-3600"
+        },
+        "t10": {
+          "type": "1.0 HRA0 turbo-petrol (manual)",
+          "cylinders": 3,
+          "displacementCc": 999,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 99,
+          "maxPowerRpm": 5000,
+          "maxTorqueNm": 160,
+          "maxTorqueRpm": "2800-3600"
+        },
+        "t10cvt": {
+          "type": "1.0 HRA0 turbo-petrol (CVT)",
+          "cylinders": 3,
+          "displacementCc": 999,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 99,
+          "maxPowerRpm": 5000,
+          "maxTorqueNm": 152,
+          "maxTorqueRpm": "2200-4400"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Visia",
+          "wheels": "16-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESC",
+            "Power windows (all four)",
+            "Manual AC",
+            "60:40 split rear seat with armrest"
+          ]
+        },
+        {
+          "trim": "Visia+",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "9-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Rear camera",
+            "Rear wiper and defogger"
+          ]
+        },
+        {
+          "trim": "Acenta",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Automatic climate control",
+            "Steering-mounted audio controls",
+            "Electrically adjustable and folding mirrors",
+            "Driver seat height adjustment"
+          ]
+        },
+        {
+          "trim": "N-Connecta",
+          "wheels": "16-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "16-inch diamond-cut alloy wheels",
+            "7-inch digital instrument cluster",
+            "Push-button start with i-Key",
+            "Arkamys 6-speaker sound system",
+            "Wireless phone charger",
+            "Auto-dimming IRVM"
+          ]
+        },
+        {
+          "trim": "Kuro",
+          "wheels": "16-inch black alloy",
+          "airbags": 6,
+          "features": [
+            "Black alloy wheels",
+            "All-black exterior detailing",
+            "Black roof rails",
+            "Smoked LED headlamps",
+            "Midnight Black interior theme"
+          ]
+        },
+        {
+          "trim": "Tekna",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "LED bi-projector auto headlamps",
+            "LED tail lamps",
+            "360-degree camera",
+            "Cruise control",
+            "Rain-sensing wipers",
+            "Leatherette dashboard and door trims",
+            "Cooled glovebox"
+          ]
+        },
+        {
+          "trim": "Tekna+",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Quilted leatherette seats",
+            "Multi-colour ambient lighting",
+            "Leather interior trims"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Visia",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 569400,
+          "mileage": "19.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Visia",
+          "power": "1.0 Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (AMT)",
+          "drivetrain": "FWD",
+          "priceInr": 630000,
+          "mileage": "19.7 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Visia+",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 626000,
+          "mileage": "19.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Acenta",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 687000,
+          "mileage": "19.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Acenta",
+          "power": "1.0 Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (AMT)",
+          "drivetrain": "FWD",
+          "priceInr": 742000,
+          "mileage": "19.7 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Acenta",
+          "power": "1.0 Turbo CVT",
+          "engine": "t10cvt",
+          "fuel": "Petrol",
+          "transmission": "Automatic (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 930000,
+          "mileage": "17.9 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.0 HRA0 turbo-petrol (100 PS, 152 Nm)",
+            "CVT automatic",
+            "Push-button start"
+          ]
+        },
+        {
+          "trim": "N-Connecta",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 750000,
+          "mileage": "19.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "N-Connecta",
+          "power": "1.0 Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (AMT)",
+          "drivetrain": "FWD",
+          "priceInr": 805000,
+          "mileage": "19.7 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "N-Connecta",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 881000,
+          "mileage": "19.9 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.0 HRA0 turbo-petrol (100 PS, 160 Nm)"
+          ]
+        },
+        {
+          "trim": "N-Connecta",
+          "power": "1.0 Turbo CVT",
+          "engine": "t10cvt",
+          "fuel": "Petrol",
+          "transmission": "Automatic (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 974000,
+          "mileage": "17.9 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.0 HRA0 turbo-petrol (100 PS, 152 Nm)",
+            "CVT automatic"
+          ]
+        },
+        {
+          "trim": "Kuro",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 785000,
+          "mileage": "19.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Kuro",
+          "power": "1.0 Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (AMT)",
+          "drivetrain": "FWD",
+          "priceInr": 840000,
+          "mileage": "19.7 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Kuro",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 916000,
+          "mileage": "19.9 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.0 HRA0 turbo-petrol (100 PS, 160 Nm)"
+          ]
+        },
+        {
+          "trim": "Kuro",
+          "power": "1.0 Turbo CVT",
+          "engine": "t10cvt",
+          "fuel": "Petrol",
+          "transmission": "Automatic (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 999400,
+          "mileage": "17.9 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.0 HRA0 turbo-petrol (100 PS, 152 Nm)",
+            "CVT automatic"
+          ]
+        },
+        {
+          "trim": "Tekna",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 843000,
+          "mileage": "19.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Tekna",
+          "power": "1.0 Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (AMT)",
+          "drivetrain": "FWD",
+          "priceInr": 898000,
+          "mileage": "19.7 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Tekna",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 961000,
+          "mileage": "19.9 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.0 HRA0 turbo-petrol (100 PS, 160 Nm)"
+          ]
+        },
+        {
+          "trim": "Tekna",
+          "power": "1.0 Turbo CVT",
+          "engine": "t10cvt",
+          "fuel": "Petrol",
+          "transmission": "Automatic (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 1069000,
+          "mileage": "17.9 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.0 HRA0 turbo-petrol (100 PS, 152 Nm)",
+            "CVT automatic"
+          ]
+        },
+        {
+          "trim": "Tekna+",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 876000,
+          "mileage": "19.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Tekna+",
+          "power": "1.0 Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (AMT)",
+          "drivetrain": "FWD",
+          "priceInr": 931000,
+          "mileage": "19.7 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Tekna+",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 995000,
+          "mileage": "19.9 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.0 HRA0 turbo-petrol (100 PS, 160 Nm)"
+          ]
+        },
+        {
+          "trim": "Tekna+",
+          "power": "1.0 Turbo CVT",
+          "engine": "t10cvt",
+          "fuel": "Petrol",
+          "transmission": "Automatic (CVT)",
+          "drivetrain": "FWD",
+          "priceInr": 1099000,
+          "mileage": "17.9 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.0 HRA0 turbo-petrol (100 PS, 152 Nm)",
+            "CVT automatic"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2020 Nissan Magnite front view (India) 01.png",
+          "license": "CC BY 3.0",
+          "artist": "Hindi DriveSpark",
+          "local": "photos/nissan-magnite-front.jpg"
+        },
+        "rear": {
+          "file": "File:2020 Nissan Magnite rear view (India).png",
+          "license": "CC BY 3.0",
+          "artist": "Hindi DriveSpark",
+          "local": "photos/nissan-magnite-rear.jpg"
+        }
+      },
+      "photoNotes": "Indian-market 2020 Magnite, same generation but PRE-FACELIFT (Oct 2024 facelift). Rear image is small (638x425). Facelift photos on Commons are Uruguay-market (File:Nissan Magnite 2025 1.0 Exclusive at WTC Montevideo - 01..09.jpg, NaBUru38, CC BY-SA 4.0) and one Bangalore 2025 auto-show shot. Rechecked 21 Oct 2026: the only Indian-market facelift photo, 'File:4th International Auto Show, Bangalore (2025) 67.jpg' (Gpkp), was rejected (three-quarter view in front of a large Nissan advertising banner); the Montevideo photos are Uruguay-market, angled, and all have large banners behind. Pre-facelift pair kept.",
+      "sources": [
+        "https://www.nissan.in/vehicles/new/magnite.html",
+        "https://www.carwale.com/nissan-cars/magnite/price-in-delhi/",
+        "https://www.carwale.com/nissan-cars/magnite/",
+        "https://www.cardekho.com/nissan/magnite/variants.htm",
+        "https://www.cardekho.com/nissan/magnite/specs",
+        "https://www.cardekho.com/overview/Nissan_Magnite/Nissan_Magnite_Visia.htm",
+        "https://www.autocarindia.com/cars/nissan/magnite"
+      ],
+      "notes": "Facelifted model (Oct 2024). Prices hiked 15 Sep and 6 Oct 2026; CarDekho still shows older prices about Rs 4,000 lower. All prices are nissan.in figures (see 21 Oct 2026 update). Dual-tone versions (+Rs 17,000) not counted separately. CNG: Autocar India says dealer-fit kit; CarWale lists CNG/CNG AMT variants (CNG AMT introduced Jan 2026) at petrol prices - excluded pending confirmation of factory fitment. Kuro is a dark edition based on N-Connecta. Turbo MT torque rpm (2800-3600) from Nissan South Africa spec sheet; Indian sources give no band. Wheels for Visia+/Acenta not confirmed. Mileage are ARAI figures agreed by Autocar India and CarDekho. Update 21 Oct 2026: all 22 prices checked against the nissan.in price list; they match except Kuro Turbo CVT, corrected from Rs 9,99,000 to Rs 9,99,400. Photos unchanged (no acceptable facelift photo). Mileage unchanged.\nSpec audit 21 Oct 2026: all engine figures confirmed; NA torque rpm sources vary (3400/3500/3600), kept 3400-3600."
+    }
+  ]
+}

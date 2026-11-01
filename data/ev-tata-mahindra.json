@@ -1,0 +1,2503 @@
+{
+  "cars": [
+    {
+      "id": "tata-nexon-ev",
+      "brand": "Tata",
+      "model": "Nexon EV",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "mr": {
+          "type": "Permanent-magnet synchronous motor",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 127,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 215,
+          "maxTorqueRpm": null
+        },
+        "lr": {
+          "type": "Permanent-magnet synchronous motor",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 148,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 215,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Creative Plus",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESC",
+            "7-inch touchscreen",
+            "7-inch digital driver's display",
+            "Automatic climate control",
+            "Push-button start",
+            "All four power windows",
+            "Wired Android Auto and Apple CarPlay"
+          ]
+        },
+        {
+          "trim": "Creative",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Electronic parking brake with auto hold",
+            "Rear disc brakes",
+            "Cabin air purifier",
+            "Tyre-pressure monitor"
+          ]
+        },
+        {
+          "trim": "Fearless",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "10.25-inch touchscreen",
+            "10.25-inch digital driver's display",
+            "Wireless Android Auto and Apple CarPlay",
+            "LED projector headlamps",
+            "Fog lamps with cornering function",
+            "Rear camera",
+            "Auto-folding mirrors",
+            "Rear wiper and washer"
+          ]
+        },
+        {
+          "trim": "Empowered",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Ventilated front seats",
+            "360-degree camera",
+            "JBL sound system with subwoofer",
+            "Blind-spot monitor",
+            "Leatherette upholstery",
+            "60:40 split rear seat",
+            "Cruise control",
+            "Wireless charger"
+          ]
+        },
+        {
+          "trim": "Empowered Plus A",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "Level-2 ADAS",
+            "12.3-inch touchscreen",
+            "Frunk",
+            "V2L and V2V charging",
+            "9-speaker JBL audio",
+            "Rear sunshades",
+            "7.2 kW AC fast charger"
+          ]
+        },
+        {
+          "trim": "Empowered Plus A Dark",
+          "wheels": "16-inch black alloy",
+          "airbags": 6,
+          "features": [
+            "Carbon Black exterior",
+            "Blacked-out trim and badging",
+            "All-black interior"
+          ]
+        },
+        {
+          "trim": "Empowered Plus A Red Dark",
+          "wheels": "16-inch black alloy",
+          "airbags": 6,
+          "features": [
+            "Carbon Black exterior with red accents",
+            "Exclusive Red Dark badging",
+            "All-black interior with red seats"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Creative Plus",
+          "power": "30 kWh MR",
+          "engine": "mr",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1249000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 30,
+            "rangeKm": 275,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 50,
+            "dcChargeNote": "10-80% in 56 min (50 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 4.3 h; 3.3 kW / 15 A: about 10.5 h"
+          }
+        },
+        {
+          "trim": "Creative",
+          "power": "45 kWh",
+          "engine": "lr",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1434000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 45,
+            "rangeKm": 489,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 60,
+            "dcChargeNote": "10-80% in 40 min (60 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 6.6 h; 3.3 kW / 15 A: about 17.6 h"
+          }
+        },
+        {
+          "trim": "Fearless",
+          "power": "30 kWh MR",
+          "engine": "mr",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1329000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 30,
+            "rangeKm": 275,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 50,
+            "dcChargeNote": "10-80% in 56 min (50 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 4.3 h; 3.3 kW / 15 A: about 10.5 h"
+          }
+        },
+        {
+          "trim": "Fearless",
+          "power": "45 kWh",
+          "engine": "lr",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1534000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 45,
+            "rangeKm": 489,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 60,
+            "dcChargeNote": "10-80% in 40 min (60 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 6.6 h; 3.3 kW / 15 A: about 17.6 h"
+          }
+        },
+        {
+          "trim": "Empowered",
+          "power": "45 kWh",
+          "engine": "lr",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1634000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 45,
+            "rangeKm": 489,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 60,
+            "dcChargeNote": "10-80% in 40 min (60 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 6.6 h; 3.3 kW / 15 A: about 17.6 h"
+          }
+        },
+        {
+          "trim": "Empowered Plus A",
+          "power": "45 kWh",
+          "engine": "lr",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1769000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 45,
+            "rangeKm": 489,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 60,
+            "dcChargeNote": "10-80% in 40 min (60 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 6.6 h; 3.3 kW / 15 A: about 17.6 h"
+          }
+        },
+        {
+          "trim": "Empowered Plus A Dark",
+          "power": "45 kWh",
+          "engine": "lr",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1789000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 45,
+            "rangeKm": 489,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 60,
+            "dcChargeNote": "10-80% in 40 min (60 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 6.6 h; 3.3 kW / 15 A: about 17.6 h"
+          }
+        },
+        {
+          "trim": "Empowered Plus A Red Dark",
+          "power": "45 kWh",
+          "engine": "lr",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1789000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 45,
+            "rangeKm": 489,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 60,
+            "dcChargeNote": "10-80% in 40 min (60 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 6.6 h; 3.3 kW / 15 A: about 17.6 h"
+          }
+        }
+      ],
+      "photos": {
+        "front": null,
+        "rear": {
+          "file": "File:Tata Nexon EV in Hyderabad 01.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Rajasekhar1961",
+          "local": "photos/tata-nexon-ev-rear.jpg"
+        }
+      },
+      "photoNotes": "No photo of the current (Sept 2023 facelift) Nexon EV on Commons. Rejected: 'File:Tata Nexon EV in Hyderabad 02.jpg' and 'File:2020 Tata Nexon EV (India) front view.png' (pre-facelift 2020-23 car); 'File:2023 Tata Nexon XZA+ front view.jpg' / 'File:Tata Nexon 2023 Rear View 2.jpg' (petrol Nexon, garlanded, EV front differs).",
+      "sources": [
+        "https://www.cardekho.com/tata/nexon-ev",
+        "https://www.cardekho.com/tata/nexon-ev/price-in-new-delhi",
+        "https://www.cardekho.com/tata/nexon-ev/variants.htm",
+        "https://www.carwale.com/tata-cars/nexon-ev/",
+        "https://www.autocarindia.com/cars/tata/nexon-ev/variants",
+        "https://www.autocarindia.com/auto-features/tata-nexon-ev-price-variants-explained-429335"
+      ],
+      "notes": "Tata's EV site (ev.tatamotors.com) did not load (expired certificate), so prices are CarDekho New Delhi. Current line-up (Oct 2026) is 8 variants; the Fearless Plus, Fearless Plus S and Empowered MR variants listed in older Autocar India variant guides are no longer in CarDekho/CarWale price lists. Motor: 30 kWh pack 95 kW (129 PS); 45 kWh pack CarDekho spec page says 110 kW but its variant table says 142 bhp (=106 kW) - 110 kW used. Range 275/489 km is the certified MIDC figure; Tata's C75 real-world estimate is 210-230 km / 350-375 km. Per-variant wheel sizes and airbag counts beyond those stated are unconfirmed; 6 airbags are standard. Battery-as-a-Service pricing (from Rs 8.99 lakh) is not listed."
+    },
+    {
+      "id": "tata-punch-ev",
+      "brand": "Tata",
+      "model": "Punch EV",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p30": {
+          "type": "Permanent-magnet synchronous motor",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 87,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 154,
+          "maxTorqueRpm": null
+        },
+        "p40": {
+          "type": "Permanent-magnet synchronous motor",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 127,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 154,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Smart",
+          "wheels": "15-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP and hill-hold",
+            "Automatic climate control",
+            "Tyre-pressure monitor",
+            "Multi-level regenerative braking",
+            "Front power windows",
+            "Height-adjustable driver's seat"
+          ]
+        },
+        {
+          "trim": "Smart Plus",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "8-inch touchscreen",
+            "Wired Android Auto and Apple CarPlay",
+            "Steering-mounted controls",
+            "Paddle shifters for regen",
+            "Remote central locking",
+            "All four power windows",
+            "Rear camera (40 kWh)",
+            "Electronic parking brake with auto hold (40 kWh)"
+          ]
+        },
+        {
+          "trim": "Adventure",
+          "wheels": "16-inch steel",
+          "airbags": 6,
+          "features": [
+            "Push-button start and keyless entry",
+            "Cruise control",
+            "Hill-descent control",
+            "Electrically adjustable mirrors",
+            "Sequential turn indicators",
+            "LED fog lamps"
+          ]
+        },
+        {
+          "trim": "Empowered",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "360-degree camera",
+            "Blind-spot monitor",
+            "10.25-inch touchscreen",
+            "10.25-inch digital driver's display",
+            "Wireless Android Auto and Apple CarPlay",
+            "Harman sound system",
+            "Auto headlamps and rain-sensing wipers",
+            "Auto-folding mirrors"
+          ]
+        },
+        {
+          "trim": "Empowered Plus S",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Voice-assisted electric sunroof",
+            "Ventilated front seats",
+            "Leatherette upholstery",
+            "Wireless charger",
+            "Auto-dimming inside mirror",
+            "LED headlamps",
+            "LED fog lamps with cornering function",
+            "Roof rails"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Smart",
+          "power": "30 kWh",
+          "engine": "p30",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 979000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 30,
+            "rangeKm": 365,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 65,
+            "dcChargeNote": "20-80% in 26 min (65 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 4.5 h; 3.3 kW: 11.9 h"
+          }
+        },
+        {
+          "trim": "Smart Plus",
+          "power": "30 kWh",
+          "engine": "p30",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1039000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 30,
+            "rangeKm": 365,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 65,
+            "dcChargeNote": "20-80% in 26 min (65 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 4.5 h; 3.3 kW: 11.9 h"
+          }
+        },
+        {
+          "trim": "Smart Plus",
+          "power": "40 kWh",
+          "engine": "p40",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1119000,
+          "mileage": null,
+          "wheels": "16-inch steel",
+          "airbags": null,
+          "extras": [
+            "40 kWh battery, 468 km MIDC",
+            "Rear camera",
+            "Electronic parking brake with auto hold",
+            "Eco drive mode"
+          ],
+          "ev": {
+            "batteryKwh": 40,
+            "rangeKm": 468,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 65,
+            "dcChargeNote": "20-80% in 26 min (65 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 5.3 h; 3.3 kW: 14.8 h"
+          }
+        },
+        {
+          "trim": "Adventure",
+          "power": "40 kWh",
+          "engine": "p40",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1194000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 40,
+            "rangeKm": 468,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 65,
+            "dcChargeNote": "20-80% in 26 min (65 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 5.3 h; 3.3 kW: 14.8 h"
+          }
+        },
+        {
+          "trim": "Empowered",
+          "power": "40 kWh",
+          "engine": "p40",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1269000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 40,
+            "rangeKm": 468,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 65,
+            "dcChargeNote": "20-80% in 26 min (65 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 5.3 h; 3.3 kW: 14.8 h"
+          }
+        },
+        {
+          "trim": "Empowered Plus S",
+          "power": "40 kWh",
+          "engine": "p40",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1299000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 40,
+            "rangeKm": 468,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 65,
+            "dcChargeNote": "20-80% in 26 min (65 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 5.3 h; 3.3 kW: 14.8 h"
+          }
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:4th International Auto Show, Bangalore (2025) 107.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Gpkp",
+          "local": "photos/tata-punch-ev-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Front is a near straight-on show-floor photo (expo background). No rear photo of the 2026 Punch EV on Commons; rejected 'File:Tata punch.ev.jpg' (dark night shot, side-on).",
+      "sources": [
+        "https://www.cardekho.com/tata/punch-ev",
+        "https://www.cardekho.com/tata/punch-ev/price-in-new-delhi",
+        "https://www.cardekho.com/tata/punch-ev/variants.htm",
+        "https://www.carwale.com/tata-cars/punch-ev/",
+        "https://www.autocarindia.com/cars/tata/punch-ev/variants",
+        "https://www.autocarindia.com/auto-features/variants-and-features-of-2026-tata-punch-ev-explained-440260"
+      ],
+      "notes": "Facelifted Punch EV launched 20 Feb 2026 with new 30 kWh and 40 kWh packs (replacing 25/35 kWh); figures are for the facelift. Tata site unavailable (expired certificate); prices CarDekho New Delhi (CarWale Mumbai matches). Motor 65 kW (88 PS) / 95 kW (129 PS), 154 Nm (CarDekho 153.8 Nm). Range 365/468 km is certified MIDC; Tata's C75 real-world estimate is 260-275 / 335-355 km. Wheels for Smart Plus 30 and Empowered Plus S not confirmed. Battery-as-a-Service pricing not listed."
+    },
+    {
+      "id": "tata-tiago-ev",
+      "brand": "Tata",
+      "model": "Tiago EV",
+      "bodyType": "Hatchback",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "mr": {
+          "type": "Permanent-magnet synchronous motor",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 60,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 110,
+          "maxTorqueRpm": null
+        },
+        "lr": {
+          "type": "Permanent-magnet synchronous motor",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 74,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 114,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Smart",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "Digital driver's display",
+            "Automatic climate control",
+            "Tyre-pressure monitor",
+            "Central locking",
+            "Multi-mode regen",
+            "No touchscreen or speakers"
+          ]
+        },
+        {
+          "trim": "Pure Plus",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "8-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Rear camera",
+            "Steering-mounted controls",
+            "Electrically folding mirrors",
+            "All four power windows",
+            "Follow-me-home headlamps"
+          ]
+        },
+        {
+          "trim": "Creative Plus",
+          "wheels": "14-inch alloy",
+          "airbags": 6,
+          "features": [
+            "10.25-inch touchscreen",
+            "360-degree camera",
+            "Blind-spot monitor",
+            "Cruise control",
+            "Push-button start",
+            "LED headlamps",
+            "Wireless charger",
+            "Height-adjustable driver's seat"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Smart",
+          "power": "19.2 kWh MR",
+          "engine": "mr",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 699000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 19.2,
+            "rangeKm": 226,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 30,
+            "dcChargeNote": "10-80% in 35 min (30 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 2.6 h; 3.3 kW: 6.9 h"
+          }
+        },
+        {
+          "trim": "Pure Plus",
+          "power": "19.2 kWh MR",
+          "engine": "mr",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 864000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 19.2,
+            "rangeKm": 226,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 30,
+            "dcChargeNote": "10-80% in 35 min (30 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 2.6 h; 3.3 kW: 6.9 h"
+          }
+        },
+        {
+          "trim": "Pure Plus",
+          "power": "24 kWh LR",
+          "engine": "lr",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 964000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "24 kWh battery, 285 km MIDC",
+            "55 kW motor"
+          ],
+          "ev": {
+            "batteryKwh": 24,
+            "rangeKm": 285,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 30,
+            "dcChargeNote": "10-80% in 35 min (30 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 3.5 h; 3.3 kW: 8.7 h"
+          }
+        },
+        {
+          "trim": "Creative Plus",
+          "power": "24 kWh LR",
+          "engine": "lr",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1009000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 24,
+            "rangeKm": 285,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 30,
+            "dcChargeNote": "10-80% in 35 min (30 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 3.5 h; 3.3 kW: 8.7 h"
+          }
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2022 Tata Tiago EV IB XZ+ Tech LR front view.png",
+          "license": "CC BY 3.0",
+          "artist": "DriveSpark",
+          "local": "photos/tata-tiago-ev-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Only one Tiago EV photo on Commons: a 1920x1080 front three-quarter view of the 2022 launch car (exterior unchanged on the current car; current variant names differ). No rear photo; Category:Tata Tiago rear photos are the petrol Tiago.",
+      "sources": [
+        "https://www.cardekho.com/tata/tiago-ev",
+        "https://www.cardekho.com/tata/tiago-ev/price-in-new-delhi",
+        "https://www.cardekho.com/tata/tiago-ev/variants.htm",
+        "https://www.carwale.com/tata-cars/tiago-ev/",
+        "https://www.autocarindia.com/cars/tata/tiago-ev/variants"
+      ],
+      "notes": "Tata site unavailable (expired certificate); prices CarDekho New Delhi (CarWale Mumbai matches). Motor 45 kW (61 PS)/110 Nm and 55 kW (75 PS)/114 Nm per CarDekho/CarWale bhp figures; CarDekho spec page's '73.75 kW' for the 24 kWh car is a bhp figure mislabelled. Range 226/285 km MIDC; older sites still quote 250/315 km ARAI for the 2022 launch packs. Wheels for Smart and Pure Plus not confirmed (175/65 R14 tyres on all)."
+    },
+    {
+      "id": "tata-curvv-ev",
+      "brand": "Tata",
+      "model": "Curvv EV",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "e55": {
+          "type": "Permanent-magnet synchronous motor",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 165,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 215,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Accomplished X",
+          "wheels": "17-inch alloy",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP",
+            "10.25-inch touchscreen",
+            "10.25-inch digital driver's display",
+            "Wireless Android Auto and Apple CarPlay",
+            "Panoramic sunroof",
+            "360-degree camera with blind-spot view",
+            "Cruise control and wireless charger"
+          ]
+        },
+        {
+          "trim": "Empowered X",
+          "wheels": "18-inch alloy",
+          "airbags": 6,
+          "features": [
+            "12.3-inch touchscreen with 9-speaker JBL audio",
+            "LED projector headlamps with light-bar DRLs",
+            "Level-2 ADAS",
+            "Ventilated front seats",
+            "6-way powered driver's seat",
+            "Powered tailgate with gesture control",
+            "Air purifier",
+            "7.2 kW AC wall-box charger"
+          ]
+        },
+        {
+          "trim": "Empowered X Dark",
+          "wheels": "18-inch dark alloy",
+          "airbags": 6,
+          "features": [
+            "Carbon Black body colour",
+            "Dark-themed leatherette interior",
+            "#DARK badging",
+            "Gloss black rear spoiler"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Accomplished X",
+          "power": "55 kWh",
+          "engine": "e55",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1719000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 55,
+            "rangeKm": 502,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 70,
+            "dcChargeNote": "10-80% in 40 min (70 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 7.9 h; 15 A: about 21 h"
+          }
+        },
+        {
+          "trim": "Empowered X",
+          "power": "55 kWh",
+          "engine": "e55",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1939000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 55,
+            "rangeKm": 502,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 70,
+            "dcChargeNote": "10-80% in 40 min (70 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 7.9 h; 15 A: about 21 h"
+          }
+        },
+        {
+          "trim": "Empowered X Dark",
+          "power": "55 kWh",
+          "engine": "e55",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1969000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 55,
+            "rangeKm": 502,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 70,
+            "dcChargeNote": "10-80% in 40 min (70 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 7.9 h; 15 A: about 21 h"
+          }
+        }
+      ],
+      "photos": {
+        "front": null,
+        "rear": {
+          "file": "File:2025 Tata Curvv Creative+ S Petrol (India) rear view.png",
+          "license": "CC BY 3.0",
+          "artist": "Manish Bhardwaj",
+          "note": "Curvv petrol, same body; EV differs only in badging",
+          "local": "photos/tata-curvv-ev-rear.jpg"
+        }
+      },
+      "photoNotes": "No current Curvv EV front photo on Commons: the petrol Curvv front ('File:2025 Tata Curvv Creative+ S Petrol (India) front view.png') has a different grille/bumper, and 'File:Tata Curvv.EV.jpg' is a cluttered rear three-quarter street shot with a temporary plate. Rear uses the straight-on petrol Curvv photo, labelled.",
+      "sources": [
+        "https://www.cardekho.com/tata/curvv-ev",
+        "https://www.cardekho.com/tata/curvv-ev/price-in-new-delhi",
+        "https://www.cardekho.com/tata/curvv-ev/specs",
+        "https://www.carwale.com/tata-cars/curvv-ev/",
+        "https://www.autocarindia.com/cars/tata/curvv-ev/variants"
+      ],
+      "notes": "Line-up revised to 'Series X' in May 2026: 45 kWh packs discontinued, only the 55 kWh pack remains in three variants. Tata site unavailable (expired certificate); prices CarDekho New Delhi (CarWale Mumbai matches). Motor 123 kW (167 PS), 215 Nm. 502 km is the MIDC Part 1+2 certified range (also quoted as ARAI); CarWale overview still shows an older 585 km claim. Airbag count for Empowered X trims is assumed equal to base (6) - not separately confirmed."
+    },
+    {
+      "id": "tata-harrier-ev",
+      "brand": "Tata",
+      "model": "Harrier EV",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "rwd": {
+          "type": "Permanent-magnet synchronous motor (rear)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 235,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 315,
+          "maxTorqueRpm": null
+        },
+        "qwd": {
+          "type": "Dual motors, front induction + rear permanent-magnet synchronous (QWD)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 390,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 504,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Adventure",
+          "wheels": "18-inch alloy",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP",
+            "10.25-inch touchscreen",
+            "10.25-inch digital driver's display",
+            "Wireless Android Auto and Apple CarPlay",
+            "LED bi-projector headlamps",
+            "Leatherette seats",
+            "Cruise control, keyless entry and push-button start"
+          ]
+        },
+        {
+          "trim": "Adventure S",
+          "wheels": "18-inch alloy",
+          "airbags": 6,
+          "features": [
+            "12.3-inch Harman touchscreen with Arcade.ev apps",
+            "Panoramic sunroof with voice assist",
+            "Auto headlamps and rain-sensing wipers",
+            "Rear centre armrest",
+            "Driver doze-off alert",
+            "Auto defogger"
+          ]
+        },
+        {
+          "trim": "Fearless Plus",
+          "wheels": "19-inch alloy with aero inserts",
+          "airbags": 7,
+          "features": [
+            "Knee airbag (7 airbags)",
+            "360-degree 3D camera",
+            "Front parking sensors",
+            "10-speaker JBL audio",
+            "Ventilated front seats",
+            "Powered driver's seat with memory",
+            "Dual-zone climate control",
+            "Wireless charger"
+          ]
+        },
+        {
+          "trim": "Empowered",
+          "wheels": "19-inch alloy with aero inserts",
+          "airbags": 7,
+          "features": [
+            "14.53-inch Samsung Neo QLED touchscreen",
+            "Level-2 ADAS",
+            "540-degree camera with transparent mode",
+            "Auto park assist and Summon mode",
+            "Digital inside mirror with dashcam",
+            "Powered gesture tailgate",
+            "UWB digital key",
+            "Dolby Atmos audio"
+          ]
+        },
+        {
+          "trim": "Empowered Stealth",
+          "wheels": "19-inch alloy with aero inserts",
+          "airbags": 7,
+          "features": [
+            "Stealth matte black exterior",
+            "Stealth badging",
+            "Black leatherette upholstery"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Adventure",
+          "power": "65 kWh RWD · charger not included",
+          "engine": "rwd",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2179000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 65,
+            "rangeKm": 538,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 120,
+            "dcChargeNote": "20-80% in about 25 min (120 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 9.3 h; 3.3 kW charger standard"
+          }
+        },
+        {
+          "trim": "Adventure",
+          "power": "65 kWh RWD · 7.2 kW charger",
+          "engine": "rwd",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2229000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7.2 kW AC fast charger with installation (ACFC)"
+          ],
+          "ev": {
+            "batteryKwh": 65,
+            "rangeKm": 538,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 120,
+            "dcChargeNote": "20-80% in about 25 min (120 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 9.3 h; 3.3 kW charger standard"
+          }
+        },
+        {
+          "trim": "Adventure S",
+          "power": "65 kWh RWD · charger not included",
+          "engine": "rwd",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2229000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 65,
+            "rangeKm": 538,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 120,
+            "dcChargeNote": "20-80% in about 25 min (120 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 9.3 h; 3.3 kW charger standard"
+          }
+        },
+        {
+          "trim": "Adventure S",
+          "power": "65 kWh RWD · 7.2 kW charger",
+          "engine": "rwd",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2279000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7.2 kW AC fast charger with installation (ACFC)"
+          ],
+          "ev": {
+            "batteryKwh": 65,
+            "rangeKm": 538,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 120,
+            "dcChargeNote": "20-80% in about 25 min (120 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 9.3 h; 3.3 kW charger standard"
+          }
+        },
+        {
+          "trim": "Fearless Plus",
+          "power": "65 kWh RWD · charger not included",
+          "engine": "rwd",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2429000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 65,
+            "rangeKm": 538,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 120,
+            "dcChargeNote": "20-80% in about 25 min (120 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 9.3 h; 3.3 kW charger standard"
+          }
+        },
+        {
+          "trim": "Fearless Plus",
+          "power": "65 kWh RWD · 7.2 kW charger",
+          "engine": "rwd",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2479000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7.2 kW AC fast charger with installation (ACFC)"
+          ],
+          "ev": {
+            "batteryKwh": 65,
+            "rangeKm": 538,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 120,
+            "dcChargeNote": "20-80% in about 25 min (120 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 9.3 h; 3.3 kW charger standard"
+          }
+        },
+        {
+          "trim": "Fearless Plus",
+          "power": "75 kWh RWD · charger not included",
+          "engine": "rwd",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2529000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "75 kWh battery, 627 km MIDC"
+          ],
+          "ev": {
+            "batteryKwh": 75,
+            "rangeKm": 627,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 120,
+            "dcChargeNote": "20-80% in about 25 min (120 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 10.7 h; 3.3 kW charger standard"
+          }
+        },
+        {
+          "trim": "Fearless Plus",
+          "power": "75 kWh RWD · 7.2 kW charger",
+          "engine": "rwd",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2579000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "75 kWh battery, 627 km MIDC",
+            "7.2 kW AC fast charger with installation (ACFC)"
+          ],
+          "ev": {
+            "batteryKwh": 75,
+            "rangeKm": 627,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 120,
+            "dcChargeNote": "20-80% in about 25 min (120 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 10.7 h; 3.3 kW charger standard"
+          }
+        },
+        {
+          "trim": "Fearless Plus",
+          "power": "75 kWh QWD · charger not included",
+          "engine": "qwd",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "AWD",
+          "priceInr": 2679000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Dual-motor all-wheel drive (QWD)",
+            "Boost mode",
+            "Off-road assist and six terrain modes"
+          ],
+          "ev": {
+            "batteryKwh": 75,
+            "rangeKm": 622,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 120,
+            "dcChargeNote": "20-80% in about 25 min (120 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 10.7 h; 3.3 kW charger standard"
+          }
+        },
+        {
+          "trim": "Fearless Plus",
+          "power": "75 kWh QWD · 7.2 kW charger",
+          "engine": "qwd",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "AWD",
+          "priceInr": 2729000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Dual-motor all-wheel drive (QWD)",
+            "Boost mode",
+            "Off-road assist and six terrain modes",
+            "7.2 kW AC fast charger with installation (ACFC)"
+          ],
+          "ev": {
+            "batteryKwh": 75,
+            "rangeKm": 622,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 120,
+            "dcChargeNote": "20-80% in about 25 min (120 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 10.7 h; 3.3 kW charger standard"
+          }
+        },
+        {
+          "trim": "Empowered",
+          "power": "75 kWh RWD · charger not included",
+          "engine": "rwd",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2779000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 75,
+            "rangeKm": 627,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 120,
+            "dcChargeNote": "20-80% in about 25 min (120 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 10.7 h; 3.3 kW charger standard"
+          }
+        },
+        {
+          "trim": "Empowered",
+          "power": "75 kWh RWD · 7.2 kW charger",
+          "engine": "rwd",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2829000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7.2 kW AC fast charger with installation (ACFC)"
+          ],
+          "ev": {
+            "batteryKwh": 75,
+            "rangeKm": 627,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 120,
+            "dcChargeNote": "20-80% in about 25 min (120 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 10.7 h; 3.3 kW charger standard"
+          }
+        },
+        {
+          "trim": "Empowered",
+          "power": "75 kWh QWD · charger not included",
+          "engine": "qwd",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "AWD",
+          "priceInr": 2929000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Dual-motor all-wheel drive (QWD)",
+            "Boost mode",
+            "Off-road assist and six terrain modes"
+          ],
+          "ev": {
+            "batteryKwh": 75,
+            "rangeKm": 622,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 120,
+            "dcChargeNote": "20-80% in about 25 min (120 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 10.7 h; 3.3 kW charger standard"
+          }
+        },
+        {
+          "trim": "Empowered",
+          "power": "75 kWh QWD · 7.2 kW charger",
+          "engine": "qwd",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "AWD",
+          "priceInr": 2979000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Dual-motor all-wheel drive (QWD)",
+            "Boost mode",
+            "Off-road assist and six terrain modes",
+            "7.2 kW AC fast charger with installation (ACFC)"
+          ],
+          "ev": {
+            "batteryKwh": 75,
+            "rangeKm": 622,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 120,
+            "dcChargeNote": "20-80% in about 25 min (120 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 10.7 h; 3.3 kW charger standard"
+          }
+        },
+        {
+          "trim": "Empowered Stealth",
+          "power": "75 kWh RWD · charger not included",
+          "engine": "rwd",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2854000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 75,
+            "rangeKm": 627,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 120,
+            "dcChargeNote": "20-80% in about 25 min (120 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 10.7 h; 3.3 kW charger standard"
+          }
+        },
+        {
+          "trim": "Empowered Stealth",
+          "power": "75 kWh RWD · 7.2 kW charger",
+          "engine": "rwd",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2904000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7.2 kW AC fast charger with installation (ACFC)"
+          ],
+          "ev": {
+            "batteryKwh": 75,
+            "rangeKm": 627,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 120,
+            "dcChargeNote": "20-80% in about 25 min (120 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 10.7 h; 3.3 kW charger standard"
+          }
+        },
+        {
+          "trim": "Empowered Stealth",
+          "power": "75 kWh QWD · charger not included",
+          "engine": "qwd",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "AWD",
+          "priceInr": 3004000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Dual-motor all-wheel drive (QWD)",
+            "Boost mode",
+            "Off-road assist and six terrain modes"
+          ],
+          "ev": {
+            "batteryKwh": 75,
+            "rangeKm": 622,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 120,
+            "dcChargeNote": "20-80% in about 25 min (120 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 10.7 h; 3.3 kW charger standard"
+          }
+        },
+        {
+          "trim": "Empowered Stealth",
+          "power": "75 kWh QWD · 7.2 kW charger",
+          "engine": "qwd",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "AWD",
+          "priceInr": 3054000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Dual-motor all-wheel drive (QWD)",
+            "Boost mode",
+            "Off-road assist and six terrain modes",
+            "7.2 kW AC fast charger with installation (ACFC)"
+          ],
+          "ev": {
+            "batteryKwh": 75,
+            "rangeKm": 622,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 120,
+            "dcChargeNote": "20-80% in about 25 min (120 kW)",
+            "acChargeNote": "7.2 kW: 10-100% in 10.7 h; 3.3 kW charger standard"
+          }
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:4th International Auto Show, Bangalore (2025) 110.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Gpkp",
+          "local": "photos/tata-harrier-ev-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Front is a front three-quarter show-floor photo (expo posters in background) - the only Harrier EV photo on Commons. No rear photo.",
+      "sources": [
+        "https://www.cardekho.com/tata/harrier-ev",
+        "https://www.cardekho.com/tata/harrier-ev/price-in-new-delhi",
+        "https://www.cardekho.com/tata/harrier-ev/variants.htm",
+        "https://www.carwale.com/tata-cars/harrier-ev/",
+        "https://www.autocarindia.com/cars/tata/harrier-ev/variants",
+        "https://www.autocarindia.com/auto-features/tata-harrier-ev-price-variants-features-explained-435849"
+      ],
+      "notes": "Tata site unavailable (expired certificate); prices CarDekho New Delhi, Oct 2026 (CarWale Mumbai ranges match). ACFC = optional 7.2 kW AC fast charger (Rs 50,000 over the same variant; a 3.3 kW charger is standard). QWD = dual-motor AWD. Power: RWD 175 kW (238 PS), 315 Nm; QWD 158 PS front + 238 PS rear, 504 Nm - CarDekho/CarWale quote 390 bhp combined while Autocar India quotes 313 hp combined; 390 recorded. Range: 538 km (65), 627 km (75 RWD), 622 km (75 QWD) - CarDekho labels these MIDC in one place and ARAI in another. DC charging: CarWale says 100 kW (65) / 120 kW (75), 20-80% in 25 min. Fearless Plus QWD 75 was Rs 26.49 lakh at its Mar 2026 launch, now Rs 26.79 lakh. Battery-as-a-Service pricing (from Rs 14.49 lakh) not listed."
+    },
+    {
+      "id": "mahindra-xev-9e",
+      "brand": "Mahindra",
+      "model": "XEV 9e",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "m59": {
+          "type": "Permanent-magnet synchronous motor",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 228,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 380,
+          "maxTorqueRpm": null
+        },
+        "m79": {
+          "type": "Permanent-magnet synchronous motor",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 282,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 380,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Pack One",
+          "wheels": "19-inch with aero covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP",
+            "Three 12.3-inch screens (driver, centre, co-driver)",
+            "Wireless Android Auto and Apple CarPlay",
+            "Bi-LED projector headlamps",
+            "Automatic climate control with rear vents",
+            "Cruise control",
+            "Rear camera"
+          ]
+        },
+        {
+          "trim": "Pack Two",
+          "wheels": "19-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Panoramic glass roof",
+            "Level-2 ADAS with adaptive cruise",
+            "16-speaker Harman Kardon with Dolby Atmos",
+            "Dual-zone climate control",
+            "Leatherette seats",
+            "Powered driver's seat with memory",
+            "Wireless charger",
+            "Front parking sensors"
+          ]
+        },
+        {
+          "trim": "Pack Three Select",
+          "wheels": "19-inch alloy",
+          "airbags": 7,
+          "features": [
+            "7 airbags",
+            "Adaptive suspension",
+            "Ventilated front seats",
+            "360-degree camera with blind-view monitor",
+            "Auto park assist",
+            "Powered gesture tailgate",
+            "Powered flush door handles",
+            "Rear wireless charger"
+          ]
+        },
+        {
+          "trim": "Cineluxe Edition",
+          "wheels": null,
+          "airbags": 7,
+          "features": [
+            "79 kWh battery",
+            "Satin Desert Myst exterior",
+            "Cineluxe interior theme",
+            "AR head-up display",
+            "Level-2 Plus ADAS"
+          ]
+        },
+        {
+          "trim": "Pack Three",
+          "wheels": "20-inch alloy",
+          "airbags": 7,
+          "features": [
+            "AR head-up display",
+            "Level-2 Plus ADAS with five radars",
+            "Auto lane change",
+            "Front and rear cross-traffic alert",
+            "Ambient lighting",
+            "Soft-wrapped dashboard"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Pack One",
+          "power": "59 kWh · charger not included",
+          "engine": "m59",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2190000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 59,
+            "rangeKm": 542,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 140,
+            "dcChargeNote": "20-80% in about 20 min (140 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 6 h; 7.2 kW: 8.7 h"
+          }
+        },
+        {
+          "trim": "Pack One",
+          "power": "59 kWh · 7.2 kW charger",
+          "engine": "m59",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2240000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7.2 kW AC wall-box charger"
+          ],
+          "ev": {
+            "batteryKwh": 59,
+            "rangeKm": 542,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 140,
+            "dcChargeNote": "20-80% in about 20 min (140 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 6 h; 7.2 kW: 8.7 h"
+          }
+        },
+        {
+          "trim": "Pack One",
+          "power": "59 kWh · 11.2 kW charger",
+          "engine": "m59",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2265000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "11.2 kW AC wall-box charger"
+          ],
+          "ev": {
+            "batteryKwh": 59,
+            "rangeKm": 542,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 140,
+            "dcChargeNote": "20-80% in about 20 min (140 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 6 h; 7.2 kW: 8.7 h"
+          }
+        },
+        {
+          "trim": "Pack Two",
+          "power": "59 kWh · charger not included",
+          "engine": "m59",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2490000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 59,
+            "rangeKm": 542,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 140,
+            "dcChargeNote": "20-80% in about 20 min (140 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 6 h; 7.2 kW: 8.7 h"
+          }
+        },
+        {
+          "trim": "Pack Two",
+          "power": "59 kWh · 7.2 kW charger",
+          "engine": "m59",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2540000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7.2 kW AC wall-box charger"
+          ],
+          "ev": {
+            "batteryKwh": 59,
+            "rangeKm": 542,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 140,
+            "dcChargeNote": "20-80% in about 20 min (140 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 6 h; 7.2 kW: 8.7 h"
+          }
+        },
+        {
+          "trim": "Pack Two",
+          "power": "59 kWh · 11.2 kW charger",
+          "engine": "m59",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2565000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "11.2 kW AC wall-box charger"
+          ],
+          "ev": {
+            "batteryKwh": 59,
+            "rangeKm": 542,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 140,
+            "dcChargeNote": "20-80% in about 20 min (140 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 6 h; 7.2 kW: 8.7 h"
+          }
+        },
+        {
+          "trim": "Pack Two",
+          "power": "79 kWh · charger not included",
+          "engine": "m79",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2650000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "79 kWh battery, 656 km MIDC",
+            "210 kW motor"
+          ],
+          "ev": {
+            "batteryKwh": 79,
+            "rangeKm": 656,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 175,
+            "dcChargeNote": "20-80% in about 20 min (175 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 8 h; 7.2 kW: 11.7 h"
+          }
+        },
+        {
+          "trim": "Pack Two",
+          "power": "79 kWh · 7.2 kW charger",
+          "engine": "m79",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2700000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "79 kWh battery, 656 km MIDC",
+            "210 kW motor",
+            "7.2 kW AC wall-box charger"
+          ],
+          "ev": {
+            "batteryKwh": 79,
+            "rangeKm": 656,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 175,
+            "dcChargeNote": "20-80% in about 20 min (175 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 8 h; 7.2 kW: 11.7 h"
+          }
+        },
+        {
+          "trim": "Pack Two",
+          "power": "79 kWh · 11.2 kW charger",
+          "engine": "m79",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2725000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "79 kWh battery, 656 km MIDC",
+            "210 kW motor",
+            "11.2 kW AC wall-box charger"
+          ],
+          "ev": {
+            "batteryKwh": 79,
+            "rangeKm": 656,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 175,
+            "dcChargeNote": "20-80% in about 20 min (175 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 8 h; 7.2 kW: 11.7 h"
+          }
+        },
+        {
+          "trim": "Pack Three Select",
+          "power": "59 kWh · charger not included",
+          "engine": "m59",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2790000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 59,
+            "rangeKm": 542,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 140,
+            "dcChargeNote": "20-80% in about 20 min (140 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 6 h; 7.2 kW: 8.7 h"
+          }
+        },
+        {
+          "trim": "Pack Three Select",
+          "power": "59 kWh · 7.2 kW charger",
+          "engine": "m59",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2840000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7.2 kW AC wall-box charger"
+          ],
+          "ev": {
+            "batteryKwh": 59,
+            "rangeKm": 542,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 140,
+            "dcChargeNote": "20-80% in about 20 min (140 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 6 h; 7.2 kW: 8.7 h"
+          }
+        },
+        {
+          "trim": "Pack Three Select",
+          "power": "59 kWh · 11.2 kW charger",
+          "engine": "m59",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2865000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "11.2 kW AC wall-box charger"
+          ],
+          "ev": {
+            "batteryKwh": 59,
+            "rangeKm": 542,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 140,
+            "dcChargeNote": "20-80% in about 20 min (140 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 6 h; 7.2 kW: 8.7 h"
+          }
+        },
+        {
+          "trim": "Cineluxe Edition",
+          "power": "79 kWh · charger not included",
+          "engine": "m79",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2935000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 79,
+            "rangeKm": 656,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 175,
+            "dcChargeNote": "20-80% in about 20 min (175 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 8 h; 7.2 kW: 11.7 h"
+          }
+        },
+        {
+          "trim": "Pack Three",
+          "power": "79 kWh · charger not included",
+          "engine": "m79",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 3050000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 79,
+            "rangeKm": 656,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 175,
+            "dcChargeNote": "20-80% in about 20 min (175 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 8 h; 7.2 kW: 11.7 h"
+          }
+        },
+        {
+          "trim": "Pack Three",
+          "power": "79 kWh · 7.2 kW charger",
+          "engine": "m79",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 3100000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7.2 kW AC wall-box charger"
+          ],
+          "ev": {
+            "batteryKwh": 79,
+            "rangeKm": 656,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 175,
+            "dcChargeNote": "20-80% in about 20 min (175 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 8 h; 7.2 kW: 11.7 h"
+          }
+        },
+        {
+          "trim": "Pack Three",
+          "power": "79 kWh · 11.2 kW charger",
+          "engine": "m79",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 3125000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "11.2 kW AC wall-box charger"
+          ],
+          "ev": {
+            "batteryKwh": 79,
+            "rangeKm": 656,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 175,
+            "dcChargeNote": "20-80% in about 20 min (175 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 8 h; 7.2 kW: 11.7 h"
+          }
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Green Vehicle Expo 2025 (Bangalore International Exhibition Centre) 06.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Gpkp",
+          "local": "photos/mahindra-xev-9e-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Front is a straight-on show-floor photo (expo stand and people in background). No rear photo on Commons; 'File:Mahindra XEV 9E.jpg' is an angled front three-quarter street shot.",
+      "sources": [
+        "https://www.cardekho.com/mahindra/xev-9e",
+        "https://www.cardekho.com/mahindra/xev-9e/price-in-new-delhi",
+        "https://www.cardekho.com/mahindra/xev-9e/variants.htm",
+        "https://www.carwale.com/mahindra-cars/xev-9e/",
+        "https://www.autocarindia.com/cars/mahindra/xev-9e/variants",
+        "https://www.autocarindia.com/auto-features/mahindra-xev-9e-price-variants-and-features-explained-434484"
+      ],
+      "notes": "Sold under Mahindra's separate 'Electric Origin' site (mahindraelectricsuv.com), which gives no spec text to fetch. Prices CarDekho New Delhi; ex-showroom base prices exclude the wall-box charger, which is sold as a separate 7.2 kW (+Rs 50,000) or 11.2 kW (+Rs 75,000) variant. Motor 170 kW (231 PS) / 210 kW (286 PS), 380 Nm. DC fast charging: Autocar India 140/175 kW; CarDekho spec page says 180 kW for the 79 kWh. Range 542/656 km labelled ARAI on CarDekho and MIDC on Autocar. CarWale lists a second Cineluxe variant (Rs 29.35-30.10 lakh range) whose charger spec and price could not be confirmed, so only the base Cineluxe is listed. Pack Three 20-inch wheels per CarWale; Cineluxe wheels unconfirmed. Battery-as-a-Service pricing (from Rs 13.90 lakh) not listed."
+    },
+    {
+      "id": "mahindra-be-6",
+      "brand": "Mahindra",
+      "model": "BE 6",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "m59": {
+          "type": "Permanent-magnet synchronous motor",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 228,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 380,
+          "maxTorqueRpm": null
+        },
+        "m70": {
+          "type": "Permanent-magnet synchronous motor",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 241,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 380,
+          "maxTorqueRpm": null
+        },
+        "m79": {
+          "type": "Permanent-magnet synchronous motor",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 282,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 380,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "One",
+          "wheels": "19-inch",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP",
+            "12.3-inch touchscreen and 12.3-inch digital driver's display",
+            "Wireless Android Auto and Apple CarPlay",
+            "6-speaker audio",
+            "Rear camera",
+            "Cruise control"
+          ]
+        },
+        {
+          "trim": "Two",
+          "wheels": "19-inch",
+          "airbags": 6,
+          "features": [
+            "12.3-inch co-driver screen",
+            "16-speaker Harman Kardon audio",
+            "Dual-zone climate control",
+            "540-degree camera",
+            "Wireless charger",
+            "Front parking sensors"
+          ]
+        },
+        {
+          "trim": "Three",
+          "wheels": "19-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Fixed-glass panoramic roof",
+            "6-way powered driver's seat",
+            "Ventilated front seats"
+          ]
+        },
+        {
+          "trim": "Three Plus",
+          "wheels": "19-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Level-2 ADAS",
+            "Ambient lighting",
+            "Powered tailgate",
+            "Keyless entry",
+            "Dual front wireless chargers"
+          ]
+        },
+        {
+          "trim": "FE",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "79 kWh battery",
+            "Adaptive dampers",
+            "Formula E-themed styling",
+            "Three-level equipment (glass roof, ventilated seats, Harman Kardon)"
+          ]
+        },
+        {
+          "trim": "Four",
+          "wheels": "20-inch alloy",
+          "airbags": 7,
+          "features": [
+            "7 airbags (knee airbag)",
+            "AR head-up display",
+            "Adaptive dampers",
+            "Auto park assist",
+            "Level-2 Plus ADAS"
+          ]
+        },
+        {
+          "trim": "FE Four",
+          "wheels": "20-inch alloy",
+          "airbags": 7,
+          "features": [
+            "Formula E-themed styling on Four equipment"
+          ]
+        },
+        {
+          "trim": "Launch Edition",
+          "wheels": "20-inch alloy",
+          "airbags": 7,
+          "features": [
+            "Racing Tan interior trim",
+            "Graphite Storm exterior colour",
+            "Four-level equipment"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "One",
+          "power": "59 kWh",
+          "engine": "m59",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 1945000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 59,
+            "rangeKm": 548,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 140,
+            "dcChargeNote": "20-80% in about 20 min (140 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 6 h; 7.2 kW: 8.7 h"
+          }
+        },
+        {
+          "trim": "Two",
+          "power": "59 kWh",
+          "engine": "m59",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2095000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 59,
+            "rangeKm": 548,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 140,
+            "dcChargeNote": "20-80% in about 20 min (140 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 6 h; 7.2 kW: 8.7 h"
+          }
+        },
+        {
+          "trim": "Three",
+          "power": "59 kWh",
+          "engine": "m59",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2195000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 59,
+            "rangeKm": 548,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 140,
+            "dcChargeNote": "20-80% in about 20 min (140 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 6 h; 7.2 kW: 8.7 h"
+          }
+        },
+        {
+          "trim": "Three",
+          "power": "70 kWh",
+          "engine": "m70",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2295000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "70 kWh battery, 651 km MIDC",
+            "180 kW motor"
+          ],
+          "ev": {
+            "batteryKwh": 70,
+            "rangeKm": 651,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 160,
+            "dcChargeNote": "20-80% in about 20 min (160 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 7 h; 7.2 kW: 10.2 h"
+          }
+        },
+        {
+          "trim": "Three Plus",
+          "power": "70 kWh",
+          "engine": "m70",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2395000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 70,
+            "rangeKm": 651,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 160,
+            "dcChargeNote": "20-80% in about 20 min (160 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 7 h; 7.2 kW: 10.2 h"
+          }
+        },
+        {
+          "trim": "Three Plus",
+          "power": "79 kWh",
+          "engine": "m79",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2495000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "79 kWh battery, 683 km MIDC",
+            "210 kW motor"
+          ],
+          "ev": {
+            "batteryKwh": 79,
+            "rangeKm": 683,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 175,
+            "dcChargeNote": "20-80% in about 20 min (175 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 8 h; 7.2 kW: 11.7 h"
+          }
+        },
+        {
+          "trim": "FE",
+          "power": "79 kWh",
+          "engine": "m79",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2445000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 79,
+            "rangeKm": 683,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 175,
+            "dcChargeNote": "20-80% in about 20 min (175 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 8 h; 7.2 kW: 11.7 h"
+          }
+        },
+        {
+          "trim": "Four",
+          "power": "79 kWh",
+          "engine": "m79",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2695000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 79,
+            "rangeKm": 683,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 175,
+            "dcChargeNote": "20-80% in about 20 min (175 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 8 h; 7.2 kW: 11.7 h"
+          }
+        },
+        {
+          "trim": "FE Four",
+          "power": "79 kWh",
+          "engine": "m79",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2695000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 79,
+            "rangeKm": 683,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 175,
+            "dcChargeNote": "20-80% in about 20 min (175 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 8 h; 7.2 kW: 11.7 h"
+          }
+        },
+        {
+          "trim": "Launch Edition",
+          "power": "79 kWh",
+          "engine": "m79",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2695000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 79,
+            "rangeKm": 683,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 175,
+            "dcChargeNote": "20-80% in about 20 min (175 kW)",
+            "acChargeNote": "11.2 kW: 0-100% in 8 h; 7.2 kW: 11.7 h"
+          }
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Mahindra BE6 pic 1 (cropped).jpg",
+          "license": "CC0",
+          "artist": "Cppfront",
+          "local": "photos/mahindra-be-6-front.jpg"
+        },
+        "rear": {
+          "file": "File:Mahindra BE6 pic 2.jpg",
+          "license": "CC0",
+          "artist": "Cppfront",
+          "local": "photos/mahindra-be-6-rear.jpg"
+        }
+      },
+      "photoNotes": "Rear is a clean straight-on street photo. Front is a front three-quarter (about 40 degrees) street photo with a banner behind the car - the best available; rejected 'File:Mahindra BE 6 Batman Edition.jpg' (night, side-rear).",
+      "sources": [
+        "https://www.cardekho.com/mahindra/be-6",
+        "https://www.cardekho.com/mahindra/be-6/price-in-new-delhi",
+        "https://www.cardekho.com/mahindra/be-6/specs",
+        "https://www.carwale.com/mahindra-cars/be-6/",
+        "https://www.autocarindia.com/auto-features/mahindra-be-6-price-variants-features-explained-434493"
+      ],
+      "notes": "Now marketed as 'BE 6 SPORTEQ' (Aug 2026 line-up revision) with variants One / Two / Three / Three Plus / FE / Four / FE Four / Launch Edition and a new 70 kWh pack, replacing the 2025 Pack One/Two/Three naming - per-trim features taken from CarDekho's spec page and older Pack-based Autocar guides, so the FE ('Formula E') and Four trim contents are only partly confirmed. Prices CarDekho New Delhi; CarWale lists 7.2 kW / 11.2 kW charger sub-variants (about Rs 0.50-0.75 lakh more) that CarDekho does not. Range 548/651/683 km (CarDekho, labelled ARAI); CarWale quotes 573/651/708 km MIDC; Autocar's 2025 figures were 556/682. Torque 380 Nm per CarDekho/Autocar; CarWale says 360 Nm. Sold via Mahindra's separate Electric Origin site. Battery-as-a-Service pricing not listed."
+    },
+    {
+      "id": "mahindra-xuv400",
+      "brand": "Mahindra",
+      "model": "XUV400 EV",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "m110": {
+          "type": "Permanent-magnet synchronous motor",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 148,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 310,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "EC Pro",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP and hill-hold",
+            "Drive modes (Fun, Fast)",
+            "Halogen headlamps",
+            "Tyre-pressure monitor",
+            "Rear seat recline"
+          ]
+        },
+        {
+          "trim": "EL Pro",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "10.25-inch touchscreen with navigation",
+            "Wireless Android Auto and Apple CarPlay",
+            "Panoramic sunroof",
+            "Rear camera",
+            "Projector headlamps",
+            "Wireless charger",
+            "Keyless entry and push-button start",
+            "Auto-dimming inside mirror"
+          ]
+        },
+        {
+          "trim": "EL Pro Dual Tone",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Dual-tone roof"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "EC Pro",
+          "power": "34.5 kWh",
+          "engine": "m110",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1549000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 34.5,
+            "rangeKm": 375,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 50,
+            "dcChargeNote": "0-80% in 50 min (50 kW)",
+            "acChargeNote": "7.2 kW: 0-100% in 6.5 h; 3.3 kW: 13.5 h"
+          }
+        },
+        {
+          "trim": "EL Pro",
+          "power": "34.5 kWh",
+          "engine": "m110",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1674000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 34.5,
+            "rangeKm": 375,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 50,
+            "dcChargeNote": "0-80% in 50 min (50 kW)",
+            "acChargeNote": "7.2 kW: 0-100% in 6.5 h; 3.3 kW: 13.5 h"
+          }
+        },
+        {
+          "trim": "EL Pro",
+          "power": "39.4 kWh",
+          "engine": "m110",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1749000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "39.4 kWh battery, 456 km MIDC",
+            "Fearless drive mode"
+          ],
+          "ev": {
+            "batteryKwh": 39.4,
+            "rangeKm": 456,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 50,
+            "dcChargeNote": "0-80% in 50 min (50 kW)",
+            "acChargeNote": "7.2 kW: 0-100% in 6.5 h; 3.3 kW: 13.5 h"
+          }
+        },
+        {
+          "trim": "EL Pro Dual Tone",
+          "power": "34.5 kWh",
+          "engine": "m110",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1694000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 34.5,
+            "rangeKm": 375,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 50,
+            "dcChargeNote": "0-80% in 50 min (50 kW)",
+            "acChargeNote": "7.2 kW: 0-100% in 6.5 h; 3.3 kW: 13.5 h"
+          }
+        },
+        {
+          "trim": "EL Pro Dual Tone",
+          "power": "39.4 kWh",
+          "engine": "m110",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1769000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "39.4 kWh battery, 456 km MIDC",
+            "Fearless drive mode"
+          ],
+          "ev": {
+            "batteryKwh": 39.4,
+            "rangeKm": 456,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 50,
+            "dcChargeNote": "0-80% in 50 min (50 kW)",
+            "acChargeNote": "7.2 kW: 0-100% in 6.5 h; 3.3 kW: 13.5 h"
+          }
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2023 Mahindra XUV 400 EL EV , Ashiana Brahmananda, Jamshedpur, Jharkhand, India ( Ank Kumar, Infosys Limited ) 01.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Ank Kumar",
+          "local": "photos/mahindra-xuv400-front.jpg"
+        },
+        "rear": {
+          "file": "File:2023 Mahindra XUV 400 EL EV , Ashiana Brahmananda, Jamshedpur, Jharkhand, India ( Ank Kumar, Infosys Limited ) 02.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Ank Kumar",
+          "local": "photos/mahindra-xuv400-rear.jpg"
+        }
+      },
+      "photoNotes": "Both are clean, near straight-on photos of a 2023 XUV400 EL (same body as the current Pro range; the Pro update changed interior/features, not the exterior).",
+      "sources": [
+        "https://www.cardekho.com/mahindra/xuv400",
+        "https://www.cardekho.com/mahindra/xuv400-ev/variants.htm",
+        "https://www.carwale.com/mahindra-cars/xuv400/",
+        "https://www.autocarindia.com/cars/mahindra/xuv400/variants",
+        "https://www.autocarindia.com/cars/mahindra/xuv400"
+      ],
+      "notes": "Still listed as on sale (CarDekho, CarWale and Autocar India price lists, Oct 2026; CarWale shows 'more than 2 months waiting' and heavy discounts) - no discontinuation notice found, though sales are very low. Mahindra's own page (auto.mahindra.com/suv/xuv400) returned 404. Prices CarDekho New Delhi. Motor 110 kW (150 PS), 310 Nm; CarDekho variant table quotes 149.55 bhp (34.5 kWh) and 147.51 bhp (39.4 kWh). Range 375/456 km (claimed, MIDC); ARAI figure quoted elsewhere is 439.8 km. Whether the 39.4 kWh variants bundle the 7.2 kW charger could not be confirmed. Wheels per variant not confirmed."
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "cars": [
+    {
+      "id": "bmw-3-series-lwb",
+      "brand": "BMW",
+      "model": "3 Series Long Wheelbase",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": 59,
+      "priceNote": "CarDekho New Delhi / CarWale / Autocar India ex-showroom, Oct 2026",
+      "engines": {
+        "p20": {
+          "type": "2.0 TwinPower Turbo petrol",
+          "cylinders": 4,
+          "displacementCc": 1998,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 255,
+          "maxPowerRpm": 5000,
+          "maxTorqueNm": 400,
+          "maxTorqueRpm": "1550-4400"
+        },
+        "d20": {
+          "type": "2.0 TwinPower Turbo diesel",
+          "cylinders": 4,
+          "displacementCc": 1995,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 188,
+          "maxPowerRpm": 4000,
+          "maxTorqueNm": 400,
+          "maxTorqueRpm": "1750-2500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "M Sport",
+          "wheels": "18-inch M alloy",
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "BMW Curved Display with iDrive 8.5",
+            "Adaptive LED headlights",
+            "Three-zone climate control",
+            "Park Assistant Plus with Surround View camera",
+            "Electric front seats with memory",
+            "Harman Kardon 16-speaker audio",
+            "BMW Driving Assistant (blind spot and collision warnings)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "M Sport",
+          "power": "330Li Petrol AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed Steptronic Sport",
+          "drivetrain": "RWD",
+          "priceInr": 6270000,
+          "mileage": "15.39 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "M Sport",
+          "power": "320Ld Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 8-speed Steptronic Sport",
+          "drivetrain": "RWD",
+          "priceInr": 6420000,
+          "mileage": "19.61 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0-litre diesel engine (400 Nm)",
+            "Higher claimed efficiency"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2024 BMW 330Li M-Sport front.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "LuvsMG481",
+          "local": "photos/bmw-3-series-lwb-front.jpg"
+        },
+        "rear": {
+          "file": "File:2024 BMW 330Li M-Sport rear.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "LuvsMG481",
+          "local": "photos/bmw-3-series-lwb-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market photo of the G28 long-wheelbase 3 Series on Commons. Used a right-hand-drive 2024 330Li M Sport (G28 LCI) photographed in Kuala Lumpur, Malaysia; same body and trim as the Indian car, but India's Feb 2025 model has minor updates and it is not an Indian-registered car. Re-checked 21 Oct 2026: a full scan of the Commons model categories and India-specific searches found no Indian-market photo of this generation; the closest candidates were Thai (Khon Kaen showroom) and Chinese G28 photos, rejected as non-Indian and no better than the current pair, so the photos are unchanged.",
+      "sources": [
+        "https://www.press.bmwgroup.com/india/article/detail/T0448419EN",
+        "https://www.autocarindia.com/cars/bmw/3-series-lwb",
+        "https://www.autocarindia.com/cars/bmw/3-series-lwb/330li-m-sport",
+        "https://www.autocarindia.com/cars/bmw/3-series-lwb/320ld-m-sport",
+        "https://www.cardekho.com/bmw/3-series-long-wheelbase",
+        "https://www.cardekho.com/bmw/3-series-gran-limousine/specs"
+      ],
+      "notes": "Current car is the 3 Series Long Wheelbase (formerly '3 Series Gran Limousine'), relaunched Feb 2025 and built in Chennai. M340i is a separate standard-wheelbase model page, so it is excluded. Bmw.in could not be reached; prices come from Autocar India Delhi (range Rs 62.70-64.20 lakh, updated 16 Oct 2026) and CarDekho New Delhi, which agree. CarDekho also lists a limited 330Li M Sport 50 Jahre Edition (50 units, Aug 2025) and a 320Ld M Sport Pro at Rs 61.50 lakh; these are left out as limited or unclear, and CarWale lists the M Sport Pro as discontinued. BMW's 258 hp figure is shown here as about 255 bhp (CarWale). The diesel is 1995 cc per Autocar and CarWale; CarDekho says 1998 cc. Airbags are 6 per BMW's press release and Autocar; CarDekho's spec table says 8. Fuel tank 59 L comes from Autocar only. Mileage is the official figure as listed by Autocar and CarDekho. Autocar wrongly says FWD in one place; it is RWD. Eighth-generation 3 Series revealed globally Sep 2026, not yet in India. Update 21 Oct 2026: Prices re-checked; CarDekho New Delhi and CarWale (3-series-lwb page) both show Rs 62.70 / 64.20 lakh, so no change. No mileage gaps. Photos unchanged (no Indian-market photo on Commons). Bmw.in timed out again.\nSpec audit 21 Oct 2026: all engine figures confirmed (258 hp/190 hp launch coverage, CarTrade)."
+    },
+    {
+      "id": "bmw-x1",
+      "brand": "BMW",
+      "model": "X1",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 51,
+      "priceNote": "CarWale ex-showroom (cross-checked with ZigWheels/CarDekho city pages), Oct 2026",
+      "engines": {
+        "p15": {
+          "type": "1.5 TwinPower Turbo petrol",
+          "cylinders": 3,
+          "displacementCc": 1499,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 134,
+          "maxPowerRpm": "4400-6500",
+          "maxTorqueNm": 230,
+          "maxTorqueRpm": "1500-4000"
+        },
+        "d20": {
+          "type": "2.0 TwinPower Turbo diesel",
+          "cylinders": 4,
+          "displacementCc": 1995,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 148,
+          "maxPowerRpm": "3750-4000",
+          "maxTorqueNm": 360,
+          "maxTorqueRpm": "1500-2500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "M Sport",
+          "wheels": "18-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "BMW Curved Display with iDrive 9",
+            "Adaptive LED headlamps",
+            "Head-up display",
+            "Electric front seats with memory",
+            "Hands-free powered tailgate",
+            "Wireless Apple CarPlay and Android Auto",
+            "Reversing assistant with rear camera"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "M Sport",
+          "power": "sDrive18i Petrol DCT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DCT",
+          "drivetrain": "FWD",
+          "priceInr": 5090000,
+          "mileage": "16.35 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "M Sport",
+          "power": "sDrive18d Diesel DCT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 7-speed DCT",
+          "drivetrain": "FWD",
+          "priceInr": 5290000,
+          "mileage": "20.37 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0-litre 4-cylinder diesel (360 Nm)"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2022 BMW X1 sDrive18d M Sport MHEV Automatic 2.0 Front.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Vauxford",
+          "local": "photos/bmw-x1-front.jpg"
+        },
+        "rear": {
+          "file": "File:2022 BMW X1 sDrive18d M Sport MHEV Automatic 2.0 Rear.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Vauxford",
+          "local": "photos/bmw-x1-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market U11 X1 photo on Commons. Used a right-hand-drive UK sDrive18d M Sport (same generation and trim); it is not an Indian-registered car. Re-checked 21 Oct 2026: a full scan of the Commons model categories and India-specific searches found no Indian-market photo of this generation; the closest candidates were Thai showroom (Khon Kaen) and Philippine U11 photos, rejected as non-Indian; India-tagged X1 photos on Commons (Kolkata, Chennai Auto Expo) are the older F48 generation. Photos unchanged.",
+      "sources": [
+        "https://www.carwale.com/bmw-cars/x1/",
+        "https://www.carwale.com/bmw-cars/x1/sdrive18i-m-sport/",
+        "https://www.carwale.com/bmw-cars/x1/sdrive18d-m-sport/",
+        "https://www.cardekho.com/bmw/x1",
+        "https://www.cardekho.com/bmw/x1/specs",
+        "https://www.autocarindia.com/cars/bmw/x1/variants",
+        "https://www.zigwheels.com/bmw-cars/x1/on-road-price-indi/"
+      ],
+      "notes": "Third-generation (U11) X1, built in Chennai; the iX1 EV is excluded. Bmw.in could not be reached. Prices are from CarWale (Rs 50.90 lakh petrol, Rs 52.90 lakh diesel; its main page labels them Mumbai), and ZigWheels (Aug 2026) agrees on Rs 50.90 lakh for the petrol. CarDekho shows Rs 52.90 lakh petrol and Rs 52.20 lakh diesel, which looks inconsistent. Autocar India (17 Oct 2026) still calls the petrol 'sDrive18i xLine'; CarWale, CarDekho and ZigWheels list it as sDrive18i M Sport, which is used here. Feature lists don't clearly show any equipment differences between the two variants. Power figures are in bhp per CarWale (BMW quotes 136 PS and 150 PS). Next-gen X1 expected around 2027. Update 21 Oct 2026: Prices re-checked, no change. Conflict persists: CarWale shows Rs 50.90 lakh petrol / Rs 52.90 lakh diesel (its sdrive18i variant page also gives Rs 58.29 lakh on-road in New Delhi, consistent with 50.90 ex-showroom), and ZigWheels (Sep 2026) and CarDekho city pages agree on Rs 50.90 lakh for the petrol; CarDekho's New Delhi page alone lists Rs 52.90 lakh petrol and no diesel ex-showroom figure. Kept CarWale's figures. BMW announced up to 2% price rises from Apr 2026; it is unclear whether listings reflect it. Bmw.in timed out. Photos unchanged.\nSpec audit 21 Oct 2026: all engine figures confirmed (CarWale, Smartprix, Spinny)."
+    },
+    {
+      "id": "mercedes-c-class",
+      "brand": "Mercedes-Benz",
+      "model": "C-Class",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarWale / Autocar India ex-showroom, Oct 2026",
+      "engines": {
+        "p15": {
+          "type": "1.5 turbo petrol (48V mild hybrid)",
+          "cylinders": 4,
+          "displacementCc": 1496,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 201,
+          "maxPowerRpm": "5800-6100",
+          "maxTorqueNm": 300,
+          "maxTorqueRpm": "1800-4000"
+        },
+        "d20": {
+          "type": "2.0 turbo diesel (48V mild hybrid)",
+          "cylinders": 4,
+          "displacementCc": 1993,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 197,
+          "maxPowerRpm": 3600,
+          "maxTorqueNm": 440,
+          "maxTorqueRpm": "1800-2800"
+        },
+        "p20": {
+          "type": "2.0 turbo petrol (48V mild hybrid)",
+          "cylinders": 4,
+          "displacementCc": 1999,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 255,
+          "maxPowerRpm": 5800,
+          "maxTorqueNm": 400,
+          "maxTorqueRpm": "2000"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Standard",
+          "wheels": "17-inch alloy",
+          "airbags": 7,
+          "features": [
+            "7 airbags",
+            "11.9-inch MBUX touchscreen with wireless Apple CarPlay and Android Auto",
+            "12.3-inch digital instrument cluster",
+            "Panoramic sunroof",
+            "Ventilated front seats with memory",
+            "Head-up display",
+            "64-colour ambient lighting",
+            "Parking assist with 360-degree camera"
+          ]
+        },
+        {
+          "trim": "AMG Line",
+          "wheels": "18-inch AMG alloy",
+          "airbags": 7,
+          "features": [
+            "AMG Line exterior styling",
+            "18-inch AMG alloy wheels",
+            "DIGITAL LIGHT headlamps",
+            "Burmester 3D surround sound (15 speakers)",
+            "Augmented-reality navigation",
+            "Hands-free boot opening",
+            "Remote parking"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Standard",
+          "power": "C 200 Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 9-speed (9G-Tronic)",
+          "drivetrain": "RWD",
+          "priceInr": 6120000,
+          "mileage": "16.9 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Standard",
+          "power": "C 220d Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 9-speed (9G-Tronic)",
+          "drivetrain": "RWD",
+          "priceInr": 6120000,
+          "mileage": "23 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0-litre diesel (440 Nm)"
+          ]
+        },
+        {
+          "trim": "AMG Line",
+          "power": "C 300 Petrol AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 9-speed (9G-Tronic)",
+          "drivetrain": "RWD",
+          "priceInr": 6700000,
+          "mileage": "16.9 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2022 Mercedes-Benz C300 AMG Line Premium - 1999cc 2.0 (258PS) Petrol - Obsidian Black - 02-2024, Front.jpg",
+          "license": "CC BY 4.0",
+          "artist": "Harvey Bold",
+          "local": "photos/mercedes-c-class-front.jpg"
+        },
+        "rear": {
+          "file": "File:Mercedes-Benz C 200 AMG Line (W 206) – h 18042025.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "artist": "M 93",
+          "local": "photos/mercedes-c-class-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market W206 photo on Commons. Front: right-hand-drive UK C300 AMG Line. Rear: German C 200 AMG Line (left-hand drive, but the rear looks the same). Neither is an Indian-registered car. Re-checked 21 Oct 2026: a full scan of the Commons model categories and India-specific searches found no Indian-market photo of this generation; the closest candidates were Thai, Philippine and Japanese right-hand-drive W206 photos (non-Indian) and India-tagged Mercedes photos from the Bangalore International Auto Show 2025, which show an older W204 C-Class with dealer signage, rejected. Photos unchanged.",
+      "sources": [
+        "https://www.carwale.com/mercedes-benz-cars/c-class/",
+        "https://www.carwale.com/mercedes-benz-cars/c-class/c-200/",
+        "https://www.carwale.com/mercedes-benz-cars/c-class/c-220d/",
+        "https://www.carwale.com/mercedes-benz-cars/c-class/c-300/",
+        "https://www.autocarindia.com/cars/mercedes-benz/c-class/variants",
+        "https://www.cardekho.com/mercedes-benz/c-class",
+        "https://www.cardekho.com/mercedes-benz/c-class/specs"
+      ],
+      "notes": "Current W206 C-Class, all 48V mild hybrids. Mercedes-benz.co.in could not be reached. Prices come from CarWale (Rs 61.20 / 61.20 / 67.00 lakh) and match Autocar India's Oct 2026 starting ex-showroom of Rs 61.20 lakh. CarDekho New Delhi shows older, lower figures (Rs 59.90 / 59.90 / 65.60 lakh), likely from before the June 2026 price hike. AMG C 43 and C 63 S E Performance are excluded as separate AMG models. The limited C 200 Celebration Edition (140 units, Apr 2026, Rs 62.40 lakh) is also excluded. Trim naming is unclear: Autocar calls the C 200 and C 220d 'Progressive' and CarDekho's review says 'Avantgarde', so they are labelled 'Standard' here. Mileage for the C 200 and C 220d is CarDekho's ARAI figure. CarDekho gives 15 kmpl for the C 300 but labels it as highway, so that is left as null. Airbags are 7 per CarWale and CarDekho's spec table; a CarDekho review says 6. Fuel tank figures conflict (CarWale: 50 L for C 200, 40 L for C 220d, 66 L for C 300; CarDekho: 66 L petrol), so it is left null. The C 200 torque rpm is CarWale's single figure. A 2027 facelift was revealed globally in Aug 2026. Update 21 Oct 2026: Mileage: C 300 filled as 16.9 kmpl (unofficial estimate), since Carlelo and ZigWheels both list 16.9 kmpl for the C 300; caution, this matches the C 200's ARAI figure and may be carried over by those sites, and CarDekho lists 15 kmpl (labelled highway on its spec page); no official C 300 figure was found (CarWale and Autocar give only user-reported figures). Prices re-checked: CarWale (Rs 61.20 / 61.20 / 67.00 lakh) and Autocar India (from Rs 61.20 lakh, updated 16 Oct 2026; Rs 67.00 lakh for the C 300) agree, so no change; CarDekho and ZigWheels still show older Rs 59.90 / 59.90 / 65.60 lakh. Fuel tank stays null: CarWale, CarDekho and Autocar agree on 66 L for the C 300, but CarWale gives different figures for the C 200 and C 220d. Mercedes-benz.co.in timed out. Photos unchanged.\nSpec audit 21 Oct 2026: C200 maxPowerRpm 5800 -> 5800-6100, maxTorqueRpm 1800 -> 1800-4000; C220d maxTorqueRpm 1800 -> 1800-2800 (launch spec tables). p20 (C300) figures and availability unconfirmed."
+    },
+    {
+      "id": "mercedes-gla",
+      "brand": "Mercedes-Benz",
+      "model": "GLA",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi / CarWale ex-showroom, Oct 2026",
+      "engines": {
+        "p13": {
+          "type": "1.3 turbo petrol",
+          "cylinders": 4,
+          "displacementCc": 1332,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 161,
+          "maxPowerRpm": 5500,
+          "maxTorqueNm": 270,
+          "maxTorqueRpm": "2000-4000"
+        },
+        "d20": {
+          "type": "2.0 turbo diesel",
+          "cylinders": 4,
+          "displacementCc": 1950,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 188,
+          "maxPowerRpm": 3800,
+          "maxTorqueNm": 400,
+          "maxTorqueRpm": "1600-2600"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Progressive",
+          "wheels": "18-inch alloy",
+          "airbags": 7,
+          "features": [
+            "7 airbags",
+            "Dual 10.25-inch MBUX screens with wireless Apple CarPlay and Android Auto",
+            "Panoramic sunroof",
+            "Electric front seats with memory",
+            "360-degree camera with active parking assist",
+            "Blind spot assist",
+            "Hands-free powered tailgate",
+            "Dual-zone climate control"
+          ]
+        },
+        {
+          "trim": "AMG Line",
+          "wheels": "19-inch AMG alloy",
+          "airbags": 7,
+          "features": [
+            "AMG Line bodykit",
+            "19-inch AMG alloy wheels",
+            "Sports seats"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Progressive",
+          "power": "200 Petrol DCT",
+          "engine": "p13",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DCT",
+          "drivetrain": "FWD",
+          "priceInr": 5180000,
+          "mileage": "17.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Progressive",
+          "power": "220d 4MATIC DCT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 8-speed DCT",
+          "drivetrain": "AWD",
+          "priceInr": 5300000,
+          "mileage": "18.9 kmpl",
+          "wheels": "19-inch alloy",
+          "airbags": null,
+          "extras": [
+            "2.0-litre diesel (400 Nm)",
+            "8-speed DCT",
+            "4MATIC all-wheel drive",
+            "Off-road package with Downhill Speed Regulation"
+          ]
+        },
+        {
+          "trim": "AMG Line",
+          "power": "220d 4MATIC DCT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 8-speed DCT",
+          "drivetrain": "AWD",
+          "priceInr": 5500000,
+          "mileage": "18.9 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2023 Mercedes-Benz GLA 200d AMG Line Premium - 1950cc 2.0 (150PS) Diesel - Grey - 05-2024, Front.jpg",
+          "license": "CC BY 4.0",
+          "artist": "Harvey Bold",
+          "local": "photos/mercedes-gla-front.jpg"
+        },
+        "rear": {
+          "file": "File:2023 Mercedes-Benz GLA 200d AMG Line Premium - 1950cc 2.0 (150PS) Diesel - Grey - 05-2024, Rear.jpg",
+          "license": "CC BY 4.0",
+          "artist": "Harvey Bold",
+          "local": "photos/mercedes-gla-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market H247 GLA photo on Commons. Used a right-hand-drive UK facelifted (2023) GLA 200d AMG Line, which looks the same as the Indian facelift; it is not an Indian-registered car. Re-checked 21 Oct 2026: a full scan of the Commons model categories and India-specific searches found no Indian-market photo of this generation; the closest candidates were a 2024 GLA 220d AMG Line Flickr photo (from a Chilean photographer, not Indian) and Malaysian/Thai facelift photos, rejected as non-Indian. Photos unchanged.",
+      "sources": [
+        "https://www.cardekho.com/mercedes-benz/gla",
+        "https://www.carwale.com/mercedes-benz-cars/gla/",
+        "https://www.carwale.com/mercedes-benz-cars/gla/200/",
+        "https://www.carwale.com/mercedes-benz-cars/gla/220d-4matic/",
+        "https://www.carwale.com/mercedes-benz-cars/gla/220d-amg-line-4matic/",
+        "https://www.autocarindia.com/cars/mercedes-benz/gla/variants"
+      ],
+      "notes": "Facelifted second-generation (H247) GLA, launched in India Jan 2024. Mercedes-benz.co.in could not be reached. CarDekho New Delhi, CarWale and Autocar India agree on prices of Rs 51.80 / 53.00 / 55.00 lakh, which reflect the June 2026 price hike. The AMG GLA 45 is excluded as a separate AMG model. A third-generation GLA (with an EV) was revealed globally on 30 Jul 2026 and is expected in India around 2027. The 'Progressive' trim name comes from Autocar's 'GLA 200 Progressive Line'. Mileage is CarDekho's ARAI figure. The 220d 4MATIC has 19-inch wheels per CarWale (235/45 R19, while the AMG Line is listed as 235/50 R19, an inconsistency). The off-road package on the 220d comes from CarDekho. Airbags are 7 per CarWale and CarDekho; one user review says 6. Fuel tank is 43 L for the petrol and 51 L for the diesel per CarWale, so it is null at car level. Update 21 Oct 2026: Prices re-checked; CarDekho New Delhi and CarWale still agree on Rs 51.80 / 53.00 / 55.00 lakh, so no change. No mileage gaps. Fuel tank stays null at car level (43 L petrol / 51 L diesel per CarWale; CarWale and CarDekho model pages do not list it). Photos unchanged.\nSpec audit 21 Oct 2026: all engine figures confirmed (Autocar India, Smartprix); petrol rpm not confirmed."
+    }
+  ]
+}

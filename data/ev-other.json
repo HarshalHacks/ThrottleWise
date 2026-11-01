@@ -1,0 +1,1763 @@
+{
+  "cars": [
+    {
+      "id": "hyundai-creta-electric",
+      "brand": "Hyundai",
+      "model": "Creta Electric",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p42": {
+          "type": "Permanent-magnet synchronous motor (42 kWh pack)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 133,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 255,
+          "maxTorqueRpm": null
+        },
+        "p51": {
+          "type": "Permanent-magnet synchronous motor (51.4 kWh pack)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 169,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 255,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Executive",
+          "wheels": "17-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Dual 10.25-inch displays",
+            "Dual-zone climate control",
+            "Cruise control"
+          ]
+        },
+        {
+          "trim": "Executive Tech",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Ventilated front seats",
+            "Voice-enabled panoramic sunroof",
+            "Wireless phone charger"
+          ]
+        },
+        {
+          "trim": "Premium",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Bose 8-speaker audio",
+            "10.25-inch navigation",
+            "V2L",
+            "8-way powered driver seat"
+          ]
+        },
+        {
+          "trim": "Excellence",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Level 2 ADAS",
+            "360-degree camera",
+            "Dashcam",
+            "Blind-spot monitor",
+            "8-way powered co-driver seat"
+          ]
+        },
+        {
+          "trim": "Excellence Knight",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Blacked-out styling",
+            "Knight badging"
+          ]
+        },
+        {
+          "trim": "Executive (O) LR",
+          "wheels": null,
+          "airbags": 6,
+          "features": []
+        },
+        {
+          "trim": "Smart (O) LR",
+          "wheels": null,
+          "airbags": 6,
+          "features": []
+        },
+        {
+          "trim": "Excellence LR",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "51.4 kWh battery",
+            "Battery heater",
+            "Digital key"
+          ]
+        },
+        {
+          "trim": "Excellence LR Lounge Edition",
+          "wheels": null,
+          "airbags": 6,
+          "features": []
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Executive",
+          "power": "42 kWh FWD",
+          "engine": "p42",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1803000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 42,
+            "rangeKm": 420,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 50,
+            "dcChargeNote": "10-80% in 39 min (Hyundai page)",
+            "acChargeNote": "7.4 kW: 10-100% in about 6 h"
+          }
+        },
+        {
+          "trim": "Executive Tech",
+          "power": "42 kWh FWD",
+          "engine": "p42",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1900000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 42,
+            "rangeKm": 420,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 50,
+            "dcChargeNote": "10-80% in 39 min (Hyundai page)",
+            "acChargeNote": "7.4 kW: 10-100% in about 6 h"
+          }
+        },
+        {
+          "trim": "Premium",
+          "power": "42 kWh FWD",
+          "engine": "p42",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 2000000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 42,
+            "rangeKm": 420,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 50,
+            "dcChargeNote": "10-80% in 39 min (Hyundai page)",
+            "acChargeNote": "7.4 kW: 10-100% in about 6 h"
+          }
+        },
+        {
+          "trim": "Excellence",
+          "power": "42 kWh FWD",
+          "engine": "p42",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 2130000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 42,
+            "rangeKm": 420,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 50,
+            "dcChargeNote": "10-80% in 39 min (Hyundai page)",
+            "acChargeNote": "7.4 kW: 10-100% in about 6 h"
+          }
+        },
+        {
+          "trim": "Excellence Knight",
+          "power": "42 kWh FWD",
+          "engine": "p42",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 2145000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 42,
+            "rangeKm": 420,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 50,
+            "dcChargeNote": "10-80% in 39 min (Hyundai page)",
+            "acChargeNote": "7.4 kW: 10-100% in about 6 h"
+          }
+        },
+        {
+          "trim": "Executive (O) LR",
+          "power": "51.4 kWh FWD",
+          "engine": "p51",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 2000000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 51.4,
+            "rangeKm": 510,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 50,
+            "dcChargeNote": "10-80% in 39 min (Hyundai page)",
+            "acChargeNote": "7.4 kW: 10-100% in about 7.25 h"
+          }
+        },
+        {
+          "trim": "Smart (O) LR",
+          "power": "51.4 kWh FWD",
+          "engine": "p51",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 2154000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 51.4,
+            "rangeKm": 510,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 50,
+            "dcChargeNote": "10-80% in 39 min (Hyundai page)",
+            "acChargeNote": "7.4 kW: 10-100% in about 7.25 h"
+          }
+        },
+        {
+          "trim": "Excellence LR",
+          "power": "51.4 kWh FWD",
+          "engine": "p51",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 2367000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 51.4,
+            "rangeKm": 510,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 50,
+            "dcChargeNote": "10-80% in 39 min (Hyundai page)",
+            "acChargeNote": "7.4 kW: 10-100% in about 7.25 h"
+          }
+        },
+        {
+          "trim": "Excellence LR Lounge Edition",
+          "power": "51.4 kWh FWD",
+          "engine": "p51",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 2434000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 51.4,
+            "rangeKm": 510,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 50,
+            "dcChargeNote": "10-80% in 39 min (Hyundai page)",
+            "acChargeNote": "7.4 kW: 10-100% in about 7.25 h"
+          }
+        }
+      ],
+      "photos": {
+        "front": null,
+        "rear": null
+      },
+      "photoNotes": "Photo search not completed in this pass.",
+      "sources": [
+        "https://www.cardekho.com/hyundai/creta-electric",
+        "https://www.carwale.com/hyundai-cars/creta-electric/",
+        "https://www.autocarindia.com/cars/hyundai/creta-electric/variants",
+        "https://www.hyundai.com/in/en/find-a-car/creta-electric/highlights"
+      ],
+      "notes": "Partial variant list: 9 of about 29 variants on the CarDekho price table are entered (one per trim and pack); the Excellence LR/HC/DT/Knight combinations are not yet entered. Prices conflict: CarDekho gives Executive Rs 18.03 lakh and Excellence LR Rs 23.67 lakh, Autocar gives Rs 19.12 lakh and Rs 25.22 lakh (Excellence LR); CarDekho price used. Torque: Hyundai page 255 Nm, CarDekho expert review 200 Nm; 255 Nm used. Range: 420 / 510 km per CarDekho spec tables; Hyundai page gives MIDC 390 / 473 km, so the standard is labelled claimed. Motor power per pack from CarDekho table (133 bhp for 42 kWh, 169 bhp for 51.4 kWh). DC time 39 min per Hyundai page; another source gives 58 min at 50 kW. Airbags 6 per CarDekho. Wheels and seats per trim not confirmed."
+    },
+    {
+      "id": "mg-windsor-ev",
+      "brand": "MG",
+      "model": "Windsor EV",
+      "bodyType": "MPV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "motor134": {
+          "type": "Single electric motor",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 134,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 200,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Excite",
+          "wheels": "17-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "ESP",
+            "Hill hold",
+            "LED projector headlamps",
+            "10.1-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Cruise control"
+          ]
+        },
+        {
+          "trim": "Exclusive",
+          "wheels": "18-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Leather seats",
+            "15.6-inch GrandView touchscreen",
+            "8.8-inch driver display",
+            "360-degree camera",
+            "Powered tailgate",
+            "6-way powered driver seat"
+          ]
+        },
+        {
+          "trim": "Essence",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Infinity View glass roof",
+            "Ventilated front seats",
+            "9-speaker audio",
+            "V2L"
+          ]
+        },
+        {
+          "trim": "Indulge",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Roof-mounted rear entertainment screen"
+          ]
+        },
+        {
+          "trim": "Exclusive Pro",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "52.9 kWh long-range battery"
+          ]
+        },
+        {
+          "trim": "Essence Pro",
+          "wheels": "18-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Level 2 ADAS",
+            "V2V",
+            "V2L",
+            "Powered tailgate",
+            "Ambient lighting"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Excite",
+          "power": "38 kWh",
+          "engine": "motor134",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1485000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 38,
+            "rangeKm": 332,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 45,
+            "dcChargeNote": "20-80% in 45 min",
+            "acChargeNote": "3.3 kW (13.5 h) or 7.4 kW (7 h), 10-100%"
+          }
+        },
+        {
+          "trim": "Exclusive",
+          "power": "38 kWh",
+          "engine": "motor134",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1615000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 38,
+            "rangeKm": 332,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 45,
+            "dcChargeNote": "20-80% in 45 min",
+            "acChargeNote": "3.3 kW or 7.4 kW"
+          }
+        },
+        {
+          "trim": "Essence",
+          "power": "38 kWh",
+          "engine": "motor134",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1715000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 38,
+            "rangeKm": 332,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 45,
+            "dcChargeNote": "20-80% in 45 min",
+            "acChargeNote": "3.3 kW or 7.4 kW"
+          }
+        },
+        {
+          "trim": "Indulge",
+          "power": "38 kWh",
+          "engine": "motor134",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1789000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 38,
+            "rangeKm": 332,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 45,
+            "dcChargeNote": "20-80% in 45 min",
+            "acChargeNote": "3.3 kW or 7.4 kW"
+          }
+        },
+        {
+          "trim": "Exclusive Pro",
+          "power": "52.9 kWh",
+          "engine": "motor134",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1805000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 52.9,
+            "rangeKm": 449,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 60,
+            "dcChargeNote": "20-80% in 50 min",
+            "acChargeNote": "7.4 kW: 10-100% in 9.5 h"
+          }
+        },
+        {
+          "trim": "Essence Pro",
+          "power": "52.9 kWh",
+          "engine": "motor134",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1915000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 52.9,
+            "rangeKm": 449,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 60,
+            "dcChargeNote": "20-80% in 50 min",
+            "acChargeNote": "7.4 kW: 10-100% in 9.5 h"
+          }
+        }
+      ],
+      "photos": {
+        "front": null,
+        "rear": null
+      },
+      "photoNotes": "Photo search not completed in this pass.",
+      "sources": [
+        "https://www.cardekho.com/mg/windsor-ev"
+      ],
+      "notes": "Single source (CarDekho) for the variant table; Autocar variant page not readable. Pro range: spec tables 449 km, Pro section 415 km MIDC; 449 km used. Essence Pro wheels conflict (18-inch vs 16-inch dual-tone); Exclusive Pro wheels not stated. Feature lists are summaries from the price section and may be incomplete. Battery rental (BaaS) pricing not given. Seats 5 per CarDekho."
+    },
+    {
+      "id": "mg-comet-ev",
+      "brand": "MG",
+      "model": "Comet EV",
+      "bodyType": "Hatchback",
+      "seats": 4,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "motor42": {
+          "type": "Single electric motor (rear-wheel drive)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 42,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 110,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Executive",
+          "wheels": "12-inch steel with covers",
+          "airbags": 2,
+          "features": [
+            "Halogen lights",
+            "Fabric seats",
+            "7-inch driver display",
+            "Manual AC",
+            "Keyless entry",
+            "Rear parking sensors"
+          ]
+        },
+        {
+          "trim": "Excite",
+          "wheels": null,
+          "airbags": null,
+          "features": [
+            "Full LED lighting",
+            "10.25-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Reverse camera",
+            "10.25-inch driver display"
+          ]
+        },
+        {
+          "trim": "Exclusive",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Leatherette seats",
+            "ESC",
+            "Hill hold assist",
+            "Electronic parking brake",
+            "Digital key sharing",
+            "Tilt steering"
+          ]
+        },
+        {
+          "trim": "Blackstorm Edition",
+          "wheels": null,
+          "airbags": null,
+          "features": [
+            "All-black exterior with red inserts",
+            "Black leatherette seats with red stitching"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Executive",
+          "power": "17.3 kWh",
+          "engine": "motor42",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 790000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": 2,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 17.3,
+            "rangeKm": 230,
+            "rangeStandard": "claimed",
+            "dcChargeKw": null,
+            "dcChargeNote": "No DC fast charging",
+            "acChargeNote": "3.3 kW: about 7 h, 0-100%"
+          }
+        },
+        {
+          "trim": "Excite",
+          "power": "17.3 kWh",
+          "engine": "motor42",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 900000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 17.3,
+            "rangeKm": 230,
+            "rangeStandard": "claimed",
+            "dcChargeKw": null,
+            "dcChargeNote": "No DC fast charging",
+            "acChargeNote": "3.3 kW: about 7 h, 0-100%"
+          }
+        },
+        {
+          "trim": "Excite",
+          "power": "17.4 kWh FC",
+          "engine": "motor42",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 927000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 17.4,
+            "rangeKm": 230,
+            "rangeStandard": "claimed",
+            "dcChargeKw": null,
+            "dcChargeNote": "No DC fast charging",
+            "acChargeNote": "7.4 kW: about 3.5 h, 0-100%"
+          }
+        },
+        {
+          "trim": "Exclusive",
+          "power": "17.3 kWh",
+          "engine": "motor42",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 990000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": 6,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 17.3,
+            "rangeKm": 230,
+            "rangeStandard": "claimed",
+            "dcChargeKw": null,
+            "dcChargeNote": "No DC fast charging",
+            "acChargeNote": "3.3 kW: about 7 h, 0-100%"
+          }
+        },
+        {
+          "trim": "Exclusive",
+          "power": "17.4 kWh FC",
+          "engine": "motor42",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 1017000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 17.4,
+            "rangeKm": 230,
+            "rangeStandard": "claimed",
+            "dcChargeKw": null,
+            "dcChargeNote": "No DC fast charging",
+            "acChargeNote": "7.4 kW: about 3.5 h, 0-100%"
+          }
+        },
+        {
+          "trim": "Blackstorm Edition",
+          "power": "17.4 kWh",
+          "engine": "motor42",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 1000000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 17.4,
+            "rangeKm": 230,
+            "rangeStandard": "claimed",
+            "dcChargeKw": null,
+            "dcChargeNote": "No DC fast charging",
+            "acChargeNote": "Not stated for this edition"
+          }
+        }
+      ],
+      "photos": {
+        "front": null,
+        "rear": {
+          "file": "File:MG Comet EV Rear view.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Saiphani02",
+          "local": "photos/mg-comet-ev-rear.jpg"
+        }
+      },
+      "photoNotes": "Photo search not completed in this pass.",
+      "sources": [
+        "https://www.cardekho.com/mg/comet-ev"
+      ],
+      "notes": "Single source (CarDekho). Conflicts: the price summary lists Excite FC Rs 10.17 lakh and Blackstorm Rs 10 lakh, the variant table lists Excite FC Rs 9.27 lakh and Exclusive FC Rs 10.17 lakh; the variant table is used. Power 42 bhp vs 41.42 bhp on some trims; 42 bhp used. Range 230 km claimed (one section mentions up to 250 km). Trim-level airbags and wheels are only partly stated, so the Excite and Exclusive trims were given the variant-table figures where stated and null otherwise. Duplicate trim names carry different battery packs, so each variant is labelled by battery."
+    },
+    {
+      "id": "mg-zs-ev",
+      "brand": "MG",
+      "model": "ZS EV",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "motor177": {
+          "type": "Single electric motor",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 174,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 280,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Executive",
+          "wheels": "17-inch alloy",
+          "airbags": 6,
+          "features": [
+            "10.1-inch touchscreen",
+            "Cruise control",
+            "Auto AC",
+            "Push-button start",
+            "Keyless entry",
+            "ESP",
+            "Projector headlamps"
+          ]
+        },
+        {
+          "trim": "Excite Pro",
+          "wheels": "17-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "Leather seats",
+            "Smart key push start",
+            "Auto headlamps",
+            "Six-speaker system",
+            "Wireless Android Auto and Apple CarPlay"
+          ]
+        },
+        {
+          "trim": "100 Year Limited Edition",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Dual-tone British Green exterior",
+            "All-black interior",
+            "100-Year Edition badging"
+          ]
+        },
+        {
+          "trim": "Exclusive Plus",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "6-way powered driver seat",
+            "Wireless charger",
+            "360-degree camera",
+            "Heated ORVMs",
+            "Auto-folding ORVMs",
+            "7.4 kW AC charger"
+          ]
+        },
+        {
+          "trim": "Essence",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Level 2 ADAS",
+            "Adaptive cruise with bend assist",
+            "Blind-spot monitoring"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Executive",
+          "power": "50.3 kWh",
+          "engine": "motor177",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 1799000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 50.3,
+            "rangeKm": 461,
+            "rangeStandard": "claimed",
+            "dcChargeKw": null,
+            "dcChargeNote": "Conflicting: 50 kW 0-80% in about 60 min, or 76 kW 10-80% in about 50 min",
+            "acChargeNote": "7.4 kW: 0-100% in up to 9 h"
+          }
+        },
+        {
+          "trim": "Excite Pro",
+          "power": "50.3 kWh",
+          "engine": "motor177",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 1875000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 50.3,
+            "rangeKm": 461,
+            "rangeStandard": "claimed",
+            "dcChargeKw": null,
+            "dcChargeNote": "Conflicting: 50 kW 0-80% in about 60 min, or 76 kW 10-80% in about 50 min",
+            "acChargeNote": "7.4 kW: 0-100% in up to 9 h"
+          }
+        },
+        {
+          "trim": "100 Year Limited Edition",
+          "power": "50.3 kWh",
+          "engine": "motor177",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 1975000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 50.3,
+            "rangeKm": 461,
+            "rangeStandard": "claimed",
+            "dcChargeKw": null,
+            "dcChargeNote": "Conflicting: 50 kW 0-80% in about 60 min, or 76 kW 10-80% in about 50 min",
+            "acChargeNote": "7.4 kW: 0-100% in up to 9 h"
+          }
+        },
+        {
+          "trim": "Exclusive Plus",
+          "power": "50.3 kWh",
+          "engine": "motor177",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2000000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 50.3,
+            "rangeKm": 461,
+            "rangeStandard": "claimed",
+            "dcChargeKw": null,
+            "dcChargeNote": "Conflicting: 50 kW 0-80% in about 60 min, or 76 kW 10-80% in about 50 min",
+            "acChargeNote": "7.4 kW: 0-100% in up to 9 h"
+          }
+        },
+        {
+          "trim": "Essence",
+          "power": "50.3 kWh",
+          "engine": "motor177",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2075000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 50.3,
+            "rangeKm": 461,
+            "rangeStandard": "claimed",
+            "dcChargeKw": null,
+            "dcChargeNote": "Conflicting: 50 kW 0-80% in about 60 min, or 76 kW 10-80% in about 50 min",
+            "acChargeNote": "7.4 kW: 0-100% in up to 9 h"
+          }
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:MG ZS EV Facelift 1X7A5867.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Alexander Migl",
+          "note": "three-quarter view",
+          "local": "photos/mg-zs-ev-front.jpg"
+        },
+        "rear": {
+          "file": "File:MG ZS facelift rear 001.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Jengtingchen",
+          "note": "three-quarter view",
+          "local": "photos/mg-zs-ev-rear.jpg"
+        }
+      },
+      "photoNotes": "Photo search not completed in this pass.",
+      "sources": [
+        "https://www.cardekho.com/mg/zs-ev"
+      ],
+      "notes": "Single source (CarDekho). Partial list: the page names 7 variants including DT versions (Exclusive Plus DT, Essence DT), which are not entered because their feature details are not given; 5 are entered. Motor 174.33 bhp per the page (also 177 PS); 174 bhp used. Torque 280 Nm. The page does not say the car is discontinued. Battery rental (BaaS) option from Rs 13.00 lakh plus Rs 4.5 per km is stated for Executive. DC charging figures conflict (see dcChargeNote)."
+    },
+    {
+      "id": "byd-atto-3",
+      "brand": "BYD",
+      "model": "Atto 3",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "rwd150": {
+          "type": "Single rear motor (150 kW)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 201,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 310,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Dynamic",
+          "wheels": null,
+          "airbags": 9,
+          "features": [
+            "12.8-inch rotating touchscreen",
+            "Panoramic sunroof",
+            "Electric tailgate",
+            "V2L",
+            "6 speakers"
+          ]
+        },
+        {
+          "trim": "Premium",
+          "wheels": null,
+          "airbags": 9,
+          "features": [
+            "Full ADAS suite",
+            "360-degree view monitor",
+            "Ventilated front seats",
+            "Dirac HD 8-speaker audio",
+            "Wireless charger",
+            "Electrically retractable mirrors"
+          ]
+        },
+        {
+          "trim": "Superior",
+          "wheels": null,
+          "airbags": 9,
+          "features": [
+            "NFC card key",
+            "One-touch tailgate",
+            "Music-rhythm ambient lighting on door handles"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Dynamic",
+          "power": "49.92 kWh",
+          "engine": "rwd150",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2499000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 49.92,
+            "rangeKm": 468,
+            "rangeStandard": "ARAI",
+            "dcChargeKw": 80,
+            "dcChargeNote": "10-80% in about 50 min at 80 kW",
+            "acChargeNote": "7.2 kW: about 8 h"
+          }
+        },
+        {
+          "trim": "Premium",
+          "power": "60.48 kWh",
+          "engine": "rwd150",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 3035000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 60.48,
+            "rangeKm": 521,
+            "rangeStandard": "ARAI",
+            "dcChargeKw": 80,
+            "dcChargeNote": "10-80% in about 50 min at 80 kW",
+            "acChargeNote": "7.2 kW: about 8 h"
+          }
+        },
+        {
+          "trim": "Superior",
+          "power": "60.48 kWh",
+          "engine": "rwd150",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 3449000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 60.48,
+            "rangeKm": 521,
+            "rangeStandard": "ARAI",
+            "dcChargeKw": 80,
+            "dcChargeNote": "10-80% in about 50 min at 80 kW",
+            "acChargeNote": "7.2 kW: about 8 h"
+          }
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:BYD Atto 3 1X7A6495.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Alexander Migl",
+          "note": "three-quarter view",
+          "local": "photos/byd-atto-3-front.jpg"
+        },
+        "rear": {
+          "file": "File:SIN BYD ATTO 3 SNM3223U rear @ The Car Show 2023 2023-10-14.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "S5A-0043",
+          "note": "three-quarter view",
+          "local": "photos/byd-atto-3-rear.jpg"
+        }
+      },
+      "photoNotes": "Photo search not completed in this pass.",
+      "sources": [
+        "https://www.cardekho.com/byd/atto-3"
+      ],
+      "notes": "Single source (CarDekho) for the three variants. The page calls these motor figures 201 bhp (150 kW) and 310 Nm, same for all trims. AC time: 8 h in specs, 9.5-10 h on a household socket per review. Wheels per trim not stated."
+    },
+    {
+      "id": "byd-seal",
+      "brand": "BYD",
+      "model": "Seal",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "rwd150": {
+          "type": "Single rear motor (150 kW)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 201,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 310,
+          "maxTorqueRpm": null
+        },
+        "rwd230": {
+          "type": "Single rear motor (230 kW)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 308,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 360,
+          "maxTorqueRpm": null
+        },
+        "awd390": {
+          "type": "Dual motor AWD (390 kW total)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 523,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 670,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Dynamic",
+          "wheels": null,
+          "airbags": 9,
+          "features": [
+            "Rotating 15.6-inch touchscreen",
+            "DYNAUDIO 12-speaker audio",
+            "Head-up display",
+            "360-degree camera",
+            "Heated and ventilated front seats",
+            "Dual wireless chargers",
+            "NFC key"
+          ]
+        },
+        {
+          "trim": "Premium",
+          "wheels": null,
+          "airbags": 9,
+          "features": []
+        },
+        {
+          "trim": "Performance",
+          "wheels": null,
+          "airbags": 9,
+          "features": []
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Dynamic",
+          "power": "61.44 kWh RWD",
+          "engine": "rwd150",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 4150000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 61.44,
+            "rangeKm": 510,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 110,
+            "dcChargeNote": "Up to 110 kW; 0-80% in about 45 min (listed)",
+            "acChargeNote": "7 kW: 0-100% in 12-16 h"
+          }
+        },
+        {
+          "trim": "Premium",
+          "power": "82.56 kWh RWD",
+          "engine": "rwd230",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 4620000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 82.56,
+            "rangeKm": 650,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 150,
+            "dcChargeNote": "Up to 150 kW; 0-80% in about 45 min (listed)",
+            "acChargeNote": "7 kW: 0-100% in 12-16 h"
+          }
+        },
+        {
+          "trim": "Performance",
+          "power": "82.56 kWh AWD",
+          "engine": "awd390",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "AWD",
+          "priceInr": 5365000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 82.56,
+            "rangeKm": 580,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 150,
+            "dcChargeNote": "Up to 150 kW; 0-80% in about 45 min (listed)",
+            "acChargeNote": "7 kW: 0-100% in 12-16 h"
+          }
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2024 BYD Seal Performance AWD in Aurora White 01.jpg",
+          "license": "CC0",
+          "artist": "MoCars",
+          "note": "three-quarter view",
+          "local": "photos/byd-seal-front.jpg"
+        },
+        "rear": {
+          "file": "File:2024 BYD Seal Performance AWD in Aurora White 02.jpg",
+          "license": "CC0",
+          "artist": "MoCars",
+          "note": "three-quarter view",
+          "local": "photos/byd-seal-rear.jpg"
+        }
+      },
+      "photoNotes": "Photo search not completed in this pass.",
+      "sources": [
+        "https://www.cardekho.com/byd/seal"
+      ],
+      "notes": "Single source (CarDekho). Range standard: the page's table says ARAI but variant text cites NEDC for 510 and 650 km, so labelled claimed. Shared features listed on the Dynamic trim only as per the page's shared-feature list. Wheels not stated per variant (19-inch mentioned in a review, unattributed)."
+    },
+    {
+      "id": "byd-emax-7",
+      "brand": "BYD",
+      "model": "eMAX 7",
+      "bodyType": "MPV",
+      "seats": 6,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "motor120": {
+          "type": "Single electric motor (120 kW)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 161,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 310,
+          "maxTorqueRpm": null
+        },
+        "motor150": {
+          "type": "Single electric motor (150 kW)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 201,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 310,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Premium",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "12.8-inch rotating touchscreen",
+            "360-degree view monitor",
+            "V2L",
+            "Wireless charging",
+            "NFC card key",
+            "Upper AC vents for third row",
+            "LED lighting"
+          ]
+        },
+        {
+          "trim": "Comfort",
+          "wheels": null,
+          "airbags": 6,
+          "features": []
+        },
+        {
+          "trim": "Superior",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Full ADAS suite",
+            "Ventilated front seats",
+            "Panoramic glass roof with electric sunshade",
+            "Remote tailgate",
+            "115 kW DC charging"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Premium",
+          "power": "55.4 kWh 6-seat",
+          "engine": "motor120",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2690000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 55.4,
+            "rangeKm": 420,
+            "rangeStandard": "claimed",
+            "dcChargeKw": null,
+            "dcChargeNote": "Not stated for this trim",
+            "acChargeNote": "7 kW home charger mentioned, time not stated"
+          }
+        },
+        {
+          "trim": "Premium",
+          "power": "55.4 kWh 7-seat",
+          "engine": "motor120",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2750000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 55.4,
+            "rangeKm": 420,
+            "rangeStandard": "claimed",
+            "dcChargeKw": null,
+            "dcChargeNote": "Not stated for this trim",
+            "acChargeNote": "7 kW home charger mentioned, time not stated"
+          }
+        },
+        {
+          "trim": "Comfort",
+          "power": "71.8 kWh 6-seat",
+          "engine": "motor120",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2790000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 71.8,
+            "rangeKm": 485,
+            "rangeStandard": "claimed",
+            "dcChargeKw": null,
+            "dcChargeNote": "Not stated for this trim",
+            "acChargeNote": "7 kW home charger mentioned, time not stated"
+          }
+        },
+        {
+          "trim": "Comfort",
+          "power": "71.8 kWh 7-seat",
+          "engine": "motor120",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2830000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 71.8,
+            "rangeKm": 420,
+            "rangeStandard": "claimed",
+            "dcChargeKw": null,
+            "dcChargeNote": "Not stated for this trim",
+            "acChargeNote": "7 kW home charger mentioned, time not stated"
+          }
+        },
+        {
+          "trim": "Superior",
+          "power": "71.8 kWh 6-seat",
+          "engine": "motor150",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2930000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 71.8,
+            "rangeKm": 530,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 115,
+            "dcChargeNote": "115 kW DC; 0-80% in 37 min (not tied to trim)",
+            "acChargeNote": "7 kW home charger mentioned, time not stated"
+          }
+        },
+        {
+          "trim": "Superior",
+          "power": "71.8 kWh 7-seat",
+          "engine": "motor150",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2990000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 71.8,
+            "rangeKm": 530,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 115,
+            "dcChargeNote": "115 kW DC; 0-80% in 37 min (not tied to trim)",
+            "acChargeNote": "7 kW home charger mentioned, time not stated"
+          }
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:BYD eMAX 7 Superior Captain Crystal White.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Ethan Llamas",
+          "note": "three-quarter view",
+          "local": "photos/byd-emax-7-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Photo search not completed in this pass.",
+      "sources": [
+        "https://www.cardekho.com/byd/emax-7"
+      ],
+      "notes": "Single source (CarDekho). Power conflicts (161/201 bhp vs 163/204 PS in one table); 161 and 201 bhp used. Comfort motor not stated; 161 bhp from the variant table used. Comfort 7-seat range 420 km vs Comfort 6-seat 485 km on the same battery, as published. Superior panoramic roof conflicts with an expert review (fixed glass roof). Airbags 6 on all variants. Standard labelled claimed (page text says NEDC, ARAI label elsewhere)."
+    },
+    {
+      "id": "kia-ev6",
+      "brand": "Kia",
+      "model": "EV6",
+      "bodyType": "Crossover",
+      "seats": null,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "dualmotor": {
+          "type": "Dual electric motors (AWD)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 321,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 605,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "GT Line",
+          "wheels": "19-inch dual-tone alloy",
+          "airbags": 8,
+          "features": [
+            "10-way powered front seats with heating, ventilation and zero-gravity mode",
+            "Meridian 14-speaker audio",
+            "Dual 12.3-inch displays",
+            "Panoramic sunroof",
+            "Augmented-reality head-up display",
+            "V2L (3.6 kW)",
+            "Level 2 ADAS with adaptive cruise",
+            "360-degree camera"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "GT Line",
+          "power": "84 kWh AWD",
+          "engine": "dualmotor",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "AWD",
+          "priceInr": 6598000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 84,
+            "rangeKm": 663,
+            "rangeStandard": "claimed",
+            "dcChargeKw": null,
+            "dcChargeNote": "Conflicting: 350 kW 10-80% in 18 min, or 200 kW 10-80% in 20 min",
+            "acChargeNote": "11 kW"
+          }
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Kia EV6 Auto Zuerich 2021 IMG 0606.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Alexander Migl",
+          "note": "three-quarter view",
+          "local": "photos/kia-ev6-front.jpg"
+        },
+        "rear": {
+          "file": "File:Kia EV6 004.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "JustAnotherCarDesigner",
+          "note": "three-quarter view",
+          "local": "photos/kia-ev6-rear.jpg"
+        }
+      },
+      "photoNotes": "Photo search not completed in this pass.",
+      "sources": [
+        "https://www.cardekho.com/kia/ev6"
+      ],
+      "notes": "Single source (CarDekho). The page lists only the GT Line and does not say it is discontinued. Range 663 km stated as ARAI-claimed (WLTP not stated), labelled claimed. Power 321 bhp (325 PS in the performance table). Boot 520 L vs 490 L in an expert review. Seats not stated."
+    },
+    {
+      "id": "kia-ev9",
+      "brand": "Kia",
+      "model": "EV9",
+      "bodyType": "SUV",
+      "seats": null,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "dualmotor": {
+          "type": "Dual electric motors, one per axle (AWD)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 379,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 700,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "GT Line",
+          "wheels": "20-inch aero alloy",
+          "airbags": 10,
+          "features": [
+            "Dual 12.3-inch screens",
+            "14-speaker Meridian audio",
+            "Head-up display",
+            "Dual sunroofs",
+            "Ventilated and heated front seats",
+            "Heated, ventilated and massaging second-row seats",
+            "V2L",
+            "Powered tailgate"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "GT Line",
+          "power": "99.8 kWh AWD",
+          "engine": "dualmotor",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "AWD",
+          "priceInr": 13000000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 99.8,
+            "rangeKm": 561,
+            "rangeStandard": "claimed",
+            "dcChargeKw": 350,
+            "dcChargeNote": "10-80% in about 24 min (spec table); variant section says 21 min at 270 kW",
+            "acChargeNote": "11 kW home wallbox: about 9-10 h"
+          }
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2023 Kia EV9 front view.png",
+          "license": "CC BY 3.0",
+          "artist": "Car and Driver España",
+          "note": "three-quarter view",
+          "local": "photos/kia-ev9-front.jpg"
+        },
+        "rear": {
+          "file": "File:2023 Kia EV9 rear view 01.png",
+          "license": "CC BY 3.0",
+          "artist": "Car and Driver España",
+          "note": "three-quarter view",
+          "local": "photos/kia-ev9-rear.jpg"
+        }
+      },
+      "photoNotes": "Photo search not completed in this pass.",
+      "sources": [
+        "https://www.cardekho.com/kia/ev9"
+      ],
+      "notes": "Single source (CarDekho). Sold as a CBU import; the only variant is GT Line, which the page lists as on sale. Price Rs 1.30 crore ex-showroom (on-road figures vary Rs 1.36-1.38 crore by source). Seats conflict: three rows in the spec section, 6 seats in FAQ, so seats set to null. Airbags 10 (spec table) vs 8 (variant section); 10 used. Range 561 km ARAI-claimed. Motor power 379 bhp (spec table) vs 384 PS (review)."
+    },
+    {
+      "id": "citroen-ec3",
+      "brand": "Citroën",
+      "model": "eC3",
+      "bodyType": "Hatchback",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "motor42": {
+          "type": "Single electric motor (42 kW)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 56.3,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 143,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Live",
+          "wheels": "15-inch diamond-cut alloy",
+          "airbags": 4,
+          "features": [
+            "10.25-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Electric auto-folding ORVMs",
+            "Wireless phone charger"
+          ]
+        },
+        {
+          "trim": "Live (O)",
+          "wheels": null,
+          "airbags": null,
+          "features": []
+        },
+        {
+          "trim": "Shine",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "ISOFIX mounts",
+            "Reverse parking camera",
+            "Auto-dimming IRVM"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Live",
+          "power": "29.2 kWh",
+          "engine": "motor42",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1209000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 29.2,
+            "rangeKm": 330,
+            "rangeStandard": "ARAI",
+            "dcChargeKw": null,
+            "dcChargeNote": "10-80% in 57 min; DC charger kW not stated",
+            "acChargeNote": "Not stated"
+          }
+        },
+        {
+          "trim": "Live (O)",
+          "power": "29.2 kWh",
+          "engine": "motor42",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1245000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 29.2,
+            "rangeKm": 330,
+            "rangeStandard": "ARAI",
+            "dcChargeKw": null,
+            "dcChargeNote": "10-80% in 57 min; DC charger kW not stated",
+            "acChargeNote": "Not stated"
+          }
+        },
+        {
+          "trim": "Shine",
+          "power": "29.2 kWh",
+          "engine": "motor42",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1336000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 29.2,
+            "rangeKm": 330,
+            "rangeStandard": "ARAI",
+            "dcChargeKw": null,
+            "dcChargeNote": "10-80% in 57 min; DC charger kW not stated",
+            "acChargeNote": "Not stated"
+          }
+        }
+      ],
+      "photos": {
+        "front": null,
+        "rear": null
+      },
+      "photoNotes": "Photo search not completed in this pass.",
+      "sources": [
+        "https://www.cardekho.com/citroen/ec3"
+      ],
+      "notes": "Single source (CarDekho) plus expert review. Power 56.22 bhp (spec table) vs 57 PS / 42 kW; 56.3 bhp used. Range 330 km ARAI (review cites 325 km MIDC). Airbags 4 (Live) and 6 (Shine) per expert review; Live (O) airbags not confirmed, so null. Feel trim is discontinued per review; Live (O) used as the current variant. The page's price text still refers to Feel/Shine DT, so verify with a dealer."
+    }
+  ]
+}

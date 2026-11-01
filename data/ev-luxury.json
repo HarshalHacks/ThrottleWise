@@ -1,0 +1,425 @@
+{
+  "cars": [
+    {
+      "id": "bmw-ix1",
+      "brand": "BMW",
+      "model": "iX1 LWB",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "edrive20l": {
+          "type": "Single front electric motor (eDrive20L)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 204,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 250,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "eDrive20L M Sport",
+          "wheels": "18-inch aero alloy",
+          "airbags": 8,
+          "features": [
+            "Panoramic glass sunroof",
+            "Curved display with iDrive 9 (10.25-inch cluster + 10.7-inch touchscreen)",
+            "Wireless Android Auto and Apple CarPlay",
+            "Electric front seats with memory",
+            "Dual-zone climate control",
+            "Reclining rear bench",
+            "Parking assistant with rear camera",
+            "11 kW home wallbox included"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "eDrive20L M Sport",
+          "power": "eDrive20L FWD",
+          "engine": "edrive20l",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 5470000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 66.4,
+            "rangeKm": 531,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 130,
+            "dcChargeNote": "10-80% in about 30 min at 130 kW",
+            "acChargeNote": "11 kW: 0-100% in about 6.5 h"
+          }
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2025 BMW iX1 eDrive 20 L M Sport.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Chanokchon",
+          "note": "Thailand model, same design",
+          "local": "photos/bmw-ix1-front.jpg"
+        },
+        "rear": {
+          "file": "File:BMW iX1 xDrive30 M Sport (ZAA-62EF67) rear.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Tokumeigakarinoaoshima",
+          "note": "Japan standard-wheelbase model, same rear design",
+          "local": "photos/bmw-ix1-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market photo on Commons. Front is the long-wheelbase eDrive20 L M Sport (Thailand, same car as India) in a showroom, near straight-on. No LWB rear photo exists; rear is a Japanese standard-wheelbase iX1 M Sport at a show (rear three-quarter, busy background). Rejected 'File:2023-12 BMW iX1 charging rear.jpg' (straight rear but charging cable attached).",
+      "sources": [
+        "https://www.cardekho.com/bmw/ix1",
+        "https://www.autocarindia.com/cars/bmw/ix1-lwb/edrive20l",
+        "https://www.autocarindia.com/cars/bmw/ix1-lwb/variants"
+      ],
+      "notes": "India gets only the long-wheelbase iX1 (eDrive20L M Sport), locally assembled; the standard-wheelbase iX1 xDrive30 was discontinued. Price conflict: CarDekho New Delhi lists Rs 54.70 lakh (Oct 2026) and Autocar India's variant page Rs 54.70 lakh (updated 28 Oct 2026), but Autocar's city pages and CarTrade still show Rs 51.40 lakh and the Jan 2025 launch price was Rs 49 lakh. BMW India's site could not be loaded. Power is quoted as 204 hp/PS by all sources (no kW figure found), so 204 is entered as-is. DC charge time: CarDekho 30 min, Autocar 32 min. Airbags: 8 per spec tables (one CarDekho summary says 6). Range 531 km is the MIDC figure per CarDekho; Autocar does not name the standard."
+    },
+    {
+      "id": "bmw-ix",
+      "brand": "BMW",
+      "model": "iX",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "xdrive50": {
+          "type": "Dual electric motors, one per axle (xDrive50)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 516,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 765,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "xDrive50",
+          "wheels": "22-inch aero alloy",
+          "airbags": 8,
+          "features": [
+            "Adaptive two-axle air suspension",
+            "Panoramic glass roof",
+            "Curved display with 14.9-inch touchscreen",
+            "Head-up display",
+            "18-speaker audio",
+            "360-degree camera",
+            "Heated front seats",
+            "Lane keep assist and blind-spot monitor"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "xDrive50",
+          "power": "xDrive50 AWD",
+          "engine": "xdrive50",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "AWD",
+          "priceInr": 14000000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 111.5,
+            "rangeKm": 635,
+            "rangeStandard": "WLTP",
+            "dcChargeKw": 195,
+            "dcChargeNote": "10-80% in about 35 min at 195 kW",
+            "acChargeNote": "22 kW: 0-100% in about 5.5 h; 11 kW: about 11 h"
+          }
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2021 BMW IX xDrive 50 M Sport.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Calreyn88",
+          "note": "UK model, same design",
+          "local": "photos/bmw-ix-front.jpg"
+        },
+        "rear": {
+          "file": "File:BMW iX xDrive50i SIGNATURE (i20) rear.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Tokumeigakarinoaoshima",
+          "note": "Japan model, same design",
+          "local": "photos/bmw-ix-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market photo on Commons. India sells the pre-facelift (i20) xDrive50, so pre-2025 photos were chosen. Front is a UK-registered xDrive50 M Sport at a dealer, near straight-on. Rear is a Japanese xDrive50 at an outdoor display (rear three-quarter, people in background). Rejected 'File:2022 BMW iX front.jpg' (side-on, flowers in foreground) and 'File:2021 BMW iX xDrive 50 Sport.jpg' (motor show crowd).",
+      "sources": [
+        "https://www.cardekho.com/bmw/ix",
+        "https://www.carwale.com/bmw-cars/ix/",
+        "https://www.autocarindia.com/car-news/523hp-bmw-ix-xdrive50-launched-at-rs-140-crore-431045"
+      ],
+      "notes": "Single variant, xDrive50 (replaced the xDrive40 in March 2024). Power 523 PS = 516 bhp per CarDekho; 765 Nm. Battery 111.5 kWh gross (105.2 kWh net). Range conflict: Autocar and CarDekho text give 635 km WLTP; CarDekho's spec box shows 575 km and CarWale labels 635 km as ARAI. WLTP figure used. Price Rs 1.40 crore on CarDekho and CarWale (launch price Rs 1,39,50,000). BMW India's site could not be loaded. CarDekho labels the listing 'iX (Facelift)' but the variant and specs are the pre-facelift xDrive50; no xDrive60 is listed for India."
+    },
+    {
+      "id": "mercedes-eqs",
+      "brand": "Mercedes-Benz",
+      "model": "EQS",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "eqs580": {
+          "type": "Two permanently excited synchronous motors (EQS 580 4MATIC)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 536,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 858,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "580 4MATIC Celebration Edition",
+          "wheels": null,
+          "airbags": 9,
+          "features": [
+            "56-inch MBUX Hyperscreen",
+            "Executive rear seats reclining to 38 degrees with massage",
+            "Chauffeur package with tilting front passenger seat",
+            "Full Nappa leather upholstery",
+            "AIRMATIC air suspension with rear-axle steering",
+            "Burmester 3D surround sound",
+            "Head-up display with augmented-reality navigation",
+            "Ventilated and heated front and rear seats"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "580 4MATIC Celebration Edition",
+          "power": "580 4MATIC AWD",
+          "engine": "eqs580",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "AWD",
+          "priceInr": 13000000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 107.8,
+            "rangeKm": 813,
+            "rangeStandard": "ARAI",
+            "dcChargeKw": 200,
+            "dcChargeNote": "10-80% in about 31 min at 200 kW",
+            "acChargeNote": "22 kW onboard charger; time not published"
+          }
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Mercedes-Benz V297 1X7A0393.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Alexander Migl",
+          "note": "Germany model, same design",
+          "local": "photos/mercedes-eqs-front.jpg"
+        },
+        "rear": {
+          "file": "File:2024 Mercedes-Benz V297 EQS 450 4MATIC in Diamond White Bright, rear left, 07-10-2024.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Ethan Llamas",
+          "note": "Philippines model, same design",
+          "local": "photos/mercedes-eqs-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market photo on Commons. India's locally assembled EQS 580 keeps the pre-facelift V297 front (no bonnet star), so pre-facelift photos were chosen. Front is a white V297 at a Stuttgart showroom, near straight-on, Commons quality image. Rear is a white EQS 450 4MATIC in a Manila car park (rear three-quarter, other cars behind). Rejected the Japanese rear photos (charging cable attached).",
+      "sources": [
+        "https://www.cardekho.com/mercedes-benz/eqs",
+        "https://www.cardekho.com/mercedes-benz/eqs/variants.htm",
+        "https://www.carwale.com/mercedes-benz-cars/eqs/",
+        "https://www.autocarpro.in/news/mercedes-benz-launches-%E2%82%B9130-crore-eqs-580-4matic-celebration-edition-expands-luxury-network-in-chennai-127021"
+      ],
+      "notes": "EQS sedan (V297), sold in India as the EQS 580 4MATIC; the 'Celebration Edition' launched June 2025 at Rs 1.30 crore (limited to 50 units) with the Rear Seat Comfort package standard. CarWale and Autocar India list only this one variant; CarDekho also lists a plain 'EQS 580 4Matic' at Rs 1.48 crore, which could not be confirmed elsewhere and is omitted. Power 400 kW = 536 bhp; CarDekho's spec table shows 750.97 bhp/855 Nm, which appears to be the AMG EQS 53 and was ignored. Range: 813 km ARAI for the Celebration Edition per CarDekho; CarWale/CarDekho elsewhere quote 857 km. Wheel size not published on any source checked. Mercedes-Benz India's site could not be loaded. The EQS SUV is a separate model and is not included."
+    },
+    {
+      "id": "volvo-ex30",
+      "brand": "Volvo",
+      "model": "EX30",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "smer": {
+          "type": "Single rear permanent-magnet synchronous motor (Single Motor Extended Range)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 272,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 343,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Ultra",
+          "wheels": "19-inch aero alloy",
+          "airbags": 6,
+          "features": [
+            "Fixed panoramic glass roof",
+            "12.3-inch portrait touchscreen with Google built-in",
+            "9-speaker 1040 W Harman Kardon audio",
+            "8-way powered front seats",
+            "360-degree camera",
+            "Pilot Assist adaptive cruise with lane keep",
+            "Blind-spot monitor and rear cross-traffic alert",
+            "Powered tailgate"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Ultra",
+          "power": "Single Motor RWD",
+          "engine": "smer",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 4100000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 69,
+            "rangeKm": 480,
+            "rangeStandard": "WLTP",
+            "dcChargeKw": 150,
+            "dcChargeNote": "10-80% in about 26-28 min",
+            "acChargeNote": "11 kW: 0-100% in about 7-8 h"
+          }
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2024 Volvo EX30 Front.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Vauxford",
+          "note": "UK model, same design",
+          "local": "photos/volvo-ex30-front.jpg"
+        },
+        "rear": {
+          "file": "File:2024 Volvo EX30 Rear.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Vauxford",
+          "note": "UK model, same design",
+          "local": "photos/volvo-ex30-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market photo on Commons. Both photos show a UK showroom EX30 (Leamington Spa): clean car, plain background, near straight-on front and rear three-quarter. Rejected the Japanese 'ZAA-2E400R' pair (dark car, heavy reflections, cluttered car park).",
+      "sources": [
+        "https://www.cardekho.com/volvo/ex30/specs",
+        "https://www.carwale.com/volvo-cars/ex30/",
+        "https://www.autocarindia.com/car-news/volvo-ex30-launched-at-rs-3999-lakh-437362"
+      ],
+      "notes": "Launched 23 Sep 2025 in a single variant (Single Motor Extended Range, Ultra trim) at Rs 41 lakh; the Rs 39.99 lakh figure was a pre-booking offer that ended 19 Oct 2025. Sources quote 272 hp (PS) and no kW, so 272 is entered as given (200 kW would convert to 268 bhp). Conflicts: DC charging 150 kW/26 min (CarDekho) vs 175 kW/28 min (CarWale); AC 7 h (Autocar) vs 8 h (CarWale); airbags 6 (CarDekho and CarWale) vs 7 (Autocar launch story); range 480 km is WLTP per Autocar, CarWale labels it ARAI. Volvo India's site could not be loaded."
+    },
+    {
+      "id": "volvo-ec40",
+      "brand": "Volvo",
+      "model": "EC40",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "twin": {
+          "type": "Twin electric motors, one per axle",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 402,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 660,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Ultra",
+          "wheels": "19-inch alloy",
+          "airbags": 7,
+          "features": [
+            "Fixed panoramic glass roof",
+            "9-inch touchscreen with Google built-in",
+            "12.3-inch digital cluster",
+            "Harman Kardon premium audio",
+            "Powered front seats with memory",
+            "360-degree camera",
+            "Pilot Assist adaptive cruise with lane keep",
+            "Air purifier and dual-zone climate control"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Ultra",
+          "power": "Twin Motor AWD",
+          "engine": "twin",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "AWD",
+          "priceInr": 5900000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 78,
+            "rangeKm": 530,
+            "rangeStandard": "WLTP",
+            "dcChargeKw": 150,
+            "dcChargeNote": "10-80% in about 27 min at 150 kW",
+            "acChargeNote": "11 kW: 0-100% in about 8 h"
+          }
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Volvo EC40 Crystal White Pearl - front.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Ethan Llamas",
+          "note": "Philippines model, same design",
+          "local": "photos/volvo-ec40-front.jpg"
+        },
+        "rear": {
+          "file": "File:Volvo EC40 Crystal White Pearl - rear.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Ethan Llamas",
+          "note": "Philippines model, same design",
+          "local": "photos/volvo-ec40-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market photo on Commons. Both photos show an EC40-badged car at a Manila outdoor display: clean car, near straight-on front and rear three-quarter, mild background clutter. Category:Volvo EC40 returned no files via the API; these sit in Category:Volvo C40. Rejected the Japanese 'C40 RECHARGE' pair (pre-rename badging, crowd behind).",
+      "sources": [
+        "https://www.cardekho.com/volvo/ec40/specs",
+        "https://www.carwale.com/volvo-cars/ec40/",
+        "https://www.autocarindia.com/cars/volvo/c40-recharge"
+      ],
+      "notes": "The C40 Recharge was renamed EC40 in 2024; current name used. Single variant: Autocar calls it 'EC40 Ultra', CarDekho/CarWale 'E80'; 'Ultra' used as the trim name. Power 408 hp (PS) = 402 bhp per CarDekho. Range 530 km is WLTP per Autocar; CarWale labels it ARAI. Autocar notes a facelift was unveiled on 10 Sep 2026 but it is not on sale in India. The related EX40 was delisted in June 2026; the EC40 remains listed on all three sources (Autocar updated 28 Oct 2026). Volvo India's site could not be loaded."
+    }
+  ]
+}

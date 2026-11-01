@@ -1,0 +1,933 @@
+{
+  "cars": [
+    {
+      "id": "renault-duster",
+      "brand": "Renault",
+      "model": "Duster",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "autocarindia.com 2026 launch ex-showroom list, checked Oct 2026; Hybrid prices from Autocar hybrid launch (Oct 2026)",
+      "engines": {
+        "p10": {
+          "type": "1.0 turbo-petrol",
+          "cylinders": null,
+          "displacementCc": 999,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 100,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 166,
+          "maxTorqueRpm": null
+        },
+        "p13": {
+          "type": "1.3 turbo-petrol",
+          "cylinders": null,
+          "displacementCc": 1333,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 163,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 280,
+          "maxTorqueRpm": null
+        },
+        "hyb": {
+          "type": "1.8 petrol Strong hybrid (system output 160 hp, 1.4 kWh battery)",
+          "cylinders": null,
+          "displacementCc": 1789,
+          "aspiration": null,
+          "maxPowerBhp": 110,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 175,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Authentic",
+          "wheels": "17-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "Electronic stability control",
+            "Hill start assist",
+            "Auto headlamps",
+            "Keyless entry",
+            "7-inch digital driver display",
+            "Manual AC",
+            "Anti-theft immobiliser"
+          ]
+        },
+        {
+          "trim": "Evolution",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "10.1-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "6-speaker audio",
+            "Cruise control",
+            "Rear camera",
+            "Electronic parking brake with Autohold",
+            "Rear parking sensors",
+            "Electrically adjustable mirrors"
+          ]
+        },
+        {
+          "trim": "Adventure",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "Wireless phone charging",
+            "LED fog lamps",
+            "Over-the-air updates",
+            "Adventure decals and badging"
+          ]
+        },
+        {
+          "trim": "Techno",
+          "wheels": "17-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "Powered tailgate",
+            "Dual-zone climate control",
+            "Push-button start",
+            "Wireless phone charger",
+            "Full-LED headlamps",
+            "Connected car features",
+            "LED fog lights"
+          ]
+        },
+        {
+          "trim": "Techno+",
+          "wheels": "18-inch alloy",
+          "airbags": 6,
+          "features": [
+            "10.25-inch digital driver display",
+            "Blind-spot warning",
+            "Front and side parking sensors"
+          ]
+        },
+        {
+          "trim": "Iconic",
+          "wheels": "18-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Leatherette seats",
+            "6-way powered and ventilated front seats",
+            "360-degree camera",
+            "Level 2 ADAS (adaptive cruise, lane keep, emergency braking)",
+            "48-colour ambient lighting",
+            "Rain-sensing wipers",
+            "Google built-in infotainment",
+            "PM2.5 cabin filter"
+          ]
+        },
+        {
+          "trim": "Hybrid Evolution",
+          "wheels": "18-inch Ridge flex",
+          "airbags": 6,
+          "features": [
+            "Strong hybrid powertrain",
+            "10.1-inch touchscreen with wireless smartphone mirroring",
+            "7-inch digital driver display",
+            "Dual-zone automatic climate control",
+            "6-speaker audio",
+            "Cruise control",
+            "One-touch up/down for all four windows",
+            "Black upholstery"
+          ]
+        },
+        {
+          "trim": "Hybrid Techno",
+          "wheels": "18-inch Ridge flex",
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "Keyless entry with push-button start",
+            "MyRenault connected car tech",
+            "Full-LED headlamps",
+            "Desert Beige semi-leatherette upholstery"
+          ]
+        },
+        {
+          "trim": "Hybrid Emotion",
+          "wheels": "18-inch Outback diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "10.25-inch digital driver display",
+            "6-way powered and ventilated front seats",
+            "Powered tailgate",
+            "Dune Brown leatherette upholstery"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Authentic",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1049000,
+          "mileage": "19.41 kmpl (ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Evolution",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1169000,
+          "mileage": "19.41 kmpl (ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Evolution",
+          "power": "1.3 Turbo MT",
+          "engine": "p13",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1299000,
+          "mileage": "17.75 kmpl (ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.3-litre turbo-petrol"
+          ]
+        },
+        {
+          "trim": "Evolution",
+          "power": "1.3 Turbo DCT",
+          "engine": "p13",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1449000,
+          "mileage": "18.45 kmpl (ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed dual-clutch automatic"
+          ]
+        },
+        {
+          "trim": "Adventure",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1299000,
+          "mileage": "19.41 kmpl (ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Adventure",
+          "power": "1.3 Turbo MT",
+          "engine": "p13",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1399000,
+          "mileage": "17.75 kmpl (ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.3-litre turbo-petrol"
+          ]
+        },
+        {
+          "trim": "Adventure",
+          "power": "1.3 Turbo DCT",
+          "engine": "p13",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1539000,
+          "mileage": "18.45 kmpl (ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed dual-clutch automatic"
+          ]
+        },
+        {
+          "trim": "Techno",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1349000,
+          "mileage": "19.41 kmpl (ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Techno",
+          "power": "1.3 Turbo MT",
+          "engine": "p13",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1449000,
+          "mileage": "17.75 kmpl (ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.3-litre turbo-petrol"
+          ]
+        },
+        {
+          "trim": "Techno",
+          "power": "1.3 Turbo DCT",
+          "engine": "p13",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1589000,
+          "mileage": "18.45 kmpl (ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed dual-clutch automatic"
+          ]
+        },
+        {
+          "trim": "Techno+",
+          "power": "1.3 Turbo MT",
+          "engine": "p13",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1529000,
+          "mileage": "17.75 kmpl (ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.3-litre turbo-petrol"
+          ]
+        },
+        {
+          "trim": "Techno+",
+          "power": "1.3 Turbo DCT",
+          "engine": "p13",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1669000,
+          "mileage": "18.45 kmpl (ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed dual-clutch automatic"
+          ]
+        },
+        {
+          "trim": "Iconic",
+          "power": "1.3 Turbo MT",
+          "engine": "p13",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1699000,
+          "mileage": "17.75 kmpl (ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.3-litre turbo-petrol"
+          ]
+        },
+        {
+          "trim": "Iconic",
+          "power": "1.3 Turbo DCT",
+          "engine": "p13",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1849000,
+          "mileage": "18.45 kmpl (ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed dual-clutch automatic"
+          ]
+        },
+        {
+          "trim": "Hybrid Evolution",
+          "power": "1.8 Hybrid AT",
+          "engine": "hyb",
+          "fuel": "Hybrid",
+          "transmission": "Multi-mode automatic (e-CVT type, 2 electric and 4 petrol gears)",
+          "drivetrain": null,
+          "priceInr": 1699000,
+          "mileage": "29 kmpl (ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Strong hybrid system"
+          ]
+        },
+        {
+          "trim": "Hybrid Techno",
+          "power": "1.8 Hybrid AT",
+          "engine": "hyb",
+          "fuel": "Hybrid",
+          "transmission": "Multi-mode automatic (e-CVT type, 2 electric and 4 petrol gears)",
+          "drivetrain": null,
+          "priceInr": 1899000,
+          "mileage": "29 kmpl (ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Strong hybrid system"
+          ]
+        },
+        {
+          "trim": "Hybrid Emotion",
+          "power": "1.8 Hybrid AT",
+          "engine": "hyb",
+          "fuel": "Hybrid",
+          "transmission": "Multi-mode automatic (e-CVT type, 2 electric and 4 petrol gears)",
+          "drivetrain": null,
+          "priceInr": 1949000,
+          "mileage": "29 kmpl (ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Strong hybrid system"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2026 Renault Duster 1.3 Turbo (India).png",
+          "license": "CC BY 4.0",
+          "artist": "The Drivers Hub",
+          "note": "three-quarter view",
+          "local": "photos/renault-duster-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Rejected File:2026 Renault Duster 1.3 Turbo (India).png (the only new-gen India file found): front three-quarter view, not straight-on, with a dealer/registration plate. No new-generation rear photo found on Commons.",
+      "sources": [
+        "https://www.autocarindia.com/car-news/2026-renault-duster-launched-in-india-at-rs-1049-lakh-439229",
+        "https://www.autocarindia.com/cars/renault/duster/variants",
+        "https://www.carwale.com/renault-cars/duster/",
+        "https://www.cardekho.com/renault/duster",
+        "https://www.autocarindia.com/car-news/renault-duster-hybrid-launched-at-rs-1699-lakh-441073",
+        "https://www.autocarindia.com/car-news/renault-duster-adventure-edition-launched-at-rs-1299-lakh-440205",
+        "https://www.autocarpro.in/news/renault-india-launches-duster-adventure-edition-starting-at-rs-1299-lakh-133584"
+      ],
+      "notes": "Renault Duster new generation launched in India March 2026 (Autocar). Adventure Edition added 14 July 2026 (Adventure 1.0 MT, 1.3 MT and DCT prices from Autocar/AutocarPro). Strong hybrid (Evolution, Techno, Emotion) launched 17 Oct 2026, introductory prices until 31 Dec 2026. Sources conflict: Autocar launch list gives Techno 1.0 MT 13.49 / 1.3 MT 14.49 / DCT 15.89; CarWale Mumbai listing gives Techno 18.99 to 19.19 lakh and Techno+ / Iconic ranges that differ, so Techno, Techno+ and Iconic prices are the Autocar launch list and should be re-checked on the Renault India site. Autocar variants page gave on-road Delhi prices, not ex-showroom; not used. Engine figures: 1.0 turbo 100 hp / 166 Nm (CarDekho) vs 99 bhp (CarWale); 1.3 turbo 163 hp (Autocar/CarDekho) vs 160 bhp (CarWale), 280 Nm both; rpm and cc not confirmed for the 1.0 and 1.3 petrols beyond the CarDekho displacement figures. Hybrid petrol 110 hp / 175 Nm (Autocar); 160 hp system output; system torque not confirmed. Mileage ARAI from CarWale (1.0 MT 19.41, 1.3 MT 17.75, DCT 18.45, hybrid 29). Wheels conflict: Authentic 17-inch steel with covers (Autocar) vs 16-inch in other listings; Evolution 16 vs 17-inch alloys, so null. Fuel tank 50 L is stated for the hybrid only (Autocar), so the car-level fuelTankL is null. Renault has not published per-trim airbag counts beyond six standard."
+    },
+    {
+      "id": "nissan-tekton",
+      "brand": "Nissan",
+      "model": "Tekton",
+      "bodyType": "SUV",
+      "seats": null,
+      "fuelTankL": null,
+      "priceNote": "timesdrive.in and autocarindia.com 2026 launch ex-showroom prices, checked Oct 2026",
+      "engines": {
+        "t10": {
+          "type": "1.0 turbo-petrol (T160; sources say 1.0 or 1.2 litre)",
+          "cylinders": 3,
+          "displacementCc": null,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 98.63,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 166,
+          "maxTorqueRpm": null
+        },
+        "t13": {
+          "type": "1.3 turbo-petrol (T280)",
+          "cylinders": 4,
+          "displacementCc": null,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 160.77,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 280,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Visia",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "6 airbags"
+          ]
+        },
+        {
+          "trim": "Visia+",
+          "wheels": null,
+          "airbags": 6,
+          "features": []
+        },
+        {
+          "trim": "Acenta",
+          "wheels": null,
+          "airbags": 6,
+          "features": []
+        },
+        {
+          "trim": "N-Connecta",
+          "wheels": null,
+          "airbags": 6,
+          "features": []
+        },
+        {
+          "trim": "Tekna",
+          "wheels": "Dual-tone alloys (size not confirmed)",
+          "airbags": 6,
+          "features": []
+        },
+        {
+          "trim": "Tekna+",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Level 2 ADAS",
+            "Panoramic sunroof",
+            "360-degree camera",
+            "Electric tailgate",
+            "Ventilated front seats"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Visia",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1049000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Visia+",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1114000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Acenta",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1179000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Acenta",
+          "power": "1.3 Turbo DCT",
+          "engine": "t13",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1499000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.3-litre turbo-petrol",
+            "Dual-clutch automatic"
+          ]
+        },
+        {
+          "trim": "N-Connecta",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1369000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "N-Connecta",
+          "power": "1.3 Turbo MT",
+          "engine": "t13",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1499000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.3-litre turbo-petrol"
+          ]
+        },
+        {
+          "trim": "N-Connecta",
+          "power": "1.3 Turbo DCT",
+          "engine": "t13",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1649000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.3-litre turbo-petrol",
+            "Dual-clutch automatic"
+          ]
+        },
+        {
+          "trim": "Tekna",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1539000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Tekna",
+          "power": "1.3 Turbo MT",
+          "engine": "t13",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1639000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.3-litre turbo-petrol"
+          ]
+        },
+        {
+          "trim": "Tekna",
+          "power": "1.3 Turbo DCT",
+          "engine": "t13",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1779000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.3-litre turbo-petrol",
+            "Dual-clutch automatic"
+          ]
+        },
+        {
+          "trim": "Tekna+",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1649000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Tekna+",
+          "power": "1.3 Turbo DCT",
+          "engine": "t13",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 6-speed",
+          "drivetrain": null,
+          "priceInr": 1859000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.3-litre turbo-petrol",
+            "Dual-clutch automatic"
+          ]
+        }
+      ],
+      "photos": {
+        "front": null,
+        "rear": null
+      },
+      "photoNotes": "No Tekton photos found on Commons (search for Nissan Tekton returned no files).",
+      "sources": [
+        "https://www.timesdrive.in/car-news/nissan-tekton-launched-in-india-at-rs-10-49-lakh-check-variant-wise-pricing-article-155015295",
+        "https://www.autopunditz.com/post/nissan-tekton-launched-in-india-at-10-49-lakh-12-variants-two-turbo-petrol-engines-and-premium-fe",
+        "https://www.autocarindia.com/car-news-amp/nissan-tekton-launched-in-india-440167"
+      ],
+      "notes": "Nissan Tekton launched in India July 2026 and is Nissan's newest non-Magnite model (Nissan's Tekton is the Renault Duster platform sibling). Introductory ex-showroom prices. Sources conflict on the 1.0 engine (1.0 vs 1.2 litre) and the DCT speed (6-speed in Times Drive, 7-speed in another fetch), so 6-speed is used and the displacement is null. Variant prices are the Times Drive / Autocar list (12 variants: Visia, Visia+, Acenta, N-Connecta, Tekna, Tekna+ across MT and DCT). Per-trim features, wheel sizes, fuel tank, seats and mileage were not confirmed by the sources checked; left null or empty. Update 21 Oct 2026 check: no photos found."
+    },
+    {
+      "id": "toyota-vellfire",
+      "brand": "Toyota",
+      "model": "Vellfire",
+      "bodyType": "MPV",
+      "seats": null,
+      "fuelTankL": null,
+      "priceNote": "cardekho.com Amb city page and businesstoday.in (Jun 2026), ex-showroom range Rs 1.20 to 1.30 crore, Oct 2026",
+      "engines": {
+        "h25": {
+          "type": "2.5-litre petrol hybrid",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": null,
+          "maxPowerBhp": null,
+          "maxPowerRpm": null,
+          "maxTorqueNm": null,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Hi",
+          "wheels": null,
+          "airbags": null,
+          "features": []
+        },
+        {
+          "trim": "VIP",
+          "wheels": null,
+          "airbags": null,
+          "features": [
+            "Executive Lounge package"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Hi",
+          "power": "2.5 Hybrid CVT",
+          "engine": "h25",
+          "fuel": "Hybrid",
+          "transmission": "CVT automatic",
+          "drivetrain": null,
+          "priceInr": 12000000,
+          "mileage": "19.28 kmpl (ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "VIP",
+          "power": "2.5 Hybrid CVT",
+          "engine": "h25",
+          "fuel": "Hybrid",
+          "transmission": "CVT automatic",
+          "drivetrain": null,
+          "priceInr": null,
+          "mileage": "19.28 kmpl (ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Executive Lounge package"
+          ]
+        }
+      ],
+      "photos": {
+        "front": null,
+        "rear": null
+      },
+      "photoNotes": "Commons results for Toyota Vellfire are the previous generation (AH30: 2018-2019 Hybrid V / X / rear files, Johor Bahru and Z Premier); none show the current generation or an Indian-market car. Rejected all of them. No photo set.",
+      "sources": [
+        "https://www.cardekho.com/toyota/vellfire/price-in-amb?amp=1",
+        "https://www.businesstoday.in/auto/story/toyota-vellfire-hybrid-ev-in-india-know-all-about-price-features-specs-of-luxurious-mpv-536048-2026-06-12",
+        "https://www.carwale.com/toyota-cars/vellfire/price-in-delhi/"
+      ],
+      "notes": "Two variants: Hi and VIP (VIP adds Executive Lounge package). Ex-showroom range Rs 1.20 to 1.30 crore (Business Today). Hi ex-showroom about Rs 1.20 crore from CarDekho Amb page (figure is approximate); VIP price not confirmed, so null. Mileage 19.28 kmpl ARAI (CarWale). Engine power, torque, displacement details and seating not confirmed by the sources checked, so null. Drivetrain and fuel tank not confirmed. No 2026 price revision found."
+    },
+    {
+      "id": "mg-majestor",
+      "brand": "MG",
+      "model": "Majestor",
+      "bodyType": "SUV",
+      "seats": null,
+      "fuelTankL": null,
+      "priceNote": "autocarindia.com launch prices (ex-showroom), Oct 2026",
+      "engines": {
+        "t20": {
+          "type": "2.0-litre Twin Turbo petrol",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": null,
+          "maxPowerRpm": null,
+          "maxTorqueNm": null,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "4x2",
+          "wheels": null,
+          "airbags": null,
+          "features": []
+        },
+        {
+          "trim": "4x4",
+          "wheels": null,
+          "airbags": null,
+          "features": [
+            "4WD"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "4x2",
+          "power": "2.0 Twin Turbo AT",
+          "engine": "t20",
+          "fuel": "Petrol",
+          "transmission": "Automatic",
+          "drivetrain": "RWD",
+          "priceInr": 4099000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "4x4",
+          "power": "2.0 Twin Turbo 4x4 AT",
+          "engine": "t20",
+          "fuel": "Petrol",
+          "transmission": "Automatic",
+          "drivetrain": "4WD",
+          "priceInr": 4499000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "4WD drivetrain"
+          ]
+        }
+      ],
+      "photos": {
+        "front": null,
+        "rear": null
+      },
+      "photoNotes": "Commons results for MG Majestor are Maxus D90 (China, different model/market name). Not confirmed as the same design as the Majestor, so rejected. No Majestor photos on Commons.",
+      "sources": [
+        "https://www.autocarindia.com/car-news-amp/mg-majestor-launched-at-rs-4099-lakh-439622",
+        "https://www.cartrade.com/mg-cars/majestor/"
+      ],
+      "notes": "Launched at Rs 40.99 lakh (4x2 AT) and Rs 44.99 lakh (4x4 AT) per Autocar India. Sources differ: third-party listings show Sharp and Savvy trims and four variants (CarDekho, CarTrade), and Autocar's pre-launch note shows three variants. Official launch structure of two variants used. Engine figures, mileage, seats and fuel tank not confirmed, so null. Majestor is shown as 4x2 RWD and 4x4 4WD per Autocar."
+    },
+    {
+      "id": "jeep-grand-cherokee",
+      "brand": "Jeep",
+      "model": "Grand Cherokee",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "autocarindia.com city page (Jun 2026) and caronphone.com; prices conflict, see notes, Oct 2026",
+      "engines": {
+        "p20": {
+          "type": "2.0-litre petrol (listed as 2.0P)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": null,
+          "maxPowerBhp": null,
+          "maxPowerRpm": null,
+          "maxTorqueNm": null,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Limited (O)",
+          "wheels": null,
+          "airbags": null,
+          "features": []
+        },
+        {
+          "trim": "Signature Edition",
+          "wheels": null,
+          "airbags": null,
+          "features": []
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Limited (O)",
+          "power": "2.0 Petrol AT 4x4",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic",
+          "drivetrain": "4WD",
+          "priceInr": null,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "4x4 drivetrain"
+          ]
+        },
+        {
+          "trim": "Signature Edition",
+          "power": "2.0 Petrol AT 4x4",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic",
+          "drivetrain": "4WD",
+          "priceInr": null,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "4x4 drivetrain"
+          ]
+        }
+      ],
+      "photos": {
+        "front": null,
+        "rear": null
+      },
+      "photoNotes": "Rejected File:26 Jeep Grand Cherokee Limited.jpg (US dealer lot, front three-quarter view, not straight-on, not Indian-market). Other Commons files are US/China or older WK2 generation. No suitable photo set.",
+      "sources": [
+        "https://www.autocarindia.com/cars/jeep/grand-cherokee/price-in-indore",
+        "https://www.caronphone.com/news/jeep-grand-cherokee-signature-edition-launched-in-india-priced-at-rs-69-04-lakh/",
+        "https://gaadify.com/jeep-grand-cherokee-gets-a-price-hike-expensive-by-rs-1-lakh",
+        "https://www.motorbeam.com/?p=304800"
+      ],
+      "notes": "Fifth-generation Grand Cherokee sold in India (launched April 2026, 5-seat, locally assembled per Motorbeam). Price conflict: Autocar city page and CarOnPhone give about Rs 63 lakh; Motorbeam launch price Rs 77.50 lakh; Gaadify (June 2026) says Rs 78.50 lakh after a Rs 1 lakh hike; CarOnPhone Signature Edition Rs 69.04 lakh. Prices left null until confirmed from Jeep India. Engine displacement, power and torque not confirmed. Variant names from CarOnPhone (Limited (O) 4x4 2.0P AT, Signature Edition). Fuel tank not confirmed."
+    }
+  ]
+}

@@ -1,0 +1,1199 @@
+{
+  "cars": [
+    {
+      "id": "maruti-e-vitara",
+      "brand": "Maruti Suzuki",
+      "model": "e Vitara",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026 (page date not shown)",
+      "engines": {
+        "e49": {
+          "type": "Permanent-magnet synchronous motor (49 kWh pack, FWD)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 142,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 193,
+          "maxTorqueRpm": null
+        },
+        "e61": {
+          "type": "Permanent-magnet synchronous motor (61 kWh pack)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 172,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 193,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Delta",
+          "wheels": "18-inch alloy",
+          "airbags": 7,
+          "features": [
+            "10.25-inch driver display",
+            "10.1-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Rear seats split 40:20:40"
+          ]
+        },
+        {
+          "trim": "Zeta",
+          "wheels": null,
+          "airbags": null,
+          "features": [
+            "61 kWh battery option",
+            "Wireless phone charger",
+            "Rear parking camera",
+            "Parcel tray"
+          ]
+        },
+        {
+          "trim": "Alpha",
+          "wheels": null,
+          "airbags": null,
+          "features": [
+            "Level 2 ADAS",
+            "360-degree camera",
+            "Ventilated front seats",
+            "10-way powered driver seat",
+            "Fixed glass roof",
+            "8-speaker Infinity sound with subwoofer",
+            "Semi-leatherette upholstery"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Delta",
+          "power": "49 kWh AT",
+          "engine": "e49",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1619000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 49,
+            "rangeKm": 440,
+            "rangeStandard": "claimed",
+            "dcChargeKw": null,
+            "dcChargeNote": "10-80% in 45 min (CarDekho, model-level figure)",
+            "acChargeNote": null
+          }
+        },
+        {
+          "trim": "Zeta",
+          "power": "61 kWh AT",
+          "engine": "e61",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1794000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 61,
+            "rangeKm": 543,
+            "rangeStandard": "claimed",
+            "dcChargeKw": null,
+            "dcChargeNote": "10-80% in 45 min (CarDekho, model-level figure)",
+            "acChargeNote": null
+          }
+        },
+        {
+          "trim": "Alpha",
+          "power": "61 kWh AT",
+          "engine": "e61",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 2021000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 61,
+            "rangeKm": 543,
+            "rangeStandard": "claimed",
+            "dcChargeKw": null,
+            "dcChargeNote": "10-80% in 45 min (CarDekho, model-level figure)",
+            "acChargeNote": null
+          }
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2025 Suzuki e Vitara front view.jpg",
+          "license": "CC BY 3.0",
+          "artist": "La Revue Automobile",
+          "note": "three-quarter view",
+          "local": "photos/maruti-e-vitara-front.jpg"
+        },
+        "rear": {
+          "file": "File:Suzuki e Vitara in Hamamatsu Sta rear.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "IXTA9839",
+          "note": "three-quarter view",
+          "local": "photos/maruti-e-vitara-rear.jpg"
+        }
+      },
+      "photoNotes": "Commons category Suzuki e Vitara holds only Japan/Europe-market e Vitara files (same design). Front candidate 'Suzuki e VITARA X (ZAA-PA2AS-TBXA-Z) front.jpg' rejected: showroom display with a price card on the windscreen and a crowded background. Rear candidate 'Suzuki e VITARA X (ZAA-PA2AS-TBXA-Z) rear.jpg' rejected: busy show-floor background with people. No Indian-market photo found.",
+      "sources": [
+        "https://www.cardekho.com/maruti/e-vitara",
+        "https://www.autocarindia.com/car-news-amp/maruti-e-vitara-full-price-list-revealed-starts-at-rs-1599-lakh-439057",
+        "https://www.autocarindia.com/auto-features-amp/variants-and-features-of-maruti-e-vitara-explained-440239"
+      ],
+      "notes": "On sale in India (launched Aug 2025). Price conflict: CarDekho New Delhi lists Delta Rs 16.19 lakh, Zeta Rs 17.94 lakh, Alpha Rs 20.21 lakh; Autocar India's launch price list gives Rs 15.99, 17.49 and 19.79 lakh, and one report mentions a later revision. CarDekho figures used. Motor power: CarDekho 142 bhp (49 kWh) and 172 bhp (61 kWh); Autocar gives 144 hp and 174 hp, and 193 Nm torque for all trims (torque from Autocar only). Range 440 km (49 kWh) and 543 km (61 kWh) are claimed figures; the standard is not stated. Alpha Dual Tone (Rs 20.21 lakh on CarDekho) omitted as a dual-tone version. The battery-as-a-service (BaaS) price (Rs 10.99 lakh + Rs 3.99/km) is not used. Sold through Nexa showrooms. Toyota's Urban Cruiser Ebella is a rebadged version."
+    },
+    {
+      "id": "maruti-victoris",
+      "brand": "Maruti Suzuki",
+      "model": "Victoris",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 45,
+      "priceNote": "CarDekho New Delhi, Oct 2026 (page date not shown)",
+      "engines": {
+        "p15": {
+          "type": "1.5 K15C petrol mild hybrid",
+          "cylinders": null,
+          "displacementCc": 1462,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 101.64,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 139,
+          "maxTorqueRpm": 4300
+        },
+        "cng15": {
+          "type": "1.5 K15C petrol-CNG",
+          "cylinders": null,
+          "displacementCc": 1462,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 86.63,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 121.5,
+          "maxTorqueRpm": null
+        },
+        "hy15": {
+          "type": "1.5 Strong hybrid petrol (M15D, 114 bhp combined)",
+          "cylinders": 3,
+          "displacementCc": 1490,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 92.45,
+          "maxPowerRpm": 5500,
+          "maxTorqueNm": 122,
+          "maxTorqueRpm": "3800-4300"
+        }
+      },
+      "trims": [
+        {
+          "trim": "LXI",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP with hill hold",
+            "7-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay"
+          ]
+        },
+        {
+          "trim": "VXI",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Reverse camera",
+            "Tyre-pressure monitoring",
+            "Cruise control"
+          ]
+        },
+        {
+          "trim": "ZXI",
+          "wheels": "17-inch alloy",
+          "airbags": 6,
+          "features": [
+            "LED fog lamps",
+            "Powered tailgate with gesture control",
+            "Leatherette seats (mild hybrid)",
+            "Auto-dimming IRVM"
+          ]
+        },
+        {
+          "trim": "ZXI (O)",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof"
+          ]
+        },
+        {
+          "trim": "ZXI Plus",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Level 2 ADAS",
+            "Ventilated front seats",
+            "10.1-inch touchscreen",
+            "Head-up display",
+            "Dolby Atmos"
+          ]
+        },
+        {
+          "trim": "ZXI Plus (O)",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "LXI",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1050000,
+          "mileage": "21.18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "LXI",
+          "power": "1.5 CNG MT",
+          "engine": "cng15",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1155000,
+          "mileage": "27.02 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "VXI",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1185000,
+          "mileage": "21.18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "VXI",
+          "power": "1.5 CNG MT",
+          "engine": "cng15",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1290000,
+          "mileage": "27.02 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "VXI",
+          "power": "1.5 Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque-converter",
+          "drivetrain": "FWD",
+          "priceInr": 1341000,
+          "mileage": "21.06 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "VXI",
+          "power": "1.5 Strong Hybrid",
+          "engine": "hy15",
+          "fuel": "Hybrid",
+          "transmission": "e-CVT automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1643000,
+          "mileage": "28.65 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Strong hybrid e-CVT"
+          ]
+        },
+        {
+          "trim": "ZXI",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1362000,
+          "mileage": "21.18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "ZXI",
+          "power": "1.5 CNG MT",
+          "engine": "cng15",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1467000,
+          "mileage": "27.02 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "ZXI",
+          "power": "1.5 Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque-converter",
+          "drivetrain": "FWD",
+          "priceInr": 1518000,
+          "mileage": "21.06 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "ZXI",
+          "power": "1.5 Strong Hybrid",
+          "engine": "hy15",
+          "fuel": "Hybrid",
+          "transmission": "e-CVT automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1785000,
+          "mileage": "28.65 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Strong hybrid e-CVT"
+          ]
+        },
+        {
+          "trim": "ZXI (O)",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1369000,
+          "mileage": "21.18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "ZXI (O)",
+          "power": "1.5 Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque-converter",
+          "drivetrain": "FWD",
+          "priceInr": 1525000,
+          "mileage": "21.06 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "ZXI (O)",
+          "power": "1.5 Strong Hybrid",
+          "engine": "hy15",
+          "fuel": "Hybrid",
+          "transmission": "e-CVT automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1844000,
+          "mileage": "28.65 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Strong hybrid e-CVT"
+          ]
+        },
+        {
+          "trim": "ZXI Plus",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1539000,
+          "mileage": "21.18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "ZXI Plus",
+          "power": "1.5 Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque-converter",
+          "drivetrain": "FWD",
+          "priceInr": 1734000,
+          "mileage": "21.06 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "ZXI Plus",
+          "power": "1.5 Petrol AWD AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic (AWD)",
+          "drivetrain": "AWD",
+          "priceInr": 1869000,
+          "mileage": "19.07 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "AllGrip AWD",
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "ZXI Plus",
+          "power": "1.5 Strong Hybrid",
+          "engine": "hy15",
+          "fuel": "Hybrid",
+          "transmission": "e-CVT automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1952000,
+          "mileage": "28.65 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Strong hybrid e-CVT"
+          ]
+        },
+        {
+          "trim": "ZXI Plus (O)",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1548000,
+          "mileage": "21.18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "ZXI Plus (O)",
+          "power": "1.5 Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque-converter",
+          "drivetrain": "FWD",
+          "priceInr": 1743000,
+          "mileage": "21.06 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "ZXI Plus (O)",
+          "power": "1.5 Petrol AWD AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic (AWD)",
+          "drivetrain": "AWD",
+          "priceInr": 1927000,
+          "mileage": "19.07 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "AllGrip AWD",
+            "6-speed torque-converter automatic"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Suzuki Victoris CBG.jpg",
+          "license": "CC0",
+          "artist": "TTTNIS",
+          "note": "three-quarter view",
+          "local": "photos/maruti-victoris-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "No Indian-market Victoris category on Commons (the category pages checked returned 404). The only Victoris file found is 'Suzuki Victoris CBG.jpg', a 3/4 front view at an Asian motor show with show banners behind the car, so it was rejected. No rear view found.",
+      "sources": [
+        "https://www.cardekho.com/maruti/victoris",
+        "https://www.autocarindia.com/cars/maruti-suzuki/victoris/variants",
+        "https://www.autocarindia.com/auto-features-amp/maruti-victoris-variants-and-features-explained-437003",
+        "https://www.autocarindia.com/cars/maruti-suzuki/victoris/specifications",
+        "https://www.91wheels.com/cars/maruti/victoris/specifications",
+        "https://www.nexaexperience.com/victoris/price"
+      ],
+      "notes": "On sale in India. Prices are CarDekho New Delhi ex-showroom. The Autocar variant page shows on-road prices (Rs 12.18 to 23.56 lakh, Delhi), so it was not used for prices. Dual-tone (DT) and Aurum variants omitted. The ZXI Plus (O) Strong Hybrid non-DT price is not shown, so it is omitted. Mileage is ARAI, as listed on CarDekho and 91wheels. Power: petrol 101.64 bhp (Autocar; 91wheels gives 103.06 PS at 6000 rpm), CNG 86.63 bhp (Autocar), hybrid 114 bhp combined with a 92.45 bhp engine figure (Autocar spec table). Cylinder count for petrol and CNG not found. Torque: 139 Nm at 4300 rpm (91wheels) for petrol; 121.5 Nm for CNG; 122 Nm for hybrid (Autocar). Sources give different tank figures for CNG (55 kg vs 55 L); the petrol 45 L tank is used. Wheel sizes: only ZXI 17-inch alloy, from Autocar. Airbags: 6 across the range per Autocar and CarDekho."
+    },
+    {
+      "id": "hyundai-venue-n-line",
+      "brand": "Hyundai",
+      "model": "Venue N Line",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026 (page date not shown)",
+      "engines": {
+        "t10": {
+          "type": "1.0 T-GDi turbo petrol (Kappa, 3-cylinder)",
+          "cylinders": 3,
+          "displacementCc": 998,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 118.41,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 172,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "N6",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Smart sunroof",
+            "10.25-inch touchscreen (8-inch per another source)",
+            "Wireless Android Auto and Apple CarPlay",
+            "Cruise control",
+            "Leatherette N seats",
+            "Electronic parking brake with auto hold"
+          ]
+        },
+        {
+          "trim": "N10",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Voice-controlled sunroof",
+            "Level 2 ADAS",
+            "12.3-inch infotainment",
+            "Ventilated front seats",
+            "Wireless phone charger",
+            "360-degree camera",
+            "Dashcam",
+            "Bose 8-speaker audio"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "N6",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1066000,
+          "mileage": "18.74 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "N6",
+          "power": "1.0 Turbo DCT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (DCT)",
+          "drivetrain": "FWD",
+          "priceInr": 1156000,
+          "mileage": "20 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7-speed DCT"
+          ]
+        },
+        {
+          "trim": "N10",
+          "power": "1.0 Turbo DCT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (DCT)",
+          "drivetrain": "FWD",
+          "priceInr": 1549000,
+          "mileage": "20 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7-speed DCT"
+          ]
+        }
+      ],
+      "photos": {
+        "front": null,
+        "rear": null
+      },
+      "photoNotes": "Commons Hyundai Venue II category holds 4 files, all from a Bangalore 2025 show: the Venue N Line file shows open doors and show clutter, and a stand overview and interior are not usable. No rear view of the second-generation Venue exists on Commons. Both photos left null.",
+      "sources": [
+        "https://www.cardekho.com/hyundai/venue-n-line",
+        "https://www.hyundai.com/in/en/find-a-car/venue-n-line/price.html"
+      ],
+      "notes": "Sold as its own model (own price page on hyundai.com; the official price table did not render, so CarDekho New Delhi prices are used). Starting price shown by Hyundai: Rs 10,66,100, which matches CarDekho. Dual-tone versions omitted. Mileage: CarDekho ARAI figures (18.74 kmpl MT, 20 kmpl DCT). Wheels conflict: CarDekho says 17-inch alloys; another source says 16-inch on the N6, so null. Touchscreen size conflicts across sources and is noted in the features. Fuel tank not found. Airbags: 6 across the range. Update 31 Oct 2026: new entry, no existing file entry."
+    },
+    {
+      "id": "hyundai-i20-n-line",
+      "brand": "Hyundai",
+      "model": "i20 N Line",
+      "bodyType": "Hatchback",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026 (page date not shown)",
+      "engines": {
+        "t10": {
+          "type": "1.0 T-GDi turbo petrol (3-cylinder)",
+          "cylinders": 3,
+          "displacementCc": 998,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 118,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 172,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "N6",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "8-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "TFT driver display",
+            "Electric sunroof",
+            "Cruise control",
+            "Rear AC vents"
+          ]
+        },
+        {
+          "trim": "N8",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Full LED lighting",
+            "Leatherette door armrest",
+            "Push-button start",
+            "Wireless phone charger",
+            "Navigation touchscreen (10.25-inch class)",
+            "Bose audio",
+            "Dashcam",
+            "Rear wiper"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "N6",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 932000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "N6",
+          "power": "1.0 Turbo DCT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (DCT)",
+          "drivetrain": "FWD",
+          "priceInr": 1023000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7-speed DCT"
+          ]
+        },
+        {
+          "trim": "N8",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1063000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "N8",
+          "power": "1.0 Turbo DCT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (DCT)",
+          "drivetrain": "FWD",
+          "priceInr": 1164000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7-speed DCT"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2021 Hyundai i20 N Line (BI3; India) front view.png",
+          "license": "CC BY 3.0",
+          "artist": "DriveSpark",
+          "note": "three-quarter view",
+          "local": "photos/hyundai-i20-n-line-front.jpg"
+        },
+        "rear": {
+          "file": "File:Hyundai i20 1.0 T-GDI N Line (III, Facelift) – h 01032025.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "artist": "© M 93",
+          "note": "three-quarter view",
+          "local": "photos/hyundai-i20-n-line-rear.jpg"
+        }
+      },
+      "photoNotes": "Commons 'Hyundai i20 N Line (BC3)' (European facelift, III generation): front and rear are both 3/4 views, not straight-on, so rejected. 'Hyundai i20 N Line (BI3)' India file: a 3/4 front at a show stand with a banner behind, rejected. No straight-on front or rear found. Both photos left null.",
+      "sources": [
+        "https://www.cardekho.com/hyundai/i20-n-line"
+      ],
+      "notes": "Sold as its own model in India (CarDekho lists its own variants and price range). Prices CarDekho New Delhi; the hyundai.com price table did not load. Dual-tone versions omitted. Mileage left null: the CarDekho table is inconsistent (N8 MT 11.8 kmpl, others 16 to 20 kmpl) and the official figures were not found. Power 118 bhp and 172 Nm are from CarDekho (one review says 120 PS). Wheels: 16-inch alloys on N6 per CarDekho; the N8 wheel size is not stated. Fuel tank not found. Airbags: 6 across the range. Update 31 Oct 2026: new entry, no existing file entry."
+    },
+    {
+      "id": "kia-carens-clavis-ev",
+      "brand": "Kia",
+      "model": "Carens Clavis EV",
+      "bodyType": "MPV",
+      "seats": 7,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026 (page date not shown)",
+      "engines": {
+        "m42": {
+          "type": "Front-axle permanent-magnet motor (42 kWh pack)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 133,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 255,
+          "maxTorqueRpm": null
+        },
+        "m514": {
+          "type": "Front-axle permanent-magnet motor (51.4 kWh pack)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 169,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 255,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "HTK Plus",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Dual 12.3-inch displays",
+            "6 airbags"
+          ]
+        },
+        {
+          "trim": "HTX E",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "Ventilated front seats (higher trims)"
+          ]
+        },
+        {
+          "trim": "HTX",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Dual 31.24 cm HD displays",
+            "Level 2 ADAS (20 features)",
+            "360-degree camera"
+          ]
+        },
+        {
+          "trim": "HTX E ER",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "51.4 kWh extended-range battery",
+            "Panoramic sunroof"
+          ]
+        },
+        {
+          "trim": "HTX ER",
+          "wheels": "17-inch aero alloy",
+          "airbags": 6,
+          "features": [
+            "51.4 kWh extended-range battery",
+            "Level 2 ADAS",
+            "360-degree camera"
+          ]
+        },
+        {
+          "trim": "GTX ER",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "51.4 kWh extended-range battery",
+            "Front ventilated seats"
+          ]
+        },
+        {
+          "trim": "HTX Plus ER",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Ventilated front seats",
+            "Bose sound system",
+            "Powered driver seat",
+            "V2L charging"
+          ]
+        },
+        {
+          "trim": "GTX Plus ER",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Ventilated front seats",
+            "Wireless phone charger"
+          ]
+        },
+        {
+          "trim": "X-Line ER",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "X-Line styling",
+            "51.4 kWh extended-range battery"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "HTK Plus",
+          "power": "42 kWh AT",
+          "engine": "m42",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 1804000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 42,
+            "rangeKm": 404,
+            "rangeStandard": "ARAI",
+            "dcChargeKw": null,
+            "dcChargeNote": "10-80% in 39 min at 100 kW (CarDekho, model-level)",
+            "acChargeNote": "11 kW: 10-100% in about 4 h"
+          }
+        },
+        {
+          "trim": "HTX E",
+          "power": "42 kWh AT",
+          "engine": "m42",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 2000000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 42,
+            "rangeKm": 404,
+            "rangeStandard": "ARAI",
+            "dcChargeKw": null,
+            "dcChargeNote": "10-80% in 39 min at 100 kW (CarDekho, model-level)",
+            "acChargeNote": "11 kW: 10-100% in about 4 h"
+          }
+        },
+        {
+          "trim": "HTX",
+          "power": "42 kWh AT",
+          "engine": "m42",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 2054000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 42,
+            "rangeKm": 404,
+            "rangeStandard": "ARAI",
+            "dcChargeKw": null,
+            "dcChargeNote": "10-80% in 39 min at 100 kW (CarDekho, model-level)",
+            "acChargeNote": "11 kW: 10-100% in about 4 h"
+          }
+        },
+        {
+          "trim": "HTX E ER",
+          "power": "51.4 kWh AT",
+          "engine": "m514",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 2204000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 51.4,
+            "rangeKm": 490,
+            "rangeStandard": "ARAI",
+            "dcChargeKw": null,
+            "dcChargeNote": "10-80% in 39 min at 100 kW (CarDekho, model-level)",
+            "acChargeNote": "11 kW: 10-100% in about 4 h 45 min"
+          }
+        },
+        {
+          "trim": "HTX ER",
+          "power": "51.4 kWh AT",
+          "engine": "m514",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 2254000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 51.4,
+            "rangeKm": 490,
+            "rangeStandard": "ARAI",
+            "dcChargeKw": null,
+            "dcChargeNote": "10-80% in 39 min at 100 kW (CarDekho, model-level)",
+            "acChargeNote": "11 kW: 10-100% in about 4 h 45 min"
+          }
+        },
+        {
+          "trim": "GTX ER",
+          "power": "51.4 kWh AT",
+          "engine": "m514",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 2304000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 51.4,
+            "rangeKm": 490,
+            "rangeStandard": "ARAI",
+            "dcChargeKw": null,
+            "dcChargeNote": "10-80% in 39 min at 100 kW (CarDekho, model-level)",
+            "acChargeNote": "11 kW: 10-100% in about 4 h 45 min"
+          }
+        },
+        {
+          "trim": "HTX Plus ER",
+          "power": "51.4 kWh AT",
+          "engine": "m514",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 2454000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 51.4,
+            "rangeKm": 490,
+            "rangeStandard": "ARAI",
+            "dcChargeKw": null,
+            "dcChargeNote": "10-80% in 39 min at 100 kW (CarDekho, model-level)",
+            "acChargeNote": "11 kW: 10-100% in about 4 h 45 min"
+          }
+        },
+        {
+          "trim": "GTX Plus ER",
+          "power": "51.4 kWh AT",
+          "engine": "m514",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 2500000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 51.4,
+            "rangeKm": 490,
+            "rangeStandard": "ARAI",
+            "dcChargeKw": null,
+            "dcChargeNote": "10-80% in 39 min at 100 kW (CarDekho, model-level)",
+            "acChargeNote": "11 kW: 10-100% in about 4 h 45 min"
+          }
+        },
+        {
+          "trim": "X-Line ER",
+          "power": "51.4 kWh AT",
+          "engine": "m514",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 2500000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 51.4,
+            "rangeKm": 490,
+            "rangeStandard": "ARAI",
+            "dcChargeKw": null,
+            "dcChargeNote": "10-80% in 39 min at 100 kW (CarDekho, model-level)",
+            "acChargeNote": "11 kW: 10-100% in about 4 h 45 min"
+          }
+        }
+      ],
+      "photos": {
+        "front": null,
+        "rear": null
+      },
+      "photoNotes": "Commons Kia Carens Clavis files are the petrol/diesel facelift (not the EV) or show-stand shots: a rear 3/4 view (rejected, not straight-on) and an HTX Plus front 3/4 view at a show (rejected). No straight-on front or rear of the Clavis EV found. Both photos left null.",
+      "sources": [
+        "https://www.cardekho.com/kia/carens-clavis-ev",
+        "https://www.autocarindia.com/car-news-amp/kia-carens-clavis-ev-launched-at-rs-1799-lakh-436165"
+      ],
+      "notes": "On sale in India (launched Jul 2025, facelift and variant updates since). Variant list is from CarDekho New Delhi; the 6-seat (6Str) versions are omitted as they share prices with the 7-seat ones. Launch prices (Rs 17.99 lakh HTK+) differ from the current list (Rs 18.04 lakh). Power: CarDekho 133 bhp (42 kWh) and 169 bhp (51.4 kWh); Autocar says 135 hp and 171 hp, so CarDekho is used. Torque 255 Nm from both sources. Range ARAI 404 km and 490 km per Autocar; CarDekho calls them claimed figures. DC charging: CarDekho gives 10-80% in 39 min at 100 kW; Autocar gives no DC figure. The 'Carens Clavis' ICE model is a separate entry and is not touched here. Wheels: 17-inch aero alloys on the top variant per Autocar; others not stated. Boot space not found. Airbags: 6 across the range."
+    },
+    {
+      "id": "toyota-urban-cruiser-ev",
+      "brand": "Toyota",
+      "model": "Urban Cruiser EV (Ebella)",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026 (page date not shown)",
+      "engines": {
+        "m61": {
+          "type": "Permanent-magnet synchronous motor (61 kWh pack)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 171.65,
+          "maxPowerRpm": null,
+          "maxTorqueNm": null,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "E3",
+          "wheels": null,
+          "airbags": 7,
+          "features": [
+            "7 airbags",
+            "61 kWh battery",
+            "543 km claimed range (ARAI)",
+            "Boot 310 litres",
+            "Battery-as-a-service rental option (not included in the price)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "E3",
+          "power": "61 kWh AT",
+          "engine": "m61",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "FWD",
+          "priceInr": 2360000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 61,
+            "rangeKm": 543,
+            "rangeStandard": "ARAI",
+            "dcChargeKw": null,
+            "dcChargeNote": "Conflicting figures (70 kW and 150 kW) across sources, so not stated",
+            "acChargeNote": null
+          }
+        }
+      ],
+      "photos": {
+        "front": null,
+        "rear": null
+      },
+      "photoNotes": "Commons category 'Toyota Urban Cruiser (electric)' holds 2025 Zurich show photos of the European model. The front candidates (DSC 3550 and 3551) are 3/4 views, and DSC 3039 (rear) has a show-hall background full of other cars, so all were rejected. No clean straight-on front or rear found. Both photos left null.",
+      "sources": [
+        "https://www.cardekho.com/toyota/urban-cruiser-ebella",
+        "https://www.autocarpro.in/news/toyota-kirloskar-motor-sets-price-for-all-electric-urban-cruiser-ebella-at-rs-2360-lakh-132829?amp=1"
+      ],
+      "notes": "On sale in India (Toyota's first EV, launched Jan 2026; price announced later). Single variant only (E3). Price Rs 23.60 lakh ex-showroom New Delhi per CarDekho and Autocar Pro; a blog quotes Rs 21 lakh, which is not used. Toyota's own site page returned 404, so the source is secondary. The car is a rebadged Maruti Suzuki e Vitara (61 kWh, 543 km ARAI range). Motor output 171.65 bhp per CarDekho; torque not confirmed. DC charging figures conflict (70 kW vs 150 kW). The battery-as-a-service rental (Rs 15.25 lakh + Rs 4.99/km per CarDekho) is not included in the price. Other variants (E1, E2) were not priced at the time of the sources. Name in the site: 'Urban Cruiser EV (Ebella)'. Airbags: 7."
+    }
+  ]
+}

@@ -1,0 +1,2971 @@
+<meta charset="utf-8">
+<title>ThrottleWise</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap">
+<style>
+/* Layout: a white showroom. Sticky brand bar, then the home page (body types, then brands);
+   choosing one swaps in the car list, and a car opens its spec panel below. */
+:root {
+  --bg: #ffffff;
+  --panel: #ffffff;
+  --soft: #f4f6fb;
+  --line: #e3e7ef;
+  --fg: #0e1525;
+  --muted: #5b6478;
+  --accent: #1f4dff;
+  --accent-soft: #e9eeff;
+  --ok: #0f9d63;
+  --warn: #b66a00;
+  --hl: #fff4cf;
+  --font-display: "Sora", "Segoe UI", system-ui, sans-serif;
+  --font-body: "DM Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color-scheme: light;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+[hidden] { display: none !important; } /* hidden must win over any display set below */
+/* Dropdowns: dark text on white everywhere, so dark-mode browsers never draw white-on-white lists. */
+html { color-scheme: light; }
+button, input, textarea { color: var(--fg); }
+select { color: var(--fg); background-color: #fff; color-scheme: light; }
+select option, select optgroup { color: #0e1525; background-color: #ffffff; }
+select option:checked { color: #ffffff; background-color: #1f4dff; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+h1, h2, h3 { font-family: var(--font-display); letter-spacing: -0.01em; text-wrap: balance; }
+.wrap { max-width: 1140px; margin: 0 auto; }
+
+/* Brand bar */
+.topbar {
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  z-index: 5;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+  margin: 0 calc(-1 * max(16px, env(safe-area-inset-left, 0px)));
+  padding: 12px max(16px, env(safe-area-inset-left, 0px));
+}
+.topbar-inner { max-width: 1140px; margin: 0 auto; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.logo { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--fg); background: none; border: 0; padding: 0; cursor: pointer; }
+.logo-mark { width: 38px; height: 38px; flex: none; }
+.logo-word { font-family: var(--font-display); font-weight: 800; font-size: 1.45rem; letter-spacing: -0.035em; line-height: 1; display: inline-block; transform: skewX(-7deg); }
+.logo-word span { color: var(--accent); }
+.logo-tag { display: block; font-family: var(--font-body); font-size: 0.66rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-top: 3px; transform: skewX(7deg); }
+@media (max-width: 480px) { .logo-tag { display: none; } }
+.topbar .search-wrap { flex: 1 1 260px; display: flex; justify-content: flex-end; }
+
+/* Home hero */
+.hero { position: relative; padding: 48px 0 40px; display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 40px; align-items: center; }
+@media (max-width: 860px) { .hero { grid-template-columns: 1fr; padding-top: 36px; } }
+.hero-copy { position: relative; z-index: 1; min-width: 0; }
+.hero h1 { margin: 6px 0 12px; font-size: clamp(2.2rem, 5.6vw, 3.6rem); font-weight: 800; line-height: 1.04; max-width: 14ch; }
+.hero-bg { position: absolute; inset: -40px 0 0; z-index: 0; pointer-events: none; overflow: hidden; }
+html, body { overflow-x: clip; } /* decorations must never cause sideways scrolling */
+.glow { position: absolute; border-radius: 50%; filter: blur(60px); opacity: 0.55; }
+.glow-a { width: 420px; height: 420px; right: 4%; top: 0; background: radial-gradient(circle, #cdd9ff, transparent 70%); }
+.glow-b { width: 320px; height: 320px; left: 30%; bottom: -80px; background: radial-gradient(circle, #ffe0d6, transparent 70%); }
+.speedlines { position: absolute; left: 0; top: 30px; width: 60%; height: 300px; opacity: 0.5; }
+.speedlines path { stroke: #dbe3f5; stroke-width: 3; stroke-linecap: round; stroke-dasharray: 40 18; fill: none; }
+@media (prefers-reduced-motion: no-preference) { .speedlines path { animation: dash 2.4s linear infinite; } @keyframes dash { to { stroke-dashoffset: -116; } } }
+.hero-ctas { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 22px; }
+.btn.big { padding: 13px 20px; font-size: 1rem; font-weight: 700; border-radius: 14px; }
+.btn.big:not(.primary) { background: #fff; border-color: var(--line); }
+
+/* Showcase: one large featured car that crossfades through a set of real photos. */
+.showcase { position: relative; z-index: 1; padding: 18px 0 10px; }
+.feature { position: relative; background: #fff; border-radius: 26px; padding: 10px; box-shadow: 0 30px 60px rgba(14, 21, 37, 0.18), 0 2px 0 rgba(14, 21, 37, 0.04); }
+.feature-stage { position: relative; aspect-ratio: 16 / 9; border-radius: 18px; overflow: hidden; background: #e9edf5; }
+.feature-stage img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transform: scale(1.04); transition: opacity 0.8s ease, transform 4.5s ease-out; }
+.feature-stage img.on { opacity: 1; transform: scale(1); }
+.feature-stage::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 55%, rgba(14, 21, 37, 0.55)); pointer-events: none; }
+.feature-tag { position: absolute; top: 14px; left: 14px; z-index: 2; background: rgba(255, 255, 255, 0.92); color: var(--fg); font-weight: 700; font-size: 0.75rem; padding: 4px 10px; border-radius: 999px; letter-spacing: 0.04em; text-transform: uppercase; }
+.feature-name { position: absolute; left: 18px; bottom: 14px; z-index: 2; color: #fff; display: grid; line-height: 1.1; }
+.feature-name small { font-size: 0.8rem; font-weight: 700; opacity: 0.85; letter-spacing: 0.06em; text-transform: uppercase; }
+.feature-name b { font-family: var(--font-display); font-size: 1.7rem; font-weight: 800; }
+.feature-bar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding: 12px 6px 4px; }
+.feature-specs { display: flex; gap: 8px; flex-wrap: wrap; flex: 1 1 auto; }
+.feature-specs span { background: var(--soft); border-radius: 10px; padding: 6px 10px; display: grid; line-height: 1.15; }
+.feature-specs small { font-size: 0.66rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.feature-specs b { font-family: var(--font-display); font-size: 0.95rem; font-variant-numeric: tabular-nums; }
+.feature-arrow { position: absolute; top: 50%; z-index: 3; transform: translateY(-50%); width: 44px; height: 44px; border-radius: 50%; border: 0; cursor: pointer; background: rgba(255, 255, 255, 0.92); color: var(--fg); font-size: 1.5rem; line-height: 1; display: grid; place-items: center; box-shadow: 0 6px 18px rgba(14, 21, 37, 0.25); transition: background 0.15s, color 0.15s, transform 0.15s; }
+.feature-arrow:hover, .feature-arrow:focus-visible { background: var(--accent); color: #fff; outline: none; transform: translateY(-50%) scale(1.06); }
+.feature-arrow.prev { left: 12px; }
+.feature-arrow.next { right: 12px; }
+.feature-dots { display: flex; gap: 6px; justify-content: center; padding: 10px 0 2px; }
+.feature-dots button { width: 9px; height: 9px; border-radius: 999px; border: 0; padding: 0; background: #d3d9e6; cursor: pointer; transition: width 0.25s, background 0.25s; }
+.feature-dots button.on { width: 26px; background: var(--accent); }
+@media (max-width: 560px) { .chip-float { display: none; } }
+.chip-float { position: absolute; z-index: 3; background: #fff; border-radius: 14px; padding: 8px 12px; box-shadow: 0 12px 30px rgba(14, 21, 37, 0.16); display: grid; line-height: 1.2; }
+.chip-float small { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.chip-float b { font-family: var(--font-display); font-size: 1.05rem; color: var(--fg); }
+.chip-float.c1 { right: 22px; top: -6px; }
+.chip-float.c2 { right: -16px; bottom: 112px; }
+.chip-float.c3 { left: 22px; top: -6px; }
+@media (prefers-reduced-motion: no-preference) {
+  .chip-float { animation: float 4s ease-in-out infinite; }
+  .chip-float.c2 { animation-delay: -1.3s; } .chip-float.c3 { animation-delay: -2.6s; }
+  @keyframes float { 50% { transform: translateY(-8px); } }
+}
+
+/* Scrolling brand strip */
+.marquee { position: relative; display: flex; align-items: center; gap: 8px; overflow: hidden; border-block: 1px solid var(--line); margin: 6px calc(-1 * max(16px, env(safe-area-inset-left, 0px))) 30px; padding: 14px 0; background: var(--soft); }
+.marquee-track { display: flex; gap: 14px; width: max-content; }
+.mq-brand { font: inherit; font-family: var(--font-display); font-weight: 800; font-size: 1.1rem; letter-spacing: -0.01em; color: #2a3346; background: #fff; border: 1px solid var(--line); border-radius: 999px; padding: 8px 18px; cursor: pointer; white-space: nowrap; transition: background 0.15s, color 0.15s, border-color 0.15s; }
+.mq-brand::before { content: "●"; color: var(--accent); font-size: 0.55rem; margin-right: 8px; vertical-align: middle; }
+.mq-brand:hover, .mq-brand:focus-visible { background: var(--accent); border-color: var(--accent); color: #fff; outline: none; }
+.mq-brand:hover::before, .mq-brand:focus-visible::before { color: #fff; }
+
+.marquee-scroller { flex: 1 1 auto; min-width: 0; overflow-x: auto; scrollbar-width: thin; padding-bottom: 6px; }
+.marquee-scroller::-webkit-scrollbar { height: 6px; }
+.marquee-scroller::-webkit-scrollbar-thumb { background: #c9d1e2; border-radius: 999px; }
+.mq-arrow { flex: none; width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--line); background: #fff; color: var(--fg); font-size: 1.4rem; line-height: 1; cursor: pointer; display: grid; place-items: center; box-shadow: 0 4px 12px rgba(14, 21, 37, 0.1); margin: 0 8px; }
+.mq-arrow:hover, .mq-arrow:focus-visible { background: var(--accent); border-color: var(--accent); color: #fff; outline: none; }
+
+/* Popular picks carousel */
+.picks-row { display: flex; gap: 14px; overflow-x: auto; padding: 4px 2px 12px; scroll-snap-type: x mandatory; }
+.pick { flex: 0 0 230px; scroll-snap-align: start; text-align: left; font: inherit; color: var(--fg); background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: 0; overflow: hidden; cursor: pointer; display: grid; transition: transform 0.15s, box-shadow 0.15s; }
+.pick:hover, .pick:focus-visible { transform: translateY(-3px); box-shadow: 0 14px 30px rgba(14, 21, 37, 0.12); outline: none; border-color: var(--accent); }
+.pick .pic { position: relative; aspect-ratio: 16 / 10; background: var(--soft); }
+.pick .pic img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pick .pic em { position: absolute; top: 10px; left: 10px; font-style: normal; font-size: 0.72rem; font-weight: 700; background: #fff; color: var(--fg); padding: 3px 9px; border-radius: 999px; }
+.pick .info { padding: 12px 14px 14px; display: grid; gap: 2px; }
+.pick .info small { color: var(--muted); font-size: 0.8rem; }
+.pick .info b { font-family: var(--font-display); font-size: 1.1rem; }
+.pick .info strong { color: var(--accent); font-family: var(--font-display); font-size: 0.98rem; margin-top: 4px; }
+.hero h1 em { font-style: normal; color: var(--accent); }
+.hero p { margin: 0; color: var(--muted); max-width: 60ch; font-size: 1.05rem; }
+.stats { display: flex; gap: 28px; flex-wrap: wrap; margin-top: 22px; }
+.stats div { display: grid; }
+.stats b { font-family: var(--font-display); font-size: 1.5rem; font-variant-numeric: tabular-nums; }
+.stats span { color: var(--muted); font-size: 0.85rem; }
+.section-head .eyebrow { display: block; margin-bottom: 2px; }
+.section-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+.section-head h2 { margin: 0; font-size: 1.35rem; }
+.eyebrow { font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+
+/* Body type tiles */
+.type-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px; }
+.type-tile {
+  display: grid; gap: 6px; text-align: left; cursor: pointer; font: inherit; color: var(--fg);
+  background: var(--soft); border: 1px solid transparent; border-radius: 18px; padding: 18px;
+}
+.type-tile svg { width: 100%; height: 64px; color: var(--fg); }
+.type-tile svg .body { fill: var(--accent-soft); stroke: var(--fg); stroke-width: 2.2; stroke-linejoin: round; }
+.type-tile svg .wheel { fill: #fff; stroke: var(--fg); stroke-width: 2.2; }
+.type-tile b { font-family: var(--font-display); font-size: 1.1rem; }
+.type-tile span { color: var(--muted); font-size: 0.88rem; }
+.type-tile { transition: transform 0.15s, box-shadow 0.15s, background 0.15s; }
+.type-tile:hover, .type-tile:focus-visible { border-color: var(--accent); background: #fff; outline: none; box-shadow: 0 14px 32px rgba(31, 77, 255, 0.16); transform: translateY(-3px); }
+.type-tile:hover svg .body { fill: #d6e0ff; }
+.brand-tile { transition: transform 0.15s, box-shadow 0.15s; }
+.brand-tile:hover { transform: translateY(-2px); box-shadow: 0 10px 22px rgba(14, 21, 37, 0.08); }
+
+/* Brand tiles */
+.brand-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+.brand-tile {
+  display: grid; gap: 2px; text-align: left; cursor: pointer; font: inherit; color: var(--fg);
+  background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px;
+}
+.brand-tile b { font-family: var(--font-display); font-size: 1rem; }
+.brand-tile span { color: var(--muted); font-size: 0.82rem; }
+.brand-tile:hover, .brand-tile:focus-visible { border-color: var(--accent); outline: none; }
+
+/* Results view */
+.results-head { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 28px 0 6px; }
+.results-head h2 { margin: 0; font-size: 1.6rem; }
+.back { background: none; border: 0; color: var(--accent); font: inherit; font-weight: 700; cursor: pointer; padding: 6px 0; }
+.results .chips { justify-content: flex-start; }
+#search {
+  width: min(420px, 100%);
+  padding: 12px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--fg);
+  font: inherit;
+}
+.chips { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin-top: 12px; }
+.chip, .btn {
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--fg);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.9rem;
+}
+.chip.active, .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn.active { background: var(--ok); border-color: var(--ok); color: #fff; }
+.btn:focus-visible, #search:focus-visible, input[type="range"]:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+section { margin-bottom: 36px; }
+h2 { margin: 0 0 14px; font-size: 1.4rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+.card .brand { color: var(--muted); font-size: 0.85rem; }
+.card .thumb {
+  width: calc(100% + 32px);
+  max-width: none;
+  margin: -16px -16px 6px;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 14px 14px 0 0;
+  background: var(--line);
+}
+#brandChips { margin-top: 8px; }
+.card h3 { margin: 0; font-size: 1.1rem; }
+.meta { color: var(--muted); font-size: 0.9rem; }
+.badge {
+  align-self: flex-start;
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--warn);
+  color: var(--warn);
+}
+.badge.ok { border-color: var(--ok); color: var(--ok); background: #e9f8f1; font-weight: 700; }
+.actions { display: flex; gap: 8px; margin-top: auto; padding-top: 8px; flex-wrap: wrap; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; background: var(--panel); border-radius: 12px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); font-size: 0.95rem; vertical-align: top; }
+th { color: var(--muted); font-weight: 600; }
+td a { color: var(--accent); word-break: break-all; }
+.detail-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.detail { display: grid; grid-template-columns: 1fr 1.3fr; gap: 24px; align-items: start; }
+/* Left column stays in view while the long spec table scrolls past. */
+.detail-left { display: grid; gap: 14px; min-width: 0; }
+@media (min-width: 761px) {
+  /* Pinned, but never taller than the screen: if the photo and meters don't fit, they scroll inside. */
+  .detail-left { position: sticky; top: calc(84px + env(safe-area-inset-top, 0px)); max-height: calc(100vh - 100px); overflow-y: auto; scrollbar-width: thin; padding-right: 2px; }
+}
+.glance { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: grid; gap: 14px; }
+.glance h3 { margin: 0; font-size: 1rem; }
+.engine-art { background: var(--soft); border-radius: 12px; padding: 12px; display: grid; gap: 6px; }
+.engine-art svg { width: 100%; height: auto; display: block; }
+.engine-art .cap { font-size: 0.85rem; color: var(--muted); text-align: center; }
+.engine-art .cap b { color: var(--fg); }
+.meter { display: grid; gap: 4px; }
+.meter-top { display: flex; justify-content: space-between; gap: 8px; font-size: 0.85rem; }
+.meter-top span { color: var(--muted); font-weight: 700; }
+.meter-top b { font-family: var(--font-display); font-variant-numeric: tabular-nums; }
+.meter-bar { position: relative; height: 10px; border-radius: 999px; background: linear-gradient(90deg, #e3e8f4, #c9d4f3); }
+.meter-bar i { position: absolute; top: 50%; width: 16px; height: 16px; border-radius: 50%; background: var(--accent); border: 3px solid #fff; box-shadow: 0 2px 6px rgba(14, 21, 37, 0.3); transform: translate(-50%, -50%); transition: left 0.4s ease; }
+.meter small { color: var(--muted); font-size: 0.78rem; }
+.detail > * { min-width: 0; }
+@media (max-width: 760px) { .detail { grid-template-columns: 1fr; } }
+.car-art {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+.car-art { flex-direction: column; align-items: stretch; justify-content: flex-start; gap: 10px; }
+.car-art .note { margin: 0; text-align: center; }
+.stage {
+  position: relative;
+  aspect-ratio: 3 / 2;
+  max-width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--line);
+  cursor: grab;
+  touch-action: pan-y;
+  user-select: none;
+  transition: transform 0.2s ease-out;
+}
+.stage:active { cursor: grabbing; }
+.stage:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.stage img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 0.35s ease; }
+.stage img.shown { opacity: 1; }
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.nav.prev { left: 8px; }
+.nav.next { right: 8px; }
+.angles { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+.credit a { color: var(--accent); }
+@media (prefers-reduced-motion: reduce) { .stage, .stage img { transition: none; } }
+.sound-panel { margin-top: 16px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
+.sound-panel h3 { margin: 0 0 4px; }
+.note { color: var(--muted); font-size: 0.85rem; margin: 0 0 12px; }
+.sound-row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.sound-row input[type="range"] { width: 180px; max-width: 100%; }
+#rpmReadout { font-variant-numeric: tabular-nums; min-width: 90px; }
+.variant-bar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+.variant-label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 600; }
+.variant-chips { justify-content: flex-start; margin-top: 0; }
+.variant-chips .chip { font-size: 0.85rem; padding: 6px 12px; }
+.variant-price { font-size: 1.25rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.variant-price small { font-size: 0.8rem; font-weight: 400; color: var(--muted); }
+.features { margin-top: 16px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
+.features h3 { margin: 0 0 8px; }
+.feature-summary { margin: 0 0 12px; color: var(--muted); font-size: 0.9rem; }
+.feature-group { display: grid; gap: 6px; }
+.feature-group + .feature-group { margin-top: 14px; }
+.feature-group h4 { margin: 0; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.feature-group ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 4px; }
+.feature-group li { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.mark { width: 1.1em; flex: none; font-weight: 700; }
+li.has .mark { color: var(--ok); }
+li.missing { color: var(--muted); }
+li.new { font-weight: 600; }
+.pill { font-size: 0.7rem; font-weight: 700; padding: 1px 7px; border-radius: 999px; background: var(--accent); color: #fff; }
+tr.changed th, tr.changed td { background: var(--hl); }
+tr.changed th { box-shadow: inset 3px 0 0 var(--accent); }
+.was { display: block; font-size: 0.8rem; color: var(--muted); text-decoration: line-through; }
+.delta { font-size: 0.8rem; font-weight: 600; padding: 2px 8px; border-radius: 999px; margin-left: 6px; border: 1px solid; }
+.delta.up { color: var(--warn); }
+.delta.down { color: var(--ok); }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (prefers-reduced-motion: no-preference) {
+  tr.changed td { animation: flash 1s ease-out; }
+  @keyframes flash { from { background: var(--accent); color: #fff; } }
+}
+.creator { margin: 56px 0 12px; padding-top: 40px; border-top: 1px solid var(--line); }
+.creator-head { max-width: 62ch; margin-bottom: 26px; }
+.creator-head h2 { margin: 6px 0 0; font-size: clamp(1.5rem, 3.2vw, 2.1rem); line-height: 1.15; }
+.creator-grid { display: grid; grid-template-columns: 300px 1fr; gap: 28px; align-items: start; }
+@media (max-width: 820px) { .creator-grid { grid-template-columns: 1fr; } }
+.creator-profile { position: sticky; top: calc(84px + env(safe-area-inset-top, 0px)); background: linear-gradient(160deg, #f4f6fb, #e9eeff); border: 1px solid var(--line); border-radius: 22px; padding: 26px; display: grid; gap: 6px; text-align: center; justify-items: center; }
+@media (max-width: 820px) { .creator-profile { position: static; } }
+.creator-avatar { width: 92px; height: 92px; border-radius: 50%; object-fit: cover; display: block; background: #0e1525; border: 3px solid #fff; box-shadow: 0 0 0 3px var(--accent), 0 14px 30px rgba(31, 77, 255, 0.32); margin-bottom: 8px; }
+.creator-profile h3 { margin: 0; font-size: 1.45rem; }
+.creator-role { margin: 0; font-weight: 700; color: var(--accent); font-size: 0.95rem; }
+.creator-sub { margin: 0 0 12px; color: var(--muted); font-size: 0.88rem; }
+.creator-contact { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+.creator-profile code { font-size: 0.85rem; background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; user-select: all; margin-top: 6px; }
+.creator-story { min-width: 0; }
+.creator-story .lead { font-size: 1.12rem; line-height: 1.6; color: var(--fg); margin: 0 0 14px; }
+.creator-story p { color: var(--muted); max-width: 68ch; margin: 0 0 14px; line-height: 1.65; }
+.creator-story h3 { margin: 22px 0 10px; font-size: 1.1rem; }
+.creator-points { list-style: none; padding: 0; margin: 0 0 22px; display: grid; gap: 10px; }
+.creator-points li { position: relative; padding-left: 28px; color: var(--muted); line-height: 1.55; max-width: 68ch; }
+.creator-points li::before { content: "✓"; position: absolute; left: 0; top: 0; width: 20px; height: 20px; border-radius: 50%; background: var(--accent-soft); color: var(--accent); font-weight: 800; font-size: 0.78rem; display: grid; place-items: center; }
+.creator-points strong { color: var(--fg); }
+.creator-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin: 0 0 20px; }
+.creator-stats div { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 14px; display: grid; gap: 2px; }
+.creator-stats b { font-family: var(--font-display); font-size: 1.55rem; color: var(--accent); font-variant-numeric: tabular-nums; }
+.creator-stats span { color: var(--muted); font-size: 0.82rem; font-weight: 600; }
+.creator-close { font-style: italic; }
+footer a { color: var(--accent); font-weight: 600; }
+.site-footer { margin-top: 48px; padding: 40px 0 110px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+.footer-grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 28px; }
+@media (max-width: 760px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 460px) { .footer-grid { grid-template-columns: 1fr; } }
+.footer-brand .logo-word { font-size: 1.3rem; display: inline-block; transform: skewX(-7deg); color: var(--fg); }
+.footer-brand p { margin: 10px 0 0; max-width: 40ch; line-height: 1.6; }
+.footer-stamp { font-size: 0.8rem; color: var(--muted); }
+.footer-col { display: grid; gap: 6px; align-content: start; }
+.footer-col h4 { margin: 0 0 4px; font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--fg); }
+.footer-link { font: inherit; text-align: left; background: none; border: 0; padding: 2px 0; color: var(--muted); cursor: pointer; text-decoration: none; }
+.footer-link:hover, .footer-link:focus-visible { color: var(--accent); outline: none; text-decoration: underline; }
+.footer-base { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 0.82rem; }
+.policy p { color: var(--fg); line-height: 1.65; max-width: 68ch; margin: 0 0 12px; }
+.policy p strong { color: var(--fg); }
+.policy .meta { color: var(--muted); }
+.loading { grid-column: 1 / -1; padding: 28px; text-align: center; color: var(--muted); border: 1px dashed var(--line); border-radius: 16px; animation: pulse 1.4s ease-in-out infinite; }
+@keyframes pulse { 50% { opacity: 0.45; } }
+@media (prefers-reduced-motion: reduce) { .loading { animation: none; } }
+.to-top { position: fixed; left: calc(18px + env(safe-area-inset-left, 0px)); bottom: calc(18px + env(safe-area-inset-bottom, 0px)); z-index: 20; width: 46px; height: 46px; border-radius: 50%; border: 1px solid var(--line); background: #fff; color: var(--fg); font-size: 1.3rem; cursor: pointer; box-shadow: 0 8px 20px rgba(14, 21, 37, 0.18); display: grid; place-items: center; }
+.to-top:hover, .to-top:focus-visible { background: var(--accent); color: #fff; border-color: var(--accent); outline: none; }
+
+/* Tools strip: quiz and battle entry cards on the home page. */
+.tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+.tool-card {
+  display: grid; gap: 6px; text-align: left; cursor: pointer; font: inherit; color: #fff;
+  border: 0; border-radius: 20px; padding: 22px; min-height: 150px; align-content: start;
+}
+.quiz-card { background: linear-gradient(135deg, #1f4dff, #4f7bff); }
+.battle-card { background: linear-gradient(135deg, #0e1525, #3a1c2e 70%, #ff4d3d 140%); }
+.tool-card .tool-icon { font-size: 1.6rem; }
+.tool-card b { font-family: var(--font-display); font-size: 1.35rem; }
+.tool-card span { opacity: 0.88; max-width: 38ch; }
+.tool-card em { font-style: normal; font-weight: 700; margin-top: 4px; }
+.tool-card:hover, .tool-card:focus-visible { outline: none; transform: translateY(-2px); box-shadow: 0 14px 30px rgba(14, 21, 37, 0.22); }
+
+/* Recently viewed and price watch */
+.recent-row { display: flex; gap: 12px; overflow-x: auto; padding-bottom: 6px; }
+.recent-tile { flex: 0 0 150px; display: grid; gap: 4px; text-align: left; font: inherit; color: var(--fg); background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 0 0 10px; cursor: pointer; overflow: hidden; }
+.recent-tile img, .recent-tile .noimg { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; background: var(--soft); display: block; }
+.recent-tile b, .recent-tile span { padding: 0 10px; }
+.recent-tile span { color: var(--muted); font-size: 0.8rem; }
+.watch-list { display: grid; gap: 10px; }
+.watch-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; }
+.watch-row b { font-family: var(--font-display); }
+.watch-row .grow { flex: 1 1 200px; min-width: 0; }
+.watch-row .tag { font-size: 0.78rem; font-weight: 700; padding: 3px 10px; border-radius: 999px; background: var(--soft); color: var(--muted); }
+.watch-row .tag.drop { background: #e3f7ee; color: var(--ok); }
+.watch-row .tag.up { background: #fff1e0; color: var(--warn); }
+.drop-banner { margin-top: 16px; background: #e3f7ee; color: #0b6b43; border: 1px solid #b9ead3; border-radius: 14px; padding: 12px 16px; font-weight: 600; }
+.detail-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.btn.watching { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+
+/* Modal used by the quiz, battle and share card */
+.modal { position: fixed; inset: 0; z-index: 30; background: rgba(14, 21, 37, 0.55); display: grid; place-items: center; padding: max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+.modal-card { position: relative; background: #fff; border-radius: 22px; width: min(720px, 100%); max-width: calc(100vw - 32px); box-sizing: border-box; overflow-wrap: anywhere; max-height: 100%; overflow-y: auto; padding: 26px; box-shadow: 0 30px 80px rgba(0, 0, 0, 0.3); }
+.modal-close { position: absolute; top: 12px; right: 14px; border: 0; background: #0e1525; color: #ffffff; width: 38px; height: 38px; border-radius: 50%; font-size: 1.5rem; line-height: 1; cursor: pointer; display: grid; place-items: center; box-shadow: 0 4px 12px rgba(14, 21, 37, 0.25); z-index: 1; }
+.modal-close:hover, .modal-close:focus-visible { background: var(--accent); outline: none; }
+.modal h2 { margin: 0 0 6px; font-size: 1.5rem; }
+.progress { height: 6px; background: var(--soft); border-radius: 999px; overflow: hidden; margin: 14px 0 18px; }
+.progress div { height: 100%; background: var(--accent); transition: width 0.25s; }
+.q-step { font-size: 0.8rem; font-weight: 700; color: var(--accent); letter-spacing: 0.06em; text-transform: uppercase; }
+.q-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; margin-top: 14px; }
+.q-option { font: inherit; color: var(--fg); text-align: left; padding: 14px 16px; border-radius: 14px; border: 1.5px solid var(--line); background: #fff; cursor: pointer; display: grid; gap: 2px; }
+.q-option b { font-family: var(--font-display); color: var(--fg); font-size: 1.02rem; }
+.q-option span { color: var(--muted); font-size: 0.85rem; }
+.q-option:hover, .q-option:focus-visible { border-color: var(--accent); background: var(--accent-soft); outline: none; }
+.q-nav { display: flex; justify-content: space-between; margin-top: 18px; }
+.match { display: grid; grid-template-columns: 120px 1fr; gap: 14px; align-items: center; border: 1px solid var(--line); border-radius: 16px; padding: 12px; margin-top: 12px; }
+.match img, .match .noimg { width: 120px; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 10px; background: var(--soft); }
+.match ul { margin: 6px 0 8px; padding-left: 18px; color: var(--muted); font-size: 0.9rem; }
+.match .rank { font-family: var(--font-display); font-weight: 800; color: var(--accent); }
+@media (max-width: 520px) { .match { grid-template-columns: 1fr; } .match img, .match .noimg { width: 100%; } }
+
+/* Car Battle */
+.battle-picks { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: end; margin-top: 12px; }
+.battle-picks label { display: grid; gap: 4px; font-size: 0.85rem; font-weight: 700; }
+.battle-picks select { font: inherit; color: var(--fg); padding: 10px; border-radius: 10px; border: 1px solid var(--line); background: #fff; min-width: 0; }
+.vs { font-family: var(--font-display); font-weight: 800; color: var(--accent); padding-bottom: 10px; }
+@media (max-width: 520px) { .battle-picks { grid-template-columns: 1fr; } .vs { padding: 0; } }
+.race-track { position: relative; margin: 18px 0 8px; border-radius: 14px; background: repeating-linear-gradient(90deg, #f4f6fb 0 28px, #eef1f7 28px 56px); padding: 10px 0; overflow: hidden; }
+.lane { position: relative; height: 46px; border-bottom: 2px dashed #d9deea; }
+.lane:last-child { border-bottom: 0; }
+.lane .racer { position: absolute; left: 4%; top: 6px; width: 72px; transition: left 0.6s cubic-bezier(.3,.9,.3,1); }
+.lane .racer svg { width: 72px; height: 32px; display: block; }
+.finish { position: absolute; top: 0; bottom: 0; right: 6%; width: 8px; background: repeating-linear-gradient(0deg, #0e1525 0 6px, #fff 6px 12px); }
+.rounds { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 6px; }
+.rounds li { display: grid; grid-template-columns: 110px 1fr 1fr; gap: 8px; align-items: center; font-size: 0.9rem; padding: 8px 10px; border-radius: 10px; background: var(--soft); animation: pop-in 0.3s ease-out; }
+.rounds li .win { font-weight: 800; color: var(--ok); }
+.rounds li .lose { color: var(--muted); }
+@keyframes pop-in { from { opacity: 0; transform: translateY(6px); } }
+.winner { margin-top: 14px; padding: 16px; border-radius: 16px; text-align: center; background: linear-gradient(135deg, #fff4cf, #ffe2d9); font-family: var(--font-display); font-size: 1.2rem; font-weight: 800; }
+
+.cost-card { background: linear-gradient(135deg, #0f9d63, #29c48a); }
+
+/* On-road price, EMI and running-cost calculator */
+.calc-picks { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin-top: 12px; }
+.calc-picks label, .calc-row label { display: grid; gap: 4px; font-size: 0.82rem; font-weight: 700; color: var(--muted); }
+.calc-picks select, .calc-row input, .calc-row select { font: inherit; color: var(--fg); padding: 9px 10px; border-radius: 10px; border: 1px solid var(--line); background: #fff; min-width: 0; width: 100%; box-sizing: border-box; }
+.calc-section { margin-top: 18px; border: 1px solid var(--line); border-radius: 16px; padding: 16px; }
+.calc-section h3 { margin: 0 0 10px; font-size: 1.05rem; }
+.calc-row { display: grid; grid-template-columns: 1fr 150px; gap: 10px; align-items: center; padding: 6px 0; border-bottom: 1px dashed var(--line); }
+.calc-row:last-of-type { border-bottom: 0; }
+.calc-row .why { display: block; font-weight: 400; font-size: 0.78rem; color: var(--muted); }
+.calc-row .name { font-weight: 600; color: var(--fg); font-size: 0.92rem; }
+.calc-total { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-top: 10px; padding-top: 10px; border-top: 2px solid var(--fg); }
+.calc-total b { font-family: var(--font-display); font-size: 1.6rem; color: var(--accent); font-variant-numeric: tabular-nums; }
+.calc-grid3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.calc-out { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-top: 12px; }
+.calc-out div { background: var(--soft); border-radius: 12px; padding: 10px 12px; }
+.calc-out span { display: block; font-size: 0.78rem; color: var(--muted); font-weight: 700; }
+.calc-out b { font-family: var(--font-display); font-size: 1.15rem; font-variant-numeric: tabular-nums; }
+@media (max-width: 520px) { .calc-row { grid-template-columns: 1fr; } }
+
+/* Share card preview */
+.share-preview { width: 100%; max-width: 360px; display: block; margin: 12px auto; border-radius: 16px; box-shadow: 0 10px 30px rgba(14, 21, 37, 0.18); }
+
+/* Floating push-to-start button, styled like a car's engine start/stop button. */
+.start-dock {
+  position: fixed;
+  right: calc(18px + env(safe-area-inset-right, 0px));
+  bottom: calc(18px + env(safe-area-inset-bottom, 0px));
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.start-hint {
+  background: var(--fg);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateX(6px);
+  transition: opacity 0.2s, transform 0.2s;
+  pointer-events: none;
+}
+.start-dock:hover .start-hint, .start-btn:focus-visible + .start-hint, .start-dock.running .start-hint { opacity: 1; transform: none; }
+.start-btn {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  background: radial-gradient(circle at 35% 30%, #fdfdfd, #c9ced8 55%, #8d94a3 100%);
+  box-shadow: 0 10px 24px rgba(14, 21, 37, 0.28), inset 0 -3px 6px rgba(0, 0, 0, 0.18);
+  display: grid;
+  place-items: center;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  transition: transform 0.08s;
+}
+.start-btn:active { transform: scale(0.95); }
+.start-btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.start-face {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 35%, #2a2f3a, #0b0e14 75%);
+  border: 2px solid #3a404d;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 1px;
+  color: #e9ecf2;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.5rem;
+  letter-spacing: 0.08em;
+  line-height: 1.15;
+  text-align: center;
+  transition: box-shadow 0.25s, border-color 0.25s;
+}
+.start-face svg { width: 16px; height: 16px; margin-bottom: 2px; color: #9aa3b5; transition: color 0.25s; }
+.start-dock.running .start-face { border-color: #ff4d3d; box-shadow: 0 0 0 3px rgba(255, 77, 61, 0.35), 0 0 22px rgba(255, 77, 61, 0.55); }
+.start-dock.running .start-face svg { color: #ff4d3d; }
+.start-dock.revving .start-face { box-shadow: 0 0 0 4px rgba(255, 77, 61, 0.55), 0 0 34px rgba(255, 77, 61, 0.85); }
+/* Rev ring around the button: fills and warms from blue to red as revs climb. */
+.start-wrap { position: relative; width: 96px; height: 96px; display: grid; place-items: center; }
+.rev-ring { position: absolute; inset: 0; transform: rotate(135deg); pointer-events: none; }
+.rev-ring circle { fill: none; stroke-width: 5; stroke-linecap: round; }
+.rev-ring .track { stroke: rgba(14, 21, 37, 0.08); stroke-dasharray: 203 271; }
+.rev-ring .fill { stroke: url(#rev-grad); stroke-dasharray: 0 271; transition: stroke-dasharray 0.06s linear; filter: drop-shadow(0 0 4px rgba(255, 77, 61, 0.35)); }
+.start-dock .start-hint { order: -1; }
+/* Little exhaust puffs that drift up and fade while revving. */
+.puff {
+  position: absolute; left: 50%; bottom: 8px; width: 14px; height: 14px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(140, 150, 170, 0.55), rgba(140, 150, 170, 0));
+  pointer-events: none; animation: puff 0.9s ease-out forwards;
+}
+@keyframes puff {
+  from { transform: translate(-50%, 0) scale(0.6); opacity: 0.9; }
+  to { transform: translate(calc(-50% + var(--dx)), -46px) scale(2.4); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) { .puff { display: none; } }
+@media (prefers-reduced-motion: no-preference) {
+  .start-dock:not(.running) .start-btn { animation: breathe 2.6s ease-in-out infinite; }
+  @keyframes breathe { 0%, 100% { box-shadow: 0 10px 24px rgba(14, 21, 37, 0.28), 0 0 0 0 rgba(31, 77, 255, 0.0), inset 0 -3px 6px rgba(0, 0, 0, 0.18); } 50% { box-shadow: 0 10px 24px rgba(14, 21, 37, 0.28), 0 0 0 8px rgba(31, 77, 255, 0.12), inset 0 -3px 6px rgba(0, 0, 0, 0.18); } }
+  .start-dock.running .start-btn { animation: idle-shake 0.12s infinite alternate; }
+  .start-dock.revving .start-btn { animation-duration: 0.05s; }
+  @keyframes idle-shake { from { transform: translate(0, 0); } to { transform: translate(0.6px, -0.6px); } }
+}
+@media (prefers-reduced-motion: no-preference) { .card { transition: transform 0.15s ease; } .card:hover { transform: translateY(-2px); } }
+</style>
+
+<div class="wrap">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <button class="logo" id="homeLink" aria-label="ThrottleWise home">
+        <!-- Rev-counter badge: dial arc, tick marks, a red redline zone and the needle pushed into it. -->
+        <svg class="logo-mark" viewBox="0 0 38 38" aria-hidden="true">
+          <defs>
+            <linearGradient id="tw-badge" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#2f5bff"/>
+              <stop offset="1" stop-color="#1235c9"/>
+            </linearGradient>
+          </defs>
+          <rect width="38" height="38" rx="11" fill="url(#tw-badge)"/>
+          <path d="M9 25.5a10.5 10.5 0 0 1 17.4-7.9" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+          <path d="M26.4 17.6a10.5 10.5 0 0 1 2.6 7.9" fill="none" stroke="#ff4d3d" stroke-width="2.6" stroke-linecap="round"/>
+          <path d="M11.6 19.3l1.6 1M15.2 16l.8 1.7M19.5 15v1.9" stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity="0.8"/>
+          <path d="M19.5 25.5l7.2-5.4" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+          <circle cx="19.5" cy="25.5" r="2.6" fill="#fff"/>
+        </svg>
+        <span>
+          <span class="logo-word">Throttle<span>Wise</span></span>
+          <span class="logo-tag">Every variant, full throttle</span>
+        </span>
+      </button>
+      <div class="search-wrap">
+        <input id="search" type="search" placeholder="Search a car, brand or trim" aria-label="Search cars">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="homeView">
+      <section class="hero">
+        <!-- Decorative backdrop: soft colour glows and speed lines behind the hero. -->
+        <div class="hero-bg" aria-hidden="true">
+          <span class="glow glow-a"></span><span class="glow glow-b"></span>
+          <svg class="speedlines" viewBox="0 0 600 300" preserveAspectRatio="none">
+            <path d="M0 60 H380"/><path d="M60 110 H520"/><path d="M0 170 H300"/><path d="M120 230 H560"/><path d="M20 270 H240"/>
+          </svg>
+        </div>
+        <div class="hero-copy">
+          <span class="eyebrow">India's new-car guide</span>
+          <h1>Know your next car <em>inside out.</em></h1>
+          <p>Every variant of every car, with real prices, engine specs, mileage and features, plus what changes when you step up a trim.</p>
+          <div class="hero-ctas">
+            <button class="btn primary big" id="heroQuiz">🧭 Find my car</button>
+            <button class="btn big" id="heroBattle">⚔️ Start a Car Battle</button>
+          </div>
+          <div class="stats" id="stats"></div>
+        </div>
+        <div class="showcase" id="showcase"></div>
+      </section>
+
+      <nav class="marquee" aria-label="Browse by brand">
+        <button class="mq-arrow prev" data-mq="-1" aria-label="Scroll brands left">‹</button>
+        <div class="marquee-scroller" id="marqueeScroller"><div class="marquee-track" id="marquee"></div></div>
+        <button class="mq-arrow next" data-mq="1" aria-label="Scroll brands right">›</button>
+      </nav>
+
+      <div class="drop-banner" id="dropBanner" hidden></div>
+
+      <section class="tools">
+        <button class="tool-card quiz-card" id="openQuiz">
+          <span class="tool-icon" aria-hidden="true">🧭</span>
+          <b>Find my car</b>
+          <span>Answer 6 quick questions and get your 3 best matches, with reasons.</span>
+          <em>Start the quiz →</em>
+        </button>
+        <button class="tool-card battle-card" id="openBattle">
+          <span class="tool-icon" aria-hidden="true">⚔️</span>
+          <b>Car Battle</b>
+          <span>Pick any two cars and watch them fight it out on real specs, round by round.</span>
+          <em>Start a battle →</em>
+        </button>
+        <button class="tool-card cost-card" id="openCalc" hidden>
+          <span class="tool-icon" aria-hidden="true">🧮</span>
+          <b>On-road price & EMI</b>
+          <span>See the real on-road price in your city, your monthly EMI and your fuel cost per month.</span>
+          <em>Calculate →</em>
+        </button>
+      </section>
+
+      <section id="recentSection" hidden>
+        <div class="section-head"><h2>Recently viewed</h2></div>
+        <div class="recent-row" id="recentRow"></div>
+      </section>
+
+      <section id="watchSection" hidden>
+        <div class="section-head"><h2>Your price watch</h2><span class="meta">Saved on this device. Drops show up here when you visit.</span></div>
+        <div class="watch-list" id="watchList"></div>
+      </section>
+
+      <section>
+        <div class="section-head"><div><span class="eyebrow">Hand-picked</span><h2>Popular picks</h2></div><span class="meta">Swipe to see more →</span></div>
+        <div class="picks-row" id="picksRow"></div>
+      </section>
+
+      <section>
+        <div class="section-head"><div><span class="eyebrow">Shop by shape</span><h2>Browse by body type</h2></div></div>
+        <div class="type-grid" id="typeGrid"><div class="loading" aria-live="polite">Loading cars…</div></div>
+      </section>
+
+      <section>
+        <div class="section-head"><div><span class="eyebrow" id="makerCount">Makers</span><h2>Browse by brand</h2></div></div>
+        <div class="brand-grid" id="brandGrid"><div class="loading">Loading brands…</div></div>
+      </section>
+    </div>
+
+    <section class="results" id="resultsView" hidden>
+      <button class="back" id="backHome">← All categories</button>
+      <div class="results-head"><h2 id="resultsTitle">Cars</h2><span id="carCount" class="meta"></span></div>
+      <div class="chips" id="fuelChips"></div>
+      <div class="chips" id="brandChips"></div>
+      <div class="grid" id="grid" style="margin-top: 18px"></div>
+    </section>
+
+    <section id="compareSection" hidden>
+      <h2>Compare <span id="compareCount"></span></h2>
+      <div class="table-wrap"><table id="compareTable"></table></div>
+    </section>
+
+    <section id="detailSection" hidden>
+      <div class="detail-head">
+        <h2 id="detailTitle"></h2>
+        <div class="detail-actions">
+          <button id="watchBtn" class="btn">🔔 Notify me if cheaper</button>
+          <button id="calcBtn" class="btn primary" hidden>🧮 On-road price & EMI</button>
+          <button id="shareBtn" class="btn">Share card</button>
+          <button id="closeDetail" class="btn">Close</button>
+        </div>
+      </div>
+      <div class="detail">
+        <div class="detail-left">
+          <div class="car-art" id="carArt"></div>
+          <div class="glance" id="glance"></div>
+        </div>
+        <div>
+          <div class="variant-bar" id="variantBar" hidden>
+            <span class="variant-label">Variant</span>
+            <div class="chips variant-chips" id="variantChips" role="group" aria-label="Choose a trim"></div>
+            <span class="variant-label">Engine and gearbox</span>
+            <div class="chips variant-chips" id="powerChips" role="group" aria-label="Choose engine and gearbox"></div>
+            <span class="variant-price" id="variantPrice"></span>
+          </div>
+          <div class="table-wrap"><table id="specTable"></table></div>
+          <div class="features" id="featureBox" hidden>
+            <h3 id="featureTitle">What this variant adds</h3>
+            <p class="feature-summary" id="featureSummary"></p>
+            <div id="featureList"></div>
+          </div>
+          <div class="sound-panel">
+            <h3>Engine sound simulator</h3>
+            <p class="note" id="soundNote">Synthesised from this engine's cylinders, size, turbo and RPM, so each car sounds different. It is an approximation, not a recording of this car.</p>
+            <div class="sound-row">
+              <button id="soundToggle" class="btn primary">Start engine</button>
+              <label>Throttle <input id="throttle" type="range" min="0" max="100" value="0"></label>
+              <span id="rpmReadout" aria-live="polite">0 rpm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="modal" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <button class="to-top" id="toTop" aria-label="Back to top" hidden>↑</button>
+
+  <div class="start-dock" id="startDock">
+    <div class="start-wrap" id="startWrap">
+    <svg class="rev-ring" viewBox="0 0 96 96" aria-hidden="true">
+      <defs>
+        <linearGradient id="rev-grad" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#2f5bff"/><stop offset="0.6" stop-color="#ff9f1c"/><stop offset="1" stop-color="#ff3b30"/>
+        </linearGradient>
+      </defs>
+      <circle class="track" cx="48" cy="48" r="43"/>
+      <circle class="fill" id="revFill" cx="48" cy="48" r="43"/>
+    </svg>
+    <button class="start-btn" id="startBtn" aria-label="Engine start stop. Tap to start, hold to rev, tap again to stop." aria-pressed="false">
+      <span class="start-face">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true">
+          <path d="M12 3v8"/><path d="M6.3 6.8a8 8 0 1 0 11.4 0"/>
+        </svg>
+        ENGINE<br>START<br>STOP
+      </span>
+    </button>
+    </div>
+    <span class="start-hint" id="startHint">Tap to start</span>
+  </div>
+
+  <section class="creator" id="creator" aria-labelledby="creatorTitle">
+    <div class="creator-head">
+      <span class="eyebrow">About the creator</span>
+      <h2 id="creatorTitle">Built by a car enthusiast, for every new buyer in India</h2>
+    </div>
+    <div class="creator-grid">
+      <aside class="creator-profile">
+        <img class="creator-avatar" src="photos/creator-avatar.png" alt="Harshal Singh's avatar: an astronaut helmet illustration" width="92" height="92">
+        <h3>Harshal Singh</h3>
+        <p class="creator-role">Founder &amp; Developer, ThrottleWise</p>
+        <p class="creator-sub">Class 10 student · India</p>
+        <div class="creator-contact">
+          <a class="btn primary" href="mailto:sparkxd46@gmail.com">✉️ Email me</a>
+          <button class="btn" id="copyEmail" type="button">Copy email</button>
+        </div>
+        <code id="creatorEmail">sparkxd46@gmail.com</code>
+        <p class="meta" id="copyEmailMsg" aria-live="polite"></p>
+      </aside>
+      <div class="creator-story">
+        <p class="lead">I'm Harshal, a Class 10 student with a lifelong love of cars. ThrottleWise started with one frustration: when my family looked at buying a new car, the information was scattered across dozens of websites, often out of date, and almost never explained <em>why</em> one variant cost more than another.</p>
+        <p>So I set out to build the site I wished existed. One place where every variant of every car sold in India is laid out clearly, where you can see exactly what you gain when you step up a trim, and where every number can be traced back to a real source.</p>
+        <h3>How ThrottleWise is built</h3>
+        <ul class="creator-points">
+          <li><strong>Researched, not copied.</strong> Every price, engine figure, mileage claim and feature list is checked against manufacturer websites and cross-referenced with CarDekho, CarWale and Autocar India.</li>
+          <li><strong>Honest about gaps.</strong> Where no reliable source confirms a figure, the site shows <strong>NA</strong>. It never fills a blank with a guess, and estimates are always labelled as estimates.</li>
+          <li><strong>Built for decisions.</strong> The Find-My-Car quiz, Car Battle, variant comparison and the 50-city on-road price and EMI calculator exist to help you choose, not just to browse.</li>
+          <li><strong>Free and independent.</strong> No dealer sponsorships, no paid placements. The rankings and comparisons are driven by the specs alone.</li>
+        </ul>
+        <div class="creator-stats" id="creatorStats" aria-label="ThrottleWise in numbers"></div>
+        <p class="creator-close">ThrottleWise is a living project and I update it as new cars launch and prices change. If you spot an error, have a suggestion, or just want to talk cars, I'd genuinely love to hear from you.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo-word">Throttle<span>Wise</span></span>
+        <p>Every variant of every car sold in India, explained honestly. Real prices, real specs, and <strong>NA</strong> wherever a figure isn't confirmed.</p>
+        <p class="footer-stamp" id="footerStamp"></p>
+      </div>
+      <nav class="footer-col" aria-label="Explore">
+        <h4>Explore</h4>
+        <button class="footer-link" data-nav="home">Home</button>
+        <button class="footer-link" data-nav="quiz">Find my car</button>
+        <button class="footer-link" data-nav="battle">Car Battle</button>
+        <button class="footer-link" data-nav="calc">On-road price &amp; EMI</button>
+      </nav>
+      <nav class="footer-col" aria-label="Browse">
+        <h4>Browse</h4>
+        <button class="footer-link" data-nav-type="SUV">SUVs</button>
+        <button class="footer-link" data-nav-type="Hatchback">Hatchbacks</button>
+        <button class="footer-link" data-nav-type="Sedan">Sedans</button>
+        <button class="footer-link" data-nav-fuel="Electric">Electric cars</button>
+      </nav>
+      <nav class="footer-col" aria-label="About">
+        <h4>About</h4>
+        <a class="footer-link" href="#creator">About the creator</a>
+        <button class="footer-link" data-nav="privacy">Privacy policy</button>
+        <button class="footer-link" data-nav="disclaimer">Disclaimer</button>
+        <a class="footer-link" href="mailto:sparkxd46@gmail.com">Contact</a>
+      </nav>
+    </div>
+    <div class="footer-base">
+      <span>© <span id="footerYear"></span> ThrottleWise · Built by <a href="#creator">Harshal Singh</a></span>
+      <span>Prices are ex-showroom and change often. Confirm the final figure with your dealer.</span>
+    </div>
+  </footer>
+
+  <!-- Policy pages open in the same modal the quiz and calculator use. -->
+  <template id="privacyText">
+    <span class="q-step">Privacy policy</span>
+    <h2 id="modalTitle">Your privacy on ThrottleWise</h2>
+    <div class="policy">
+      <p><strong>What we collect: nothing about you.</strong> ThrottleWise has no accounts, no sign-ups and no tracking. We do not collect your name, email, phone number or location, and we do not use analytics or advertising cookies.</p>
+      <p><strong>What stays on your device.</strong> Your recently viewed cars, your price-watch list and your quiz answers are saved only in your own browser (its local storage), so the site can show them to you next time. They never leave your device and we cannot see them. Clearing your browser data removes them.</p>
+      <p><strong>Third parties.</strong> Fonts are loaded from Google Fonts, and the site is hosted on Netlify. Each may see standard technical information such as your IP address when your browser requests a file, as any website does. We do not share any data with anyone.</p>
+      <p><strong>Email.</strong> If you choose to email the creator, your message is handled like any normal email and is not stored anywhere else.</p>
+      <p><strong>Changes.</strong> If this policy ever changes, the date below will be updated. Questions: <a href="mailto:sparkxd46@gmail.com">sparkxd46@gmail.com</a>.</p>
+      <p class="meta">Last updated: 31 October 2026</p>
+    </div>
+  </template>
+  <template id="disclaimerText">
+    <span class="q-step">Disclaimer</span>
+    <h2 id="modalTitle">Please read before you rely on a number</h2>
+    <div class="policy">
+      <p><strong>Information, not advice.</strong> ThrottleWise is an independent guide built to help you compare cars. It is not a dealer, a manufacturer or a financial adviser, and nothing here is a quote or an offer.</p>
+      <p><strong>Prices change.</strong> All prices are ex-showroom figures researched from manufacturer websites and portals such as CarDekho, CarWale and Autocar India, and are dated where shown. Manufacturers revise prices often, and dealers add their own charges, so always confirm the final on-road price with your dealer before deciding.</p>
+      <p><strong>Specifications.</strong> Engine, mileage and feature figures are the manufacturer's claimed values unless labelled otherwise. Real-world mileage and performance vary with driving conditions. Where a figure is marked <strong>NA</strong>, no reliable source confirmed it, and we chose to show nothing rather than guess. Figures marked "estimate" or "pre-facelift" are explained in the data and should be treated with care.</p>
+      <p><strong>Calculators.</strong> The on-road price, EMI and running-cost calculator uses researched road-tax slabs and typical rates as defaults. Road tax, insurance and loan terms vary by state, insurer and bank. The result is an estimate for guidance only.</p>
+      <p><strong>Photos and trademarks.</strong> Car photos are used under free licences from Wikimedia Commons and are credited beneath each image, or were supplied by the creator. Where a photo shows another market's version or an earlier look, it is labelled. Car names and logos belong to their manufacturers. ThrottleWise is not affiliated with any car company.</p>
+      <p><strong>Found an error?</strong> Tell us at <a href="mailto:sparkxd46@gmail.com">sparkxd46@gmail.com</a> and we will check and fix it.</p>
+      <p class="meta">Last updated: 31 October 2026</p>
+    </div>
+  </template>
+</div>
+
+<script>
+const CARS = [
+  {
+    id: "maruti-ertiga-zxi-petrol", brand: "Maruti Suzuki", model: "Ertiga", variant: "ZXi Petrol (MT)",
+    bodyType: "MPV", fuel: "Petrol", transmission: "Manual, 5-speed", drivetrain: "FWD", seats: 7,
+    engine: { type: "K15 petrol, naturally aspirated", cylinders: 4, displacementCc: 1462, aspiration: "Naturally aspirated",
+      maxPowerBhp: 101.6, maxPowerRpm: 6000, maxTorqueNm: 139, maxTorqueRpm: 4300, idleRpm: 800, redlineRpm: 6500 },
+    mileageArai: "20.51 kmpl", fuelTankL: 45, verified: false,
+    sourceUrl: "https://www.autocarindia.com/cars/maruti-suzuki/ertiga/specifications"
+  },
+  {
+    id: "tata-tiago-revotron-petrol", brand: "Tata", model: "Tiago", variant: "1.2 Revotron Petrol",
+    bodyType: "Hatchback", fuel: "Petrol", transmission: "Manual, 5-speed", drivetrain: "FWD", seats: 5,
+    engine: { type: "Revotron 1.2 petrol, naturally aspirated", cylinders: 3, displacementCc: 1199, aspiration: "Naturally aspirated",
+      maxPowerBhp: 84.8, maxPowerRpm: 6000, maxTorqueNm: 113, maxTorqueRpm: 3300, idleRpm: 800, redlineRpm: 6500 },
+    mileageArai: null, fuelTankL: 35, verified: false, sourceUrl: "https://www.carwale.com"
+  },
+  {
+    id: "maruti-swift-z12e-petrol", brand: "Maruti Suzuki", model: "Swift", variant: "Z-series Petrol (MT)",
+    bodyType: "Hatchback", fuel: "Petrol", transmission: "Manual, 5-speed", drivetrain: "FWD", seats: 5,
+    engine: { type: "Z12E petrol, naturally aspirated", cylinders: 3, displacementCc: 1197, aspiration: "Naturally aspirated",
+      maxPowerBhp: 81.8, maxPowerRpm: 5700, maxTorqueNm: 112.4, maxTorqueRpm: 4500, idleRpm: 800, redlineRpm: 6500 },
+    mileageArai: "24.8 kmpl", fuelTankL: 37, verified: false, sourceUrl: "https://www.autocarindia.com"
+  },
+  {
+    id: "mahindra-thar-2-0-petrol", brand: "Mahindra", model: "Thar", variant: "2.0 mStallion Petrol",
+    bodyType: "SUV (Off-road)", fuel: "Petrol", transmission: "Manual, 6-speed", drivetrain: "RWD / 4WD (varies by variant)", seats: 4,
+    engine: { type: "2.0 mStallion turbo petrol (G20 TGDi)", cylinders: 4, displacementCc: 1997, aspiration: "Turbocharged",
+      maxPowerBhp: 160, maxPowerRpm: null, maxTorqueNm: 330, maxTorqueRpm: null, idleRpm: 750, redlineRpm: 6000 },
+    mileageArai: null, fuelTankL: 57, verified: false, sourceUrl: "https://www.mahindra.com"
+  }
+];
+
+// Variant line-ups researched on 21 Oct 2026. Prices come from the manufacturer's price page
+// (no city stated; CarDekho lists the same figures as ex-showroom New Delhi). Mileage is the
+// manufacturer's claimed figure. Where sources disagreed, the manufacturer figure is used.
+const MARUTI_PRICE = "marutisuzuki.com, Oct 2026";
+const ERTIGA_CNG = { maxPowerBhp: 86.6, maxPowerRpm: 5500, maxTorqueNm: 121.5, maxTorqueRpm: 4200 };
+const SWIFT_CNG = { maxPowerBhp: 69, maxPowerRpm: 5700, maxTorqueNm: 101.8, maxTorqueRpm: 2900 };
+const VARIANT_DATA = {
+  "maruti-ertiga-zxi-petrol": [
+    { trim: "LXi", power: "Petrol MT", fuel: "Petrol", transmission: "Manual, 5-speed", priceInr: 890000, mileage: "20.51 kmpl", wheels: "15-inch steel (185/65 R15)", airbags: 6,
+      features: ["6 airbags", "ESP with Hill Hold", "Halogen projector headlamps", "Manual AC (front)", "ISOFIX child-seat mounts"] },
+    { trim: "VXi", power: "Petrol MT", fuel: "Petrol", transmission: "Manual, 5-speed", priceInr: 995300, mileage: "20.51 kmpl", wheels: "15-inch steel (185/65 R15)", airbags: 6,
+      features: ["2nd- and 3rd-row AC vents", "Electrically adjustable and retractable mirrors", "Body-coloured mirrors with turn indicators", "Keyless central locking", "Electric tailgate release", "Extra 12V outlet"] },
+    { trim: "VXi", power: "Petrol AT", fuel: "Petrol", transmission: "Automatic, 6-speed (torque converter)", priceInr: 1130300, mileage: "20.30 kmpl", wheels: "15-inch steel (185/65 R15)", airbags: 6,
+      features: ["6-speed torque-converter automatic"] },
+    { trim: "VXi", power: "CNG MT", fuel: "CNG", transmission: "Manual, 5-speed", priceInr: 1093800, mileage: "26.11 km/kg", wheels: "15-inch steel (185/65 R15)", airbags: 6, engine: ERTIGA_CNG,
+      features: ["Factory-fitted S-CNG kit"] },
+    { trim: "ZXi", power: "Petrol MT", fuel: "Petrol", transmission: "Manual, 5-speed", priceInr: 1101500, mileage: "20.51 kmpl", wheels: "Alloy (size not confirmed)", airbags: 6, default: true,
+      features: ["7-inch SmartPlay Pro touchscreen", "Android Auto and Apple CarPlay (wired)", "Automatic climate control", "6 speakers", "Alloy wheels", "Driver seat height adjustment"] },
+    { trim: "ZXi", power: "Petrol AT", fuel: "Petrol", transmission: "Automatic, 6-speed (torque converter)", priceInr: 1236500, mileage: "20.30 kmpl", wheels: "Alloy (size not confirmed)", airbags: 6,
+      features: ["6-speed torque-converter automatic", "Paddle shifters"] },
+    { trim: "ZXi", power: "CNG MT", fuel: "CNG", transmission: "Manual, 5-speed", priceInr: 1200000, mileage: "26.11 km/kg", wheels: "Alloy (size not confirmed)", airbags: 6, engine: ERTIGA_CNG,
+      features: ["Factory-fitted S-CNG kit"] },
+    { trim: "ZXi+", power: "Petrol MT", fuel: "Petrol", transmission: "Manual, 5-speed", priceInr: 1179100, mileage: "20.51 kmpl", wheels: "Alloy (size not confirmed)", airbags: 6,
+      features: ["Wireless Android Auto and Apple CarPlay", "ARKAMYS Surround Sense audio", "Tyre pressure monitoring"] },
+    { trim: "ZXi+", power: "Petrol AT", fuel: "Petrol", transmission: "Automatic, 6-speed (torque converter)", priceInr: 1314100, mileage: "20.30 kmpl", wheels: "Alloy (size not confirmed)", airbags: 6,
+      features: ["6-speed automatic with paddle shifters"] },
+  ],
+  "maruti-swift-z12e-petrol": [
+    { trim: "LXi", power: "Petrol MT", fuel: "Petrol", transmission: "Manual, 5-speed", priceInr: 583900, mileage: "24.8 kmpl", wheels: "14-inch steel (165/80 R14)", airbags: 6,
+      features: ["6 airbags", "ESP", "Manual AC", "Power windows", "Keyless entry", "Halogen projector headlamps"] },
+    { trim: "VXi", power: "Petrol MT", fuel: "Petrol", transmission: "Manual, 5-speed", priceInr: 667900, mileage: "24.8 kmpl", wheels: "14-inch steel with covers", airbags: 6,
+      features: ["7-inch touchscreen", "Wireless Android Auto and Apple CarPlay", "4-speaker audio", "Steering-mounted controls", "Power-adjustable mirrors", "Height-adjustable driver seat"] },
+    { trim: "VXi", power: "Petrol AMT", fuel: "Petrol", transmission: "AMT, 5-speed", priceInr: 712900, mileage: "25.75 kmpl", wheels: "14-inch steel with covers", airbags: 6,
+      features: ["5-speed AMT (AGS)"] },
+    { trim: "VXi", power: "CNG MT", fuel: "CNG", transmission: "Manual, 5-speed", priceInr: 757400, mileage: "32.85 km/kg", wheels: "14-inch steel (165/80 R14)", airbags: 6, engine: SWIFT_CNG,
+      features: ["Factory-fitted S-CNG kit"] },
+    { trim: "VXi", power: "CNG AMT", fuel: "CNG", transmission: "AMT, 5-speed", priceInr: 792400, mileage: "35.34 km/kg", wheels: null, airbags: 6, engine: SWIFT_CNG,
+      features: ["CNG with 5-speed AMT (launched Sep 2026)"] },
+    { trim: "VXi (O)", power: "Petrol MT", fuel: "Petrol", transmission: "Manual, 5-speed", priceInr: 693900, mileage: "24.8 kmpl", wheels: "14-inch steel with covers", airbags: 6,
+      features: ["Push-button start with smart key", "Electrically folding mirrors", "Suzuki Connect connected-car features"] },
+    { trim: "VXi (O)", power: "Petrol AMT", fuel: "Petrol", transmission: "AMT, 5-speed", priceInr: 738900, mileage: "25.75 kmpl", wheels: "14-inch steel with covers", airbags: 6,
+      features: ["5-speed AMT (AGS)"] },
+    { trim: "VXi (O)", power: "CNG MT", fuel: "CNG", transmission: "Manual, 5-speed", priceInr: 783400, mileage: "32.85 km/kg", wheels: null, airbags: 6, engine: SWIFT_CNG,
+      features: ["Factory-fitted S-CNG kit"] },
+    { trim: "VXi (O)", power: "CNG AMT", fuel: "CNG", transmission: "AMT, 5-speed", priceInr: 818400, mileage: "35.34 km/kg", wheels: null, airbags: 6, engine: SWIFT_CNG,
+      features: ["CNG with 5-speed AMT (launched Sep 2026)"] },
+    { trim: "ZXi", power: "Petrol MT", fuel: "Petrol", transmission: "Manual, 5-speed", priceInr: 761900, mileage: "24.8 kmpl", wheels: "15-inch alloy", airbags: 6, default: true,
+      features: ["LED projector headlamps with LED DRLs", "15-inch alloy wheels", "Wireless phone charger", "Automatic climate control", "Rear wiper and washer"] },
+    { trim: "ZXi", power: "Petrol AMT", fuel: "Petrol", transmission: "AMT, 5-speed", priceInr: 806900, mileage: "25.75 kmpl", wheels: "15-inch alloy", airbags: 6,
+      features: ["5-speed AMT (AGS)"] },
+    { trim: "ZXi", power: "CNG MT", fuel: "CNG", transmission: "Manual, 5-speed", priceInr: 851400, mileage: "32.85 km/kg", wheels: "15-inch alloy", airbags: 6, engine: SWIFT_CNG,
+      features: ["Factory-fitted S-CNG kit"] },
+    { trim: "ZXi", power: "CNG AMT", fuel: "CNG", transmission: "AMT, 5-speed", priceInr: 886400, mileage: "35.34 km/kg", wheels: "15-inch alloy", airbags: 6, engine: SWIFT_CNG,
+      features: ["CNG with 5-speed AMT (launched Sep 2026)"] },
+    { trim: "ZXi+", power: "Petrol MT", fuel: "Petrol", transmission: "Manual, 5-speed", priceInr: 843900, mileage: "24.8 kmpl", wheels: "15-inch dual-tone precision-cut alloy", airbags: 6,
+      features: ["9-inch touchscreen", "Cruise control", "Rear parking camera", "Front LED fog lamps", "Dual-tone precision-cut alloys"] },
+    { trim: "ZXi+", power: "Petrol AMT", fuel: "Petrol", transmission: "AMT, 5-speed", priceInr: 888900, mileage: "25.75 kmpl", wheels: "15-inch dual-tone precision-cut alloy", airbags: 6,
+      features: ["5-speed AMT (AGS)"] },
+  ],
+  // Tiago facelift (launched 28 May 2026). Tata's site could not be loaded, so prices are
+  // CarDekho's New Delhi figures. ARAI mileage for the facelift is not yet published.
+  "tata-tiago-revotron-petrol": tiagoVariants(),
+  // Thar OG (relaunched 22 Sep 2026). Prices are introductory (valid to 30 Nov 2026), from
+  // CarDekho New Delhi, matching Spinny. Mileage not yet published.
+  "mahindra-thar-2-0-petrol": tharVariants(),
+};
+for (const id of ["maruti-ertiga-zxi-petrol", "maruti-swift-z12e-petrol"]) {
+  VARIANT_DATA[id].forEach((v) => { v.priceNote = MARUTI_PRICE; });
+}
+
+function tiagoVariants() {
+  const cng = { type: "1.2 Revotron petrol-CNG (iCNG)", maxPowerBhp: 74.4, maxPowerRpm: 6000, maxTorqueNm: 96.5, maxTorqueRpm: 3500 };
+  const amt = ["5-speed AMT", "Paddle shifters"];
+  // [trim, wheels, trim features, [powertrain, price, wheels override]...]
+  const trims = [
+    ["Smart", "13-inch steel (no covers)",
+      ["Halogen headlamps", "LED tail lamps", "Manual AC", "Semi-digital driver display", "Tilt steering", "Rear parking sensors", "No music system"],
+      [["Petrol MT", 476990], ["CNG MT", 586990, "14-inch steel"]]],
+    ["Pure", "14-inch steel with covers",
+      ["2 speakers with steering audio controls", "Central locking", "Power windows all round", "Electric mirrors with turn indicators", "Height-adjustable driver seat", "Rear defogger", "Follow-me-home headlamps"],
+      [["Petrol MT", 556990], ["Petrol AMT", 609990], ["CNG MT", 657990], ["CNG AMT", 712990]]],
+    ["Pure Plus", "14-inch steel with covers",
+      ["8-inch touchscreen", "Wireless Android Auto and Apple CarPlay", "4 speakers", "Cruise control", "Push-button start", "Reverse camera", "ESC, traction control and hill hold", "Tyre pressure monitoring, 65W USB-C"],
+      [["Petrol MT", 609990, undefined, true], ["Petrol AMT", 664990], ["CNG MT", 709990], ["CNG AMT", 764990]]],
+    ["Pure Plus A", "14-inch styled steel",
+      ["Automatic climate control", "Rear AC vents", "Front centre armrest", "Rear wiper and washer", "Rain-sensing wipers", "Auto headlamps", "Chrome door handles"],
+      [["Petrol MT", 655990], ["Petrol AMT", 710990], ["CNG MT", 756990], ["CNG AMT", 811990]]],
+    ["Creative", "15-inch dual-tone alloy",
+      ["LED headlamps and LED DRLs", "10.25-inch touchscreen", "360-degree camera with blind view monitor", "15-inch dual-tone alloys", "Power-folding mirrors", "One-touch driver window", "Cooled glovebox"],
+      [["Petrol MT", 705990], ["Petrol AMT", 760990], ["CNG MT", 806990, null], ["CNG AMT", 861990, null]]],
+    ["Creative Plus", "15-inch dual-tone alloy",
+      ["LED front fog lamps", "Wireless phone charger", "Rear 65W USB-C port", "Connected car tech (iRA)", "Dual-tone paint option"],
+      [["Petrol MT", 735990], ["Petrol AMT", 790990]]],
+  ];
+  const list = [];
+  for (const [trim, wheels, trimFeatures, powertrains] of trims) {
+    for (const [power, priceInr, wheelOverride, isDefault] of powertrains) {
+      const isCng = power.startsWith("CNG");
+      const isAmt = power.endsWith("AMT");
+      list.push({
+        trim, power, priceInr,
+        fuel: isCng ? "CNG" : "Petrol",
+        transmission: isAmt ? "AMT, 5-speed" : "Manual, 5-speed",
+        // Tata hasn't published facelift figures yet. The engines are carried over, so show
+        // the pre-facelift ARAI-certified figures, labelled as such.
+        mileage: `${isCng ? (isAmt ? "28.06 km/kg" : "26.49 km/kg") : (isAmt ? "19.0 kmpl" : "19.01 kmpl")} (pre-facelift ARAI)`,
+        // Creative CNG wheel size is unconfirmed (alloys may be petrol-only).
+        wheels: wheelOverride === undefined ? wheels : wheelOverride,
+        airbags: 6,
+        engine: isCng ? cng : undefined,
+        features: power === "Petrol MT" ? trimFeatures : isAmt ? amt : [`${trim} features with factory CNG kit`],
+        priceNote: "CarDekho New Delhi, Oct 2026",
+        default: isDefault,
+      });
+    }
+  }
+  return list;
+}
+
+function tharVariants() {
+  const d15 = { type: "1.5 D117 CRDe diesel", displacementCc: 1497, aspiration: "Turbocharged diesel", maxPowerBhp: 117, maxPowerRpm: null, maxTorqueNm: 300, maxTorqueRpm: null, idleRpm: 750, redlineRpm: 4500 };
+  const p20 = { type: "2.0 mStallion turbo petrol (G20 TGDi)", displacementCc: 1997, aspiration: "Turbocharged", maxPowerBhp: 160, maxPowerRpm: null, maxTorqueNm: 330, maxTorqueRpm: null };
+  const d22 = { type: "2.2 mHawk diesel (D22)", displacementCc: 2184, aspiration: "Turbocharged diesel", maxPowerBhp: 150, maxPowerRpm: 3750, maxTorqueNm: 330, maxTorqueRpm: "1500–3000", idleRpm: 750, redlineRpm: 4500 };
+  const fourWd = ["4WD with electronic locking differential", "Mud, Sand and Snow terrain modes"];
+  const powertrains = {
+    "1.5 Diesel RWD MT": { engine: d15, fuel: "Diesel", transmission: "Manual, 6-speed", drivetrain: "RWD", extra: [] },
+    "2.0 Petrol RWD AT": { engine: p20, fuel: "Petrol", transmission: "Automatic, 6-speed (torque converter)", drivetrain: "RWD", extra: ["6-speed torque-converter automatic", "Terrain assist"] },
+    "2.0 Petrol 4WD MT": { engine: p20, fuel: "Petrol", transmission: "Manual, 6-speed", drivetrain: "4WD", extra: fourWd },
+    "2.0 Petrol 4WD AT": { engine: p20, fuel: "Petrol", transmission: "Automatic, 6-speed (torque converter)", drivetrain: "4WD", extra: ["6-speed torque-converter automatic", ...fourWd] },
+    "2.2 Diesel RWD AT": { engine: d22, fuel: "Diesel", transmission: "Automatic, 6-speed (torque converter)", drivetrain: "RWD", extra: ["6-speed torque-converter automatic", "Terrain assist"] },
+    "2.2 Diesel 4WD MT": { engine: d22, fuel: "Diesel", transmission: "Manual, 6-speed", drivetrain: "4WD", extra: fourWd },
+    "2.2 Diesel 4WD AT": { engine: d22, fuel: "Diesel", transmission: "Automatic, 6-speed (torque converter)", drivetrain: "4WD", extra: ["6-speed torque-converter automatic", ...fourWd] },
+  };
+  const trims = [
+    ["AXT", "18-inch steel", 2,
+      ["Keyless entry and push-button start", "ESP with rollover mitigation", "Hill hold and hill descent control", "Brake-locking differential", "Manual AC with rear vents", "50:50 split rear seat"],
+      { "1.5 Diesel RWD MT": 1032000 }],
+    ["LXT", "18-inch alloy", 2,
+      ["18-inch alloys", "10.25-inch touchscreen", "Wireless Android Auto and Apple CarPlay", "6 speakers", "Cruise control", "Colour driver display", "Rear wiper and washer"],
+      { "1.5 Diesel RWD MT": 1299000, "2.0 Petrol RWD AT": 1477000, "2.0 Petrol 4WD MT": 1560000, "2.0 Petrol 4WD AT": 1723000,
+        "2.2 Diesel RWD AT": 1649000, "2.2 Diesel 4WD MT": 1643000, "2.2 Diesel 4WD AT": 1800000 }],
+    ["ZXT", "19-inch alloy (255/60 R19)", 6,
+      ["6 airbags", "19-inch alloys", "LED headlamps, DRLs and cornering fog lamps", "Four-wheel disc brakes and tyre pressure monitoring", "Rear camera and front parking sensors", "Wireless charger", "Leatherette seats", "Frequency-dependent dampers"],
+      { "1.5 Diesel RWD MT": 1399000, "2.0 Petrol RWD AT": 1609000, "2.0 Petrol 4WD MT": 1660000, "2.0 Petrol 4WD AT": 1775000,
+        "2.2 Diesel RWD AT": 1749000, "2.2 Diesel 4WD MT": 1749000, "2.2 Diesel 4WD AT": 1899000 }],
+  ];
+  const list = [];
+  for (const [trim, wheels, airbags, trimFeatures, prices] of trims) {
+    for (const [power, priceInr] of Object.entries(prices)) {
+      const p = powertrains[power];
+      list.push({
+        trim, power, priceInr, wheels, airbags,
+        fuel: p.fuel, transmission: p.transmission, drivetrain: p.drivetrain, engine: p.engine,
+        // Mahindra hasn't published Thar OG figures. These are the figures most car sites
+        // agree on (V3Cars, CarLelo), so they are labelled as unofficial.
+        mileage: p.fuel === "Diesel" ? "15.2 kmpl (unofficial estimate)" : "12.4 kmpl (unofficial estimate)",
+        features: power === "1.5 Diesel RWD MT" ? trimFeatures : p.extra,
+        priceNote: "CarDekho New Delhi, introductory till 30 Nov 2026",
+        default: trim === "LXT" && power === "2.0 Petrol 4WD MT",
+      });
+    }
+  }
+  return list;
+}
+
+// Bump this whenever a data file changes, so browsers fetch the new copy instead of a cached one.
+const DATA_VERSION = "2026-10-31b";
+const state = { query: "", fuel: "All", brand: "All brands", bodyType: null, compare: [], currentId: null, variantIndex: 0 };
+const $ = (sel) => document.querySelector(sel);
+
+const SPEC_ROWS = [
+  ["Brand", (c) => c.brand],
+  ["Model", (c) => c.model],
+  ["Variant", (c) => c.variant],
+  ["Body type", (c) => c.bodyType],
+  ["Fuel", (c) => c.fuel],
+  ["Engine", (c) => c.engine.type],
+  ["Cylinders", (c) => isEV(c) ? null : c.engine.cylinders],
+  ["Displacement", (c) => isEV(c) ? null : unit(c.engine.displacementCc, "cc")],
+  ["Aspiration", (c) => isEV(c) ? null : c.engine.aspiration],
+  ["Battery", (c) => isEV(c) ? unit(c.ev?.batteryKwh, "kWh") : null],
+  ["Range (claimed)", (c) => isEV(c) ? (c.ev?.rangeKm ? `${c.ev.rangeKm} km${c.ev.rangeStandard ? ` (${c.ev.rangeStandard})` : ""}` : null) : null],
+  ["DC fast charging", (c) => isEV(c) ? [c.ev?.dcChargeKw ? `${c.ev.dcChargeKw} kW` : null, c.ev?.dcChargeNote].filter(Boolean).join(", ") || null : null],
+  ["AC charging", (c) => isEV(c) ? c.ev?.acChargeNote ?? null : null],
+  ["Max power", (c) => withRpm(unit(c.engine.maxPowerBhp, "bhp"), c.engine.maxPowerRpm)],
+  ["Max torque", (c) => withRpm(unit(c.engine.maxTorqueNm, "Nm"), c.engine.maxTorqueRpm)],
+  ["Transmission", (c) => c.transmission],
+  ["Drivetrain", (c) => c.drivetrain],
+  ["Seats", (c) => c.seats],
+  ["Mileage (claimed)", (c) => isEV(c) ? null : (c.mileageArai ?? "NA")],
+  ["Fuel tank", (c) => isEV(c) ? null : unit(c.fuelTankL, "L")],
+  ["Price (ex-showroom Delhi)", (c) => (c.priceInr ? formatInr(c.priceInr) : "NA")],
+  ["Wheels", (c) => c.wheels ?? "NA"],
+  ["Airbags", (c) => c.airbags ?? "NA"],
+  ["Data status", (c) => (c.priceNote ? `Verified Oct 2026 · cross-checked against manufacturer and portal data (price: ${c.priceNote})` : "Pending verification")]
+];
+
+const isEV = (c) => c.fuel === "Electric";
+
+function withRpm(value, rpm) {
+  return value && rpm ? `${value} @ ${rpm} rpm` : value;
+}
+
+function unit(value, suffix) {
+  return value == null ? null : `${value} ${suffix}`;
+}
+
+// Every table cell goes through this, so a value the research couldn't confirm reads
+// "NA" (not available) instead of "null" or "undefined".
+function cell(car, get) {
+  const v = get(car);
+  return v == null || v === "" ? "NA" : String(v);
+}
+
+function formatInr(n) {
+  return n >= 100000 ? `₹${(n / 100000).toFixed(2)} lakh` : `₹${n.toLocaleString("en-IN")}`;
+}
+
+// --- Variants ----------------------------------------------------------------
+// Each variant only lists what differs from the car's base entry; withVariant merges them.
+// VARIANT_DATA is filled in below from researched spec pages.
+function withVariant(car, v) {
+  if (!v) return car;
+  return {
+    ...car,
+    variant: v.name ?? `${v.trim} ${v.power}`,
+    fuel: v.fuel ?? car.fuel,
+    transmission: v.transmission ?? car.transmission,
+    drivetrain: v.drivetrain ?? car.drivetrain,
+    // An explicit null mileage means "not published", so don't fall back to the base car.
+    mileageArai: "mileage" in v ? v.mileage : car.mileageArai,
+    priceInr: v.priceInr ?? null,
+    priceNote: v.priceNote ?? null,
+    ev: v.ev ?? null,
+    wheels: v.wheels ?? null,
+    airbags: v.airbags ?? null,
+    features: v.features ?? [],
+    engine: { ...car.engine, ...(v.engine ?? {}) },
+  };
+}
+
+function variantsOf(car) {
+  return (typeof VARIANT_DATA !== "undefined" && VARIANT_DATA[car.id]) || [];
+}
+
+function startingPrice(car) {
+  const prices = variantsOf(car).map((v) => v.priceInr).filter(Boolean);
+  return prices.length ? Math.min(...prices) : null;
+}
+
+function defaultVariantIndex(car) {
+  const list = variantsOf(car);
+  const i = list.findIndex((v) => v.default);
+  return i >= 0 ? i : 0;
+}
+
+// The car as currently shown in the detail view, with the chosen variant applied.
+function currentCar() {
+  const car = CARS.find((c) => c.id === state.currentId);
+  if (!car) return null;
+  return withVariant(car, variantsOf(car)[state.variantIndex]);
+}
+
+const esc = (s) => String(s).replace(/[&<>"']/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
+
+// Fuels a car is sold with, across all its variants (a car can be petrol and diesel).
+function fuelsOf(car) {
+  const fuels = variantsOf(car).map((v) => v.fuel ?? car.fuel);
+  return new Set(fuels.length ? fuels : [car.fuel]);
+}
+
+function renderFuelChips() {
+  const fuels = ["All", ...new Set(CARS.flatMap((c) => [...fuelsOf(c)]))];
+  $("#fuelChips").innerHTML = fuels
+    .map((f) => `<button class="chip ${f === state.fuel ? "active" : ""}" data-fuel="${esc(f)}">${esc(f)}</button>`)
+    .join("");
+  const brands = ["All brands", ...new Set(CARS.map((c) => c.brand))];
+  $("#brandChips").innerHTML = brands
+    .map((b) => `<button class="chip ${b === state.brand ? "active" : ""}" data-brand="${esc(b)}">${esc(b)}</button>`)
+    .join("");
+}
+
+function filteredCars() {
+  const q = state.query.trim().toLowerCase();
+  return CARS.filter((c) => {
+    const haystack = `${c.brand} ${c.model} ${c.bodyType} ${variantsOf(c).map((v) => v.trim).join(" ")}`.toLowerCase();
+    return (state.fuel === "All" || fuelsOf(c).has(state.fuel))
+      && (state.brand === "All brands" || c.brand === state.brand)
+      && (!state.bodyType || categoryOf(c) === state.bodyType)
+      && haystack.includes(q);
+  });
+}
+
+// --- Home page: body types, then brands ---------------------------------------
+const BODY_TYPES = ["Hatchback", "Sedan", "Compact SUV", "SUV", "MPV", "Pickup"];
+
+// The research uses a few body-type spellings; fold them into the five home-page groups.
+function categoryOf(car) {
+  const t = car.bodyType ?? "";
+  if (/compact suv/i.test(t)) return "Compact SUV";
+  if (/suv/i.test(t)) return "SUV";
+  if (/pick-?up/i.test(t)) return "Pickup";
+  if (/van|muv/i.test(t)) return "MPV";
+  return BODY_TYPES.find((b) => b.toLowerCase() === t.toLowerCase()) ?? t;
+}
+
+// Side silhouettes drawn on a 160x64 box; each shape is the body, then two wheels.
+const TYPE_ART = {
+  Hatchback: "M22 44 L26 32 Q32 24 50 22 L86 21 Q100 21 112 30 L126 34 Q134 36 134 44 Z",
+  Sedan: "M14 44 L18 36 Q24 32 40 30 L54 22 L94 21 Q104 21 112 30 L140 33 Q146 35 146 44 Z",
+  "Compact SUV": "M20 46 L22 30 Q24 22 36 20 L94 19 Q104 19 112 28 L130 32 Q138 34 138 46 Z",
+  SUV: "M14 46 L16 26 Q18 16 32 15 L104 15 Q112 15 118 24 L140 30 Q148 32 148 46 Z",
+  MPV: "M12 46 L14 28 Q18 17 36 16 L112 16 Q122 17 130 27 L144 31 Q150 33 150 46 Z",
+  Pickup: "M10 46 L10 30 L78 30 L80 18 Q82 14 92 14 L112 14 Q120 15 126 24 L144 30 Q150 32 150 46 Z",
+};
+const WHEELS = { Hatchback: [44, 112], Sedan: [40, 122], "Compact SUV": [42, 116], SUV: [38, 124], MPV: [36, 128], Pickup: [34, 128] };
+
+function typeArt(type) {
+  const [a, b] = WHEELS[type] ?? [40, 120];
+  return `<svg viewBox="0 0 160 64" aria-hidden="true"><path class="body" d="${TYPE_ART[type] ?? TYPE_ART.SUV}"/>` +
+    `<circle class="wheel" cx="${a}" cy="46" r="9"/><circle class="wheel" cx="${b}" cy="46" r="9"/></svg>`;
+}
+
+function renderHome() {
+  const variants = CARS.reduce((n, c) => n + variantsOf(c).length, 0);
+  const brands = [...new Set(CARS.map((c) => c.brand))];
+  $("#stats").innerHTML = [[CARS.length, "cars"], [variants, "variants"], [brands.length, "brands"]]
+    .map(([n, label]) => `<div><b>${n}</b><span>${label}</span></div>`).join("");
+
+  $("#typeGrid").innerHTML = BODY_TYPES.map((type) => {
+    const cars = CARS.filter((c) => categoryOf(c) === type);
+    const from = Math.min(...cars.map(startingPrice).filter(Boolean));
+    return `<button class="type-tile" data-type="${esc(type)}">${typeArt(type)}<b>${esc(type)}</b>` +
+      `<span>${cars.length} cars${Number.isFinite(from) ? ` · from ${formatInr(from)}` : ""}</span></button>`;
+  }).join("");
+
+  $("#makerCount").textContent = `${brands.length} makers`;
+  $("#brandGrid").innerHTML = brands.map((brand) => {
+    const n = CARS.filter((c) => c.brand === brand).length;
+    return `<button class="brand-tile" data-brand-tile="${esc(brand)}"><b>${esc(brand)}</b><span>${n} ${n === 1 ? "car" : "cars"}</span></button>`;
+  }).join("");
+}
+
+// --- Home decorations: showcase, brand strip and popular picks ------------------
+// All figures here are computed from the researched data, so they stay true as it changes.
+// Cars whose front photo is sharp (1200px+) and wide (about 16:9), so the stage shows the
+// whole car without blur. Each day the page picks a different 7 of them, so the hero
+// changes daily on its own: stepping 7 places a day through 23 cars visits every car.
+const SHOWCASE_POOL = ["bmw-x1", "honda-city", "honda-elevate", "hyundai-creta", "hyundai-i20", "hyundai-verna", "kia-seltos",
+  "mahindra-thar-roxx", "maruti-baleno", "maruti-dzire", "maruti-fronx", "maruti-grand-vitara", "mercedes-gla", "mg-hector",
+  "nissan-magnite", "skoda-kushaq", "skoda-kylaq", "tata-altroz", "tata-harrier", "toyota-fortuner", "toyota-hyryder", "vw-taigun", "vw-virtus"];
+function todaysShowcase() {
+  const pool = SHOWCASE_POOL.map((id) => CARS.find((c) => c.id === id)).filter((c) => c && photoOf(c.id));
+  if (!pool.length) return [];
+  const day = Math.floor((Date.now() + 5.5 * 3600 * 1000) / 86400000); // days, on Indian time
+  const start = (day * 7) % pool.length;
+  return Array.from({ length: Math.min(7, pool.length) }, (_, i) => pool[(start + i) % pool.length]);
+}
+const POPULAR = ["Creta", "Nexon", "Swift", "Scorpio-N", "Thar ROXX", "Fronx", "Seltos", "Baleno", "Punch", "Innova Hycross"];
+const byModel = (m) => CARS.find((c) => c.model === m);
+
+let featureIndex = 0, featureTimer = 0;
+
+function featureSlide(i) {
+  const cars = todaysShowcase();
+  if (!cars.length) return;
+  featureIndex = (i + cars.length) % cars.length;
+  const base = cars[featureIndex];
+  const c = withVariant(base, variantsOf(base)[defaultVariantIndex(base)]);
+  document.querySelectorAll("#featureStage img").forEach((img, n) => img.classList.toggle("on", n === featureIndex));
+  document.querySelectorAll("#featureDots button").forEach((b, n) => b.classList.toggle("on", n === featureIndex));
+  $("#featureTag").textContent = categoryOf(base);
+  $("#featureName").innerHTML = `<small>${esc(base.brand)}</small><b>${esc(base.model)}</b>`;
+  const from = startingPrice(base);
+  $("#featureSpecs").innerHTML = [
+    from ? ["From", lakh(from)] : null,
+    c.engine.maxPowerBhp ? ["Power", `${c.engine.maxPowerBhp} bhp`] : null,
+    mileageNumber(c) != null ? ["Mileage", String(c.mileageArai).replace(/ \(.*\)$/, "")] : null,
+    ["Variants", String(variantsOf(base).length)],
+  ].filter(Boolean).map(([k, v]) => `<span><small>${k}</small><b>${esc(v)}</b></span>`).join("");
+  $("#featureView").dataset.pick = base.id;
+
+  // Across all of this car's variants: cheapest to dearest, most powerful, best claimed mileage
+  // (petrol/diesel kmpl preferred; CNG km/kg is shown only when it's the car's only figure).
+  const all = variantsOf(base).map((v) => withVariant(base, v));
+  const prices = all.map((x) => x.priceInr).filter(Boolean);
+  const power = Math.max(...all.map((x) => x.engine.maxPowerBhp ?? 0));
+  const kmpl = all.filter((x) => !/km\/kg/.test(x.mileageArai ?? "")).map(mileageNumber).filter((n) => n != null);
+  const kmkg = all.filter((x) => /km\/kg/.test(x.mileageArai ?? "")).map(mileageNumber).filter((n) => n != null);
+  const setChip = (id, text) => { const el = $(id); el.textContent = text ?? "NA"; el.parentElement.hidden = text == null; };
+  setChip("#chipPrice", prices.length ? (Math.min(...prices) === Math.max(...prices) ? lakh(prices[0]) : `${lakh(Math.min(...prices))} – ${lakh(Math.max(...prices)).replace("₹", "")}`) : null);
+  setChip("#chipPower", power > 0 ? `${power} bhp` : null);
+  setChip("#chipMileage", kmpl.length ? `${Math.max(...kmpl)} kmpl` : kmkg.length ? `${Math.max(...kmkg)} km/kg` : null);
+}
+
+function startFeatureTimer() {
+  clearInterval(featureTimer);
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  featureTimer = setInterval(() => featureSlide(featureIndex + 1), 4500);
+}
+
+function renderShowcase() {
+  const showCars = todaysShowcase();
+  const cards = `<div class="feature" id="feature">
+      <div class="feature-stage" id="featureStage">
+        ${showCars.map((c) => `<img src="${photoOf(c.id).src}" alt="${esc(c.brand)} ${esc(c.model)}">`).join("")}
+        <span class="feature-tag" id="featureTag"></span>
+        <button class="feature-arrow prev" data-step="-1" aria-label="Previous car">‹</button>
+        <button class="feature-arrow next" data-step="1" aria-label="Next car">›</button>
+        <div class="feature-name" id="featureName"></div>
+      </div>
+      <div class="feature-bar">
+        <div class="feature-specs" id="featureSpecs"></div>
+        <button class="btn primary" id="featureView" data-pick="">View car →</button>
+      </div>
+      <div class="feature-dots" id="featureDots">${showCars.map((c, n) => `<button aria-label="Show ${esc(c.model)}" data-slide="${n}"></button>`).join("")}</div>
+    </div>`;
+  // Chips around the frame describe the car on show; featureSlide fills them in.
+  $("#showcase").innerHTML = cards +
+    `<div class="chip-float c1"><small>Price range</small><b id="chipPrice"></b></div>` +
+    `<div class="chip-float c2"><small>Power up to</small><b id="chipPower"></b></div>` +
+    `<div class="chip-float c3"><small>Best mileage</small><b id="chipMileage"></b></div>`;
+  featureSlide(0);
+  startFeatureTimer();
+
+  // Brand names twice in a row so the scroll loops seamlessly.
+  const brands = [...new Set(CARS.map((c) => c.brand))];
+  const brandBtn = (b, copy) => `<button class="mq-brand" data-brand-tile="${esc(b)}"${copy ? ' tabindex="-1" aria-hidden="true"' : ""}>${esc(b)}</button>`;
+  $("#marquee").innerHTML = brands.map((b) => brandBtn(b, false)).join("") + brands.map((b) => brandBtn(b, true)).join("");
+
+  $("#picksRow").innerHTML = POPULAR.map(byModel).filter(Boolean).map((c) => {
+    const p = photoOf(c.id), from = startingPrice(c);
+    return `<button class="pick" data-pick="${c.id}">
+      <div class="pic">${p ? `<img src="${p.src}" alt="${esc(c.model)}" loading="lazy">` : ""}<em>${esc(categoryOf(c))}</em></div>
+      <div class="info"><small>${esc(c.brand)}</small><b>${esc(c.model)}</b>
+      <span class="meta">${variantsOf(c).length} variants</span>${from ? `<strong>From ${lakh(from)}</strong>` : ""}</div></button>`;
+  }).join("");
+}
+$("#showcase").addEventListener("click", (e) => {
+  const dot = e.target.closest("[data-slide]");
+  if (dot) { featureSlide(Number(dot.dataset.slide)); startFeatureTimer(); return; }
+  const arrow = e.target.closest("[data-step]");
+  if (arrow) { featureSlide(featureIndex + Number(arrow.dataset.step)); startFeatureTimer(); return; }
+  const view = e.target.closest("#featureView");
+  if (view?.dataset.pick) openDetail(view.dataset.pick);
+});
+$("#showcase").addEventListener("keydown", (e) => {
+  if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+  featureSlide(featureIndex + (e.key === "ArrowRight" ? 1 : -1));
+  startFeatureTimer();
+});
+$("#showcase").addEventListener("mouseenter", () => clearInterval(featureTimer));
+$("#showcase").addEventListener("mouseleave", startFeatureTimer);
+$("#picksRow").addEventListener("click", (e) => {
+  const t = e.target.closest("[data-pick]");
+  if (t) openDetail(t.dataset.pick);
+});
+
+function renderFooterStamp() {
+  const now = new Date();
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const dates = CARS.flatMap((c) => variantsOf(c).map((v) => v.priceNote ?? "")).map((n) => n.match(/(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]* (\d{4})/)).filter(Boolean)
+    .map((m) => ({ y: Number(m[2]), m: months.findIndex((x) => m[1].startsWith(x)) }))
+    .filter((d) => d.y < now.getFullYear() || (d.y === now.getFullYear() && d.m <= now.getMonth()));
+  if (!dates.length) return;
+  const latest = dates.reduce((a, b) => (b.y > a.y || (b.y === a.y && b.m > a.m) ? b : a));
+  const variants = CARS.reduce((n, c) => n + variantsOf(c).length, 0);
+  $("#footerStamp").textContent = `Data last verified ${months[latest.m]} ${latest.y} · ${CARS.length} cars · ${variants.toLocaleString("en-IN")} variants`;
+}
+
+function renderCreatorStats() {
+  const variants = CARS.reduce((n, c) => n + variantsOf(c).length, 0);
+  const brands = new Set(CARS.map((c) => c.brand)).size;
+  const cities = ONROAD?.states?.length;
+  $("#creatorStats").innerHTML = [
+    [CARS.length, "cars covered"], [variants.toLocaleString("en-IN"), "variants compared"], [brands, "brands"],
+    cities ? [cities, "cities in the calculator"] : null,
+  ].filter(Boolean).map(([n, l]) => `<div><b>${n}</b><span>${l}</span></div>`).join("");
+}
+
+// The car list shows only once someone picks a body type or brand, or types a search.
+function isBrowsing() {
+  return Boolean(state.bodyType || state.brand !== "All brands" || state.fuel !== "All" || state.query.trim());
+}
+
+function goHome() {
+  state.bodyType = null;
+  state.brand = "All brands";
+  state.fuel = "All";
+  state.query = "";
+  $("#search").value = "";
+  closeDetail();
+  renderFuelChips();
+  renderGrid();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function renderGrid() {
+  const browsing = isBrowsing();
+  $("#homeView").hidden = browsing;
+  $("#resultsView").hidden = !browsing;
+  const cars = filteredCars();
+  const title = state.query.trim()
+    ? `Results for “${state.query.trim()}”`
+    : [state.brand !== "All brands" ? state.brand : "", state.fuel !== "All" ? state.fuel.toLowerCase() : "", state.bodyType ? (state.bodyType === "SUV" ? "SUVs" : `${state.bodyType}s`) : "cars"].filter(Boolean).join(" ");
+  $("#resultsTitle").textContent = title.charAt(0).toUpperCase() + title.slice(1);
+  $("#carCount").textContent = `${cars.length} ${cars.length === 1 ? "car" : "cars"}`;
+  if (cars.length === 0) {
+    $("#grid").innerHTML = `<p class="note">No cars match your search.</p>`;
+    return;
+  }
+  $("#grid").innerHTML = cars.map((base) => {
+    const c = withVariant(base, variantsOf(base)[defaultVariantIndex(base)]);
+    const added = state.compare.includes(c.id);
+    const e = c.engine;
+    const engineLine = isEV(c)
+      ? [unit(c.ev?.batteryKwh, "kWh"), c.ev?.rangeKm ? `${c.ev.rangeKm} km range` : null, unit(e.maxPowerBhp, "bhp")].filter(Boolean).join(" · ")
+      : [unit(e.displacementCc, "cc"), unit(e.cylinders, "cyl"), unit(e.maxPowerBhp, "bhp"), unit(e.maxTorqueNm, "Nm")].filter(Boolean).join(" · ");
+    const thumb = (PHOTOS[c.id] || [])[0];
+    return `
+      <article class="card">
+        ${thumb ? `<img class="thumb" src="${thumb.src}" alt="${esc(c.brand)} ${esc(c.model)}" loading="lazy"${thumb.position ? ` style="object-position: ${thumb.position}"` : ""}>` : ""}
+        <span class="brand">${esc(c.brand)} · ${esc(c.bodyType ?? "")}</span>
+        <h3>${esc(c.model)}</h3>
+        <span class="meta">${esc(c.variant)}</span>
+        <span class="meta">${esc(engineLine)}</span>
+        <span class="meta">${esc([...fuelsOf(base)].join(", "))} · ${esc(c.transmission ?? "")}</span>
+        ${startingPrice(base) ? `<span class="meta">From ${formatInr(startingPrice(base))} · ${variantsOf(base).length} variants</span>` : ""}
+        <span class="badge ${c.priceNote ? "ok" : ""}">${c.priceNote ? "✓ Verified · Oct 2026" : "Pending verification"}</span>
+        <div class="actions">
+          <button class="btn primary" data-open="${c.id}">View specs</button>
+          <button class="btn ${added ? "active" : ""}" data-compare="${c.id}" aria-pressed="${added}">${added ? "Added" : "Compare"}</button>
+        </div>
+      </article>`;
+  }).join("");
+}
+
+function renderCompare() {
+  const section = $("#compareSection");
+  if (state.compare.length === 0) { section.hidden = true; return; }
+  section.hidden = false;
+  $("#compareCount").textContent = `(${state.compare.length}/2)`;
+  const cars = state.compare.map((id) => {
+    const car = CARS.find((c) => c.id === id);
+    return withVariant(car, variantsOf(car)[defaultVariantIndex(car)]);
+  });
+  $("#compareTable").innerHTML = `
+    <tr><th></th>${cars.map((c) => `<th>${esc(c.model)} ${esc(c.variant)}</th>`).join("")}</tr>
+    ${SPEC_ROWS.filter(([, get]) => cars.some((c) => get(c) !== null)).map(([label, get]) => `<tr><th>${label}</th>${cars.map((c) => `<td>${esc(get(c) === null ? "–" : cell(c, get))}</td>`).join("")}</tr>`).join("")}`;
+}
+
+// --- Photo viewer ------------------------------------------------------------
+// Real photos from Wikimedia Commons. Drag, use the arrows or the angle buttons to
+// switch views; the photo tilts toward the pointer. The licences require a credit line.
+const COMMONS = "https://commons.wikimedia.org/wiki/File:";
+const PHOTOS = {
+  "maruti-ertiga-zxi-petrol": [
+    { src: "photos/ertiga-front.jpg", angle: "Front", credit: "Saved by site owner" },
+    { src: "photos/ertiga-rear.jpg", angle: "Rear", credit: "Saved by site owner" },
+    { src: "photos/ertiga-2.png", angle: "Side", credit: "Vivek Singh Moto AV", license: "CC BY 4.0", file: "2025_Maruti_Suzuki_Ertiga_VXi_S-CNG.png" },
+  ],
+  "tata-tiago-revotron-petrol": [
+    { src: "photos/tiago-front.jpg", angle: "Front", credit: "Dairokkan9", license: "CC BY-SA 4.0", file: "2022_Tata_Tiago_XZA%2B_front_20230512.jpg" },
+    { src: "photos/tiago-rear.jpg", angle: "Rear", credit: "Dairokkan9", license: "CC BY-SA 4.0", file: "2022_Tata_Tiago_XZA%2B_rear_20230512.jpg" },
+  ],
+  "maruti-swift-z12e-petrol": [
+    { src: "photos/swift-front.jpg", angle: "Front", credit: "Saved by site owner (PakWheels)", position: "center 72%" },
+    { src: "photos/swift-rear.jpg", angle: "Rear", credit: "Saved by site owner (Autocar India)" },
+  ],
+  "mahindra-thar-2-0-petrol": [
+    { src: "photos/thar-front.jpg", angle: "Front", credit: "Ank Kumar", license: "CC BY-SA 4.0", file: "Mahindra_Thar_SUV_in_%22Red_Rage%22_color_at_Ashiana_Brahmanda,_East_Singbhum_India_(Ank_Kumar,_Infosys_limited)_02_(cropped).jpg" },
+    { src: "photos/thar-rear.jpg", angle: "Rear", credit: "Ank Kumar", license: "CC BY-SA 4.0", file: "Mahindra_Thar_SUV_in_%22Red_Rage%22_color_at_Ashiana_Brahmanda,_East_Singbhum_India_(Ank_Kumar,_Infosys_limited)_03.jpg" },
+  ],
+};
+let viewer = null;
+
+function unmountViewer() {
+  viewer = null;
+}
+
+function mountViewer(car) {
+  const host = $("#carArt");
+  const photos = PHOTOS[car.id] || [];
+  if (photos.length === 0) {
+    host.innerHTML = `<p class="note">No photos yet for this car.</p>`;
+    viewer = null;
+    return;
+  }
+  host.innerHTML = `
+    <div class="stage" tabindex="0" aria-label="Photos of ${esc(car.brand)} ${esc(car.model)}. Use the left and right arrow keys to change the angle.">
+      ${photos.map((p, i) => `<img src="${p.src}" alt="${esc(car.model)}, ${esc(p.angle.toLowerCase())} view" draggable="false" class="${i === 0 ? "shown" : ""}"${p.position ? ` style="object-position: ${p.position}"` : ""}>`).join("")}
+      <button class="nav prev" aria-label="Previous angle">‹</button>
+      <button class="nav next" aria-label="Next angle">›</button>
+    </div>
+    <div class="angles">${photos.map((p, i) => `<button class="chip" data-angle="${i}">${esc(p.angle)}</button>`).join("")}</div>
+    <p class="note credit"></p>`;
+  viewer = { car, photos, index: 0 };
+  const stage = host.querySelector(".stage");
+
+  const show = (i) => {
+    viewer.index = (i + photos.length) % photos.length;
+    stage.querySelectorAll("img").forEach((img, n) => img.classList.toggle("shown", n === viewer.index));
+    host.querySelectorAll("[data-angle]").forEach((b, n) => b.classList.toggle("active", n === viewer.index));
+    const p = photos[viewer.index];
+    // A note says when the photo isn't the exact current Indian model (older look, other market).
+    const note = p.note ? `<strong>${esc(p.note)}.</strong> ` : "";
+    host.querySelector(".credit").innerHTML = note + (p.file
+      ? `Photo: ${esc(p.credit)}, <a href="${COMMONS}${p.file}" target="_blank" rel="noopener">${esc(p.license)}</a>, via Wikimedia Commons`
+      : `Photo: ${esc(p.credit)}`);
+  };
+  show(0);
+
+  host.querySelector(".prev").addEventListener("click", () => show(viewer.index - 1));
+  host.querySelector(".next").addEventListener("click", () => show(viewer.index + 1));
+  host.querySelectorAll("[data-angle]").forEach((b) => b.addEventListener("click", () => show(Number(b.dataset.angle))));
+  stage.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowLeft") show(viewer.index - 1);
+    if (e.key === "ArrowRight") show(viewer.index + 1);
+  });
+
+  // Drag sideways to swing to the next angle.
+  let startX = null;
+  stage.addEventListener("pointerdown", (e) => {
+    if (e.target.closest(".nav")) return;
+    startX = e.clientX;
+  });
+  stage.addEventListener("pointerup", (e) => {
+    if (startX === null) return;
+    const dx = e.clientX - startX;
+    startX = null;
+    if (Math.abs(dx) > 40) show(viewer.index + (dx < 0 ? 1 : -1));
+  });
+
+  // Tilt the photo toward the pointer for a sense of depth.
+  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    stage.addEventListener("pointermove", (e) => {
+      const r = stage.getBoundingClientRect();
+      const x = (e.clientX - r.left) / r.width - 0.5;
+      const y = (e.clientY - r.top) / r.height - 0.5;
+      stage.style.transform = `perspective(900px) rotateY(${x * 10}deg) rotateX(${-y * 6}deg) scale(1.02)`;
+    });
+    stage.addEventListener("pointerleave", () => {
+      stage.style.transform = "";
+      startX = null;
+    });
+  }
+}
+
+function openDetail(id, variantIndex) {
+  stopEngine();
+  const car = CARS.find((c) => c.id === id);
+  state.currentId = id;
+  state.variantIndex = Number.isInteger(variantIndex) ? variantIndex : defaultVariantIndex(car);
+  recordRecent(id);
+  state.prevCar = null;
+  $("#detailSection").hidden = false;
+  mountViewer(car);
+  renderDetail();
+  $("#detailSection").scrollIntoView({ behavior: "smooth" });
+}
+
+function renderDetail() {
+  const car = currentCar();
+  const variants = variantsOf(CARS.find((c) => c.id === state.currentId));
+  $("#detailTitle").textContent = `${car.brand} ${car.model} — ${car.variant}`;
+
+  $("#variantBar").hidden = variants.length === 0;
+  const current = variants[state.variantIndex];
+  const trims = [...new Set(variants.map((v) => v.trim))];
+  $("#variantChips").innerHTML = trims
+    .map((t) => `<button class="chip ${t === current?.trim ? "active" : ""}" data-trim="${esc(t)}" aria-pressed="${t === current?.trim}">${esc(t)}</button>`)
+    .join("");
+  $("#powerChips").innerHTML = variants
+    .map((v, i) => ({ v, i }))
+    .filter(({ v }) => v.trim === current?.trim)
+    .map(({ v, i }) => `<button class="chip ${i === state.variantIndex ? "active" : ""}" data-variant="${i}" aria-pressed="${i === state.variantIndex}">${esc(v.power)}</button>`)
+    .join("");
+  // Compare against the variant shown just before, so changes stand out on every switch.
+  const prev = state.prevCar && state.prevCar.id === car.id && state.prevCar.variant !== car.variant ? state.prevCar : null;
+  const priceDiff = prev?.priceInr && car.priceInr ? car.priceInr - prev.priceInr : 0;
+  const delta = priceDiff
+    ? ` <span class="delta ${priceDiff > 0 ? "up" : "down"}">${priceDiff > 0 ? "+" : "−"}${formatInr(Math.abs(priceDiff))} vs ${esc(prev.variant)}</span>`
+    : "";
+  $("#variantPrice").innerHTML = car.priceInr
+    ? `${formatInr(car.priceInr)}${delta} <small>ex-showroom Delhi${car.priceNote ? `, ${esc(car.priceNote)}` : ""}</small>`
+    : "";
+
+  $("#specTable").innerHTML = SPEC_ROWS.filter(([, get]) => get(car) !== null).map(([label, get]) => {
+    const now = cell(car, get);
+    const before = prev ? cell(prev, get) : now;
+    const changed = before !== now && label !== "Variant";
+    return `<tr class="${changed ? "changed" : ""}"><th>${label}</th><td>${esc(now)}${changed ? `<span class="was">was ${esc(before)}</span>` : ""}</td></tr>`;
+  }).join("");
+  state.prevCar = car;
+
+  renderFeatures(car, variants);
+
+  $("#throttle").value = 0;
+  $("#rpmReadout").textContent = "0 rpm";
+  updateWatchButton();
+  renderGlance(car);
+  $("#soundNote").textContent = isEV(car)
+    ? "A synthesised electric-motor whine that rises with the throttle. It is an approximation, not a recording of this car."
+    : "Synthesised from this engine's cylinders, size, turbo and RPM, so each car sounds different. It is an approximation, not a recording of this car.";
+  $("#soundToggle").textContent = isEV(car) ? "Start motor" : "Start engine";
+}
+
+// --- "At a glance": engine drawing and meters --------------------------------------
+// Drawn from the variant's own specs. The meters place it among every variant on the site,
+// so a buyer sees at once whether, say, 113 bhp is a lot or a little.
+let siteStats = null;
+function statsFor() {
+  if (siteStats) return siteStats;
+  const power = [], torque = [], kmpl = [], price = [];
+  for (const base of CARS) for (const v of variantsOf(base)) {
+    const c = withVariant(base, v);
+    if (c.engine.maxPowerBhp) power.push(c.engine.maxPowerBhp);
+    if (c.engine.maxTorqueNm) torque.push(c.engine.maxTorqueNm);
+    if (c.priceInr) price.push(c.priceInr);
+    const m = mileageNumber(c);
+    if (m != null && !/km\/kg/.test(c.mileageArai)) kmpl.push(m);
+  }
+  siteStats = { power, torque, kmpl, price };
+  return siteStats;
+}
+// Share of variants on the site with a lower value (0 to 100).
+const percentileOf = (list, v) => Math.round((list.filter((x) => x < v).length / list.length) * 100);
+
+function engineSvg(e, fuel) {
+  const n = e.cylinders || 0;
+  const turbo = /turbo/i.test(e.aspiration ?? "");
+  const w = 260, blockX = 30, blockW = 170;
+  const gap = n ? blockW / n : 0;
+  const pistons = Array.from({ length: n }, (_, i) => {
+    const x = blockX + gap * (i + 0.5);
+    return `<rect x="${x - gap * 0.32}" y="22" width="${gap * 0.64}" height="40" rx="5" fill="#ffffff" stroke="#0e1525" stroke-width="2.2"/>
+      <circle cx="${x}" cy="42" r="${Math.min(9, gap * 0.22)}" fill="#1f4dff"/>`;
+  }).join("");
+  const turboArt = turbo ? `<g transform="translate(214 30)"><circle r="16" cx="16" cy="16" fill="#fff4cf" stroke="#b66a00" stroke-width="2.2"/>
+      <path d="M16 6 a10 10 0 1 1 -9 6" fill="none" stroke="#b66a00" stroke-width="2.2"/><text x="16" y="46" text-anchor="middle" font-size="10" font-weight="700" fill="#b66a00">TURBO</text></g>` : "";
+  const fuelTag = fuel === "Hybrid" ? "HYBRID ⚡" : fuel === "Diesel" ? "DIESEL" : fuel === "CNG" ? "CNG" : "PETROL";
+  return `<svg viewBox="0 0 ${w} 96" role="img" aria-label="${n || "Unknown number of"} cylinder ${turbo ? "turbocharged " : ""}engine">
+    <rect x="${blockX - 10}" y="12" width="${blockW + 20}" height="60" rx="10" fill="#e9eefb" stroke="#0e1525" stroke-width="2.2"/>
+    ${n ? pistons : `<text x="${blockX + blockW / 2}" y="50" text-anchor="middle" font-size="14" fill="#5b6478">Cylinders: NA</text>`}
+    <rect x="${blockX}" y="74" width="${blockW}" height="10" rx="5" fill="#0e1525" opacity="0.85"/>
+    <text x="${blockX + blockW / 2}" y="94" text-anchor="middle" font-size="9" font-weight="700" fill="#5b6478" letter-spacing="1">${fuelTag}</text>
+    ${turboArt}
+  </svg>`;
+}
+
+// Battery pack drawing for EVs: cells fill in proportion to pack size, lightning bolt for the motor.
+function batterySvg(ev) {
+  const kwh = ev?.batteryKwh ?? 0;
+  const cells = Math.max(1, Math.min(8, Math.round(kwh / 10)));
+  const cellArt = Array.from({ length: 8 }, (_, i) =>
+    `<rect x="${34 + i * 20}" y="30" width="15" height="34" rx="3" fill="${i < cells ? "#1f4dff" : "#e3e8f4"}" stroke="#0e1525" stroke-width="1.6"/>`).join("");
+  return `<svg viewBox="0 0 260 96" role="img" aria-label="${kwh ? `${kwh} kWh battery pack` : "Electric vehicle"}">
+    <rect x="22" y="20" width="176" height="54" rx="10" fill="#f4f6fb" stroke="#0e1525" stroke-width="2.2"/>
+    <rect x="198" y="36" width="10" height="22" rx="3" fill="#0e1525"/>
+    ${cellArt}
+    <path d="M232 22 L222 50 L234 50 L226 76 L246 44 L234 44 Z" fill="#ff9f1c" stroke="#0e1525" stroke-width="1.8" stroke-linejoin="round"/>
+    <text x="110" y="92" text-anchor="middle" font-size="9" font-weight="700" fill="#5b6478" letter-spacing="1">ELECTRIC</text>
+  </svg>`;
+}
+
+function renderGlance(c) {
+  const e = c.engine, st = statsFor();
+  if (isEV(c)) return renderGlanceEV(c, st);
+  const litres = e.displacementCc ? `${(e.displacementCc / 1000).toFixed(1)} L` : "NA";
+  const meter = (label, value, shown, list, note) => {
+    if (value == null || !list.length) return `<div class="meter"><div class="meter-top"><span>${label}</span><b>NA</b></div><div class="meter-bar"></div></div>`;
+    const pct = percentileOf(list, value);
+    const lo = Math.min(...list), hi = Math.max(...list);
+    const pos = hi > lo ? ((value - lo) / (hi - lo)) * 100 : 50;
+    return `<div class="meter"><div class="meter-top"><span>${label}</span><b>${esc(shown)}</b></div>
+      <div class="meter-bar"><i style="left:${Math.max(3, Math.min(97, pos)).toFixed(1)}%"></i></div>
+      <small>${note(pct)}</small></div>`;
+  };
+  const kmplValue = mileageNumber(c) != null && !/km\/kg/.test(c.mileageArai ?? "") ? mileageNumber(c) : null;
+  $("#glance").innerHTML = `
+    <h3>At a glance</h3>
+    <div class="engine-art">${engineSvg(e, c.fuel)}
+      <div class="cap"><b>${litres} · ${e.cylinders ? `${e.cylinders}-cylinder` : "cylinders NA"}</b> · ${esc(e.aspiration ?? "NA")}</div></div>
+    ${meter("Power", e.maxPowerBhp, `${e.maxPowerBhp} bhp`, st.power, (p) => `More powerful than ${p}% of variants on ThrottleWise`)}
+    ${meter("Torque", e.maxTorqueNm, `${e.maxTorqueNm} Nm`, st.torque, (p) => `More pulling power than ${p}% of variants`)}
+    ${meter("Mileage", kmplValue, `${kmplValue} kmpl`, st.kmpl, (p) => `Better claimed mileage than ${p}% of petrol/diesel variants`)}
+    ${meter("Price", c.priceInr, c.priceInr ? lakh(c.priceInr) : "NA", st.price, (p) => `Costs more than ${p}% of variants on ThrottleWise`)}`;
+}
+
+// EV version of the glance panel: battery drawing, then range, motor power and price meters
+// compared against the other EVs on the site (comparing range to petrol mileage would be meaningless).
+function renderGlanceEV(c, st) {
+  const ev = c.ev ?? {}, e = c.engine;
+  const evs = statsForEV();
+  const meter = (label, value, shown, list, note) => {
+    if (value == null || !list.length) return `<div class="meter"><div class="meter-top"><span>${label}</span><b>NA</b></div><div class="meter-bar"></div></div>`;
+    const pct = percentileOf(list, value);
+    const lo = Math.min(...list), hi = Math.max(...list);
+    const pos = hi > lo ? ((value - lo) / (hi - lo)) * 100 : 50;
+    return `<div class="meter"><div class="meter-top"><span>${label}</span><b>${esc(shown)}</b></div>
+      <div class="meter-bar"><i style="left:${Math.max(3, Math.min(97, pos)).toFixed(1)}%"></i></div>
+      <small>${note(pct)}</small></div>`;
+  };
+  const cap = [ev.batteryKwh ? `${ev.batteryKwh} kWh` : "Battery NA", e.maxPowerBhp ? `${e.maxPowerBhp} bhp motor` : null, c.drivetrain].filter(Boolean).join(" · ");
+  $("#glance").innerHTML = `
+    <h3>At a glance</h3>
+    <div class="engine-art">${batterySvg(ev)}<div class="cap"><b>${esc(cap)}</b></div></div>
+    ${meter("Range", ev.rangeKm, `${ev.rangeKm} km${ev.rangeStandard ? ` (${ev.rangeStandard})` : ""}`, evs.range, (p) => `Longer claimed range than ${p}% of EVs on ThrottleWise`)}
+    ${meter("Motor power", e.maxPowerBhp, `${e.maxPowerBhp} bhp`, evs.power, (p) => `More powerful than ${p}% of EVs`)}
+    ${meter("Fast charging", ev.dcChargeKw, `${ev.dcChargeKw} kW DC`, evs.dc, (p) => `Faster charging than ${p}% of EVs`)}
+    ${meter("Price", c.priceInr, c.priceInr ? lakh(c.priceInr) : "NA", st.price, (p) => `Costs more than ${p}% of variants on ThrottleWise`)}`;
+}
+
+let evStats = null;
+function statsForEV() {
+  if (evStats) return evStats;
+  const range = [], power = [], dc = [];
+  for (const base of CARS) for (const v of variantsOf(base)) {
+    const c = withVariant(base, v);
+    if (!isEV(c)) continue;
+    if (c.ev?.rangeKm) range.push(c.ev.rangeKm);
+    if (c.engine.maxPowerBhp) power.push(c.engine.maxPowerBhp);
+    if (c.ev?.dcChargeKw) dc.push(c.ev.dcChargeKw);
+  }
+  evStats = { range, power, dc };
+  return evStats;
+}
+
+// The feature ladder for the car: what this variant has (ticked), what its trim adds over
+// the one below (New), and what only higher trims get (crossed). The first variant of each
+// trim carries that trim's features; other variants of the trim list engine/gearbox extras.
+function renderFeatures(car, variants) {
+  const current = variants[state.variantIndex];
+  $("#featureBox").hidden = !current;
+  if (!current) return;
+  const trims = [...new Set(variants.map((v) => v.trim))];
+  const level = trims.indexOf(current.trim);
+  const trimBase = variants.find((v) => v.trim === current.trim);
+
+  const groups = trims.map((trim, i) => ({
+    title: i === 0 ? `Standard from ${trim}` : i < level ? `Added in ${trim}` : i === level ? `New in ${trim}` : `Only in ${trim} and above`,
+    has: i <= level,
+    isNew: i === level && i > 0,
+    features: variants.find((v) => v.trim === trim).features ?? [],
+  }));
+  if (current !== trimBase && current.features?.length) {
+    groups.splice(level + 1, 0, { title: `With ${current.power}`, has: true, isNew: true, features: current.features });
+  }
+
+  const item = (f, g) => `<li class="${g.has ? "has" : "missing"}${g.isNew ? " new" : ""}">
+      <span class="mark" aria-hidden="true">${g.has ? "✓" : "✕"}</span>
+      <span class="sr-only">${g.has ? "Included:" : "Not included:"}</span>${esc(f)}${g.isNew ? ' <span class="pill">New</span>' : ""}</li>`;
+  $("#featureList").innerHTML = groups
+    .filter((g) => g.features.length)
+    .map((g) => `<div class="feature-group"><h4>${esc(g.title)}</h4><ul>${g.features.map((f) => item(f, g)).join("")}</ul></div>`)
+    .join("");
+
+  const all = groups.flatMap((g) => g.features.map(() => g.has));
+  const added = groups.filter((g) => g.isNew).reduce((n, g) => n + g.features.length, 0);
+  $("#featureTitle").textContent = `Features in ${car.variant}`;
+  $("#featureSummary").textContent =
+    `Has ${all.filter(Boolean).length} of ${all.length} listed features` + (added ? `, including ${added} new over the trim below.` : ".");
+}
+
+function closeDetail() {
+  stopEngine();
+  unmountViewer();
+  state.currentId = null;
+  $("#detailSection").hidden = true;
+}
+
+// --- Engine sound simulator ------------------------------------------------
+// Each car gets its own sound profile from its engine data. Four-stroke engines fire
+// each cylinder once per two crank revolutions, so the firing frequency is
+// (rpm / 60) * cylinders / 2. The tone is raised by a fixed multiplier so it is audible
+// on laptop speakers. The result is an approximation, not a recording of the car.
+const PITCH_MULTIPLIER = 4;
+let engine = null;
+
+// Fall back to typical values when the research didn't confirm a figure.
+const cylindersOf = (car) => car.engine.cylinders || 4;
+
+function firingHz(car, rpm) {
+  return (rpm / 60) * (cylindersOf(car) / 2) * PITCH_MULTIPLIER;
+}
+
+function soundProfile(car) {
+  const e = car.engine;
+  if (isEV(car)) return { electric: true };
+  return {
+    // Odd cylinder counts fire at uneven gaps, which gives a 3-cylinder its lumpy idle.
+    unevenness: cylindersOf(car) % 2 === 1 ? 0.45 : 0.12,
+    turbo: /turbo/i.test(e.aspiration ?? ""),
+    // Bigger engines get a deeper, louder combustion rumble.
+    rumble: Math.min(0.5, 0.15 + (e.displacementCc || 1500) / 6000),
+    brightness: 1800 + ((e.redlineRpm || 6000) - 5500) * 0.8,
+  };
+}
+
+function makeNoise(ctx) {
+  const buffer = ctx.createBuffer(1, ctx.sampleRate * 2, ctx.sampleRate);
+  const data = buffer.getChannelData(0);
+  for (let i = 0; i < data.length; i++) data[i] = Math.random() * 2 - 1;
+  return buffer;
+}
+
+function setEngineRpm(rpm) {
+  if (!engine) return;
+  if (engine.ev) {
+    const { ctx, osc1, osc2, car } = engine;
+    const t = rpm / car.engine.redlineRpm;
+    const hz = 180 + t * 1400;           // whine climbs from a hum to a high sing
+    osc1.frequency.setTargetAtTime(hz, ctx.currentTime, 0.05);
+    osc2.frequency.setTargetAtTime(hz * 1.5, ctx.currentTime, 0.05);
+    $("#rpmReadout").textContent = `${Math.round(t * 100)}% throttle`;
+    return;
+  }
+  const { ctx, osc1, osc2, lfo, filter, rumble, rumbleGain, turboHp, turboGain, car, profile } = engine;
+  const now = ctx.currentTime;
+  const t = rpm / car.engine.redlineRpm;
+  const hz = firingHz(car, rpm);
+  osc1.frequency.setTargetAtTime(hz, now, 0.06);
+  osc2.frequency.setTargetAtTime(hz / 2, now, 0.06);
+  lfo.frequency.setTargetAtTime(rpm / 60 / 2, now, 0.06);
+  filter.frequency.setTargetAtTime(350 + t * profile.brightness, now, 0.06);
+  rumble.frequency.setTargetAtTime(hz * 0.75, now, 0.06);
+  rumbleGain.gain.setTargetAtTime(profile.rumble * (0.6 + t), now, 0.06);
+  turboHp.frequency.setTargetAtTime(2000 + t * 3000, now, 0.06);
+  turboGain.gain.setTargetAtTime(profile.turbo ? t * t * 0.12 : 0, now, 0.1);
+  $("#rpmReadout").textContent = `${Math.round(rpm)} rpm`;
+}
+
+function startEngineEV(car, ctx) {
+  const master = ctx.createGain(); master.gain.value = 0; master.connect(ctx.destination);
+  const osc1 = ctx.createOscillator(); osc1.type = "sine";
+  const osc2 = ctx.createOscillator(); osc2.type = "triangle";
+  const toneGain = ctx.createGain(); toneGain.gain.value = 0.5;
+  osc1.connect(toneGain); osc2.connect(toneGain); toneGain.connect(master);
+  const noise = ctx.createBufferSource(); noise.buffer = makeNoise(ctx); noise.loop = true;
+  const hiss = ctx.createBiquadFilter(); hiss.type = "highpass"; hiss.frequency.value = 6000;
+  const hissGain = ctx.createGain(); hissGain.gain.value = 0.015;
+  noise.connect(hiss); hiss.connect(hissGain); hissGain.connect(master);
+  [osc1, osc2, noise].forEach((n) => n.start());
+  engine = { ctx, master, osc1, osc2, noise, car, profile: { electric: true }, ev: true };
+  setEngineRpm(car.engine.idleRpm);
+  master.gain.linearRampToValueAtTime(0.08, ctx.currentTime + 0.3);
+  $("#soundToggle").textContent = "Stop motor";
+  $("#soundToggle").classList.add("active");
+}
+
+function startEngine(car) {
+  stopEngine();
+  const AudioCtx = window.AudioContext || window.webkitAudioContext;
+  if (!AudioCtx) { $("#rpmReadout").textContent = "Audio is not supported in this browser"; return; }
+  const ctx = new AudioCtx();
+  const profile = soundProfile(car);
+  if (profile.electric) return startEngineEV(car, ctx);
+  const master = ctx.createGain();
+  master.gain.value = 0;
+  master.connect(ctx.destination);
+
+  // Exhaust tone: two oscillators through a wobble stage for uneven firing.
+  const osc1 = ctx.createOscillator();
+  osc1.type = "sawtooth";
+  const osc2 = ctx.createOscillator();
+  osc2.type = "square";
+  const wobble = ctx.createGain();
+  wobble.gain.value = 1;
+  const filter = ctx.createBiquadFilter();
+  filter.type = "lowpass";
+  filter.Q.value = 5;
+  osc1.connect(wobble); osc2.connect(wobble); wobble.connect(filter); filter.connect(master);
+  const lfo = ctx.createOscillator();
+  const lfoDepth = ctx.createGain();
+  lfoDepth.gain.value = profile.unevenness;
+  lfo.connect(lfoDepth); lfoDepth.connect(wobble.gain);
+
+  // Combustion rumble and turbo whine, both shaped from the same noise.
+  const noise = ctx.createBufferSource();
+  noise.buffer = makeNoise(ctx);
+  noise.loop = true;
+  const rumble = ctx.createBiquadFilter();
+  rumble.type = "bandpass";
+  rumble.Q.value = 1.2;
+  const rumbleGain = ctx.createGain();
+  noise.connect(rumble); rumble.connect(rumbleGain); rumbleGain.connect(master);
+  const turboHp = ctx.createBiquadFilter();
+  turboHp.type = "bandpass";
+  turboHp.Q.value = 8;
+  const turboGain = ctx.createGain();
+  turboGain.gain.value = 0;
+  noise.connect(turboHp); turboHp.connect(turboGain); turboGain.connect(master);
+
+  [osc1, osc2, lfo, noise].forEach((n) => n.start());
+  engine = { ctx, master, osc1, osc2, lfo, noise, filter, rumble, rumbleGain, turboHp, turboGain, car, profile };
+
+  // Starter crank: a short low burst before the engine catches and settles to idle.
+  setEngineRpm(250);
+  master.gain.linearRampToValueAtTime(0.1, ctx.currentTime + 0.15);
+  setTimeout(() => setEngineRpm(car.engine.idleRpm * 1.6), 600);
+  setTimeout(() => setEngineRpm(car.engine.idleRpm), 1300);
+  $("#soundToggle").textContent = "Stop engine";
+  $("#soundToggle").classList.add("active");
+}
+
+function stopEngine() {
+  if (!engine) return;
+  const { ctx, master, osc1, osc2, lfo, noise } = engine;
+  master.gain.setTargetAtTime(0, ctx.currentTime, 0.15);
+  setTimeout(() => { [osc1, osc2, lfo, noise].filter(Boolean).forEach((n) => n.stop()); ctx.close(); }, 700);
+  engine = null;
+  $("#soundToggle").textContent = "Start engine";
+  $("#soundToggle").classList.remove("active");
+  $("#rpmReadout").textContent = "0 rpm";
+}
+
+$("#search").addEventListener("input", (e) => { state.query = e.target.value; renderGrid(); });
+
+$("#fuelChips").addEventListener("click", (e) => {
+  const fuel = e.target.dataset.fuel;
+  if (!fuel) return;
+  state.fuel = fuel;
+  renderFuelChips();
+  renderGrid();
+});
+
+$("#grid").addEventListener("click", (e) => {
+  const openId = e.target.dataset.open;
+  const compareId = e.target.dataset.compare;
+  if (openId) openDetail(openId);
+  if (compareId) {
+    state.compare = state.compare.includes(compareId)
+      ? state.compare.filter((id) => id !== compareId)
+      : [...state.compare.slice(-1), compareId];
+    renderGrid();
+    renderCompare();
+  }
+});
+
+$("#closeDetail").addEventListener("click", closeDetail);
+
+$("#soundToggle").addEventListener("click", () => {
+  if (engine) { stopEngine(); return; }
+  const car = currentCar();
+  if (car) startEngine(car);
+});
+
+$("#variantBar").addEventListener("click", (e) => {
+  const { trim, variant } = e.target.dataset;
+  if (trim === undefined && variant === undefined) return;
+  const variants = variantsOf(CARS.find((c) => c.id === state.currentId));
+  if (trim !== undefined) {
+    // Keep the same engine and gearbox when the new trim offers it.
+    const power = variants[state.variantIndex]?.power;
+    const same = variants.findIndex((v) => v.trim === trim && v.power === power);
+    state.variantIndex = same >= 0 ? same : variants.findIndex((v) => v.trim === trim);
+  } else {
+    state.variantIndex = Number(variant);
+  }
+  stopEngine();
+  renderDetail();
+});
+
+$("#throttle").addEventListener("input", (e) => {
+  if (!engine) return;
+  const { idleRpm, redlineRpm } = engine.car.engine;
+  setEngineRpm(idleRpm + (redlineRpm - idleRpm) * (Number(e.target.value) / 100));
+});
+
+$("#brandChips").addEventListener("click", (e) => {
+  const brand = e.target.dataset.brand;
+  if (!brand) return;
+  state.brand = brand;
+  renderFuelChips();
+  renderGrid();
+});
+
+// --- Researched car data -------------------------------------------------------
+// Each file holds a group of cars researched on 21 Oct 2026 (see data/RESEARCH_BRIEF.md)
+// and is converted into the same shape as the hand-built cars above.
+const DATA_FILES = ["maruti", "hyundai", "tata", "mahindra", "kia-toyota", "honda-skoda", "vw-mg-renault-nissan", "bmw-mercedes",
+  "audi", "bmw-mercedes-2", "volvo-jlr-lexus", "toyota-2", "maruti-2", "hyundai-kia-2", "tata-mahindra-2", "skoda-vw-jeep", "citroen-renault-mg-nissan",
+  "ev-tata-mahindra", "ev-luxury", "luxury-3", "ev-mahindra-2", "ev-other", "mainstream-3", "mainstream-4"];
+// Idle and redline only drive the sound simulator; they are never shown as specs.
+const SOUND_RPM = { Diesel: [750, 4500], Hybrid: [800, 6000], Electric: [0, 12000] };
+const commonsPath = (title) => encodeURIComponent(title.replace(/^File:/, "").replace(/ /g, "_")).replace(/%2C/g, ",");
+
+function addCarFromData(d) {
+  const trims = d.trims ?? [];
+  const variants = [];
+  for (const t of trims) {
+    // The first variant of each trim carries the trim's features; the others list only
+    // what their engine or gearbox adds, which is how renderFeatures reads them.
+    d.variants.filter((v) => v.trim === t.trim).forEach((v, i) => {
+      const [idleRpm, redlineRpm] = SOUND_RPM[v.fuel] ?? [800, 6500];
+      variants.push({
+        trim: v.trim, power: v.power, fuel: v.fuel, transmission: v.transmission, drivetrain: v.drivetrain,
+        priceInr: v.priceInr, priceNote: d.priceNote, mileage: v.mileage ?? null,
+        // EV figures: on the variant, or on its engine entry if they're per battery pack.
+        ev: v.ev ?? d.engines?.[v.engine]?.ev ?? null,
+        wheels: v.wheels ?? t.wheels ?? null, airbags: v.airbags ?? t.airbags ?? null,
+        engine: { ...(d.engines?.[v.engine] ?? {}), idleRpm, redlineRpm },
+        features: i === 0 ? t.features ?? [] : v.extras ?? [],
+      });
+    });
+  }
+  if (variants.length === 0) return;
+  // Open on the base version of the middle trim, a fair "typical" pick.
+  const midTrim = trims[Math.floor((trims.length - 1) / 2)].trim;
+  const def = variants.find((v) => v.trim === midTrim) ?? variants[0];
+  def.default = true;
+  CARS.push({
+    id: d.id, brand: d.brand, model: d.model, variant: "", bodyType: d.bodyType,
+    fuel: def.fuel, transmission: def.transmission, drivetrain: def.drivetrain, seats: d.seats ?? null,
+    engine: def.engine, mileageArai: null, fuelTankL: d.fuelTankL ?? null, verified: false, sourceUrl: d.sources?.[0],
+  });
+  VARIANT_DATA[d.id] = variants;
+  const photos = [["Front", d.photos?.front], ["Rear", d.photos?.rear]]
+    .filter(([, p]) => p?.local)
+    .map(([angle, p]) => ({ src: p.local, angle, credit: p.artist || "Unknown", license: p.license, file: p.file ? commonsPath(p.file) : undefined, note: p.note }));
+  if (photos.length) PHOTOS[d.id] = photos;
+}
+
+async function loadCars() {
+  renderFuelChips();
+  renderGrid();
+  const results = await Promise.allSettled(DATA_FILES.map(async (f) => {
+    const res = await fetch(`data/${f}.json?v=${DATA_VERSION}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return res.json();
+  }));
+  results.forEach((r, i) => {
+    if (r.status === "fulfilled") (r.value.cars ?? []).forEach(addCarFromData);
+    else console.warn(`Could not load data/${DATA_FILES[i]}.json:`, r.reason);
+  });
+  CARS.sort((a, b) => a.brand.localeCompare(b.brand) || a.model.localeCompare(b.model));
+  renderHome();
+  renderCreatorStats();
+  renderFooterStamp();
+  renderShowcase();
+  renderRecent();
+  renderWatch();
+  renderFuelChips();
+  renderGrid();
+}
+
+$("#typeGrid").addEventListener("click", (e) => {
+  const tile = e.target.closest("[data-type]");
+  if (!tile) return;
+  state.bodyType = tile.dataset.type;
+  state.brand = "All brands";
+  renderFuelChips();
+  renderGrid();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+// Brand strip motion: glides slowly on its own, pauses while someone hovers or touches it,
+// and the arrows jump a few brands at a time. The list is doubled, so after the first copy
+// the scroll position wraps back seamlessly.
+let mqPaused = false;
+const mqScroller = $("#marqueeScroller");
+function mqWrap() {
+  const half = $("#marquee").scrollWidth / 2;
+  if (half > 0 && mqScroller.scrollLeft >= half) mqScroller.scrollLeft -= half;
+  if (mqScroller.scrollLeft <= 0 && half > 0) mqScroller.scrollLeft += half;
+}
+setInterval(() => {
+  if (mqPaused || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  mqScroller.scrollLeft += 1;
+  mqWrap();
+}, 30);
+["mouseenter", "touchstart", "focusin"].forEach((ev) => $(".marquee").addEventListener(ev, () => { mqPaused = true; }, { passive: true }));
+["mouseleave", "focusout"].forEach((ev) => $(".marquee").addEventListener(ev, () => { mqPaused = false; }));
+$(".marquee").addEventListener("touchend", () => setTimeout(() => { mqPaused = false; }, 2500), { passive: true });
+$(".marquee").addEventListener("click", (e) => {
+  const arrow = e.target.closest("[data-mq]");
+  if (!arrow) return;
+  mqScroller.scrollBy({ left: Number(arrow.dataset.mq) * 320, behavior: "smooth" });
+  setTimeout(mqWrap, 450);
+});
+
+$("#marquee").addEventListener("click", (e) => {
+  const tile = e.target.closest("[data-brand-tile]");
+  if (!tile) return;
+  state.brand = tile.dataset.brandTile;
+  state.bodyType = null;
+  renderFuelChips();
+  renderGrid();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+$("#brandGrid").addEventListener("click", (e) => {
+  const tile = e.target.closest("[data-brand-tile]");
+  if (!tile) return;
+  state.brand = tile.dataset.brandTile;
+  state.bodyType = null;
+  renderFuelChips();
+  renderGrid();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+$("#backHome").addEventListener("click", goHome);
+
+// --- Push-to-start button ------------------------------------------------------
+// A sporty 4-cylinder synthesised live: tap to crank and start, hold to rev, tap again to
+// switch off. Same building blocks as the spec-panel simulator, tuned to sound punchy.
+const FUN_CAR = { engine: { cylinders: 4, displacementCc: 2000, aspiration: "Turbocharged", idleRpm: 850, redlineRpm: 7000 } };
+const fun = { ctx: null, parts: null, running: false, rpm: 0, target: 0, revving: false, pressAt: 0, timer: 0 };
+
+function funSetRpm(rpm) {
+  const p = fun.parts;
+  if (!p) return;
+  const now = fun.ctx.currentTime;
+  const t = rpm / FUN_CAR.engine.redlineRpm;
+  const hz = firingHz(FUN_CAR, rpm);
+  p.osc1.frequency.setTargetAtTime(hz, now, 0.03);
+  p.osc2.frequency.setTargetAtTime(hz / 2, now, 0.03);
+  p.lfo.frequency.setTargetAtTime(rpm / 120, now, 0.03);
+  p.filter.frequency.setTargetAtTime(380 + t * 3200, now, 0.03);
+  p.rumble.frequency.setTargetAtTime(hz * 0.75, now, 0.03);
+  p.rumbleGain.gain.setTargetAtTime(0.18 + t * 0.4, now, 0.03);
+  p.turbo.frequency.setTargetAtTime(2200 + t * 3500, now, 0.05);
+  p.turboGain.gain.setTargetAtTime(t * t * 0.14, now, 0.08);
+}
+
+// Ease the needle toward its target each frame: quick to climb, slower to fall, like a real engine.
+const RING_ARC = 203; // length of the 270-degree dial arc on the rev ring
+
+function funRing(rpm) {
+  const len = Math.max(0, Math.min(1, rpm / FUN_CAR.engine.redlineRpm)) * RING_ARC;
+  $("#revFill").style.strokeDasharray = `${len.toFixed(1)} 271`;
+}
+
+function funPuff() {
+  const puff = document.createElement("span");
+  puff.className = "puff";
+  puff.style.setProperty("--dx", `${(Math.random() * 30 - 15).toFixed(0)}px`);
+  $("#startWrap").appendChild(puff);
+  setTimeout(() => puff.remove(), 950);
+}
+
+// Exhaust pops and crackles on lift-off: short filtered bursts of noise at random moments.
+function funPops() {
+  const { ctx, parts } = fun;
+  if (!ctx) return;
+  const count = 4 + Math.floor(Math.random() * 4);
+  for (let i = 0; i < count; i++) {
+    const at = ctx.currentTime + 0.05 + Math.random() * 0.7;
+    const src = ctx.createBufferSource(); src.buffer = parts.noise.buffer;
+    const band = ctx.createBiquadFilter(); band.type = "bandpass"; band.frequency.value = 500 + Math.random() * 900; band.Q.value = 2;
+    const g = ctx.createGain(); g.gain.value = 0;
+    g.gain.setValueAtTime(0, at);
+    g.gain.linearRampToValueAtTime(0.5 + Math.random() * 0.4, at + 0.004);
+    g.gain.exponentialRampToValueAtTime(0.001, at + 0.06 + Math.random() * 0.05);
+    src.connect(band); band.connect(g); g.connect(parts.master);
+    src.start(at, Math.random()); src.stop(at + 0.15);
+  }
+}
+
+let lastPuff = 0;
+// Driven by a steady timer rather than animation frames, so the revs keep moving even
+// when the browser throttles drawing; ~30 updates a second is plenty for sound.
+function funTick() {
+  if (!fun.running) return;
+  const rate = fun.target > fun.rpm ? 0.16 : 0.09;
+  fun.rpm += (fun.target - fun.rpm) * rate;
+  funSetRpm(fun.rpm);
+  funRing(fun.rpm);
+  const now = performance.now();
+  if (fun.revving && now - lastPuff > 110) { funPuff(); lastPuff = now; }
+}
+
+function funStart() {
+  const AudioCtx = window.AudioContext || window.webkitAudioContext;
+  if (!AudioCtx) { $("#startHint").textContent = "Sound isn't supported in this browser"; return; }
+  stopEngine(); // never play over the spec-panel simulator
+  const ctx = new AudioCtx();
+  const master = ctx.createGain();
+  master.gain.value = 0;
+  // A compressor keeps it punchy but never harsh; a short feedback echo adds exhaust "body".
+  const comp = ctx.createDynamicsCompressor();
+  comp.threshold.value = -20; comp.knee.value = 18; comp.ratio.value = 4;
+  master.connect(comp); comp.connect(ctx.destination);
+  const echo = ctx.createDelay(); echo.delayTime.value = 0.028;
+  const echoFeedback = ctx.createGain(); echoFeedback.gain.value = 0.32;
+  const echoTone = ctx.createBiquadFilter(); echoTone.type = "lowpass"; echoTone.frequency.value = 900;
+  master.connect(echo); echo.connect(echoTone); echoTone.connect(echoFeedback); echoFeedback.connect(echo); echoTone.connect(comp);
+
+  const osc1 = ctx.createOscillator(); osc1.type = "sawtooth";
+  const osc2 = ctx.createOscillator(); osc2.type = "triangle";
+  const wobble = ctx.createGain(); wobble.gain.value = 1;
+  // Soft saturation rounds off the raw sawtooth into a warmer growl.
+  const warmth = ctx.createWaveShaper();
+  const curve = new Float32Array(1024);
+  for (let i = 0; i < curve.length; i++) { const x = (i / 511.5) - 1; curve[i] = Math.tanh(2.2 * x); }
+  warmth.curve = curve;
+  const filter = ctx.createBiquadFilter(); filter.type = "lowpass"; filter.Q.value = 4;
+  osc1.connect(wobble); osc2.connect(wobble); wobble.connect(warmth); warmth.connect(filter); filter.connect(master);
+  const lfo = ctx.createOscillator();
+  const lfoDepth = ctx.createGain(); lfoDepth.gain.value = 0.18;
+  lfo.connect(lfoDepth); lfoDepth.connect(wobble.gain);
+
+  const noise = ctx.createBufferSource(); noise.buffer = makeNoise(ctx); noise.loop = true;
+  const rumble = ctx.createBiquadFilter(); rumble.type = "bandpass"; rumble.Q.value = 1.2;
+  const rumbleGain = ctx.createGain();
+  noise.connect(rumble); rumble.connect(rumbleGain); rumbleGain.connect(master);
+  const turbo = ctx.createBiquadFilter(); turbo.type = "bandpass"; turbo.Q.value = 9;
+  const turboGain = ctx.createGain(); turboGain.gain.value = 0;
+  noise.connect(turbo); turbo.connect(turboGain); turboGain.connect(master);
+
+  // Starter motor: a chattering whirr gated on and off quickly before the engine fires.
+  const starter = ctx.createOscillator(); starter.type = "square"; starter.frequency.value = 95;
+  const starterGain = ctx.createGain(); starterGain.gain.value = 0;
+  const starterChop = ctx.createOscillator(); starterChop.frequency.value = 14;
+  const chopDepth = ctx.createGain(); chopDepth.gain.value = 0.05;
+  starterChop.connect(chopDepth); chopDepth.connect(starterGain.gain);
+  starter.connect(starterGain); starterGain.connect(master);
+
+  [osc1, osc2, lfo, noise, starter, starterChop].forEach((n) => n.start());
+  const now = ctx.currentTime;
+  master.gain.setValueAtTime(0.16, now);
+  starterGain.gain.setValueAtTime(0.06, now);
+  starterGain.gain.setValueAtTime(0, now + 0.75);
+  starter.stop(now + 0.8);
+  starterChop.stop(now + 0.8);
+
+  fun.ctx = ctx;
+  fun.parts = { master, osc1, osc2, lfo, filter, rumble, rumbleGain, turbo, turboGain, noise };
+  fun.running = true;
+  fun.rpm = 0;
+  fun.target = 0;
+  funSetRpm(150);
+  // Engine catches after the crank, flares, then settles to idle.
+  setTimeout(() => { if (fun.running) fun.target = 2600; }, 750);
+  setTimeout(() => { if (fun.running && !fun.revving) fun.target = FUN_CAR.engine.idleRpm; }, 1150);
+  clearInterval(fun.timer);
+  fun.timer = setInterval(funTick, 33);
+  $("#startDock").classList.add("running");
+  $("#startBtn").setAttribute("aria-pressed", "true");
+  $("#startHint").textContent = "Hold to rev · tap to stop";
+}
+
+function funStop() {
+  if (!fun.running) return;
+  fun.running = false;
+  fun.revving = false;
+  clearInterval(fun.timer);
+  const { ctx, parts } = fun;
+  // Wind down: revs sag, then the engine cuts out.
+  funSetRpm(300);
+  parts.master.gain.setTargetAtTime(0, ctx.currentTime + 0.15, 0.12);
+  setTimeout(() => { ["osc1", "osc2", "lfo", "noise"].forEach((k) => parts[k].stop()); ctx.close(); }, 900);
+  fun.ctx = null;
+  fun.parts = null;
+  funRing(0);
+  $("#startDock").classList.remove("running", "revving");
+  $("#startBtn").setAttribute("aria-pressed", "false");
+  $("#startHint").textContent = "Tap to start";
+}
+
+function funRev(on) {
+  if (!fun.running) return;
+  // Crackle only when lifting off from real revs, not on a quick tap.
+  if (!on && fun.revving && fun.rpm > 3500) funPops();
+  fun.revving = on;
+  fun.target = on ? FUN_CAR.engine.redlineRpm * 0.92 : FUN_CAR.engine.idleRpm;
+  $("#startDock").classList.toggle("revving", on);
+}
+
+// Pointer: a press on a stopped engine starts it; a press on a running engine revs while
+// held, and a short tap (under a quarter second) switches it off.
+let funStartedThisPress = false;
+$("#startBtn").addEventListener("pointerdown", (e) => {
+  e.preventDefault();
+  fun.pressAt = performance.now();
+  if (!fun.running) { funStart(); funStartedThisPress = true; return; }
+  funStartedThisPress = false;
+  funRev(true);
+});
+const funRelease = () => {
+  if (!fun.running) return;
+  const held = performance.now() - fun.pressAt;
+  funRev(false);
+  if (!funStartedThisPress && held < 250) funStop();
+  funStartedThisPress = false;
+};
+$("#startBtn").addEventListener("pointerup", funRelease);
+$("#startBtn").addEventListener("pointerleave", () => { if (fun.revving) funRev(false); });
+// Keyboard: Enter or Space toggles start/stop; holding Shift+Space revs.
+$("#startBtn").addEventListener("keydown", (e) => {
+  if (e.key !== "Enter" && e.key !== " ") return;
+  e.preventDefault();
+  if (e.repeat) { if (fun.running && e.shiftKey) funRev(true); return; }
+  if (e.shiftKey && fun.running) { funRev(true); return; }
+  fun.running ? funStop() : funStart();
+});
+$("#startBtn").addEventListener("keyup", (e) => { if (e.key === " " && fun.revving) funRev(false); });
+$("#homeLink").addEventListener("click", goHome);
+
+// --- Shared helpers for the quiz, battle, alerts and share card ----------------------
+// Everything below uses only the researched data already on the site; a value we don't
+// have is skipped or shown as NA, never estimated.
+const isAutomatic = (c) => !/^manual/i.test(c.transmission ?? "") &&
+  /automatic|amt|cvt|dct|dsg|ivt|torque|ags/i.test(`${c.transmission} ${c.variant}`);
+const mileageNumber = (c) => { const n = parseFloat(c.mileageArai); return Number.isFinite(n) ? n : null; };
+const seatsOf = (c) => c.seats ?? (categoryOf(c) === "MPV" ? 7 : null);
+const lakh = (n) => formatInr(n);
+
+// How many listed features a variant has: every trim up to its own, plus its engine/gearbox extras.
+function featureCount(base, index) {
+  const vs = variantsOf(base);
+  const current = vs[index];
+  if (!current) return 0;
+  const trims = [...new Set(vs.map((v) => v.trim))];
+  const level = trims.indexOf(current.trim);
+  let n = 0;
+  for (let i = 0; i <= level; i++) n += (vs.find((v) => v.trim === trims[i]).features ?? []).length;
+  const trimBase = vs.find((v) => v.trim === current.trim);
+  if (current !== trimBase) n += (current.features ?? []).length;
+  return n;
+}
+
+const store = {
+  get(key, fallback) { try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { return fallback; } },
+  set(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* storage blocked; feature just won't persist */ } },
+};
+
+let battleTimers = [];
+function openModal(html) {
+  $("#modalBody").innerHTML = html;
+  $("#modal").hidden = false;
+  $("#modalClose").focus();
+}
+function closeModal() {
+  $("#modal").hidden = true;
+  $("#modalBody").innerHTML = "";
+  battleTimers.forEach(clearTimeout);
+  battleTimers = [];
+}
+$("#modalClose").addEventListener("click", closeModal);
+$("#modal").addEventListener("click", (e) => { if (e.target.id === "modal") closeModal(); });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("#modal").hidden) closeModal(); });
+
+function photoOf(id) { return (PHOTOS[id] || [])[0]; }
+function thumbHtml(id, alt) {
+  const p = photoOf(id);
+  return p ? `<img src="${p.src}" alt="${esc(alt)}" loading="lazy">` : `<div class="noimg"></div>`;
+}
+
+// --- 1. Find My Car quiz -----------------------------------------------------------
+const QUIZ = [
+  { key: "budget", q: "What's your budget (ex-showroom)?", options: [
+    ["Under ₹6 lakh", "Entry hatchbacks", [0, 600000]], ["₹6–10 lakh", "Most popular range", [600000, 1000000]],
+    ["₹10–15 lakh", "Compact SUVs, sedans", [1000000, 1500000]], ["₹15–25 lakh", "Mid-size SUVs, MPVs", [1500000, 2500000]],
+    ["Above ₹25 lakh", "Premium and luxury", [2500000, Infinity]] ] },
+  { key: "body", q: "Which body type do you like?", options: [
+    ["Any", "Show me everything", null], ["Hatchback", "Easy in the city", "Hatchback"], ["Sedan", "Comfy, big boot", "Sedan"],
+    ["Compact SUV", "SUV look, small size", "Compact SUV"], ["SUV", "Space and road presence", "SUV"], ["MPV", "Room for the family", "MPV"] ] },
+  { key: "seats", q: "How many seats do you need?", options: [
+    ["Up to 5", "Me, family or friends", 5], ["6 or 7", "Big family or group trips", 7] ] },
+  { key: "fuel", q: "Which fuel?", options: [
+    ["No preference", "Pick the best", null], ["Petrol", "Smooth and common", "Petrol"], ["Diesel", "Long highway runs", "Diesel"],
+    ["CNG", "Lowest running cost", "CNG"], ["Hybrid", "Best mileage", "Hybrid"] ] },
+  { key: "gearbox", q: "Manual or automatic?", options: [
+    ["No preference", "Either is fine", null], ["Manual", "More control, lower price", "manual"], ["Automatic", "Easy in traffic", "auto"] ] },
+  { key: "priority", q: "What matters most to you?", options: [
+    ["Mileage", "Spend less on fuel", "mileage"], ["Power", "Fun to drive", "power"], ["Features", "Most kit for the money", "features"],
+    ["Safety", "More airbags and safety kit", "safety"], ["Lowest price", "Save money upfront", "price"] ] },
+];
+let quiz = { step: 0, answers: {} };
+
+function startQuiz() { quiz = { step: 0, answers: {} }; renderQuiz(); }
+
+function renderQuiz() {
+  if (quiz.step >= QUIZ.length) return renderQuizResults();
+  const item = QUIZ[quiz.step];
+  openModal(`
+    <span class="q-step">Question ${quiz.step + 1} of ${QUIZ.length}</span>
+    <h2 id="modalTitle">${esc(item.q)}</h2>
+    <div class="progress"><div style="width:${(quiz.step / QUIZ.length) * 100}%"></div></div>
+    <div class="q-options">${item.options.map(([label, hint], i) =>
+      `<button class="q-option" data-q="${i}"><b>${esc(label)}</b><span>${esc(hint)}</span></button>`).join("")}</div>
+    <div class="q-nav">${quiz.step > 0 ? `<button class="btn" data-qback>← Back</button>` : "<span></span>"}</div>`);
+}
+
+function quizMetric(c, base, i, priority) {
+  if (priority === "mileage") return mileageNumber(c) ?? -1;
+  if (priority === "power") return c.engine.maxPowerBhp ?? -1;
+  if (priority === "features") return featureCount(base, i);
+  if (priority === "safety") return (c.airbags ?? 0) * 100 + featureCount(base, i);
+  return -(c.priceInr ?? Infinity);
+}
+
+function renderQuizResults() {
+  const a = quiz.answers;
+  const picks = [];
+  for (const base of CARS) {
+    if (a.body && categoryOf(base) !== a.body) continue;
+    const seats = seatsOf(base);
+    if (a.seats === 7 && !(seats >= 6)) continue;
+    let best = null;
+    variantsOf(base).forEach((v, i) => {
+      const c = withVariant(base, v);
+      if (!c.priceInr || c.priceInr < a.budget[0] || c.priceInr > a.budget[1]) return;
+      if (a.fuel && c.fuel !== a.fuel) return;
+      if (a.gearbox === "auto" && !isAutomatic(c)) return;
+      if (a.gearbox === "manual" && isAutomatic(c)) return;
+      const score = quizMetric(c, base, i, a.priority);
+      if (!best || score > best.score || (score === best.score && c.priceInr < best.c.priceInr)) best = { c, base, i, score };
+    });
+    if (best) picks.push(best);
+  }
+  picks.sort((x, y) => y.score - x.score || x.c.priceInr - y.c.priceInr);
+  const top = picks.slice(0, 3);
+  const why = ({ c, base, i }) => [
+    `${lakh(c.priceInr)} ex-showroom, inside your budget`,
+    mileageNumber(c) != null ? `Claimed mileage ${c.mileageArai}` : null,
+    c.engine.maxPowerBhp ? `${c.engine.maxPowerBhp} bhp, ${c.engine.maxTorqueNm ?? "NA"} Nm` : null,
+    c.airbags ? `${c.airbags} airbags` : null,
+    `${featureCount(base, i)} listed features · ${c.fuel}, ${isAutomatic(c) ? "automatic" : "manual"}`,
+  ].filter(Boolean);
+  const priorityLabel = QUIZ[5].options.find((o) => o[2] === a.priority)[0].toLowerCase();
+  openModal(`
+    <span class="q-step">Your matches</span>
+    <h2 id="modalTitle">${top.length ? "Here are your best picks" : "No exact match yet"}</h2>
+    <p class="meta">${top.length
+      ? `Out of ${picks.length} cars that fit your answers, ranked by <b>${esc(priorityLabel)}</b>.`
+      : "Nothing fits every answer. Try a wider budget, or say “No preference” for fuel or gearbox."}</p>
+    ${top.map((m, n) => `
+      <div class="match">
+        ${thumbHtml(m.base.id, m.base.model)}
+        <div>
+          <span class="rank">#${n + 1}</span> <b>${esc(m.base.brand)} ${esc(m.base.model)}</b>
+          <div class="meta">${esc(m.c.variant)}</div>
+          <ul>${why(m).map((r) => `<li>${esc(r)}</li>`).join("")}</ul>
+          <button class="btn primary" data-view="${m.base.id}" data-vi="${m.i}">View this variant</button>
+        </div>
+      </div>`).join("")}
+    <div class="q-nav"><button class="btn" data-qrestart>↺ Retake quiz</button></div>`);
+}
+
+$("#modalBody").addEventListener("click", (e) => {
+  const opt = e.target.closest("[data-q]");
+  if (opt) {
+    const item = QUIZ[quiz.step];
+    quiz.answers[item.key] = item.options[Number(opt.dataset.q)][2];
+    quiz.step++;
+    return renderQuiz();
+  }
+  if (e.target.closest("[data-qback]")) { quiz.step = Math.max(0, quiz.step - 1); return renderQuiz(); }
+  if (e.target.closest("[data-qrestart]")) return startQuiz();
+  const view = e.target.closest("[data-view]");
+  if (view) {
+    closeModal();
+    openDetail(view.dataset.view, Number(view.dataset.vi));
+    return;
+  }
+  if (e.target.closest("[data-fight]")) runBattle();
+  if (e.target.closest("[data-copy]")) copyShareText();
+});
+$("#openQuiz").addEventListener("click", startQuiz);
+$("#heroQuiz").addEventListener("click", startQuiz);
+
+// --- 2. Car Battle ------------------------------------------------------------------
+const RACER = (color) => `<svg viewBox="0 0 72 32" aria-hidden="true">
+  <path d="M6 22 L9 14 Q12 9 22 8 L44 8 Q52 8 58 14 L66 17 Q70 18 70 22 Z" fill="${color}"/>
+  <path d="M24 10 L42 10 Q48 10 52 15 L22 15 Z" fill="#ffffff" opacity="0.65"/>
+  <circle cx="20" cy="23" r="5" fill="#0e1525"/><circle cx="56" cy="23" r="5" fill="#0e1525"/></svg>`;
+
+function openBattle() {
+  const options = CARS.map((c) => `<option value="${c.id}">${esc(c.brand)} ${esc(c.model)}</option>`).join("");
+  const pickA = CARS.find((c) => c.model === "Creta")?.id ?? CARS[0].id;
+  const pickB = CARS.find((c) => c.model === "Seltos")?.id ?? CARS[1].id;
+  openModal(`
+    <span class="q-step">Car Battle</span>
+    <h2 id="modalTitle">Pick two fighters</h2>
+    <p class="meta">Each car fights with its mid-range variant across six rounds of real specs. A round with missing data is skipped, not guessed.</p>
+    <div class="battle-picks">
+      <label>Blue corner<select id="battleA">${options}</select></label>
+      <span class="vs">VS</span>
+      <label>Red corner<select id="battleB">${options}</select></label>
+    </div>
+    <label class="meta" style="display:flex;gap:6px;align-items:center;margin-top:10px"><input type="checkbox" id="battleSound" checked> Engine sounds</label>
+    <div class="q-nav"><span></span><button class="btn primary" data-fight>Fight! ⚔️</button></div>
+    <div id="battleArena"></div>`);
+  $("#battleA").value = pickA;
+  $("#battleB").value = pickB;
+}
+
+function battleRounds(a, b, baseA, baseB) {
+  const ia = defaultVariantIndex(baseA), ib = defaultVariantIndex(baseB);
+  const unitA = /km\/kg/.test(a.mileageArai ?? ""), unitB = /km\/kg/.test(b.mileageArai ?? "");
+  return [
+    { name: "Power", a: a.engine.maxPowerBhp, b: b.engine.maxPowerBhp, fmt: (v) => `${v} bhp`, high: true },
+    { name: "Torque", a: a.engine.maxTorqueNm, b: b.engine.maxTorqueNm, fmt: (v) => `${v} Nm`, high: true },
+    // Mileage in km/kg (CNG) can't be fairly compared with kmpl, so that round is skipped.
+    { name: "Mileage", a: unitA === unitB ? mileageNumber(a) : null, b: unitA === unitB ? mileageNumber(b) : null, fmt: (v) => `${v} ${unitA ? "km/kg" : "kmpl"}`, high: true },
+    { name: "Price", a: a.priceInr, b: b.priceInr, fmt: lakh, high: false },
+    { name: "Airbags", a: a.airbags, b: b.airbags, fmt: (v) => `${v}`, high: true },
+    { name: "Features", a: featureCount(baseA, ia), b: featureCount(baseB, ib), fmt: (v) => `${v} listed`, high: true },
+  ];
+}
+
+function runBattle() {
+  battleTimers.forEach(clearTimeout);
+  battleTimers = [];
+  const baseA = CARS.find((c) => c.id === $("#battleA").value);
+  const baseB = CARS.find((c) => c.id === $("#battleB").value);
+  if (baseA === baseB) { $("#battleArena").innerHTML = `<p class="meta">Pick two different cars.</p>`; return; }
+  const a = withVariant(baseA, variantsOf(baseA)[defaultVariantIndex(baseA)]);
+  const b = withVariant(baseB, variantsOf(baseB)[defaultVariantIndex(baseB)]);
+  const rounds = battleRounds(a, b, baseA, baseB);
+  const sound = $("#battleSound").checked;
+  $("#battleArena").innerHTML = `
+    <div class="race-track"><div class="finish"></div>
+      <div class="lane"><div class="racer" id="racerA">${RACER("#2f5bff")}</div></div>
+      <div class="lane"><div class="racer" id="racerB">${RACER("#ff3b30")}</div></div>
+    </div>
+    <ul class="rounds" id="roundList">
+      <li><b>Round</b><b style="color:#2f5bff">${esc(baseA.model)}</b><b style="color:#ff3b30">${esc(baseB.model)}</b></li>
+    </ul>
+    <div id="battleResult"></div>`;
+  if (sound && !fun.running) funStart();
+  let scoreA = 0, scoreB = 0, played = 0;
+  const step = 76 / rounds.length; // share of the track each round win is worth
+  rounds.forEach((r, n) => {
+    battleTimers.push(setTimeout(() => {
+      let result = "skip";
+      if (r.a != null && r.b != null && r.a !== r.b) result = (r.high ? r.a > r.b : r.a < r.b) ? "a" : "b";
+      else if (r.a != null && r.b != null) result = "tie";
+      if (result !== "skip") played++;
+      if (result === "a") scoreA++;
+      if (result === "b") scoreB++;
+      const cell = (v, side) => v == null ? `<span class="lose">NA</span>` : `<span class="${result === side ? "win" : "lose"}">${esc(r.fmt(v))}${result === side ? " ✓" : ""}</span>`;
+      $("#roundList").insertAdjacentHTML("beforeend",
+        `<li><b>${r.name}${result === "skip" ? " (skipped)" : result === "tie" ? " (tie)" : ""}</b>${cell(r.a, "a")}${cell(r.b, "b")}</li>`);
+      $("#racerA").style.left = `${4 + scoreA * step}%`;
+      $("#racerB").style.left = `${4 + scoreB * step}%`;
+      if (sound && fun.running && result !== "skip") { funRev(true); battleTimers.push(setTimeout(() => funRev(false), 380)); }
+    }, 900 + n * 1100));
+  });
+  battleTimers.push(setTimeout(() => {
+    const verdict = scoreA === scoreB ? `It's a draw, ${scoreA}–${scoreB}!`
+      : `🏆 ${scoreA > scoreB ? `${baseA.brand} ${baseA.model}` : `${baseB.brand} ${baseB.model}`} wins ${Math.max(scoreA, scoreB)}–${Math.min(scoreA, scoreB)}!`;
+    $("#battleResult").innerHTML = `<div class="winner">${esc(verdict)}</div>
+      <p class="meta" style="text-align:center">${played} rounds decided on researched specs · compared: ${esc(a.variant)} vs ${esc(b.variant)}</p>`;
+    if (sound && fun.running) battleTimers.push(setTimeout(funStop, 900));
+  }, 900 + rounds.length * 1100));
+}
+$("#openBattle").addEventListener("click", openBattle);
+$("#heroBattle").addEventListener("click", openBattle);
+
+// --- 3. Recently viewed --------------------------------------------------------------
+const RECENT_KEY = "throttlewise.recent";
+function recordRecent(id) {
+  const list = store.get(RECENT_KEY, []).filter((x) => x !== id);
+  list.unshift(id);
+  store.set(RECENT_KEY, list.slice(0, 8));
+  renderRecent();
+}
+function renderRecent() {
+  const cars = store.get(RECENT_KEY, []).map((id) => CARS.find((c) => c.id === id)).filter(Boolean);
+  $("#recentSection").hidden = cars.length === 0;
+  $("#recentRow").innerHTML = cars.map((c) =>
+    `<button class="recent-tile" data-recent="${c.id}">${thumbHtml(c.id, c.model)}<b>${esc(c.model)}</b><span>${esc(c.brand)}</span></button>`).join("");
+}
+$("#recentRow").addEventListener("click", (e) => {
+  const t = e.target.closest("[data-recent]");
+  if (t) openDetail(t.dataset.recent);
+});
+
+// --- 4. Price-drop watch ---------------------------------------------------------------
+// The site can't send emails or texts, so a watch is saved on this device and checked
+// against the latest researched price every time the visitor comes back.
+const WATCH_KEY = "throttlewise.watch";
+const watchKey = (c) => `${c.id}|${c.variant}`;
+function updateWatchButton() {
+  const c = currentCar();
+  if (!c) return;
+  const on = Boolean(store.get(WATCH_KEY, {})[watchKey(c)]);
+  $("#watchBtn").textContent = on ? "🔔 Watching price" : "🔔 Notify me if cheaper";
+  $("#watchBtn").classList.toggle("watching", on);
+  $("#watchBtn").disabled = !c.priceInr;
+}
+$("#watchBtn").addEventListener("click", () => {
+  const c = currentCar();
+  if (!c?.priceInr) return;
+  const watch = store.get(WATCH_KEY, {});
+  const key = watchKey(c);
+  if (watch[key]) delete watch[key];
+  else watch[key] = { id: c.id, variant: c.variant, price: c.priceInr, savedOn: new Date().toISOString().slice(0, 10) };
+  store.set(WATCH_KEY, watch);
+  updateWatchButton();
+  renderWatch();
+});
+function currentPriceFor(w) {
+  const base = CARS.find((c) => c.id === w.id);
+  if (!base) return null;
+  const v = variantsOf(base).find((x) => withVariant(base, x).variant === w.variant);
+  return { base, price: v?.priceInr ?? null };
+}
+function renderWatch() {
+  const entries = Object.values(store.get(WATCH_KEY, {}));
+  $("#watchSection").hidden = entries.length === 0;
+  const drops = [];
+  $("#watchList").innerHTML = entries.map((w) => {
+    const now = currentPriceFor(w);
+    let tag = `<span class="tag">No change since ${esc(w.savedOn)}</span>`;
+    if (!now?.price) tag = `<span class="tag">Variant no longer listed</span>`;
+    else if (now.price < w.price) { tag = `<span class="tag drop">↓ ${lakh(w.price - now.price)} cheaper</span>`; drops.push(`${now.base.model} ${w.variant}`); }
+    else if (now.price > w.price) tag = `<span class="tag up">↑ ${lakh(now.price - w.price)} dearer</span>`;
+    return `<div class="watch-row"><div class="grow"><b>${esc(now?.base.brand ?? "")} ${esc(now?.base.model ?? w.id)}</b>
+      <div class="meta">${esc(w.variant)} · saved at ${lakh(w.price)}${now?.price ? ` · now ${lakh(now.price)}` : ""}</div></div>${tag}
+      <button class="btn" data-open-watch="${w.id}">View</button></div>`;
+  }).join("");
+  $("#dropBanner").hidden = drops.length === 0;
+  $("#dropBanner").textContent = drops.length ? `🎉 Price drop on ${drops.join(", ")}! See “Your price watch” below.` : "";
+}
+$("#watchList").addEventListener("click", (e) => {
+  const t = e.target.closest("[data-open-watch]");
+  if (t) openDetail(t.dataset.openWatch);
+});
+
+// --- 5. Share card -----------------------------------------------------------------------
+// Draws a portrait spec card on a canvas. Pages here can't download files for the
+// visitor, so the card is shown as an image they can long-press or right-click to save.
+let shareText = "";
+async function makeShareCard() {
+  const c = currentCar();
+  if (!c) return;
+  const W = 1080, H = 1350;
+  const cv = document.createElement("canvas"); cv.width = W; cv.height = H;
+  const g = cv.getContext("2d");
+  try { await document.fonts?.ready; } catch { /* fall back to system fonts */ }
+  g.fillStyle = "#ffffff"; g.fillRect(0, 0, W, H);
+  const grad = g.createLinearGradient(0, 0, W, 0); grad.addColorStop(0, "#2f5bff"); grad.addColorStop(1, "#1235c9");
+  g.fillStyle = grad; g.fillRect(0, 0, W, 150);
+  g.fillStyle = "#ffffff"; g.font = "800 58px Sora, sans-serif"; g.fillText("ThrottleWise", 60, 98);
+  g.font = "700 24px 'DM Sans', sans-serif"; g.globalAlpha = 0.85; g.fillText("EVERY VARIANT, FULL THROTTLE", 640, 92); g.globalAlpha = 1;
+
+  const photo = photoOf(c.id);
+  g.fillStyle = "#f4f6fb"; g.fillRect(0, 150, W, 560);
+  if (photo) {
+    const img = new Image(); img.src = photo.src;
+    await new Promise((r) => { img.onload = r; img.onerror = r; });
+    if (img.naturalWidth) {
+      const boxH = 560, s = Math.max(W / img.naturalWidth, boxH / img.naturalHeight);
+      const dw = img.naturalWidth * s, dh = img.naturalHeight * s;
+      g.save(); g.beginPath(); g.rect(0, 150, W, boxH); g.clip();
+      g.drawImage(img, (W - dw) / 2, 150 + (boxH - dh) / 2, dw, dh); g.restore();
+    }
+  }
+
+  g.fillStyle = "#5b6478"; g.font = "700 30px 'DM Sans', sans-serif"; g.fillText(c.brand.toUpperCase(), 60, 780);
+  g.fillStyle = "#0e1525"; g.font = "800 72px Sora, sans-serif"; g.fillText(c.model, 60, 860);
+  g.font = "500 32px 'DM Sans', sans-serif"; g.fillStyle = "#5b6478"; g.fillText(c.variant, 60, 910);
+  g.fillStyle = "#1f4dff"; g.font = "800 60px Sora, sans-serif"; g.fillText(c.priceInr ? lakh(c.priceInr) : "Price NA", 60, 995);
+  g.fillStyle = "#5b6478"; g.font = "500 24px 'DM Sans', sans-serif"; g.fillText("ex-showroom, Oct 2026", 60, 1030);
+
+  const stats = [["Power", c.engine.maxPowerBhp ? `${c.engine.maxPowerBhp} bhp` : "NA"], ["Torque", c.engine.maxTorqueNm ? `${c.engine.maxTorqueNm} Nm` : "NA"],
+    ["Mileage", c.mileageArai ? String(c.mileageArai).replace(/ \(.*\)$/, "") : "NA"], ["Airbags", c.airbags ? String(c.airbags) : "NA"]];
+  stats.forEach(([label, value], i) => {
+    const x = 60 + i * 245, y = 1075;
+    g.fillStyle = "#f4f6fb"; g.beginPath();
+    if (g.roundRect) g.roundRect(x, y, 225, 150, 22); else g.rect(x, y, 225, 150);
+    g.fill();
+    g.fillStyle = "#5b6478"; g.font = "700 24px 'DM Sans', sans-serif"; g.fillText(label.toUpperCase(), x + 22, y + 48);
+    g.fillStyle = "#0e1525"; g.font = `800 ${value.length > 9 ? 30 : 38}px Sora, sans-serif`; g.fillText(value, x + 22, y + 108);
+  });
+  g.fillStyle = "#5b6478"; g.font = "500 22px 'DM Sans', sans-serif";
+  g.fillText(`${c.fuel} · ${c.transmission ?? ""} · specs researched Oct 2026`, 60, 1290);
+
+  shareText = `${c.brand} ${c.model} ${c.variant}\nPrice: ${c.priceInr ? lakh(c.priceInr) : "NA"} (ex-showroom)\n` +
+    stats.map(([l, v]) => `${l}: ${v}`).join(" · ") + `\nvia ThrottleWise`;
+  openModal(`
+    <span class="q-step">Share card</span>
+    <h2 id="modalTitle">${esc(c.model)} ${esc(c.variant)}</h2>
+    <img class="share-preview" id="sharePreview" src="${cv.toDataURL("image/png")}" alt="Spec card for ${esc(c.brand)} ${esc(c.model)}">
+    <p class="meta" style="text-align:center">Long-press (phone) or right-click (computer) the card and choose “Save image” or “Copy image”.</p>
+    <div class="q-nav" style="justify-content:center"><button class="btn primary" data-copy>Copy details as text</button></div>
+    <p class="meta" id="copyMsg" style="text-align:center" aria-live="polite"></p>`);
+}
+async function copyShareText() {
+  try { await navigator.clipboard.writeText(shareText); $("#copyMsg").textContent = "Copied! Paste it into WhatsApp or anywhere."; }
+  catch { $("#copyMsg").textContent = "Couldn't copy automatically. Here it is: " + shareText.replace(/\n/g, " · "); }
+}
+$("#shareBtn").addEventListener("click", makeShareCard);
+
+// Footer: every link either scrolls, opens a tool, filters the list, or opens a policy page.
+$(".site-footer").addEventListener("click", (e) => {
+  const b = e.target.closest("[data-nav], [data-nav-type], [data-nav-fuel]");
+  if (!b) return;
+  if (b.dataset.navType || b.dataset.navFuel) {
+    closeDetail();
+    state.bodyType = b.dataset.navType ?? null;
+    state.brand = "All brands";
+    state.fuel = b.dataset.navFuel ?? "All";
+    renderFuelChips();
+    renderGrid();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    return;
+  }
+  const nav = b.dataset.nav;
+  if (nav === "home") goHome();
+  else if (nav === "quiz") startQuiz();
+  else if (nav === "battle") openBattle();
+  else if (nav === "calc") openCalc();
+  else if (nav === "privacy" || nav === "disclaimer") openModal($(`#${nav}Text`).innerHTML);
+});
+$("#footerYear").textContent = new Date().getFullYear();
+
+// Back-to-top appears once the visitor has scrolled a screen's worth.
+const toTop = $("#toTop");
+window.addEventListener("scroll", () => { toTop.hidden = window.scrollY < window.innerHeight; }, { passive: true });
+toTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+
+$("#copyEmail").addEventListener("click", async () => {
+  const email = $("#creatorEmail").textContent;
+  try { await navigator.clipboard.writeText(email); $("#copyEmailMsg").textContent = "Email copied!"; }
+  catch { const r = document.createRange(); r.selectNodeContents($("#creatorEmail")); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); $("#copyEmailMsg").textContent = "Press Ctrl+C to copy the selected email."; }
+  setTimeout(() => { $("#copyEmailMsg").textContent = ""; }, 3000);
+});
+
+// --- 6. On-road price, EMI and running cost -----------------------------------------------
+// Defaults come from data/onroad.json (researched state road-tax slabs, RTO fees, IRDAI
+// third-party premiums, city fuel prices, loan rates). Every box is editable, so a buyer can
+// type in their dealer's actual quote; a value we don't have stays blank, never guessed.
+let ONROAD = null;
+async function loadOnroad() {
+  try { const r = await fetch(`data/onroad.json?v=${DATA_VERSION}`); if (r.ok) ONROAD = await r.json(); } catch { ONROAD = null; }
+  // Prices on the site are New Delhi ex-showroom, so the calculator opens on New Delhi.
+  if (ONROAD?.states) calc.si = Math.max(0, ONROAD.states.findIndex((st) => st.city === "New Delhi"));
+  // The calculator only appears once its researched rates have loaded.
+  $("#openCalc").hidden = !ONROAD;
+  $("#calcBtn").hidden = !ONROAD;
+  // The About section quotes the city count, so refresh it now the data is in.
+  if (CARS.length) renderCreatorStats();
+}
+const calc = { carId: null, vi: 0, si: 0, over: {} };
+const PRICE_KEYS = ["ex", "tax", "reg", "ins", "fastag", "tcs"];
+const rupees = (n) => n == null || !Number.isFinite(n) ? "NA" : `₹${Math.round(n).toLocaleString("en-IN")}`;
+
+function inSlab(s, price) { return price >= (s.minPrice ?? 0) && (s.maxPrice == null || price <= s.maxPrice); }
+// Road tax percent for this state, fuel and price. If a state has no separate slab for CNG or
+// hybrid, the petrol slab is used and the label says so.
+function roadTaxRate(st, fuel, price) {
+  const slabs = st?.roadTax ?? [];
+  const find = (f) => slabs.find((s) => s.fuel === f && inSlab(s, price));
+  if (fuel === "Electric") {
+    const ev = find("Electric");
+    return ev ? { pct: ev.percent, note: " (EV rate)" } : { pct: null, note: "", ev: true };
+  }
+  const own = find(fuel) ?? find("any");
+  if (own) return { pct: own.percent, note: "" };
+  if (fuel === "CNG" || fuel === "Hybrid") {
+    const petrol = find("Petrol");
+    if (petrol) return { pct: petrol.percent, note: ` (petrol rate; no separate ${fuel} slab found)` };
+  }
+  return { pct: null, note: "" };
+}
+
+function calcDefaults() {
+  const base = CARS.find((c) => c.id === calc.carId);
+  const c = withVariant(base, variantsOf(base)[calc.vi]);
+  const st = ONROAD?.states?.[calc.si];
+  const ex = c.priceInr ?? null;
+  const tax = ex != null ? roadTaxRate(st, c.fuel, ex) : { pct: null, note: "" };
+  const cc = c.engine.displacementCc;
+  const tpTable = ONROAD?.insurance?.thirdPartyThreeYear ?? [];
+  const tp = cc ? tpTable.find((t) => t.maxCc == null || cc <= t.maxCc)?.premium ?? null : null;
+  const od = ONROAD?.insurance?.ownDamageRatePercentOfExShowroom ?? {};
+  const odPct = od.typicalLow != null && od.typicalHigh != null ? (od.typicalLow + od.typicalHigh) / 2 : (od.typicalLow ?? od.typicalHigh ?? null);
+  const ins = tp != null && odPct != null && ex != null ? tp + ex * odPct / 100 : null;
+  const reg = st ? (st.registrationFee ?? 0) + (st.otherRtoCharges ?? 0) || null : null;
+  const tcsPct = ONROAD?.otherCharges?.tcsPercentAboveTenLakh ?? 0;
+  const fuelPrices = st?.fuelPrice ?? {};
+  const ev = isEV(c);
+  const fuelPrice = ev ? (ONROAD?.otherCharges?.homeElectricityPerUnit ?? 8) : c.fuel === "CNG" ? fuelPrices.CNG : c.fuel === "Diesel" ? fuelPrices.Diesel : fuelPrices.Petrol;
+  const evKmPerKwh = ev && c.ev?.batteryKwh && c.ev?.rangeKm ? Math.round((c.ev.rangeKm / c.ev.batteryKwh) / 1.1 * 10) / 10 : null;
+  return {
+    c, st,
+    ex, tax: tax.pct != null && ex != null ? ex * tax.pct / 100 : null,
+    taxWhy: tax.pct != null
+      ? `${tax.pct}% of ex-showroom in ${st.state}${tax.note}. ${st.verified ? "Checked against 2 sources." : "Estimate from one source; confirm with your dealer or RTO."}`
+      : tax.ev
+        ? `Most states exempt or discount road tax for EVs, and the rule changes often; enter the figure from your dealer or RTO`
+        : st?.verified && (st.roadTax ?? []).every((r) => r.percent == null)
+        ? `${st.state} charges road tax as a fixed amount, not a percentage; enter it from your RTO or dealer`
+        : `No confirmed rate for this price range in ${st?.state ?? "this state"}; enter the figure from your dealer`,
+    reg, regWhy: st ? `${st.state} RTO registration and fees` : "",
+    ins, insWhy: ins != null ? `3-year third-party ${rupees(tp)} + own damage ~${odPct}% of ex-showroom (estimate; get a quote)`
+      : tp != null ? `Third-party cover (3 years) alone is ${rupees(tp)}. Own-damage cover varies by insurer, so enter your full quote.` : "Enter your insurance quote",
+    fastag: ONROAD?.otherCharges?.fastag ?? null,
+    tcs: ex != null && ex > 1000000 && tcsPct ? ex * tcsPct / 100 : 0,
+    tcsWhy: tcsPct ? `${tcsPct}% TCS on cars above ₹10 lakh (claimable against income tax)` : "Not applicable",
+    rate: ONROAD?.carLoan?.typicalInterestPercent ?? null,
+    fuelPrice: fuelPrice ?? null,
+    fuelUnit: ev ? "unit" : c.fuel === "CNG" ? "kg" : "litre",
+    ev,
+    mileage: ev ? evKmPerKwh : mileageNumber(c),
+  };
+}
+
+function openCalc(carId, vi) {
+  calc.carId = carId ?? CARS.find((c) => c.model === "Creta")?.id ?? CARS[0].id;
+  const base = CARS.find((c) => c.id === calc.carId);
+  calc.vi = Number.isInteger(vi) ? vi : defaultVariantIndex(base);
+  calc.over = {};
+  const states = ONROAD?.states ?? [];
+  const carOpts = CARS.map((c) => `<option value="${c.id}">${esc(c.brand)} ${esc(c.model)}</option>`).join("");
+  const row = (key, name) => `<div class="calc-row"><label for="calc-${key}"><span class="name">${name}</span><span class="why" id="why-${key}"></span></label><input id="calc-${key}" data-k="${key}" type="number" min="0" step="1" inputmode="numeric"></div>`;
+  openModal(`
+    <span class="q-step">Cost calculator</span>
+    <h2 id="modalTitle">On-road price, EMI and running cost</h2>
+    <p class="meta">Every box is editable: type in your dealer's quote to get exact numbers. Rates are as of ${esc(ONROAD?.asOf ?? "Oct 2026")}.</p>
+    ${ONROAD ? "" : `<p class="meta"><b>City rates couldn't load, so fill in the boxes yourself.</b></p>`}
+    <div class="calc-picks">
+      <label>Car<select id="calcCar">${carOpts}</select></label>
+      <label>Variant<select id="calcVariant"></select></label>
+      <label>City<select id="calcState">${states.map((s, i) => `<option value="${i}">${esc(s.city)} (${esc(s.state)})</option>`).join("")}</select></label>
+    </div>
+
+    <div class="calc-section">
+      <h3>1. On-road price</h3>
+      ${row("ex", "Ex-showroom price")}${row("tax", "Road tax")}${row("reg", "Registration & RTO fees")}
+      ${row("ins", "Insurance (first year)")}${row("fastag", "FASTag")}${row("tcs", "TCS")}
+      <div class="calc-total"><span>On-road price</span><b id="out-onroad">NA</b></div>
+    </div>
+
+    <div class="calc-section">
+      <h3>2. Loan & EMI</h3>
+      <div class="calc-grid3">
+        <div class="calc-row" style="border:0"><label for="calc-down"><span class="name">Down payment (₹)</span><span class="why">Default 20% of on-road</span></label><input id="calc-down" data-k="down" type="number" min="0" step="1000"></div>
+        <div class="calc-row" style="border:0"><label for="calc-rate"><span class="name">Interest rate (% a year)</span><span class="why" id="why-rate"></span></label><input id="calc-rate" data-k="rate" type="number" min="0" max="30" step="0.05"></div>
+        <div class="calc-row" style="border:0"><label for="calc-years"><span class="name">Loan years</span><span class="why">1 to 7</span></label><select id="calc-years" data-k="years">${[1, 2, 3, 4, 5, 6, 7].map((y) => `<option${y === 5 ? " selected" : ""}>${y}</option>`).join("")}</select></div>
+      </div>
+      <div class="calc-out">
+        <div><span>Monthly EMI</span><b id="out-emi">NA</b></div>
+        <div><span>Loan amount</span><b id="out-loan">NA</b></div>
+        <div><span>Total interest</span><b id="out-interest">NA</b></div>
+        <div><span>Total you pay</span><b id="out-totalpay">NA</b></div>
+      </div>
+    </div>
+
+    <div class="calc-section">
+      <h3>3. Running cost per month</h3>
+      <div class="calc-grid3">
+        <div class="calc-row" style="border:0"><label for="calc-km"><span class="name">Km driven per month</span></label><input id="calc-km" data-k="km" type="number" min="0" step="50" value="1000"></div>
+        <div class="calc-row" style="border:0"><label for="calc-fuel"><span class="name" id="fuel-label">Fuel price</span><span class="why" id="why-fuel"></span></label><input id="calc-fuel" data-k="fuel" type="number" min="0" step="0.01"></div>
+        <div class="calc-row" style="border:0"><label for="calc-mileage"><span class="name" id="mileage-label">Mileage</span><span class="why" id="why-mileage">Claimed figure; edit to your real-world mileage</span></label><input id="calc-mileage" data-k="mileage" type="number" min="0" step="0.1"></div>
+      </div>
+      <div class="calc-out">
+        <div><span id="out-month-label">Fuel cost per month</span><b id="out-month">NA</b></div>
+        <div><span>Cost per km</span><b id="out-perkm">NA</b></div>
+        <div><span id="out-year-label">Fuel cost per year</span><b id="out-year">NA</b></div>
+        <div><span id="out-all-label">EMI + fuel per month</span><b id="out-all">NA</b></div>
+      </div>
+    </div>
+    <p class="meta" style="margin-top:12px">Estimates for guidance only. Insurance, dealer charges and offers vary, so confirm the final on-road price with your dealer.</p>`);
+  $("#calcCar").value = calc.carId;
+  $("#calcState").value = String(calc.si);
+  fillVariantSelect();
+  updateCalc();
+}
+
+function fillVariantSelect() {
+  const base = CARS.find((c) => c.id === calc.carId);
+  $("#calcVariant").innerHTML = variantsOf(base).map((v, i) => `<option value="${i}">${esc(withVariant(base, v).variant)}</option>`).join("");
+  $("#calcVariant").value = String(calc.vi);
+}
+
+function updateCalc() {
+  const d = calcDefaults();
+  const val = (k, def) => (k in calc.over ? calc.over[k] : def);
+  // Put defaults into any box the visitor hasn't typed in.
+  const setBox = (k, def) => { if (!(k in calc.over)) $(`#calc-${k}`).value = def == null ? "" : Math.round(def * 100) / 100; };
+  PRICE_KEYS.forEach((k) => setBox(k, d[k]));
+  $("#why-ex").textContent = d.c.priceNote ? `Researched price (${d.c.priceNote})` : "";
+  $("#why-tax").textContent = d.taxWhy;
+  $("#why-reg").textContent = d.reg == null ? "Enter your RTO charges" : d.regWhy;
+  $("#why-ins").textContent = d.insWhy;
+  $("#why-fastag").textContent = d.fastag == null ? "Enter if charged" : "Typical FASTag issue charge";
+  $("#why-tcs").textContent = d.tcsWhy;
+  const onroad = PRICE_KEYS.reduce((sum, k) => sum + (Number(val(k, d[k])) || 0), 0);
+  // If road tax is still unknown, say so in the total instead of quietly leaving it out.
+  const taxMissing = d.tax == null && !("tax" in calc.over);
+  $("#out-onroad").textContent = d.ex == null && !("ex" in calc.over) ? "NA" : rupees(onroad) + (taxMissing ? " + road tax" : "");
+
+  setBox("down", Math.round(onroad * 0.2 / 1000) * 1000);
+  setBox("rate", d.rate);
+  $("#why-rate").textContent = d.rate != null ? `Typical car-loan rate, ${ONROAD?.asOf ?? ""}` : "Enter your bank's rate";
+  const down = Number(val("down", Math.round(onroad * 0.2 / 1000) * 1000)) || 0;
+  const rate = Number(val("rate", d.rate));
+  const months = Number($("#calc-years").value) * 12;
+  const loan = Math.max(0, onroad - down);
+  let emi = null;
+  if (loan > 0 && Number.isFinite(rate)) {
+    const r = rate / 1200;
+    emi = r === 0 ? loan / months : loan * r * (1 + r) ** months / ((1 + r) ** months - 1);
+  }
+  $("#out-loan").textContent = rupees(loan);
+  $("#out-emi").textContent = rupees(emi);
+  $("#out-interest").textContent = emi == null ? "NA" : rupees(emi * months - loan);
+  $("#out-totalpay").textContent = emi == null ? "NA" : rupees(emi * months + down);
+
+  setBox("fuel", d.fuelPrice);
+  setBox("mileage", d.mileage);
+  $("#fuel-label").textContent = d.ev ? "Electricity (₹ per unit)" : `Fuel price (₹ per ${d.fuelUnit})`;
+  $("#why-fuel").textContent = d.ev ? "Typical home tariff; edit to your bill rate (public chargers cost more)"
+    : d.fuelPrice != null ? `${d.c.fuel === "Hybrid" ? "Petrol" : d.c.fuel} price for ${d.st.city} area, ${d.st.fuelPriceDate ?? ""}` : "Enter today's price";
+  $("#mileage-label").textContent = d.ev ? "Efficiency (km per unit)" : `Mileage (km per ${d.fuelUnit})`;
+  $("#why-mileage").textContent = d.ev ? "From claimed range ÷ battery, less ~10% charging loss; edit to your real figure" : "Claimed figure; edit to your real-world mileage";
+  $("#out-month-label").textContent = d.ev ? "Charging cost per month" : "Fuel cost per month";
+  $("#out-year-label").textContent = d.ev ? "Charging cost per year" : "Fuel cost per year";
+  $("#out-all-label").textContent = d.ev ? "EMI + charging per month" : "EMI + fuel per month";
+  const km = Number(val("km", 1000)) || 0;
+  const fuel = Number(val("fuel", d.fuelPrice));
+  const mil = Number(val("mileage", d.mileage));
+  const perKm = fuel > 0 && mil > 0 ? fuel / mil : null;
+  $("#out-perkm").textContent = perKm == null ? "NA" : `₹${perKm.toFixed(2)}`;
+  $("#out-month").textContent = perKm == null ? "NA" : rupees(perKm * km);
+  $("#out-year").textContent = perKm == null ? "NA" : rupees(perKm * km * 12);
+  $("#out-all").textContent = perKm == null || emi == null ? "NA" : rupees(emi + perKm * km);
+}
+
+$("#modalBody").addEventListener("input", (e) => {
+  const k = e.target.dataset?.k;
+  if (k && k !== "years") {
+    if (e.target.value === "") delete calc.over[k]; else calc.over[k] = Number(e.target.value);
+    updateCalc();
+  }
+});
+$("#modalBody").addEventListener("change", (e) => {
+  if (e.target.id === "calcCar") {
+    calc.carId = e.target.value;
+    calc.vi = defaultVariantIndex(CARS.find((c) => c.id === calc.carId));
+    PRICE_KEYS.concat(["down", "fuel", "mileage"]).forEach((k) => delete calc.over[k]);
+    fillVariantSelect(); updateCalc();
+  } else if (e.target.id === "calcVariant") {
+    calc.vi = Number(e.target.value);
+    PRICE_KEYS.concat(["down", "fuel", "mileage"]).forEach((k) => delete calc.over[k]);
+    updateCalc();
+  } else if (e.target.id === "calcState") {
+    calc.si = Number(e.target.value);
+    ["tax", "reg", "fuel", "down"].forEach((k) => delete calc.over[k]);
+    updateCalc();
+  } else if (e.target.id === "calc-years") updateCalc();
+});
+$("#openCalc").addEventListener("click", () => openCalc());
+$("#calcBtn").addEventListener("click", () => openCalc(state.currentId, state.variantIndex));
+
+loadOnroad();
+loadCars();
+</script>

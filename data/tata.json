@@ -1,0 +1,3521 @@
+{
+  "cars": [
+    {
+      "id": "tata-nexon",
+      "brand": "Tata",
+      "model": "Nexon",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 44,
+      "priceNote": "CarDekho New Delhi ex-showroom, Oct 2026 (exact rupee prices from its New Delhi price page; CarWale's lakh figures agree)",
+      "engines": {
+        "p12t": {
+          "type": "1.2 turbo petrol (Revotron)",
+          "cylinders": 3,
+          "displacementCc": 1199,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 118.27,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 170,
+          "maxTorqueRpm": null
+        },
+        "cng12": {
+          "type": "1.2 turbo petrol + CNG (bi-fuel)",
+          "cylinders": 3,
+          "displacementCc": 1199,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 98.63,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 170,
+          "maxTorqueRpm": null
+        },
+        "d15": {
+          "type": "1.5 diesel (Revotorq)",
+          "cylinders": 4,
+          "displacementCc": 1497,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 113.31,
+          "maxPowerRpm": 3750,
+          "maxTorqueNm": 260,
+          "maxTorqueRpm": "1500-2750"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Smart",
+          "wheels": "16-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESC",
+            "LED headlamps and DRLs",
+            "Manual AC",
+            "Semi-digital instrument cluster",
+            "16-inch steel wheels"
+          ]
+        },
+        {
+          "trim": "Smart Plus",
+          "wheels": "16-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "7-inch touchscreen",
+            "Wired Android Auto and Apple CarPlay",
+            "2 speakers",
+            "Four power windows",
+            "Powered ORVM adjustment",
+            "Remote locking",
+            "Follow-me-home headlamps",
+            "Wheel covers"
+          ]
+        },
+        {
+          "trim": "Smart Plus S",
+          "wheels": "16-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "Single-pane sunroof with voice control",
+            "Automatic headlamps",
+            "Rain-sensing wipers",
+            "Roof rails"
+          ]
+        },
+        {
+          "trim": "Pure Plus",
+          "wheels": "16-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "10.25-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Rear camera",
+            "Rear AC vents",
+            "Auto-folding ORVMs",
+            "Semi-digital cluster with 4-inch MID",
+            "Driver seat height adjustment",
+            "Front centre armrest"
+          ]
+        },
+        {
+          "trim": "Pure Plus S",
+          "wheels": "16-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "Single-pane sunroof with voice control",
+            "Automatic headlamps",
+            "Rain-sensing wipers"
+          ]
+        },
+        {
+          "trim": "Pure Plus PS",
+          "wheels": "16-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof with voice control",
+            "Cruise control",
+            "Rear wiper and washer",
+            "2 tweeters"
+          ]
+        },
+        {
+          "trim": "Creative",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "16-inch alloy wheels",
+            "360-degree camera with blind-view monitor",
+            "Automatic climate control",
+            "Push-button start",
+            "Cruise control",
+            "Rear wiper and washer",
+            "Cooled glovebox",
+            "Front USB Type-C and Type-A ports"
+          ]
+        },
+        {
+          "trim": "Creative Plus S",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Single-pane sunroof with voice control",
+            "Automatic headlamps",
+            "Rain-sensing wipers"
+          ]
+        },
+        {
+          "trim": "Creative Plus PS DT",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof with voice control",
+            "Dual-pod LED headlamps and connected LED tail-lamps",
+            "Cornering fog lamps",
+            "Wireless phone charger",
+            "6 speakers incl. tweeters",
+            "Front parking sensors",
+            "TPMS",
+            "60:40 split rear seat with centre armrest"
+          ]
+        },
+        {
+          "trim": "Fearless Plus PS DT",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "10.25-inch digital driver display",
+            "Leatherette seats",
+            "Ventilated front seats",
+            "JBL speakers with subwoofer",
+            "Air purifier",
+            "Auto-dimming IRVM",
+            "Connected car tech",
+            "Rear USB Type-C and Type-A ports"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Smart",
+          "power": "1.2 Turbo MT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 739990,
+          "mileage": "17.44 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Smart",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 834990,
+          "mileage": "24 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit",
+            "6-speed manual"
+          ]
+        },
+        {
+          "trim": "Smart Plus",
+          "power": "1.2 Turbo MT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 821990,
+          "mileage": "17.44 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Smart Plus",
+          "power": "1.2 Turbo AMT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "AMT, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 891990,
+          "mileage": "17.18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed AMT",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Smart Plus",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 926990,
+          "mileage": "24 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit",
+            "6-speed manual"
+          ]
+        },
+        {
+          "trim": "Smart Plus",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 926990,
+          "mileage": "23.23 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine",
+            "6-speed manual"
+          ]
+        },
+        {
+          "trim": "Smart Plus S",
+          "power": "1.2 Turbo MT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 851990,
+          "mileage": "17.44 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Smart Plus S",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 956990,
+          "mileage": "24 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit",
+            "6-speed manual"
+          ]
+        },
+        {
+          "trim": "Smart Plus S",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 956990,
+          "mileage": "23.23 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine",
+            "6-speed manual"
+          ]
+        },
+        {
+          "trim": "Pure Plus",
+          "power": "1.2 Turbo MT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 906990,
+          "mileage": "17.44 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Pure Plus",
+          "power": "1.2 Turbo AMT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "AMT, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 971990,
+          "mileage": "17.18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed AMT",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Pure Plus",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 999990,
+          "mileage": "24 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Pure Plus",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 999990,
+          "mileage": "23.23 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Pure Plus",
+          "power": "1.5 Diesel AMT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "AMT, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1086990,
+          "mileage": "24.08 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine",
+            "6-speed AMT"
+          ]
+        },
+        {
+          "trim": "Pure Plus S",
+          "power": "1.2 Turbo MT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 936990,
+          "mileage": "17.44 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Pure Plus S",
+          "power": "1.2 Turbo AMT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "AMT, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 999990,
+          "mileage": "17.18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed AMT",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Pure Plus S",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 999990,
+          "mileage": "24 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Pure Plus S",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1051990,
+          "mileage": "23.23 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Pure Plus PS",
+          "power": "1.2 Turbo MT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 971990,
+          "mileage": "17.44 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Pure Plus PS",
+          "power": "1.2 Turbo AMT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "AMT, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1026990,
+          "mileage": "17.18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed AMT",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Pure Plus PS",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1061990,
+          "mileage": "24 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Pure Plus PS",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1071990,
+          "mileage": "23.23 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Pure Plus PS",
+          "power": "1.5 Diesel AMT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "AMT, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1136990,
+          "mileage": "24.08 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine",
+            "6-speed AMT"
+          ]
+        },
+        {
+          "trim": "Creative",
+          "power": "1.2 Turbo MT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1016990,
+          "mileage": "17.44 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Creative",
+          "power": "1.2 Turbo AMT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "AMT, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1086990,
+          "mileage": "17.18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed AMT",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Creative",
+          "power": "1.2 Turbo DCA",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1141990,
+          "mileage": "17.01 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7-speed dual-clutch automatic"
+          ]
+        },
+        {
+          "trim": "Creative",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1121990,
+          "mileage": "24 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Creative",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1136990,
+          "mileage": "23.23 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Creative",
+          "power": "1.5 Diesel AMT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "AMT, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1196990,
+          "mileage": "24.08 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine",
+            "6-speed AMT"
+          ]
+        },
+        {
+          "trim": "Creative Plus S",
+          "power": "1.2 Turbo MT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1046990,
+          "mileage": "17.44 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Creative Plus S",
+          "power": "1.2 Turbo AMT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "AMT, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1116990,
+          "mileage": "17.18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed AMT",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Creative Plus S",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1151990,
+          "mileage": "24 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Creative Plus S",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1161990,
+          "mileage": "23.23 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Creative Plus S",
+          "power": "1.5 Diesel AMT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "AMT, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1226990,
+          "mileage": "24.08 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine",
+            "6-speed AMT"
+          ]
+        },
+        {
+          "trim": "Creative Plus PS DT",
+          "power": "1.2 Turbo MT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1146990,
+          "mileage": "17.44 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Creative Plus PS DT",
+          "power": "1.2 Turbo DCA",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1266990,
+          "mileage": "17.01 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7-speed dual-clutch automatic"
+          ]
+        },
+        {
+          "trim": "Creative Plus PS DT",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1246990,
+          "mileage": "24 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Creative Plus PS DT",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1261990,
+          "mileage": "23.23 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Creative Plus PS DT",
+          "power": "1.5 Diesel AMT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "AMT, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1326990,
+          "mileage": "24.08 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine",
+            "6-speed AMT"
+          ]
+        },
+        {
+          "trim": "Fearless Plus PS DT",
+          "power": "1.2 Turbo MT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1241990,
+          "mileage": "17.44 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Fearless Plus PS DT",
+          "power": "1.2 Turbo DCA ADAS",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1376990,
+          "mileage": "17.01 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7-speed dual-clutch automatic",
+            "Level-1 ADAS (sold as Fearless Plus A PS DT)"
+          ]
+        },
+        {
+          "trim": "Fearless Plus PS DT",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1341990,
+          "mileage": "24 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Fearless Plus PS DT",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1356990,
+          "mileage": "23.23 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Fearless Plus PS DT",
+          "power": "1.5 Diesel AMT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "AMT, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1421990,
+          "mileage": "24.08 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine",
+            "6-speed AMT"
+          ]
+        }
+      ],
+      "photos": {
+        "front": null,
+        "rear": {
+          "file": "File:Tata Nexon 2023 Rear View 2.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Harshvyas1001",
+          "local": "photos/tata-nexon-rear.jpg"
+        }
+      },
+      "photoNotes": "Rear photo is the current (Sept 2023 facelift) Nexon, rear three-quarter view with small marks on the body. Still no current-facelift front photo on Commons (re-checked 21 Oct 2026): Category:Tata Nexon has only pre-facelift fronts (closest, File:2023 Tata Nexon XZA+ front view.jpg, is the pre-facelift car, May 2023), and the 2025 Bangalore auto show photo (File:4th International Auto Show, Bangalore (2025) 107.jpg) is the Nexon EV, whose front differs.",
+      "sources": [
+        "https://www.cardekho.com/tata/nexon/variants.htm",
+        "https://www.cardekho.com/tata/nexon/specs",
+        "https://www.cardekho.com/overview/Tata_Nexon/Tata_Nexon_Smart_Plus.htm",
+        "https://www.cardekho.com/overview/Tata_Nexon/Tata_Nexon_Smart_CNG.htm",
+        "https://www.cardekho.com/overview/Tata_Nexon/Tata_Nexon_Smart_Plus_Diesel.htm",
+        "https://www.carwale.com/tata-cars/nexon/",
+        "https://www.autocarindia.com/cars/tata/nexon/specifications",
+        "https://www.autocarindia.com/auto-features-amp/2025-tata-nexon-price-variants-features-explained-429326",
+        "https://commons.wikimedia.org/wiki/Category:Tata_Nexon",
+        "https://www.cardekho.com/tata/nexon/price-in-new-delhi"
+      ],
+      "notes": "Tata's site (cars.tatamotors.com) failed to load (expired TLS certificate), so CarDekho/CarWale/Autocar India were used. Current model is the Sept 2023 facelift with the 2025 trim reshuffle. Cosmetic editions (CAMO, Dark, Red Dark) are left out: CarDekho lists 82 variants including them, at about Rs 25,000-55,000 over the matching standard variant. Trim features come from Autocar India (12 May 2026). Its Creative list is compared against Pure Plus, not Pure Plus PS. Pure Plus-to-Pure Plus PS wheels are inferred from the additive list (alloys first appear on Creative). Petrol MT/AMT/DCA mileage (17.44/17.18/17.01 kmpl) and diesel MT/AMT (23.23/24.08 kmpl) are ARAI figures from CarDekho and other car sites. CNG: CarDekho's spec table says 17.44 km/kg (it looks copied from petrol), while CarWale and Rushlane quote 24 km/kg, so 24 km/kg is labelled unofficial. Power figures differ by source: Autocar gives the petrol as 120 hp and the diesel as 115 hp, CarDekho as 118.27 bhp and 113.31 bhp. The 'A' in Fearless Plus A PS DT denotes Level-1 ADAS and comes only with the DCA.\nUpdate 21 Oct 2026: Prices made exact from CarDekho's New Delhi price page (each was Rs 10 below the rounded lakh figure, e.g. Rs 7.40 lakh = Rs 7,39,990); CarWale's lakh figures agree. Tata's site still fails (expired certificate). No new Commons front photo found. Mileage unchanged (no nulls); CarWale now lists an ARAI figure only for the diesel AMT (24.08 kmpl). Spec audit 21 Oct 2026: all engine figures confirmed (CarDekho; petrol/CNG figures not shown there, left as is)\nSpec audit 21 Oct 2026: p12t.maxPowerRpm 5500->None; p12t.maxTorqueRpm 1750-4000->None; cng12.maxPowerBhp 99->98.63; cng12.maxPowerRpm 5000->None; cng12.maxTorqueRpm 2000->None (unconfirmed rpm set null)"
+    },
+    {
+      "id": "tata-punch",
+      "brand": "Tata",
+      "model": "Punch",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 37,
+      "priceNote": "CarDekho New Delhi ex-showroom, Oct 2026 (exact rupee prices from its New Delhi price page; CarWale's lakh figures agree)",
+      "engines": {
+        "p12": {
+          "type": "1.2 petrol (Revotron)",
+          "cylinders": 3,
+          "displacementCc": 1199,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 87,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 115,
+          "maxTorqueRpm": null
+        },
+        "p12t": {
+          "type": "1.2 turbo petrol",
+          "cylinders": 3,
+          "displacementCc": 1199,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 118,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 170,
+          "maxTorqueRpm": null
+        },
+        "cng12": {
+          "type": "1.2 petrol + CNG (bi-fuel)",
+          "cylinders": 3,
+          "displacementCc": 1199,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 72,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 103,
+          "maxTorqueRpm": 3500
+        }
+      },
+      "trims": [
+        {
+          "trim": "Smart",
+          "wheels": "15-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP",
+            "LED headlamps",
+            "Manual AC",
+            "Remote keyless entry",
+            "Drive modes",
+            "Front power windows",
+            "Semi-digital instrument cluster"
+          ]
+        },
+        {
+          "trim": "Pure",
+          "wheels": "15-inch steel",
+          "airbags": 6,
+          "features": [
+            "Rear power windows",
+            "Rear AC vents",
+            "4 speakers with steering-mounted controls",
+            "Front centre armrest",
+            "Electrically adjustable ORVMs",
+            "Rear defogger",
+            "15W USB Type-C charger"
+          ]
+        },
+        {
+          "trim": "Pure Plus",
+          "wheels": "15-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "8-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Rear camera",
+            "Cruise control",
+            "Driver seat height adjustment",
+            "65W USB Type-C fast charger",
+            "Shark-fin antenna",
+            "Wheel covers"
+          ]
+        },
+        {
+          "trim": "Pure Plus S",
+          "wheels": "15-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "Single-pane sunroof",
+            "Roof rails",
+            "Automatic headlamps",
+            "Rain-sensing wipers"
+          ]
+        },
+        {
+          "trim": "Adventure",
+          "wheels": "15-inch stylised steel with covers",
+          "airbags": 6,
+          "features": [
+            "360-degree camera",
+            "Blind-view monitor",
+            "Automatic climate control",
+            "Push-button start",
+            "Auto-folding ORVMs",
+            "Air purifier",
+            "Rear wiper and washer",
+            "Automatic headlamps and rain-sensing wipers"
+          ]
+        },
+        {
+          "trim": "Adventure S",
+          "wheels": "15-inch stylised steel with covers",
+          "airbags": 6,
+          "features": [
+            "Sunroof",
+            "Roof rails"
+          ]
+        },
+        {
+          "trim": "Accomplished",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "16-inch alloy wheels",
+            "10.25-inch touchscreen",
+            "LED DRLs and LED tail-lamps",
+            "Touch-panel climate control",
+            "Coloured semi-digital cluster",
+            "Cooled glovebox",
+            "Ambient lighting",
+            "Hill-descent control"
+          ]
+        },
+        {
+          "trim": "Accomplished Plus S",
+          "wheels": "16-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "Single-pane sunroof",
+            "7-inch digital driver display",
+            "Wireless phone charger",
+            "LED fog lamps with cornering",
+            "Auto-dimming IRVM",
+            "Connected car tech",
+            "Leather-wrapped steering wheel",
+            "Paddle shifters (AMT only)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Smart",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 574990,
+          "mileage": "20.09 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Smart",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 684990,
+          "mileage": "26.99 km/kg (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Pure",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 664990,
+          "mileage": "20.09 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Pure",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 767990,
+          "mileage": "26.99 km/kg (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Pure Plus",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 716990,
+          "mileage": "20.09 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Pure Plus",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 774990,
+          "mileage": "18.8 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Pure Plus",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 819990,
+          "mileage": "26.99 km/kg (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Pure Plus",
+          "power": "CNG AMT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 876990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit",
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Pure Plus S",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 751990,
+          "mileage": "20.09 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Pure Plus S",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 809990,
+          "mileage": "18.8 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Pure Plus S",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 854990,
+          "mileage": "26.99 km/kg (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Adventure",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 776990,
+          "mileage": "20.09 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Adventure",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 834990,
+          "mileage": "18.8 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Adventure",
+          "power": "1.2 Turbo MT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 846990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.2 turbo-petrol engine",
+            "6-speed manual"
+          ]
+        },
+        {
+          "trim": "Adventure",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 879990,
+          "mileage": "26.99 km/kg (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Adventure",
+          "power": "CNG AMT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 936990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit",
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Adventure S",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 811990,
+          "mileage": "20.09 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Adventure S",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 914990,
+          "mileage": "26.99 km/kg (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Adventure S",
+          "power": "CNG AMT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 971990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit",
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Accomplished",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 846990,
+          "mileage": "20.09 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Accomplished",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 904990,
+          "mileage": "18.8 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Accomplished",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 949990,
+          "mileage": "26.99 km/kg (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Accomplished Plus S",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 916990,
+          "mileage": "20.09 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Accomplished Plus S",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 974990,
+          "mileage": "18.8 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Accomplished Plus S",
+          "power": "1.2 Turbo MT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 996990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.2 turbo-petrol engine",
+            "6-speed manual"
+          ]
+        },
+        {
+          "trim": "Accomplished Plus S",
+          "power": "CNG AMT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1076990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit",
+            "5-speed AMT",
+            "Paddle shifters"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2021 Tata Punch Creative (India) front view 01.png",
+          "license": "CC BY 3.0",
+          "artist": "Athira Murali",
+          "note": "Pre-facelift look (2021)",
+          "local": "photos/tata-punch-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Re-checked 21 Oct 2026: Category:Tata Punch on Commons still has only 2021 pre-facelift photos (closest, File:2021 Tata Punch Creative (India) front view 01.png, is the pre-facelift car), one camouflaged test car and the Punch EV; nothing of the January 2026 facelift.",
+      "sources": [
+        "https://www.cardekho.com/tata/punch/variants.htm",
+        "https://www.cardekho.com/overview/Tata_Punch/Tata_Punch_Smart.htm",
+        "https://www.cardekho.com/overview/Tata_Punch/Tata_Punch_Adventure_Turbo.htm",
+        "https://www.cardekho.com/overview/Tata_Punch/Tata_Punch_Pure_Plus_CNG_AMT.htm",
+        "https://www.cardekho.com/india-car-news/2026-tata-punch-facelift-variantwise-features-explained-heres-what-each-variant-offers-35539.htm",
+        "https://www.cardekho.com/india-car-news/2026-tata-punch-facelift-variantwise-powertrain-options-explained-35535.htm",
+        "https://www.autocarindia.com/cars/tata/punch/mileage",
+        "https://commons.wikimedia.org/wiki/Category:Tata_Punch",
+        "https://www.cardekho.com/tata/punch/price-in-new-delhi",
+        "https://www.carwale.com/tata-cars/punch/"
+      ],
+      "notes": "Tata's site failed to load (expired certificate), so CarDekho and Autocar India were used. Current model is the facelift launched 13 Jan 2026 (launch price from Rs 5.59 lakh; CarDekho now lists Rs 5.75 lakh). The 1.2 turbo-petrol (6MT, Adventure and Accomplished Plus S only) is new for the facelift. Tata had not published facelift mileage: Autocar India (Apr 2026) says official figures were not yet revealed. NA petrol and CNG figures are the carried-over engines' pre-facelift ARAI figures (20.09 kmpl MT, 18.8 kmpl AMT, 26.99 km/kg CNG). Turbo and CNG AMT mileage are unknown. A single Team-BHP table quotes 19.0 kmpl for the turbo, which is not used. Sources disagree on screen sizes: CarDekho and Rushlane say 8-inch on Pure Plus, while other reports mention 10.25-inch. Adventure's features are listed against Pure Plus, and Accomplished's against Adventure. Six airbags are standard per CarDekho and Rushlane. CarDekho lists no Accomplished Plus S CNG manual.\nUpdate 21 Oct 2026: Prices made exact from CarDekho's New Delhi price page (each was Rs 10 below the rounded lakh figure, e.g. Rs 7.40 lakh = Rs 7,39,990); CarWale's lakh figures agree. Tata's site still fails (expired certificate). No facelift photos on Commons. Turbo and CNG AMT mileage still null: CarDekho and CarWale list no ARAI figures and Autocar India says Tata has not revealed facelift figures. Only Team-BHP quotes 19.0 kmpl (turbo) and groups CNG MT/AMT at 26.99 km/kg; Spinny says the pre-facelift iCNG was manual-only, so no pre-facelift figure applies to the CNG AMT. Update 21 Oct 2026: photos added from Wikimedia Commons (found via Openverse); labelled where they show an older look or another market. Spec audit 21 Oct 2026: all engine figures confirmed (CarDekho; petrol/CNG figures not shown there, left as is)\nSpec audit 21 Oct 2026: p12.maxPowerRpm 6000->None; p12.maxTorqueRpm 3250->None; p12t.maxPowerRpm 5500->None; p12t.maxTorqueRpm 1750-4000->None (unconfirmed rpm set null)"
+    },
+    {
+      "id": "tata-altroz",
+      "brand": "Tata",
+      "model": "Altroz",
+      "bodyType": "Hatchback",
+      "seats": 5,
+      "fuelTankL": 37,
+      "priceNote": "CarDekho New Delhi ex-showroom, Oct 2026 (exact rupee prices from its New Delhi price page; CarWale's lakh figures agree)",
+      "engines": {
+        "p12": {
+          "type": "1.2 petrol (Revotron)",
+          "cylinders": 3,
+          "displacementCc": 1199,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 86.79,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 115,
+          "maxTorqueRpm": null
+        },
+        "cng12": {
+          "type": "1.2 petrol + CNG (bi-fuel)",
+          "cylinders": 3,
+          "displacementCc": 1199,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 72.49,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 103,
+          "maxTorqueRpm": 3500
+        },
+        "d15": {
+          "type": "1.5 diesel (Revotorq)",
+          "cylinders": 4,
+          "displacementCc": 1497,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 88.76,
+          "maxPowerRpm": 4000,
+          "maxTorqueNm": 200,
+          "maxTorqueRpm": "1250-3000"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Smart",
+          "wheels": "16-inch steel with half covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESC",
+            "Rear parking sensors",
+            "ISOFIX mounts",
+            "Halogen projector headlamps",
+            "LED tail-lamps",
+            "Manual AC",
+            "Remote keyless entry"
+          ]
+        },
+        {
+          "trim": "Pure",
+          "wheels": "16-inch steel with dual-tone covers",
+          "airbags": 6,
+          "features": [
+            "LED headlamps",
+            "7-inch touchscreen",
+            "Rear camera",
+            "Automatic climate control",
+            "Cruise control",
+            "Auto-folding ORVMs",
+            "Automatic headlamps and rain-sensing wipers",
+            "Driver seat height adjustment"
+          ]
+        },
+        {
+          "trim": "Pure S",
+          "wheels": "16-inch steel with dual-tone covers",
+          "airbags": 6,
+          "features": [
+            "Voice-enabled single-pane sunroof",
+            "Shark-fin antenna"
+          ]
+        },
+        {
+          "trim": "Creative",
+          "wheels": "16-inch steel with stylised covers",
+          "airbags": 6,
+          "features": [
+            "10.25-inch touchscreen",
+            "360-degree camera",
+            "LED DRLs",
+            "Push-button start",
+            "Rear AC vents",
+            "Ambient lighting",
+            "Rear wiper and washer",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Creative S",
+          "wheels": "16-inch steel with stylised covers",
+          "airbags": 6,
+          "features": [
+            "Single-pane sunroof"
+          ]
+        },
+        {
+          "trim": "Accomplished S",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "16-inch alloy wheels",
+            "LED fog lamps with cornering",
+            "7-inch digital driver display",
+            "Wireless phone charger",
+            "8-speaker sound system",
+            "TPMS",
+            "Keyless entry",
+            "Rear centre armrest"
+          ]
+        },
+        {
+          "trim": "Accomplished Plus S",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "10.25-inch digital driver display with map view",
+            "Blind-spot monitor",
+            "Connected car tech"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Smart",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 599990,
+          "mileage": "19.33 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Smart",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 729990,
+          "mileage": "26.90 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Pure",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 714990,
+          "mileage": "19.33 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Pure",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 771990,
+          "mileage": "19.33 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Pure",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 819990,
+          "mileage": "26.90 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Pure",
+          "power": "CNG AMT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "AMT",
+          "drivetrain": "FWD",
+          "priceInr": 874990,
+          "mileage": "26.90 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit",
+            "AMT"
+          ]
+        },
+        {
+          "trim": "Pure",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 829990,
+          "mileage": "23.64 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Pure S",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 744990,
+          "mileage": "19.33 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Pure S",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 801990,
+          "mileage": "19.33 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Pure S",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 849990,
+          "mileage": "26.90 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Pure S",
+          "power": "CNG AMT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "AMT",
+          "drivetrain": "FWD",
+          "priceInr": 904990,
+          "mileage": "26.90 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit",
+            "AMT"
+          ]
+        },
+        {
+          "trim": "Creative",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 809990,
+          "mileage": "19.33 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Creative",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 866990,
+          "mileage": "19.33 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Creative",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 914990,
+          "mileage": "26.90 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Creative",
+          "power": "CNG AMT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "AMT",
+          "drivetrain": "FWD",
+          "priceInr": 969990,
+          "mileage": "26.90 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit",
+            "AMT"
+          ]
+        },
+        {
+          "trim": "Creative S",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 844990,
+          "mileage": "19.33 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Creative S",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 901990,
+          "mileage": "19.33 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Creative S",
+          "power": "1.2 Petrol DCA",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 964990,
+          "mileage": "19.33 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed dual-clutch automatic"
+          ]
+        },
+        {
+          "trim": "Creative S",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 949990,
+          "mileage": "26.90 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Creative S",
+          "power": "CNG AMT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "AMT",
+          "drivetrain": "FWD",
+          "priceInr": 999990,
+          "mileage": "26.90 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit",
+            "AMT"
+          ]
+        },
+        {
+          "trim": "Creative S",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 959990,
+          "mileage": "23.64 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Accomplished S",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 929990,
+          "mileage": "19.33 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Accomplished S",
+          "power": "1.2 Petrol DCA",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1049990,
+          "mileage": "19.33 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed dual-clutch automatic"
+          ]
+        },
+        {
+          "trim": "Accomplished S",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1034990,
+          "mileage": "26.90 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Accomplished S",
+          "power": "CNG AMT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "AMT",
+          "drivetrain": "FWD",
+          "priceInr": 1089990,
+          "mileage": "26.90 km/kg (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit",
+            "AMT"
+          ]
+        },
+        {
+          "trim": "Accomplished S",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1044990,
+          "mileage": "23.64 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Accomplished Plus S",
+          "power": "1.2 Petrol DCA",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1074990,
+          "mileage": "19.33 kmpl (unofficial estimate)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Tata Altroz front 20230617.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Dairokkan9",
+          "note": "Pre-facelift look (2023)",
+          "local": "photos/tata-altroz-front.jpg"
+        },
+        "rear": {
+          "file": "File:Tata Altroz rear 20230617.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Dairokkan9",
+          "note": "Pre-facelift look (2023)",
+          "local": "photos/tata-altroz-rear.jpg"
+        }
+      },
+      "photoNotes": "Re-checked 21 Oct 2026: Commons only has pre-facelift Altroz photos (closest, File:Tata Altroz front 20230617.jpg and File:Tata Altroz rear 20230617.jpg, show the pre-facelift car; also 2019 Geneva show and 2024 'cinematic' shots). The Nov 2025 Bangalore auto show photos (213-222) show a heavily wrapped, modified pre-facelift car. Nothing of the 2025 facelift.",
+      "sources": [
+        "https://www.cardekho.com/tata/altroz/variants.htm",
+        "https://www.cardekho.com/overview/Tata_Altroz/Tata_Altroz_Smart.htm",
+        "https://www.cardekho.com/overview/Tata_Altroz/Tata_Altroz_Pure_Diesel.htm",
+        "https://www.cardekho.com/overview/Tata_Altroz/Tata_Altroz_Smart_CNG.htm",
+        "https://www.cardekho.com/india-car-news/2025-tata-altroz-facelift-variantwise-features-explained-34522.htm",
+        "https://caronphone.com/news/2025-tata-altroz-facelifts-mileage-revealed-arai-certified/",
+        "https://commons.wikimedia.org/wiki/Category:Tata_Altroz",
+        "https://www.cardekho.com/tata/altroz/price-in-new-delhi",
+        "https://www.carwale.com/tata-cars/altroz/",
+        "https://www.autocarindia.com/cars/tata/altroz/mileage",
+        "https://caronphone.com/news/2025-tata-altroz-facelifts-mileage-revealed-arai-certified/",
+        "https://www.carlelo.com/news/2025-tata-altroz-cng-and-diesel-mileage-revealed",
+        "https://www.spinny.com/blog/tata-altroz-mileage-comparison-guide/"
+      ],
+      "notes": "Tata's site failed to load (expired certificate), so CarDekho was used. Current model is the May 2025 facelift (launch prices from Rs 6.89 lakh; now Rs 6.00 lakh on CarDekho). CarDekho now lists CNG AMT variants, which 2025 launch coverage did not mention, and their gear count could not be confirmed. Petrol AMT is 5-speed and DCA 6-speed per Autocar India. Mileage is left null because sources conflict. Petrol: 19.33 kmpl from one site, about 18 kmpl estimate from another. Diesel: 23.60 vs 23.64 kmpl. CNG: 26.2 vs 26.90 km/kg. Tata's own figures could not be checked. Trim features come from CarDekho's variant explainer. Creative is listed against Pure, and Accomplished S against Creative. Six airbags are standard per CarDekho. Accomplished Plus S is sold only with the petrol DCA.\nUpdate 21 Oct 2026: Prices made exact from CarDekho's New Delhi price page (each was Rs 10 below the rounded lakh figure, e.g. Rs 7.40 lakh = Rs 7,39,990); CarWale's lakh figures agree. Tata's site still fails (expired certificate). Mileage filled. Petrol MT 19.33 kmpl is quoted as ARAI by Autocar India, CarOnPhone and Spinny. Autocar India and CarOnPhone apply 19.33 kmpl to the petrol automatics too, but Spinny gives 18.50 kmpl for the DCA, so AMT/DCA are labelled unofficial. Diesel: 23.64 kmpl (Autocar India, CarOnPhone) is used; Carlelo and Spinny say 23.60 kmpl. CNG conflicts: 26.90 km/kg (Carlelo, citing Tata's reveal, and Spinny, which applies it to MT and AMT), 26.2 km/kg (CarOnPhone), 27.8 km/kg (Autocar India); 26.90 is used and labelled unofficial. Autocar India's variant table also shows lower per-variant petrol figures (18.32-19.01 kmpl), which conflict with its own headline 19.33. CarDekho and CarWale list no ARAI figures. No facelift photos on Commons. Update 21 Oct 2026: photos added from Wikimedia Commons (found via Openverse); labelled where they show an older look or another market. Spec audit 21 Oct 2026: all engine figures confirmed (CarDekho; petrol/CNG figures not shown there, left as is)\nSpec audit 21 Oct 2026: p12.maxPowerRpm 6000->None; p12.maxTorqueRpm 3250->None (unconfirmed rpm set null)"
+    },
+    {
+      "id": "tata-harrier",
+      "brand": "Tata",
+      "model": "Harrier",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 50,
+      "priceNote": "CarDekho New Delhi ex-showroom, Oct 2026 (exact rupee prices from its New Delhi price page; CarWale's lakh figures agree)",
+      "engines": {
+        "p15t": {
+          "type": "1.5 turbo petrol GDi (Hyperion)",
+          "cylinders": 4,
+          "displacementCc": 1498,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 167.62,
+          "maxPowerRpm": 5000,
+          "maxTorqueNm": 280,
+          "maxTorqueRpm": null
+        },
+        "d20": {
+          "type": "2.0 diesel (Kryotec)",
+          "cylinders": 4,
+          "displacementCc": 1956,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 167.62,
+          "maxPowerRpm": 3750,
+          "maxTorqueNm": 350,
+          "maxTorqueRpm": "1750-2500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Smart",
+          "wheels": "17-inch alloy",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "LED headlamps and tail-lamps",
+            "7-inch digital driver display",
+            "Automatic climate control with rear vents",
+            "Rear parking sensors",
+            "Traction control",
+            "Hill-start assist",
+            "ISOFIX mounts"
+          ]
+        },
+        {
+          "trim": "Pure X",
+          "wheels": "17-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "10.25-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "10.25-inch digital driver display",
+            "360-degree camera",
+            "Cruise control",
+            "Push-button start",
+            "Automatic headlamps and rain-sensing wipers"
+          ]
+        },
+        {
+          "trim": "Adventure X",
+          "wheels": "17-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Leatherette upholstery",
+            "6-way powered driver seat",
+            "Drive modes",
+            "6-speaker audio",
+            "One-touch driver window",
+            "Rear defogger",
+            "Illuminated glovebox and boot"
+          ]
+        },
+        {
+          "trim": "Adventure X Plus",
+          "wheels": "17-inch alloy",
+          "airbags": 6,
+          "features": [
+            "ESC",
+            "Electronic parking brake with auto hold",
+            "Disc brakes on all four wheels",
+            "Driver drowsiness detection",
+            "ADAS (automatic only)"
+          ]
+        },
+        {
+          "trim": "Fearless X",
+          "wheels": "18-inch alloy",
+          "airbags": 6,
+          "features": [
+            "18-inch alloy wheels",
+            "12.3-inch touchscreen",
+            "9-speaker JBL audio",
+            "Ventilated front seats",
+            "Dual-zone climate control",
+            "Wireless phone charger",
+            "Connected LED lamps with sequential indicators",
+            "TPMS"
+          ]
+        },
+        {
+          "trim": "Fearless X Plus",
+          "wheels": "18-inch alloy",
+          "airbags": 7,
+          "features": [
+            "7 airbags",
+            "Level 2 ADAS",
+            "10-speaker JBL audio",
+            "Gesture-controlled powered tailgate",
+            "4-way powered co-driver seat",
+            "Cornering LED fog lamps",
+            "Front parking sensors",
+            "Air purifier"
+          ]
+        },
+        {
+          "trim": "Fearless Ultra",
+          "wheels": null,
+          "airbags": null,
+          "features": [
+            "14.5-inch Samsung Neo QLED touchscreen",
+            "Dolby Atmos audio",
+            "Digital IRVM with dual dashcam",
+            "Memory ORVMs with camera washer",
+            "Sliding armrests",
+            "65W USB Type-C fast charger",
+            "Built-in Mappls navigation",
+            "Level 2+ ADAS (22 functions)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Smart",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1299990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Smart",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1399990,
+          "mileage": "16.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Pure X",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1639990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Pure X",
+          "power": "1.5 Turbo AT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1789990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Pure X",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1749990,
+          "mileage": "16.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Pure X",
+          "power": "2.0 Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1899990,
+          "mileage": "14.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine",
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Adventure X",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1724990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Adventure X",
+          "power": "1.5 Turbo AT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1884990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Adventure X",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1849990,
+          "mileage": "16.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Adventure X",
+          "power": "2.0 Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1999990,
+          "mileage": "14.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine",
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Adventure X Plus",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1759990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Adventure X Plus",
+          "power": "1.5 Turbo AT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1919990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters",
+            "ADAS"
+          ]
+        },
+        {
+          "trim": "Adventure X Plus",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1889990,
+          "mileage": "16.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Adventure X Plus",
+          "power": "2.0 Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2044990,
+          "mileage": "14.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine",
+            "6-speed torque-converter automatic",
+            "Paddle shifters",
+            "ADAS"
+          ]
+        },
+        {
+          "trim": "Fearless X",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2024990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Fearless X",
+          "power": "1.5 Turbo AT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2199990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Fearless X",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2144990,
+          "mileage": "16.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Fearless X",
+          "power": "2.0 Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2299990,
+          "mileage": "14.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine",
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Fearless X Plus",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2234990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Fearless X Plus",
+          "power": "1.5 Turbo AT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2379990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Fearless X Plus",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2344990,
+          "mileage": "16.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Fearless X Plus",
+          "power": "2.0 Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2489990,
+          "mileage": "14.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine",
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Fearless Ultra",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2294990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Fearless Ultra",
+          "power": "1.5 Turbo AT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2439990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Fearless Ultra",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2404990,
+          "mileage": "16.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Fearless Ultra",
+          "power": "2.0 Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2549990,
+          "mileage": "14.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine",
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Gajab.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Pramodbhardwaj214",
+          "local": "photos/tata-harrier-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Front: near straight-on view of a current (2023 facelift) Harrier in a showroom (Dark edition, all-black; dealer 'HARRIER' display plate on the bumper; part of a Punch.ev visible at the left), taken 23 Mar 2025 in Rajasthan. Rear: still none on Commons. The only other production-model shots are the Harrier EV (File:4th International Auto Show, Bangalore (2025) 110.jpg, an EV with a different front) and a backlit, dark low-angle Harrier/Safari at Dhanushkodi (File:SUV parked on the roadside in Dhanushkodi.png), both rejected; the rest are the H5X concept and the 2019 Buzzard Sport show car.",
+      "sources": [
+        "https://www.cardekho.com/tata/harrier/variants.htm",
+        "https://www.cardekho.com/overview/Tata_Harrier/Tata_Harrier_Petrol_Smart.htm",
+        "https://www.cardekho.com/overview/Tata_Harrier/Tata_Harrier_Smart.htm",
+        "https://www.cardekho.com/india-car-news/2025-tata-harriers-variantwise-features-explained-34823.htm",
+        "https://www.rushlane.com/tata-harrier-and-safari-petrol-specs-revealed-new-top-ultra-variants-12536627.html",
+        "https://www.cardekho.com/india-car-news/2025-tata-harrier-and-tata-safari-petrol-variants-unveiled-gets-two-new-variants-and-new-features-35455.htm",
+        "https://www.autocarindia.com/cars/tata/harrier",
+        "https://www.spinny.com/blog/tata-harrier-mileage-guide/",
+        "https://www.cardekho.com/tata/harrier/price-in-new-delhi",
+        "https://www.carwale.com/tata-cars/harrier/",
+        "https://commons.wikimedia.org/wiki/File:Gajab.jpg"
+      ],
+      "notes": "Tata's site failed to load (expired certificate), so CarDekho, Rushlane and Autocar India were used. The 1.5 Hyperion turbo-petrol (170 PS, 6MT/6AT) and the new top Fearless Ultra trim were added in Dec 2025. ARAI petrol mileage is not published; Tata's 25.9 kmpl claim was a constant-speed NATRAX test and is not used. Diesel MT is 16.8 kmpl. Diesel AT conflicts: Autocar India says 16.8 kmpl for both gearboxes, while CarWale and Spinny say 14.6 kmpl; 14.6 is used. Cosmetic editions (Dark, Red Dark, Stealth) are left out; CarDekho lists 58 variants including them. Trim features come from CarDekho (Aug 2025), with Ultra features from Rushlane (Dec 2025). Pure X to Adventure X Plus wheels are inferred as 17-inch, since only Dark editions get 18-inch. Fearless Ultra wheel size (19-inch is quoted for Red Dark) and airbag count are unconfirmed: CarDekho's petrol-launch article says 6 airbags, while Fearless X Plus has 7. CarDekho lists ESC as an Adventure X Plus addition. No AWD; all FWD.\nUpdate 21 Oct 2026: Prices made exact from CarDekho's New Delhi price page (each was Rs 10 below the rounded lakh figure, e.g. Rs 7.40 lakh = Rs 7,39,990); CarWale's lakh figures agree. Tata's site still fails (expired certificate). Front photo added (File:Gajab.jpg); no rear found. Petrol mileage still null: CarDekho and CarWale list no petrol ARAI figure; Team-BHP gives 15 kmpl MT / 14 kmpl AT, while Carlelo and an insurer's blog quote 16.8 kmpl (the diesel figure), so no two car sites agree. Diesel AT conflict continues: CarWale now lists 16.8 kmpl ARAI for both diesel gearboxes (matching Autocar India), against the 14.6 kmpl used here; not changed. Spec audit 21 Oct 2026: all engine figures confirmed (CarDekho; petrol/CNG figures not shown there, left as is)\nSpec audit 21 Oct 2026: p15t.maxTorqueRpm 1750-3500->None (unconfirmed rpm set null)"
+    },
+    {
+      "id": "tata-safari",
+      "brand": "Tata",
+      "model": "Safari",
+      "bodyType": "SUV",
+      "seats": 7,
+      "fuelTankL": 50,
+      "priceNote": "CarDekho New Delhi ex-showroom, Oct 2026 (exact rupee prices from its New Delhi price page; CarWale's lakh figures agree)",
+      "engines": {
+        "p15t": {
+          "type": "1.5 turbo petrol GDi (Hyperion)",
+          "cylinders": 4,
+          "displacementCc": 1498,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 167.62,
+          "maxPowerRpm": 5000,
+          "maxTorqueNm": 280,
+          "maxTorqueRpm": null
+        },
+        "d20": {
+          "type": "2.0 diesel (Kryotec)",
+          "cylinders": 4,
+          "displacementCc": 1956,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 167.62,
+          "maxPowerRpm": 3750,
+          "maxTorqueNm": 350,
+          "maxTorqueRpm": "1750-2500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Smart",
+          "wheels": "17-inch alloy",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "LED projector headlamps",
+            "7-inch digital driver display",
+            "Automatic climate control",
+            "Fabric upholstery",
+            "17-inch alloy wheels"
+          ]
+        },
+        {
+          "trim": "Pure X",
+          "wheels": "17-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "10.25-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "10.25-inch digital driver display",
+            "360-degree camera",
+            "Cruise control",
+            "Push-button start",
+            "Automatic headlamps and rain-sensing wipers"
+          ]
+        },
+        {
+          "trim": "Adventure X Plus",
+          "wheels": "18-inch alloy",
+          "airbags": 6,
+          "features": [
+            "18-inch alloy wheels",
+            "Leatherette upholstery",
+            "Powered driver seat with memory",
+            "Electronic parking brake with auto hold",
+            "Level 2 ADAS (automatic only)",
+            "6-speaker audio",
+            "Driver attention warning",
+            "Rear defogger"
+          ]
+        },
+        {
+          "trim": "Accomplished X",
+          "wheels": "18-inch alloy",
+          "airbags": 6,
+          "features": [
+            "12.3-inch touchscreen",
+            "9-speaker JBL audio with subwoofer",
+            "Ventilated front seats",
+            "Dual-zone climate control",
+            "Gesture-controlled powered tailgate",
+            "Wireless phone charger",
+            "TPMS",
+            "Connected LED tail-lamps"
+          ]
+        },
+        {
+          "trim": "Accomplished X Plus",
+          "wheels": "19-inch alloy",
+          "airbags": 7,
+          "features": [
+            "7 airbags",
+            "Level 2 ADAS on manual and automatic",
+            "10-speaker JBL audio",
+            "19-inch dual-tone alloys",
+            "4-way powered co-driver seat",
+            "Air purifier",
+            "Front parking sensors",
+            "Cornering LED fog lamps"
+          ]
+        },
+        {
+          "trim": "Accomplished Ultra",
+          "wheels": null,
+          "airbags": null,
+          "features": [
+            "14.5-inch Samsung Neo QLED touchscreen",
+            "Dolby Atmos audio",
+            "Digital IRVM with dual dashcam",
+            "Memory ORVMs with camera washer",
+            "Sliding armrests",
+            "65W USB Type-C fast charger",
+            "Built-in Mappls navigation",
+            "Level 2+ ADAS (22 functions)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Smart",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1339990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Smart",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1484990,
+          "mileage": "16.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Pure X",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1684990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Pure X",
+          "power": "1.5 Turbo AT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1834990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Pure X",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1794990,
+          "mileage": "16.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Pure X",
+          "power": "2.0 Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1944990,
+          "mileage": "14.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine",
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Adventure X Plus",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1814990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Adventure X Plus",
+          "power": "1.5 Turbo AT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1979990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters",
+            "Level 2 ADAS"
+          ]
+        },
+        {
+          "trim": "Adventure X Plus",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1939990,
+          "mileage": "16.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Adventure X Plus",
+          "power": "2.0 Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2104990,
+          "mileage": "14.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine",
+            "6-speed torque-converter automatic",
+            "Paddle shifters",
+            "Level 2 ADAS"
+          ]
+        },
+        {
+          "trim": "Accomplished X",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2129990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Accomplished X",
+          "power": "1.5 Turbo AT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2289990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Accomplished X",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2234990,
+          "mileage": "16.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Accomplished X",
+          "power": "2.0 Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2399990,
+          "mileage": "14.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine",
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Accomplished X Plus",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2304990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Accomplished X Plus",
+          "power": "1.5 Turbo MT 6S",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2314990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-seat layout",
+            "Ventilated 2nd-row seats"
+          ]
+        },
+        {
+          "trim": "Accomplished X Plus",
+          "power": "1.5 Turbo AT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2449990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Accomplished X Plus",
+          "power": "1.5 Turbo AT 6S",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2459990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "6-seat layout",
+            "Ventilated 2nd-row seats"
+          ]
+        },
+        {
+          "trim": "Accomplished X Plus",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2414990,
+          "mileage": "16.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Accomplished X Plus",
+          "power": "2.0 Diesel MT 6S",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2424990,
+          "mileage": "16.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine",
+            "6-seat layout",
+            "Ventilated 2nd-row seats"
+          ]
+        },
+        {
+          "trim": "Accomplished X Plus",
+          "power": "2.0 Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2559990,
+          "mileage": "14.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine",
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Accomplished X Plus",
+          "power": "2.0 Diesel AT 6S",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2569990,
+          "mileage": "14.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine",
+            "6-speed torque-converter automatic",
+            "6-seat layout",
+            "Ventilated 2nd-row seats"
+          ]
+        },
+        {
+          "trim": "Accomplished Ultra",
+          "power": "1.5 Turbo MT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2364990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Accomplished Ultra",
+          "power": "1.5 Turbo MT 6S",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2374990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-seat layout"
+          ]
+        },
+        {
+          "trim": "Accomplished Ultra",
+          "power": "1.5 Turbo AT",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2509990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Accomplished Ultra",
+          "power": "1.5 Turbo AT 6S",
+          "engine": "p15t",
+          "fuel": "Petrol",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2519990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "6-seat layout"
+          ]
+        },
+        {
+          "trim": "Accomplished Ultra",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2474990,
+          "mileage": "16.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Accomplished Ultra",
+          "power": "2.0 Diesel MT 6S",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2484990,
+          "mileage": "16.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine",
+            "6-seat layout"
+          ]
+        },
+        {
+          "trim": "Accomplished Ultra",
+          "power": "2.0 Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2619990,
+          "mileage": "14.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine",
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Accomplished Ultra",
+          "power": "2.0 Diesel AT 6S",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Torque-converter automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2629990,
+          "mileage": "14.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-diesel engine",
+            "6-speed torque-converter automatic",
+            "6-seat layout"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:4th International Auto Show, Bangalore (2025) 108.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Gpkp",
+          "local": "photos/tata-safari-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Front: current (2023 facelift) Safari, Dark edition, at the Nov 2025 Bangalore auto show. It is a front three-quarter view (roughly 30-40 degrees off-axis) rather than straight-on, with a show-floor background (other cars, banners, people) and a 'SAFARI' display plate. It is the only current-model Safari on Commons, so the owner may prefer to drop it. Rear: none; Category:Tata Safari otherwise holds only older generations (Dicor, Storme, Safari II).",
+      "sources": [
+        "https://www.cardekho.com/tata/safari/variants.htm",
+        "https://www.cardekho.com/overview/Tata_Safari/Tata_Safari_Smart.htm",
+        "https://www.cardekho.com/india-car-news/2025-tata-safari-variantwise-features-explained-34822.htm",
+        "https://www.rushlane.com/tata-harrier-and-safari-petrol-specs-revealed-new-top-ultra-variants-12536627.html",
+        "https://www.carwale.com/tata-cars/safari/mileage/",
+        "https://www.cardekho.com/overview/Tata_Harrier/Tata_Harrier_Petrol_Smart.htm",
+        "https://www.cardekho.com/tata/safari/price-in-new-delhi",
+        "https://www.carwale.com/tata-cars/safari/",
+        "https://commons.wikimedia.org/wiki/File:4th_International_Auto_Show,_Bangalore_(2025)_108.jpg"
+      ],
+      "notes": "Tata's site failed to load (expired certificate), so CarDekho, CarWale and Rushlane were used. Current model is the 2023 facelift with the 2025 trim reshuffle. The 1.5 Hyperion turbo-petrol and the Accomplished Ultra trim were added in Dec 2025. Petrol engine figures come from CarDekho's Harrier petrol spec table; reports say the same unit is used in the Safari. Seats: 7 standard. '6S' variants (Accomplished X Plus and Ultra) are 6-seaters per CarDekho's naming and its features article. Cosmetic editions (Dark, Red Dark, Stealth) are left out; CarDekho lists 72 variants including them. Mileage: CarWale ARAI 16.3 kmpl diesel MT and 14.5 kmpl diesel AT. CarWale itself lists Pure X diesel AT at 16.3 kmpl and gives a 14.7-16.3 range, so AT figures are inconsistent. Petrol ARAI is not published. Accomplished Ultra wheel size and airbag count are unconfirmed (CarDekho's petrol article says 6 airbags; Accomplished X Plus has 7). Pure X wheels are inferred as 17-inch, since only Dark editions get 18-inch. Accomplished X keeps Adventure X Plus's 18-inch wheels.\nUpdate 21 Oct 2026: Prices made exact from CarDekho's New Delhi price page (each was Rs 10 below the rounded lakh figure, e.g. Rs 7.40 lakh = Rs 7,39,990); CarWale's lakh figures agree. Tata's site still fails (expired certificate). Front photo added (Bangalore 2025 auto show, three-quarter view); no rear found. Petrol mileage still null: CarDekho and CarWale list no petrol ARAI figure. CarWale's diesel AT figure now reads 14.7 kmpl (its spec summary still says 14.5); 14.5 kept. Spec audit 21 Oct 2026: all engine figures confirmed (CarDekho; petrol/CNG figures not shown there, left as is)\nSpec audit 21 Oct 2026: p15t.maxTorqueRpm 1750-3500->None (unconfirmed rpm set null)"
+    },
+    {
+      "id": "tata-curvv",
+      "brand": "Tata",
+      "model": "Curvv",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 44,
+      "priceNote": "CarDekho New Delhi ex-showroom, Oct 2026 (exact rupee prices from its New Delhi price page; CarWale's lakh figures agree)",
+      "engines": {
+        "p12t": {
+          "type": "1.2 turbo petrol (Revotron)",
+          "cylinders": 3,
+          "displacementCc": 1199,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 118,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 170,
+          "maxTorqueRpm": null
+        },
+        "p12gdi": {
+          "type": "1.2 turbo petrol GDi (Hyperion)",
+          "cylinders": 3,
+          "displacementCc": 1199,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 123,
+          "maxPowerRpm": 5000,
+          "maxTorqueNm": 225,
+          "maxTorqueRpm": null
+        },
+        "d15": {
+          "type": "1.5 diesel (Kryojet)",
+          "cylinders": 4,
+          "displacementCc": 1497,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 116,
+          "maxPowerRpm": 4000,
+          "maxTorqueNm": 260,
+          "maxTorqueRpm": "1500-2750"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Smart X",
+          "wheels": "17-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP",
+            "Hill-hold control",
+            "LED headlamps and tail-lamps",
+            "Rear parking sensors",
+            "17-inch wheels with covers"
+          ]
+        },
+        {
+          "trim": "Pure X",
+          "wheels": "17-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "10.25-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "6-speaker audio",
+            "Automatic climate control",
+            "Cruise control",
+            "Rear camera",
+            "Push-button start",
+            "TPMS"
+          ]
+        },
+        {
+          "trim": "Pure X Plus",
+          "wheels": "17-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "17-inch diamond-cut alloy wheels",
+            "Leatherette-wrapped steering wheel and gear knob"
+          ]
+        },
+        {
+          "trim": "Creative X Plus",
+          "wheels": "18-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "360-degree camera with blind-view monitor",
+            "10.25-inch digital driver display",
+            "18-inch diamond-cut alloys",
+            "Front parking sensors",
+            "Automatic headlamps and rain-sensing wipers",
+            "Reclining 60:40 rear seats",
+            "Cornering LED fog lamps"
+          ]
+        },
+        {
+          "trim": "Accomplished X",
+          "wheels": "18-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "12.3-inch touchscreen",
+            "9-speaker JBL audio",
+            "Ventilated front seats",
+            "6-way powered driver seat",
+            "Wireless phone charger",
+            "Air purifier",
+            "Hill-descent control",
+            "Rear sunshade"
+          ]
+        },
+        {
+          "trim": "Accomplished X Plus",
+          "wheels": "18-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "Level 2 ADAS",
+            "Gesture-controlled powered tailgate",
+            "Dual-zone climate control",
+            "Electronic parking brake with auto hold",
+            "Rear disc brakes",
+            "Auto-dimming IRVM",
+            "Sequential turn indicators",
+            "Connected car tech"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Smart X",
+          "power": "1.2 Turbo MT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 999990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Pure X",
+          "power": "1.2 Turbo MT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1099990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Pure X",
+          "power": "1.2 Turbo DCA",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1229990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7-speed dual-clutch automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Pure X",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1229990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Pure X Plus",
+          "power": "1.2 Turbo MT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1179990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Pure X Plus",
+          "power": "1.2 Turbo DCA",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1309990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7-speed dual-clutch automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Pure X Plus",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1309990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Creative X Plus",
+          "power": "1.2 Turbo MT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1290990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Creative X Plus",
+          "power": "1.2 Turbo DCA",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1420990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7-speed dual-clutch automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Creative X Plus",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1420990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Accomplished X",
+          "power": "1.2 Turbo MT",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1399990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Accomplished X",
+          "power": "1.2 Turbo DCA",
+          "engine": "p12t",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1529990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "7-speed dual-clutch automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Accomplished X",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1529990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        },
+        {
+          "trim": "Accomplished X Plus",
+          "power": "1.2 GDi DCA",
+          "engine": "p12gdi",
+          "fuel": "Petrol",
+          "transmission": "Dual-clutch automatic, 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1849990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Accomplished X Plus",
+          "power": "1.5 Diesel DCA",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Dual-clutch automatic, 7-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1874990,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 turbo-diesel engine"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2025 Tata Curvv Creative+ S Petrol (India) front view.png",
+          "license": "CC BY 3.0",
+          "artist": "Manish Bhardwaj",
+          "local": "photos/tata-curvv-front.jpg"
+        },
+        "rear": {
+          "file": "File:2025 Tata Curvv Creative+ S Petrol (India) rear view.png",
+          "license": "CC BY 3.0",
+          "artist": "Manish Bhardwaj",
+          "local": "photos/tata-curvv-rear.jpg"
+        }
+      },
+      "photoNotes": "Both photos show a 2025 Curvv Creative+ S petrol (India), the current generation, taken before the Sept 2026 Series X update. Front is near straight-on and clean; rear is a rear three-quarter view; both are outdoors with a tidy background and a visible number plate. Launch coverage (Cars24/Autocar Pro, Sept 2026) says the Series X body is carried over, with the main visible change a black front grille in place of the chrome-finish one in these photos. Re-checked 21 Oct 2026: no Series X photo on Commons (only these two and the Curvv.EV), so they are kept.",
+      "sources": [
+        "https://www.cardekho.com/tata/curvv/variants.htm",
+        "https://www.cardekho.com/overview/Tata_Curvv/Tata_Curvv_Smart_X.htm",
+        "https://www.cardekho.com/overview/Tata_Curvv/Tata_Curvv_Accomplished_X_Diesel.htm",
+        "https://www.cardekho.com/overview/Tata_Curvv/Tata_Curvv_Accomplished_X_Plus_T-GDi_DCT.htm",
+        "https://www.autocarindia.com/car-news/tata-curvv-series-x-launched-at-rs-99-lakh-440646",
+        "https://www.autocarindia.com/auto-features/which-tata-curvv-trim-should-you-consider-buying-432480",
+        "https://www.cardekho.com/india-car-news/2026-tata-curvv-series-x-launched-at-rs-10-lakh-lower-and-mid-variants-now-better-equipped-36596.htm",
+        "https://commons.wikimedia.org/wiki/Category:Tata_Curvv",
+        "https://www.cardekho.com/tata/curvv/price-in-new-delhi",
+        "https://www.carwale.com/tata-cars/curvv/"
+      ],
+      "notes": "Tata's site failed to load (expired certificate), so CarDekho and Autocar India were used. Current line-up is the 'Series X' update launched 3 Sep 2026, which renamed the trims and moved features down the range. Dark editions (Pure X Plus, Creative X Plus, Accomplished X, Accomplished X Plus; Rs 20,000-25,000 extra) are left out. Trim features follow Autocar India's 4 Sep 2026 variant guide. CarDekho's launch story conflicts: it puts the panoramic sunroof and Harman audio on Pure X and ventilated seats on Creative X Plus. Smart X wheels are 'rims with wheel covers' per Autocar and 'steel with cover' per CarDekho. Engine power is quoted as 120 hp / 125 hp / 118 hp by Autocar, and as 118 / 123 / 116 bhp by CarDekho's spec tables (used here). The 1.2 GDi (Hyperion) comes only with DCA on Accomplished X Plus; its manual option was dropped. Mileage is null: CarDekho lists no ARAI figure, and other sources conflict widely (petrol 12 vs 17.4 kmpl; diesel 22.3-23 kmpl).\nUpdate 21 Oct 2026: Prices made exact from CarDekho's New Delhi price page (each was Rs 10 below the rounded lakh figure, e.g. Rs 7.40 lakh = Rs 7,39,990); CarWale's lakh figures agree. Tata's site still fails (expired certificate). Photos kept (no Series X photo on Commons; the update's only reported exterior change is a black grille). Mileage still null: CarDekho, CarWale, Autocar India (updated 17 Oct 2026) and 91Wheels all show no ARAI figure for the Series X; CarDekho's Q&A says Tata has not released one. Spec audit 21 Oct 2026: all engine figures confirmed (CarDekho; petrol/CNG figures not shown there, left as is)\nSpec audit 21 Oct 2026: p12t.maxPowerRpm 5500->None; p12t.maxTorqueRpm 1750-4000->None; p12gdi.maxTorqueRpm 1750-3000->None (unconfirmed rpm set null)"
+    }
+  ]
+}

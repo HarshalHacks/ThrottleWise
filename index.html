@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Indian Car Engine Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>Indian Car Engine Hub</h1>
+    <p>Engine specs, variant details and an engine sound simulator for cars sold in India.</p>
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search brand, model or engine">
+      <div class="chips" id="fuelChips"></div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Cars</h2>
+      <div class="grid" id="grid"></div>
+    </section>
+
+    <section id="compareSection" hidden>
+      <h2>Compare <span id="compareCount"></span></h2>
+      <div class="table-wrap"><table id="compareTable"></table></div>
+    </section>
+
+    <section id="detailSection" hidden>
+      <div class="detail-head">
+        <h2 id="detailTitle"></h2>
+        <button id="closeDetail" class="btn ghost">Close</button>
+      </div>
+      <div class="detail">
+        <div class="car-art" id="carArt"></div>
+        <div>
+          <div class="table-wrap"><table id="specTable"></table></div>
+          <div class="sound-panel">
+            <h3>Engine sound simulator</h3>
+            <p class="note">A synthesised approximation based on this engine's cylinders and RPM. It is not a recording of this car.</p>
+            <div class="sound-row">
+              <button id="soundToggle" class="btn">Start engine</button>
+              <label>Throttle <input id="throttle" type="range" min="0" max="100" value="0"></label>
+              <span id="rpmReadout">0 rpm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Specs are unverified starting data. Confirm against the manufacturer before relying on them.
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

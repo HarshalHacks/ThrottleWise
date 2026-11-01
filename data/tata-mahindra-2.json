@@ -1,0 +1,504 @@
+{
+  "cars": [
+    {
+      "id": "mahindra-bolero-neo",
+      "brand": "Mahindra",
+      "model": "Bolero Neo",
+      "bodyType": "SUV",
+      "seats": 7,
+      "fuelTankL": 50,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "d15": {
+          "type": "1.5 mHawk100 diesel",
+          "cylinders": 3,
+          "displacementCc": 1493,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 98.56,
+          "maxPowerRpm": 3750,
+          "maxTorqueNm": 260,
+          "maxTorqueRpm": "1750-2250"
+        }
+      },
+      "trims": [
+        {
+          "trim": "N4",
+          "wheels": "15-inch steel",
+          "airbags": 2,
+          "features": [
+            "Dual front airbags",
+            "ABS with EBD",
+            "Manual AC",
+            "Power steering",
+            "Halogen headlamps",
+            "Analogue instrument cluster"
+          ]
+        },
+        {
+          "trim": "N8",
+          "wheels": "15-inch steel with covers",
+          "airbags": 2,
+          "features": [
+            "Music system",
+            "Steering-mounted audio controls",
+            "4 speakers"
+          ]
+        },
+        {
+          "trim": "N10",
+          "wheels": "15-inch alloy",
+          "airbags": 2,
+          "features": [
+            "9-inch touchscreen",
+            "Alloy wheels"
+          ]
+        },
+        {
+          "trim": "N10 R",
+          "wheels": null,
+          "airbags": 2,
+          "features": []
+        },
+        {
+          "trim": "N11",
+          "wheels": null,
+          "airbags": 2,
+          "features": []
+        },
+        {
+          "trim": "N10 (O)",
+          "wheels": null,
+          "airbags": 2,
+          "features": []
+        }
+      ],
+      "variants": [
+        {
+          "trim": "N4",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "RWD",
+          "priceInr": 906000,
+          "mileage": "17.29 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "N8",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "RWD",
+          "priceInr": 969000,
+          "mileage": "17.29 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "N10",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "RWD",
+          "priceInr": 997000,
+          "mileage": "17.29 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "N10 R",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1000000,
+          "mileage": "17.29 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "N11",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1039000,
+          "mileage": "17.29 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "N10 (O)",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1085000,
+          "mileage": "17.29 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Mahindra TUV300 2016 (1).JPG",
+          "license": "CC BY-SA 4.0",
+          "artist": "SnapMeUp",
+          "note": "Shown as the TUV300, the same car before it was renamed Bolero Neo",
+          "local": "photos/mahindra-bolero-neo-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "No Bolero Neo photo found on Commons (no category; searches return TUV300). Rejected File:Mahindra Bolero Gen 3.jpg: old Bolero, side view.",
+      "sources": [
+        "https://www.cardekho.com/mahindra/bolero-neo/variants.htm",
+        "https://www.cardekho.com/mahindra/bolero-neo/specs",
+        "https://www.carwale.com/mahindra-cars/bolero-neo/",
+        "https://www.cardekho.com/india-car-news/2025-mahindra-bolero-neo-here-are-the-features-you-get-with-each-of-its-5-variants-35142.htm"
+      ],
+      "notes": "CarDekho (Delhi) and CarWale (Mumbai) agree on prices after the Oct 2026 revision. Mahindra site returned 404. Trim order follows price. N10 R, N11 and N10 (O) feature and wheel differences not confirmed; N10 (O) reportedly adds an extra mechanical feature (unconfirmed). CarWale lists power as 100 bhp, CarDekho 98.56 bhp. N11 mileage not shown on CarDekho; same engine and gearbox, so the ARAI figure is applied."
+    },
+    {
+      "id": "mahindra-scorpio-classic",
+      "brand": "Mahindra",
+      "model": "Scorpio Classic",
+      "bodyType": "SUV",
+      "seats": 7,
+      "fuelTankL": 60,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "d22": {
+          "type": "2.2 mHawk diesel",
+          "cylinders": 4,
+          "displacementCc": 2184,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 130,
+          "maxPowerRpm": 3750,
+          "maxTorqueNm": 300,
+          "maxTorqueRpm": "1600-2800"
+        }
+      },
+      "trims": [
+        {
+          "trim": "S",
+          "wheels": "Steel",
+          "airbags": 2,
+          "features": [
+            "Dual front airbags",
+            "ABS",
+            "Manual AC",
+            "2nd-row AC vents",
+            "Power windows",
+            "LED tail lamps",
+            "Halogen headlamps"
+          ]
+        },
+        {
+          "trim": "S11",
+          "wheels": "17-inch alloy",
+          "airbags": 2,
+          "features": [
+            "9-inch touchscreen",
+            "Rear camera",
+            "Automatic climate control",
+            "Cruise control",
+            "Projector headlamps with LED DRLs",
+            "Fog lamps",
+            "Steering-mounted controls",
+            "17-inch diamond-cut alloys"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "S",
+          "power": "2.2 Diesel MT 7S",
+          "engine": "d22",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1343000,
+          "mileage": "14.44 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "S",
+          "power": "2.2 Diesel MT 9S",
+          "engine": "d22",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1391000,
+          "mileage": "14.44 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "9-seat layout"
+          ]
+        },
+        {
+          "trim": "S11",
+          "power": "2.2 Diesel MT 7S",
+          "engine": "d22",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1748000,
+          "mileage": "14.44 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "S11",
+          "power": "2.2 Diesel MT 7S CC",
+          "engine": "d22",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1748000,
+          "mileage": "14.44 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Captain seats (2nd row)"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Mahindra Scorpio S11 .jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "devansh02",
+          "note": "Earlier Scorpio S11 look; same body as the Classic",
+          "local": "photos/mahindra-scorpio-classic-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "No Scorpio Classic category on Commons. Rejected File:Mahindra Scorpio S11 .jpg (pre-Classic 2017 facelift, side view); Category:Mahindra Scorpio (2nd generation) holds the Scorpio-N, a different model.",
+      "sources": [
+        "https://www.cardekho.com/mahindra/scorpio/variants.htm",
+        "https://www.cardekho.com/mahindra/scorpio/specs",
+        "https://www.carwale.com/mahindra-cars/scorpio/",
+        "https://gaadify.com/mahindra-scorpio-classic-s-and-s11-variants-explained/"
+      ],
+      "notes": "Listed as Scorpio (Classic) on car sites. Variants and prices from CarDekho; CarWale (Mumbai) matches. Trim features from launch-era sources (Spinny, Mahindra); some sources say base S is 9-seat only, but CarDekho lists an S 7-seater. RWD per CarDekho specs."
+    },
+    {
+      "id": "force-gurkha",
+      "brand": "Force",
+      "model": "Gurkha",
+      "bodyType": "SUV",
+      "seats": null,
+      "fuelTankL": 63.5,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "d26": {
+          "type": "2.6 diesel",
+          "cylinders": 4,
+          "displacementCc": 2596,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 138,
+          "maxPowerRpm": 3200,
+          "maxTorqueNm": 320,
+          "maxTorqueRpm": "1400-2600"
+        }
+      },
+      "trims": [
+        {
+          "trim": "3-Door",
+          "wheels": "18-inch alloy",
+          "airbags": 2,
+          "features": [
+            "Dual front airbags",
+            "LED headlamps",
+            "18-inch alloys",
+            "9-inch touchscreen",
+            "Digital instrument cluster",
+            "Tyre pressure monitoring",
+            "Manual AC",
+            "4WD"
+          ]
+        },
+        {
+          "trim": "5-Door",
+          "wheels": "18-inch alloy",
+          "airbags": 2,
+          "features": [
+            "Two extra doors"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "3-Door",
+          "power": "2.6 Diesel 4WD MT",
+          "engine": "d26",
+          "fuel": "Diesel",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "4WD",
+          "priceInr": 1758000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "5-Door",
+          "power": "2.6 Diesel 4WD MT",
+          "engine": "d26",
+          "fuel": "Diesel",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "4WD",
+          "priceInr": 1763000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Force Gurkha at service station (cropped).jpg",
+          "license": "CC BY 3.0",
+          "artist": "The IT Guy",
+          "local": "photos/force-gurkha-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Front: current-gen (round LED headlamps) Indian car, straight-on, but at a fuel station with windscreen stickers. No current-gen rear on Commons; rejected File:Force Gurkha offroading 2 (cropped).jpg (older generation).",
+      "sources": [
+        "https://www.cardekho.com/force/gurkha/variants.htm",
+        "https://www.cardekho.com/force/gurkha/specs",
+        "https://www.carwale.com/force-motors-cars/gurkha/"
+      ],
+      "notes": "CarDekho lists 3-door (Rs 17.58 lakh) and 5-door (Rs 17.63 lakh) as separate listings; combined here. CarWale shows Rs 16.31 lakh for the 3-door (Mumbai), a conflict. Mileage: CarDekho shows 9.5 kmpl but no official ARAI figure confirmed, so null. Seats: 4 per CarDekho main listing; CarWale says 4 or 7 without mapping, so null. Force site did not load."
+    },
+    {
+      "id": "isuzu-dmax-vcross",
+      "brand": "Isuzu",
+      "model": "D-Max V-Cross",
+      "bodyType": "Pickup",
+      "seats": 5,
+      "fuelTankL": 55,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "d19": {
+          "type": "1.9 Ddi diesel",
+          "cylinders": 4,
+          "displacementCc": 1898,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 160.9,
+          "maxPowerRpm": 3600,
+          "maxTorqueNm": 360,
+          "maxTorqueRpm": "2000-2500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Z",
+          "wheels": "18-inch alloy",
+          "airbags": 2,
+          "features": [
+            "Dual airbags",
+            "ESC",
+            "7-inch touchscreen",
+            "Push-button start",
+            "4x4"
+          ]
+        },
+        {
+          "trim": "Z Prestige",
+          "wheels": "18-inch alloy",
+          "airbags": null,
+          "features": [
+            "10.3-inch touchscreen",
+            "360-degree camera",
+            "Tyre pressure monitoring",
+            "Blind-spot monitor"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Z",
+          "power": "1.9 Diesel 4WD MT",
+          "engine": "d19",
+          "fuel": "Diesel",
+          "transmission": null,
+          "drivetrain": "4WD",
+          "priceInr": 2600000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Z Prestige",
+          "power": "1.9 Diesel 4WD MT",
+          "engine": "d19",
+          "fuel": "Diesel",
+          "transmission": null,
+          "drivetrain": "4WD",
+          "priceInr": 2750000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Z Prestige",
+          "power": "1.9 Diesel 4WD AT",
+          "engine": "d19",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "4WD",
+          "priceInr": 3050000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "6 airbags",
+            "Cruise control",
+            "6-way power driver seat",
+            "8 speakers"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Isuzu D-max V-cross.JPG",
+          "license": "CC BY-SA 4.0",
+          "artist": "Bcarkhabri",
+          "note": "Same generation, earlier look (India launch)",
+          "local": "photos/isuzu-dmax-vcross-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Rejected File:Isuzu D-max V-cross.JPG (2016 India launch, pre-facelift, doors open on show stand) and Thai-market File:2019 Isuzu D-Max V-Cross 4-Door 3.0 Ddi M.jpg (3.0 engine, different design from the Indian model, three-quarter view).",
+      "sources": [
+        "https://www.cardekho.com/isuzu/v-cross/variants.htm",
+        "https://www.cardekho.com/isuzu/v-cross/specs",
+        "https://www.carwale.com/isuzu-cars/v-cross/",
+        "https://www.autocarindia.com/cars/isuzu/d-max-v-cross/variants"
+      ],
+      "notes": "Price conflict: CarDekho Delhi Rs 26.00/27.50/30.50 lakh vs CarWale/Autocar Rs 25.50-30.00 lakh. Autocar mentions a Z 2WD AT on some pages, not on CarDekho; omitted. Manual gearbox speed count not confirmed (null). Z Prestige MT airbag count unconfirmed. Mileage 12.4 kmpl on CarDekho is not a confirmed ARAI figure, so null. Isuzu site returned 404. Tyres 255/60 R18."
+    }
+  ]
+}

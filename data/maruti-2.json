@@ -1,0 +1,1067 @@
+{
+  "cars": [
+    {
+      "id": "maruti-celerio",
+      "brand": "Maruti Suzuki",
+      "model": "Celerio",
+      "bodyType": "Hatchback",
+      "seats": 5,
+      "fuelTankL": 32,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p10": {
+          "type": "1.0 K10C petrol",
+          "cylinders": 3,
+          "displacementCc": 998,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 67.77,
+          "maxPowerRpm": 5600,
+          "maxTorqueNm": 91.1,
+          "maxTorqueRpm": 3400
+        },
+        "c10": {
+          "type": "1.0 K10C petrol-CNG",
+          "cylinders": 3,
+          "displacementCc": 998,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 56.7,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 82.1,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "LXI",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP",
+            "Manual AC",
+            "Rear parking sensors",
+            "Manually adjustable ORVMs"
+          ]
+        },
+        {
+          "trim": "VXI",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "All four power windows",
+            "Electrically adjustable ORVMs",
+            "Central locking"
+          ]
+        },
+        {
+          "trim": "ZXI",
+          "wheels": "14-inch",
+          "airbags": 6,
+          "features": [
+            "Music system",
+            "Remote lock/unlock",
+            "Steering-mounted audio controls",
+            "Rear defogger",
+            "Rear wiper and washer"
+          ]
+        },
+        {
+          "trim": "ZXI Plus",
+          "wheels": "15-inch alloy",
+          "airbags": 6,
+          "features": [
+            "15-inch alloy wheels",
+            "7-inch touchscreen",
+            "Android Auto and Apple CarPlay",
+            "Push-button start",
+            "Power-folding ORVMs"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "LXI",
+          "power": "Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 469900,
+          "mileage": "25.24 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "VXI",
+          "power": "Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 518400,
+          "mileage": "25.24 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "VXI",
+          "power": "Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 563400,
+          "mileage": "26.68 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "VXI",
+          "power": "CNG MT",
+          "engine": "c10",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 597900,
+          "mileage": "34.43 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "ZXI",
+          "power": "Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 573400,
+          "mileage": "25.24 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "ZXI",
+          "power": "Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 618400,
+          "mileage": "26.68 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "ZXI Plus",
+          "power": "Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 630400,
+          "mileage": "25.24 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "ZXI Plus",
+          "power": "Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 675400,
+          "mileage": "26.68 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2021 Maruti Suzuki Celerio ZXi (India) front view 01.png",
+          "license": "CC BY 3.0",
+          "artist": "Exhibit Magazine",
+          "local": "photos/maruti-celerio-front.jpg"
+        },
+        "rear": {
+          "file": "File:2021 Maruti Suzuki Celerio ZXi (India) rear view.png",
+          "license": "CC BY 3.0",
+          "artist": "Exhibit Magazine",
+          "local": "photos/maruti-celerio-rear.jpg"
+        }
+      },
+      "photoNotes": "Indian-market current-generation ZXi photos (checked by eye); both are three-quarter views, not straight-on, with number plates. No straight-on current Celerio photo found on Commons.",
+      "sources": [
+        "https://www.cardekho.com/maruti/celerio/price-in-new-delhi",
+        "https://www.cardekho.com/maruti/celerio/specs",
+        "https://www.cardekho.com/maruti/celerio/mileage",
+        "https://www.autocarindia.com/cars/maruti-suzuki/celerio/specifications"
+      ],
+      "notes": "Six airbags standard across range since early-2026 update. CarDekho mileage table: MT 25.24, AMT 26.68 kmpl (its variant list shows 26 kmpl for AMT; update reports quote AMT 24.97) - table figure used. Autocar spec table lists 67hp@5500/89Nm@3500 vs CarDekho 67.77bhp@5600/91.1Nm@3400 (CarDekho used). CNG power/torque are Autocar approximate figures, rpm not found. Wheels for LXI/VXI not confirmed; trim features from CarDekho listing summary. Manufacturer site not checked directly."
+    },
+    {
+      "id": "maruti-s-presso",
+      "brand": "Maruti Suzuki",
+      "model": "S-Presso",
+      "bodyType": "Hatchback",
+      "seats": 5,
+      "fuelTankL": 27,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p10": {
+          "type": "1.0 K10C petrol",
+          "cylinders": 3,
+          "displacementCc": 998,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 67.7,
+          "maxPowerRpm": 5600,
+          "maxTorqueNm": 91.1,
+          "maxTorqueRpm": 3400
+        },
+        "c10": {
+          "type": "1.0 K10C petrol-CNG",
+          "cylinders": 3,
+          "displacementCc": 998,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 56.7,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 82.1,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "STD (O)",
+          "wheels": "14-inch steel",
+          "airbags": 2,
+          "features": [
+            "Dual front airbags",
+            "ABS with EBD",
+            "ESP",
+            "Rear parking sensors"
+          ]
+        },
+        {
+          "trim": "LXi (O)",
+          "wheels": "14-inch steel",
+          "airbags": 2,
+          "features": [
+            "Air conditioning",
+            "Power steering"
+          ]
+        },
+        {
+          "trim": "VXi (O)",
+          "wheels": "14-inch steel",
+          "airbags": 2,
+          "features": [
+            "Central locking with keyless entry",
+            "Front power windows",
+            "Bluetooth audio system",
+            "Body-coloured bumpers",
+            "Wheel covers"
+          ]
+        },
+        {
+          "trim": "VXi Plus (O)",
+          "wheels": "14-inch steel",
+          "airbags": 2,
+          "features": [
+            "7-inch touchscreen",
+            "Android Auto and Apple CarPlay",
+            "Steering-mounted controls"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "STD (O)",
+          "power": "Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 349900,
+          "mileage": "24.12 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "LXi (O)",
+          "power": "Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 382400,
+          "mileage": "24.12 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "LXi (O)",
+          "power": "CNG MT",
+          "engine": "c10",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 464400,
+          "mileage": "32.73 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "VXi (O)",
+          "power": "Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 432400,
+          "mileage": "24.76 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "VXi (O)",
+          "power": "Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 477400,
+          "mileage": "25.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "VXi (O)",
+          "power": "CNG MT",
+          "engine": "c10",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 514400,
+          "mileage": "32.73 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "VXi Plus (O)",
+          "power": "Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 482400,
+          "mileage": "24.76 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "VXi Plus (O)",
+          "power": "Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 527400,
+          "mileage": "25.3 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2021 Suzuki S-Presso 1.0 AMT Orange front view in Brunei.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "AIMHO'S REBELLION 8490s",
+          "note": "Brunei model, same design",
+          "local": "photos/maruti-s-presso-front.jpg"
+        },
+        "rear": {
+          "file": "File:2021 Suzuki S-Presso 1.0 AMT Orange rear view in Brunei.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "AIMHO'S REBELLION 8490s",
+          "note": "Brunei model, same design",
+          "local": "photos/maruti-s-presso-rear.jpg"
+        }
+      },
+      "photoNotes": "Brunei-market 2021 S-Presso (same generation and design as the Indian car), clean showroom shots, three-quarter views. Rejected File:Maruti s presso.jpg (Indian, but cluttered parking garage and side-on).",
+      "sources": [
+        "https://www.cardekho.com/maruti/s-presso/price-in-new-delhi",
+        "https://www.cardekho.com/maruti/s-presso/specs",
+        "https://www.cardekho.com/maruti/s-presso/mileage",
+        "https://www.autocarindia.com/cars/maruti-suzuki/s-presso/specifications",
+        "https://www.autocarindia.com/car-news-amp/maruti-suzuki-s-presso-variants-features-explained-414063"
+      ],
+      "notes": "Power/torque: Autocar India 67.7hp@5600/91.1Nm@3400 vs CarDekho 68bhp@5500/89Nm@3500 (Autocar used). CNG figures approximate from Autocar, rpm not found. Airbags: CarDekho and Autocar say 2; no 6-airbag update found. Trim features largely from 2019 launch coverage (Autocar) and may be dated; ESP on (O) trims per current listings. Wheel type steel per Autocar general spec."
+    },
+    {
+      "id": "maruti-eeco",
+      "brand": "Maruti Suzuki",
+      "model": "Eeco",
+      "bodyType": "Van",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p12": {
+          "type": "1.2 K12N petrol",
+          "cylinders": 4,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 79.6,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 104.4,
+          "maxTorqueRpm": 3000
+        },
+        "c12": {
+          "type": "1.2 K12N petrol-CNG",
+          "cylinders": 4,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 70.6,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 95,
+          "maxTorqueRpm": 3000
+        }
+      },
+      "trims": [
+        {
+          "trim": "5 Seater STD",
+          "wheels": "13-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ABS with EBD",
+            "Rear parking sensors",
+            "3-point seatbelts for all",
+            "Bench second row, large boot"
+          ]
+        },
+        {
+          "trim": "6 Seater STD",
+          "wheels": "13-inch steel",
+          "airbags": 6,
+          "features": [
+            "Second-row captain chairs",
+            "Front-facing third-row bench"
+          ]
+        },
+        {
+          "trim": "5 Seater AC",
+          "wheels": "13-inch steel",
+          "airbags": 6,
+          "features": [
+            "Manual AC"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "5 Seater STD",
+          "power": "Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": null,
+          "priceInr": 528400,
+          "mileage": "19.71 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "6 Seater STD",
+          "power": "Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": null,
+          "priceInr": 554900,
+          "mileage": "19.71 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "5 Seater AC",
+          "power": "Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": null,
+          "priceInr": 561300,
+          "mileage": "19.71 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "5 Seater AC",
+          "power": "CNG MT",
+          "engine": "c12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": null,
+          "priceInr": 645800,
+          "mileage": "26.78 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:White Maruti Eeco 01.jpg",
+          "license": "CC BY 3.0",
+          "artist": "Bams siblings",
+          "local": "photos/maruti-eeco-front.jpg"
+        },
+        "rear": {
+          "file": "File:White Maruti Eeco 02.jpg",
+          "license": "CC BY 3.0",
+          "artist": "Bams siblings",
+          "local": "photos/maruti-eeco-rear.jpg"
+        }
+      },
+      "photoNotes": "Indian-market current-design Eeco, checked by eye. Three-quarter views on rough ground; car has stripe decals and a paper on the windscreen (front). Best available; rejected File:Maruti Suzuki Eeco.jpg (side view, cluttered street).",
+      "sources": [
+        "https://www.cardekho.com/maruti/eeco/price-in-new-delhi",
+        "https://www.cardekho.com/maruti/eeco/specs",
+        "https://www.cardekho.com/maruti/eeco/mileage",
+        "https://www.autocarindia.com/cars/maruti-suzuki/eeco/specifications",
+        "https://www.rushlane.com/2025-maruti-eeco-updated-with-6-airbags-6-seater-captain-chairs-12521344.html"
+      ],
+      "notes": "Passenger versions only (Cargo/Tour/ambulance excluded). 6-seater (captain chairs) added and 7-seater dropped in April 2025 update with 6 airbags standard; seats 5 or 6 by variant. Power from Autocar spec table (petrol 79.6hp@6000/104.4Nm@3000, CNG 70.6hp@6000/95Nm@3000); CarDekho lists only 70.67bhp/95Nm. Fuel tank conflict (Autocar 32 L vs 40 L) - null. Drivetrain not stated on sources checked - null."
+    },
+    {
+      "id": "maruti-xl6",
+      "brand": "Maruti Suzuki",
+      "model": "XL6",
+      "bodyType": "MPV",
+      "seats": 6,
+      "fuelTankL": 45,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p15": {
+          "type": "1.5 K15C petrol mild hybrid",
+          "cylinders": 4,
+          "displacementCc": 1462,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 101.64,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 136.8,
+          "maxTorqueRpm": 4400
+        },
+        "c15": {
+          "type": "1.5 K15C petrol-CNG",
+          "cylinders": 4,
+          "displacementCc": 1462,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 86.6,
+          "maxPowerRpm": 5500,
+          "maxTorqueNm": 121.5,
+          "maxTorqueRpm": 4200
+        }
+      },
+      "trims": [
+        {
+          "trim": "Zeta",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP with hill hold",
+            "16-inch alloy wheels",
+            "LED headlamps with DRLs",
+            "LED fog lamps",
+            "7-inch touchscreen",
+            "Rear parking sensors",
+            "ISOFIX mounts"
+          ]
+        },
+        {
+          "trim": "Alpha",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "360-degree camera",
+            "Leatherette seats",
+            "Leather-wrapped steering",
+            "Auto headlamps",
+            "SmartPlay Pro touchscreen with voice assistant"
+          ]
+        },
+        {
+          "trim": "Alpha Plus",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Ventilated front seats",
+            "Tyre pressure monitor",
+            "Dual-tone paint option"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Zeta",
+          "power": "Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1162300,
+          "mileage": "20.97 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Zeta",
+          "power": "Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1297300,
+          "mileage": "20.27 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Zeta",
+          "power": "CNG MT",
+          "engine": "c15",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1260800,
+          "mileage": "26.32 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Alpha",
+          "power": "Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1258800,
+          "mileage": "20.97 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Alpha",
+          "power": "Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1393800,
+          "mileage": "20.27 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Alpha Plus",
+          "power": "Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1307100,
+          "mileage": "20.97 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Alpha Plus",
+          "power": "MT Dual Tone",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1332500,
+          "mileage": "20.97 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Dual-tone paint"
+          ]
+        },
+        {
+          "trim": "Alpha Plus",
+          "power": "Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1442100,
+          "mileage": "20.27 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Alpha Plus",
+          "power": "AT Dual Tone",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1467500,
+          "mileage": "20.27 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Dual-tone paint"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Maruti Suzuki XL6 (front).jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Agratsa",
+          "local": "photos/maruti-xl6-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "No usable current (2022 facelift) XL6 photo found. Rejected File:Maruti Suzuki XL6 (front).jpg: grille appears to be the pre-2022 design and plate covered; rejected File:Maruti Suzuki XL6 (side).jpg (side view). Suzuki XL7 photos are a different design.",
+      "sources": [
+        "https://www.cardekho.com/maruti/xl6/price-in-new-delhi",
+        "https://www.cardekho.com/maruti/xl6/specs",
+        "https://www.cardekho.com/maruti/xl6/mileage",
+        "https://www.autocarindia.com/cars/maruti-suzuki/xl6/specifications",
+        "https://www.rushlane.com/2025-maruti-xl6-updated-with-6-airbags-as-standard-price-hiked-12526699.html"
+      ],
+      "notes": "6 airbags standard since July 2025 update (some CNG listings still show 4). CNG power 64.6 kW@5500 (Autocar) converted to 86.6 bhp. Autocar overview quotes 139Nm@4300 vs spec table 136.8Nm@4400 (latter used). Trim features from 2022 variant guide (Gaadify) and Rushlane; may be dated."
+    },
+    {
+      "id": "maruti-invicto",
+      "brand": "Maruti Suzuki",
+      "model": "Invicto",
+      "bodyType": "MPV",
+      "seats": 7,
+      "fuelTankL": 52,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "h20": {
+          "type": "2.0 petrol Strong hybrid",
+          "cylinders": 4,
+          "displacementCc": 1987,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 150,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 188,
+          "maxTorqueRpm": "4400-5200"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Zeta Plus",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "Electronic parking brake with auto hold",
+            "Vehicle stability control",
+            "Hill start assist",
+            "ISOFIX mounts",
+            "Disc brakes all round",
+            "7- or 8-seat layouts"
+          ]
+        },
+        {
+          "trim": "Alpha Plus",
+          "wheels": "17-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "Powered tailgate",
+            "Ventilated front seats",
+            "8-way power driver seat with memory",
+            "360-degree camera",
+            "Dual-zone climate control",
+            "10.1-inch touchscreen, wireless Apple CarPlay",
+            "Tyre pressure monitor"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Zeta Plus",
+          "power": "Hybrid e-CVT 7S",
+          "engine": "h20",
+          "fuel": "Hybrid",
+          "transmission": "Automatic, e-CVT",
+          "drivetrain": "FWD",
+          "priceInr": 2502400,
+          "mileage": "23.24 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Zeta Plus",
+          "power": "Hybrid e-CVT 8S",
+          "engine": "h20",
+          "fuel": "Hybrid",
+          "transmission": "Automatic, e-CVT",
+          "drivetrain": "FWD",
+          "priceInr": 2537300,
+          "mileage": "23.24 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "8-seat layout"
+          ]
+        },
+        {
+          "trim": "Alpha Plus",
+          "power": "Hybrid e-CVT 7S",
+          "engine": "h20",
+          "fuel": "Hybrid",
+          "transmission": "Automatic, e-CVT",
+          "drivetrain": "FWD",
+          "priceInr": 2870500,
+          "mileage": "23.24 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "local": "photos/toyota-innova-hycross-front.jpg",
+          "artist": "RichardSummersault",
+          "license": "CC0",
+          "note": "Shown as the Toyota Innova Hycross the Invicto is built on; Maruti grille and badges differ"
+        }
+      },
+      "photoNotes": "No Maruti Invicto photo found on Commons (search for 'Invicto' returned only an unrelated painting, File:Invicto (2023).jpg). Toyota Innova Hycross photos rejected: different front and rear styling. Front photo reused from toyota-innova-hycross: Shown as the Toyota Innova Hycross the Invicto is built on; Maruti grille and badges differ",
+      "sources": [
+        "https://www.cardekho.com/maruti/invicto/price-in-new-delhi",
+        "https://www.cardekho.com/maruti/invicto/specs",
+        "https://www.autocarindia.com/cars/maruti-suzuki/invicto/specifications"
+      ],
+      "notes": "Engine figures are petrol engine only (Autocar 152hp@6000, 188Nm@4400-5200; CarDekho 150.19 bhp - 150 used); combined system output about 186 PS; motor 206 Nm. Mileage 23.24 kmpl from CarDekho. Zeta Plus wheel size not confirmed (CarDekho tyre 215/60 R17 taken as Alpha Plus). Seats 7 or 8 by variant."
+    },
+    {
+      "id": "maruti-jimny",
+      "brand": "Maruti Suzuki",
+      "model": "Jimny",
+      "bodyType": "SUV",
+      "seats": 4,
+      "fuelTankL": 40,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p15": {
+          "type": "1.5 K15B petrol",
+          "cylinders": 4,
+          "displacementCc": 1462,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 103,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 134.2,
+          "maxTorqueRpm": 4000
+        }
+      },
+      "trims": [
+        {
+          "trim": "Zeta",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "4WD",
+            "ESP with hill descent and hill start assist",
+            "7-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Manual AC",
+            "ISOFIX mounts"
+          ]
+        },
+        {
+          "trim": "Alpha",
+          "wheels": "15-inch alloy",
+          "airbags": 6,
+          "features": [
+            "9-inch touchscreen",
+            "LED headlamps with washers",
+            "Auto headlamps",
+            "Automatic climate control",
+            "Cruise control",
+            "Leather-wrapped steering"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Zeta",
+          "power": "Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual",
+          "drivetrain": "4WD",
+          "priceInr": 1259000,
+          "mileage": "16.94 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Zeta",
+          "power": "Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 4-speed torque converter",
+          "drivetrain": "4WD",
+          "priceInr": 1365000,
+          "mileage": "16.39 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "4-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Alpha",
+          "power": "Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual",
+          "drivetrain": "4WD",
+          "priceInr": 1345700,
+          "mileage": "16.94 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Alpha",
+          "power": "MT Dual Tone",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual",
+          "drivetrain": "4WD",
+          "priceInr": 1361100,
+          "mileage": "16.94 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Dual-tone paint"
+          ]
+        },
+        {
+          "trim": "Alpha",
+          "power": "Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 4-speed torque converter",
+          "drivetrain": "4WD",
+          "priceInr": 1451700,
+          "mileage": "16.39 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "4-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Alpha",
+          "power": "AT Dual Tone",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 4-speed torque converter",
+          "drivetrain": "4WD",
+          "priceInr": 1467100,
+          "mileage": "16.39 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "4-speed torque-converter automatic",
+            "Dual-tone paint"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Suzuki Jimny NOMADE FC (3BA-JC74W) front.jpg",
+          "license": "CC0",
+          "artist": "Tokumeigakarinoaoshima",
+          "note": "Japan model (India-built Jimny Nomade), same design",
+          "local": "photos/maruti-jimny-front.jpg"
+        },
+        "rear": {
+          "file": "File:Suzuki Jimny NOMADE FC (3BA-JC74W) rear.jpg",
+          "license": "CC0",
+          "artist": "Tokumeigakarinoaoshima",
+          "note": "Japan model (India-built Jimny Nomade), same design",
+          "local": "photos/maruti-jimny-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market 5-door Jimny photo found; used Japan-market Jimny Nomade (India-built 5-door, same design, checked by eye). Near-straight front and three-quarter rear in a car park; other cars partly in frame.",
+      "sources": [
+        "https://www.cardekho.com/maruti/jimny/price-in-new-delhi",
+        "https://www.cardekho.com/maruti/jimny/specs",
+        "https://www.cardekho.com/maruti/jimny/mileage",
+        "https://www.autocarindia.com/cars/maruti-suzuki/jimny/specifications"
+      ],
+      "notes": "India sells the 5-door Jimny only. Power: CarDekho 103 bhp vs Autocar 104.8 hp (CarDekho used). Manual gear count not stated on sources checked. Autocar lists 15-inch alloys generally; Zeta wheel type not confirmed. Feature split from CarToq/Spinny/Smartprix, which partly disagree."
+    }
+  ]
+}

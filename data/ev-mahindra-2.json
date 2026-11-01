@@ -1,0 +1,339 @@
+{
+  "cars": [
+    {
+      "id": "mahindra-xev-9s",
+      "brand": "Mahindra",
+      "model": "XEV 9S",
+      "bodyType": "SUV",
+      "seats": 7,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "m59": {
+          "type": "Electric motor (type not confirmed)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 228,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 380,
+          "maxTorqueRpm": null
+        },
+        "m70": {
+          "type": "Electric motor (type not confirmed)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 241,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 380,
+          "maxTorqueRpm": null
+        },
+        "m79": {
+          "type": "Electric motor (type not confirmed)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 282,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 380,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Pack One Above",
+          "wheels": "18-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "Panoramic sunroof",
+            "12.3-inch twin screens",
+            "Wireless Android Auto and Apple CarPlay",
+            "Cruise control",
+            "150-litre frunk",
+            "Reclinable third row",
+            "Rear camera"
+          ]
+        },
+        {
+          "trim": "Pack Two Above",
+          "wheels": "18-inch alloy",
+          "airbags": null,
+          "features": [
+            "Level-2 ADAS with adaptive cruise",
+            "360-degree camera with blind-spot monitor",
+            "16-speaker Harman Kardon audio",
+            "Ventilated front seats",
+            "Dual-zone climate control",
+            "Leatherette upholstery"
+          ]
+        },
+        {
+          "trim": "Pack Three",
+          "wheels": null,
+          "airbags": 7,
+          "features": [
+            "7th airbag (knee airbag)",
+            "Rear cross-traffic alert",
+            "Autonomous emergency steering",
+            "Ambient lighting",
+            "Ventilated rear seats",
+            "Keyless entry",
+            "Air purifier"
+          ]
+        },
+        {
+          "trim": "Pack Three Above",
+          "wheels": null,
+          "airbags": 7,
+          "features": [
+            "Augmented reality head-up display",
+            "Automatic parking assist",
+            "Drowsiness monitoring",
+            "In-car video calling"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Pack One Above",
+          "power": "59 kWh · 7-seat",
+          "engine": "m59",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2065000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 59,
+            "rangeKm": 521,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 140,
+            "dcChargeNote": "20-80% in about 20 min (140 kW)",
+            "acChargeNote": "7.2 kW: 0-100% in 8.7 h; 11 kW: about 6 h"
+          }
+        },
+        {
+          "trim": "Pack One Above",
+          "power": "79 kWh · 7-seat",
+          "engine": "m79",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2265000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "79 kWh battery, 679 km MIDC"
+          ],
+          "ev": {
+            "batteryKwh": 79,
+            "rangeKm": 679,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 180,
+            "dcChargeNote": "20-80% in about 20 min (180 kW)",
+            "acChargeNote": "7.2 kW: 0-100% in 11.7 h; 11 kW: about 8 h"
+          }
+        },
+        {
+          "trim": "Pack Two Above",
+          "power": "70 kWh · 7-seat",
+          "engine": "m70",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2505000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 70,
+            "rangeKm": 600,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 160,
+            "dcChargeNote": "20-80% in about 20 min (160 kW)",
+            "acChargeNote": "7.2 kW: 0-100% in 10.2 h; 11 kW: about 7 h"
+          }
+        },
+        {
+          "trim": "Pack Two Above",
+          "power": "70 kWh · 6-seat",
+          "engine": "m70",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2525000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-seat layout (captain seats in second row)"
+          ],
+          "ev": {
+            "batteryKwh": 70,
+            "rangeKm": 600,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 160,
+            "dcChargeNote": "20-80% in about 20 min (160 kW)",
+            "acChargeNote": "7.2 kW: 0-100% in 10.2 h; 11 kW: about 7 h"
+          }
+        },
+        {
+          "trim": "Pack Two Above",
+          "power": "79 kWh · 7-seat",
+          "engine": "m79",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2595000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "79 kWh battery, 679 km MIDC"
+          ],
+          "ev": {
+            "batteryKwh": 79,
+            "rangeKm": 679,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 180,
+            "dcChargeNote": "20-80% in about 20 min (180 kW)",
+            "acChargeNote": "7.2 kW: 0-100% in 11.7 h; 11 kW: about 8 h"
+          }
+        },
+        {
+          "trim": "Pack Two Above",
+          "power": "79 kWh · 6-seat",
+          "engine": "m79",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2615000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-seat layout (captain seats in second row)",
+            "79 kWh battery, 679 km MIDC"
+          ],
+          "ev": {
+            "batteryKwh": 79,
+            "rangeKm": 679,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 180,
+            "dcChargeNote": "20-80% in about 20 min (180 kW)",
+            "acChargeNote": "7.2 kW: 0-100% in 11.7 h; 11 kW: about 8 h"
+          }
+        },
+        {
+          "trim": "Pack Three",
+          "power": "79 kWh · 7-seat",
+          "engine": "m79",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2785000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 79,
+            "rangeKm": 679,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 180,
+            "dcChargeNote": "20-80% in about 20 min (180 kW)",
+            "acChargeNote": "7.2 kW: 0-100% in 11.7 h; 11 kW: about 8 h"
+          }
+        },
+        {
+          "trim": "Pack Three",
+          "power": "79 kWh · 6-seat",
+          "engine": "m79",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2805000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-seat layout (captain seats in second row)"
+          ],
+          "ev": {
+            "batteryKwh": 79,
+            "rangeKm": 679,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 180,
+            "dcChargeNote": "20-80% in about 20 min (180 kW)",
+            "acChargeNote": "7.2 kW: 0-100% in 11.7 h; 11 kW: about 8 h"
+          }
+        },
+        {
+          "trim": "Pack Three Above",
+          "power": "79 kWh · 7-seat",
+          "engine": "m79",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 2995000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 79,
+            "rangeKm": 679,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 180,
+            "dcChargeNote": "20-80% in about 20 min (180 kW)",
+            "acChargeNote": "7.2 kW: 0-100% in 11.7 h; 11 kW: about 8 h"
+          }
+        },
+        {
+          "trim": "Pack Three Above",
+          "power": "79 kWh · 6-seat",
+          "engine": "m79",
+          "fuel": "Electric",
+          "transmission": "Single-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 3015000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-seat layout (captain seats in second row)"
+          ],
+          "ev": {
+            "batteryKwh": 79,
+            "rangeKm": 679,
+            "rangeStandard": "MIDC",
+            "dcChargeKw": 180,
+            "dcChargeNote": "20-80% in about 20 min (180 kW)",
+            "acChargeNote": "7.2 kW: 0-100% in 11.7 h; 11 kW: about 8 h"
+          }
+        }
+      ],
+      "photos": {
+        "front": null,
+        "rear": null
+      },
+      "photoNotes": "Not found. The one Commons search that completed returned no XEV 9S file. The only Mahindra EV result was 'File:Mahindra XEV 9E.jpg', which is the XEV 9e, not the 9S, so it was not used. The Commons search was interrupted before a full check, so front and rear remain null.",
+      "sources": [
+        "https://www.cardekho.com/mahindra/xev-9s/variants.htm",
+        "https://www.cardekho.com/india-car-news/mahindra-xev-9s-launched-at-rs-1995-lakh-check-full-price-list-and-features-here-35368.htm",
+        "https://www.autocarindia.com/auto-features/mahindra-xev-9s-which-variant-to-buy-explained-with-price-and-features-439324",
+        "https://www.carwale.com/mahindra-cars/xev-9s/",
+        "https://www.91wheels.com/cars/mahindra/xev-9s/pack-three",
+        "https://www.autocarindia.com/car-news/mahindra-ev-charger-policy-revised-434784"
+      ],
+      "notes": "Update 21 Oct 2026: new file, not an update. Prices are CarDekho New Delhi ex-showroom for the 10 variants (CarDekho Rajauri/Thane pages agree). Conflict: Autocar India and CarDekho launch-day prices were lower (Pack One Above 59 kWh Rs 19.95 lakh, Pack Three Above 79 kWh Rs 29.45 lakh); the current list is used. CarWale Mumbai ranges (Rs 20.65-30.90 lakh) match the current list; CarWale also shows a Rs 16.64 lakh base figure that is inconsistent, so it is not used. Mahindra's own XEV 9S page was not reached. Ranges 521/600/679 km are MIDC Part 1+2 per Autocar (CarWale and CarDekho quote the same numbers without naming the test cycle for each battery). Real-world estimates quoted by Autocar are 400/450/500-550 km, not used. Motor: 228/241/282 bhp and 380 Nm per CarDekho/CarWale; Autocar gives 231/245/286 PS, consistent. Motor kW and motor type were not confirmed, so the type string is generic. DC charging 140/160/180 kW, 20-80% in about 20 min (Autocar and CarWale). AC times are from Autocar: 7.2 kW 8.7/10.2/11.7 h and 11 kW about 6/7/8 h; the 11 kW charger is named 11 kW in Autocar and 11.2 kW for the XEV 9e. No 9S charger add-on variants or prices were confirmed: Rs 50,000 (7.2 kW) and Rs 75,000 (11.2 kW) are from Autocar for the BE 6 and XEV 9e only, so no charger variants were created. Trim wheels and airbags: Pack One Above 18-inch steel with covers and 6 airbags (Autocar); Pack Two Above 18-inch alloy (Autocar) with airbag count not stated; Pack Three and Pack Three Above airbags 7 (Autocar and CarWale FAQ), wheels not stated. Six-seat variants are labelled with captain seats in second row per a news item only. Mileage is null for EVs. Autocar's 'Pack One Above 59 kWh 7-seat' naming is used as printed on CarDekho."
+    }
+  ]
+}

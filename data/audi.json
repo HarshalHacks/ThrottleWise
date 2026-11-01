@@ -1,0 +1,526 @@
+{
+  "cars": [
+    {
+      "id": "audi-a4",
+      "brand": "Audi",
+      "model": "A4",
+      "bodyType": "Sedan",
+      "seats": null,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p20": {
+          "type": "2.0 TFSI turbo petrol",
+          "cylinders": 4,
+          "displacementCc": 1984,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 207,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 320,
+          "maxTorqueRpm": "1450-4200"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Premium",
+          "wheels": "17-inch alloy",
+          "airbags": 8,
+          "features": [
+            "LED headlamps with signature DRLs",
+            "Glass sunroof",
+            "Leather/leatherette upholstery",
+            "10.1-inch MMI touchscreen",
+            "360-degree camera with Park Assist",
+            "8 airbags"
+          ]
+        },
+        {
+          "trim": "Premium Plus",
+          "wheels": null,
+          "airbags": 8,
+          "features": [
+            "12.3-inch Audi Virtual Cockpit Plus",
+            "3-zone climate control",
+            "30-colour ambient lighting",
+            "5-parallel-spoke alloy wheels"
+          ]
+        },
+        {
+          "trim": "Technology",
+          "wheels": null,
+          "airbags": 8,
+          "features": [
+            "Bang & Olufsen 3D sound (19 speakers)",
+            "MMI Navigation Plus",
+            "Wireless charging (Audi Phone Box)",
+            "Comfort key with gesture-controlled boot",
+            "Flat-bottom steering wheel"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Premium",
+          "power": "2.0 TFSI AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed dual-clutch (S tronic)",
+          "drivetrain": "FWD",
+          "priceInr": 4688000,
+          "mileage": "15 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Premium Plus",
+          "power": "2.0 TFSI AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed dual-clutch (S tronic)",
+          "drivetrain": "FWD",
+          "priceInr": 5185000,
+          "mileage": "14.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Technology",
+          "power": "2.0 TFSI AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed dual-clutch (S tronic)",
+          "drivetrain": "FWD",
+          "priceInr": 5583000,
+          "mileage": "14.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2020 Audi A4 S Line 35 TDi S-A facelift 2.0 Front.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Vauxford",
+          "note": "UK model, same design",
+          "local": "photos/audi-a4-front.jpg"
+        },
+        "rear": {
+          "file": "File:2020 Audi A4 S Line 35 TDi S-A 2.0 facelift Rear.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Vauxford",
+          "note": "UK model, same design",
+          "local": "photos/audi-a4-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market A4 photos on Commons; used UK-market B9 facelift (same design as the Indian car), front and rear three-quarter views checked by eye.",
+      "sources": [
+        "https://www.cardekho.com/audi/a4",
+        "https://www.carwale.com/audi-cars/"
+      ],
+      "notes": "Prices/specs from CarDekho; CarWale agrees on Rs 46.88 lakh start. audi.in not checked. Power conflict on CarDekho: spec table 207 bhp vs text 204 PS / review 190 PS; power rpm not given. Mileage 15 kmpl Premium vs 14.1 kmpl others as listed by CarDekho. Fuel tank and seats not stated. Limited Signature Edition (Rs 57.11 lakh, Jun 2025) excluded."
+    },
+    {
+      "id": "audi-a6",
+      "brand": "Audi",
+      "model": "A6",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p20": {
+          "type": "2.0 TFSI turbo petrol",
+          "cylinders": 4,
+          "displacementCc": 1984,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 241.3,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 370,
+          "maxTorqueRpm": "1600-4500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Premium Plus",
+          "wheels": "18-inch alloy",
+          "airbags": null,
+          "features": [
+            "Matrix LED headlights",
+            "10.1-inch haptic MMI touchscreen with Navigation Plus",
+            "12.3-inch Virtual Cockpit Plus",
+            "4-zone climate control with air ioniser",
+            "30-colour ambient lighting",
+            "Soft-close doors",
+            "Park Assist Plus with 360-degree cameras"
+          ]
+        },
+        {
+          "trim": "Technology",
+          "wheels": "19-inch alloy",
+          "airbags": null,
+          "features": [
+            "19-inch diamond-turned graphite alloys",
+            "Natural wood inlays"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Premium Plus",
+          "power": "45 TFSI AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed dual-clutch (S tronic)",
+          "drivetrain": "FWD",
+          "priceInr": 6374000,
+          "mileage": "14.11 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Technology",
+          "power": "45 TFSI AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed dual-clutch (S tronic)",
+          "drivetrain": "FWD",
+          "priceInr": 6989000,
+          "mileage": "14.11 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2018 Audi A6 TDi Quattro Front.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Vauxford",
+          "note": "UK model, same design",
+          "local": "photos/audi-a6-front.jpg"
+        },
+        "rear": {
+          "file": "File:2018 Audi A6 TDi Quattro Rear.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Vauxford",
+          "note": "UK model, same design",
+          "local": "photos/audi-a6-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market A6 photos on Commons; used UK-market C8 (same generation/design), three-quarter views checked by eye. Rejected File:2024 Audi A6 C8 sedan DSC 7466.jpg (mostly side view, cluttered).",
+      "sources": [
+        "https://www.cardekho.com/audi/a6",
+        "https://www.carwale.com/audi-cars/"
+      ],
+      "notes": "Conflict: CarDekho Rs 63.74 lakh start vs CarWale Rs 64.81 lakh; CarDekho New Delhi used. Power conflict on CarDekho: 241.3 bhp (spec table) vs 265 PS (text). Airbag count and fuel tank not found. A new-generation A6 is expected in India around Jan 2027."
+    },
+    {
+      "id": "audi-q3",
+      "brand": "Audi",
+      "model": "Q3",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p20": {
+          "type": "2.0 TFSI turbo petrol",
+          "cylinders": 4,
+          "displacementCc": 1984,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 201.15,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 320,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Nova",
+          "wheels": "18-inch alloy",
+          "airbags": 7,
+          "features": [
+            "Full-LED headlights with configurable DRLs",
+            "Panoramic sunroof",
+            "Powered front seats with driver memory and heating",
+            "3-zone climate control",
+            "11.9-inch virtual cockpit and 12.8-inch touchscreen",
+            "Powered tailgate",
+            "Adaptive cruise control",
+            "Reverse camera"
+          ]
+        },
+        {
+          "trim": "Zenith",
+          "wheels": "18-inch dual-tone alloy",
+          "airbags": 9,
+          "features": [
+            "LED headlights plus with digital light signatures",
+            "Head-up display",
+            "Sonos 12-speaker sound system",
+            "Sport steering wheel",
+            "Wooden inlays",
+            "Rear side airbags"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Nova",
+          "power": "2.0 TFSI quattro AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed dual-clutch",
+          "drivetrain": "AWD",
+          "priceInr": 5199000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Zenith",
+          "power": "2.0 TFSI quattro AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed dual-clutch",
+          "drivetrain": "AWD",
+          "priceInr": 5599000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Audi Q3 S line (FJ) – f 03042026.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "artist": "© M 93",
+          "note": "German model, same design",
+          "local": "photos/audi-q3-front.jpg"
+        },
+        "rear": {
+          "file": "File:Audi Q3 S line (FJ) – h 03042026.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "artist": "© M 93",
+          "note": "German model, same design",
+          "local": "photos/audi-q3-rear.jpg"
+        }
+      },
+      "photoNotes": "New-generation Q3 (FJ); no Indian-market photos on Commons, used German-market S line, three-quarter views checked by eye.",
+      "sources": [
+        "https://www.cardekho.com/audi/q3",
+        "https://www.carwale.com/audi-cars/",
+        "https://www.carwale.com/audi-cars/q3-sportback/"
+      ],
+      "notes": "New-generation Q3 launched in India 16 Oct 2026 (Nova, Zenith); CarWale agrees on Rs 51.99 lakh start. Official ARAI mileage, fuel tank and rpm figures not yet published. Power 201.15 bhp (CarDekho table) vs 204 PS (review). Q3 Sportback not included: listed separately (Signature/Bold/Technology Plus S-line, from Rs 53.55 lakh Mumbai ex-showroom on CarWale), not on the new Q3 price list, and its generation status was unclear."
+    },
+    {
+      "id": "audi-q5",
+      "brand": "Audi",
+      "model": "Q5",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 70,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p20": {
+          "type": "2.0 TFSI turbo petrol",
+          "cylinders": 4,
+          "displacementCc": 1984,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 245.59,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 370,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Premium Plus",
+          "wheels": null,
+          "airbags": 8,
+          "features": [
+            "LED headlights",
+            "Panoramic sunroof",
+            "Leather/leatherette upholstery",
+            "12.3-inch Virtual Cockpit Plus",
+            "3-zone climate control",
+            "30-colour ambient lighting",
+            "Audi Drive Select",
+            "8 airbags incl. rear side"
+          ]
+        },
+        {
+          "trim": "Technology",
+          "wheels": "19-inch alloy",
+          "airbags": null,
+          "features": [
+            "MMI Navigation Plus on 10.1-inch touchscreen",
+            "Bang & Olufsen 3D sound (19 speakers)",
+            "Park Assist with 360-degree cameras",
+            "Adaptive damper suspension",
+            "Power front seats with driver memory",
+            "Wireless charging",
+            "19-inch alloy wheels"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Premium Plus",
+          "power": "45 TFSI quattro AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed dual-clutch (S tronic)",
+          "drivetrain": "AWD",
+          "priceInr": 6375000,
+          "mileage": "13.47 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Technology",
+          "power": "45 TFSI quattro AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed dual-clutch (S tronic)",
+          "drivetrain": "AWD",
+          "priceInr": 6986000,
+          "mileage": "13.47 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2021 Audi Q5 S Line 45 TFSi MHEV Quattro facelift 2.0 Front.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Vauxford",
+          "note": "UK model, same design",
+          "local": "photos/audi-q5-front.jpg"
+        },
+        "rear": {
+          "file": "File:2021 Audi Q5 S Line 45 TFSi MHEV Quattro facelift 2.0 Rear.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Vauxford",
+          "note": "UK model, same design",
+          "local": "photos/audi-q5-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market Q5 photos on Commons; used UK-market FY facelift (same design), three-quarter views checked by eye.",
+      "sources": [
+        "https://www.cardekho.com/audi/q5",
+        "https://www.carwale.com/audi-cars/"
+      ],
+      "notes": "Current car is the facelifted second-gen (FY). Conflict: CarDekho Rs 63.75 lakh start vs CarWale Rs 65.55 lakh; CarDekho New Delhi used. Power 245.59 bhp (table) vs 265 PS (text). Third-gen Q5 expected around Jan 2027."
+    },
+    {
+      "id": "audi-q7",
+      "brand": "Audi",
+      "model": "Q7",
+      "bodyType": "SUV",
+      "seats": 7,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p30": {
+          "type": "3.0 TFSI V6 turbo petrol",
+          "cylinders": 6,
+          "displacementCc": 2995,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 335,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 500,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Premium Plus",
+          "wheels": "20-inch alloy",
+          "airbags": 8,
+          "features": [
+            "Adaptive air suspension",
+            "Panoramic sunroof",
+            "Power seats with driver memory",
+            "Dual-screen MMI Navigation Plus",
+            "12.3-inch Virtual Cockpit Plus",
+            "4-zone climate control",
+            "Power-folding third row",
+            "Wireless charging"
+          ]
+        },
+        {
+          "trim": "Technology",
+          "wheels": "20-inch alloy",
+          "airbags": 8,
+          "features": [
+            "Matrix LED headlights",
+            "Bang & Olufsen 3D sound (19 speakers)",
+            "Park Assist Plus with 360-degree camera",
+            "Air ioniser with fragrance",
+            "Adaptive wipers"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Premium Plus",
+          "power": "3.0 TFSI quattro AT",
+          "engine": "p30",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed torque converter (tiptronic)",
+          "drivetrain": "AWD",
+          "priceInr": 8717000,
+          "mileage": "11 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Technology",
+          "power": "3.0 TFSI quattro AT",
+          "engine": "p30",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed torque converter (tiptronic)",
+          "drivetrain": "AWD",
+          "priceInr": 9615000,
+          "mileage": "11 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Audi Q7 S line (4M, Facelift) – f 05072025.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "artist": "© M 93",
+          "note": "German model, same design",
+          "local": "photos/audi-q7-front.jpg"
+        },
+        "rear": {
+          "file": "File:Audi Q7 S line (4M, Facelift) – h 05072025.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "artist": "© M 93",
+          "note": "German model, same design",
+          "local": "photos/audi-q7-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market Q7 photos on Commons; used German-market 4M second facelift (same design), three-quarter views checked by eye. Rejected File:2026 Audi Q7 S-Line Quattro 3.0 front/rear.jpg (side-on views, sticker on rear glass).",
+      "sources": [
+        "https://www.cardekho.com/audi/q7",
+        "https://www.carwale.com/audi-cars/"
+      ],
+      "notes": "Conflict: CarDekho Rs 87.17 lakh (price table) vs a Sep 2025 note of Rs 86.14 lakh after GST cut, and CarWale Rs 87.62 lakh; CarDekho table used. Power 335 bhp vs 340 PS. Fuel tank and rpm not found. Signature Edition (Rs 99.81 lakh) excluded."
+    }
+  ]
+}

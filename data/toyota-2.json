@@ -1,0 +1,1258 @@
+{
+  "cars": [
+    {
+      "id": "toyota-innova-crysta",
+      "brand": "Toyota",
+      "model": "Innova Crysta",
+      "bodyType": "MPV",
+      "seats": 7,
+      "fuelTankL": 55,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "d24": {
+          "type": "2.4 turbo-diesel (2GD)",
+          "cylinders": 4,
+          "displacementCc": 2393,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 147.51,
+          "maxPowerRpm": 3400,
+          "maxTorqueNm": 343,
+          "maxTorqueRpm": "1400-2800"
+        }
+      },
+      "trims": [
+        {
+          "trim": "GX",
+          "wheels": "16-inch (205/65 R16)",
+          "airbags": 3,
+          "features": [
+            "3 airbags (incl. driver knee)",
+            "ABS with EBD, vehicle stability control, hill-start assist",
+            "Touchscreen audio with Android Auto and Apple CarPlay",
+            "Black fabric seats",
+            "7- or 8-seat layout",
+            "ECO and Power drive modes"
+          ]
+        },
+        {
+          "trim": "GX Plus",
+          "wheels": "16-inch diamond-cut alloy (205/65 R16)",
+          "airbags": 3,
+          "features": [
+            "Rear camera",
+            "Dashcam (DVR)",
+            "Auto-folding mirrors",
+            "Premium fabric seats",
+            "Wood-finish panels",
+            "Diamond-cut alloy wheels"
+          ]
+        },
+        {
+          "trim": "VX",
+          "wheels": "17-inch alloy (215/55 R17)",
+          "airbags": 7,
+          "features": [
+            "7 airbags",
+            "Automatic climate control",
+            "Keyless entry with push-button start",
+            "Cruise control",
+            "Front parking sensors",
+            "Wireless charger",
+            "Ambient lighting",
+            "17-inch alloy wheels"
+          ]
+        },
+        {
+          "trim": "ZX",
+          "wheels": "17-inch alloy (215/55 R17)",
+          "airbags": 7,
+          "features": [
+            "Dual-tone leather seats",
+            "8-way power driver seat",
+            "Tyre pressure monitoring",
+            "Easy-close tailgate",
+            "7-seat only"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "GX",
+          "power": "2.4 Diesel MT",
+          "engine": "d24",
+          "fuel": "Diesel",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1995000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "GX Plus",
+          "power": "2.4 Diesel MT",
+          "engine": "d24",
+          "fuel": "Diesel",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "RWD",
+          "priceInr": 2141000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "VX",
+          "power": "2.4 Diesel MT",
+          "engine": "d24",
+          "fuel": "Diesel",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "RWD",
+          "priceInr": 2524000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "ZX",
+          "power": "2.4 Diesel MT",
+          "engine": "d24",
+          "fuel": "Diesel",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "RWD",
+          "priceInr": 2696000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Toyota Innova Crysta 2.4 Z front right.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Premnath Kudva",
+          "note": "Earlier look of the current generation",
+          "local": "photos/toyota-innova-crysta-front.jpg"
+        },
+        "rear": {
+          "file": "File:Toyota Innova Crysta 2.4 Z rear left.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Premnath Kudva",
+          "note": "Earlier look of the current generation",
+          "local": "photos/toyota-innova-crysta-rear.jpg"
+        }
+      },
+      "photoNotes": "No Commons photo of the June 2026 facelift (revised grille and bumper garnish). Closest candidate 'File:4th International Auto Show, Bangalore (2025) 85.jpg' rejected: pre-facelift face, three-quarter view and a show placard on the bumper. Other Commons Innova AN140 photos are Philippine/Brunei-market Innova.",
+      "sources": [
+        "https://www.cardekho.com/toyota/innova-crysta/price-in-new-delhi",
+        "https://www.cardekho.com/toyota/innova-crysta/specs",
+        "https://www.toyotabharat.com/showroom/innova-crysta/",
+        "https://www.timesdrive.in/news/new-toyota-innova-crysta-launched-in-india-at-rs-19-72-lakh-with-updated-interior-and-features-article-154458389/amp"
+      ],
+      "notes": "Facelifted June 2026 (new grille, bumper garnish, dual-tone leather, TPMS, wireless charging; engine unchanged). Prices are 7-seater; 8-seater costs Rs 4,000-6,000 more (GX 19.99L, GX Plus 21.47L, VX 25.29L); ZX is 7-seat only; Platinum White Pearl paint adds Rs 14,000. Launch prices in June 2026 were lower (GX 19.72L), CarDekho Oct 2026 shows higher figures. Toyota also lists a fleet 'G' grade (steel wheels, no audio) not shown on CarDekho; omitted. Diesel MT only. No official ARAI mileage published; left null. Wheel and airbag split taken from toyotabharat.com spec table, where the tyre-to-grade mapping is partly inferred. Toyota's power figure is 150 PS (110 kW)."
+    },
+    {
+      "id": "toyota-glanza",
+      "brand": "Toyota",
+      "model": "Glanza",
+      "bodyType": "Hatchback",
+      "seats": 5,
+      "fuelTankL": 37,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p12": {
+          "type": "1.2 Z12E petrol",
+          "cylinders": 3,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 81.8,
+          "maxPowerRpm": 5700,
+          "maxTorqueNm": 112.4,
+          "maxTorqueRpm": 4500
+        },
+        "cng12": {
+          "type": "1.2 Z12E petrol-CNG (CNG mode)",
+          "cylinders": 3,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 70,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 102,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "E",
+          "wheels": "15-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESC with hill-hold",
+            "ISOFIX mounts",
+            "Power windows",
+            "Manual AC"
+          ]
+        },
+        {
+          "trim": "S",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "7-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Steering-mounted audio controls",
+            "Electrically folding mirrors",
+            "Rear AC vents",
+            "Tyre pressure monitoring",
+            "Rear USB-A and USB-C fast charging"
+          ]
+        },
+        {
+          "trim": "G",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "9-inch touchscreen",
+            "Rear camera",
+            "Automatic climate control",
+            "Push-button start",
+            "Wireless charger",
+            "Automatic LED projector headlamps",
+            "Height-adjustable driver seat",
+            "Telescopic steering"
+          ]
+        },
+        {
+          "trim": "V",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "360-degree camera",
+            "Head-up display",
+            "Ventilated front seats",
+            "Leatherette upholstery",
+            "Cruise control",
+            "Auto-dimming IRVM",
+            "LED fog lamps"
+          ]
+        },
+        {
+          "trim": "V (O)",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Level 2 ADAS",
+            "Adaptive cruise control",
+            "Lane keep assist",
+            "Autonomous emergency braking"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "E",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 699000,
+          "mileage": "23.80 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "S",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 771000,
+          "mileage": "23.80 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "S",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 831000,
+          "mileage": "24.77 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "S",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 876000,
+          "mileage": "33.61 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "S",
+          "power": "CNG AMT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 931000,
+          "mileage": "34.47 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit",
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "G",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 873000,
+          "mileage": "23.80 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "G",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 933000,
+          "mileage": "24.77 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "G",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 968000,
+          "mileage": "33.61 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "G",
+          "power": "CNG AMT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1023000,
+          "mileage": "34.47 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit",
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "V",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 999000,
+          "mileage": "23.80 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "V",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1059000,
+          "mileage": "24.77 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "V (O)",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1049000,
+          "mileage": "23.80 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "V (O)",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1098000,
+          "mileage": "24.77 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Toyota Glanza (front).jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Agratsa",
+          "note": "Earlier look of the current generation",
+          "local": "photos/toyota-glanza-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Facelift launched Oct 2026; no Commons photos of it yet. Closest candidates 'File:Toyota Glanza.jpg' and 'File:Toyota Glanza 2022 Facelift.jpg' rejected: pre-facelift (2022) design.",
+      "sources": [
+        "https://www.cardekho.com/toyota/glanza/price-in-new-delhi",
+        "https://www.cardekho.com/toyota/glanza/specs",
+        "https://www.autocarindia.com/auto-features/which-toyota-glanza-variant-should-you-buy-441175",
+        "https://www.spinny.com/blog/toyota-glanza-facelift-launch/"
+      ],
+      "notes": "Oct 2026 facelift: new 1.2 three-cylinder Z12E engine replaces the four-cylinder K12N, new V (O) trim with Level 2 ADAS, ventilated seats. Deliveries from Nov 2026. Toyota quotes about 83 hp for petrol; CarDekho 81.8 bhp. CNG output (70 hp/102 Nm) and CNG mileage from launch reports (Spinny, Cars24), single-source; older listings show the pre-facelift 30.61 km/kg. Wheels for S not stated; autocarindia says 16-inch alloys from G. Sources disagree on whether the 360 camera is wider-spread; Autocar lists it from V."
+    },
+    {
+      "id": "toyota-rumion",
+      "brand": "Toyota",
+      "model": "Rumion",
+      "bodyType": "MPV",
+      "seats": 7,
+      "fuelTankL": 45,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p15": {
+          "type": "1.5 K15C petrol (mild hybrid)",
+          "cylinders": 4,
+          "displacementCc": 1462,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 101.64,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 136.8,
+          "maxTorqueRpm": 4400
+        },
+        "cng15": {
+          "type": "1.5 K15C petrol-CNG (CNG mode)",
+          "cylinders": 4,
+          "displacementCc": 1462,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 87,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 121.5,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "E",
+          "wheels": "15-inch steel with full caps",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESC with hill-hold assist",
+            "Rear parking sensors",
+            "Manual AC",
+            "Power windows",
+            "Projector halogen headlamps",
+            "LED tail lamps",
+            "Analogue cluster with colour MID"
+          ]
+        },
+        {
+          "trim": "S",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "7-inch touchscreen",
+            "Steering-mounted audio and calling controls",
+            "Roof-mounted second-row AC vents",
+            "Indicators on mirrors",
+            "Rear wiper and washer"
+          ]
+        },
+        {
+          "trim": "G",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Automatic climate control"
+          ]
+        },
+        {
+          "trim": "V",
+          "wheels": "15-inch two-tone machined alloy",
+          "airbags": 6,
+          "features": [
+            "Tyre pressure monitoring",
+            "Two-tone machined alloy wheels"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "E",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 979000,
+          "mileage": "20.51 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "S",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1077000,
+          "mileage": "20.51 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "S",
+          "power": "CNG MT",
+          "engine": "cng15",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1169000,
+          "mileage": "26.11 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "S",
+          "power": "1.5 Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1235000,
+          "mileage": "20.11 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "G",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1193000,
+          "mileage": "20.51 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "G",
+          "power": "1.5 Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1344000,
+          "mileage": "20.11 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "V",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1270000,
+          "mileage": "20.51 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "V",
+          "power": "1.5 Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1421000,
+          "mileage": "20.11 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:The Right Front Three Quarter image of the Toyota Rumion (cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Super cool Ian",
+          "local": "photos/toyota-rumion-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Front is an Indian-market car (HR plate), clean, but a front three-quarter view rather than straight-on; no straight-on Indian Rumion front on Commons. No Indian-market rear photo; 'File:2022 Toyota Rumion Smart (Egypt) rear view.png' rejected because the Egyptian Rumion is a different, Ertiga-derived pre-update design.",
+      "sources": [
+        "https://www.cardekho.com/toyota/rumion/price-in-new-delhi",
+        "https://www.cardekho.com/toyota/rumion/specs",
+        "https://www.toyotabharat.com/showroom/rumion/",
+        "https://www.toyotabharat.com/news/2025/tkm-elevates-safety-with-6-airbags-standard-across-all-variants-of-the-rumion.html",
+        "https://www.rushlane.com/new-toyota-rumion-e-base-variant-launch-price-rs-9-55-l-down-rs-95k-12541327.html",
+        "https://www.cartrade.com/news/toyota-rumion-launched-in-india-at-rs-1029-lakh/"
+      ],
+      "notes": "Six airbags standard since Sept 2025; base E trim added March 2026 (launched at Rs 9.56 lakh; CarDekho Oct 2026 shows 9.79 lakh). Mileage from toyotabharat.com (MT 20.51 kmpl, AT 20.11 kmpl, CNG 26.11 km/kg). CNG output 87 bhp/121.5 Nm from 2023 launch report. Full per-trim feature split for S/G/V was not found in sources; feature lists for those trims are partial. Transmission of non-AT variants inferred as 5-speed manual (E is confirmed 5MT). Wheels for S/G not confirmed."
+    },
+    {
+      "id": "toyota-taisor",
+      "brand": "Toyota",
+      "model": "Urban Cruiser Taisor",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 37,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p12": {
+          "type": "1.2 K-series petrol",
+          "cylinders": null,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 88,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 113,
+          "maxTorqueRpm": null
+        },
+        "cng12": {
+          "type": "1.2 K-series petrol-CNG (CNG mode)",
+          "cylinders": null,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 76,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 98.5,
+          "maxTorqueRpm": null
+        },
+        "t10": {
+          "type": "1.0 turbo petrol",
+          "cylinders": 3,
+          "displacementCc": 998,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 98.69,
+          "maxPowerRpm": 5500,
+          "maxTorqueNm": 147.6,
+          "maxTorqueRpm": "2000-4500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "E",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "Electronic stability control",
+            "Projector headlamps",
+            "Part-digital instrument cluster",
+            "App-based remote lock/unlock",
+            "Fabric seats"
+          ]
+        },
+        {
+          "trim": "S",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "7-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Steering-mounted phone controls",
+            "Electrically folding mirrors",
+            "Indicators on mirrors",
+            "4 speakers",
+            "Over-the-air updates"
+          ]
+        },
+        {
+          "trim": "S Plus",
+          "wheels": "16-inch black-painted alloy",
+          "airbags": 6,
+          "features": [
+            "LED headlamps",
+            "LED DRLs",
+            "Automatic headlamps",
+            "16-inch alloy wheels"
+          ]
+        },
+        {
+          "trim": "G",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "1.0 turbo petrol engine",
+            "Rear camera",
+            "Rear AC vents",
+            "Wireless charger",
+            "Height-adjustable driver seat"
+          ]
+        },
+        {
+          "trim": "V",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "360-degree camera",
+            "Head-up display",
+            "Cruise control",
+            "Leather-wrapped steering wheel",
+            "Ambient lighting"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "E",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 743000,
+          "mileage": "21.71 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "E",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 845000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "S",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 833000,
+          "mileage": "21.71 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "S",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 894000,
+          "mileage": "22.79 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "S Plus",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 868000,
+          "mileage": "21.71 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "S Plus",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 929000,
+          "mileage": "22.79 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "G",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1045000,
+          "mileage": "21.18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "G",
+          "power": "1.0 Turbo AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1186000,
+          "mileage": "19.86 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "V",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1136000,
+          "mileage": "21.18 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "V",
+          "power": "1.0 Turbo AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1278000,
+          "mileage": "19.86 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Front view of Toyota Urban Cruiser Taisor.jpg",
+          "license": "CC BY 4.0",
+          "artist": "Abhiraj Mohan 31",
+          "local": "photos/toyota-taisor-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "No suitable photo. Closest candidates rejected: 'File:4th International Auto Show, Bangalore (2025) 113.jpg' (show placard on bumper, people in frame, three-quarter view) and 'File:Front view of Toyota Urban Cruiser Taisor.jpg' (strong three-quarter view in a cluttered showroom). No rear photo on Commons.",
+      "sources": [
+        "https://www.cardekho.com/toyota/urban-cruiser-taisor/price-in-new-delhi",
+        "https://www.cardekho.com/toyota/urban-cruiser-taisor/specs",
+        "https://www.carwale.com/toyota-cars/urban-cruiser-taisor/mileage/",
+        "https://www.autocarindia.com/cars/toyota/urban-cruiser-taisor/variants"
+      ],
+      "notes": "Dual-tone V Turbo MT/AT cost Rs 16,000 more (11.52L / 12.94L), not listed separately. Mileage from CarWale (ARAI); no CNG figure found. 1.2 petrol and CNG outputs from car-site summaries (88 bhp/113 Nm; 76 bhp/98.5 Nm), rpm not confirmed. Gearbox speeds for MT/AMT not confirmed by a source; shown as 5-speed. Autocar India's variant page shows different (older/on-road) prices; CarDekho used. Wheels for trims other than S Plus not confirmed."
+    },
+    {
+      "id": "toyota-camry",
+      "brand": "Toyota",
+      "model": "Camry",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": 50,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "h25": {
+          "type": "2.5 Dynamic Force petrol, Strong hybrid",
+          "cylinders": 4,
+          "displacementCc": 2487,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 187,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 221,
+          "maxTorqueRpm": "3600-5200"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Elegance",
+          "wheels": "18-inch alloy (235/45 R18)",
+          "airbags": 9,
+          "features": [
+            "9 airbags",
+            "Toyota Safety Sense 3.0 ADAS",
+            "360-degree camera",
+            "12.3-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "12.3-inch digital cluster",
+            "Leather upholstery",
+            "9 speakers"
+          ]
+        },
+        {
+          "trim": "Sprint Edition",
+          "wheels": "18-inch matte black alloy",
+          "airbags": 9,
+          "features": [
+            "Dual-tone exterior",
+            "Matte black alloy wheels",
+            "Exclusive sports body kit"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Elegance",
+          "power": "2.5 Hybrid e-CVT",
+          "engine": "h25",
+          "fuel": "Hybrid",
+          "transmission": "e-CVT",
+          "drivetrain": "FWD",
+          "priceInr": 4869000,
+          "mileage": "25.49 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Sprint Edition",
+          "power": "2.5 Hybrid e-CVT",
+          "engine": "h25",
+          "fuel": "Hybrid",
+          "transmission": "e-CVT",
+          "drivetrain": "FWD",
+          "priceInr": 4869000,
+          "mileage": "25.49 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:4th International Auto Show, Bangalore (2025) 12.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Gpkp",
+          "local": "photos/toyota-camry-front.jpg"
+        },
+        "rear": {
+          "file": "File:2025 Toyota Camry (XV80) 2.5 HEV (Rear).jpg",
+          "license": "CC BY 4.0",
+          "artist": "Hdbdp4",
+          "note": "Malaysia model, same design",
+          "local": "photos/toyota-camry-rear.jpg"
+        }
+      },
+      "photoNotes": "Front: Indian-market car at Bangalore auto show 2025, front three-quarter, show nameplate in the number-plate position. Rear: no Indian rear photo on Commons; used a Malaysian-market (same XV80 Asian design) rear three-quarter at a motor show, with a show plate and people in the background. US-market XV80 photos rejected (different bumpers).",
+      "sources": [
+        "https://www.cardekho.com/toyota/camry/specs",
+        "https://www.cardekho.com/toyota/camry/price-in-new-delhi",
+        "https://www.autocarindia.com/cars/toyota/camry",
+        "https://www.mobilityoutlook.com/news/toyota-launches-camry-hybrid-sprint-edition-at-inr-485-lakh/"
+      ],
+      "notes": "Engine-only figures from Autocar India (187 hp @6000, 221 Nm @3600-5200); system output about 227-230 bhp (CarDekho lists 227 bhp). CarDekho lists both versions at Rs 48.69 lakh; Sprint launched Aug 2025 at Rs 48.50 lakh, Autocar lists Rs 47.48 lakh. Sprint wheel size inferred same as Elegance; not confirmed. CarDekho labels fuel as petrol though it is a strong hybrid."
+    },
+    {
+      "id": "toyota-hilux",
+      "brand": "Toyota",
+      "model": "Hilux",
+      "bodyType": "Pickup",
+      "seats": 5,
+      "fuelTankL": 80,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "d28": {
+          "type": "2.8 turbo-diesel",
+          "cylinders": 4,
+          "displacementCc": 2755,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 201.15,
+          "maxPowerRpm": "3000-3400",
+          "maxTorqueNm": 500,
+          "maxTorqueRpm": "1600-2800"
+        }
+      },
+      "trims": [
+        {
+          "trim": "GX",
+          "wheels": "17-inch alloy (265/65 R17)",
+          "airbags": 7,
+          "features": [
+            "7 airbags",
+            "8-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Wireless charger",
+            "Cruise control",
+            "360-degree camera",
+            "3 drive modes",
+            "Slim LED headlamps"
+          ]
+        },
+        {
+          "trim": "VX",
+          "wheels": "17-inch alloy (265/65 R17)",
+          "airbags": 7,
+          "features": [
+            "PM2.5 air filter",
+            "2 exclusive paint colours",
+            "Fuller equipment list"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "GX",
+          "power": "2.8 Diesel 4x2 AT",
+          "engine": "d28",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 3199000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "GX",
+          "power": "2.8 Diesel 4x4 AT",
+          "engine": "d28",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "4WD",
+          "priceInr": 3369000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "4x4 drivetrain",
+            "12.3-inch touchscreen",
+            "8 speakers"
+          ]
+        },
+        {
+          "trim": "VX",
+          "power": "2.8 Diesel 4x4 AT",
+          "engine": "d28",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "4WD",
+          "priceInr": 3669000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2025 Toyota Hilux Travo Prerunner Double-Cab 2.8 Premium.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Chanokchon",
+          "note": "Thailand model, same design",
+          "local": "photos/toyota-hilux-front.jpg"
+        },
+        "rear": {
+          "file": "File:2025 Toyota Hilux Travo Prerunner Double-Cab 2.8 Premium (Rear).jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Chanokchon",
+          "note": "Thailand model, same design",
+          "local": "photos/toyota-hilux-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market ninth-gen Hilux on Commons. Used Thai-market Hilux Travo (same generation and design) showroom photos; both are three-quarter views, clean car. Thai Prerunner trim has different wheels from Indian variants.",
+      "sources": [
+        "https://www.cardekho.com/toyota/hilux/price-in-new-delhi",
+        "https://www.cardekho.com/toyota/hilux/specs",
+        "https://www.autocarindia.com/car-news/2026-toyota-hilux-launched-at-rs-32-lakh-440323",
+        "https://www.cars24.com/news/auto/2026-toyota-hilux-launched-in-india-at-rs-31-99-lakh-price-list-features-specs/"
+      ],
+      "notes": "New ninth-generation Hilux launched 28 July 2026; manual dropped, new 4x2 variant added. Toyota/Autocar quote 204 PS; CarDekho 201.15 bhp. GX 4x2 has 8-inch screen and 4 speakers; GX 4x4 and VX get 12.3-inch screen and 8 speakers. VX's full extra kit not itemised by sources. No claimed mileage published."
+    },
+    {
+      "id": "toyota-land-cruiser",
+      "brand": "Toyota",
+      "model": "Land Cruiser 300",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 110,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "d33": {
+          "type": "3.3 twin-turbo V6 diesel (F33A-FTV)",
+          "cylinders": 6,
+          "displacementCc": 3346,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 304.41,
+          "maxPowerRpm": 4000,
+          "maxTorqueNm": 700,
+          "maxTorqueRpm": "1600-2600"
+        }
+      },
+      "trims": [
+        {
+          "trim": "ZX",
+          "wheels": "20-inch alloy",
+          "airbags": 10,
+          "features": [
+            "10 airbags",
+            "Ventilated front and rear seats",
+            "12.3-inch touchscreen with Android Auto and Apple CarPlay",
+            "14-speaker JBL audio",
+            "360-degree camera",
+            "Multi-terrain select with crawl control",
+            "Beige dual-tone interior",
+            "Connected car tech"
+          ]
+        },
+        {
+          "trim": "GR-S",
+          "wheels": "18-inch black alloy (265/65 R18)",
+          "airbags": 10,
+          "features": [
+            "Front and rear differential locks",
+            "Adaptive variable suspension",
+            "Black dashboard with red upholstery",
+            "GR-S badging",
+            "Blacked-out alloys and door handles"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "ZX",
+          "power": "3.3 Diesel 4WD AT",
+          "engine": "d33",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 10-speed",
+          "drivetrain": "4WD",
+          "priceInr": 21775000,
+          "mileage": "11 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "GR-S",
+          "power": "3.3 Diesel 4WD AT",
+          "engine": "d33",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 10-speed",
+          "drivetrain": "4WD",
+          "priceInr": 22493300,
+          "mileage": "11 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Toyota LAND CRUISER DIESEL ZX (3DA-FJA300W-GMUZY) front.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Tokumeigakarinoaoshima",
+          "note": "Japan model, same design",
+          "local": "photos/toyota-land-cruiser-front.jpg"
+        },
+        "rear": {
+          "file": "File:2021 Toyota Land Cruiser 300 3.4 ZX (Colombia) rear view 02.png",
+          "license": "CC BY 3.0",
+          "artist": "Autosdeprimera",
+          "note": "Colombia model, same design",
+          "local": "photos/toyota-land-cruiser-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market LC300 photos on Commons. Front: Japanese diesel ZX (same engine and design as India ZX), near straight-on, clean. Rear: Colombian ZX, rear three-quarter on a road, tow hitch fitted.",
+      "sources": [
+        "https://www.cardekho.com/toyota/land-cruiser-300/specs",
+        "https://www.cardekho.com/toyota/land-cruiser-300/price-in-new-delhi",
+        "https://carindia.in/2025-toyota-land-cruiser-300-launched-at-rs-2-31-crore/"
+      ],
+      "notes": "CBU import. 2025 launch prices were Rs 2.31 crore (ZX) and 2.41 crore (GR-S); CarDekho Oct 2026 shows 2.18 / 2.25 crore (post-GST revision). Sources disagree on whether crawl control and multi-terrain monitor are ZX-standard or GR-S only. CarDekho lists 5 seats. GR-S tyre 265/65 R18 per CarDekho; ZX 20-inch per launch reports."
+    }
+  ]
+}

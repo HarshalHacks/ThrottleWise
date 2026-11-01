@@ -1,0 +1,627 @@
+{
+  "cars": [
+    {
+      "id": "mercedes-cla",
+      "brand": "Mercedes-Benz",
+      "model": "CLA",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "m200": {
+          "type": "Permanent-magnet synchronous motor, rear axle (58 kWh LFP battery)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 221,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 335,
+          "maxTorqueRpm": null
+        },
+        "m250": {
+          "type": "Permanent-magnet synchronous motor, rear axle (85 kWh NMC battery)",
+          "cylinders": null,
+          "displacementCc": null,
+          "aspiration": "Electric",
+          "maxPowerBhp": 268,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 335,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "CLA 200 Progressive Line",
+          "wheels": null,
+          "airbags": null,
+          "features": [
+            "14-inch central touchscreen and 10.25-inch digital driver display",
+            "Panoramic glass roof",
+            "Powered, heated and massaging front seats",
+            "Burmester 3D surround sound",
+            "360-degree camera and auto park assist",
+            "Level 2+ ADAS",
+            "Wireless charging and dual-zone climate control",
+            "Illuminated star pattern on dashboard"
+          ]
+        },
+        {
+          "trim": "CLA 250+ AMG Line",
+          "wheels": "18-inch AMG alloy",
+          "airbags": null,
+          "features": [
+            "85 kWh long-range battery (792 km WLTP)",
+            "AMG Line bumpers and styling",
+            "Flat-bottomed AMG steering wheel",
+            "AMG seat upholstery",
+            "Metal pedals"
+          ]
+        },
+        {
+          "trim": "CLA 250+ Launch Edition",
+          "wheels": "19-inch alloy",
+          "airbags": null,
+          "features": [
+            "Triple-screen MBUX Superscreen with passenger display",
+            "Matte black paint",
+            "Leather upholstery and trim",
+            "AMG Night Package",
+            "Illuminated door sills and edition ambient lighting"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "CLA 200 Progressive Line",
+          "power": "58 kWh EV RWD",
+          "engine": "m200",
+          "fuel": "Electric",
+          "transmission": "Two-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 5650000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 58,
+            "rangeKm": 542,
+            "rangeStandard": "WLTP",
+            "dcChargeKw": 320,
+            "dcChargeNote": "800V architecture; about 300 km added in 10 min (Autocar India). CarDekho lists 10-80% in 20 min at 200 kW",
+            "acChargeNote": "11 kW: 10-100% in 6 h 30 min (CarDekho)"
+          }
+        },
+        {
+          "trim": "CLA 250+ AMG Line",
+          "power": "85 kWh EV RWD",
+          "engine": "m250",
+          "fuel": "Electric",
+          "transmission": "Two-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 5900000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 85,
+            "rangeKm": 792,
+            "rangeStandard": "WLTP",
+            "dcChargeKw": 320,
+            "dcChargeNote": "800V architecture; about 300 km added in 10 min (Autocar India). CarDekho lists 10-80% in 20 min at 200 kW",
+            "acChargeNote": "11 kW: 10-100% in 6 h 30 min (CarDekho)"
+          }
+        },
+        {
+          "trim": "CLA 250+ Launch Edition",
+          "power": "85 kWh EV RWD",
+          "engine": "m250",
+          "fuel": "Electric",
+          "transmission": "Two-speed automatic",
+          "drivetrain": "RWD",
+          "priceInr": 6400000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [],
+          "ev": {
+            "batteryKwh": 85,
+            "rangeKm": 792,
+            "rangeStandard": "WLTP",
+            "dcChargeKw": 320,
+            "dcChargeNote": "800V architecture; about 300 km added in 10 min (Autocar India). CarDekho lists 10-80% in 20 min at 200 kW",
+            "acChargeNote": "11 kW: 10-100% in 6 h 30 min (CarDekho)"
+          }
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Mercedes-Benz CLA 220 4MATIC AMG Line (C 178) – f 11052026.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "artist": "M 93",
+          "note": "Germany model, same design",
+          "local": "photos/mercedes-cla-front.jpg"
+        },
+        "rear": {
+          "file": "File:Mercedes-Benz CLA 220 4MATIC AMG Line (C 178) – h 11052026.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "artist": "M 93",
+          "note": "Germany model, same design",
+          "local": "photos/mercedes-cla-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market photo of the new C178 CLA on Commons (category has only 3 files). Both photos show a German-registered CLA 220 4MATIC AMG Line (petrol mild hybrid) of the same C178 generation; the India EV shares the body and star-pattern grille. Front is a near straight-on front three-quarter, rear is a rear three-quarter; both clean, at a dealer lot. Rejected File:Mercedes-Benz C178 IMG 6441.jpg (rear three-quarter with dealer plate and busy lot).",
+      "sources": [
+        "https://www.cardekho.com/mercedes-benz/cla-electric",
+        "https://www.cardekho.com/mercedes-benz/cla-electric/variants.htm",
+        "https://www.autocarindia.com/car-news/mercedes-benz-cla-ev-launched-in-india-at-rs-xx-lakh-439558",
+        "https://www.autocarindia.com/cars/mercedes-benz/cla-electric/variants",
+        "https://www.autocarindia.com/car-news/mercedes-discontinues-a-class-sedan-eqa-eqb-and-eqe-suv-in-india-439391"
+      ],
+      "notes": "The CLA sold in India since 24 Apr 2026 is the all-electric third-generation (C178) car; the old petrol/diesel CLA was discontinued in 2020, so this entry is an EV. Mercedes-benz.co.in returned HTTP 403, so prices are CarDekho New Delhi (Oct 2026): CLA 200 Rs 56.50 lakh (launch price was Rs 55 lakh; Autocar India quotes an ex-showroom range of Rs 56.50-60.50 lakh, so the 250+ may now be higher than the Rs 59 lakh shown), CLA 250+ Rs 59 lakh, Launch Edition Rs 64 lakh. Trim names (Progressive Line / AMG Line / Launch Edition) from the Autocar India launch report, which also says equipment is identical between 200 and 250+ apart from AMG Line styling. Motor outputs converted from Autocar's 224 hp / 272 hp (CarDekho shows 221.26 / 268.20 bhp); torque 335 Nm from Autocar. Battery 85 kWh per Autocar (CarDekho 85.5 kWh). DC charging conflict: Autocar 320 kW on 800V vs CarDekho 200 kW; Autocar figure used. Airbags conflict (Autocar 6, CarDekho 7 or 8) so left null. Fuel tank not applicable; seats 5 not confirmed by a spec table (set from body type, treat as unverified). The Mercedes-Benz A-Class Limousine was discontinued in India in April 2026 and is not included."
+    },
+    {
+      "id": "mercedes-s-class",
+      "brand": "Mercedes-Benz",
+      "model": "S-Class",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": 67,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "phev30": {
+          "type": "3.0 inline-6 turbo petrol plug-in hybrid (M256 Evo, 22 kWh battery)",
+          "cylinders": 6,
+          "displacementCc": 2999,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 429,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 680,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "S 450e Launch Edition (Exclusive Line)",
+          "wheels": "20-inch alloy",
+          "airbags": 15,
+          "features": [
+            "14.4-inch OLED touchscreen, 12.3-inch cluster and passenger display",
+            "Dual 13.1-inch rear entertainment screens",
+            "AR head-up display",
+            "Burmester 4D surround sound with Dolby Atmos",
+            "E-Active Body Control air suspension",
+            "Rear-wheel steering",
+            "Reclining, heated, ventilated and massaging rear seats",
+            "Level 2 ADAS with 360-degree camera"
+          ]
+        },
+        {
+          "trim": "S 450e MANUFAKTUR Edition (AMG Line)",
+          "wheels": "20-inch alloy",
+          "airbags": 15,
+          "features": [
+            "AMG Line exterior styling",
+            "MANUFAKTUR edition trim and paint options"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "S 450e Launch Edition (Exclusive Line)",
+          "power": "3.0 PHEV AT",
+          "engine": "phev30",
+          "fuel": "Hybrid",
+          "transmission": "Automatic, 9-speed",
+          "drivetrain": "RWD",
+          "priceInr": 22000000,
+          "mileage": "32.3 kmpl (WLTP, claimed)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "S 450e MANUFAKTUR Edition (AMG Line)",
+          "power": "3.0 PHEV AT",
+          "engine": "phev30",
+          "fuel": "Hybrid",
+          "transmission": "Automatic, 9-speed",
+          "drivetrain": "RWD",
+          "priceInr": 23800000,
+          "mileage": "32.3 kmpl (WLTP, claimed)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": null,
+        "rear": null
+      },
+      "photoNotes": "The India car is the June 2026 W223 facelift. Commons has no facelift photos yet: Category:Mercedes-Benz W223 and file searches only return pre-facelift cars (closest: File:Mercedes-Benz S 580 e 4MATIC (W223, 2026) (55211989756).jpg, a Japanese-market pre-facelift car, rejected because the front and rear styling differ from the facelift).",
+      "sources": [
+        "https://www.cardekho.com/mercedes-benz/s-class",
+        "https://www.cardekho.com/overview/Mercedes-Benz_S-Class/Mercedes-Benz_S-Class_S_450e_AMG_Line.htm",
+        "https://www.autocarindia.com/car-news/2026-mercedes-benz-s-class-facelift-launched-at-rs-220-crore-439961",
+        "https://www.autocarindia.com/cars/mercedes-benz/s-class/variants",
+        "https://www.carwale.com/mercedes-benz-cars/s-class/"
+      ],
+      "notes": "Facelifted S-Class launched 15 Jun 2026 as a single S 450e plug-in hybrid powertrain (the earlier S 350d and S 450 4MATIC are no longer listed); deliveries from Q4 2026. Prices Rs 2.20 / 2.38 crore agree across CarDekho New Delhi, CarWale Mumbai and Autocar India (mercedes-benz.co.in returned HTTP 403). Trim naming differs by source: CarDekho 'S 450e' / 'S 450e AMG Line', Autocar 'Exclusive Line' / 'AMG Line', CarWale and launch reports 'Launch Edition' / 'MANUFAKTUR Edition'; combined here. System output 435 PS (429 bhp) and 680 Nm are combined figures; engine-only figures and rpm not published by any source. Electric-only range 115 km (claimed); 22 kWh battery DC charges 10-80% in about 20 min at 60 kW. Airbag count 15 and 67 L tank are CarDekho figures. Feature differences between the two editions are not itemised by any source beyond AMG Line styling and MANUFAKTUR trim."
+    },
+    {
+      "id": "bmw-3-series",
+      "brand": "BMW",
+      "model": "3 Series (M340i xDrive)",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": 59,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p30": {
+          "type": "3.0 inline-6 turbo petrol (B58)",
+          "cylinders": 6,
+          "displacementCc": 2998,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 368.78,
+          "maxPowerRpm": "5500-6500",
+          "maxTorqueNm": 500,
+          "maxTorqueRpm": "1900-5000"
+        }
+      },
+      "trims": [
+        {
+          "trim": "M340i xDrive",
+          "wheels": "19-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Adaptive LED headlights",
+            "14.9-inch touchscreen and 12.3-inch digital cluster (Curved Display)",
+            "Wireless Apple CarPlay and Android Auto",
+            "Harman Kardon 16-speaker audio",
+            "Head-up display and 360-degree camera",
+            "Sunroof and 3-zone climate control",
+            "Adaptive M suspension and paddle shifters",
+            "Adaptive cruise control"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "M340i xDrive",
+          "power": "3.0 Petrol AWD AT",
+          "engine": "p30",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "AWD",
+          "priceInr": 7780000,
+          "mileage": "13.02 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:BMW G20 LCI M340i Black Sapphire Metallic (4).jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Damian B Oh",
+          "note": "South Korea model, same design",
+          "local": "photos/bmw-3-series-front.jpg"
+        },
+        "rear": {
+          "file": "File:BMW G20 LCI M340i Black Sapphire Metallic (5).jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Damian B Oh",
+          "note": "South Korea model, same design",
+          "local": "photos/bmw-3-series-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market M340i on Commons. Chosen photos are a Korean-registered G20 LCI M340i (same facelift as the India car): front is straight-on and rear is a near straight-on rear view, both in an underground car park (clean car, slightly dim). Alternative brighter but three-quarter front: File:2024 BMW M340i xDrive - 2998cc 3.0 (374PS) Petrol - Brooklyn Grey - 11-2024, Front.jpg (CC0, Harvey Bold, UK).",
+      "sources": [
+        "https://www.cardekho.com/bmw/3-series/variants.htm",
+        "https://www.cardekho.com/bmw/3-series/specs",
+        "https://www.autocarindia.com/cars/bmw/3-series/m340i-xdrive",
+        "https://www.carwale.com/bmw-cars/m340i/"
+      ],
+      "notes": "The standard-wheelbase 3 Series is sold in India only as the made-in-India M340i xDrive (single variant); the 330Li / 320Ld are the separate 3 Series Long Wheelbase (see bmw-3-series-lwb). Price Rs 77.80 lakh per CarDekho New Delhi and Autocar India (31 Oct 2026); CarWale shows Rs 77.10 lakh (Mumbai) and mentions a Rs 72.75 lakh post-GST-cut figure from Sept 2025 that no longer matches current listings. bmw.in timed out. Power 374 PS = 368.78 bhp (CarDekho) / 369 bhp (CarWale); rpm ranges and 59 L tank from CarDekho. Mileage 13.02 kmpl is listed as ARAI by CarDekho/CarWale (Autocar calls it NEDC). Eighth-generation 3 Series revealed globally Sept 2026, not yet in India."
+    },
+    {
+      "id": "bmw-7-series",
+      "brand": "BMW",
+      "model": "7 Series",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p30": {
+          "type": "3.0 inline-6 turbo petrol, 48V mild hybrid",
+          "cylinders": 6,
+          "displacementCc": 2998,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 394,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 540,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "740 M Sport",
+          "wheels": "20-inch alloy",
+          "airbags": 7,
+          "features": [
+            "17.9-inch rhomboidal touchscreen and 14.6-inch passenger display",
+            "Panoramic Vision full-width head-up display",
+            "31.3-inch 8K rear theatre screen",
+            "Bowers & Wilkins surround sound with Dolby Atmos",
+            "Powered doors and fixed panoramic glass roof",
+            "Heated, ventilated and massaging seats front and rear",
+            "Rear-wheel steering and adaptive air suspension",
+            "Level 2 ADAS with 360-degree camera"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "740 M Sport",
+          "power": "3.0 Petrol AT",
+          "engine": "p30",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed",
+          "drivetrain": "RWD",
+          "priceInr": 19500000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": null,
+        "rear": null
+      },
+      "photoNotes": "The India car is the September 2026 G70 facelift (new front and rear). Commons Category:BMW G70 contains only pre-facelift cars (closest straight-on pair rejected: File:BMW 740d xDrive Excellence (G70) front.jpg and ...rear.jpg, Japanese pre-facelift). No facelift photo found by file search either.",
+      "sources": [
+        "https://www.cardekho.com/bmw/7-series",
+        "https://www.cardekho.com/bmw/7-series/specs",
+        "https://www.autocarindia.com/car-news/2026-bmw-7-series-facelift-launched-at-rs-195-crore-440731",
+        "https://www.carwale.com/bmw-cars/7-series/740i-m-sport/",
+        "https://www.autocarindia.com/cars/bmw/7-series/variants"
+      ],
+      "notes": "Facelifted 7 Series launched 11 Sep 2026 in a single petrol '740' (M Sport) variant at Rs 1.95 crore ex-showroom (CarDekho New Delhi, CarWale and Autocar India all agree; bmw.in timed out); the 740d diesel was dropped. Variant naming varies: CarDekho '740', Autocar '740 M Sport', CarWale '740i M Sport'. Power: Autocar/BMW 400 hp (394 bhp per CarDekho/CarWale) and 540 Nm, up 19 hp/20 Nm over the pre-facelift 740i; the CarDekho expert review's 381 PS/520 Nm is the older engine figure. rpm, fuel tank and official mileage not published by any source. Airbags 7 per CarWale (CarDekho 'expected'). Wheels 20-inch standard, up to 22-inch optional. The electric i7 50 xDrive M Sport (also Rs 1.95 crore) is a separate model and not included."
+    },
+    {
+      "id": "audi-q3-sportback",
+      "brand": "Audi",
+      "model": "Q3 Sportback",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 62,
+      "priceNote": "CarWale (Mumbai ex-showroom, Audi pan-India price) and CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "p20": {
+          "type": "2.0 TFSI turbo petrol (40 TFSI)",
+          "cylinders": 4,
+          "displacementCc": 1984,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 187.74,
+          "maxPowerRpm": "4200-6000",
+          "maxTorqueNm": 320,
+          "maxTorqueRpm": "1500-4100"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Signature",
+          "wheels": "18-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "10.1-inch MMI touchscreen with Apple CarPlay and Android Auto",
+            "12.3-inch Audi Virtual Cockpit Plus",
+            "Leather upholstery with electric front seats",
+            "10-speaker Audi Sound System",
+            "Park Assist Plus with rear camera",
+            "LED logo projection lamps and Signature Line decals",
+            "Fragrance dispenser and stainless-steel pedal covers"
+          ]
+        },
+        {
+          "trim": "Bold",
+          "wheels": "18-inch alloy",
+          "airbags": 6,
+          "features": [
+            "S line exterior package",
+            "Bold Edition styling elements",
+            "Head-up display",
+            "Wireless phone charging"
+          ]
+        },
+        {
+          "trim": "Technology Plus S-line",
+          "wheels": "18-inch alloy",
+          "airbags": 6,
+          "features": [
+            "S line exterior and interior",
+            "30-colour ambient lighting",
+            "Audi Drive Select",
+            "2-zone climate control"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Signature",
+          "power": "2.0 TFSI quattro AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed dual-clutch",
+          "drivetrain": "AWD",
+          "priceInr": 5355000,
+          "mileage": "12.08 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Bold",
+          "power": "2.0 TFSI quattro AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed dual-clutch",
+          "drivetrain": "AWD",
+          "priceInr": 5385000,
+          "mileage": "12.08 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Technology Plus S-line",
+          "power": "2.0 TFSI quattro AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed dual-clutch",
+          "drivetrain": "AWD",
+          "priceInr": 5425000,
+          "mileage": "12.08 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Audi Q3 Sportback 40 TFSI quattro S line (F3) – f 03102025.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "artist": "M 93",
+          "note": "Germany model, same design",
+          "local": "photos/audi-q3-sportback-front.jpg"
+        },
+        "rear": {
+          "file": "File:Audi Q3 Sportback 40 TFSI quattro S line (F3) – h 03102025.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "artist": "M 93",
+          "note": "Germany model, same design",
+          "local": "photos/audi-q3-sportback-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market photo on Commons. Chosen pair is a German 40 TFSI quattro S line F3 Sportback (same engine and S line spec as the India car): front three-quarter and rear three-quarter, clean car, plain background. Rejected Japanese pair File:Audi Q3 Sportback 35 TFSI S line (3AA-F3DFY) front/rear.jpg (busier backgrounds). The next-generation FJ Q3 Sportback (2025) is not sold in India.",
+      "sources": [
+        "https://www.carwale.com/audi-cars/q3-sportback/",
+        "https://www.carwale.com/audi-cars/q3-sportback/signature/",
+        "https://www.carwale.com/audi-cars/q3-sportback/bold/",
+        "https://www.cardekho.com/audi/q3-sportback",
+        "https://www.cardekho.com/audi/q3-sportback/specs",
+        "https://www.autocarindia.com/cars/audi/q3-sportback",
+        "https://www.motorbeam.com/?p=322283"
+      ],
+      "notes": "Still on sale as the previous-generation F3 Sportback (CBU) alongside the new-generation Q3 launched Oct 2026; it has its own price list. audi.in returned HTTP 403. Variant list conflicts: CarWale lists three (Signature Rs 53.55 lakh, Bold Rs 53.85-53.86 lakh, Technology Plus S-line Rs 54.25 lakh, Mumbai ex-showroom, 'as of October 2026'); CarDekho and Autocar India list a single '40 TFSI quattro Technology' at Rs 54.25 lakh New Delhi. Signature Line was launched 10 Nov 2025 at Rs 53.55 lakh on the top Technology trim (Motorbeam), and Bold Edition was a limited run from 2024, so all three are editions of the same mechanical spec; features per edition are only partly documented and the Bold/Technology Plus lists are short for that reason. Power: Audi 190 PS = 187.74 bhp (CarDekho); CarWale shows 193 bhp. Mileage conflict: Autocar India 12.08 kmpl ARAI vs CarDekho 10.14 kmpl (unlabelled); Autocar figure used. Fuel tank 62 L (CarDekho) / 62.4 L (CarWale). Audi A8 L is NOT included: Audi delisted it in Feb 2025 (CarDekho: discontinued Jan 2025) and it is not on the Autocar India Audi list of Oct 2026; CarWale's 'current' listing is stale."
+    },
+    {
+      "id": "lexus-lx",
+      "brand": "Lexus",
+      "model": "LX",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 80,
+      "priceNote": "CarDekho New Delhi, Oct 2026 (agrees with Autocar India)",
+      "engines": {
+        "d33": {
+          "type": "3.3 V6 twin-turbo diesel",
+          "cylinders": 6,
+          "displacementCc": 3346,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 304.41,
+          "maxPowerRpm": 4000,
+          "maxTorqueNm": 700,
+          "maxTorqueRpm": "1600-2600"
+        }
+      },
+      "trims": [
+        {
+          "trim": "LX 500d Urban",
+          "wheels": "22-inch forged aluminium",
+          "airbags": 8,
+          "features": [
+            "12.3-inch touchscreen plus 7-inch lower display",
+            "25-speaker Mark Levinson audio",
+            "Head-up display",
+            "Ventilated, heated and massaging front seats",
+            "Dual 11.6-inch rear entertainment screens",
+            "Four-zone climate control",
+            "Active Height Control air suspension and Multi-Terrain Select",
+            "Lexus Safety System+ 3.0 with Blind Spot Monitor"
+          ]
+        },
+        {
+          "trim": "LX 500d Overtrail",
+          "wheels": "18-inch matte grey alloy with all-terrain tyres",
+          "airbags": 8,
+          "features": [
+            "Front and rear locking differentials",
+            "18-inch all-terrain tyres",
+            "Blacked-out exterior trim",
+            "Overtrail Khaki interior"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "LX 500d Urban",
+          "power": "3.3 Diesel 4WD AT",
+          "engine": "d33",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 10-speed",
+          "drivetrain": "4WD",
+          "priceInr": 28100000,
+          "mileage": "6.9 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "LX 500d Overtrail",
+          "power": "3.3 Diesel 4WD AT",
+          "engine": "d33",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 10-speed",
+          "drivetrain": "4WD",
+          "priceInr": 29300000,
+          "mileage": "6.9 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2022 Lexus LX 500 d wagon.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "PageOrganizer",
+          "note": "Australia model, same design",
+          "local": "photos/lexus-lx-front.jpg"
+        },
+        "rear": {
+          "file": "File:2024 Lexus LX 500d in Manganese Luster, rear right.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Ethan Llamas",
+          "note": "Philippines model, same design",
+          "local": "photos/lexus-lx-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market LX on Commons. Front: Australian LX 500d with the horizontal-bar grille of the India Urban grade, near straight-on front three-quarter on a street (clean car, some shopfronts behind). Rear: Philippine LX 500d, rear three-quarter on a street. Rejected File:2024 Lexus LX 500d in Manganese Luster, front right.jpg (mesh grille, not the Urban look) and File:2025 Lexus LX500d Premium.jpg (motor-show stand with window stickers).",
+      "sources": [
+        "https://www.cardekho.com/lexus/lx",
+        "https://www.cardekho.com/lexus/lx/specs",
+        "https://www.autocarindia.com/cars/lexus/lx",
+        "https://www.carwale.com/lexus-cars/lx/",
+        "https://www.lexusindia.co.in/models/lx"
+      ],
+      "notes": "On sale in two grades, LX 500d Urban and LX 500d Overtrail. Price conflict: CarDekho New Delhi, CarWale Mumbai and Autocar India all give Rs 2.81 / 2.93 crore ex-showroom, while lexusindia.co.in shows 'INR 2,91,25,000' and 'INR 3,02,91,000' with no ex-showroom or city label; the three car sites' figure is used because the Lexus figure's basis is unstated. CarWale also lists three older 'LX 500d' trim variants at Rs 2.64-2.65 crore that are not on Lexus India's current page and are treated as stale. Power 227 kW / 309 PS (Lexus) = 304.41 bhp @ 4000 rpm and 700 Nm @ 1600-2600 rpm per CarDekho. Mileage: 6.9 kmpl is CarWale's and Autocar's ARAI figure; CarDekho's overview says 5 kmpl. Airbags: Lexus India says 8 SRS airbags, CarDekho/CarWale say 10; manufacturer figure used. Fuel tank 80 L from CarDekho FAQ; seats 5 per CarDekho/CarWale (Lexus page does not state seating)."
+    }
+  ]
+}

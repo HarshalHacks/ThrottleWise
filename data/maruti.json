@@ -1,0 +1,2155 @@
+{
+  "cars": [
+    {
+      "id": "maruti-baleno",
+      "brand": "Maruti Suzuki",
+      "model": "Baleno",
+      "bodyType": "Hatchback",
+      "seats": 5,
+      "fuelTankL": 37,
+      "priceNote": "CarDekho New Delhi, cross-checked with CarWale (variant ranges), Oct 2026",
+      "engines": {
+        "p12": {
+          "type": "1.2 Z12E petrol",
+          "cylinders": 3,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 82,
+          "maxPowerRpm": 5700,
+          "maxTorqueNm": 112.4,
+          "maxTorqueRpm": 4500
+        },
+        "cng12": {
+          "type": "1.2 Z12E petrol-CNG",
+          "cylinders": 3,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 68.8,
+          "maxPowerRpm": 5700,
+          "maxTorqueNm": 101.8,
+          "maxTorqueRpm": 2900
+        }
+      },
+      "trims": [
+        {
+          "trim": "Sigma",
+          "wheels": "15-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP with hill-hold assist",
+            "ABS with EBD",
+            "Keyless entry with central locking",
+            "Power windows (all four)",
+            "Halogen projector headlamps",
+            "LED tail-lamps",
+            "60:40 split rear seat"
+          ]
+        },
+        {
+          "trim": "Delta",
+          "wheels": "15-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "7-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Steering-mounted audio controls",
+            "Rear AC vents",
+            "Tyre pressure monitoring",
+            "Electrically adjustable and foldable ORVMs",
+            "Rear USB Type-A and Type-C charging",
+            "Front sliding armrest"
+          ]
+        },
+        {
+          "trim": "Zeta",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "9-inch touchscreen",
+            "Rear camera",
+            "Automatic climate control",
+            "Push-button start",
+            "Auto LED projector headlamps with LED DRLs",
+            "Wireless charger",
+            "Rear wiper and washer",
+            "Telescopic steering and driver seat height adjust"
+          ]
+        },
+        {
+          "trim": "Alpha",
+          "wheels": "16-inch precision-cut alloy",
+          "airbags": 6,
+          "features": [
+            "360-degree camera",
+            "Head-up display",
+            "Cruise control",
+            "Ventilated front seats",
+            "Semi-leatherette upholstery",
+            "Leather-wrapped steering wheel",
+            "Auto-dimming IRVM",
+            "Auto-folding ORVMs"
+          ]
+        },
+        {
+          "trim": "Alpha (O)",
+          "wheels": "16-inch precision-cut alloy",
+          "airbags": 6,
+          "features": [
+            "Level 2 ADAS",
+            "Adaptive cruise control",
+            "Lane keep assist",
+            "Autonomous emergency braking"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Sigma",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 598900,
+          "mileage": "23.80 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Delta",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 699900,
+          "mileage": "23.80 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Delta",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 749900,
+          "mileage": "24.77 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Delta",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 792400,
+          "mileage": "33.61 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Delta",
+          "power": "CNG AMT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 832400,
+          "mileage": "34.47 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit",
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Zeta",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 799900,
+          "mileage": "23.80 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Zeta",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 849900,
+          "mileage": "24.77 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Zeta",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 892400,
+          "mileage": "33.61 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Zeta",
+          "power": "CNG AMT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 932400,
+          "mileage": "34.47 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit",
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Alpha",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 909900,
+          "mileage": "23.80 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Alpha",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 959900,
+          "mileage": "24.77 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Alpha (O)",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 949900,
+          "mileage": "23.80 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Alpha (O)",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 999000,
+          "mileage": "24.77 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2022 Maruti Suzuki Baleno Alpha (India) front view.jpg",
+          "license": "CC BY 3.0",
+          "artist": "Milind Kwatra",
+          "local": "photos/maruti-baleno-front.jpg"
+        },
+        "rear": {
+          "file": "File:2022 Maruti Suzuki Baleno Alpha (India) rear view.jpg",
+          "license": "CC BY 3.0",
+          "artist": "DriveSpark",
+          "local": "photos/maruti-baleno-rear.jpg"
+        }
+      },
+      "photoNotes": "Both photos show the 2022 (pre-facelift) current-generation Indian Baleno. Re-checked Commons on 21 Oct 2026: Category:Suzuki Baleno (2022) and searches for 'Baleno 2026' / 'Baleno facelift' / 'Maruti Baleno' found no photo of the Sep 2026 facelift. The newest Baleno uploads (e.g. 'File:Suzuki Baleno 170327112.jpg', Jun 2026) are European first-generation cars, so they were rejected. Kept the pre-facelift photos as the closest match.",
+      "sources": [
+        "https://www.cardekho.com/maruti/baleno/price-in-new-delhi",
+        "https://www.cardekho.com/maruti/baleno/specs",
+        "https://www.autocarindia.com/auto-features/2026-maruti-baleno-variants-and-features-explained-441020",
+        "https://www.autocarindia.com/auto-features/6-upgrades-maruti-baleno-facelift-gets-over-its-predecessor-441021",
+        "https://www.autocarindia.com/car-news/maruti-baleno-cng-amt-launched-at-rs-832-lakh-440806",
+        "https://www.carwale.com/maruti-suzuki-cars/baleno/price-in-delhi/"
+      ],
+      "notes": "Facelift launched 5 Sep 2026. It swaps the 4-cylinder K12N for the 3-cylinder Z12E (Autocar quotes 83 hp/112 Nm; CarDekho lists 82 bhp @5700 and 112.4 Nm @4500). CNG output is quoted as 70 hp/102 Nm (Autocar) or 67 bhp/101 Nm elsewhere, and CNG rpm figures were not found. The CNG AMT launched around 18 Sep 2026 (Delta and Zeta). Autocar's first price list did not include it, but CarDekho and CarWale do. CarWale labels the CNG AMT trims 'Delta Plus' and 'Zeta Plus'. Maruti first announced a Rs 6.10 lakh base price, and the current listing shows Rs 5.99 lakh. Ventilated seats come with Alpha and Alpha (O) (Autocar), and ADAS is on Alpha (O) only. Airbag count per trim is inferred from Autocar listing 6 airbags on the base Sigma. Manufacturer site prices could not be read (page renders client-side).\nUpdate 21 Oct 2026: Photos unchanged (no facelift photo on Commons). Prices re-checked against CarDekho New Delhi and CarWale (manufacturer price pages do not render prices): all match, none changed. No mileage was missing.\nSpec audit 21 Oct 2026: p12 torque 112 -> 112.4 Nm (@4500, CarDekho + Cars24). cng12 69 bhp/null -> 68.8 bhp (69.75 PS) @5700, 102/null -> 101.8 Nm @2900 (Cars24 shared Z12E CNG figures; Autocar quotes 70 hp/102 Nm). Conflict: Autocar says CNG is manual-only, Nexa site lists CNG AGS; AMT CNG variants kept."
+    },
+    {
+      "id": "maruti-dzire",
+      "brand": "Maruti Suzuki",
+      "model": "Dzire",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": 37,
+      "priceNote": "CarDekho New Delhi, cross-checked with CarWale Delhi, Oct 2026",
+      "engines": {
+        "p12": {
+          "type": "1.2 Z12E petrol",
+          "cylinders": 3,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 80.5,
+          "maxPowerRpm": 5700,
+          "maxTorqueNm": 111.7,
+          "maxTorqueRpm": 4300
+        },
+        "cng12": {
+          "type": "1.2 Z12E petrol-CNG",
+          "cylinders": 3,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 68.8,
+          "maxPowerRpm": 5700,
+          "maxTorqueNm": 101.8,
+          "maxTorqueRpm": 2900
+        }
+      },
+      "trims": [
+        {
+          "trim": "LXi",
+          "wheels": "14-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP with hill-hold assist",
+            "ABS with EBD",
+            "Rear parking sensors",
+            "Halogen projector headlamps",
+            "Manual AC",
+            "Keyless entry",
+            "ISOFIX child-seat mounts"
+          ]
+        },
+        {
+          "trim": "VXi",
+          "wheels": "14-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "7-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Steering-mounted audio and call controls",
+            "Rear AC vents",
+            "Electrically adjustable ORVMs",
+            "Driver seat height adjust",
+            "Rear centre armrest",
+            "Rear USB Type-A and Type-C ports"
+          ]
+        },
+        {
+          "trim": "ZXi",
+          "wheels": "15-inch alloy",
+          "airbags": 6,
+          "features": [
+            "9-inch touchscreen",
+            "LED headlamps with LED DRLs",
+            "Rear camera",
+            "Automatic climate control",
+            "Push-button start",
+            "Wireless charger",
+            "Tyre pressure monitoring",
+            "Connected car tech"
+          ]
+        },
+        {
+          "trim": "ZXi Plus",
+          "wheels": "15-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Electric sunroof",
+            "360-degree camera",
+            "Cruise control",
+            "Arkamys-tuned sound system",
+            "Auto-folding ORVMs",
+            "Footwell lighting"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "LXi",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 630600,
+          "mileage": "24.79 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "VXi",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 727100,
+          "mileage": "24.79 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "VXi",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 772100,
+          "mileage": "25.71 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "VXi",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 818100,
+          "mileage": "33.73 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "VXi",
+          "power": "CNG AMT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 853100,
+          "mileage": "36.47 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit",
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "ZXi",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 827700,
+          "mileage": "24.79 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "ZXi",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 872700,
+          "mileage": "25.71 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "ZXi",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 918700,
+          "mileage": "33.73 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "ZXi",
+          "power": "CNG AMT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 953700,
+          "mileage": "36.47 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit",
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "ZXi Plus",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 896300,
+          "mileage": "24.79 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "ZXi Plus",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 941300,
+          "mileage": "25.71 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Suzuki Dzire 2024 ZXI+.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Sant1207ug",
+          "local": "photos/maruti-dzire-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "The front image is the only current-generation (2024) Indian-market Dzire on Commons. Viewed on 21 Oct 2026: it is a front three-quarter view of a black ZXi+ in a parking yard, not straight-on, but kept as there is no better Indian photo. No Indian-market rear photo exists on Commons (Category:Suzuki Dzire (2024), Category:Maruti Dzire (2024) and a 'Dzire rear' search checked). Closest rejected rear: 'File:2026 Suzuki Dzire GL in Arctic White Pearl 02.jpg', a rear three-quarter of a Saudi-market car with Saudi plates. Philippine 'Suzuki Dzire II 1.2 GLX Hybrid' rear shots were also rejected as non-Indian.",
+      "sources": [
+        "https://www.marutisuzuki.com/dzire/specifications",
+        "https://www.cardekho.com/maruti/dzire/price-in-new-delhi",
+        "https://www.cardekho.com/maruti/dzire/specs",
+        "https://www.carwale.com/maruti-suzuki-cars/dzire/",
+        "https://www.autocarindia.com/cars/maruti-suzuki/dzire/zxi-12-petrol-mt",
+        "https://www.caronphone.com/news/maruti-suzuki-dzire-variant-wise-features-explained/",
+        "https://www.autocarindia.com/car-news/maruti-swift-and-dzire-cngs-now-available-with-amt-440802"
+      ],
+      "notes": "Current generation launched Nov 2024. The CNG AMT (VXi and ZXi) was added in Sep 2026 at Rs 8,53,100. Mileage figures come from marutisuzuki.com (24.79 MT / 25.71 AMT / 33.73 km/kg CNG). CarWale lists 24.77 kmpl for the MT, and CarDekho gives a 25.15-26.13 kmpl range. CNG AMT 36.47 km/kg is from launch reports and CarWale. The official petrol power is 81.58 PS (about 80.5 bhp) @5700. The manufacturer page also quotes 60 kW in one place, which is inconsistent. CNG rpm figures come from CarDekho. The ZXi Plus wheel size is from CarDekho's top-variant spec (185/65 R15). 6 airbags are standard across all variants (manufacturer).\nUpdate 21 Oct 2026: Rear photo still null (no Indian-market rear on Commons). Prices re-checked against CarDekho New Delhi and CarWale (manufacturer price pages do not render prices): all match, none changed. No mileage was missing.\nSpec audit 21 Oct 2026: all engine figures confirmed (CarDekho; listings agree on CNG 69 bhp @5700, 101.8 Nm @2900)."
+    },
+    {
+      "id": "maruti-brezza",
+      "brand": "Maruti Suzuki",
+      "model": "Brezza",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 48,
+      "priceNote": "CarDekho New Delhi, cross-checked with CarWale (variant ranges), Oct 2026 (single-tone prices)",
+      "engines": {
+        "t10": {
+          "type": "1.0 Boosterjet turbo petrol (direct injection)",
+          "cylinders": 3,
+          "displacementCc": 998,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 108.5,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 170,
+          "maxTorqueRpm": null
+        },
+        "p15": {
+          "type": "1.5 K15C petrol mild hybrid",
+          "cylinders": 4,
+          "displacementCc": 1462,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 102,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 139,
+          "maxTorqueRpm": 4400
+        },
+        "cng15": {
+          "type": "1.5 K15C petrol-CNG",
+          "cylinders": 4,
+          "displacementCc": 1462,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 86.8,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 121.5,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "LXi",
+          "wheels": "16-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP with hill-hold assist",
+            "Rear parking sensors",
+            "Keyless entry",
+            "Halogen projector headlamps",
+            "Manual AC",
+            "Electrically adjustable ORVMs",
+            "Fabric upholstery"
+          ]
+        },
+        {
+          "trim": "VXi",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "7-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Automatic climate control",
+            "Steering-mounted audio controls",
+            "Arkamys sound system",
+            "Driver seat height adjust",
+            "Rear defogger",
+            "Rear camera (Turbo only)"
+          ]
+        },
+        {
+          "trim": "ZXi",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Electric sunroof",
+            "Push-button start",
+            "LED projector headlamps",
+            "Wireless charger",
+            "Ambient lighting",
+            "60:40 split rear seat",
+            "Roof rails",
+            "Cruise control, TPMS, blind-spot warning (Turbo only)"
+          ]
+        },
+        {
+          "trim": "ZXi+",
+          "wheels": "16-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "10.1-inch touchscreen with connected car tech",
+            "360-degree camera",
+            "Ventilated front seats",
+            "Leatherette upholstery",
+            "Head-up display",
+            "Auto-dimming IRVM",
+            "LED fog lamps",
+            "PM2.5 air purifier with AQI display"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "LXi",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 749900,
+          "mileage": "20.47 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "LXi",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 834900,
+          "mileage": "21.09 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5-litre naturally aspirated petrol"
+          ]
+        },
+        {
+          "trim": "LXi",
+          "power": "CNG MT",
+          "engine": "cng15",
+          "fuel": "CNG",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 939900,
+          "mileage": "26.90 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit (underbody tank)"
+          ]
+        },
+        {
+          "trim": "VXi",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 864900,
+          "mileage": "20.47 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "VXi",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 930900,
+          "mileage": "21.09 kmpl",
+          "wheels": "16-inch steel with covers",
+          "airbags": null,
+          "extras": [
+            "1.5-litre naturally aspirated petrol"
+          ]
+        },
+        {
+          "trim": "VXi",
+          "power": "CNG MT",
+          "engine": "cng15",
+          "fuel": "CNG",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 999000,
+          "mileage": "26.90 km/kg",
+          "wheels": "16-inch steel with covers",
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit (underbody tank)"
+          ]
+        },
+        {
+          "trim": "VXi",
+          "power": "1.5 Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1060900,
+          "mileage": "20.17 kmpl",
+          "wheels": "16-inch steel with covers",
+          "airbags": null,
+          "extras": [
+            "1.5-litre naturally aspirated petrol",
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "ZXi",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 994900,
+          "mileage": "19.96 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "ZXi",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1054900,
+          "mileage": "20.81 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5-litre naturally aspirated petrol"
+          ]
+        },
+        {
+          "trim": "ZXi",
+          "power": "CNG MT",
+          "engine": "cng15",
+          "fuel": "CNG",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1159900,
+          "mileage": "26.90 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit (underbody tank)"
+          ]
+        },
+        {
+          "trim": "ZXi",
+          "power": "1.5 Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1184900,
+          "mileage": "20.17 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5-litre naturally aspirated petrol",
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "ZXi+",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1125900,
+          "mileage": "19.96 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "ZXi+",
+          "power": "1.5 Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1354900,
+          "mileage": "20.17 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5-litre naturally aspirated petrol",
+            "6-speed torque-converter automatic"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2022 Maruti Suzuki Brezza ZXi+ (India) front view 01.png",
+          "license": "CC BY 3.0",
+          "artist": "DriveSpark",
+          "local": "photos/maruti-brezza-front.jpg"
+        },
+        "rear": {
+          "file": "File:2022 Maruti Suzuki Brezza ZXi+ (India) rear view 02.png",
+          "license": "CC BY 3.0",
+          "artist": "DriveSpark",
+          "local": "photos/maruti-brezza-rear.jpg"
+        }
+      },
+      "photoNotes": "Both photos show the 2022 (pre-facelift) current-generation Indian Brezza. The 2026 facelift images on Commons were viewed on 21 Oct 2026 and rejected. 'File:2026 maruti brezza facelift introduction 01.jpg' (front three-quarter, CC0 claimed by Blthippeswamy) carries a 'WWW.TEAM-BHP.COM' watermark on the number plate and has no camera EXIF, so the CC0 'own work' claim is not credible. 'File:2026 Maruti Brezza Rear Quarter Static.jpg' (728 px, same uploader) is in the same press-photo style and also rejected. No other facelift photos are in Category:Suzuki Brezza (second generation).",
+      "sources": [
+        "https://www.cardekho.com/maruti/brezza/price-in-new-delhi",
+        "https://www.cardekho.com/maruti/brezza/specs",
+        "https://www.marutisuzuki.com/brezza/price",
+        "https://www.autocarindia.com/car-news/2026-maruti-brezza-full-price-list-revealed-440298",
+        "https://www.autocarindia.com/car-news-amp/2026-maruti-suzuki-brezza-fuel-efficiency-figures-revealed-440293",
+        "https://www.autocarindia.com/auto-features-amp/which-variant-of-the-2026-maruti-suzuki-brezza-should-you-buy-440839",
+        "https://www.carlelo.com/blog/2026-maruti-brezza-variants-explained"
+      ],
+      "notes": "Facelift launched 24 Jul 2026. It adds a new 1.0 Boosterjet turbo-petrol (110 PS/81 kW, 170 Nm, 6MT only; about 108.5 bhp; rpm not published). Turbo is treated as each trim's base powertrain because it is the cheapest. Autocar's July launch prices are lower than CarDekho's October figures on most MT and CNG variants (e.g. LXi Turbo Rs 7.40 lakh vs Rs 7,49,900). marutisuzuki.com calls its prices 'introductory' and shows only AT prices (ZXi AT Rs 12,00,500 and ZXi+ AT Rs 13,70,500, which match CarDekho's dual-tone prices). Dual-tone variants (about Rs 15,600 extra) are not listed separately. CNG output is 88 hp/121.5 Nm (Autocar); rpm not found. Autocar marks the reverse camera, VXi alloys, cruise control, TPMS, blind-spot warning and front sensors as Boosterjet-only on lower trims. Carlelo says the VXi has wheel covers. The 1.5 VXi wheel value follows that, so it is a partly conflicting source. The head-up display on ZXi+ is from Carlelo only. CarDekho shows K15C torque as 139 Nm @4400.\nUpdate 21 Oct 2026: Photos unchanged (facelift images on Commons appear to be Team-BHP photos with a false CC0 claim). Prices re-checked against CarDekho New Delhi and CarWale (manufacturer price pages do not render prices): all match, none changed. No mileage was missing.\nSpec audit 21 Oct 2026: cng15 power 88 -> 86.8 bhp (88 PS). t10 power/torque rpm and cng15 rpm still unconfirmed (no source states them); t10 108.5 bhp vs Autocar 110 hp kept. Turbo manual-only confirmed (Maruti site)."
+    },
+    {
+      "id": "maruti-fronx",
+      "brand": "Maruti Suzuki",
+      "model": "Fronx",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 37,
+      "priceNote": "CarDekho New Delhi, cross-checked with CarWale (variant ranges), Oct 2026 (single-tone prices)",
+      "engines": {
+        "p12": {
+          "type": "1.2 K12N DualJet petrol",
+          "cylinders": 4,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 88.5,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 113,
+          "maxTorqueRpm": 4400
+        },
+        "cng12": {
+          "type": "1.2 K12N petrol-CNG",
+          "cylinders": 4,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 76.4,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 98.5,
+          "maxTorqueRpm": 4300
+        },
+        "t10": {
+          "type": "1.0 Boosterjet turbo petrol mild hybrid",
+          "cylinders": 3,
+          "displacementCc": 998,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 98.7,
+          "maxPowerRpm": 5500,
+          "maxTorqueNm": 147.6,
+          "maxTorqueRpm": "2000-4500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Sigma",
+          "wheels": "16-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP with hill-hold assist",
+            "Automatic climate control",
+            "Keyless entry",
+            "Halogen projector headlamps",
+            "Rear parking sensors",
+            "Rear defogger",
+            "Power windows"
+          ]
+        },
+        {
+          "trim": "Delta",
+          "wheels": "16-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "7-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Steering-mounted controls",
+            "Electrically adjustable ORVMs",
+            "4 speakers",
+            "Rear parcel tray",
+            "Chrome grille garnish"
+          ]
+        },
+        {
+          "trim": "Delta Plus",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "16-inch alloy wheels",
+            "Automatic LED headlamps with LED DRLs"
+          ]
+        },
+        {
+          "trim": "Zeta",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Rear camera",
+            "Wireless charger",
+            "Push-button start",
+            "Rear AC vents",
+            "Rear wiper and washer",
+            "6 speakers",
+            "Driver seat height adjust"
+          ]
+        },
+        {
+          "trim": "Alpha",
+          "wheels": "16-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "360-degree camera",
+            "Head-up display",
+            "Cruise control",
+            "Leather-wrapped steering wheel",
+            "Dual-tone paint option"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Sigma",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 689900,
+          "mileage": "21.79 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Sigma",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 793900,
+          "mileage": "28.51 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Delta",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 774900,
+          "mileage": "21.79 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Delta",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 824900,
+          "mileage": "22.89 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Delta",
+          "power": "CNG MT",
+          "engine": "cng12",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 873900,
+          "mileage": "28.51 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Delta Plus",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 814500,
+          "mileage": "21.79 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Delta Plus",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 864500,
+          "mileage": "22.89 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT"
+          ]
+        },
+        {
+          "trim": "Delta Plus",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 896900,
+          "mileage": "21.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.0 Boosterjet turbo-petrol with mild hybrid"
+          ]
+        },
+        {
+          "trim": "Zeta",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 975900,
+          "mileage": "21.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Zeta",
+          "power": "1.0 Turbo AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1103900,
+          "mileage": "20.01 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Alpha",
+          "power": "1.0 Turbo MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1060900,
+          "mileage": "21.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Alpha",
+          "power": "1.0 Turbo AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1188900,
+          "mileage": "20.01 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2023 Suzuki Fronx 1.2 Delta+ (India) front view.png",
+          "license": "CC BY 3.0",
+          "artist": "HARSHIT 0008",
+          "local": "photos/maruti-fronx-front.jpg"
+        },
+        "rear": {
+          "file": "File:2023 Suzuki Fronx 1.2 Delta+ (India) rear view.png",
+          "license": "CC BY 3.0",
+          "artist": "HARSHIT 0008",
+          "local": "photos/maruti-fronx-rear.jpg"
+        }
+      },
+      "photoNotes": "Indian-market Delta+ photos (2023, current generation).",
+      "sources": [
+        "https://www.cardekho.com/maruti/fronx/price-in-new-delhi",
+        "https://www.cardekho.com/maruti/fronx/specs",
+        "https://www.carwale.com/maruti-suzuki-cars/fronx/",
+        "https://www.nexaexperience.com/fronx/specifications",
+        "https://www.autocarindia.com/cars/maruti-suzuki/fronx/sigma-12-cng-mt",
+        "https://www.autocarindia.com/auto-features-amp/maruti-suzuki-fronx-price-variants-features-explained-426964",
+        "https://www.rushlane.com/maruti-fronx-updated-with-6-airbags-as-standard-prices-hiked-12526791.html"
+      ],
+      "notes": "6 airbags have been standard on all variants since Jul 2025. nexaexperience.com still lists a Delta+ (O) 1.2 MT, but CarDekho's October 2026 price list does not include it and no price was found, so it is omitted. The trim features come mostly from Autocar's 2023 launch explainer plus later updates, so some items may have moved between trims. 1.2 and CNG rpm figures are from CarWale and Smartprix. Official site quotes 88 hp/113 Nm for the 1.2. The turbo figures are from CarDekho, and Autocar quotes 100 hp. The turbo manual gear count was not confirmed. A Fronx EV is not on sale yet and is excluded.\nUpdate 21 Oct 2026: Photos unchanged. Prices re-checked against CarDekho New Delhi and CarWale (manufacturer price pages do not render prices): all match, none changed. No mileage was missing.\nSpec audit 21 Oct 2026: t10 manual transmission \"Manual\" -> \"Manual, 5-speed\" (Autocar India). Engine figures confirmed (CarDekho, Motorbeam)."
+    },
+    {
+      "id": "maruti-grand-vitara",
+      "brand": "Maruti Suzuki",
+      "model": "Grand Vitara",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 45,
+      "priceNote": "CarDekho New Delhi, cross-checked with CarWale (variant ranges), Oct 2026 (single-tone prices)",
+      "engines": {
+        "p15": {
+          "type": "1.5 K15C petrol mild hybrid",
+          "cylinders": 4,
+          "displacementCc": 1462,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 102,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 139,
+          "maxTorqueRpm": 4400
+        },
+        "cng15": {
+          "type": "1.5 K15C petrol-CNG",
+          "cylinders": 4,
+          "displacementCc": 1462,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 86.6,
+          "maxPowerRpm": 5500,
+          "maxTorqueNm": 121.5,
+          "maxTorqueRpm": 4200
+        },
+        "hy15": {
+          "type": "1.5 Strong hybrid petrol (M15D, 114 bhp combined)",
+          "cylinders": 3,
+          "displacementCc": 1490,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 91.2,
+          "maxPowerRpm": 5500,
+          "maxTorqueNm": 122,
+          "maxTorqueRpm": "4400-4800"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Sigma",
+          "wheels": "17-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP with hill-hold assist",
+            "ABS with EBD",
+            "ISOFIX child-seat mounts",
+            "3-point seatbelts for all seats",
+            "Mild-hybrid petrol engine"
+          ]
+        },
+        {
+          "trim": "Delta",
+          "wheels": "17-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "7-inch touchscreen",
+            "Android Auto and Apple CarPlay",
+            "Rear camera",
+            "Cruise control",
+            "Rear fast-charging USB ports",
+            "Suzuki Connect",
+            "Paddle shifters (AT)"
+          ]
+        },
+        {
+          "trim": "Zeta",
+          "wheels": "17-inch alloy",
+          "airbags": 6,
+          "features": [
+            "9-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Auto LED projector headlamps",
+            "Auto-folding ORVMs",
+            "Rear wiper and washer",
+            "Ambient lighting",
+            "Soft-touch dashboard"
+          ]
+        },
+        {
+          "trim": "Zeta (O)",
+          "wheels": "17-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof"
+          ]
+        },
+        {
+          "trim": "Alpha",
+          "wheels": "17-inch alloy",
+          "airbags": 6,
+          "features": [
+            "360-degree camera",
+            "Leatherette seats",
+            "Leather-wrapped steering wheel",
+            "Auto-dimming IRVM",
+            "AllGrip AWD option with drive modes"
+          ]
+        },
+        {
+          "trim": "Alpha (O)",
+          "wheels": "17-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof"
+          ]
+        },
+        {
+          "trim": "Delta+",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Strong-hybrid powertrain with e-CVT",
+            "EV driving mode"
+          ]
+        },
+        {
+          "trim": "Zeta+",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Head-up display",
+            "Wireless charger",
+            "7-inch digital instrument cluster",
+            "All-black interior with champagne gold accents"
+          ]
+        },
+        {
+          "trim": "Zeta+ (O)",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof"
+          ]
+        },
+        {
+          "trim": "Alpha+",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Ventilated front seats",
+            "360-degree camera",
+            "Leatherette seats",
+            "Puddle lamps",
+            "Tyre pressure monitoring",
+            "Premium sound system"
+          ]
+        },
+        {
+          "trim": "Alpha+ (O)",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Sigma",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1076500,
+          "mileage": "21.11 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Delta",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1214700,
+          "mileage": "21.11 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Delta",
+          "power": "CNG MT",
+          "engine": "cng15",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1304700,
+          "mileage": "26.6 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Delta",
+          "power": "1.5 Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1349700,
+          "mileage": "20.58 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters",
+            "Electronic parking brake"
+          ]
+        },
+        {
+          "trim": "Zeta",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1385000,
+          "mileage": "21.11 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Zeta",
+          "power": "CNG MT",
+          "engine": "cng15",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1465000,
+          "mileage": "26.6 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "Zeta",
+          "power": "1.5 Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1520000,
+          "mileage": "20.58 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters",
+            "Electronic parking brake"
+          ]
+        },
+        {
+          "trim": "Zeta (O)",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1389100,
+          "mileage": "21.11 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Zeta (O)",
+          "power": "1.5 Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1524100,
+          "mileage": "20.58 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters",
+            "Electronic parking brake"
+          ]
+        },
+        {
+          "trim": "Alpha",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1534700,
+          "mileage": "21.11 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Alpha",
+          "power": "1.5 Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1669700,
+          "mileage": "20.58 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters",
+            "Electronic parking brake"
+          ]
+        },
+        {
+          "trim": "Alpha",
+          "power": "1.5 Petrol AWD AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "AWD",
+          "priceInr": 1804700,
+          "mileage": "19.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "AllGrip Select AWD",
+            "Hill descent control"
+          ]
+        },
+        {
+          "trim": "Alpha (O)",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1538700,
+          "mileage": "21.11 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Alpha (O)",
+          "power": "1.5 Petrol AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1673700,
+          "mileage": "20.58 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Paddle shifters",
+            "Electronic parking brake"
+          ]
+        },
+        {
+          "trim": "Alpha (O)",
+          "power": "1.5 Petrol AWD AT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic (torque converter), 6-speed",
+          "drivetrain": "AWD",
+          "priceInr": 1862600,
+          "mileage": "19.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "AllGrip Select AWD",
+            "Hill descent control"
+          ]
+        },
+        {
+          "trim": "Delta+",
+          "power": "Strong Hybrid e-CVT",
+          "engine": "hy15",
+          "fuel": "Hybrid",
+          "transmission": "e-CVT",
+          "drivetrain": "FWD",
+          "priceInr": 1668300,
+          "mileage": "27.97 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Zeta+",
+          "power": "Strong Hybrid e-CVT",
+          "engine": "hy15",
+          "fuel": "Hybrid",
+          "transmission": "e-CVT",
+          "drivetrain": "FWD",
+          "priceInr": 1796600,
+          "mileage": "27.97 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Zeta+ (O)",
+          "power": "Strong Hybrid e-CVT",
+          "engine": "hy15",
+          "fuel": "Hybrid",
+          "transmission": "e-CVT",
+          "drivetrain": "FWD",
+          "priceInr": 1855300,
+          "mileage": "27.97 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Alpha+",
+          "power": "Strong Hybrid e-CVT",
+          "engine": "hy15",
+          "fuel": "Hybrid",
+          "transmission": "e-CVT",
+          "drivetrain": "FWD",
+          "priceInr": 1955200,
+          "mileage": "27.97 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Alpha+ (O)",
+          "power": "Strong Hybrid e-CVT",
+          "engine": "hy15",
+          "fuel": "Hybrid",
+          "transmission": "e-CVT",
+          "drivetrain": "FWD",
+          "priceInr": 1962000,
+          "mileage": "27.97 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2022 Maruti Suzuki Grand Vitara Zeta Smart Hybrid (India) front view.jpg",
+          "license": "CC BY 3.0",
+          "artist": "Siddharth Antre",
+          "local": "photos/maruti-grand-vitara-front.jpg"
+        },
+        "rear": {
+          "file": "File:2022 Maruti Suzuki Grand Vitara Alpha Smart Hybrid AllGrip rear view 01.png",
+          "license": "CC BY 3.0",
+          "artist": "NA Vlogs",
+          "local": "photos/maruti-grand-vitara-rear.jpg"
+        }
+      },
+      "photoNotes": "Indian-market current-generation (2022 launch) photos. The 2025 update made no major styling change apart from new 17-inch alloys.",
+      "sources": [
+        "https://www.cardekho.com/maruti/grand-vitara/price-in-new-delhi",
+        "https://www.cardekho.com/maruti/grand-vitara/specs",
+        "https://www.carwale.com/maruti-suzuki-cars/grand-vitara/",
+        "https://www.autocarindia.com/cars/maruti-suzuki/grand-vitara",
+        "https://www.autocarindia.com/car-news-amp/maruti-grand-vitara-gets-more-affordable-strong-hybrid-and-new-awd-at-variants-435032",
+        "https://www.marutisuzuki.com/corporate/media/press-releases/2025/april/maruti-suzuki-grand-vitara-updated-with-6-airbags-as-standard-amp-new-premium-features",
+        "https://www.carlelo.com/blog/maruti-suzuki-grand-vitara-variant-wise-features-explained"
+      ],
+      "notes": "Hybrid '+' trims list what they add over their mild-hybrid counterpart (Delta+ over Delta, Zeta+ over Zeta, and so on), not over the trim directly above. The April 2025 update made 6 airbags standard and added (O) trims with a panoramic sunroof, plus an 8-way power driver seat, an electronic parking brake (6AT), PM2.5 purifier and new 17-inch alloys (trim split not published). AWD moved from 5MT to 6AT. In April 2025 Autocar priced the (O) trims Rs 60,000 above the base trims. CarDekho's October 2026 list shows only about Rs 4,000 between Zeta and Zeta (O), and CarWale shows about Rs 14,000, so the (O) pricing and content should be re-checked. Prices conflict slightly: CarWale lists Zeta MT at Rs 13.75 lakh vs CarDekho Rs 13.85 lakh. Most trim feature lists are from pre-2025 variant guides, so treat them as indicative. AT mileage is 20.58 kmpl per Autocar, but CarWale's table shows 20.16. AWD AT is 19.2 kmpl, and 19.38 was the old AWD MT figure. K15C rpm figures are from earlier spec sheets (103 PS @6000, 136.8 Nm @4400), and current sources quote 139 Nm. Strong hybrid: engine 91 bhp/122 Nm, system output 114 bhp, rpm not confirmed. CNG rpm not found. Wheel sizes for hybrid trims were not confirmed. Dual-tone variants and an upcoming Phantom Blaq edition are not listed.\nUpdate 21 Oct 2026: Photos unchanged. Prices re-checked against CarDekho New Delhi and CarWale (manufacturer price pages do not render prices): all match, none changed. No mileage was missing.\nSpec audit 21 Oct 2026: cng15 87 bhp/null -> 86.6 bhp (87.83 PS) @5500, torque rpm null -> 4200. hy15 91 bhp/null -> 91.2 bhp (92.45 PS) @5500, torque rpm null -> 4400-4800 (Bajaj Finserv; Autocar says 3800-4800, conflict recorded)."
+    },
+    {
+      "id": "maruti-wagon-r",
+      "brand": "Maruti Suzuki",
+      "model": "Wagon R",
+      "bodyType": "Hatchback",
+      "seats": 5,
+      "fuelTankL": 32,
+      "priceNote": "CarDekho New Delhi, cross-checked with CarWale (variant ranges), Oct 2026 (single-tone prices)",
+      "engines": {
+        "p10": {
+          "type": "1.0 K10C petrol",
+          "cylinders": 3,
+          "displacementCc": 998,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 65.7,
+          "maxPowerRpm": 5500,
+          "maxTorqueNm": 89,
+          "maxTorqueRpm": 3500
+        },
+        "cng10": {
+          "type": "1.0 K10C petrol-CNG",
+          "cylinders": 3,
+          "displacementCc": 998,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 56,
+          "maxPowerRpm": 5300,
+          "maxTorqueNm": 82.1,
+          "maxTorqueRpm": 3400
+        },
+        "p12": {
+          "type": "1.2 K12N petrol",
+          "cylinders": 4,
+          "displacementCc": 1197,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 89.7,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 113,
+          "maxTorqueRpm": 4400
+        }
+      },
+      "trims": [
+        {
+          "trim": "LXi",
+          "wheels": "13-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ABS with EBD",
+            "ESP",
+            "Rear parking sensors",
+            "Central locking",
+            "Manual AC"
+          ]
+        },
+        {
+          "trim": "VXi",
+          "wheels": "14-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "Music system with Bluetooth and USB",
+            "Remote central locking",
+            "Rear power windows",
+            "Electrically adjustable ORVMs",
+            "60:40 split rear seat",
+            "Tilt steering",
+            "Day/night IRVM",
+            "Rear parcel tray"
+          ]
+        },
+        {
+          "trim": "ZXi",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "1.2-litre four-cylinder engine",
+            "Steering-mounted controls"
+          ]
+        },
+        {
+          "trim": "ZXi Plus",
+          "wheels": "14-inch alloy",
+          "airbags": 6,
+          "features": [
+            "7-inch touchscreen",
+            "Android Auto and Apple CarPlay",
+            "Rear wiper and washer",
+            "Rear defogger",
+            "Front fog lamps",
+            "Power-folding ORVMs",
+            "Tachometer",
+            "Two extra speakers"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "LXi",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 498900,
+          "mileage": "24.35 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "LXi",
+          "power": "CNG MT",
+          "engine": "cng10",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 593900,
+          "mileage": "33.47 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "VXi",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 554400,
+          "mileage": "24.35 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "VXi",
+          "power": "1.0 Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 599400,
+          "mileage": "25.19 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT (AGS)"
+          ]
+        },
+        {
+          "trim": "VXi",
+          "power": "CNG MT",
+          "engine": "cng10",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 649400,
+          "mileage": "33.47 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "ZXi",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 598400,
+          "mileage": "23.56 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "ZXi",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 643400,
+          "mileage": "24.43 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT (AGS)"
+          ]
+        },
+        {
+          "trim": "ZXi Plus",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 641400,
+          "mileage": "23.56 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "ZXi Plus",
+          "power": "1.2 Petrol AMT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 686400,
+          "mileage": "24.43 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT (AGS)"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2020 Maruti Suzuki Wagon R VXi (O) (India) front view.png",
+          "license": "CC BY 3.0",
+          "artist": "Riding Hub",
+          "local": "photos/maruti-wagon-r-front.jpg"
+        },
+        "rear": {
+          "file": "File:Maruti Wagon R 2019 (rear).png",
+          "license": "CC BY-SA 4.0",
+          "artist": "Agratsa",
+          "local": "photos/maruti-wagon-r-rear.jpg"
+        }
+      },
+      "photoNotes": "Third-generation Indian Wagon R. The front is a 2020 car, and the rear (viewed 21 Oct 2026) is a clean rear three-quarter of a white 2019 car, the same generation as the current model. Re-checked Commons on 21 Oct 2026: Category:Maruti Wagon R (third generation) holds only these two plus a Japanese-plated CBG show car ('File:2023 Maruti Suzuki Wagon R CBG.jpg', front only, with stickers). 'File:Maruti Suzuki Wagon R LX (rear).jpg' (Sep 2026 upload) is a first-generation car with window stickers and was rejected. No newer rear exists, so the 2019 rear is kept.",
+      "sources": [
+        "https://www.marutisuzuki.com/wagonr/specifications",
+        "https://www.cardekho.com/maruti/wagon-r/price-in-new-delhi",
+        "https://www.cardekho.com/maruti/wagon-r/specs",
+        "https://www.autocarindia.com/cars/maruti-suzuki/wagon-r/",
+        "https://www.v3cars.com/variant-explained/maruti-suzuki-wagonr-petrol-cng-variants-explained-which-one-to-buy",
+        "https://www.autocarindia.com/car-news/2025-maruti-wagon-r-price-starts-at-rs-579-lakh-with-6-airbags-435052"
+      ],
+      "notes": "6 airbags have been standard since May 2025, though the manufacturer FAQ still mentions dual airbags. The 1.0 engine is offered on LXi and VXi, and the 1.2 on ZXi and ZXi Plus. Mileage for the 1.2 and CNG is confirmed by marutisuzuki.com. The 1.0 figures (24.35 MT / 25.19 AMT) are from Autocar India and V3Cars because the official page did not show them. 1.0 output: Autocar quotes 68 hp/91 Nm and V3Cars 69 PS @5600 / 91 Nm @3400. CNG is 57 PS @5300 / 82 Nm @3400 (V3Cars). 1.2 figures are from CarDekho, and the official site gives 90.9 PS @6000. Fuel tank is 32 L (petrol), with a 60 L water-equivalent CNG tank. ZXi wheel size was not confirmed. Dual-tone ZXi Plus variants are not listed separately. The Wagon R BioFlex flex-fuel ZXi+ 1.2 MT (Rs 7,23,900, launched Jun 2026) is sold only to commercial buyers and is excluded.\nUpdate 21 Oct 2026: Photos unchanged (no newer third-generation rear photo on Commons). Prices re-checked against CarDekho New Delhi and CarWale (manufacturer price pages do not render prices): all match, none changed. No mileage was missing.\nSpec audit 21 Oct 2026: p10 68 bhp @5600 -> 65.7 bhp @5500, 91 Nm @3400 -> 89 Nm @3500 (CarDekho variant page). cng10 torque 82 -> 82.1 Nm. p12 88.5 -> 89.7 bhp (Maruti: 66.9 kW @6000). Conflict: p12 torque 113 @4400 (CarDekho) vs 113.7 @4200 (Autocar), kept 113 @4400."
+    },
+    {
+      "id": "maruti-alto-k10",
+      "brand": "Maruti Suzuki",
+      "model": "Alto K10",
+      "bodyType": "Hatchback",
+      "seats": 5,
+      "fuelTankL": 27,
+      "priceNote": "CarDekho New Delhi, cross-checked with CarWale (variant ranges), Oct 2026",
+      "engines": {
+        "p10": {
+          "type": "1.0 K10C petrol",
+          "cylinders": 3,
+          "displacementCc": 998,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 67.6,
+          "maxPowerRpm": 5600,
+          "maxTorqueNm": 89,
+          "maxTorqueRpm": 3500
+        },
+        "cng10": {
+          "type": "1.0 K10C petrol-CNG",
+          "cylinders": 3,
+          "displacementCc": 998,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 55.9,
+          "maxPowerRpm": 5300,
+          "maxTorqueNm": 82.1,
+          "maxTorqueRpm": 3400
+        }
+      },
+      "trims": [
+        {
+          "trim": "Std (O)",
+          "wheels": "13-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ABS with EBD",
+            "ESP",
+            "Rear parking sensors",
+            "Digital speedometer"
+          ]
+        },
+        {
+          "trim": "LXi (O)",
+          "wheels": "13-inch steel",
+          "airbags": 6,
+          "features": [
+            "Manual AC",
+            "Power steering"
+          ]
+        },
+        {
+          "trim": "VXi (O)",
+          "wheels": "13-inch steel",
+          "airbags": 6,
+          "features": [
+            "Front power windows",
+            "Music system",
+            "Central locking"
+          ]
+        },
+        {
+          "trim": "VXi Plus (O)",
+          "wheels": "13-inch steel",
+          "airbags": 6,
+          "features": [
+            "7-inch touchscreen",
+            "Android Auto and Apple CarPlay",
+            "Steering-mounted audio controls",
+            "Remote keyless entry"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Std (O)",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 369900,
+          "mileage": "24.39 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "LXi (O)",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 399900,
+          "mileage": "24.39 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "LXi (O)",
+          "power": "CNG MT",
+          "engine": "cng10",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 484400,
+          "mileage": "33.40 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "VXi (O)",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 452400,
+          "mileage": "24.39 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "VXi (O)",
+          "power": "1.0 Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 497400,
+          "mileage": "24.90 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT (AGS)"
+          ]
+        },
+        {
+          "trim": "VXi (O)",
+          "power": "CNG MT",
+          "engine": "cng10",
+          "fuel": "CNG",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 534400,
+          "mileage": "33.40 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit"
+          ]
+        },
+        {
+          "trim": "VXi Plus (O)",
+          "power": "1.0 Petrol MT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 499900,
+          "mileage": "24.39 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "VXi Plus (O)",
+          "power": "1.0 Petrol AMT",
+          "engine": "p10",
+          "fuel": "Petrol",
+          "transmission": "AMT, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 544900,
+          "mileage": "24.90 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "5-speed AMT (AGS)"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Maruti Suzuki Alto K10 - front.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Vis M",
+          "local": "photos/maruti-alto-k10-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "The front photo is the current (2022-generation) Indian Alto K10, taken in 2023. No rear photo exists on Commons. Viewed on 21 Oct 2026: 'File:Maruti Suzuki Alto K10.jpg' (same author) is a front three-quarter at a dealer stall with an 'ALTO K10' plate and banners, not a rear view, so it was rejected. Category:Suzuki Alto (2022) holds only Chilean 'Suzuki Alto 1.0 GL 2024' photos (non-Indian), and 'File:Parked Maruti Suzuki Alto K10.jpg' is an older-generation car.",
+      "sources": [
+        "https://www.marutisuzuki.com/alto-k10/specifications",
+        "https://www.cardekho.com/maruti/alto-k10/price-in-new-delhi",
+        "https://www.cardekho.com/maruti/alto-k10/specs",
+        "https://www.cardekho.com/maruti/alto-k10/variants.htm",
+        "https://www.marutisuzuki.com/corporate/media/press-releases/2022/november/indias-favourite-hatchback-all-new-alto-k10-now-available-with-s-cng-technology",
+        "https://nsearchives.nseindia.com/corporate/MARUTI_28022025161320_Intimation_Alto_K10_6_air_bag.pdf"
+      ],
+      "notes": "6 airbags have been standard since Feb 2025, and variant names now carry an '(O)' suffix. Mileage is from marutisuzuki.com: 24.39 MT, 24.90 AGS, CNG 'around 33.40 km/kg'. CarDekho and the 2022 CNG press release quote 33.85 km/kg. Petrol output is 68 bhp @5600 / 89 Nm @3500 per CarDekho. The official page gives 50.4 kW @5600 and 89 Nm, and also lists 65.7 bhp, which is inconsistent. CNG output is from the 2022 Maruti press release (56.69 PS @5300, 82.1 Nm @3400). The official site mentions 13-inch wheels with covers but does not say which trims get covers. Trim feature lists are from CarDekho's variant highlights and are brief.\nUpdate 21 Oct 2026: Rear photo still null (no current-generation Indian rear on Commons). Prices re-checked against CarDekho New Delhi and CarWale (manufacturer price pages do not render prices): all match, none changed. No mileage was missing.\nSpec audit 21 Oct 2026: p10 power 68 -> 67.6 bhp (Maruti: 50.4 kW @5600; CarDekho 68 bhp @5600). Other figures confirmed."
+    }
+  ]
+}

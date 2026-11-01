@@ -1,0 +1,722 @@
+{
+  "cars": [
+    {
+      "id": "skoda-kodiaq",
+      "brand": "Skoda",
+      "model": "Kodiaq",
+      "bodyType": "SUV",
+      "seats": 7,
+      "fuelTankL": 62,
+      "priceNote": "CarDekho New Delhi / CarWale, Oct 2026",
+      "engines": {
+        "p20t": {
+          "type": "2.0 TSI turbo petrol",
+          "cylinders": 4,
+          "displacementCc": 1984,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 201,
+          "maxPowerRpm": "4500-6000",
+          "maxTorqueNm": 320,
+          "maxTorqueRpm": "1500-4400"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Lounge",
+          "wheels": null,
+          "airbags": 9,
+          "features": [
+            "9 airbags",
+            "2.0 TSI petrol with 7-speed DSG and 4x4",
+            "13-inch touchscreen",
+            "Panoramic sunroof",
+            "360-degree camera",
+            "6 drive modes",
+            "5 seats (per CarWale)"
+          ]
+        },
+        {
+          "trim": "Sportline",
+          "wheels": null,
+          "airbags": 9,
+          "features": [
+            "Sporty styling",
+            "ADAS (MY26 update)",
+            "7 seats"
+          ]
+        },
+        {
+          "trim": "Selection L&K",
+          "wheels": null,
+          "airbags": 9,
+          "features": [
+            "Top-spec Laurin & Klement trim",
+            "ADAS (MY26 update)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Lounge",
+          "power": "2.0 TSI DSG 4x4",
+          "engine": "p20t",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DSG",
+          "drivetrain": "AWD",
+          "priceInr": 3699000,
+          "mileage": "14.86 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Sportline",
+          "power": "2.0 TSI DSG 4x4",
+          "engine": "p20t",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DSG",
+          "drivetrain": "AWD",
+          "priceInr": 4499000,
+          "mileage": "14.86 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Selection L&K",
+          "power": "2.0 TSI DSG 4x4",
+          "engine": "p20t",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DSG",
+          "drivetrain": "AWD",
+          "priceInr": 4699000,
+          "mileage": "14.86 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Skoda Kodiaq 1.5 TSI iV Selection (II) – f 01032025.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "artist": "M 93",
+          "note": "German model, same design",
+          "local": "photos/skoda-kodiaq-front.jpg"
+        },
+        "rear": {
+          "file": "File:Skoda Kodiaq 1.5 TSI iV Selection (II) – h 01032025.jpg",
+          "license": "CC BY-SA 3.0 de",
+          "artist": "M 93",
+          "note": "German model, same design",
+          "local": "photos/skoda-kodiaq-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market second-gen Kodiaq photos on Commons; used a German-market second-gen pair (same design), checked by eye.",
+      "sources": [
+        "https://www.cardekho.com/skoda/kodiaq/price-in-new-delhi",
+        "https://www.cardekho.com/skoda/kodiaq/specs",
+        "https://www.carwale.com/skoda-cars/kodiaq/"
+      ],
+      "notes": "Second-generation Kodiaq. A CarWale news item mentions Lounge at Rs 39.99 lakh (Sep 2025) vs 36.99 lakh in variant tables; table figure used. Wheel sizes per trim not confirmed (tyre 235/55 R18 listed). Seats 7 except Lounge (5-seat per CarWale). Per-trim feature lists are thin in sources."
+    },
+    {
+      "id": "vw-tiguan",
+      "brand": "Volkswagen",
+      "model": "Tiguan R-Line",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 60,
+      "priceNote": "CarDekho New Delhi / CarWale, Oct 2026",
+      "engines": {
+        "p20t": {
+          "type": "2.0 TSI turbo petrol",
+          "cylinders": 4,
+          "displacementCc": 1984,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 201,
+          "maxPowerRpm": "4500-6000",
+          "maxTorqueNm": 320,
+          "maxTorqueRpm": "1500-4400"
+        }
+      },
+      "trims": [
+        {
+          "trim": "R-Line",
+          "wheels": "19-inch alloy",
+          "airbags": 9,
+          "features": [
+            "9 airbags",
+            "Level 2 ADAS",
+            "12.9-inch touchscreen",
+            "10.3-inch digital cluster",
+            "Ambient lighting",
+            "Electric parking brake with auto-hold",
+            "TPMS",
+            "4MOTION AWD"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "R-Line",
+          "power": "2.0 TSI DSG AWD",
+          "engine": "p20t",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DSG",
+          "drivetrain": "AWD",
+          "priceInr": 4711000,
+          "mileage": "12.58 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Volkswagen TIGUAN eTSI R-Line (3AA-CT15) front.jpg",
+          "license": "CC0",
+          "artist": "Tokumeigakarinoaoshima",
+          "note": "Japan model, same design",
+          "local": "photos/vw-tiguan-front.jpg"
+        },
+        "rear": {
+          "file": "File:Volkswagen TIGUAN eTSI R-Line (3AA-CT15) rear.jpg",
+          "license": "CC0",
+          "artist": "Tokumeigakarinoaoshima",
+          "note": "Japan model, same design",
+          "local": "photos/vw-tiguan-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market third-gen Tiguan photos on Commons; used Japanese-market Tiguan R-Line (same design, showroom shot; front has a small windscreen sticker).",
+      "sources": [
+        "https://www.carwale.com/volkswagen-cars/tiguan-r-line/",
+        "https://www.cardekho.com/volkswagen/tiguan-r-line/specs"
+      ],
+      "notes": "Single variant (third-gen Tiguan R-Line). CarWale FAQ says no 4WD option while its engine listing says AWD; CarDekho says AWD - AWD used."
+    },
+    {
+      "id": "jeep-compass",
+      "brand": "Jeep",
+      "model": "Compass",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarDekho New Delhi / CarWale, Oct 2026",
+      "engines": {
+        "d20": {
+          "type": "2.0 Multijet II diesel",
+          "cylinders": 4,
+          "displacementCc": 1956,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 168,
+          "maxPowerRpm": "3700-3800",
+          "maxTorqueNm": 350,
+          "maxTorqueRpm": "1750-2500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Sport",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP",
+            "8.4-inch touchscreen",
+            "Manual AC",
+            "Steering-mounted audio controls",
+            "Electrically adjustable mirrors"
+          ]
+        },
+        {
+          "trim": "Longitude (O)",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "10.1-inch touchscreen",
+            "Wireless phone charger",
+            "Connected car tech",
+            "Dual-zone climate control"
+          ]
+        },
+        {
+          "trim": "Limited (O)",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Powered driver's seat",
+            "Auto-dimming IRVM",
+            "Powered tailgate"
+          ]
+        },
+        {
+          "trim": "Model S (O)",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "360-degree camera",
+            "Ventilated front seats",
+            "Powered co-driver seat",
+            "10.25-inch digital cluster",
+            "9-speaker Alpine sound system",
+            "4x4 option (AT)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Sport",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual",
+          "drivetrain": "FWD",
+          "priceInr": 1799000,
+          "mileage": "17.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Longitude (O)",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual",
+          "drivetrain": "FWD",
+          "priceInr": 2363000,
+          "mileage": "17.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Longitude (O)",
+          "power": "2.0 Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 9-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 2570000,
+          "mileage": "17.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "9-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Limited (O)",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual",
+          "drivetrain": "FWD",
+          "priceInr": 2483000,
+          "mileage": "17.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Limited (O)",
+          "power": "2.0 Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 9-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 2690000,
+          "mileage": "17.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "9-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Model S (O)",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual",
+          "drivetrain": "FWD",
+          "priceInr": 2670000,
+          "mileage": "17.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Model S (O)",
+          "power": "2.0 Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 9-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 2876000,
+          "mileage": "17.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "9-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Model S (O)",
+          "power": "2.0 Diesel 4WD AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 9-speed torque converter",
+          "drivetrain": "4WD",
+          "priceInr": 3070000,
+          "mileage": "14.9 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "9-speed torque-converter automatic",
+            "4x4 drivetrain"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:26 Jeep Compass Latitude.jpg",
+          "license": "CC0",
+          "artist": "HJUdall",
+          "note": "US model, same design",
+          "local": "photos/jeep-compass-front.jpg"
+        },
+        "rear": {
+          "file": "File:Jeep Compass (MP) PHEV Facelift 1X7A0139.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Alexander Migl",
+          "note": "three-quarter view",
+          "local": "photos/jeep-compass-rear.jpg"
+        }
+      },
+      "photoNotes": "Front: US-market facelifted Compass (same design as the Indian car), checked by eye. Rear: no facelifted-Compass rear view found; rejected '2021 Jeep Compass Limited 4WD in Billet Silver Metallic, rear left.jpg' (pre-facelift, side-ish).",
+      "sources": [
+        "https://www.cardekho.com/jeep/compass/price-in-new-delhi",
+        "https://www.cardekho.com/jeep/compass/variants.htm",
+        "https://www.cardekho.com/jeep/compass/specs",
+        "https://www.carwale.com/jeep-cars/compass/"
+      ],
+      "notes": "Diesel-only line-up. Manual gearbox speed count and fuel tank not confirmed. Mileage per CarDekho variant pages (not explicitly labelled ARAI). Special editions omitted: Trail 23.66L MT/25.52L AT, Track 26.95L MT/29.01L AT/30.95L 4x4 AT, 85th Anniversary 26.70L. CarWale also lists Longitude (non-O) MT 21.30L / AT 23.36L, absent on CarDekho - omitted. Model S (O) MT: CarDekho 26.70L vs CarWale 26.45L; CarDekho used. CarWale lists power as both 168 and 172 bhp."
+    },
+    {
+      "id": "jeep-meridian",
+      "brand": "Jeep",
+      "model": "Meridian",
+      "bodyType": "SUV",
+      "seats": 7,
+      "fuelTankL": 60,
+      "priceNote": "CarDekho New Delhi, Oct 2026",
+      "engines": {
+        "d20": {
+          "type": "2.0 Multijet II diesel",
+          "cylinders": 4,
+          "displacementCc": 1956,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 172.36,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 350,
+          "maxTorqueRpm": null
+        }
+      },
+      "trims": [
+        {
+          "trim": "Longitude",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESP",
+            "10.1-inch touchscreen",
+            "Dual-zone climate control",
+            "Keyless entry",
+            "Push-button start",
+            "Power-folding mirrors"
+          ]
+        },
+        {
+          "trim": "Longitude Plus",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "Wireless charger",
+            "Auto-dimming IRVM"
+          ]
+        },
+        {
+          "trim": "Limited (O)",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Powered front seats",
+            "Powered tailgate",
+            "360-degree camera",
+            "10.2-inch digital driver display",
+            "9-speaker Alpine audio",
+            "4x4 option (AT)"
+          ]
+        },
+        {
+          "trim": "Overland",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Level 2 ADAS"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Longitude",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual",
+          "drivetrain": "FWD",
+          "priceInr": 2333000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Longitude",
+          "power": "2.0 Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 9-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 2753000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "9-speed torque-converter automatic",
+            "Cruise control"
+          ]
+        },
+        {
+          "trim": "Longitude Plus",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual",
+          "drivetrain": "FWD",
+          "priceInr": 2630000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Longitude Plus",
+          "power": "2.0 Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 9-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 2939000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "9-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Limited (O)",
+          "power": "2.0 Diesel MT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Manual",
+          "drivetrain": "FWD",
+          "priceInr": 3045000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Limited (O)",
+          "power": "2.0 Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 9-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 3419000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "9-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Limited (O)",
+          "power": "2.0 Diesel 4WD AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 9-speed torque converter",
+          "drivetrain": "4WD",
+          "priceInr": 3605000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "9-speed torque-converter automatic",
+            "4x4 drivetrain"
+          ]
+        },
+        {
+          "trim": "Overland",
+          "power": "2.0 Diesel AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 9-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 3605000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Overland",
+          "power": "2.0 Diesel 4WD AT",
+          "engine": "d20",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 9-speed torque converter",
+          "drivetrain": "4WD",
+          "priceInr": 3792000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "4x4 drivetrain",
+            "Hill descent control"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Jeep COMMANDER LIMITED (3DA-H620) front.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Tokumeigakarinoaoshima",
+          "note": "Japan model (India-built Meridian sold as Commander), same design",
+          "local": "photos/jeep-meridian-front.jpg"
+        },
+        "rear": {
+          "file": "File:Jeep COMMANDER LIMITED (3DA-H620) rear.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Tokumeigakarinoaoshima",
+          "note": "Japan model (India-built Meridian sold as Commander), same design",
+          "local": "photos/jeep-meridian-rear.jpg"
+        }
+      },
+      "photoNotes": "No Indian-market Meridian photos found on Commons; used the Japanese-market Jeep Commander (3DA-H620), which is the India-built Meridian, checked by eye. May predate the 2025 Meridian update.",
+      "sources": [
+        "https://www.cardekho.com/jeep/meridian/variants.htm",
+        "https://www.cardekho.com/jeep/meridian/specs"
+      ],
+      "notes": "Diesel-only. Prices from CarDekho only (not cross-checked). Mileage left null: CarDekho shows inconsistent per-variant figures (8.2-14.1 kmpl) not labelled ARAI. Power/torque rpm, manual gearbox speeds and wheel sizes not confirmed. Special editions omitted: Trail (30.39L MT/32.86L AT), Track (36.39L AT/38.26L 4x4 AT)."
+    },
+    {
+      "id": "jeep-wrangler",
+      "brand": "Jeep",
+      "model": "Wrangler",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": null,
+      "priceNote": "CarWale, Oct 2026",
+      "engines": {
+        "p20t": {
+          "type": "2.0 GME turbo petrol",
+          "cylinders": 4,
+          "displacementCc": 1995,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 268.2,
+          "maxPowerRpm": 5250,
+          "maxTorqueNm": 400,
+          "maxTorqueRpm": 3000
+        }
+      },
+      "trims": [
+        {
+          "trim": "Unlimited",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "12.3-inch touchscreen",
+            "Adaptive cruise control",
+            "Forward collision warning",
+            "Electrically adjustable front seats",
+            "4x4 with 8-speed automatic",
+            "Hill descent control",
+            "TPMS"
+          ]
+        },
+        {
+          "trim": "Rubicon",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Rubicon off-road-focused version"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Unlimited",
+          "power": "2.0 Turbo 4WD AT",
+          "engine": "p20t",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed torque converter",
+          "drivetrain": "4WD",
+          "priceInr": 6770000,
+          "mileage": "11.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Rubicon",
+          "power": "2.0 Turbo 4WD AT",
+          "engine": "p20t",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed torque converter",
+          "drivetrain": "4WD",
+          "priceInr": 7230000,
+          "mileage": "10.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2024 Jeep Wrangler Unlimited Rubicon (United States) front view.png",
+          "license": "CC BY 3.0",
+          "artist": "Autosdeprimera",
+          "note": "US model, same design",
+          "local": "photos/jeep-wrangler-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Front: US-market 2024-facelift Wrangler Unlimited Rubicon at a motor show (doors removed, show backdrop) - closest acceptable. Rear: no clean facelift 4-door rear found; rejected US 2-door dealer photos with windscreen stickers and pre-facelift Moscow street shots.",
+      "sources": [
+        "https://www.carwale.com/jeep-cars/wrangler/",
+        "https://www.cardekho.com/jeep/wrangler/specs",
+        "https://www.cardekho.com/jeep/wrangler/price-in-new-delhi"
+      ],
+      "notes": "Price conflict: CarWale Unlimited 67.70L / Rubicon 72.30L vs CarDekho 66.20L / 70.80L; CarWale used. Special editions omitted (Willys 41 72.80L, Whitecap 73.55L). Fuel tank and per-trim wheel sizes not confirmed (17/18-inch mentioned). Rubicon feature differences not detailed in sources."
+    }
+  ]
+}

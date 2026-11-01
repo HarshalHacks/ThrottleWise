@@ -1,0 +1,2520 @@
+{
+  "cars": [
+    {
+      "id": "mahindra-scorpio-n",
+      "brand": "Mahindra",
+      "model": "Scorpio-N",
+      "bodyType": "SUV",
+      "seats": 7,
+      "fuelTankL": 57,
+      "priceNote": "CarDekho New Delhi ex-showroom, Oct 2026 (trim ranges cross-checked with CarWale, Oct 2026)",
+      "engines": {
+        "p20-mt": {
+          "type": "2.0 mStallion turbo-petrol (manual tune)",
+          "cylinders": 4,
+          "displacementCc": 1997,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 200,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 370,
+          "maxTorqueRpm": null
+        },
+        "p20-at": {
+          "type": "2.0 mStallion turbo-petrol (automatic tune)",
+          "cylinders": 4,
+          "displacementCc": 1997,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 200,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 380,
+          "maxTorqueRpm": null
+        },
+        "d22-132": {
+          "type": "2.2 mHawk diesel, 132 PS tune",
+          "cylinders": 4,
+          "displacementCc": 2198,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 130,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 300,
+          "maxTorqueRpm": null
+        },
+        "d22-175-mt": {
+          "type": "2.2 mHawk diesel, 175 PS tune (manual)",
+          "cylinders": 4,
+          "displacementCc": 2198,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 172.5,
+          "maxPowerRpm": null,
+          "maxTorqueNm": 370,
+          "maxTorqueRpm": null
+        },
+        "d22-175-at": {
+          "type": "2.2 mHawk diesel, 175 PS tune (automatic)",
+          "cylinders": 4,
+          "displacementCc": 2198,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 172.5,
+          "maxPowerRpm": 3500,
+          "maxTorqueNm": 400,
+          "maxTorqueRpm": "1750-2750"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Z2",
+          "wheels": "17-inch steel",
+          "airbags": 2,
+          "features": [
+            "2 airbags",
+            "ESC",
+            "ABS with EBD",
+            "Hill-hold and hill-descent control",
+            "Touchscreen infotainment",
+            "Manual AC",
+            "LED tail-lamps",
+            "Steering-mounted controls"
+          ]
+        },
+        {
+          "trim": "Z4",
+          "wheels": "17-inch steel with covers",
+          "airbags": 2,
+          "features": [
+            "Cruise control",
+            "Electrically adjustable ORVMs",
+            "Driver seat height adjust with lumbar support",
+            "Wired Android Auto and Apple CarPlay",
+            "Rear AC blower control",
+            "Rear wiper, washer and defogger",
+            "Roof rails and rear spoiler",
+            "Automatic and 4WD options"
+          ]
+        },
+        {
+          "trim": "Z6",
+          "wheels": "17-inch steel with covers",
+          "airbags": 2,
+          "features": [
+            "Electric sunroof",
+            "Rear parking camera",
+            "Zip/Zap/Zoom drive modes",
+            "6 speakers"
+          ]
+        },
+        {
+          "trim": "Z8S",
+          "wheels": "17-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "LED projector headlamps with sequential indicators",
+            "12.3-inch touchscreen",
+            "10.25-inch digital driver display",
+            "Wireless Android Auto and Apple CarPlay",
+            "Leatherette upholstery",
+            "Front camera",
+            "65W USB-C fast charging"
+          ]
+        },
+        {
+          "trim": "Z8",
+          "wheels": "17-inch alloy",
+          "airbags": 6,
+          "features": [
+            "Dual-zone climate control",
+            "Keyless entry with push-button start",
+            "Wireless phone charger",
+            "Auto headlamps and rain-sensing wipers",
+            "Power-folding ORVMs",
+            "Tyre pressure monitoring"
+          ]
+        },
+        {
+          "trim": "Z8T",
+          "wheels": "18-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "18-inch diamond-cut alloy wheels",
+            "Ventilated front seats",
+            "6-way powered driver seat",
+            "12-speaker Sony sound system",
+            "Electronic parking brake with auto hold",
+            "Auto-dimming IRVM",
+            "4WD option with terrain modes (diesel)"
+          ]
+        },
+        {
+          "trim": "Z8L",
+          "wheels": "18-inch diamond-cut alloy",
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "540-degree surround camera",
+            "Blind-view monitor",
+            "Level 2 ADAS (AEB, lane-keep assist)",
+            "Adaptive cruise control (AT only)",
+            "Optional 6-seat layout with captain seats"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Z2",
+          "power": "2.0 Petrol MT",
+          "engine": "p20-mt",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1369000,
+          "mileage": "12.17 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Z2",
+          "power": "2.2 Diesel MT",
+          "engine": "d22-132",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1419000,
+          "mileage": "15.94 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine (132 PS tune)"
+          ]
+        },
+        {
+          "trim": "Z4",
+          "power": "2.0 Petrol MT",
+          "engine": "p20-mt",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1557000,
+          "mileage": "12.17 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Z4",
+          "power": "2.2 Diesel MT",
+          "engine": "d22-132",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1612000,
+          "mileage": "15.94 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine (132 PS tune)"
+          ]
+        },
+        {
+          "trim": "Z4",
+          "power": "2.0 Petrol AT",
+          "engine": "p20-at",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 1716000,
+          "mileage": "12.12 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Z4",
+          "power": "2.2 Diesel AT",
+          "engine": "d22-175-at",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 1768000,
+          "mileage": "15.42 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine (175 PS tune)",
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Z4",
+          "power": "2.2 Diesel 4WD MT",
+          "engine": "d22-132",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "4WD",
+          "priceInr": 1803000,
+          "mileage": "15.94 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "4WD (4Xplor)"
+          ]
+        },
+        {
+          "trim": "Z6",
+          "power": "2.2 Diesel MT",
+          "engine": "d22-175-mt",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1717000,
+          "mileage": "15.94 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Z6",
+          "power": "2.2 Diesel AT",
+          "engine": "d22-175-at",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 1882000,
+          "mileage": "15.42 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Z8S",
+          "power": "2.0 Petrol MT",
+          "engine": "p20-mt",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1779000,
+          "mileage": "12.17 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Z8S",
+          "power": "2.2 Diesel MT",
+          "engine": "d22-175-mt",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1879000,
+          "mileage": "15.94 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine"
+          ]
+        },
+        {
+          "trim": "Z8S",
+          "power": "2.0 Petrol AT",
+          "engine": "p20-at",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 1926000,
+          "mileage": "12.12 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Z8S",
+          "power": "2.2 Diesel AT",
+          "engine": "d22-175-at",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 1989000,
+          "mileage": "15.42 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine",
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Z8",
+          "power": "2.2 Diesel MT",
+          "engine": "d22-175-mt",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1986000,
+          "mileage": "15.94 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Z8",
+          "power": "2.2 Diesel AT",
+          "engine": "d22-175-at",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 2141000,
+          "mileage": "15.42 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Z8T",
+          "power": "2.0 Petrol MT",
+          "engine": "p20-mt",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 2038000,
+          "mileage": "12.17 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Z8T",
+          "power": "2.2 Diesel MT",
+          "engine": "d22-175-mt",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 2065000,
+          "mileage": "15.94 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine"
+          ]
+        },
+        {
+          "trim": "Z8T",
+          "power": "2.0 Petrol AT",
+          "engine": "p20-at",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 2185000,
+          "mileage": "12.12 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Z8T",
+          "power": "2.2 Diesel AT",
+          "engine": "d22-175-at",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 2235000,
+          "mileage": "15.42 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine",
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Z8T",
+          "power": "2.2 Diesel 4WD MT",
+          "engine": "d22-175-mt",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "4WD",
+          "priceInr": 2286000,
+          "mileage": "15.94 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "4WD with terrain modes",
+            "Electronic brake-locking differential"
+          ]
+        },
+        {
+          "trim": "Z8T",
+          "power": "2.2 Diesel 4WD AT",
+          "engine": "d22-175-at",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "4WD",
+          "priceInr": 2439000,
+          "mileage": "15.42 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "4WD with terrain modes",
+            "Electronic brake-locking differential",
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Z8L",
+          "power": "2.0 Petrol MT",
+          "engine": "p20-mt",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 2131000,
+          "mileage": "12.17 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Z8L",
+          "power": "2.0 Petrol MT 6-seat",
+          "engine": "p20-mt",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 2169000,
+          "mileage": "12.17 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-seat layout with second-row captain seats"
+          ]
+        },
+        {
+          "trim": "Z8L",
+          "power": "2.2 Diesel MT",
+          "engine": "d22-175-mt",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 2199000,
+          "mileage": "15.94 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine"
+          ]
+        },
+        {
+          "trim": "Z8L",
+          "power": "2.2 Diesel MT 6-seat",
+          "engine": "d22-175-mt",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 2247000,
+          "mileage": "15.94 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine",
+            "6-seat layout with second-row captain seats"
+          ]
+        },
+        {
+          "trim": "Z8L",
+          "power": "2.0 Petrol AT",
+          "engine": "p20-at",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 2287000,
+          "mileage": "12.12 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Adaptive cruise control"
+          ]
+        },
+        {
+          "trim": "Z8L",
+          "power": "2.0 Petrol AT 6-seat",
+          "engine": "p20-at",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 2305000,
+          "mileage": "12.12 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Adaptive cruise control",
+            "6-seat layout with second-row captain seats"
+          ]
+        },
+        {
+          "trim": "Z8L",
+          "power": "2.2 Diesel AT",
+          "engine": "d22-175-at",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 2359000,
+          "mileage": "15.42 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine",
+            "6-speed torque-converter automatic",
+            "Adaptive cruise control"
+          ]
+        },
+        {
+          "trim": "Z8L",
+          "power": "2.2 Diesel AT 6-seat",
+          "engine": "d22-175-at",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 2399000,
+          "mileage": "15.42 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine",
+            "6-speed torque-converter automatic",
+            "Adaptive cruise control",
+            "6-seat layout with second-row captain seats"
+          ]
+        },
+        {
+          "trim": "Z8L",
+          "power": "2.2 Diesel 4WD MT",
+          "engine": "d22-175-mt",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "4WD",
+          "priceInr": 2425000,
+          "mileage": "15.94 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "4WD with terrain modes",
+            "Electronic brake-locking differential"
+          ]
+        },
+        {
+          "trim": "Z8L",
+          "power": "2.2 Diesel 4WD AT",
+          "engine": "d22-175-at",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "4WD",
+          "priceInr": 2549000,
+          "mileage": "15.42 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "4WD with terrain modes",
+            "Electronic brake-locking differential",
+            "6-speed torque-converter automatic",
+            "Adaptive cruise control"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "local": "photos/mahindra-scorpio-n-front.jpg",
+          "artist": "Saved by site owner"
+        },
+        "rear": {
+          "local": "photos/mahindra-scorpio-n-rear.jpg",
+          "artist": "Saved by site owner"
+        }
+      },
+      "photoNotes": "Front and rear supplied by the site owner (21 Oct 2026).",
+      "sources": [
+        "https://www.cardekho.com/mahindra/scorpio-n/variants.htm",
+        "https://www.carwale.com/mahindra-cars/scorpio-n/",
+        "https://www.autocarindia.com/cars/mahindra/scorpio-n",
+        "https://www.autocarindia.com/auto-features-amp/which-2026-mahindra-scorpio-n-variant-should-you-buy-440881",
+        "https://www.cardekho.com/india-car-news/2026-mahindra-scorpio-n-facelift-variantwise-features-explained-36452.htm",
+        "https://www.carcentral.in/mahindra/scorpio-n/specifications",
+        "https://auto.mahindra.com/suv/scorpio-n/SCN.html"
+      ],
+      "notes": "Current model is the facelift launched 5 Aug 2026, with new Z8S and Z8T trims. Engines are carried over unchanged. Mahindra's site (JS-rendered) only gave the Rs 13.69-25.49 lakh range, so variant prices are CarDekho's lakh figures converted to rupees (rounded to Rs 1,000). They match CarWale's trim ranges except Z4 top (18.02 vs 18.03) and Z8S top (CarWale 19.99 vs CarDekho/Autocar 19.89). Engine kW/rpm figures come from carcentral.in, consistent with Mahindra's older brochure figures (149.14 kW, 128.6 kW, 97 kW); bhp is converted from PS. Autocar quotes petrol power as 203 hp. Diesel displacement is 2198 cc per CarDekho but 2184 cc per Autocar. The 132 PS diesel tune is on Z2 and Z4 manuals per Autocar; the Z4 4WD MT tune is not separately confirmed. Mahindra has published no ARAI mileage for the facelift (Autocar and CarDekho), so mileage is null. Feature conflicts: CarDekho puts the sunroof and wireless Android Auto/CarPlay on Z4, but Autocar puts the sunroof on Z6 and wired connectivity on Z4; Autocar is used here. Z2 screen is 8 inches per Autocar and 9 inches per CarDekho. CarDekho says Level 2 ADAS is AT-only on Z8L, while Autocar says only adaptive cruise control and speed-limit assist are AT-only. Seats: 7, or 6 on Z8L 6-seat variants. Update 21 Oct 2026: mileage filled with pre-facelift ARAI figures (petrol MT 12.17, AT 12.12; diesel MT 15.94, AT 15.42 kmpl) as listed by ZigWheels, Bajaj Finserv, Spinny and Autocar's pre-facelift page, since the engines are carried over; Mahindra has still published no facelift figures (Autocar mileage page, 14 Oct 2026, shows NA). No separate figures exist for 4WD or the 132 PS diesel tune, so the fuel/gearbox figure is applied to them. One Cartoq report gives diesel MT as 15.42 instead. Prices re-checked against CarDekho (all 31 unchanged) and CarWale trim ranges (Mumbai; same conflicts as before: Z4 top 18.02 vs 18.03, Z8S top 19.99 vs 19.89). Photos: none found. Spec audit 21 Oct 2026: all engine figures confirmed\nSpec audit 21 Oct 2026: p20-mt.maxPowerRpm 5000->None; p20-mt.maxTorqueRpm 1750-3000->None; p20-at.maxPowerRpm 5000->None; p20-at.maxTorqueRpm 1750-3000->None; d22-132.maxPowerRpm 3750->None; d22-132.maxTorqueRpm 1600-2800->None; d22-175-mt.maxPowerRpm 3500->None; d22-175-mt.maxTorqueRpm 1500-3000->None (unconfirmed rpm set null)"
+    },
+    {
+      "id": "mahindra-xuv700",
+      "brand": "Mahindra",
+      "model": "XUV 7XO",
+      "bodyType": "SUV",
+      "seats": 7,
+      "fuelTankL": 60,
+      "priceNote": "CarDekho New Delhi ex-showroom, Oct 2026 (CarWale Mumbai ranges checked Oct 2026)",
+      "engines": {
+        "p20": {
+          "type": "2.0 mStallion turbo-petrol",
+          "cylinders": 4,
+          "displacementCc": 1997,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 200,
+          "maxPowerRpm": 5000,
+          "maxTorqueNm": 380,
+          "maxTorqueRpm": "1750-3000"
+        },
+        "d22-mt": {
+          "type": "2.2 mHawk diesel (manual)",
+          "cylinders": 4,
+          "displacementCc": 2198,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 182.5,
+          "maxPowerRpm": 3500,
+          "maxTorqueNm": 420,
+          "maxTorqueRpm": null
+        },
+        "d22-at": {
+          "type": "2.2 mHawk diesel (automatic)",
+          "cylinders": 4,
+          "displacementCc": 2198,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 182.5,
+          "maxPowerRpm": 3500,
+          "maxTorqueNm": 450,
+          "maxTorqueRpm": "1750-2800"
+        }
+      },
+      "trims": [
+        {
+          "trim": "AX",
+          "wheels": "17-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESC",
+            "LED projector headlamps",
+            "12.3-inch touchscreen",
+            "12.3-inch digital driver display",
+            "Cruise control",
+            "Push-button start",
+            "Rear parking sensors"
+          ]
+        },
+        {
+          "trim": "AX3",
+          "wheels": "17-inch steel",
+          "airbags": 6,
+          "features": [
+            "Rear parking camera",
+            "Auto-folding electric ORVMs",
+            "Rear wiper, washer and demister",
+            "Automatic gearbox option"
+          ]
+        },
+        {
+          "trim": "AX5",
+          "wheels": "17-inch styled steel",
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "Telescopic steering adjustment",
+            "Front parking sensors",
+            "Styled 17-inch wheels"
+          ]
+        },
+        {
+          "trim": "AX7",
+          "wheels": "18-inch alloy",
+          "airbags": 6,
+          "features": [
+            "18-inch alloy wheels",
+            "Leatherette upholstery",
+            "6-way powered driver seat with memory",
+            "Dual-zone climate control",
+            "540-degree camera with blind-view monitor",
+            "Auto headlamps and rain-sensing wipers",
+            "Tyre pressure monitoring",
+            "65W USB-C for second row"
+          ]
+        },
+        {
+          "trim": "AX7T",
+          "wheels": null,
+          "airbags": 7,
+          "features": [
+            "Level 2 ADAS",
+            "Adaptive cruise control (AT only)",
+            "Ventilated front seats",
+            "16-speaker Harman Kardon with Dolby Atmos",
+            "Driver knee airbag",
+            "Electronic parking brake",
+            "Front wireless charging",
+            "Sequential turn indicators"
+          ]
+        },
+        {
+          "trim": "AX7L",
+          "wheels": "19-inch alloy",
+          "airbags": 7,
+          "features": [
+            "19-inch alloy wheels",
+            "Ambient lighting",
+            "Powered co-driver seat",
+            "Ventilated second-row seats",
+            "Second-row wireless charging",
+            "Rear sunshades"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "AX",
+          "power": "2.0 Petrol MT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1399000,
+          "mileage": "15 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "AX",
+          "power": "2.2 Diesel MT",
+          "engine": "d22-mt",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1536000,
+          "mileage": "17 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine"
+          ]
+        },
+        {
+          "trim": "AX3",
+          "power": "2.0 Petrol MT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1637000,
+          "mileage": "15 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "AX3",
+          "power": "2.2 Diesel MT",
+          "engine": "d22-mt",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1687000,
+          "mileage": "17 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine"
+          ]
+        },
+        {
+          "trim": "AX3",
+          "power": "2.0 Petrol AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1788000,
+          "mileage": "13 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "AX3",
+          "power": "2.2 Diesel AT",
+          "engine": "d22-at",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1838000,
+          "mileage": "16.57 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine",
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "AX5",
+          "power": "2.0 Petrol MT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1788000,
+          "mileage": "15 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "AX5",
+          "power": "2.2 Diesel MT",
+          "engine": "d22-mt",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1838000,
+          "mileage": "17 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine"
+          ]
+        },
+        {
+          "trim": "AX5",
+          "power": "2.0 Petrol AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1938000,
+          "mileage": "13 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "AX5",
+          "power": "2.2 Diesel AT",
+          "engine": "d22-at",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1989000,
+          "mileage": "16.57 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine",
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "AX7",
+          "power": "2.0 Petrol MT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1926000,
+          "mileage": "15 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "AX7",
+          "power": "2.2 Diesel MT",
+          "engine": "d22-mt",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1980000,
+          "mileage": "17 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine"
+          ]
+        },
+        {
+          "trim": "AX7",
+          "power": "2.0 Petrol AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 2069000,
+          "mileage": "13 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Remote key cooling"
+          ]
+        },
+        {
+          "trim": "AX7",
+          "power": "2.2 Diesel AT",
+          "engine": "d22-at",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 2116000,
+          "mileage": "16.57 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine",
+            "6-speed torque-converter automatic",
+            "Remote key cooling"
+          ]
+        },
+        {
+          "trim": "AX7T",
+          "power": "2.2 Diesel MT",
+          "engine": "d22-mt",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2179000,
+          "mileage": "17 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "AX7T",
+          "power": "2.2 Diesel MT 6-seat",
+          "engine": "d22-mt",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2199000,
+          "mileage": "17 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-seat layout with second-row captain seats"
+          ]
+        },
+        {
+          "trim": "AX7T",
+          "power": "2.0 Petrol AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 2276000,
+          "mileage": "13 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-petrol engine",
+            "6-speed torque-converter automatic",
+            "Adaptive cruise control"
+          ]
+        },
+        {
+          "trim": "AX7T",
+          "power": "2.0 Petrol AT 6-seat",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 2296000,
+          "mileage": "13 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-petrol engine",
+            "6-speed torque-converter automatic",
+            "Adaptive cruise control",
+            "6-seat layout with second-row captain seats"
+          ]
+        },
+        {
+          "trim": "AX7T",
+          "power": "2.2 Diesel AT",
+          "engine": "d22-at",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 2325000,
+          "mileage": "16.57 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Adaptive cruise control"
+          ]
+        },
+        {
+          "trim": "AX7T",
+          "power": "2.2 Diesel AT 6-seat",
+          "engine": "d22-at",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 2345000,
+          "mileage": "16.57 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Adaptive cruise control",
+            "6-seat layout with second-row captain seats"
+          ]
+        },
+        {
+          "trim": "AX7T",
+          "power": "2.2 Diesel AWD AT",
+          "engine": "d22-at",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "AWD",
+          "priceInr": 2399000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "All-wheel drive",
+            "6-speed torque-converter automatic",
+            "Adaptive cruise control"
+          ]
+        },
+        {
+          "trim": "AX7L",
+          "power": "2.2 Diesel MT",
+          "engine": "d22-mt",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 2340000,
+          "mileage": "17 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "AX7L",
+          "power": "2.0 Petrol AT",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 2429000,
+          "mileage": "13 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-petrol engine",
+            "6-speed torque-converter automatic",
+            "Adaptive cruise control"
+          ]
+        },
+        {
+          "trim": "AX7L",
+          "power": "2.0 Petrol AT 6-seat",
+          "engine": "p20",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 2464000,
+          "mileage": "13 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-petrol engine",
+            "6-speed torque-converter automatic",
+            "Adaptive cruise control",
+            "6-seat layout with second-row captain seats"
+          ]
+        },
+        {
+          "trim": "AX7L",
+          "power": "2.2 Diesel AT",
+          "engine": "d22-at",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 2496000,
+          "mileage": "16.57 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Adaptive cruise control"
+          ]
+        },
+        {
+          "trim": "AX7L",
+          "power": "2.2 Diesel AT 6-seat",
+          "engine": "d22-at",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 2516000,
+          "mileage": "16.57 kmpl (pre-facelift ARAI)",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "Adaptive cruise control",
+            "6-seat layout with second-row captain seats"
+          ]
+        },
+        {
+          "trim": "AX7L",
+          "power": "2.2 Diesel AWD AT",
+          "engine": "d22-at",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "AWD",
+          "priceInr": 2579000,
+          "mileage": null,
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "All-wheel drive",
+            "6-speed torque-converter automatic",
+            "Adaptive cruise control"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2023 Mahindra XUV700 AX7L front.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "LuvsMG481",
+          "note": "Previous XUV700 look, before the XUV 7XO update",
+          "local": "photos/mahindra-xuv700-front.jpg"
+        },
+        "rear": {
+          "file": "File:2023 Mahindra XUV700 AX7L rear.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "LuvsMG481",
+          "note": "Previous XUV700 look, before the XUV 7XO update",
+          "local": "photos/mahindra-xuv700-rear.jpg"
+        }
+      },
+      "photoNotes": "Commons has no XUV 7XO photos. 'Category:Mahindra XUV700' holds only pre-facelift XUV700 images. Examples: 'File:2021 Mahindra XUV700 2.2 AX7 (India) front view.png' and '... rear view.png' (CC BY 3.0, DriveSpark), which are Indian-market but show the old styling, and 2023 AX7L front/rear shots from Australia (CC BY-SA 4.0, LuvsMG481). Re-checked 21 Oct 2026: still no XUV 7XO photos on Commons (searched 'XUV 7XO', '7XO', 'XUV700 2025'); the Indian-market DriveSpark AX7 front/rear views were rejected because they show the pre-facelift XUV700 styling.",
+      "sources": [
+        "https://www.cardekho.com/mahindra/xuv-7xo/variants.htm",
+        "https://www.autocarindia.com/cars/mahindra/XUV-7XO",
+        "https://www.autocarindia.com/cars/mahindra/xuv-7xo/variants",
+        "https://www.autocarindia.com/cars/mahindra/xuv-7xo/specifications",
+        "https://www.cardekho.com/india-car-news/new-mahindra-xuv-7xo-which-variant-gets-what-feature-explained-35509.htm"
+      ],
+      "notes": "Renamed: the XUV700 has been replaced by the facelifted XUV 7XO (feature article dated Jan 2026). The id is kept as mahindra-xuv700 as instructed. 27 variants. Prices are CarDekho lakh figures converted to rupees; the range Rs 13.99-25.79 lakh matches Autocar India. Conflict: Autocar's text gives the AX3 petrol AT at Rs 17.79 lakh vs CarDekho's Rs 17.88 lakh. Mahindra's site could not be read. No ARAI figures are published for the 7XO (Autocar: 'yet to be published'). The mileage shown is the XUV700's ARAI figures as quoted by Autocar (petrol MT 15, AT 13; diesel MT 17, AT 16.57), since the 200 PS petrol and 185 PS/420-450 Nm diesel are carried over. AWD is left null. Petrol power is 200 PS (~200 bhp @ 5000 rpm) per CarDekho and listings but 203 hp per Autocar. Diesel MT torque rpm was not found. Wheels: CarDekho says AX5 gets 17-inch styled steel wheels, but Autocar says alloys start at AX5. AX7T wheel size is not stated. AX7T/AX7L airbag count of 7 rests on the added knee airbag and Autocar's 'tops out with 7 airbags'. Autocar's variants page labels the base trim 'AX2' while other pages use 'AX'. Update 21 Oct 2026: prices re-checked against CarDekho (all 27 unchanged). CarWale (Mumbai) lists more variants (44) and different trim floors (AX7 from 18.63, AX7T from 21.14, AX7L from 22.62 lakh vs CarDekho 19.26/21.79/23.40); its extra variants were not added, and tops match (21.16, 23.99, 25.79). AWD mileage stays null: no ARAI figure is published (CarWale says Mahindra has not revealed 7XO figures; only road tests exist). Rushlane's test mentions a 65 L tank vs 60 L here (not changed). No photos found. Update 21 Oct 2026: photos added from Wikimedia Commons (found via Openverse); labelled where they show an older look or another market. Spec audit 21 Oct 2026: p20 cylinders null -> 4; 2.2 diesel cc 2184 -> 2198 (CarDekho XUV700 lists 2198; Thar uses 2184 variant). d22-mt torque rpm still unconfirmed."
+    },
+    {
+      "id": "mahindra-xuv-3xo",
+      "brand": "Mahindra",
+      "model": "XUV 3XO",
+      "bodyType": "Compact SUV",
+      "seats": 5,
+      "fuelTankL": 42,
+      "priceNote": "CarDekho New Delhi ex-showroom, Oct 2026 (CarWale Mumbai variant ranges match, Oct 2026)",
+      "engines": {
+        "p12": {
+          "type": "1.2 mStallion TCMPFi turbo-petrol",
+          "cylinders": 3,
+          "displacementCc": 1197,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 109.96,
+          "maxPowerRpm": 5000,
+          "maxTorqueNm": 200,
+          "maxTorqueRpm": "1500-3500"
+        },
+        "p12-tgdi": {
+          "type": "1.2 mStallion TGDi turbo-petrol",
+          "cylinders": 3,
+          "displacementCc": 1197,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 128.73,
+          "maxPowerRpm": 5000,
+          "maxTorqueNm": 230,
+          "maxTorqueRpm": "1500-3750"
+        },
+        "d15": {
+          "type": "1.5 diesel",
+          "cylinders": 4,
+          "displacementCc": 1498,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 115.05,
+          "maxPowerRpm": 3750,
+          "maxTorqueNm": 300,
+          "maxTorqueRpm": "1500-2500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "MX1",
+          "wheels": "16-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESC",
+            "Rear parking sensors",
+            "Bi-halogen projector headlamps with LED DRLs",
+            "Manual AC",
+            "Electrically adjustable ORVMs",
+            "60:40 split rear seat",
+            "USB-C ports"
+          ]
+        },
+        {
+          "trim": "REVX M",
+          "wheels": "16-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "10.25-inch touchscreen",
+            "4 speakers",
+            "Remote keyless entry",
+            "Leatherette seats",
+            "Height-adjustable driver seat",
+            "Rear armrest with cupholders",
+            "Dual-tone roof"
+          ]
+        },
+        {
+          "trim": "REVX M (O)",
+          "wheels": "16-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "Single-pane sunroof",
+            "Torque-converter automatic option"
+          ]
+        },
+        {
+          "trim": "MX2",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Diesel-only trim",
+            "10.25-inch touchscreen",
+            "Wired Android Auto and Apple CarPlay",
+            "4 speakers",
+            "Steering-mounted controls",
+            "Keyless entry"
+          ]
+        },
+        {
+          "trim": "REVX Edge",
+          "wheels": "16-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "Wireless Android Auto and Apple CarPlay",
+            "Rear camera",
+            "Cruise control",
+            "Diesel option"
+          ]
+        },
+        {
+          "trim": "REVX Edge (O)",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "Passive keyless entry with push-button start",
+            "Auto headlamps and rain-sensing wipers",
+            "Roof rails",
+            "Electrically folding ORVMs",
+            "Diesel AMT and CNG options"
+          ]
+        },
+        {
+          "trim": "MX Edge",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "CNG-only trim",
+            "Wireless Android Auto and Apple CarPlay",
+            "Cruise control",
+            "Rear camera",
+            "Rear AC vents"
+          ]
+        },
+        {
+          "trim": "AX5",
+          "wheels": "16-inch alloy",
+          "airbags": 6,
+          "features": [
+            "16-inch alloy wheels",
+            "LED projector headlamps",
+            "10.25-inch digital driver display",
+            "Dual-zone climate control",
+            "Single-pane sunroof",
+            "Tyre pressure monitoring",
+            "6 speakers",
+            "65W USB-C charging"
+          ]
+        },
+        {
+          "trim": "REVX A",
+          "wheels": "16-inch black alloy",
+          "airbags": 6,
+          "features": [
+            "131 PS 1.2 TGDi turbo-petrol",
+            "Panoramic sunroof",
+            "Dolby Atmos audio",
+            "Black leatherette seats",
+            "Black alloy wheels",
+            "Wireless phone charger"
+          ]
+        },
+        {
+          "trim": "AX5 L",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Level 2 ADAS",
+            "360-degree camera with blind-view monitor",
+            "Electronic parking brake with auto hold",
+            "Wireless phone charger",
+            "Auto-dimming IRVM",
+            "Cooled glovebox"
+          ]
+        },
+        {
+          "trim": "AX7",
+          "wheels": "17-inch alloy",
+          "airbags": 6,
+          "features": [
+            "17-inch alloy wheels",
+            "Harman Kardon audio with Dolby Atmos",
+            "Front fog lamps",
+            "Front parking sensors",
+            "Leatherette seats and trim",
+            "Panoramic sunroof"
+          ]
+        },
+        {
+          "trim": "AX7 L",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Level 2 ADAS",
+            "360-degree camera with blind-view monitor",
+            "Electronic parking brake with auto hold"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "MX1",
+          "power": "1.2 Turbo MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 779000,
+          "mileage": "18.89 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "REVX M",
+          "power": "1.2 Turbo MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 859000,
+          "mileage": "18.89 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "REVX M (O)",
+          "power": "1.2 Turbo MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 909000,
+          "mileage": "18.89 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "REVX M (O)",
+          "power": "1.2 Turbo AT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 999000,
+          "mileage": "17.96 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "MX2",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual",
+          "drivetrain": "FWD",
+          "priceInr": 936000,
+          "mileage": "20.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "REVX Edge",
+          "power": "1.2 Turbo MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 939000,
+          "mileage": "18.89 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "REVX Edge",
+          "power": "1.2 Turbo AT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1059000,
+          "mileage": "17.96 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "REVX Edge",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual",
+          "drivetrain": "FWD",
+          "priceInr": 1059000,
+          "mileage": "20.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 diesel engine"
+          ]
+        },
+        {
+          "trim": "REVX Edge (O)",
+          "power": "1.2 Turbo MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 989000,
+          "mileage": "18.89 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "REVX Edge (O)",
+          "power": "CNG MT",
+          "engine": "p12",
+          "fuel": "CNG",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1079000,
+          "mileage": "24.7 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit (dual tanks)"
+          ]
+        },
+        {
+          "trim": "REVX Edge (O)",
+          "power": "1.2 Turbo AT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1109000,
+          "mileage": "17.96 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "REVX Edge (O)",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual",
+          "drivetrain": "FWD",
+          "priceInr": 1109000,
+          "mileage": "20.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 diesel engine"
+          ]
+        },
+        {
+          "trim": "REVX Edge (O)",
+          "power": "1.5 Diesel AMT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic (AMT)",
+          "drivetrain": "FWD",
+          "priceInr": 1191000,
+          "mileage": "21.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 diesel engine",
+            "AMT automatic"
+          ]
+        },
+        {
+          "trim": "MX Edge",
+          "power": "CNG MT",
+          "engine": "p12",
+          "fuel": "CNG",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 999000,
+          "mileage": "24.7 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit (dual tanks)"
+          ]
+        },
+        {
+          "trim": "AX5",
+          "power": "1.2 Turbo MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1000000,
+          "mileage": "18.89 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "AX5",
+          "power": "CNG MT",
+          "engine": "p12",
+          "fuel": "CNG",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1119000,
+          "mileage": "24.7 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit (dual tanks)"
+          ]
+        },
+        {
+          "trim": "AX5",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual",
+          "drivetrain": "FWD",
+          "priceInr": 1139000,
+          "mileage": "20.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 diesel engine"
+          ]
+        },
+        {
+          "trim": "AX5",
+          "power": "1.2 Turbo AT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1188000,
+          "mileage": "17.96 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "AX5",
+          "power": "1.5 Diesel AMT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic (AMT)",
+          "drivetrain": "FWD",
+          "priceInr": 1220000,
+          "mileage": "21.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 diesel engine",
+            "AMT automatic"
+          ]
+        },
+        {
+          "trim": "REVX A",
+          "power": "1.2 TGDi MT",
+          "engine": "p12-tgdi",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1128000,
+          "mileage": "20.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "REVX A",
+          "power": "CNG MT",
+          "engine": "p12",
+          "fuel": "CNG",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1227000,
+          "mileage": "24.7 km/kg",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "Factory-fitted CNG kit (dual tanks)",
+            "Uses 1.2 TCMPFi engine instead of TGDi"
+          ]
+        },
+        {
+          "trim": "REVX A",
+          "power": "1.2 TGDi AT",
+          "engine": "p12-tgdi",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1239000,
+          "mileage": "18.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "AX5 L",
+          "power": "1.2 TGDi MT",
+          "engine": "p12-tgdi",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1203000,
+          "mileage": "20.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "AX5 L",
+          "power": "1.2 TGDi AT",
+          "engine": "p12-tgdi",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1328000,
+          "mileage": "18.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "AX7",
+          "power": "1.2 TGDi MT",
+          "engine": "p12-tgdi",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1220000,
+          "mileage": "20.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "AX7",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual",
+          "drivetrain": "FWD",
+          "priceInr": 1304000,
+          "mileage": "20.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 diesel engine"
+          ]
+        },
+        {
+          "trim": "AX7",
+          "power": "1.2 TGDi AT",
+          "engine": "p12-tgdi",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1334000,
+          "mileage": "18.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "AX7",
+          "power": "1.5 Diesel AMT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Automatic (AMT)",
+          "drivetrain": "FWD",
+          "priceInr": 1379000,
+          "mileage": "21.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 diesel engine",
+            "AMT automatic"
+          ]
+        },
+        {
+          "trim": "AX7 L",
+          "power": "1.2 TGDi MT",
+          "engine": "p12-tgdi",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1332000,
+          "mileage": "20.1 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "AX7 L",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual",
+          "drivetrain": "FWD",
+          "priceInr": 1407000,
+          "mileage": "20.6 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 diesel engine"
+          ]
+        },
+        {
+          "trim": "AX7 L",
+          "power": "1.2 TGDi AT",
+          "engine": "p12-tgdi",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1504000,
+          "mileage": "18.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Mahindra XUV 3XO 2025.jpg",
+          "license": "CC0",
+          "artist": "Sreedit",
+          "local": "photos/mahindra-xuv-3xo-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Front: Indian-market car photographed near Pune (GPS), front three-quarter view, with other cars parked in the background. Rear: the only rear shot is 'File:2025 Mahindra XUV 3XO AX7L rear.jpg' (CC BY-SA 4.0, LuvsMG481), which is an Australian-market car in Bondi, NSW. It is left null because the brief asks for Indian-market photos; use it if that rule can be relaxed. Re-checked 21 Oct 2026: still no Indian-market rear photo on Commons. The Australian AX7L rear shot is also a rear three-quarter (not straight-on) with people in the background, so it was rejected again.",
+      "sources": [
+        "https://www.cardekho.com/mahindra/xuv-3xo/variants.htm",
+        "https://www.cardekho.com/mahindra/xuv-3xo",
+        "https://www.cardekho.com/mahindra/xuv-3xo/specs",
+        "https://www.autocarindia.com/cars/mahindra/xuv-3xo/variants",
+        "https://www.autocarindia.com/car-news-amp/mahindra-xuv-3xo-cng-launched-at-rs-999-lakh-441040",
+        "https://en.wikipedia.org/wiki/Mahindra_XUV_3XO"
+      ],
+      "notes": "Line-up updated in 2026 with RevX M/M(O), RevX Edge/Edge(O) (Sept 2026) and the CNG ('ZNG'), launched 15 Oct 2026 with deliveries from 20 Oct. Older MX2 Pro, MX3 and MX3 Pro trims are gone. EV (XUV 3XO EV) is skipped. 31 variants. Trims are not a strict ladder: there are parallel MX, RevX and AX lines, so they are ordered by starting price and each feature list is relative to the nearest lower trim in its line (as CarDekho and Autocar describe them). The CNG runs on the 1.2 TCMPFi engine with the same 111 PS/200 Nm as on petrol, per Autocar, and is certified at 24.7 km/kg. Mileage is CarDekho's ARAI listing. TCMPFi AT is 17.96 kmpl in most listings, but CarDekho's RevX M(O) AT row shows 18.89. The RevX Edge (O) diesel AMT figure is not listed, so the 21.2 kmpl powertrain figure is used. TCMPFi and diesel rpm figures are from Wikipedia and launch reports. Cylinder counts for the TCMPFi and diesel, and diesel gearbox speeds, are not confirmed. Feature conflict: CarDekho says RevX M(O) adds a single-pane sunroof, but one Autocar variant page shows a panoramic sunroof. Several mid-trim wheel sizes are not stated (null). Mahindra's site could not be read. Update 21 Oct 2026: prices re-checked against CarDekho and CarWale; all 31 unchanged (CarWale's summary gives AX7L from 13.33 vs 13.32 in its own table). Mileage unchanged. No new rear photo found. Spec audit 21 Oct 2026: p12 cylinders null -> 3, d15 cylinders null -> 4. CNG variants on p12 confirmed (Mahindra: same 111 hp/200 Nm on CNG). Other figures confirmed."
+    },
+    {
+      "id": "mahindra-bolero",
+      "brand": "Mahindra",
+      "model": "Bolero",
+      "bodyType": "SUV",
+      "seats": 7,
+      "fuelTankL": 60,
+      "priceNote": "CarDekho New Delhi ex-showroom, Oct 2026 (CarWale Mumbai average prices checked Oct 2026)",
+      "engines": {
+        "d15": {
+          "type": "1.5 mHawk75 diesel",
+          "cylinders": 3,
+          "displacementCc": 1493,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 75,
+          "maxPowerRpm": 3600,
+          "maxTorqueNm": 210,
+          "maxTorqueRpm": "1600-2200"
+        }
+      },
+      "trims": [
+        {
+          "trim": "B4",
+          "wheels": "15-inch steel",
+          "airbags": 2,
+          "features": [
+            "Dual front airbags",
+            "ABS",
+            "Reverse parking sensor",
+            "Digital instrument cluster",
+            "AC with heater",
+            "Power steering",
+            "Vinyl upholstery",
+            "Halogen headlamps"
+          ]
+        },
+        {
+          "trim": "B6",
+          "wheels": null,
+          "airbags": 2,
+          "features": [
+            "Power windows",
+            "Central locking",
+            "7-inch touchscreen with Bluetooth",
+            "Steering-mounted audio controls",
+            "Fabric seats",
+            "USB Type-C ports",
+            "Chrome grille bezel"
+          ]
+        },
+        {
+          "trim": "B6 (O)",
+          "wheels": null,
+          "airbags": 2,
+          "features": [
+            "Front fog lamps",
+            "Cornering headlamps",
+            "Rear wiper and washer",
+            "Multi-info display"
+          ]
+        },
+        {
+          "trim": "B8",
+          "wheels": "15-inch diamond-cut alloy",
+          "airbags": 2,
+          "features": [
+            "15-inch diamond-cut alloy wheels",
+            "Leatherette upholstery"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "B4",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "RWD",
+          "priceInr": 857000,
+          "mileage": "16.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "B6",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "RWD",
+          "priceInr": 937000,
+          "mileage": "16.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "B6 (O)",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "RWD",
+          "priceInr": 969000,
+          "mileage": "16.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "B8",
+          "power": "1.5 Diesel MT",
+          "engine": "d15",
+          "fuel": "Diesel",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "RWD",
+          "priceInr": 999000,
+          "mileage": "16.5 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Mahindra Bolero ZLX.jpg",
+          "license": "CC BY-SA 3.0",
+          "artist": "RaNK001",
+          "note": "Older Bolero look",
+          "local": "photos/mahindra-bolero-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Category:Mahindra Bolero on Commons holds only older (pre-2025) Boleros, mostly police or fleet vehicles, or unrelated images. Nothing shows the Oct 2025 facelift (B4/B6/B8, new vertical-slat grille). Re-checked 21 Oct 2026: still nothing of the Oct 2025 facelift on Commons; the newest Bolero shots (e.g. 'File:201X Mahindra Bolero of Kerala Police.jpg') show the older model with police livery, so were rejected.",
+      "sources": [
+        "https://www.cardekho.com/mahindra/bolero/variants.htm",
+        "https://www.autocarindia.com/cars/mahindra/bolero",
+        "https://www.carwale.com/mahindra-cars/bolero/",
+        "https://gaadify.com/2025-mahindra-bolero-variant-wise-features-explained/"
+      ],
+      "notes": "Covers the Bolero (not the Bolero Neo). Current model is the facelift launched 6 Oct 2025, with B8 as the new top trim; launch prices were Rs 7.99-9.69 lakh, raised since then (incl. May 2026 hike). Price conflict: CarWale lists B4 at Rs 8.49 lakh and B6 at Rs 9.29 lakh vs CarDekho's 8.57 and 9.37. CarDekho and Autocar agree on B4 (8.57), so CarDekho is used. Autocar gives no B6 ex-showroom price. Mileage is null because sources disagree and none is from Mahindra: Autocar says 16.5 kmpl 'ARAI claimed', CarDekho lists 16 kmpl, and CarWale gives only user-reported 16.5. Power is 75 bhp per CarWale/CarDekho, 76 hp per Autocar's spec table and 71 hp in Autocar's review. Rpm and the 60 L tank come from secondary spec listings (not manufacturer). Wheel size for B6/B6 (O) is not stated. Tyre size varies between sources. Update 21 Oct 2026: mileage set to 16.5 kmpl for all variants, the ARAI figure on Autocar India's mileage page (updated 14 Oct 2026). Conflict: CarDekho lists 16 kmpl; CarWale gives only a user-reported 16.5. Prices re-checked: CarDekho unchanged (8.57/9.37/9.69/9.99 lakh); CarWale (Mumbai average) still shows B4 8.49 and B6 9.29, B6 (O) and B8 match. No photos found. Update 21 Oct 2026: photos added from Wikimedia Commons (found via Openverse); labelled where they show an older look or another market. Spec audit 21 Oct 2026: all engine figures confirmed\nSpec audit 21 Oct 2026: all engine figures confirmed"
+    },
+    {
+      "id": "mahindra-thar-roxx",
+      "brand": "Mahindra",
+      "model": "Thar ROXX",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 57,
+      "priceNote": "CarDekho New Delhi ex-showroom, Oct 2026 (CarWale Mumbai ranges checked Oct 2026)",
+      "engines": {
+        "p20-mt": {
+          "type": "2.0 mStallion TGDi turbo-petrol (manual tune)",
+          "cylinders": 4,
+          "displacementCc": 1997,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 160,
+          "maxPowerRpm": 5000,
+          "maxTorqueNm": 330,
+          "maxTorqueRpm": "1750-3000"
+        },
+        "p20-at": {
+          "type": "2.0 mStallion TGDi turbo-petrol (automatic tune)",
+          "cylinders": 4,
+          "displacementCc": 1997,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 174,
+          "maxPowerRpm": 5000,
+          "maxTorqueNm": 380,
+          "maxTorqueRpm": "1750-3000"
+        },
+        "d22-152": {
+          "type": "2.2 mHawk diesel, 152 PS tune",
+          "cylinders": 4,
+          "displacementCc": 2184,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 150,
+          "maxPowerRpm": 3750,
+          "maxTorqueNm": 330,
+          "maxTorqueRpm": "1500-3000"
+        },
+        "d22-175": {
+          "type": "2.2 mHawk diesel, 175 PS tune",
+          "cylinders": 4,
+          "displacementCc": 2184,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 172,
+          "maxPowerRpm": 3500,
+          "maxTorqueNm": 370,
+          "maxTorqueRpm": "1500-3000"
+        },
+        "d22-star-at": {
+          "type": "2.2 mHawk diesel (Star Edition AT, 175 PS tune)",
+          "cylinders": 4,
+          "displacementCc": 2184,
+          "aspiration": "Turbocharged diesel",
+          "maxPowerBhp": 172,
+          "maxPowerRpm": 3500,
+          "maxTorqueNm": 370,
+          "maxTorqueRpm": "1500-3000"
+        }
+      },
+      "trims": [
+        {
+          "trim": "MX1",
+          "wheels": "18-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "ESC",
+            "LED projector headlamps",
+            "Touchscreen infotainment",
+            "Push-button start",
+            "Manual AC",
+            "Rear parking sensors",
+            "Fabric seats"
+          ]
+        },
+        {
+          "trim": "MX3",
+          "wheels": "Steel with wheel covers",
+          "airbags": 6,
+          "features": [
+            "Rear camera",
+            "Cruise control",
+            "Auto headlamps and wipers",
+            "Electrically adjustable ORVMs",
+            "Auto-dimming IRVM",
+            "Rear wiper and washer",
+            "Automatic gearbox option"
+          ]
+        },
+        {
+          "trim": "MX5",
+          "wheels": "18-inch alloy",
+          "airbags": 6,
+          "features": [
+            "18-inch alloy wheels",
+            "Single-pane sunroof",
+            "LED DRLs and fog lamps",
+            "Leatherette seats",
+            "Wireless Android Auto and Apple CarPlay",
+            "Rear AC vents",
+            "Front parking sensors",
+            "Tyre pressure monitoring"
+          ]
+        },
+        {
+          "trim": "AX3L",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Level 2 ADAS",
+            "10.25-inch digital driver display",
+            "Automatic climate control",
+            "Leatherette dashboard and door inserts"
+          ]
+        },
+        {
+          "trim": "Star Edition",
+          "wheels": "19-inch piano-black alloy",
+          "airbags": 6,
+          "features": [
+            "Piano-black 19-inch alloys and grille",
+            "All-black interior with suede accents",
+            "Panoramic sunroof",
+            "Ventilated front seats",
+            "9-speaker Harman Kardon audio",
+            "360-degree camera",
+            "Wireless phone charger",
+            "No ADAS"
+          ]
+        },
+        {
+          "trim": "AX5L",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Level 2 ADAS with adaptive cruise control",
+            "Sunroof",
+            "Connected car tech with Alexa",
+            "Rear seat recline",
+            "Remote engine start"
+          ]
+        },
+        {
+          "trim": "AX7L",
+          "wheels": "19-inch alloy",
+          "airbags": 6,
+          "features": [
+            "19-inch alloy wheels",
+            "Panoramic sunroof",
+            "Ventilated front seats",
+            "Powered driver seat",
+            "Harman Kardon audio with Dolby Atmos",
+            "360-degree camera with blind-spot monitor",
+            "Full Level 2 ADAS"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "MX1",
+          "power": "2.0 Petrol MT",
+          "engine": "p20-mt",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1252000,
+          "mileage": "12.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "MX1",
+          "power": "2.2 Diesel MT",
+          "engine": "d22-152",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1423000,
+          "mileage": "15.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine"
+          ]
+        },
+        {
+          "trim": "MX3",
+          "power": "2.0 Petrol AT",
+          "engine": "p20-at",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 1528000,
+          "mileage": "12.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "MX3",
+          "power": "2.2 Diesel MT",
+          "engine": "d22-152",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1628000,
+          "mileage": "15.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine",
+            "6-speed manual"
+          ]
+        },
+        {
+          "trim": "MX3",
+          "power": "2.2 Diesel AT",
+          "engine": "d22-152",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 1782000,
+          "mileage": "15.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine"
+          ]
+        },
+        {
+          "trim": "MX5",
+          "power": "2.0 Petrol MT",
+          "engine": "p20-mt",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1664000,
+          "mileage": "12.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "MX5",
+          "power": "2.2 Diesel MT",
+          "engine": "d22-152",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1707000,
+          "mileage": "15.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine"
+          ]
+        },
+        {
+          "trim": "MX5",
+          "power": "2.0 Petrol AT",
+          "engine": "p20-at",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 1815000,
+          "mileage": "12.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "MX5",
+          "power": "2.2 Diesel AT",
+          "engine": "d22-152",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 1865000,
+          "mileage": "15.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine",
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "MX5",
+          "power": "2.2 Diesel 4WD MT",
+          "engine": "d22-152",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "4WD",
+          "priceInr": 1942000,
+          "mileage": "15.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.2 diesel engine",
+            "4x4 with lockable differential and terrain modes"
+          ]
+        },
+        {
+          "trim": "AX3L",
+          "power": "2.2 Diesel MT",
+          "engine": "d22-152",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1728000,
+          "mileage": "15.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Star Edition",
+          "power": "2.2 Diesel MT",
+          "engine": "d22-152",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1797000,
+          "mileage": "15.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Star Edition",
+          "power": "2.0 Petrol AT",
+          "engine": "p20-at",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 1898000,
+          "mileage": "12.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-petrol engine",
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Star Edition",
+          "power": "2.2 Diesel AT",
+          "engine": "d22-star-at",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 1948000,
+          "mileage": "15.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "AX5L",
+          "power": "2.2 Diesel AT",
+          "engine": "d22-175",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 1941000,
+          "mileage": "15.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "AX5L",
+          "power": "2.2 Diesel 4WD AT",
+          "engine": "d22-175",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "4WD",
+          "priceInr": 2167000,
+          "mileage": "15.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "4x4 with lockable differential and terrain modes"
+          ]
+        },
+        {
+          "trim": "AX7L",
+          "power": "2.2 Diesel MT",
+          "engine": "d22-152",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "RWD",
+          "priceInr": 1957000,
+          "mileage": "15.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "AX7L",
+          "power": "2.0 Petrol AT",
+          "engine": "p20-at",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 2000000,
+          "mileage": "12.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "2.0 turbo-petrol engine",
+            "6-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "AX7L",
+          "power": "2.2 Diesel AT",
+          "engine": "d22-175",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "RWD",
+          "priceInr": 2083000,
+          "mileage": "15.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed torque-converter automatic",
+            "175 PS diesel tune"
+          ]
+        },
+        {
+          "trim": "AX7L",
+          "power": "2.2 Diesel 4WD MT",
+          "engine": "d22-152",
+          "fuel": "Diesel",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "4WD",
+          "priceInr": 2212000,
+          "mileage": "15.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "4x4 with lockable differential and terrain modes"
+          ]
+        },
+        {
+          "trim": "AX7L",
+          "power": "2.2 Diesel 4WD AT",
+          "engine": "d22-175",
+          "fuel": "Diesel",
+          "transmission": "Automatic, 6-speed torque converter",
+          "drivetrain": "4WD",
+          "priceInr": 2352000,
+          "mileage": "15.2 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "4x4 with lockable differential and terrain modes",
+            "6-speed torque-converter automatic",
+            "175 PS diesel tune"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:Mahindra Thar ROXX on rocks (cropped).jpg",
+          "license": "CC BY 4.0",
+          "artist": "The Drivers Hub",
+          "local": "photos/mahindra-thar-roxx-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Front (21 Oct 2026): replaced the full 'File:Mahindra Thar ROXX on rocks.jpg' (car small in frame) with its cropped version 'File:Mahindra Thar ROXX on rocks (cropped).jpg', where the white Indian-plated (MH) car fills the frame. It is still a front three-quarter view on a rocky off-road background; Commons has no straight-on front. 'File:Mahindra Thar ROXX on dirt.jpg' is a similar but smaller-in-frame alternative. Rear: Commons has no rear photo of the Thar ROXX (all three Commons files are front three-quarter stills from one YouTube video).",
+      "sources": [
+        "https://www.cardekho.com/mahindra/thar-roxx/variants.htm",
+        "https://www.cardekho.com/mahindra/thar-roxx",
+        "https://www.autocarindia.com/cars/mahindra/thar-roxx/variants",
+        "https://www.autocarindia.com/cars/mahindra/thar-roxx/specifications",
+        "https://www.cardekho.com/india-car-news/mahindra-thar-roxx-star-edition-launched-at-rs-1685-lakh-more-affordable-by-up-to-rs-201-lakh-with-cosmetic-updates-but-a-deleted-safety-feature-35580.htm",
+        "https://www.carcentral.in/mahindra/thar-roxx/specifications",
+        "https://www.rushlane.com/mahindra-thar-vs-thar-roxx-side-by-side-compared-size-engine-specs-boot-space-12503835.html"
+      ],
+      "notes": "5-door Thar ROXX only (the 3-door Thar/Thar OG is excluded). No facelift; the Star Edition (Jan 2026, cosmetic, RWD only, no ADAS) has been added. 21 variants. Prices are CarDekho lakh figures converted to rupees; Autocar shows the same 21 variants (on-road). Mahindra's site could not be read. Engine tunes: petrol 162 PS/330 Nm (MT) and 177 PS/380 Nm (AT). Diesel is 152 PS/330 Nm on all manuals and MX automatics, and 175 PS/370 Nm on AX5L and AX7L automatics (Autocar, CarDekho). bhp figures are CarDekho's. Rpm figures are from carcentral.in. The Star Edition diesel AT tune is not confirmed; CarDekho's launch story says only 'up to 175 PS'. Autocar's spec page lists the diesel at 175 hp/400 Nm @ 1750-2750, conflicting with the 370 Nm stated elsewhere. Diesel displacement is 2184 cc per carcentral and 2198 cc per Autocar. Mileage (12.4 petrol, 15.2 diesel) is CarDekho's ARAI listing, and Autocar also shows 15.2. Feature conflicts: CarDekho says AX5L gets a panoramic sunroof, but Autocar says single-pane, so the AX5L entry just says 'Sunroof'. Autocar's MX3 list oddly includes adaptive cruise control, which is not used here. MX1 airbags are 6 per CarDekho's variant and safety sections (one summary line says dual). Wheel sizes for MX3, AX3L and AX5L are not stated. Update 21 Oct 2026: front photo replaced with the cropped version of the same Commons image (car fills the frame); rear still missing. Prices re-checked against CarDekho (all 21 unchanged). CarWale (Mumbai) lists 28 variants with slightly different figures (MX3 from 15.39 vs 15.28, AX3L 17.40 vs 17.28, MX5 top 19.56 vs 19.42, AX7L from 19.52 vs 19.57 lakh); CarDekho New Delhi kept. Mileage unchanged. Spec audit 21 Oct 2026: d22-star-at power/torque null -> 172 bhp @3500, 370 Nm @1500-3000 (CarWale/Rushlane: diesel AT = 175 PS/370 Nm). Conflicts: some sources give 400 Nm for diesel AT; CarWale says all diesel ATs get 175 PS while Autocar says only AX5L/AX7L AT, so lower AT variants left on 152 PS tune."
+    }
+  ]
+}

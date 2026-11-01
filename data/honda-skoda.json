@@ -1,0 +1,1609 @@
+{
+  "cars": [
+    {
+      "id": "honda-city",
+      "brand": "Honda",
+      "model": "City",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": 40,
+      "priceNote": "CarDekho New Delhi (cross-checked with CarWale), Oct 2026",
+      "engines": {
+        "p15": {
+          "type": "1.5 i-VTEC petrol",
+          "cylinders": 4,
+          "displacementCc": 1498,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 119.35,
+          "maxPowerRpm": 6600,
+          "maxTorqueNm": 145,
+          "maxTorqueRpm": 4300
+        },
+        "h15": {
+          "type": "1.5 e:HEV Strong hybrid (Atkinson-cycle petrol + 2 motors)",
+          "cylinders": 4,
+          "displacementCc": 1498,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 96.7,
+          "maxPowerRpm": "5600-6400",
+          "maxTorqueNm": 127,
+          "maxTorqueRpm": "4500-5000"
+        }
+      },
+      "trims": [
+        {
+          "trim": "SV",
+          "wheels": "15-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags",
+            "Bi-LED projector headlamps",
+            "8-inch touchscreen",
+            "Wired Android Auto and Apple CarPlay",
+            "Automatic climate control",
+            "Multi-angle rear camera with sensors",
+            "4.2-inch colour MID",
+            "4 speakers"
+          ]
+        },
+        {
+          "trim": "V",
+          "wheels": "15-inch grey alloys",
+          "airbags": 6,
+          "features": [
+            "Honda SENSING Level 2 ADAS",
+            "Adaptive cruise control",
+            "Lane keep assist",
+            "Wireless Android Auto and Apple CarPlay",
+            "Honda Connect connected car tech",
+            "Keyless entry",
+            "Walk-away auto lock"
+          ]
+        },
+        {
+          "trim": "ZX",
+          "wheels": "16-inch dual-tone diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "10.1-inch touchscreen",
+            "Sunroof",
+            "8-speaker sound system",
+            "Wireless phone charger",
+            "LaneWatch camera",
+            "Auto-dimming IRVM",
+            "Rain-sensing wipers",
+            "Leather upholstery"
+          ]
+        },
+        {
+          "trim": "ZX+",
+          "wheels": "16-inch dual-tone alloys (different finish)",
+          "airbags": 6,
+          "features": [
+            "360-degree camera",
+            "Ventilated front seats",
+            "7-inch TFT driver display",
+            "Auto-folding mirrors",
+            "One-touch power windows (all)",
+            "Remote sunroof open/close"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "SV",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1199900,
+          "mileage": "17.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "V",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1350700,
+          "mileage": "17.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "V",
+          "power": "1.5 Petrol CVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, CVT (7-step)",
+          "drivetrain": "FWD",
+          "priceInr": 1450700,
+          "mileage": "18.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "CVT automatic",
+            "Paddle shifters",
+            "Remote engine start"
+          ]
+        },
+        {
+          "trim": "ZX",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1546700,
+          "mileage": "17.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "ZX",
+          "power": "1.5 Petrol CVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, CVT (7-step)",
+          "drivetrain": "FWD",
+          "priceInr": 1646700,
+          "mileage": "18.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "CVT automatic",
+            "Paddle shifters",
+            "Remote engine start"
+          ]
+        },
+        {
+          "trim": "ZX+",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1635700,
+          "mileage": "17.8 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "ZX+",
+          "power": "1.5 Petrol CVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, CVT (7-step)",
+          "drivetrain": "FWD",
+          "priceInr": 1735700,
+          "mileage": "18.4 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "CVT automatic",
+            "Paddle shifters",
+            "Remote engine start"
+          ]
+        },
+        {
+          "trim": "ZX+",
+          "power": "1.5 Hybrid e-CVT",
+          "engine": "h15",
+          "fuel": "Hybrid",
+          "transmission": "Automatic, e-CVT",
+          "drivetrain": "FWD",
+          "priceInr": 2135800,
+          "mileage": "27.26 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "e:HEV strong hybrid (126 PS, 253 Nm system)",
+            "EV drive mode",
+            "Disc brakes on all four wheels",
+            "Electronic parking brake with auto hold",
+            "Regen paddle shifters",
+            "Low-speed follow (ACC)"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2022 Honda City ZX i-VTEC (India) front view.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Dairokkan9",
+          "local": "photos/honda-city-front.jpg"
+        },
+        "rear": {
+          "file": "File:2022 Honda City ZX i-VTEC (India) rear view.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Dairokkan9",
+          "local": "photos/honda-city-rear.jpg"
+        }
+      },
+      "photoNotes": "Both photos show the Indian-market current City (GN) but the pre-June-2026-facelift face. Re-searched Commons 21 Oct 2026 (Category:Honda City (7th generation) sedan/hybrid, file search): still no Indian 2026 facelift photo. Closest rejected: File:2026 Honda City S.jpg / File:2026 Honda City S (Rear).jpg (Thai-market, not Indian-market) and Philippine GN2 FL2 photos (not Indian-market). Old photos kept.",
+      "sources": [
+        "https://www.cardekho.com/honda/city/price-in-new-delhi",
+        "https://www.cardekho.com/honda/city/mileage",
+        "https://www.cardekho.com/overview/Honda_City/Honda_City_SV.htm",
+        "https://www.cardekho.com/overview/Honda_City/Honda_City_ZX_Plus_Hybrid.htm",
+        "https://www.carwale.com/honda-cars/city/",
+        "https://www.autocarindia.com/car-news/2026-honda-city-launched-at-rs-12-lakh-439789",
+        "https://www.autocarindia.com/auto-features-amp/which-variant-of-the-2026-honda-city-should-you-buy-440569",
+        "https://www.rushlane.com/honda-city-facelift-variant-wise-features-petrol-hybrid-details-12547232.html",
+        "https://carindia.in/honda-city-ehev-first-drive-review/2/",
+        "https://www.carwale.com/honda-cars/city/price-in-delhi/"
+      ],
+      "notes": "2026 facelift (launched June 2026; trims SV, V, ZX, ZX+; mechanically unchanged). hondacarindia.com price page did not render (JS), so prices are CarDekho New Delhi Oct 2026 (include a Sep 2026 hike over launch prices of Rs 12.00-21.00 lakh). Mileage: CarDekho lists 17.8 (MT) / 18.4 (CVT) / 27.26 (hybrid); CarWale shows 17.77 / 17.97 for petrol - conflict unresolved, CarDekho used. Hybrid engine figures are the petrol engine alone (98 PS = ~96.7 bhp, 127 Nm, rpm per CarIndia 2023 pre-facelift review; carried over); system output is 126 PS / 253 Nm. Sources disagree on where the 10.1-inch screen and sunroof start (Spinny says V; Autocar and Rushlane say ZX) - Autocar/Rushlane used. ADAS from V per Rushlane and Autocar.\nUpdate 21 Oct 2026: Prices re-checked: all unchanged vs CarDekho New Delhi; CarWale Delhi base-variant ex-showroom and variant on-road ordering agree; hondacarindia.com price page did not render. Photos: none found for the facelift (kept pre-facelift). Mileage: no nulls. Spec audit 21 Oct 2026: all engine figures confirmed (CarDekho lists hybrid engine at 96.55 bhp, rounding difference)."
+    },
+    {
+      "id": "honda-amaze",
+      "brand": "Honda",
+      "model": "Amaze",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": 35,
+      "priceNote": "CarDekho New Delhi (cross-checked with CarWale), Oct 2026",
+      "engines": {
+        "p12": {
+          "type": "1.2 i-VTEC petrol",
+          "cylinders": 4,
+          "displacementCc": 1199,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 89,
+          "maxPowerRpm": 6000,
+          "maxTorqueNm": 110,
+          "maxTorqueRpm": 4800
+        }
+      },
+      "trims": [
+        {
+          "trim": "V",
+          "wheels": "14-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags, ESC and hill start assist",
+            "LED projector headlamps and LED DRLs",
+            "8-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Semi-digital cluster with 7-inch MID",
+            "Rear camera and rear parking sensors",
+            "Keyless entry",
+            "Manual AC"
+          ]
+        },
+        {
+          "trim": "VX",
+          "wheels": "15-inch silver alloys",
+          "airbags": 6,
+          "features": [
+            "Automatic climate control with rear AC vents",
+            "LaneWatch camera",
+            "Wireless phone charger",
+            "Connected car tech (Honda Connect)",
+            "Push-button start with smart keyless entry",
+            "LED fog lamps",
+            "Power-folding mirrors",
+            "Auto headlamps and rear defogger"
+          ]
+        },
+        {
+          "trim": "ZX",
+          "wheels": "15-inch dual-tone diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "Honda SENSING ADAS",
+            "Adaptive cruise control",
+            "Lane keep assist",
+            "Collision mitigation braking",
+            "Auto high beam",
+            "Gloss black grille and chrome door handles"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "V",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 765400,
+          "mileage": "18.65 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "V",
+          "power": "1.2 Petrol CVT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, CVT",
+          "drivetrain": "FWD",
+          "priceInr": 870400,
+          "mileage": "19.46 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "CVT automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "VX",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 865400,
+          "mileage": "18.65 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "VX",
+          "power": "1.2 Petrol CVT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, CVT",
+          "drivetrain": "FWD",
+          "priceInr": 940400,
+          "mileage": "19.46 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "CVT automatic",
+            "Paddle shifters",
+            "Remote engine start"
+          ]
+        },
+        {
+          "trim": "ZX",
+          "power": "1.2 Petrol MT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Manual, 5-speed",
+          "drivetrain": "FWD",
+          "priceInr": 939400,
+          "mileage": "18.65 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "ZX",
+          "power": "1.2 Petrol CVT",
+          "engine": "p12",
+          "fuel": "Petrol",
+          "transmission": "Automatic, CVT",
+          "drivetrain": "FWD",
+          "priceInr": 999900,
+          "mileage": "19.46 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "CVT automatic",
+            "Paddle shifters",
+            "Remote engine start"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2024 Honda Amaze ZX.png",
+          "license": "CC BY 3.0",
+          "artist": "Ashwin's Garage",
+          "local": "photos/honda-amaze-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Front is a front three-quarter YouTube still of an Indian ZX at a dealership (number plate visible, dealership background). Re-searched Commons 21 Oct 2026: still no rear photo of the 3rd-gen Amaze. Rejected: File:4th International Auto Show, Bangalore (2025) 68.jpg (front three-quarter at auto show, cluttered, 'AMAZE' placard - not better than current front) and File:4th International Auto Show, Bangalore (2025) 240.jpg (side view, doors open). Rear left null.",
+      "sources": [
+        "https://www.cardekho.com/honda/amaze/price-in-new-delhi",
+        "https://www.cardekho.com/overview/Honda_Amaze/Honda_Amaze_V.htm",
+        "https://www.carwale.com/honda-cars/amaze/",
+        "https://www.autocarindia.com/auto-features/new-honda-amaze-features-variant-wise-split-colours-accessories-specs-433759",
+        "https://www.rushlane.com/3rd-gen-honda-amaze-variant-wise-features-full-details-colours-12513257.html",
+        "https://www.carwale.com/honda-cars/amaze/price-in-delhi/"
+      ],
+      "notes": "Current (3rd-gen, launched Dec 2024) model only. The older 2nd-gen Amaze is still sold alongside it (CarDekho lists 'Amaze 2nd Gen' from Rs 5.99-7.80 lakh; CarWale says Honda continues to offer the outgoing model) - excluded here. Prices include a Sep 2026 hike. Autocar quotes 90 hp; CarDekho 89 bhp @ 6000 rpm. Fuel tank 35 L per CarDekho only.\nUpdate 21 Oct 2026: Prices re-checked: all unchanged vs CarDekho New Delhi; CarWale Delhi base-variant ex-showroom and variant on-road ordering agree; manufacturer site gives no variant prices (Honda site did not render). Photos: no rear found. Mileage: no nulls. Spec audit 21 Oct 2026: all engine figures confirmed."
+    },
+    {
+      "id": "honda-elevate",
+      "brand": "Honda",
+      "model": "Elevate",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 40,
+      "priceNote": "CarDekho New Delhi (cross-checked with CarWale), Oct 2026",
+      "engines": {
+        "p15": {
+          "type": "1.5 i-VTEC petrol",
+          "cylinders": 4,
+          "displacementCc": 1498,
+          "aspiration": "Naturally aspirated",
+          "maxPowerBhp": 119,
+          "maxPowerRpm": 6600,
+          "maxTorqueNm": 145,
+          "maxTorqueRpm": 4300
+        }
+      },
+      "trims": [
+        {
+          "trim": "SV",
+          "wheels": "16-inch steel",
+          "airbags": 6,
+          "features": [
+            "6 airbags, ESC and hill-start assist",
+            "LED projector headlamps",
+            "Automatic climate control",
+            "Push-button start and keyless entry",
+            "7-inch MID in part-digital cluster",
+            "Rear parking sensors",
+            "60:40 split rear seat"
+          ]
+        },
+        {
+          "trim": "V",
+          "wheels": "16-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "8-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "Multi-angle rear camera",
+            "4-speaker audio",
+            "Rear defogger",
+            "Honda Connect connected car tech"
+          ]
+        },
+        {
+          "trim": "VX",
+          "wheels": "17-inch dual-tone diamond-cut alloys",
+          "airbags": 6,
+          "features": [
+            "Sunroof",
+            "Wireless phone charger",
+            "LaneWatch camera",
+            "6-speaker audio",
+            "LED fog lamps and auto headlamps",
+            "Connected LED light bars",
+            "Ambient lighting",
+            "Leather-wrapped steering and gear knob"
+          ]
+        },
+        {
+          "trim": "ZX",
+          "wheels": "17-inch dark-clear alloys",
+          "airbags": 6,
+          "features": [
+            "Honda SENSING Level 2 ADAS",
+            "Adaptive cruise control",
+            "10.25-inch touchscreen",
+            "Ventilated front seats",
+            "Leatherette upholstery",
+            "8-speaker audio",
+            "Auto-dimming IRVM",
+            "Rear centre armrest with cup holders"
+          ]
+        },
+        {
+          "trim": "ZX+",
+          "wheels": "17-inch gloss black alloys",
+          "airbags": 6,
+          "features": [
+            "360-degree camera",
+            "Powered front seats (8-way driver, 4-way passenger)",
+            "Ventilated rear seats",
+            "Front parking sensors",
+            "Black leather upholstery"
+          ]
+        },
+        {
+          "trim": "ZX+ Black",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Black Edition exterior and design elements"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "SV",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1180000,
+          "mileage": "15.31 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "V",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1229000,
+          "mileage": "15.31 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "V",
+          "power": "1.5 Petrol CVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, CVT",
+          "drivetrain": "FWD",
+          "priceInr": 1379000,
+          "mileage": "16.61 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "CVT automatic",
+            "Paddle shifters",
+            "Remote engine start",
+            "Electronic parking brake with auto hold",
+            "Rear disc brakes"
+          ]
+        },
+        {
+          "trim": "VX",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1393000,
+          "mileage": "15.31 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "VX",
+          "power": "1.5 Petrol CVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, CVT",
+          "drivetrain": "FWD",
+          "priceInr": 1539000,
+          "mileage": "16.61 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "CVT automatic",
+            "Paddle shifters",
+            "Remote engine start",
+            "Electronic parking brake with auto hold",
+            "Rear disc brakes"
+          ]
+        },
+        {
+          "trim": "ZX",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1539000,
+          "mileage": "15.31 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "ZX",
+          "power": "1.5 Petrol CVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, CVT",
+          "drivetrain": "FWD",
+          "priceInr": 1689000,
+          "mileage": "16.61 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "CVT automatic",
+            "Paddle shifters",
+            "Remote engine start",
+            "Electronic parking brake with auto hold",
+            "Low-speed follow (ACC)"
+          ]
+        },
+        {
+          "trim": "ZX+",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1680000,
+          "mileage": "15.31 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "ZX+",
+          "power": "1.5 Petrol CVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, CVT",
+          "drivetrain": "FWD",
+          "priceInr": 1830000,
+          "mileage": "16.61 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "CVT automatic",
+            "Paddle shifters",
+            "Remote engine start",
+            "Electronic parking brake with auto hold",
+            "Low-speed follow (ACC)"
+          ]
+        },
+        {
+          "trim": "ZX+ Black",
+          "power": "1.5 Petrol MT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1690000,
+          "mileage": "15.31 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "ZX+ Black",
+          "power": "1.5 Petrol CVT",
+          "engine": "p15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, CVT",
+          "drivetrain": "FWD",
+          "priceInr": 1840000,
+          "mileage": "16.61 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "CVT automatic",
+            "Paddle shifters",
+            "Remote engine start",
+            "Electronic parking brake with auto hold",
+            "Low-speed follow (ACC)"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2023 Honda Elevate VX (India) front view.jpg",
+          "license": "CC BY 3.0",
+          "artist": "Hulchul TV",
+          "local": "photos/honda-elevate-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Front photo is the pre-facelift (2023) Indian Elevate; re-searched Commons 21 Oct 2026, no photos of the Oct 2026 facelift. Rejected: File:4th International Auto Show, Bangalore (2025) 69.jpg (pre-facelift Elevate ADV, three-quarter, cluttered show stand). No Indian-market rear photo (only Japan WR-V/Colombia WR-V twins, e.g. File:2026 Honda WR-V Prestige (Colombia) rear view.jpg, not Indian-market). Old front kept, rear left null.",
+      "sources": [
+        "https://www.cardekho.com/honda/elevate/price-in-new-delhi",
+        "https://www.cardekho.com/honda/elevate/mileage",
+        "https://www.cardekho.com/overview/Honda_Elevate/Honda_Elevate_SV.htm",
+        "https://www.autocarindia.com/auto-features/which-variant-of-the-2026-honda-elevate-facelift-should-you-buy-441146",
+        "https://www.91wheels.com/expert-review/2026-honda-elevate-facelift-variants-explained-features-prices-and-the-best-pick",
+        "https://www.carwale.com/honda-cars/elevate/price-in-delhi/"
+      ],
+      "notes": "2026 facelift (launched early Oct 2026) with new ZX+ and ZX+ Black trims. Prices from CarDekho/Autocar match (introductory); 91wheels quotes slightly higher figures (e.g. V Rs 12.37 lakh). Claimed mileage 15.31 (MT) / 16.61 (CVT) per Autocar and CarDekho for the facelift. ZX+ Black has the same features as ZX+ with black design elements (91wheels); its wheel finish is not confirmed. ADAS now starts at ZX.\nUpdate 21 Oct 2026: Prices re-checked: all unchanged vs CarDekho New Delhi; CarWale Delhi base-variant ex-showroom and variant on-road ordering agree; manufacturer site gives no variant prices (Honda site did not render). Photos: none found for the facelift. Mileage: no nulls. Spec audit 21 Oct 2026: all engine figures confirmed."
+    },
+    {
+      "id": "skoda-kushaq",
+      "brand": "Skoda",
+      "model": "Kushaq",
+      "bodyType": "SUV",
+      "seats": 5,
+      "fuelTankL": 50,
+      "priceNote": "CarDekho New Delhi (cross-checked with CarWale), Oct 2026",
+      "engines": {
+        "t10": {
+          "type": "1.0 TSI turbo petrol",
+          "cylinders": 3,
+          "displacementCc": 999,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 114,
+          "maxPowerRpm": "5000-5500",
+          "maxTorqueNm": 178,
+          "maxTorqueRpm": "1750-4000"
+        },
+        "t15": {
+          "type": "1.5 TSI turbo petrol (ACT)",
+          "cylinders": 4,
+          "displacementCc": 1498,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 147.51,
+          "maxPowerRpm": "5000-6000",
+          "maxTorqueNm": 250,
+          "maxTorqueRpm": "1600-3500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Classic+",
+          "wheels": "16-inch alloys",
+          "airbags": 6,
+          "features": [
+            "6 airbags and ESC",
+            "Single-pane electric sunroof",
+            "LED headlamps and tail lamps",
+            "7-inch touchscreen",
+            "Automatic climate control",
+            "Rain-sensing wipers and auto-dimming IRVM",
+            "Rear parking sensors",
+            "Rear wiper and defogger"
+          ]
+        },
+        {
+          "trim": "Signature",
+          "wheels": "17-inch silver alloys",
+          "airbags": 6,
+          "features": [
+            "10.1-inch touchscreen",
+            "8-inch digital driver display",
+            "Rear camera",
+            "Front parking sensors",
+            "Ambient lighting",
+            "AI assistant in infotainment",
+            "60:40 split rear seat"
+          ]
+        },
+        {
+          "trim": "Sportline",
+          "wheels": "17-inch black alloys",
+          "airbags": 6,
+          "features": [
+            "Black alloy wheels",
+            "All-black cabin theme",
+            "Sporty black exterior accents"
+          ]
+        },
+        {
+          "trim": "Prestige",
+          "wheels": "17-inch alloys",
+          "airbags": 6,
+          "features": [
+            "Panoramic sunroof",
+            "10.25-inch digital driver display",
+            "Powered and ventilated front seats",
+            "Rear seat massage",
+            "Beige leatherette upholstery"
+          ]
+        },
+        {
+          "trim": "Monte Carlo",
+          "wheels": "17-inch dual-tone alloys",
+          "airbags": 6,
+          "features": [
+            "Monte Carlo styling with blacked-out exterior and red accents",
+            "Red-themed displays",
+            "Black cabin with red stitching"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Classic+",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1069000,
+          "mileage": "19.66 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Classic+",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1304000,
+          "mileage": "19.09 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "8-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Signature",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1469000,
+          "mileage": "19.66 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Signature",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1569000,
+          "mileage": "19.09 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "8-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Sportline",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1489000,
+          "mileage": "19.76 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Sportline",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1589000,
+          "mileage": "19.09 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "8-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Prestige",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1694000,
+          "mileage": "19.66 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Prestige",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1779000,
+          "mileage": "19.09 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "8-speed torque-converter automatic"
+          ]
+        },
+        {
+          "trim": "Prestige",
+          "power": "1.5 TSI DSG",
+          "engine": "t15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DSG (dual-clutch)",
+          "drivetrain": "FWD",
+          "priceInr": 1899000,
+          "mileage": "18.72 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 TSI with Active Cylinder Technology",
+            "7-speed DSG",
+            "Disc brakes on all wheels"
+          ]
+        },
+        {
+          "trim": "Monte Carlo",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1809000,
+          "mileage": "19.09 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Monte Carlo",
+          "power": "1.5 TSI DSG",
+          "engine": "t15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DSG (dual-clutch)",
+          "drivetrain": "FWD",
+          "priceInr": 1919000,
+          "mileage": "18.72 kmpl",
+          "wheels": "17-inch Sagittarius alloys",
+          "airbags": null,
+          "extras": [
+            "1.5 TSI with Active Cylinder Technology",
+            "7-speed DSG",
+            "Disc brakes on all wheels"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2021 Škoda Kushaq (India) front view.png",
+          "license": "CC BY 3.0",
+          "artist": "DriveSpark",
+          "local": "photos/skoda-kushaq-front.jpg"
+        },
+        "rear": {
+          "file": "File:Skoda Kushaq.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Saiphani02",
+          "note": "three-quarter view",
+          "local": "photos/skoda-kushaq-rear.jpg"
+        }
+      },
+      "photoNotes": "Front photo is the pre-facelift (2021) Indian Kushaq; re-searched Commons 21 Oct 2026, no photos of the 2026 facelift. Rejected for rear: File:Skoda Kushaq.jpg and File:Skoda Kushaq (resized).jpg (rear three-quarter of the pre-facelift 2022 car in a showroom, old tail-lamp design). Rejected for front: File:4th International Auto Show, Bangalore (2025) 82.jpg and 79.jpg (pre-facelift, show clutter, 'Demo car' signs). Rear left null.",
+      "sources": [
+        "https://www.cardekho.com/skoda/kushaq/price-in-new-delhi",
+        "https://www.cardekho.com/skoda/kushaq/mileage",
+        "https://www.cardekho.com/skoda/kushaq/specs",
+        "https://www.cardekho.com/overview/Skoda_Kushaq/Skoda_Kushaq_1.0L_Classic_Plus.htm",
+        "https://www.skoda-auto.co.in/models/kushaq/kushaq",
+        "https://www.autocarindia.com/auto-features-amp/which-variant-of-the-new-skoda-kushaq-should-you-buy-440354",
+        "https://www.rushlane.com/amp/2026-skoda-kushaq-facelift-launch-price-rs-10-69-lakh-to-rs-18-99-lakh-12542342.html",
+        "https://www.carlelo.com/news/2026-skoda-kushaq-facelift-variant-wise-features-breakdown",
+        "https://www.carwale.com/skoda-cars/kushaq/price-in-delhi/"
+      ],
+      "notes": "2026 facelift (launched early 2026): new trim names, 1.0 TSI automatic is now an 8-speed torque converter (was 6-speed). Prices are CarDekho Oct 2026 and are higher than Autocar's launch prices (e.g. Classic+ AT Rs 12.69 lakh, Signature MT 14.59, Prestige AT 17.59). skoda-auto.co.in also lists a 1.5 TSI DSG on Sportline, but no price source lists that variant, so it is omitted. CarDekho gives 19.76 kmpl for Sportline MT vs 19.66 for other 1.0 MT variants. No 360-degree camera or ADAS on the facelift per multiple reviews. Prestige wheel design 'Radim' per carlelo.\nUpdate 21 Oct 2026: Prices re-checked: all unchanged vs CarDekho New Delhi; CarWale Delhi base-variant ex-showroom and variant on-road ordering agree; manufacturer site gives no variant prices. Conflict: CarWale groups Sportline as 3 variants (Rs 14.89-16.99 lakh) without naming the third; Autocar lists Sportline as 1.0 TSI MT/AT only - not added. Photos: none found for the facelift. Mileage: no nulls. Spec audit 21 Oct 2026: all engine figures confirmed. Conflict: 1.0 TSI torque band 1750-4000 rpm (CarDekho) vs 1750-4500 rpm (other databases); Skoda India gives no rpm, kept."
+    },
+    {
+      "id": "skoda-slavia",
+      "brand": "Skoda",
+      "model": "Slavia",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "fuelTankL": 45,
+      "priceNote": "CarDekho New Delhi (cross-checked with CarWale), Oct 2026",
+      "engines": {
+        "t10": {
+          "type": "1.0 TSI turbo petrol",
+          "cylinders": 3,
+          "displacementCc": 999,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 114,
+          "maxPowerRpm": "5000-5500",
+          "maxTorqueNm": 178,
+          "maxTorqueRpm": "1750-4000"
+        },
+        "t15": {
+          "type": "1.5 TSI turbo petrol (ACT)",
+          "cylinders": 4,
+          "displacementCc": 1498,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 147.51,
+          "maxPowerRpm": "5000-6000",
+          "maxTorqueNm": 250,
+          "maxTorqueRpm": "1600-3500"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Classic",
+          "wheels": "15-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags and ESC",
+            "7-inch touchscreen",
+            "Automatic climate control",
+            "Rear parking sensors",
+            "Halogen headlamps",
+            "Analogue cluster with 3.5-inch MID",
+            "4 speakers"
+          ]
+        },
+        {
+          "trim": "Classic+",
+          "wheels": "16-inch alloys",
+          "airbags": 6,
+          "features": [
+            "Single-pane sunroof",
+            "LED headlamps and tail lamps",
+            "LED fog lamps",
+            "Cruise control",
+            "Rain-sensing wipers",
+            "Alloy wheels"
+          ]
+        },
+        {
+          "trim": "Signature",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "10.1-inch touchscreen",
+            "8-inch digital driver display",
+            "Wireless Android Auto and Apple CarPlay",
+            "Rear camera with front and rear sensors",
+            "Wireless phone charger",
+            "Keyless entry and push-button start",
+            "Rear AC vents",
+            "8 speakers"
+          ]
+        },
+        {
+          "trim": "Sportline",
+          "wheels": "16-inch black alloys",
+          "airbags": 6,
+          "features": [
+            "360-degree camera",
+            "Gloss black exterior elements",
+            "Boot lip spoiler",
+            "Aluminium pedals",
+            "All-black interior"
+          ]
+        },
+        {
+          "trim": "Prestige",
+          "wheels": "16-inch dual-tone alloys",
+          "airbags": 6,
+          "features": [
+            "10.25-inch digital driver display",
+            "Powered and ventilated front seats",
+            "Rear seat massage",
+            "Leatherette seats and trim"
+          ]
+        },
+        {
+          "trim": "Monte Carlo",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "Red ambient lighting",
+            "Red grille accents and brake calipers",
+            "Black exterior elements",
+            "Black leatherette seats with red stitching"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Classic",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 999900,
+          "mileage": "19.76 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Classic+",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1099000,
+          "mileage": "19.76 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Classic+",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1249000,
+          "mileage": "19.50 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "8-speed torque-converter automatic",
+            "Paddle shifters",
+            "Hill hold",
+            "Leatherette steering wheel and gear knob"
+          ]
+        },
+        {
+          "trim": "Signature",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1394000,
+          "mileage": "19.76 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Signature",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1494000,
+          "mileage": "19.50 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "8-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Sportline",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1434000,
+          "mileage": "19.76 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Sportline",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1534000,
+          "mileage": "19.50 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "8-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Prestige",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1589000,
+          "mileage": "19.76 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Prestige",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1689000,
+          "mileage": "19.50 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "8-speed torque-converter automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Prestige",
+          "power": "1.5 TSI DSG",
+          "engine": "t15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DSG (dual-clutch)",
+          "drivetrain": "FWD",
+          "priceInr": 1859000,
+          "mileage": "18.79 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 TSI with cylinder deactivation",
+            "7-speed DSG"
+          ]
+        },
+        {
+          "trim": "Monte Carlo",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 8-speed torque converter",
+          "drivetrain": "FWD",
+          "priceInr": 1729000,
+          "mileage": "19.50 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Monte Carlo",
+          "power": "1.5 TSI DSG",
+          "engine": "t15",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 7-speed DSG (dual-clutch)",
+          "drivetrain": "FWD",
+          "priceInr": 1884000,
+          "mileage": "18.79 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "1.5 TSI with cylinder deactivation",
+            "7-speed DSG"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2021 Škoda Slavia 1.5 TSI Style (India) front view.png",
+          "license": "CC BY 3.0",
+          "artist": "Athira Murali",
+          "local": "photos/skoda-slavia-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Front photo is the pre-facelift (2021) Indian Slavia; re-searched Commons 21 Oct 2026, no photos of the Oct 2026 facelift. Rejected: File:4th International Auto Show, Bangalore (2025) 80.jpg (pre-facelift, three-quarter, dealer banners) and File:Skoda Slavia Side view.jpg (side view). No rear photo. Rear left null.",
+      "sources": [
+        "https://www.cardekho.com/skoda/slavia/price-in-new-delhi",
+        "https://www.cardekho.com/skoda/slavia/specs",
+        "https://www.carwale.com/skoda-cars/slavia/",
+        "https://www.autocarindia.com/auto-features-amp/which-variant-of-the-2026-skoda-slavia-should-you-buy-441140",
+        "https://www.cardekho.com/overview/Skoda_Kushaq/Skoda_Kushaq_1.0L_Classic_Plus.htm",
+        "https://www.carwale.com/skoda-cars/slavia/price-in-delhi/"
+      ],
+      "notes": "2026 facelift (launched 6 Oct 2026): new trim line-up, 1.0 TSI automatic now an 8-speed torque converter. Prices match across CarDekho, CarWale and Autocar (Autocar rounds Classic to Rs 10.00 lakh). Claimed mileage 19.76 / 19.50 / 18.79 kmpl per Autocar and CarWale. CarDekho Slavia specs page does not list 1.0 TSI power/rpm; figures taken from the identical 1.0 TSI on CarDekho's Kushaq page. Signature and Monte Carlo wheel specs not stated in sources.\nUpdate 21 Oct 2026: Prices re-checked: all unchanged vs CarDekho New Delhi; CarWale Delhi base-variant ex-showroom and variant on-road ordering agree; manufacturer site gives no variant prices. Photos: none found for the facelift. Mileage: no nulls. Spec audit 21 Oct 2026: all engine figures confirmed. Conflict: 1.0 TSI torque band 1750-4000 rpm (CarDekho) vs 1750-4500 rpm (other databases); Skoda India gives no rpm, kept."
+    },
+    {
+      "id": "skoda-kylaq",
+      "brand": "Skoda",
+      "model": "Kylaq",
+      "bodyType": "Compact SUV",
+      "seats": 5,
+      "fuelTankL": 45,
+      "priceNote": "CarDekho New Delhi (cross-checked with CarWale), Oct 2026",
+      "engines": {
+        "t10": {
+          "type": "1.0 TSI turbo petrol",
+          "cylinders": 3,
+          "displacementCc": 999,
+          "aspiration": "Turbocharged",
+          "maxPowerBhp": 114,
+          "maxPowerRpm": "5000-5500",
+          "maxTorqueNm": 178,
+          "maxTorqueRpm": "1750-4000"
+        }
+      },
+      "trims": [
+        {
+          "trim": "Classic",
+          "wheels": "16-inch steel with covers",
+          "airbags": 6,
+          "features": [
+            "6 airbags and ESC",
+            "Rear parking sensors",
+            "Analogue dials with 3.5-inch MID",
+            "Fabric seats"
+          ]
+        },
+        {
+          "trim": "Classic+",
+          "wheels": "16-inch",
+          "airbags": 6,
+          "features": [
+            "Single-pane electric sunroof",
+            "Cruise control",
+            "Steering-mounted controls",
+            "Auto-dimming IRVM",
+            "Rain-sensing wipers"
+          ]
+        },
+        {
+          "trim": "Signature",
+          "wheels": "16-inch silver alloys",
+          "airbags": 6,
+          "features": [
+            "7-inch touchscreen",
+            "Wired Android Auto and Apple CarPlay",
+            "Rear AC vents",
+            "Alloy wheels"
+          ]
+        },
+        {
+          "trim": "Signature+",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "10-inch touchscreen",
+            "Wireless Android Auto and Apple CarPlay",
+            "8-inch digital driver display",
+            "Rear camera",
+            "60:40 split rear seat",
+            "Rear wiper and washer"
+          ]
+        },
+        {
+          "trim": "Sportline",
+          "wheels": "17-inch black alloys",
+          "airbags": 6,
+          "features": [
+            "Black 17-inch alloys",
+            "Leatherette seats with Sportline inscription"
+          ]
+        },
+        {
+          "trim": "Prestige",
+          "wheels": "17-inch dual-tone alloys",
+          "airbags": 6,
+          "features": [
+            "Ventilated front seats",
+            "Dual-tone 17-inch alloys",
+            "Leatherette seats"
+          ]
+        },
+        {
+          "trim": "Prestige+",
+          "wheels": null,
+          "airbags": 6,
+          "features": [
+            "6-way powered front seats"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "trim": "Classic",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 759000,
+          "mileage": "19.68 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Classic+",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 829000,
+          "mileage": "19.68 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Classic+",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 929000,
+          "mileage": "19.05 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed automatic"
+          ]
+        },
+        {
+          "trim": "Signature",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 949000,
+          "mileage": "19.68 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Signature",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1049000,
+          "mileage": "19.05 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed automatic"
+          ]
+        },
+        {
+          "trim": "Signature+",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1079000,
+          "mileage": "19.68 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Signature+",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1179000,
+          "mileage": "19.05 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Sportline",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1135000,
+          "mileage": "19.68 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Sportline",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1235000,
+          "mileage": "19.05 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Prestige",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1185000,
+          "mileage": "19.68 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Prestige",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1285000,
+          "mileage": "19.05 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed automatic",
+            "Paddle shifters"
+          ]
+        },
+        {
+          "trim": "Prestige+",
+          "power": "1.0 TSI MT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Manual, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1209000,
+          "mileage": "19.68 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": []
+        },
+        {
+          "trim": "Prestige+",
+          "power": "1.0 TSI AT",
+          "engine": "t10",
+          "fuel": "Petrol",
+          "transmission": "Automatic, 6-speed",
+          "drivetrain": "FWD",
+          "priceInr": 1309000,
+          "mileage": "19.05 kmpl",
+          "wheels": null,
+          "airbags": null,
+          "extras": [
+            "6-speed automatic",
+            "Paddle shifters"
+          ]
+        }
+      ],
+      "photos": {
+        "front": {
+          "file": "File:2025 Skoda Kylaq.png",
+          "license": "CC BY 3.0",
+          "artist": "Faisal Khan",
+          "local": "photos/skoda-kylaq-front.jpg"
+        },
+        "rear": null
+      },
+      "photoNotes": "Front set 21 Oct 2026: File:2025 Skoda Kylaq.png (Indian Kylaq, current model, front three-quarter but close to front-on, clean car on an open road; registration plate visible). It is a YouTube still tagged 'License review needed' on Commons. Rejected: File:4th International Auto Show, Bangalore (2025) 78.jpg and 81.jpg (front three-quarter at a dealer stand with 'Demo cars sale' banners and name placard). No rear photo of the Kylaq on Commons; rear left null.",
+      "sources": [
+        "https://www.cardekho.com/skoda/kylaq/price-in-new-delhi",
+        "https://www.cardekho.com/overview/Skoda_Kylaq/Skoda_Kylaq_Classic_Plus.htm",
+        "https://www.cardekho.com/overview/Skoda_Kylaq/Skoda_Kylaq_Prestige_Plus_AT.htm",
+        "https://www.autocarindia.com/auto-features/skoda-kylaq-variants-price-and-features-and-colours-explained-interior-exterior-433459",
+        "https://www.rushlane.com/skoda-kylaq-new-variants-launch-price-starts-rs-8-25-lakh-classic-signature-prestige-12538393.html",
+        "https://www.carwale.com/skoda-cars/kylaq/price-in-delhi/"
+      ],
+      "notes": "Classic+ and Prestige+ added Jan 2026, Sportline added later in 2026 (7 trims). CarDekho page header says 11 variants but lists 13. Classic+ wheels conflict: Rushlane says 16-inch alloys, Autocar says same as Classic (16-inch steel) - left as '16-inch'. Autocar lists the sunroof from Classic+; Prestige lost 6-way powered seats to Prestige+. Automatic is a 6-speed AT per CarDekho (type not confirmed in sources used). Signature+ paddle shifters on AT per Rushlane; carried up to higher trims.\nUpdate 21 Oct 2026: Prices re-checked: all unchanged vs CarDekho New Delhi; CarWale Delhi base-variant ex-showroom and variant on-road ordering agree; manufacturer site gives no variant prices (skoda-auto.co.in shows only 'From Rs 7,59,000', matching Classic). Photos: front added (File:2025 Skoda Kylaq.png); no rear found. Mileage: no nulls. Spec audit 21 Oct 2026: all engine figures confirmed (Skoda India: 85 kW/115 PS, 178 Nm, 6MT/6AT). Conflict: torque band 1750-4000 rpm (CarDekho) vs 1750-4500 rpm (other databases), kept."
+    }
+  ]
+}
